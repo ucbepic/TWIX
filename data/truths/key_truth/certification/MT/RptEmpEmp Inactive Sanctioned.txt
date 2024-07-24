@@ -1,0 +1,10 @@
+Agency
+Date
+F/P
+Action
+Status
+Assignment
+Pos/Rank
+Level
+Class
+Shift

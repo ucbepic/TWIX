@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5d4e600d331838e71863d0d97d3e7a042d7f9e36a1dec58c6bb55b3d795d9967
-size 289
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+Complaint #:
+DOB:
+Gender:
+Address:
+H Phone:
+Type Of Complaint
+Description
+Complaint Disposition
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam

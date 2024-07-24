@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9bff115b514c430a507a3349066fda7da492ebc8812df524e107239bcd011c85
-size 124
+Total Service:
+Hired:
+Last Action:
+Assignment:
+Level:
+Shift:
+Pos/Rank:
+Class:
+Date
+Status
+Certified
+Expires
+Probation
+Cert #

@@ -1,0 +1,17 @@
+Total Service:
+Hired:
+Last Action:
+Assignment:
+Pos/Rank:
+Level:
+Class:
+Shift:
+Date
+Status
+Certified
+Expires
+Probation
+Cert #
+Date:
+Action:
+Status:
