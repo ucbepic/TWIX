@@ -1,0 +1,127 @@
+,ID,LAST NAME,FIRST NAME,MIDDLE I,DOB,FROM DEPT,TO DEPT,DATE OF APPROVAL
+0,8,Akinrola,Michael,,90,N. Smithfield PD,Central Falls PD,8/26/21
+1,9,Bemis,Connor,R.,96,Warren PD,Warwick PD,6/24/21
+2,10,Brothers,Brian,P.,93,W. Wawick PD,Cranston PD,6/24/21
+3,11,Carreiro,Michael,D.,67,Westerly PD,URI PD,6/24/21
+4,12,Cooper,Kayleigh,T.,95,Johnston PD,Cranston PD,6/24/21
+5,13,Correia,Michael,E.,90,Providence PD,Barrington PD,6/24/21
+6,14,Crabtree,Brittany,L.,89,Brown U,Warwick PD,8/26/21
+7,15,Manocchio,Nicholas,A.,88,Johnston PD,Warwick PD,8/26/21
+8,16,Winsor,Robert,K.,69,Pawtucket PD,Jamestown PD,8/26/21
+9,17,Condon,Jonathan,L.,92,Woonsocket PD,E. Greenwich PD,9/16/21
+10,18,Saccoccio,Joel,T.,75,Pawtucket PD,CCRI,9/16/21
+11,19,Nolan,Michael,T.,96,S. Kingstown PD,Cranston PD,9/16/21
+12,20,Schiappa,Michael,A.,92,Johnston PD,Cranston PD,9/16/21
+13,21,Salisbury,John,D.,84,Newport PD,W. Greenwich PD,9/16/21
+14,22,Turner,Dylan,P.,92,Westerly PD,RI Airport Corp,11/18/21
+15,23,Storme,Robert,E.,74,Narragansett PD,RIC,11/18/21
+16,24,Saccoccia,Paul,,58,Cranston PD,W. Warwick PD,11/18/21
+17,25,Blake,Patricia,,59,Providence PD,RIC,11/18/21
+18,26,Bolduc,Jason,L.,80,Lincoln PD,RI Airport Corp,11/18/21
+19,27,Coyne,Zachary,J.,95,Cumberland PD,Warwick PD,11/18/21
+20,28,Capaldo,Zachary,D.,90,W. Warwick PD,Warwick PD,11/18/21
+21,29,Medeiros,Aires,H.,83,Coventry PD,Warren PD,11/18/21
+22,30,Roca,Kevin,C.,91,RIC,Foster PD,11/18/21
+23,31,Thurston,Mark,W.,87,Little Compton PD,N. Kingstown PD,11/18/21
+24,32,Heywood,Joshua,M.,80,Johnston PD,N. Kingstown PD,11/18/21
+25,33,Marrapese,Justin,W.,95,Cumberland PD,N. Kingstown PD,11/18/21
+26,34,Jackson,Linda,J.,68,Pawtucket PD,RI Airport Corp.,2/24/22
+27,35,Simmons,Alexander,N.,91,Woonsocket PD,S. Kingstown PD,1/13/22
+28,36,Mejia,Emilio,J.,98,Coventry PD,Pawtucket PD,1/13/22
+29,37,Correia,Kristopher,L.,94,Warren PD,E. Providence PD,1/13/22
+0,38,Alarcon,Cesar,J.,81,Brown U.,E. Providence PD,1/13/22
+1,39,Kojoian,Kevin,K.,59,RISP,Charlestown PD,1/13/22
+2,40,Braman,Stewart,D.,95,Middletown PD,Little Compton P,3/31/22
+3,41,Karraz,Jonathan,V.,96,Central Falls PD,Lincoln PD,3/31/22
+4,42,Platt,Victoria,,86,Central Falls PD,Lincoln PD,3/31/22
+5,43,Jenkins,Matthew,C.,93,Central Falls PD,Lincoln PD,3/31/22
+6,44,Schneck,Cameron,R.,92,S. Kingstown PD,Warwick PD,3/31/22
+7,45,Holmes,Patrick,P.,90,E. Providence PD,Warwick PD,3/31/22
+8,46,Rosa,Michael,J.,91,E. Providence PD,Warwick PD,3/31/22
+9,47,Mello,Matthew,A.,91,FBL,Pawtucket PD,3/31/22
+10,48,Arcand,James,S.,66,Smithfield PD,RIC,6/23/22
+11,49,Moynihan,Matthew,C.,70,New Shoreham P,S. Kingstown PD,6/23/22
+12,50,Coutu,Nicholas,J.,95,N. Kingstown PD,W. Greenwich PD,6/23/22
+13,51,Rayner,Brian,T.,96,S. Kingstown PD,Newport PD,6/23/22
+14,52,Bradley,Steven,R.,72,Central Falls PD,Lincoln PD,6/23/22
+15,53,Sohn,Lee,R.,72,Cranston PD,Coventry PD,6/23/22
+16,54,Pacheco,Michael,P.,78,Charlestown PD,Middletown PD,6/23/22
+17,55,St. Laurent,Anthony,G.,94,Johnston PD,E. Greenwich PD,6/23/22
+18,56,Cavallaro,Kyle,N.,97,W. Warwick PD,Newport PD,6/23/22
+19,57,Benson,Matthew,J.,79,Johnston PD,Cumberland PD,5/12/22
+20,58,Merritt,Corey,A.,98,Pawtucket PD,Westerly PD,5/12/22
+21,59,Allaire,Alec,J.,98,Woonsocket PD,Scituate PD,5/12/22
+22,60,Richardson,lan,J.,98,Woonsocket PD,Burrillville PD,5/12/22
+23,61,Corcoran,Brian,P.,65,Providence PD,RIC,5/12/22
+24,62,Snow,Thomas,C.,84,Coventry PD,E. Providence PD,5/12/22
+25,63,DaCosta,Nathan,P.,96,Barrington PD,E. Providence PD,5/12/22
+26,64,Alarcon,Cesar,J.,81,E. Providence PD,Brown U.,5/12/22
+27,65,Roca,Kenny,C.,97,Pawtucket PD,Brown U.,5/12/22
+28,66,Noti,Stephen,L.,96,Providence PD,Cranston PD,5/12/22
+29,67,Deangelis,Jared,R.,79,Johnston PD,N. Kingstown PD,5/12/22
+0,68,Winsor,Matthew,K.,81,Johnston PD,N. Kingstown PD,5/12/22
+1,69,Baino,James,R.,74,E. Providence PD,New Shoreham P,5/12/22
+2,70,Grant,Kevin,P.,88,Narragansett PD,Warwick PD,8/11/22
+3,71,Duarte,Adam,E.,98,Foster PD,Barrington PD,8/11/22
+4,72,Saccoccio,Joel,T.,75,CCRI PD,Barrington PD,8/11/22
+5,73,Peacock,Dennis,L.,73,Johnston PD,N. Kingstown PD,8/11/22
+6,74,Carpenter,Brittany,M.,95,Hopkinton PD,Charlestown PD,8/11/22
+7,75,Wilcox,Vanessa,R.,95,Johnston,RIC,8/11/22
+8,76,Loffredi,Brian,M.,68,Johnston PD,CCRI,8/11/22
+9,77,Murphy,Matthew,D.,96,Cranston,Johnston,10/20/22
+10,78,Johnson,Steven,R.,70,Westerly,Hopkinton,10/20/22
+11,79,Baino,James,R.,74,New Shoreham,S. Kingstown,10/20/22
+12,80,Wine,Jeremiah,J.,94,Middletown,S. Kinstown,10/20/22
+13,81,Benton,Corey,M.,90,Coventry,Pawtucket,10/20/22
+14,82,lannelli,Casey,M.,90,Coventry,Pawtucket,10/20/22
+15,83,Jimmy,Melvin,S.,84,Coventry,Pawtucket,10/20/22
+16,84,Lyons,Kevin,M.,88,Johnston,N. Kingstown,10/20/22
+17,85,Morgan,Glenn,W.,70,Providence,Brown U.,10/20/22
+18,86,Shields,Derek,L.,75,Providence,Brown U.,10/20/22
+19,87,Herrera,Erick,J.,98,Warwick,W. Warwick,10/20/22
+20,88,Comeau,Alyssa,M.,98,Portsmouth,Wawick,10/20/22
+21,89,Ewing-Chow,Joel,J.,72,S. Kingstown PD,Jamestown PD,12/1/22
+22,90,Carpenter,Brittany,M.,95,Charlestown PD,Westerly PD,12/1/22
+23,91,Kinzer,Gavin,C.,96,Foster PD,Westerly PD,12/1/22
+24,92,Crowe,Nicholas,A.,98,E. Providence PD,Johnston PD,12/1/22
+25,93,Yepes,Bryan,,89,E. Providence PD,Johnston PD,12/1/22
+26,94,Cole,Jaisen,I.,95,Foster PD,Newport PD,12/1/22
+27,95,Matarese,Frank,P.,86,S. Kingstown PD,Warwick PD,12/1/22
+28,96,Choquette,John,J.,73,Warwick PD,CCRI PD,12/1/22
+29,97,Baino,James,R.,74,S. Kingstown PD,New Shoreham P,12/1/22
+0,98,Wagner,Nicole,G.,99,URI PD,Charlestown PD,12/1/22
+1,99,Resendes,Corey,A.,97,Barrington PD,E. Providence PD,12/1/22
+2,100,Parkinson,Adam,M.,79,Johnston PD,N. Kingstown PD,12/1/22
+3,101,Gould,Douglas,S.,69,Providence PD,CCRI,1/19/23
+4,102,Hubbard,Zachary,T.,98,Jamestown PD,Lincoln PD,1/19/23
+5,103,Vieira,Pedro,M.,83,Coventry PD,Lincoln PD,1/19/23
+6,104,Roca,Kevin,C.,91,Foster PD,Barrington PD,1/19/23
+7,105,Rave,Dorian,R.,77,Central Falls PD,RLC,1/19/23
+8,106,Peterson,Jacqueline,C.,90,DEM,DEM,1/19/23
+9,107,Thomas,Israel,I.,97,Pawtucket PD,Central Falls,1/19/23
+10,108,McCaughey,William,F.,67,Pawtucket PD,RIC,2/23/23
+11,109,Kassed,Jesse,S.,94,Coventry PD,Pawtucket PD,2/23/23
+12,110,Pesare,Anthony,M.,52,Middletown PD,Middletown PD,2/23/23
+13,111,Toole,Kevin,P.,71,Brown U.,Barrington PD,2/23/23
+14,112,Cicchitelli,Jeffrey,R.,81,Airport Corp.,W. Greenwich PD,3/23/23
+15,113,LaPlume,Matthew,L.,89,Woonsocket PD,Charlestown PD,3/23/23
+16,114,Sroka,Craig,D.,80,E. Providence PD,Coventry PD,3/23/23
+17,115,Hopkins,Scott,V.,77,Smithfield PD,Johnston PD,3/23/23
+18,116,Holmes,Patrick,P.,90,Warwick PD,E. Providence PD,3/23/23
+19,117,Pickering,Daniel,L.,94,E. Greenwich PD,E. Providence PD,3/23/23
+20,118,Silva,Josemar,M.,88,Bristol PD,E. Providence PD,3/23/23
+21,119,Fritz-Richard,Auguste,,96,Airport Corp.,E. Providence PD,3/23/23
+22,120,Wilson,Matthew,S.,95,Portsmouth PD,E. Providence PD,3/23/23
+23,121,Petrarca,Joseph,A.,69,Warwick PD,CCRI PD,5/18/23
+24,122,Maglio,Nicholas,J.,90,Woonsocket PD,Barrington PD,5/18/23
+25,123,Buban IlI,Joseph,S.,71,DEM,Foster PD,5/18/23
+26,124,Silvestri,Larry,B.,69,URI PD,Charlestown PD,5/18/23
+27,125,Collins,Sean,T.,60,CCRI,New Shoreham P,6/29/23
+28,126,Patenaude,Cory,M.,77,New Shoreham P,New Shoreham P,6/29/23
+29,127,Bourget,Mark,E.,69,E. Greenwich PD,New Shoreham P,6/29/23
+0,128,Braun,Matthew,E.,82,Tiverton PD,E. Providence PD,6/29/23
+1,129,Pelletier,Joshua,D.,90,Tiverton PD,E. Providence PD,6/29/23
+2,130,Daigle,Steven,J.,61,RI Marshalls,Charlestown PD,6/29/23
+3,131,Packer,Dana,L.,71,Lincoln PD,CCRI,6/29/23
+4,132,Picard,Jonathan,W.,79,N. Providence PD,RIC,6/29/23
+5,133,Dutra,Andrew,J.,92,Cumberland PD,Pawtucket PD,6/29/23
