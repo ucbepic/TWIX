@@ -1,6 +1,8 @@
 from datetime import datetime
 import pytesseract
 import pdfplumber
+import os 
+import json
 """
 When extracting text from pdf documnet, we aim for a particular format. 
 Each sentence in the PDF should start on a new line, maintaining consistent spacing between phrases. 
@@ -86,14 +88,15 @@ def extract_algorithm(pdf_path, x_tolerance=3, y_tolerance=3):
             page_break += 1
     return phrases
 
-def extract_algorithm_v3(pdf_path, x_tolerance=3, y_tolerance=3):
+def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
     phrases = {}
     page_break = 0
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
             words = page.extract_words(x_tolerance=x_tolerance, y_tolerance=y_tolerance, extra_attrs=['size'])
             if not words:
-                return "This pdf is image-based or contains no selectable text."
+                print("This pdf is image-based or contains no selectable text.")
+                return {}
             else:
                 current_phrase = [words[0]['text']]
                 # Initialize bounding box for the current phrase
@@ -179,11 +182,65 @@ def extract_algorithm_v3(pdf_path, x_tolerance=3, y_tolerance=3):
 
     return adjusted_phrases_with_boxes
 
-if __name__ == "__main__":
-    #test
+def print_all_document_paths(folder_path):
+    paths = []
+    # Define the document file extensions you want to include
+    document_extensions = ['.txt', '.pdf', '.doc', '.docx']
 
-    raw_root_path = '/Users/yiminglin/Documents/Codebase/Dataset/pdf_reverse/'
-    pdf_path = raw_root_path + 'complaints & use of force/UIUC PD Use of Force/22-274.releasable.pdf'
-    phrases = extract_algorithm_v3(pdf_path)
-    for p, bb in phrases.items():
-        print(p)
+    # Walk through the directory tree
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            if any(file.endswith(ext) for ext in document_extensions):
+                # Construct the full file path
+                file_path = os.path.join(root, file)
+                #print(file_path)
+                paths.append(file_path)
+                # print(get_text_path(file_path))
+                # print('')
+    return paths
+
+def get_root_path():
+    current_path = os.path.abspath(os.path.dirname(__file__))
+    parent_path = os.path.abspath(os.path.join(current_path, os.pardir))
+    #print("Parent path:", parent_path)
+    return parent_path
+
+def get_text_path(raw_path, mode):
+    text_path = raw_path.replace('raw','extracted')
+    text_path = text_path.replace('.pdf',mode)
+    return text_path
+
+def write_phrase(path, phrases):
+    out = ''
+    for phrase, info in phrases.items():
+        out += phrase
+        out += '\n'
+    with open(path, 'w') as file:
+    # Write the string to the file
+        file.write(out)
+
+def write_dict(path, d):
+    with open(path, 'w') as json_file:
+        json.dump(d, json_file)
+
+def write_texts(data_folder):
+    paths = print_all_document_paths(data_folder)
+    for path in paths:
+        print(path)
+        text_path = get_text_path(path, '.txt')
+        dict_path = get_text_path(path, '.json')
+        phrases = phrase_extract(path)
+        #print(phrases)
+        #write phrase-only 
+        write_phrase(text_path, phrases)
+        #write the complete dict 
+        write_dict(dict_path, phrases)
+
+        
+
+if __name__ == "__main__":
+    root_path = get_root_path()
+    data_folder = root_path + '/data/raw'
+    write_texts(data_folder)
+
+    
