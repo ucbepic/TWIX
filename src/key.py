@@ -20,6 +20,13 @@ def write_dict(path, d):
     with open(path, 'w') as json_file:
         json.dump(d, json_file)
 
+def read_dict(file):
+    #print(file)
+    with open(file, 'r') as file:
+        data = json.load(file)
+    return data 
+
+
 def get_extracted_path(path):
     path = path.replace('raw','extracted')
     path = path.replace('.pdf','.txt')
@@ -55,8 +62,38 @@ def partial_perfect_match(v1,v2):#len(v1) < len(v2)
         return 1
     return 0
 
-def perfect_align_clustering(phrases):
+def perfect_align_clustering(phrases_vec):
+    mp = {}
+    remap = {}
+    id = 0
+    phrases = []
+    for phrase, vec in phrases_vec.items():
+        phrases.append(phrase)
+
+    for i in range(len(phrases)):
+        pi = phrases[i]
+        vi = phrases_vec[pi]
+        if(pi not in mp):
+            mp[pi] = id
+            remap[id] = [pi]
+            id += 1
+        else:
+            continue
+        for j in range(i+1, len(phrases)):
+            pj = phrases[j]
+            vj = phrases_vec[pj]
+
+            #optimization: pj in mp denotes that pj must be at least perfectly match with one phrase before pi, but pi is not in mp
+            #so pi and pj must be not perfectly aligned, and thus skip comparison 
+            if(pj in mp):
+                continue
+
+            if(perfect_match(vi,vj) == 1):
+                mp[pj] = mp[pi]
+                remap[mp[pi]].append(pj)
     
+    return mp, remap
+
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
@@ -80,5 +117,6 @@ if __name__ == "__main__":
         #print(extracted_path)
         phrases = get_relative_locations(extracted_path)
         out_path = get_relative_location_path(extracted_path)
-        #print(out_path)
-        write_dict(out_path, phrases)
+        phrases = read_dict(out_path)
+        perfect_align_clustering(phrases)
+        
