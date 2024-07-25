@@ -43,8 +43,8 @@ if __name__ == "__main__":
 
     for path in tested_paths:
         id += 1
-        if(id != tested_id):
-            continue
+        # if(id != tested_id):
+        #     continue
         #print(path)
         extracted_path = get_extracted_path(path)
         #print(extracted_path)
