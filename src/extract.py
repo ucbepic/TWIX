@@ -87,7 +87,7 @@ def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
                     phrases[phrase_text].append(tuple(current_bbox))
                 else:
                     phrases[phrase_text] = [tuple(current_bbox)]
-            if page_break == 19:
+            if page_break == 6:
                 break
             page_break += 1
 
@@ -175,8 +175,8 @@ def write_texts(data_folder):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         print(path)
-        # if('22-274.releasable' not in path):
-        #     continue
+        if('22-274.releasable' not in path):
+            continue
         text_path = get_text_path(path, '.txt')
         dict_path = get_text_path(path, '.json')
         phrases, raw_phrases = phrase_extract(path)
