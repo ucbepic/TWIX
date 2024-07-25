@@ -1,5 +1,6 @@
 import json
 import extract
+import math
 
 def get_relative_locations(path):
     line_number = 0
@@ -27,6 +28,35 @@ def get_extracted_path(path):
 def get_relative_location_path(extracted_path):
     path = extracted_path[:-4] + '_relative_location.csv'
     return path
+
+def perfect_match(v1,v2):
+    if(len(v1)!=len(v2)):
+        return 0
+    delta = abs(v1[0] - v2[0])
+    for i in range(len(v1)):
+        if(abs(v1[i]-v2[i]) != delta):
+            return 0
+    return 1
+    
+def is_subsequence(seq1, seq2):#len(seq1) < len(seq2)
+    iter_seq2 = iter(seq2)
+    return all(item in iter_seq2 for item in seq1)
+
+def partial_perfect_match(v1,v2):#len(v1) < len(v2)
+    delta = abs(v1[0] - v2[0])
+    new_v1 = []
+    if(v1[0] < v2[0]):
+        for v in v1:
+            new_v1.append(v + delta)
+    else:
+        for v in v1:
+            new_v1.append(v - delta)
+    if(is_subsequence(new_v1,v2)):
+        return 1
+    return 0
+
+def perfect_align_clustering(phrases):
+    
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
