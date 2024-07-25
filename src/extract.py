@@ -26,77 +26,16 @@ def extract_text_from_image(image):
     return text
 
 
-def extract_algorithm(pdf_path, x_tolerance=3, y_tolerance=3):
-    phrases = []
-    page_break = 0
-    with pdfplumber.open(pdf_path) as pdf:
-        for page in pdf.pages:
-            if page_break == 25:
-                break 
-            words = page.extract_words(x_tolerance=x_tolerance, y_tolerance=y_tolerance, extra_attrs=['size'])
-            """
-            If no words are extracted, then we apply OCR -> prone to manual changes 
-            """
-            current_phrase = []
-            if not words: 
-                # Convert PDF page to image
-                # images = convert_from_path(pdf_path, first_page=page.page_number, last_page=page.page_number)
-                # if images:
-                #     # Extract text from the first (and only) image
-                #     extracted_text = extract_text_from_image(images[0])
-                #     # Correct the extracted text
-                #     corrected_text = correct_words(extracted_text)
-                #     # Split corrected text into phrases based on punctuation and new lines
-                #     phrases.extend(corrected_text.split('\n'))
-                # continue  # Skip to the next page
-                return "This pdf is image-based or contains no selectable text." 
-            else: 
-                current_phrase = [words[0]['text']]
-                for prev, word in zip(words, words[1:]):
-                    """
-                    Phrase Logic:
-                    1. word['top'] == prev['top'] ==  This checks if the current word is exactly aligned with the previous word (prev) vertically. \
-                        The 'top' attribute represents the vertical position of the top of the bounding box of each word.
-                    2. abs(word['top'] - prev['top']) < y_tolerance == Even if they're not exactly aligned, this checks if they are close enough vertically within the y_tolerance. \
-                        This accounts for slight differences in the vertical positioning that might occur due to the typesetting of the document.
-                    3. abs(word['x0'] - prev['x1']) < x_tolerance == This checks if the horizontal space between the end of the previous word (prev['x1']) and the start of the current word (word['x0']) is less than or equal to x_tolerance. \
-                        This would mean the words are close enough horizontally to be considered part of the same phrase.
-                    4. word['x0'] < prev['x1'] ==  This condition checks for cases where the bounding box of the current word might overlap with the bounding box of the previous word, \
-                        which can happen due to the irregularities in character spacing.
-                    
-                    word['top'] - word['bottom'] == prev['top'] - prev['bottom'] and 
-                    word['top'] == prev['top'] and 
-                    abs(word['top'] - prev['top']) < y_tolerance):
-
-                    
-                    """
-                    is_header_cond = is_header(word['size'], threshold=12)
-                    if is_header_cond:
-                        continue
-                    elif  (
-                        ((word['top'] == prev['top'] or word['bottom'] == prev['bottom'])) 
-                        and abs(word['x0'] - prev['x1']) < x_tolerance
-                        ):
-                    
-                        # Words are on the same line and close to each other horizontally
-                        current_phrase.append(word['text'])
-                    else:
-                        # New line or too far apart horizontally
-                        phrases.append(' '.join(current_phrase))
-                        current_phrase = [word['text']]
-            phrases.append(' '.join(current_phrase))  # Append the last phrase
-            page_break += 1
-    return phrases
-
 def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
     phrases = {}
     page_break = 0
+    raw_phrases = []
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
             words = page.extract_words(x_tolerance=x_tolerance, y_tolerance=y_tolerance, extra_attrs=['size'])
             if not words:
                 print("This pdf is image-based or contains no selectable text.")
-                return {}
+                return {},[]
             else:
                 current_phrase = [words[0]['text']]
                 # Initialize bounding box for the current phrase
@@ -126,6 +65,7 @@ def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
                         # current_bbox = [word['x0'], word['top'], word['x1'], word['bottom']]
                         # New line or too far apart horizontally, finalize current phrase
                         phrase_text = ' '.join(current_phrase)
+                        raw_phrases.append(phrase_text)
                         
                         if phrase_text in phrases:
                             
@@ -142,6 +82,7 @@ def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
                 # Append the last phrase and its bounding box
                 # phrases[' '.join(current_phrase)] = current_bbox
                 phrase_text = ' '.join(current_phrase)
+                raw_phrases.append(phrase_text)
                 if phrase_text in phrases:
                     phrases[phrase_text].append(tuple(current_bbox))
                 else:
@@ -158,7 +99,7 @@ def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
         if not is_valid_time(phrase) and phrase.count(':') == 1:
             before_colon, after_colon = phrase.split(':')
             # For the part before the colon, include the colon and append each bounding box to the list
-            key_with_colon = before_colon + ':'
+            key_with_colon = before_colon
             if key_with_colon not in adjusted_phrases_with_boxes:
                 adjusted_phrases_with_boxes[key_with_colon] = []
             
@@ -180,7 +121,14 @@ def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
             else:
                 adjusted_phrases_with_boxes[phrase] = bboxes_list
 
-    return adjusted_phrases_with_boxes
+    return adjusted_phrases_with_boxes, raw_phrases
+
+def adjust_phrase(phrase):
+    if not is_valid_time(phrase) and phrase.count(':') == 1:
+        before_colon, after_colon = phrase.split(':')
+        return [before_colon, after_colon]
+    else:
+        return [phrase]
 
 def print_all_document_paths(folder_path):
     paths = []
@@ -212,7 +160,7 @@ def get_text_path(raw_path, mode):
 
 def write_phrase(path, phrases):
     out = ''
-    for phrase, info in phrases.items():
+    for phrase in phrases:
         out += phrase
         out += '\n'
     with open(path, 'w') as file:
@@ -227,12 +175,21 @@ def write_texts(data_folder):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         print(path)
+        # if('22-274.releasable' not in path):
+        #     continue
         text_path = get_text_path(path, '.txt')
         dict_path = get_text_path(path, '.json')
-        phrases = phrase_extract(path)
+        phrases, raw_phrases = phrase_extract(path)
+        adjusted_phrases = []
+        for phrase in raw_phrases:
+            adjusted_phrase = adjust_phrase(phrase)
+            for p in adjusted_phrase:
+                if(len(p) == 0):
+                    continue
+                adjusted_phrases.append(p)
         #print(phrases)
         #write phrase-only 
-        write_phrase(text_path, phrases)
+        write_phrase(text_path, adjusted_phrases)
         #write the complete dict 
         write_dict(dict_path, phrases)
 

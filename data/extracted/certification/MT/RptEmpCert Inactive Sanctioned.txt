@@ -2,7 +2,7 @@ SEP 30,2019
 Montana
 POST
 Council
-Page:
+Page
 1
 12:45PM
 Employee
@@ -28,169 +28,325 @@ Agnew, Carrie J.
 023052
 Detention/Correction Basic
 9-28-2016
+Decertified
 1906
 8-04-2015
 Alexander, William J.
 000023
 Peace Officer Advanced
 8-29-1995
+Decertified
 531
 7-14-1992
+Peace Officer Basic
+8-29-1995
+Decertified
 1712
 12-13-1984
 Peace Officer Command
+8-29-1995
+Decertified
 119
+7-14-1992
 Peace Officer Intermediate
+8-29-1995
+Decertified
 772
 4-07-1988
 Peace Officer Supervisor
+8-29-1995
+Decertified
 134
+4-07-1988
 Aman, Dell P.
 008918
+Peace Officer Advanced
 1-17-2018
+Decertified
 2944
 5-08-2014
+Peace Officer Basic
+1-17-2018
+Decertified
 3140
 8-19-1999
+Peace Officer Intermediate
 12-18-2017
+Decertified
 3012
 12-16-2013
 Amos, Benjamin H.
 020388
+Peace Officer Basic
+12-18-2017
+Decertified
 4968
+5-08-2014
+Peace Officer Intermediate
+12-18-2017
+Decertified
 3066
+5-08-2014
 Anderson, Cory A.
 006127
+Peace Officer Basic
 10-27-2005
 Suspended
 2922
 10-23-1997
 11-01-2007
+Peace Officer Intermediate
+10-27-2005
+Suspended
 1717
 11-14-2002
+11-01-2007
 Angermeier, James D.
 000056
+Peace Officer Basic
 9-25-1995
+Decertified
 1940
+4-07-1988
 Angove, Jennifer
 019623
+Detention/Correction Basic
 5-29-2013
+Suspended
 1302
 2-16-2010
 5-29-2018
 Arrendondo, Daniel J.
 000066
+Peace Officer Basic
 1-25-1996
+Decertified
 2071
 4-26-1990
 Augare, Matthew A.
 020488
 Augare, Shane M.
 024657
+Peace Officer Basic
 4-11-2018
+Decertified
 5686
 7-12-2017
+SEP 30,2019
+Montana
+POST
+Council
+Page
 2
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
 Babbitt, Courtney N.
 023448
+Detention/Correction Basic
 5-10-2017
+Decertified
 2132
 7-21-2016
 Baird, Tyrone
 005383
 Balenger, James B.
 003024
+Peace Officer Basic
 1-31-2015
+Decertified
 4320
 11-20-2008
 Barrett, Joseph
 021603
+Detention/Correction Basic
 2-22-2019
+Decertified
 1518
 4-23-2013
 Detention/Correction Intermediate
+2-22-2019
+Decertified
 2680
 12-05-2016
 Baumgart, Deborah J.
 000105
+Peace Officer Advanced
 5-17-2001
+Decertified
 763
 2-18-1999
+Peace Officer Basic
+5-17-2001
+Decertified
 1749
 10-10-1985
+Peace Officer Intermediate
+5-17-2001
+Decertified
 987
 10-07-1993
 Bell, Robert
 002359
+Peace Officer Basic
 8-18-2005
+Decertified
 2428
+10-07-1993
 Coroner Basic
+8-18-2005
+Decertified
 366
 2-20-2003
 Beniger, Bryan E.
 021936
+Peace Officer Basic
 7-05-2016
+Decertified
 5027
 12-03-2014
 Bingen, Joel T.
 022190
 Black Weasel, Joshua D.
 014638
+Peace Officer Basic
 9-22-2016
+Decertified
 3619
 5-22-2003
+Coroner Basic
+9-22-2016
+Decertified
 1315
 12-14-2012
 Blessing, David R.
 002207
 Blume, Daniel J.
 002179
+Peace Officer Advanced
 2-17-2005
+Decertified
 784
+8-19-1999
+Peace Officer Basic
+2-17-2005
+Decertified
 2353
 7-08-1993
+Peace Officer Intermediate
+2-17-2005
+Decertified
 1084
+1-25-1996
 Boucher, Tracy
 013037
+Detention/Correction Basic
 11-01-2010
+Decertified
 655
 5-16-2002
+SEP 30,2019
+Montana
+POST
+Council
+Page
 3
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
 Bourgeau, Robert S.
 013816
+Peace Officer Basic
 5-05-2011
+Suspended
 3536
 8-15-2002
 Brester, Steven C.
 005084
+Peace Officer Basic
 10-25-2017
+Decertified
 2729
 5-02-1996
 Instructor
+10-25-2017
+Decertified
 5-18-2009
 5-18-2011
+Peace Officer Intermediate
+10-25-2017
+Decertified
 1762
+5-22-2003
+Peace Officer Supervisor
+10-25-2017
+Decertified
 1054
 2-21-2008
 Brewer, Matthew M.
 009564
+Peace Officer Advanced
 3-25-2017
+Decertified
 1287
 5-17-2007
+Peace Officer Basic
+3-25-2017
+Decertified
 3319
 2-15-2001
+Instructor
+3-25-2017
+Decertified
 10-19-2009
 10-19-2011
+Peace Officer Intermediate
+3-25-2017
+Decertified
 1748
+5-22-2003
+Peace Officer Supervisor
+3-25-2017
+Decertified
 2555
 8-18-2009
 Brinkley, Stephany A.
 022038
 Brown, Mark W.
 000218
+Peace Officer Advanced
+8-29-1995
+Decertified
 454
+4-26-1990
+Peace Officer Basic
+8-29-1995
+Decertified
 1260
 12-17-1982
+Peace Officer Intermediate
+8-29-1995
+Decertified
 817
 4-20-1989
 Brown, Michael A.
@@ -199,27 +355,61 @@ Bruce, Curtis E.
 003038
 Buhmann, Lennie D.
 007860
+Peace Officer Advanced
 4-25-2017
+Decertified
+1302
 8-16-2007
+Peace Officer Basic
+4-25-2017
+Decertified
 2926
+10-23-1997
+Peace Officer Intermediate
+4-25-2017
+Decertified
 1847
 5-20-2004
 Burton, Robert J.
 002396
+Peace Officer Basic
 2-07-2002
+Decertified
 2385
+7-08-1993
 Butterfly, Chris
 022209
+Peace Officer Basic
 3-15-2018
+Decertified
 4958
 2-26-2014
 Callahan, Peter J.
 009882
+SEP 30,2019
+Montana
+POST
+Council
+Page
 4
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
 Calvi, Wendy S.
 018260
 Adult Parole & Probation Basic
 10-01-2018
+Decertified
 887
 9-03-2014
 Carroll, Jason S.
@@ -230,12 +420,21 @@ Carter, Shannon M.
 013304
 Cathel, Jeffery D.
 002215
+Peace Officer Basic
 8-19-2004
+Decertified
 2383
+7-08-1993
+Instructor
+8-19-2004
+Decertified
+5-22-2003
 5-22-2005
 Cavalea, Randy
 021268
+Peace Officer Basic
 12-10-2018
+Suspended
 4757
 8-16-2012
 12-10-2023
@@ -245,485 +444,1194 @@ Ceely, Franklyn G.
 007213
 Christoffersen, Matthew M.
 023446
+Peace Officer Basic
+4-11-2018
+Decertified
 5437
 4-07-2016
 Chuey, Michael W.
 006670
+Peace Officer Basic
+2-15-2001
+Decertified
 2764
+5-02-1996
 Church, Gregory M.
 000312
+Peace Officer Basic
 2-17-2000
+Decertified
 1582
 12-14-1983
 12-17-2000
+Peace Officer Intermediate
+2-17-2000
+Decertified
 828
 10-19-1989
+12-17-2000
 Clark, Phillip J.
 002255
+Peace Officer Advanced
 4-20-2016
+Decertified
 2542
 2-17-2009
+4-20-2016
+Peace Officer Basic
+4-20-2016
+Decertified
 2828
 11-21-1996
+4-20-2016
+Detention/Correction Basic
+4-20-2016
+Decertified
 33
 1-24-1991
+4-20-2016
+Peace Officer Intermediate
+4-20-2016
+Decertified
 1517
 8-17-2000
+4-20-2016
 Clary, Carl A.
 022736
+Detention/Correction Basic
+10-01-2018
+Decertified
 2101
 4-19-2016
 Clifford, Larry J.
 001790
+SEP 30,2019
+Montana
+POST
+Council
+Page
 5
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
+Peace Officer Advanced
 11-17-2005
+Decertified
 96
 5-10-1979
+Peace Officer Basic
+11-17-2005
+Decertified
 625
 1-28-1976
+Peace Officer Intermediate
+11-17-2005
+Decertified
 157
 5-14-1976
 Clyatt, Todd H.
 022515
+Peace Officer Basic
 4-27-2017
+Decertified
 5072
 3-11-2015
 Conley, William
 019670
+Detention/Correction Basic
 4-16-2019
+Decertified
 1962
 11-02-2015
 Connelly Jr., Michael
 020211
+Peace Officer Basic
 8-10-2017
+Decertified
 4542
 8-19-2010
+Coroner Basic
+8-10-2017
+Decertified
 1316
+12-14-2012
+Peace Officer Intermediate
+8-10-2017
+Decertified
 4747
 2-16-2016
 Crawford, Freedom L.
 009664
 Peace Officer Administrative
 6-18-2015
+Decertified
 2512
 6-22-2009
 10-15-2012
+Peace Officer Advanced
+6-18-2015
+Decertified
 2556
 4-16-2009
+10-15-2012
+Peace Officer Basic
+6-18-2015
+Decertified
 3361
+2-15-2001
+6-18-2015
+Peace Officer Command
+6-18-2015
+Decertified
 2506
+6-22-2009
+10-15-2012
+Peace Officer Intermediate
+6-18-2015
+Decertified
 1977
 5-19-2005
+6-18-2015
+Peace Officer Supervisor
+6-18-2015
+Decertified
 2545
+4-16-2009
+10-15-2012
 Crockett, Heather M.
 022206
+Detention/Correction Basic
 11-08-2017
+Decertified
 1861
 7-09-2015
 Croft, Kyle
 019759
+Peace Officer Basic
 10-26-2016
+Decertified
 5140
 4-09-2015
 Communicator Basic
+10-26-2016
+Decertified
 441
+4-09-2015
 Crowe, Nicholas D.
 024821
+Peace Officer Basic
 6-24-2019
+Decertified
 2-01-2018
 Croxford, Douglas G.
 009937
 Danielson, Cody R.
 011371
+Peace Officer Basic
 8-29-2019
+Decertified
 5567
 12-01-2016
 Danielson, Daniel W.
 020802
+Peace Officer Basic
 9-30-2014
+Decertified
 4702
 1-19-2012
+9-30-2014
+SEP 30,2019
+Montana
+POST
+Council
+Page
 6
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
 Darlington, Matthew W.
 013342
+Peace Officer Advanced
 5-01-2017
+Probation
 2799
+10-15-2012
 5-01-2019
+Peace Officer Basic
+5-01-2017
+Probation
 3951
+8-18-2005
+5-01-2019
+Detention/Correction Basic
+5-01-2017
+Probation
 885
 2-19-2004
+5-01-2019
+Peace Officer Intermediate
+5-01-2017
+Probation
 2605
+2-16-2010
+5-01-2019
 Davies, Shannon N.
 018977
 Davis, Corey
 016305
 Degele, Brian S.
 016785
+Detention/Correction Basic
 10-05-2017
+Decertified
 1076
 11-16-2006
 Doyle, Patrick D.
 024471
+Peace Officer Basic
 2-20-2018
+Decertified
 5692
+7-12-2017
 Drishinski, Ross A.
 006495
 Durrant, Robert J.
 019313
 Motor Carrier Basic
 6-08-2017
+Decertified
 130
+2-26-2014
 Duryee, Daniel M.
 008325
+Peace Officer Advanced
+4-23-2013
+Decertified
 1214
 2-16-2006
+Peace Officer Basic
+4-23-2013
+Decertified
 3062
 11-19-1998
+Coroner Basic
+4-23-2013
+Decertified
 346
+2-15-2001
+Peace Officer Intermediate
+4-23-2013
+Decertified
 1659
+5-16-2002
+Peace Officer Supervisor
+4-23-2013
+Decertified
 989
 8-17-2006
 Dyer, Nicole C.
 023629
+Detention/Correction Basic
+4-16-2019
+Decertified
 1923
 9-28-2015
 Eggett, Richard G.
 001984
+Peace Officer Basic
+5-19-2005
+Decertified
 2131
 10-19-1990
+Peace Officer Intermediate
+5-19-2005
+Decertified
 1720
+11-14-2002
 Evans, John P.
 007233
+Peace Officer Basic
+8-18-2005
+Decertified
 2996
 5-14-1998
+Coroner Basic
+8-18-2005
+Decertified
 341
+2-15-2001
+Peace Officer Intermediate
+8-18-2005
+Decertified
 1677
+8-15-2002
+SEP 30,2019
+Montana
+POST
+Council
+Page
 7
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
 Evanson, Brian J.
 000510
+Peace Officer Basic
+8-29-1995
+Decertified
 1921
 1-21-1988
+Peace Officer Intermediate
+8-29-1995
+Decertified
 937
 4-14-1992
 Evenson, Ty D.
 004368
+Peace Officer Advanced
 4-15-2010
+Decertified
 1016
+11-14-2002
+Peace Officer Basic
+4-15-2010
+Decertified
 2149
+1-24-1991
+Coroner Basic
+4-15-2010
+Decertified
 349
+2-15-2001
+Instructor
+4-15-2010
+Decertified
+11-14-2002
 11-14-2004
+Peace Officer Intermediate
+4-15-2010
+Decertified
 1721
+11-14-2002
+Peace Officer Supervisor
+4-15-2010
+Decertified
 870
+11-14-2002
 Fauque, Jeff J.
 007216
+Peace Officer Advanced
 8-16-2011
+Decertified
 1195
+11-17-2005
+Peace Officer Basic
+8-16-2011
+Decertified
 2882
 5-08-1997
+Peace Officer Command
+8-16-2011
+Decertified
 321
+11-17-2005
+Coroner Basic
+8-16-2011
+Decertified
 256
+5-08-1997
+Instructor
+8-16-2011
+Decertified
+2-21-2008
 2-21-2010
+Peace Officer Intermediate
+8-16-2011
+Decertified
 1540
 11-16-2000
+Peace Officer Supervisor
+8-16-2011
+Decertified
 791
+11-16-2000
 Fehr, Chad D.
 008331
+Peace Officer Advanced
 10-15-2016
+Decertified
 2544
 1-20-2009
+Peace Officer Basic
+10-15-2016
+Decertified
 3124
 5-20-1999
+Instructor
+10-15-2016
+Decertified
 5-18-2006
 5-18-2010
+Peace Officer Intermediate
+10-15-2016
+Decertified
 1701
+8-15-2002
 Ferguson, Amanda
 014696
+Detention/Correction Basic
+2-17-2005
+Decertified
 692
+11-14-2002
 Finch, Eric
 009490
+Peace Officer Basic
 2-20-2015
+Decertified
 3842
 11-18-2004
+2-20-2015
 Flood, Michael G.
 009352
+Peace Officer Advanced
 5-08-2019
+Decertified
 2952
+5-08-2014
+Peace Officer Basic
+5-08-2019
+Decertified
 3442
 11-15-2001
+Peace Officer Intermediate
+5-08-2019
+Decertified
 2991
 10-18-2013
+SEP 30,2019
+Montana
+POST
+Council
+Page
 8
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
 Follmer, Randee J.
 000540
+Peace Officer Advanced
+5-17-2001
+Decertified
 594
 1-26-1995
+Peace Officer Basic
+5-17-2001
+Decertified
 1283
 3-17-1983
+Peace Officer Intermediate
+5-17-2001
+Decertified
 706
 3-12-1987
 Proctor
+5-17-2001
+Decertified
+7
 8-02-1996
+Peace Officer Supervisor
+5-17-2001
+Decertified
 247
 4-27-1995
 Fowler, Jeffrey L.
 007678
+Peace Officer Advanced
+5-05-2011
+Decertified
 1256
+8-17-2006
+Peace Officer Basic
+5-05-2011
+Decertified
 2900
 7-31-1997
+Instructor
+5-05-2011
+Decertified
+2-21-2008
 2-21-2012
+Peace Officer Intermediate
+5-05-2011
+Decertified
 1764
+5-22-2003
+Proctor
+5-05-2011
+Decertified
 140
+11-17-2005
+Peace Officer Supervisor
+5-05-2011
+Decertified
 884
+5-22-2003
 Frank, Thomas J.
 000554
+Peace Officer Advanced
+8-18-2005
+Decertified
 334
 12-11-1986
+Peace Officer Basic
+8-18-2005
+Decertified
 1668
 6-07-1984
+Coroner Basic
+8-18-2005
+Decertified
 28
 9-01-1988
+Peace Officer Intermediate
+8-18-2005
+Decertified
 608
+6-07-1984
 Furigay, Rudolfo T.
 015149
 Gabbard, Shannon D.
 014432
+Peace Officer Basic
 7-06-2015
+Decertified
 3687
 8-21-2003
+7-06-2015
 Galindo, Lethicia
 024244
+Detention/Correction Basic
+2-20-2018
+Decertified
 2289
+5-01-2017
 Gallineaux, Carter L.
 019416
+Peace Officer Basic
 1-09-2015
+Decertified
 4802
+4-23-2013
+1-09-2015
 Galloway, Patrick M.
 022019
+Detention/Correction Basic
 11-26-2018
+Decertified
 1636
+9-03-2014
 Gamble, William
 000577
 Gardella, Christopher T.
 015478
+SEP 30,2019
+Montana
+POST
+Council
+Page
 9
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
 Garrison, Clay A.
 020450
+Peace Officer Basic
 10-18-2017
+Decertified
 4579
 12-16-2010
+Peace Officer Intermediate
+10-18-2017
+Decertified
 3075
+5-08-2014
 Garrison, Jordan M.
 023421
+Detention/Correction Basic
 4-20-2018
+Decertified
 2051
 2-03-2016
 Gauci, Michael J.
 014309
 Gaukler, Nathanael O.
 020374
+Peace Officer Basic
 8-19-2017
+Suspended
 4555
 10-18-2010
 8-19-2020
+Peace Officer Intermediate
+8-19-2017
+Suspended
 4703
+7-09-2015
+8-19-2020
 Gearhart, Ronald J.
 007594
 Gehringer, Vance A.
 005218
+Peace Officer Basic
+8-17-2000
+Decertified
+2506
 7-21-1994
+Peace Officer Intermediate
+8-17-2000
+Decertified
 1224
+7-31-1997
 Goldsberry, Shaun A.
 005089
+Peace Officer Basic
 10-28-2016
+Decertified
 2327
 4-15-1993
+Peace Officer Intermediate
+10-28-2016
+Decertified
 2848
+8-16-2012
 Goodman, Glen H.
 023769
+Detention/Correction Basic
 12-07-2018
+Decertified
 1925
+9-28-2015
 Goodnight, John M.
 022800
+Detention/Correction Basic
 1-15-2016
+Decertified
 1974
+11-02-2015
+1-15-2016
 Gorman, Scott R.
 010286
+Peace Officer Basic
+5-18-2006
+Decertified
 3353
+2-15-2001
 Greaney, Keith P.
 020813
+Detention/Correction Basic
 2-26-2018
+Decertified
 1528
 7-16-2013
 Green, David A.
 005448
+Motor Carrier Basic
 3-04-2014
+Decertified
 52
 4-28-1994
+Proctor
+3-04-2014
+Decertified
 105
+11-14-2002
 Gregory, Fredric E.
 019675
+SEP 30,2019
+Montana
+POST
+Council
+Page
 10
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
+Peace Officer Basic
+4-16-2019
+Decertified
 5143
+4-09-2015
+Peace Officer Intermediate
+4-16-2019
+Decertified
 4829
 12-19-2016
 Griswold, Lucas R.
 022532
+Detention/Correction Basic
 1-28-2019
+Decertified
 1641
+9-03-2014
 Groscop, Misty D.
 009336
+Detention/Correction Basic
 11-13-2003
+Decertified
 780
+5-22-2003
 Gunsch, Robert M.
 005090
+Peace Officer Basic
+5-19-2005
+Decertified
 2283
 10-20-1992
+Instructor
+5-19-2005
+Decertified
+11-16-2000
 11-16-2004
+Peace Officer Intermediate
+5-19-2005
+Decertified
 1341
+11-19-1998
 Handcock, Ambus
 018369
 Hartsell, Douglas B.
 010100
+Peace Officer Basic
 4-11-2019
+Decertified
 3549
+8-15-2002
+Peace Officer Basic
 7-14-2006
+Suspended
+3549
+8-15-2002
 12-22-2006
 Henrie, Zachary R.
 019594
 Henry, William J.
 009560
+Peace Officer Basic
+11-17-2005
+Decertified
 3500
+2-07-2002
+Detention/Correction Basic
+11-17-2005
+Decertified
 431
+8-17-2000
 Hensen, Tracey E.
 023751
+Detention/Correction Basic
 7-09-2018
+Decertified
 2110
+4-07-2016
 Higgins, Darrell R.
 002526
+Coroner Basic
+5-22-2003
+Decertified
 198
 12-11-1992
 Hilde, Chad A.
 005742
+Peace Officer Basic
 10-10-2015
+Decertified
 2475
 1-20-1994
+Peace Officer Intermediate
+10-10-2015
+Decertified
 2096
+5-17-2007
 Hoffman, Fred
 013219
+Detention/Correction Basic
 6-21-2013
+Decertified
 941
+11-18-2004
 Holliday, Eugene L.
 000779
+SEP 30,2019
+Montana
+POST
+Council
+Page
 11
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
+Peace Officer Basic
+11-19-1998
+Decertified
 2053
+4-26-1990
+Instructor
+11-19-1998
+Decertified
 11-09-1995
 11-09-1997
+Peace Officer Intermediate
+11-19-1998
+Decertified
 863
+4-26-1990
 Horsley, Lisa
 020570
+Detention/Correction Basic
+9-28-2015
+Decertified
 1443
 8-11-2011
+9-28-2015
 Huertas, James J.
 018945
+Peace Officer Advanced
+5-08-2019
+Decertified
 3110
+7-21-2016
+Peace Officer Basic
+5-08-2019
+Decertified
 4272
 5-15-2008
+Peace Officer Intermediate
+5-08-2019
+Decertified
 4788
+7-21-2016
 Hughes, Patrick H.
 006463
+Peace Officer Basic
+8-21-2003
+Decertified
 2695
+1-25-1996
 Hughes, Steven M.
 013141
+Peace Officer Advanced
+12-07-2018
+Decertified
 2681
+5-05-2011
+Peace Officer Basic
+12-07-2018
+Decertified
 3929
+5-19-2005
+Peace Officer Intermediate
+12-07-2018
+Decertified
 2715
+5-05-2011
 Hunter, Jessica J.
 020100
 Huston, Paul S.
 006577
+Peace Officer Advanced
 2-05-2016
+Decertified
 1074
+11-13-2003
+2-05-2016
+Peace Officer Basic
+2-05-2016
+Decertified
 2884
+5-08-1997
+2-05-2016
+Peace Officer Intermediate
+2-05-2016
+Decertified
 1637
+2-07-2002
+2-05-2016
+Peace Officer Supervisor
+2-05-2016
+Decertified
 838
+2-07-2002
+2-05-2016
 Irby, Ray E.
 000815
+Peace Officer Basic
+5-08-1997
+Decertified
 877
 9-06-1979
 Jacobs, Gregory J.
 008709
+Peace Officer Advanced
 8-21-2008
+Suspended
 1140
+11-18-2004
 1-15-2010
+Peace Officer Basic
+8-21-2008
+Suspended
 3431
+11-15-2001
+1-15-2010
+Peace Officer Intermediate
+8-21-2008
+Suspended
 1621
+11-15-2001
+1-15-2010
 Jacobson, Mark A.
 015587
 Jennings, Joel A.
 015498
+Peace Officer Basic
+5-18-2006
+Decertified
 3737
+2-19-2004
+SEP 30,2019
+Montana
+POST
+Council
+Page
 12
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
 Jessop, Sharon I.
 019244
+Peace Officer Basic
+4-11-2018
+Probation
 5624
+5-01-2017
 4-11-2020
 Johnston, Lorie E.
 017768
+Detention/Correction Basic
+12-07-2018
+Decertified
 1103
 2-15-2007
+Detention/Correction Intermediate
+12-07-2018
+Decertified
 5-01-2018
+Instructor
+12-07-2018
+Decertified
+5-01-2018
+12-07-2018
 Jones, Glenn R.
 000871
 Jones, Jason W.
 022821
+Peace Officer Basic
+5-08-2019
+Decertified
 5103
+3-11-2015
 Kambich, Steven J.
 014486
+Peace Officer Basic
+1-19-2012
+Decertified
 3852
+2-17-2005
 Kanvick, Gary
 016757
 Keller, Cory C.
 007677
+Peace Officer Basic
+11-16-2000
+Decertified
 2901
+7-31-1997
 Keller, Jennifer
 023955
+Detention/Correction Basic
+4-16-2019
+Decertified
 1942
 9-23-2015
 Kester, Justin A.
 024744
+Peace Officer Basic
 2-20-2019
+Decertified
+2-01-2018
 Ketterling, Bruce L.
 019667
+Detention/Correction Basic
+11-26-2018
+Decertified
 1869
+7-09-2015
 Khan, Jameel A.
 019469
+Peace Officer Basic
 1-22-2015
+Decertified
 4426
+10-19-2009
 Kind, Daniel L.
 009881
+Peace Officer Basic
+2-19-2004
+Decertified
 3223
 5-18-2000
 King, Richard A.
 019651
+Peace Officer Basic
 12-20-2012
+Decertified
 4460
 12-17-2009
 Kinsey, Michael J.
 022556
+SEP 30,2019
+Montana
+POST
+Council
+Page
 13
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
+Peace Officer Basic
 5-24-2018
+Decertified
 5076
+3-11-2015
 Kirby, Larry L.
 000919
+Peace Officer Basic
+2-16-2006
+Decertified
 2163
 5-02-1991
+Coroner Basic
+2-16-2006
+Decertified
 307
+5-20-1999
+Peace Officer Intermediate
+2-16-2006
+Decertified
 1217
+7-31-1997
 Kirkland, Bryan W.
 008666
 Undefined
 12-31-2003
+Decertified
 3199
+2-17-2000
+Instructor
+12-31-2003
+Decertified
+2-20-2003
 2-20-2005
 Kittle, John
 014710
@@ -731,180 +1639,567 @@ Knight, Ronald J.
 016260
 Koenig, John T.
 015569
+Detention/Correction Basic
 1-18-2018
+Decertified
 1126
+5-17-2007
 Kolstad, James A.
 017918
+Detention/Correction Basic
 2-27-2012
+Decertified
 1351
+8-19-2010
 Korthals, Nicholas P.
 015571
+Peace Officer Advanced
 12-07-2016
+Decertified
 2732
+1-19-2012
+12-07-2016
+Peace Officer Basic
+12-07-2016
+Probation
 3759
+5-20-2004
+Detention/Correction Basic
+12-07-2016
+Probation
 1065
+11-16-2006
 Detention/Correction Command
+12-07-2016
+Decertified
 34
+2-26-2014
+12-07-2016
+Peace Officer Intermediate
+12-07-2016
+Decertified
 2614
+4-15-2010
+12-07-2016
+Peace Officer Supervisor
+12-07-2016
+Decertified
 2600
+12-16-2010
+12-07-2016
 Kovacich, Shawn M.
 002667
+Peace Officer Basic
+5-20-2004
+Decertified
 2273
+10-20-1992
 Kuka, Jared
 014280
+Peace Officer Basic
 4-10-2005
+Suspended
 3742
+2-19-2004
 12-31-2005
 Lamantia, Paul F.
 020199
+Peace Officer Advanced
+10-01-2018
+Decertified
 3211
 11-15-2017
+Peace Officer Basic
+10-01-2018
+Decertified
 4552
+10-18-2010
+Peace Officer Intermediate
+10-01-2018
+Decertified
 3006
+12-16-2013
+SEP 30,2019
+Montana
+POST
+Council
+Page
 14
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
 Lashway, Shawn
 015719
+Peace Officer Basic
 7-12-2016
+Decertified
 4560
+10-18-2010
+7-12-2016
+Peace Officer Intermediate
+7-12-2016
+Decertified
 2834
 6-18-2012
+7-12-2016
 Leanhart, Martin W.
 002737
+Peace Officer Basic
+8-15-2002
+Decertified
 1674
+6-07-1984
 Leonard, John E.
 010924
+Peace Officer Advanced
+7-09-2018
+Decertified
+1283
+2-15-2007
+Peace Officer Basic
+7-09-2018
+Decertified
 3602
+2-20-2003
+Instructor
+7-09-2018
+Decertified
+3-11-2015
 3-11-2019
+Peace Officer Intermediate
+7-09-2018
+Decertified
 1830
+2-19-2004
+Peace Officer Supervisor
+7-09-2018
+Decertified
 1053
+2-21-2008
 Lesofski, Anthony E.
 016945
+Peace Officer Advanced
 4-24-2019
+Decertified
 3048
 7-28-2015
+Peace Officer Basic
+4-24-2019
+Decertified
 3952
+8-18-2005
+Instructor
+4-24-2019
+Decertified
+2-01-2018
+4-24-2019
+Peace Officer Intermediate
+4-24-2019
+Decertified
 2797
+1-19-2012
 Livesay, Corey D.
 006862
+Peace Officer Administrative
+4-11-2018
+Decertified
 2541
+8-11-2011
+Peace Officer Advanced
+4-11-2018
+Decertified
 2713
+8-11-2011
+Peace Officer Basic
+4-11-2018
+Decertified
 4646
+8-11-2011
+Peace Officer Command
+4-11-2018
+Decertified
 2532
+8-11-2011
+Peace Officer Intermediate
+4-11-2018
+Decertified
 2748
+8-11-2011
+Proctor
+4-11-2018
+Decertified
 78
+5-17-2001
+Peace Officer Supervisor
+4-11-2018
+Decertified
 2622
+8-11-2011
 Lombardi, Brett B.
 021815
+Detention/Correction Basic
 6-22-2015
+Decertified
 1568
+10-18-2013
 Loomis, Jimmy
 019332
+Detention/Correction Basic
 4-27-2018
+Decertified
 2063
 2-22-2016
 Losleben, Richard J.
 001022
+Peace Officer Advanced
 11-21-2005
+Decertified
 559
+1-20-1994
+Peace Officer Basic
+11-21-2005
+Decertified
 2456
+1-20-1994
+SEP 30,2019
+Montana
+POST
+Council
+Page
 15
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
+Peace Officer Intermediate
+11-21-2005
+Decertified
+989
+1-20-1994
 Madsen, Thomas L.
 015067
+Peace Officer Basic
 4-23-2015
+Decertified
 3837
+11-18-2004
+4-23-2015
+Instructor
+4-23-2015
+Decertified
+5-17-2007
 5-17-2009
 Mansfield, Michael I.
 015307
+Detention/Correction Basic
 1-11-2017
+Decertified
 1990
 11-03-2015
 McIntyre, Roy F.
 010949
+Detention/Correction Basic
+5-22-2003
+Decertified
 628
+11-15-2001
 McKeague, Christopher N.
 017454
+Peace Officer Basic
+5-05-2011
+Suspended
 4369
 3-16-2009
 McKeen, Jerry D.
 006504
+Peace Officer Basic
 6-14-2008
+Decertified
 2917
+7-31-1997
+Peace Officer Intermediate
+6-14-2008
+Decertified
 1978
+5-19-2005
+Peace Officer Supervisor
+6-14-2008
+Decertified
 954
+5-19-2005
 McMurray, Eric W.
 023174
+Peace Officer Basic
 3-12-2019
+Decertified
 5287
 9-22-2015
+Coroner Basic
+3-12-2019
+Decertified
 3-30-2018
 McNamara, William
 020454
+Detention/Correction Basic
 4-18-2017
+Decertified
 1724
+3-11-2015
 McVay, Gary A.
 001112
+Peace Officer Advanced
+2-19-2004
+Decertified
 601
+8-29-1995
+Peace Officer Basic
+2-19-2004
+Decertified
 1288
+3-17-1983
+Instructor
+2-19-2004
+Decertified
+1-25-1996
 1-25-1998
+Peace Officer Intermediate
+2-19-2004
+Decertified
 1069
+8-29-1995
 Meier, Kyle M.
 017829
+Peace Officer Basic
 1-27-2015
+Decertified
 4095
+11-16-2006
+1-27-2015
 Meskimen, Ace A.
 009672
+Peace Officer Advanced
+12-07-2018
+Decertified
 2963
+5-08-2014
+Peace Officer Basic
+12-07-2018
+Decertified
 3284
+8-17-2000
+Peace Officer Intermediate
+12-07-2018
+Decertified
 3087
+5-08-2014
+SEP 30,2019
+Montana
+POST
+Council
+Page
 16
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
 Michaelsen, Ryan K.
 018187
+Peace Officer Basic
+10-01-2018
+Decertified
 4170
+5-17-2007
+Peace Officer Intermediate
+10-01-2018
+Decertified
 4808
 10-17-2016
+Peace Officer Supervisor
+10-01-2018
+Decertified
 2842
+12-01-2016
 Miller, Erik E.
 013031
+Peace Officer Basic
 6-10-2016
+Decertified
 5203
+7-09-2015
+Detention/Correction Basic
+6-10-2016
+Decertified
 1166
 11-15-2007
+Detention/Correction Intermediate
+6-10-2016
+Decertified
 399
+11-15-2007
+Instructor
+6-10-2016
+Decertified
+2-26-2014
 2-26-2016
 Much, Brandon
 024959
+Detention/Correction Basic
+1-28-2019
+Decertified
+3-30-2018
 Muhlbeier, David S.
 006431
+Peace Officer Advanced
 7-15-2015
+Decertified
 2558
+4-16-2009
+7-15-2015
+Peace Officer Basic
+7-15-2015
+Decertified
 3370
+2-15-2001
+7-15-2015
+Coroner Basic
+7-15-2015
+Decertified
 439
 12-16-2011
+7-15-2015
 Detention/Correction Advanced
+7-15-2015
+Decertified
 24
+5-20-1999
+7-15-2015
+Detention/Correction Basic
+7-15-2015
+Decertified
 279
+5-20-1999
+7-15-2015
+Detention/Correction Intermediate
+7-15-2015
+Decertified
+34
+5-20-1999
+7-15-2015
+Peace Officer Intermediate
+7-15-2015
+Decertified
 2138
+2-21-2008
+7-15-2015
+Peace Officer Supervisor
+7-15-2015
+Decertified
 2718
+10-18-2013
+7-15-2015
 Murphy, Matt J.
 002336
+Peace Officer Advanced
 8-16-2001
+Decertified
 662
+5-08-1997
+Peace Officer Basic
+8-16-2001
+Decertified
 2426
+10-07-1993
+Peace Officer Intermediate
+8-16-2001
+Decertified
 1191
+5-08-1997
+Proctor
+8-16-2001
+Decertified
+16
+8-02-1996
 Myotte, Buddy
 018990
+Detention/Correction Basic
+1-22-2015
+Decertified
 1379
+10-18-2010
 Nelson, Stephen J.
 006464
+Peace Officer Basic
 2-16-2005
+Decertified
 3497
+2-07-2002
+Peace Officer Intermediate
+2-16-2005
+Decertified
 1639
+2-07-2002
 Olson, James W.
 001238
+SEP 30,2019
+Montana
+POST
+Council
+Page
 17
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
+Peace Officer Basic
+8-21-2003
+Decertified
 1753
+10-10-1985
+Coroner Basic
+8-21-2003
+Decertified
 135
 3-05-1991
+Peace Officer Intermediate
+8-21-2003
+Decertified
 761
 7-07-1988
 Patten, Travis
@@ -915,172 +2210,467 @@ Pepion, Aaron J.
 019424
 Philippi, Chad D.
 006872
+Peace Officer Advanced
+7-15-2015
+Decertified
 1081
+2-19-2004
+7-15-2015
+Peace Officer Basic
+7-15-2015
+Decertified
 3432
+11-15-2001
+7-15-2015
+Instructor
+7-15-2015
+Decertified
+2-27-2012
 2-27-2014
+Peace Officer Intermediate
+7-15-2015
+Decertified
 1622
+11-15-2001
+7-15-2015
 Pike, Tadd A.
 015468
 Pinkley, Joseph W.
 007753
+Peace Officer Basic
+8-19-1999
+Decertified
 2980
 2-19-1998
 Pitman, Dustin
 017045
+Peace Officer Basic
 10-24-2013
+Decertified
 3967
+11-17-2005
+Instructor
+10-24-2013
+Decertified
 6-20-2011
 6-20-2013
+Peace Officer Intermediate
+10-24-2013
+Decertified
 2697
 2-14-2011
 Pitman, Jason C.
 013289
+Peace Officer Basic
 8-29-2008
+Decertified
 3513
+5-16-2002
 Powell, John A.
 016159
+Peace Officer Basic
 1-16-2018
+Decertified
 4678
+1-19-2012
 Price, Paul A.
 021173
+Detention/Correction Basic
 5-14-2019
+Decertified
 1680
+9-03-2014
 Racine Jr., Gary L.
 003300
+Peace Officer Basic
+11-17-2005
+Decertified
 3078
+2-18-1999
+Peace Officer Command
+11-17-2005
+Decertified
 231
+8-17-2000
+Coroner Basic
+11-17-2005
+Decertified
 223
+1-25-1996
+Peace Officer Intermediate
+11-17-2005
+Decertified
 1356
+2-18-1999
+SEP 30,2019
+Montana
+POST
+Council
+Page
 18
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
+Peace Officer Supervisor
+11-17-2005
+Decertified
 740
+2-18-1999
 Racine, Ronnie D.
 001327
+Peace Officer Advanced
+8-29-1995
+Decertified
 560
+1-20-1994
+Peace Officer Basic
+8-29-1995
+Decertified
 1730
 6-13-1985
+Coroner Basic
+8-29-1995
+Decertified
 86
 12-01-1988
+Peace Officer Intermediate
+8-29-1995
+Decertified
 991
+1-20-1994
 Rankin, Harlan H.
 001332
+Peace Officer Basic
+2-19-1998
+Decertified
 1770
 11-07-1985
 Raty, James A.
 016881
+Detention/Correction Basic
 6-05-2012
+Decertified
+1016
+2-16-2006
+Instructor
+6-05-2012
+Decertified
+6-20-2011
+6-20-2013
+Peace Officer Intermediate
+6-05-2012
+Decertified
 2570
 7-20-2009
+Peace Officer Supervisor
+6-05-2012
+Decertified
 2554
+7-20-2009
 Reap, Darrion R.
 023513
+Detention/Correction Basic
+2-20-2018
+Decertified
 2192
+7-21-2016
 Reap, Martin E.
 021746
 Rebo Sr., Scott A.
 006761
+Detention/Correction Advanced
 11-18-2011
+Decertified
 220
+5-15-2008
+Detention/Correction Basic
+11-18-2011
+Decertified
 904
+5-20-2004
+Detention/Correction Intermediate
+11-18-2011
+Decertified
 314
+5-20-2004
 Redhawk, Rick L.
 015310
 Rhineheart, Marcus A.
 024555
+Detention/Correction Basic
+11-26-2018
+Decertified
+2-01-2018
 Richardson, Casey W.
 005651
+Peace Officer Basic
+2-20-2019
+Decertified
 2746
+5-02-1996
+Peace Officer Intermediate
+2-20-2019
+Decertified
 2156
+5-15-2008
+Peace Officer Supervisor
+2-20-2019
+Decertified
+1069
+5-15-2008
 Richardson, Danielle R.
 022241
+Detention/Correction Basic
 7-03-2018
+Decertified
 1976
+11-02-2015
+SEP 30,2019
+Montana
+POST
+Council
+Page
 19
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
 Roberts, Benjamin E.
 016910
 Roberts, Russell P.
 006137
+Peace Officer Basic
+11-14-2002
+Decertified
 2659
+11-09-1995
 Robertson, Andrew
 007328
 Robinson, Brandon J.
 019362
+Detention/Correction Basic
+1-28-2019
+Decertified
 2241
+10-17-2016
 Rodrigues, Sarah M.
 023635
+Detention/Correction Basic
+6-10-2016
+Decertified
 1935
+9-22-2015
 Rossmiller, Rick A.
 008826
+Peace Officer Basic
+11-16-2006
+Decertified
 3408
+8-16-2001
+Coroner Basic
+11-16-2006
+Decertified
 370
+2-20-2003
+Peace Officer Intermediate
+11-16-2006
+Decertified
 1959
+5-19-2005
 Rowling, Robert J.
 010555
+Detention/Correction Basic
+11-14-2002
+Decertified
 340
+5-18-2000
+Detention/Correction Intermediate
+11-14-2002
+Decertified
 228
+5-16-2002
 Saksa, Courtney M.
 017962
 Saldana, Benjamin
 024906
+Detention/Correction Basic
 10-24-2018
+Decertified
+3-30-2018
 Schardien, Shannon J.
 017718
+Communicator Basic
+11-20-2008
+Decertified
 238
+5-18-2006
 Schell, Raymond A.
 010109
+Detention/Correction Basic
+5-19-2005
+Decertified
 551
+11-16-2000
 Schmidt, Edward L.
 006029
 Schmidt, Susan R.
 023772
+Detention/Correction Basic
 3-08-2017
+Decertified
 1936
+9-28-2015
 Schnittgen, Donald T.
 002063
 Schoening, Joshua B.
 019688
+SEP 30,2019
+Montana
+POST
+Council
+Page
 20
+12:45PM
+Employee
+Certification
+Report
+Invisible Institute Inactive Sanctioned Officers
+Certificate
+Level
+Status Date
+Status
+Cert #
+Certified
+Expires
+Probation
+Peace Officer Advanced
 1-08-2018
+Decertified
 3132
+10-17-2016
+Peace Officer Basic
+1-08-2018
+Decertified
 4418
+10-19-2009
+Instructor
+1-08-2018
+Decertified
 7-06-2017
 7-06-2019
+Peace Officer Intermediate
+1-08-2018
+Decertified
 2927
+10-15-2012
 Schwartz, Franklin R.
 021916
+Peace Officer Basic
 7-10-2017
+Decertified
 4967
+2-26-2014
 Schwindt, Larry M.
 020838
+Peace Officer Basic
 7-07-2014
+Decertified
 4731
 4-12-2012
 Scott, Joseph D.
 015882
+Peace Officer Basic
+5-05-2011
+Suspended
 3995
+11-17-2005
 Sharbono, Michael D.
 008802
 Sieler, Joel D.
 018377
+Peace Officer Basic
 8-01-2016
+Decertified
 4993
+5-08-2014
+Peace Officer Intermediate
+8-01-2016
+Decertified
 3092
+5-08-2014
 Silva, Tim J.
 022072
+Detention/Correction Basic
+7-10-2017
+Decertified
 1729
+3-11-2015
 Sinness, Christopher
 020666
+Peace Officer Basic
+2-20-2018
+Decertified
 4610
+5-05-2011
+Peace Officer Intermediate
+2-20-2018
+Decertified
+3110
+9-03-2014
 Skinner, Seth J.
 014407
 Smith, Angela M.
 018831
+Detention/Correction Basic
+5-24-2018
+Decertified
 1496
+10-15-2012
 Smith, Brittany
 024358
+Detention/Correction Basic
+7-09-2018
+Decertified
 2200
+7-21-2016
 Smith, Curtis J.
 017556
+Peace Officer Advanced
+1-16-2018
+Decertified
 3145
+12-01-2016
+Peace Officer Basic
+1-16-2018
+Decertified
 4143
+5-17-2007
+Coroner Basic
+1-16-2018
+Decertified
 1306
+12-14-2012
+Peace Officer Intermediate
+1-16-2018
+Decertified
 2898
+4-23-2013

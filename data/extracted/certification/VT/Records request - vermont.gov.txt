@@ -1,9 +1,9 @@
-Aug 20, 2019, 12:
+Aug 20, 2019, 12
 02 PM
-From:
-"Williams, Gail" <Gail.Williams@vermont.gov>
-To:
-"foia@invisibleinstitute.com" <foia@invisibleinstitute.com>
+From
+ "Williams, Gail" <Gail.Williams@vermont.gov>
+To
+ "foia@invisibleinstitute.com" <foia@invisibleinstitute.com>
 Administrative
 Services
 Coordinator
@@ -11,6 +11,7 @@ Vermont
 Police
 Academy
 317
+Academy
 Rd.,
 Pittsford,
 VT
