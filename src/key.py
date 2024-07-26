@@ -1,6 +1,8 @@
 import json
 import extract
 import math
+from model import model 
+model_name = 'gpt-4'
 
 def get_relative_locations(path):
     line_number = 0
@@ -36,18 +38,33 @@ def get_relative_location_path(extracted_path):
     path = extracted_path[:-4] + '_relative_location.csv'
     return path
 
-def perfect_match(v1,v2):
+def perfect_match(v1,v2,k):
     if(len(v1)!=len(v2)):
         return 0
     delta = abs(v1[0] - v2[0])
     for i in range(len(v1)):
-        if(abs(v1[i]-v2[i]) != delta):
+        if(abs(v1[i]-v2[i])-delta > k):
+            #print(delta, v1[i],v2[i])
             return 0
     return 1
     
-def is_subsequence(seq1, seq2):#len(seq1) < len(seq2)
-    iter_seq2 = iter(seq2)
-    return all(item in iter_seq2 for item in seq1)
+def is_subsequence(seq1, seq2, k):#len(seq1) < len(seq2)
+    i = 0
+    j = 0 
+    matched_count = 0
+    while(True):
+        if(abs(seq1[i] - seq2[j]) <= k):
+            matched_count += 1
+            i += 1
+            j += 1
+        else:
+            j += 1
+        if(i == len(seq1) or j == len(seq2)):
+            break
+    if(matched_count < len(seq1)):
+        return 0
+    return 1
+
 
 def partial_perfect_match(v1,v2):#len(v1) < len(v2)
     delta = abs(v1[0] - v2[0])
@@ -62,7 +79,7 @@ def partial_perfect_match(v1,v2):#len(v1) < len(v2)
         return 1
     return 0
 
-def perfect_align_clustering(phrases_vec):
+def perfect_align_clustering(phrases_vec,k):
     mp = {}
     remap = {}
     id = 0
@@ -88,12 +105,27 @@ def perfect_align_clustering(phrases_vec):
             if(pj in mp):
                 continue
 
-            if(perfect_match(vi,vj) == 1):
-                mp[pj] = mp[pi]
-                remap[mp[pi]].append(pj)
+            if(perfect_match(vi,vj,k) == 1):
+                mp[pj] = id-1
+                remap[id-1].append(pj)
     
     return mp, remap
 
+def cluster_filtering(clusters):
+    #trick 1: drop singleton cluster 
+    #for each remaining cluster, if half of phrases are not header, drop this cluster 
+    instruction = 'The following list contains possibly keys and values extracted from a table. Return to me all the keys without explanation, and seperate each key by comma. ' 
+    for cid, l in clusters.items():
+        context = ", ".join(l)
+        prompt = (instruction,context)
+        response = model(model_name,prompt)
+        print(response,l)
+
+def clustering_group(clusters):
+    c = {}
+    for cid, l in clusters.items():
+        c[cid] = len(l)
+    sorted_dict = dict(sorted(c.items(), key=lambda item: item[1]))
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
