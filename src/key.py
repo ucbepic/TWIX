@@ -214,10 +214,16 @@ def clustering_group(phrases_vec, clusters, candidate_key_clusters, k=1):
                 key_clusters.append(cid)
                 break
 
-    print(candidate_key_clusters)
+    #print(candidate_key_clusters)
     key_clusters += candidate_key_clusters
-    print(key_clusters)
+    #print(key_clusters)
     return key_clusters
+
+def get_keys(cluters, key_clusters):
+    keys = []
+    for key in key_clusters:
+        keys += cluters[key]
+    return keys
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
@@ -246,5 +252,7 @@ if __name__ == "__main__":
         mp, remap = perfect_align_clustering(phrases,k)
         #clustering_group(phrases, remap, k)
         candidate_key_clusters = candidate_key_clusters_selection(remap)
-        clustering_group(phrases, remap, candidate_key_clusters, k=1)
+        key_clusters = clustering_group(phrases, remap, candidate_key_clusters, k=1)
+        keys = get_keys(remap, key_clusters)
+        print(keys)
         
