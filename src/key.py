@@ -1,8 +1,12 @@
 import json
 import extract
-import math
+import numpy as np
+import scipy.stats
+import sys
+sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
-model_name = 'gpt-4'
+import networkx as nx
+model_name = 'gpt4o'
 
 def get_relative_locations(path):
     line_number = 0
@@ -66,7 +70,7 @@ def is_subsequence(seq1, seq2, k):#len(seq1) < len(seq2)
     return 1
 
 
-def partial_perfect_match(v1,v2):#len(v1) < len(v2)
+def partial_perfect_match(v1,v2,k):#len(v1) < len(v2)
     delta = abs(v1[0] - v2[0])
     new_v1 = []
     if(v1[0] < v2[0]):
@@ -75,7 +79,7 @@ def partial_perfect_match(v1,v2):#len(v1) < len(v2)
     else:
         for v in v1:
             new_v1.append(v - delta)
-    if(is_subsequence(new_v1,v2)):
+    if(is_subsequence(new_v1,v2,k)):
         return 1
     return 0
 
@@ -85,7 +89,8 @@ def perfect_align_clustering(phrases_vec,k):
     id = 0
     phrases = []
     for phrase, vec in phrases_vec.items():
-        phrases.append(phrase)
+        if(len(vec) > 1):#phrase appearing only one time is trievally perfectly align with any other one-time phrase and discard them 
+            phrases.append(phrase)
 
     for i in range(len(phrases)):
         pi = phrases[i]
@@ -111,21 +116,117 @@ def perfect_align_clustering(phrases_vec,k):
     
     return mp, remap
 
-def cluster_filtering(clusters):
-    #trick 1: drop singleton cluster 
-    #for each remaining cluster, if half of phrases are not header, drop this cluster 
-    instruction = 'The following list contains possibly keys and values extracted from a table. Return to me all the keys without explanation, and seperate each key by comma. ' 
+def result_gen_from_response(response, s):
+    lst = []
+    if('|' not in response and 'no' in response.lower()):
+        for i in range(s):
+            lst.append(0)
+        return lst
+    l = response.split('|')
+    for i in range(len(l)+1):
+        lst.append(1)
+    for i in range(s - (len(l) + 1)):
+        lst.append(0)
+    return lst
+
+def candidate_key_clusters_selection(clusters):
+    #clusters: cid -> [list of phrases]
+    instruction = 'The following list contains possibly keys and values extracted from a table. Return to me all the keys without explanation, and seperate each key by |. If no key is found, return NO.' 
+    mp = {}
+    cids = []
     for cid, l in clusters.items():
+        if(len(l) == 1):
+            continue
         context = ", ".join(l)
         prompt = (instruction,context)
         response = model(model_name,prompt)
-        print(response,l)
+        print(response)
+        lst = result_gen_from_response(response, len(l))
+        print(lst)
+        p, w = mean_confidence_interval(lst)
+        print(p,w)
+        mp[cid] = (p,w)
+        cids.append(cid)
 
-def clustering_group(clusters):
-    c = {}
-    for cid, l in clusters.items():
-        c[cid] = len(l)
-    sorted_dict = dict(sorted(c.items(), key=lambda item: item[1]))
+    #topology order to select maximal key set 
+    out_degree = {}
+    for i in range(len(cids)):
+        ci = cids[i]
+        for j in range(i+1, len(cids)):
+            cj = cids[j]
+            if(mp[ci][0] > mp[cj][0] and mp[ci][1] < mp[cj][1]):
+                #ci dominates cj, add edge from cj to ci
+                if(cj not in out_degree):
+                    out_degree[cj] = 1
+            elif(mp[ci][0] < mp[cj][0] and mp[ci][1] > mp[cj][1]):
+                #cj dominates ci, add edge from ci to cj
+                if(ci not in out_degree):
+                    out_degree[ci] = 1
+    candidate_key_clusters = []
+    for cid in cids:
+        if(cid not in out_degree):
+            candidate_key_clusters.append(cid)
+    print(candidate_key_clusters)
+    return candidate_key_clusters 
+
+def mean_confidence_interval(data, confidence=0.95):
+    a = 1.0 * np.array(data)
+    n = len(a)
+    m, se = np.mean(a), scipy.stats.sem(a)
+    h = se * scipy.stats.t.ppf((1 + confidence) / 2., n-1)
+    return m, h
+
+def cluster_partial_match(c1,c2,phrases_vec,k):
+    # print(c1)
+    # print(c2)
+    l1 = len(phrases_vec[c1[0]])
+    l2 = len(phrases_vec[c2[0]])
+    #print(l1,l2)
+    nc1 = []
+    nc2 = []
+    if(l1 < l2):
+        nc1 = c1
+        nc2 = c2
+    else:
+        nc1 = c2
+        nc2 = c1
+    for i in range(len(nc1)):
+        for j in range(i+1, len(nc2)):
+            if(partial_perfect_match(phrases_vec[nc1[i]],phrases_vec[nc2[j]],k) == 1):
+                print(nc1[i],phrases_vec[nc1[i]])
+                print(nc2[j],phrases_vec[nc2[j]])
+                print('')
+                return 1
+    return 0
+        
+
+def clustering_group(phrases_vec, clusters, k=1):
+    G = nx.DiGraph()
+
+    # Add edges
+    nodes = []
+    edges = []
+    for n, v in clusters.items():
+        nodes.append(n)
+
+    for i in range(len(nodes)):
+        for j in range(i+1, len(nodes)):
+            #print(nodes[i], nodes[j])
+            if(cluster_partial_match(clusters[nodes[i]], clusters[nodes[j]], phrases_vec, k) == 1):
+                edges.append((nodes[i], nodes[j]))
+            #break
+        #break
+
+    G.add_edges_from(edges)
+
+    # Find weakly connected components
+    wcc = list(nx.weakly_connected_components(G))
+
+    # Print the weakly connected components
+    # print("Weakly Connected Components:")
+    for component in wcc:
+        print(list(component))
+    
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
@@ -139,16 +240,19 @@ if __name__ == "__main__":
 
     id = 0
     tested_id = 2 #starting from 1
+    k=1
 
     for path in tested_paths:
         id += 1
-        # if(id != tested_id):
-        #     continue
+        if(id != tested_id):
+            continue
         #print(path)
         extracted_path = get_extracted_path(path)
         #print(extracted_path)
         phrases = get_relative_locations(extracted_path)
         out_path = get_relative_location_path(extracted_path)
         phrases = read_dict(out_path)
-        perfect_align_clustering(phrases)
+        mp, remap = perfect_align_clustering(phrases,k)
+        #clustering_group(phrases, remap, k)
+        candidate_key_clusters_selection(remap)
         
