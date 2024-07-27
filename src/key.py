@@ -140,11 +140,11 @@ def candidate_key_clusters_selection(clusters):
         context = ", ".join(l)
         prompt = (instruction,context)
         response = model(model_name,prompt)
-        print(response)
+        #print(response)
         lst = result_gen_from_response(response, len(l))
-        print(lst)
+        #print(lst)
         p, w = mean_confidence_interval(lst)
-        print(p,w)
+        #print(p,w)
         mp[cid] = (p,w)
         cids.append(cid)
 
@@ -200,33 +200,24 @@ def cluster_partial_match(c1,c2,phrases_vec,k):
     return 0
         
 
-def clustering_group(phrases_vec, clusters, k=1):
-    G = nx.DiGraph()
+def clustering_group(phrases_vec, clusters, candidate_key_clusters, k=1):
+    key_clusters = []
+    for cid, vals in clusters.items():
+        l1 = len(phrases_vec[vals[0]])
+        if(cid in candidate_key_clusters):
+            continue
+        for k_cid in candidate_key_clusters:
+            l2 = len(phrases_vec[clusters[k_cid][0]])
+            if(l1 < l2):
+                continue
+            if(cluster_partial_match(clusters[cid], clusters[k_cid], phrases_vec, k) == 1):
+                key_clusters.append(cid)
+                break
 
-    # Add edges
-    nodes = []
-    edges = []
-    for n, v in clusters.items():
-        nodes.append(n)
-
-    for i in range(len(nodes)):
-        for j in range(i+1, len(nodes)):
-            #print(nodes[i], nodes[j])
-            if(cluster_partial_match(clusters[nodes[i]], clusters[nodes[j]], phrases_vec, k) == 1):
-                edges.append((nodes[i], nodes[j]))
-            #break
-        #break
-
-    G.add_edges_from(edges)
-
-    # Find weakly connected components
-    wcc = list(nx.weakly_connected_components(G))
-
-    # Print the weakly connected components
-    # print("Weakly Connected Components:")
-    for component in wcc:
-        print(list(component))
-    
+    print(candidate_key_clusters)
+    key_clusters += candidate_key_clusters
+    print(key_clusters)
+    return key_clusters
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
@@ -254,5 +245,6 @@ if __name__ == "__main__":
         phrases = read_dict(out_path)
         mp, remap = perfect_align_clustering(phrases,k)
         #clustering_group(phrases, remap, k)
-        candidate_key_clusters_selection(remap)
+        candidate_key_clusters = candidate_key_clusters_selection(remap)
+        clustering_group(phrases, remap, candidate_key_clusters, k=1)
         
