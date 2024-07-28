@@ -47,7 +47,8 @@ def perfect_match(v1,v2,k):
         return 0
     delta = abs(v1[0] - v2[0])
     for i in range(len(v1)):
-        if(abs(v1[i]-v2[i])-delta > k):
+        #print(abs(abs(v1[i]-v2[i])-delta))
+        if(abs(abs(v1[i]-v2[i])-delta) > k):
             #print(delta, v1[i],v2[i])
             return 0
     return 1
@@ -133,16 +134,21 @@ def candidate_key_clusters_selection(clusters):
     mp = {}
     cids = []
     for cid, l in clusters.items():
-        if(len(l) <=3 ):
+        
+        if(len(l) <=3):
             continue
         context = ", ".join(l)
         prompt = (instruction,context)
         response = model(model_name,prompt)
-        #print(response)
         lst = result_gen_from_response(response, len(l))
-        #print(lst)
         p, w = mean_confidence_interval(lst)
-        #print(p,w)
+        # if(cid == 6):
+        #     print(response)
+        #     print(lst)
+        #     print(p,w)
+        #important: if all 0, then confidence width is also 0, which makes other node hard dominate this one even it's the worst
+        if(p == 0):
+            continue
         mp[cid] = (p,w)
         cids.append(cid)
 
@@ -256,8 +262,8 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 1 #starting from 1
-    k=3
+    tested_id = 3 #starting from 1
+    k=1
 
     for path in tested_paths:
         id += 1
