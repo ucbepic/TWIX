@@ -4,6 +4,6 @@ Sex
 Birth Date
 Age
 Employee Type
-Exployee
+Employee
 Instructor
 Supervisor
