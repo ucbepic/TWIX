@@ -3,9 +3,9 @@ import extract
 import numpy as np
 import scipy.stats
 import sys
+import networkx as nx
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
-import networkx as nx
 model_name = 'gpt4o'
 
 def get_relative_locations(path):
@@ -233,6 +233,11 @@ def get_keys(cluters, key_clusters):
 def get_result_path(raw_path):
     path = raw_path.replace('data/raw','result')
     path = path.replace('.pdf', '.txt')
+    return path
+
+def get_baseline_result_path(raw_path,baseline_name):
+    path = raw_path.replace('data/raw','result')
+    path = path.replace('.pdf', '_' + baseline_name + '.txt')
     return path
 
 def write_result(result_path, keys):
