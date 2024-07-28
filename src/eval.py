@@ -33,10 +33,11 @@ def eval(truths, results):
             FP.append(v)
         else:
             precision += 1
-            recall += 1
     for v in truths:
         if(v not in results):
             FN.append(v)
+        else:
+            recall += 1
     precision = precision / len(results)
     recall = recall / len(truths)
 

@@ -2,7 +2,7 @@ import sys
 import key
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
-model_name = 'gpt4o'
+model_name = 'gpt4omini'
 
 def LLM_text(phrases, path):
     instruction = 'The following list contains keys and values extracted from a document, return all the keys seperated by |. '

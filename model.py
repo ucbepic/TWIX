@@ -20,6 +20,9 @@ def model(model_name, prompt):
     if(model_name == 'gpt4o'):
         from models.gpt_4o import gpt_4o
         return gpt_4o(prompt)
+    if(model_name == 'gpt4omini'):
+        from models.gpt_4o_mini import gpt_4o_mini
+        return gpt_4o_mini(prompt)
     if(model_name is 'flant5small'):
         from models.flan_t5_small_model import flant5small
         return flant5small(prompt)
