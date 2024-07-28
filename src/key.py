@@ -262,7 +262,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 3 #starting from 1
+    tested_id = 4 #starting from 1
     k=1
 
     for path in tested_paths:
