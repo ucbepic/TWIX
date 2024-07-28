@@ -135,14 +135,14 @@ def candidate_key_clusters_selection(clusters):
     cids = []
     for cid, l in clusters.items():
         
-        if(len(l) <=3):
+        if(len(l) <= 2):
             continue
         context = ", ".join(l)
         prompt = (instruction,context)
         response = model(model_name,prompt)
         lst = result_gen_from_response(response, len(l))
         p, w = mean_confidence_interval(lst)
-        # if(cid == 6):
+        # if(cid == 19):
         #     print(response)
         #     print(lst)
         #     print(p,w)

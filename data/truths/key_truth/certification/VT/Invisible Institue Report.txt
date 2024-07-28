@@ -4,12 +4,10 @@ Certified
 Expires
 Probation
 Cert #
-Service:
-Date:
-Action:
-Status:
-Assignment:
-Pos/Rank:
-Level:
-Class:
-Shift:
+Service
+Action
+Assignment
+Pos/Rank
+Level
+Class
+Shift
