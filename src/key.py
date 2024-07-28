@@ -166,7 +166,7 @@ def candidate_key_clusters_selection(clusters):
     for cid in cids:
         if(cid not in out_degree):
             candidate_key_clusters.append(cid)
-    print(candidate_key_clusters)
+    #print(candidate_key_clusters)
     return candidate_key_clusters 
 
 def mean_confidence_interval(data, confidence=0.95):
@@ -193,9 +193,9 @@ def cluster_partial_match(c1,c2,phrases_vec,k):
     for i in range(len(nc1)):
         for j in range(i+1, len(nc2)):
             if(partial_perfect_match(phrases_vec[nc1[i]],phrases_vec[nc2[j]],k) == 1):
-                print(nc1[i],phrases_vec[nc1[i]])
-                print(nc2[j],phrases_vec[nc2[j]])
-                print('')
+                #print(nc1[i],phrases_vec[nc1[i]])
+                #print(nc2[j],phrases_vec[nc2[j]])
+                #print('')
                 return 1
     return 0
         
@@ -225,8 +225,26 @@ def get_keys(cluters, key_clusters):
         keys += cluters[key]
     return keys
 
+def get_result_path(raw_path):
+    path = raw_path.replace('data/raw','result')
+    path = path.replace('.pdf', '.txt')
+    return path
+
+def write_result(result_path, keys):
+    with open(result_path, 'w') as file:
+        # Iterate over each value in the list
+        for value in keys:
+            # Write each value to a separate line
+            file.write(f"{value}\n")
+
+def get_truth_path(raw_path):
+    path = raw_path.replace('raw','truths/key_truth')
+    path = path.replace('.pdf','.txt')
+    return path
+
 if __name__ == "__main__":
     root_path = extract.get_root_path()
+    #print(root_path)
     tested_paths = []
     tested_paths.append(root_path + '/data/raw/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted.pdf')
     tested_paths.append(root_path + '/data/raw/complaints & use of force/UIUC PD Use of Force/22-274.releasable.pdf')
@@ -244,15 +262,19 @@ if __name__ == "__main__":
         if(id != tested_id):
             continue
         #print(path)
+        result_path = get_result_path(path)
         extracted_path = get_extracted_path(path)
-        #print(extracted_path)
+        #print(result_path)
         phrases = get_relative_locations(extracted_path)
         out_path = get_relative_location_path(extracted_path)
         phrases = read_dict(out_path)
         mp, remap = perfect_align_clustering(phrases,k)
-        #clustering_group(phrases, remap, k)
+        print(remap)
         candidate_key_clusters = candidate_key_clusters_selection(remap)
+        print(candidate_key_clusters)
         key_clusters = clustering_group(phrases, remap, candidate_key_clusters, k=1)
+        print(key_clusters)
         keys = get_keys(remap, key_clusters)
-        print(keys)
+        #print(keys)
+        #write_result(result_path,keys)
         
