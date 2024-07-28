@@ -257,7 +257,7 @@ if __name__ == "__main__":
 
     id = 0
     tested_id = 1 #starting from 1
-    k=1
+    k=3
 
     for path in tested_paths:
         id += 1

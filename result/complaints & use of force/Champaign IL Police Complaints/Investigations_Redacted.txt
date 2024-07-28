@@ -1,3 +1,8 @@
+No
+Not Stated
+Complaint #
+1
+Officer #
 Date
 Number
 Investigator
@@ -8,7 +13,8 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-Complaint #
+N/A
+Complainant
 DOB
 Gender
 Address
@@ -23,5 +29,3 @@ Division
 Officer Disposition
 Action Taken
 Body Cam
-Complainant
-Officer #
