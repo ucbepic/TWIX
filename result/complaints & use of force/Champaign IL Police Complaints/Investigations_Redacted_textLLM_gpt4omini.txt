@@ -31,4 +31,26 @@ Report Criteria
  Officer # 
  L.E.A. Data Technologies 
  ADMINISTRATIVE Database 
- Page
+ Page 
+ Inquiry 
+ Not Stated 
+ Not a complaint 
+ Wrong Action by Employee 
+ No Action by Employee 
+ SUSTAINED 
+ NOT SUSTAINED 
+ EXONERATED 
+ UNFOUNDED 
+ FORMAL 
+ Citizen 
+ Internal 
+ N/A 
+ MULTIPLE OFFICERS/EMPLOY 
+ RET 
+ Senior 
+ DETECTIVE 
+ RECRUIT OFFIC 
+ PENDING 
+ LETTER OF REPRIMA 
+ COUNSELING 
+ 

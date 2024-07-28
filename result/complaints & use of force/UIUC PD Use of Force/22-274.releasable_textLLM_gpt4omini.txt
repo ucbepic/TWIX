@@ -1,14 +1,15 @@
 Report Criteria 
  Incidents Between 
- Officer Detail Reports #A-12 
+ Officer Detail Reports 
  University of Illinois Police Department 
- Page 1 of 27 
+ Page 
  Case Number 
  Date 
  Time 
  Assist 
  Agency 
  Information Taken From 
+ Crime/ Incident 
  Status 
  Incident Reviewed By 
  Date Reviewed 
@@ -55,9 +56,4 @@ Report Criteria
  Narrative 
  L.E.A. Data Technologies 
  ADMINISTRATIVE Database 
- Page 2 of 27 
- Page 3 of 27 
- Page 4 of 27 
- Page 5 of 27 
- Page 6 of 27 
- Page 7 of 27
+

@@ -9,6 +9,7 @@ Report Criteria
  Assist 
  Agency 
  Information Taken From 
+ Crime/ Incident 
  Status 
  Incident Reviewed By 
  Date Reviewed 
@@ -29,8 +30,6 @@ Report Criteria
  Verbal De-Escalation Attempted 
  Notes 
  Subject # 
- Harvey 
- Jamir T. 
  DOB 
  Gender 
  Race 
@@ -56,34 +55,4 @@ Report Criteria
  Included On Alert 
  Narrative 
  L.E.A. Data Technologies 
- ADMINISTRATIVE Database 
- Page 2 of 27 
- Norman 
- Shannon L 
- Beckett 
- Anqwaun Jauwaun 
- Crane 
- Ben 
- Germany 
- Karl 
- Milinkovic 
- Peter C. 
- Perrine 
- Nicholas R. 
- Page 3 of 27 
- Tison 
- Laura J. 
- Hartman 
- Kennedy M 
- Osterholt 
- Drew L. 
- Tran 
- Alex 
- Leake 
- Daniel J. 
- McCullough 
- Joseph G. 
- Page 4 of 27 
- Page 5 of 27 
- Page 6 of 27 
- Page 7 of 27
+ ADMINISTRATIVE Database

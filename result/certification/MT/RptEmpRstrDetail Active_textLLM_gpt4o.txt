@@ -1,8 +1,11 @@
 OCT
+1
+2019
 Montana
 POST
 Council
 Page
+12:25PM
 Employee
 Roster
 with
@@ -14,6 +17,5 @@ Sex
 Birth Date
 Age
 Employee Type
-Employee
 Instructor
 Supervisor

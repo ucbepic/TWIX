@@ -1,6 +1,3 @@
-Here are all the keys separated by "
-":
-
 AUG 19,2019 
  VT 
  Criminal 
@@ -12,6 +9,9 @@ AUG 19,2019
  Employee 
  History 
  Employee training 
+ Aamodt 
+ Michael 
+ J. 
  Certification 
  Date 
  Status 
@@ -23,6 +23,7 @@ AUG 19,2019
  Law Enforcement Full-Time 
  Law Enforcement Part-Time 
  Employment History 
+ VT State Police 
  Service 
  Years 
  Days 
@@ -45,21 +46,33 @@ AUG 19,2019
  Franklin County Sheriff's Department 
  Terminated (Not Specified) 
  Inactive 
+ Deputy 
  Corporal 
  Part-Time 
- Resigned 
- Patrol Officer 
+ Abell 
+ Dustin 
+ J. 
+ Law Enforcement Level II - spec III / Certified 
+ Law Enforcement Level II-E / Certified 
  Grand Isle County Sheriff's Department 
  Part-time 
+ Patrol Officer 
  Chittenden County Sheriff's Department 
  Terminated 
- Winooski Police Department 
+ Acevedo 
+ Eric 
+ EA3743 
+ Hired 
+ Adams 
+ Benjamin 
+ BJA3068 
  Reduced hours 
- VT Dept. of Liquor Control 
  Investigator 
  Vergennes Police Department 
  Jerod 
+ JJA7277 
  Jonathan 
+ JJA1380 
  Windsor Police Department 
  Windsor County Sheriff's Department 
  Hartford Police Department
