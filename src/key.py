@@ -79,9 +79,7 @@ def partial_perfect_match(v1,v2,k):#len(v1) < len(v2)
     else:
         for v in v1:
             new_v1.append(v - delta)
-    if(is_subsequence(new_v1,v2,k)):
-        return 1
-    return 0
+    return is_subsequence(new_v1,v2,k)
 
 def perfect_align_clustering(phrases_vec,k):
     mp = {}
@@ -135,7 +133,7 @@ def candidate_key_clusters_selection(clusters):
     mp = {}
     cids = []
     for cid, l in clusters.items():
-        if(len(l) == 1):
+        if(len(l) <=3 ):
             continue
         context = ", ".join(l)
         prompt = (instruction,context)
@@ -191,7 +189,7 @@ def cluster_partial_match(c1,c2,phrases_vec,k):
         nc1 = c2
         nc2 = c1
     for i in range(len(nc1)):
-        for j in range(i+1, len(nc2)):
+        for j in range(len(nc2)):
             if(partial_perfect_match(phrases_vec[nc1[i]],phrases_vec[nc2[j]],k) == 1):
                 #print(nc1[i],phrases_vec[nc1[i]])
                 #print(nc2[j],phrases_vec[nc2[j]])
@@ -204,6 +202,7 @@ def clustering_group(phrases_vec, clusters, candidate_key_clusters, k=1):
     key_clusters = []
     for cid, vals in clusters.items():
         l1 = len(phrases_vec[vals[0]])
+        
         if(cid in candidate_key_clusters):
             continue
         for k_cid in candidate_key_clusters:
@@ -237,9 +236,12 @@ def write_result(result_path, keys):
             # Write each value to a separate line
             file.write(f"{value}\n")
 
-def get_truth_path(raw_path):
+def get_truth_path(raw_path, meta):
     path = raw_path.replace('raw','truths/key_truth')
-    path = path.replace('.pdf','.txt')
+    if(meta == 1):
+        path = path.replace('.pdf','_metadata.txt')
+    else:
+        path = path.replace('.pdf','.txt')
     return path
 
 if __name__ == "__main__":
@@ -254,7 +256,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 2 #starting from 1
+    tested_id = 1 #starting from 1
     k=1
 
     for path in tested_paths:
@@ -276,5 +278,5 @@ if __name__ == "__main__":
         print(key_clusters)
         keys = get_keys(remap, key_clusters)
         #print(keys)
-        #write_result(result_path,keys)
+        write_result(result_path,keys)
         
