@@ -1,0 +1,16 @@
+Officer Detail Reports #A-12
+University of Illinois Police Department
+Case Number
+Date
+Time
+Assist
+Agency
+Information Taken From
+Crime/ Incident
+Status
+Completed
+Incident Reviewed By
+Date Reviewed
+Drugs/Alcohol
+Location
+

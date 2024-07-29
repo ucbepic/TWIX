@@ -1,4 +1,4 @@
-import key
+import key,os
 
 def read_file(file):
     data = []
@@ -47,7 +47,9 @@ def eval(truths, results):
 
     return precision, recall, FP, FN
 
-if __name__ == "__main__":
+        
+
+def main():
     root_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse'
     tested_paths = []
     tested_paths.append(root_path + '/data/raw/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted.pdf')
@@ -62,8 +64,8 @@ if __name__ == "__main__":
 
         path = tested_paths[tested_id]
         print(path)
-        result_path = key.get_result_path(path)
-        #result_path = key.get_baseline_result_path(path,'textLLM_gpt4')
+        #result_path = key.get_result_path(path)
+        result_path = key.get_baseline_result_path(path,'clustering')
         truth_path = key.get_truth_path(path,1)
         extracted_path = key.get_extracted_path(path)
 
@@ -75,3 +77,6 @@ if __name__ == "__main__":
         precision, recall, FP, FN = eval(truths, results)
         print(precision,recall)
         #break
+
+if __name__ == "__main__":
+    main()

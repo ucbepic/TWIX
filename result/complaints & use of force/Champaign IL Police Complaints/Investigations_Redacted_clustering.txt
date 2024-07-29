@@ -1,0 +1,32 @@
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+No
+Not Stated
+Citizen
+N/A
+Complainant
+DOB
+Gender
+Address
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+1
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+
