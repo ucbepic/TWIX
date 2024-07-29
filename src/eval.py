@@ -40,8 +40,8 @@ def eval(truths, results):
             FN.append(v)
         else:
             recall += 1
-    print(len(results), precision)
-    print(len(truths), recall)
+    # print(len(results), precision)
+    # print(len(truths), recall)
     precision = precision / len(results)
     recall = recall / len(truths)
 
@@ -62,8 +62,8 @@ if __name__ == "__main__":
 
         path = tested_paths[tested_id]
         print(path)
-        #result_path = key.get_result_path(path)
-        result_path = key.get_baseline_result_path(path,'textLLM_gpt4')
+        result_path = key.get_result_path(path)
+        #result_path = key.get_baseline_result_path(path,'textLLM_gpt4')
         truth_path = key.get_truth_path(path,1)
         extracted_path = key.get_extracted_path(path)
 
