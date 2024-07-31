@@ -16,6 +16,7 @@ def read_json(path):
 
 
 def record_extraction(phrases,predict_labels):
+    #only return the first record 
     first_key = 'null'
     ps = []
     for p in phrases:
@@ -25,6 +26,7 @@ def record_extraction(phrases,predict_labels):
         if(p in predict_labels):
             if(first_key == 'null'):
                 first_key = p
+    #print(first_key)
     return ps 
 
 def format(lst):
@@ -60,10 +62,37 @@ def pattern_detection(phrases, predict_labels, threshold = 0.9):
     else:
         return 'kv or mix'
     
+def get_bb_per_record(record_appearance, phrases_bb, phrases):
+    #record_appearance: phrase p->the number of appearances of p so far 
+    #output: phases and the correspinding bb 
+    pv = {}
+    for p in phrases:
+        c = phrases.count(p)
+        if(p not in pv and p in phrases_bb):
+            cur = record_appearance[p]
+            pv[p] = phrases_bb[p][cur: cur + c]
+            record_appearance[p] = cur + c
+    return record_appearance, pv
 
-def table_extraction(phrases_bb, predict_labels):
-    
-    a=0
+def table_extraction(phrases_bb, predict_labels, phrases):
+    #get phrases for the first record 
+    first_record = record_extraction(phrases, predict_labels)
+    #print(first_record)
+    #initialzie record_appearance
+    record_appearance = {}
+    for p in phrases:
+        record_appearance[p] = 0
+    #get the bounding box vector of phrases for the first record  
+    record_appearance,pv = get_bb_per_record(record_appearance, phrases_bb, first_record)
+    for p,v in pv.items():
+        print(p,v)
+
+
+def format_dict(dict):
+    d = {}
+    for k,v in dict.items():
+        d[k.lower()] = v
+    return d
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
@@ -94,7 +123,7 @@ if __name__ == "__main__":
         truths = format(read_file(truth_path))
         results = format(read_file(result_path))
         phrases = format(read_file(extracted_path))
-        phrases_bb = read_json(bb_path)
+        phrases_bb = format_dict(read_json(bb_path))
 
-        table_extraction(phrases_bb, results)
+        table_extraction(phrases_bb, results, phrases)
         #print(pattern_detection(phrases, results))
