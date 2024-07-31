@@ -70,6 +70,7 @@ def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
                         if phrase_text in phrases:
                             
                             # Phrase already exists, append the bounding box to the list of bounding boxes
+                            print(phrase_text, tuple(current_bbox))
                             phrases[phrase_text].append(tuple(current_bbox))
                         else:
                           
@@ -77,7 +78,7 @@ def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
                             phrases[phrase_text] = [tuple(current_bbox)]
                         # Reset for the next phrase
                         current_phrase = [word['text']]
-                        current_bbox = [page_break, word['x0'], word['top'], word['x1'], word['bottom']]
+                        current_bbox = [word['x0'], word['top'], word['x1'], word['bottom']]
                 
                 # Append the last phrase and its bounding box
                 # phrases[' '.join(current_phrase)] = current_bbox
@@ -175,7 +176,7 @@ def write_texts(data_folder):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         print(path)
-        # if('22-274.releasable' not in path):
+        # if('Munson' not in path):
         #     continue
         text_path = get_text_path(path, '.txt')
         dict_path = get_text_path(path, '.json')
@@ -187,10 +188,7 @@ def write_texts(data_folder):
                 if(len(p) == 0):
                     continue
                 adjusted_phrases.append(p)
-        #print(phrases)
-        #write phrase-only 
-        write_phrase(text_path, adjusted_phrases)
-        #write the complete dict 
+        #write_phrase(text_path, adjusted_phrases)
         write_dict(dict_path, phrases)
 
         

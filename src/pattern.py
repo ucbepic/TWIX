@@ -1,4 +1,4 @@
-import key,extract 
+import key,extract,json 
 
 def read_file(file):
     data = []
@@ -8,6 +8,12 @@ def read_file(file):
             # Print the line (you can replace this with other processing logic)
             data.append(line.strip())
     return data
+
+def read_json(path):
+    with open(path, 'r') as file:
+        data = json.load(file)
+    return data
+
 
 def record_extraction(phrases,predict_labels):
     first_key = 'null'
@@ -26,6 +32,10 @@ def format(lst):
     for v in lst:
         l.append(v.lower().strip())
     return l
+
+def get_bb_path(extracted_file):
+    file = extracted_file.replace('.txt','.json')
+    return file 
 
 def pattern_detection(phrases, predict_labels, threshold = 0.9):
     phrases = record_extraction(phrases, predict_labels)
@@ -50,6 +60,11 @@ def pattern_detection(phrases, predict_labels, threshold = 0.9):
     else:
         return 'kv or mix'
     
+
+def table_extraction(phrases_bb, predict_labels):
+    
+    a=0
+
 if __name__ == "__main__":
     root_path = extract.get_root_path()
     #print(root_path)
@@ -67,14 +82,19 @@ if __name__ == "__main__":
 
     for path in tested_paths:
         id += 1
-        # if(id != tested_id):
-        #     continue
+        if(id != tested_id):
+            continue
         print(path)
         result_path = key.get_result_path(path)
         truth_path = key.get_truth_path(path,1)
         extracted_path = key.get_extracted_path(path)
+        bb_path = get_bb_path(extracted_path)
+
 
         truths = format(read_file(truth_path))
         results = format(read_file(result_path))
         phrases = format(read_file(extracted_path))
-        print(pattern_detection(phrases, results))
+        phrases_bb = read_json(bb_path)
+
+        table_extraction(phrases_bb, results)
+        #print(pattern_detection(phrases, results))
