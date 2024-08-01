@@ -131,6 +131,36 @@ def find_bb_value_group(vg):
         bbv[id] = (b0,b1,b2,b3)
     return bbv
 
+def identify_headers(key_mp, predict_labels, footers):
+    headers = []
+    keys = []
+    for id, key in key_mp.items():
+        keys.append(key)
+    for key in predict_labels:
+        if(key not in keys and key not in footers):
+            headers.append(key)
+    return headers
+
+def filter_key(bbv, phrases_bb, predict_labels):
+    #output: a dict. cluster_id -> key
+    vertical_dis = {}
+    key_mp = {}
+    for phrase, bb in phrases_bb.items():
+        if(phrase in predict_labels):
+            b = bb[0]
+            for id, bb in bbv.items():
+                if(is_inclusive(b,bb) == 1):
+                    vdis = bb[1] - b[3]
+                    if(id not in key_mp):
+                        key_mp[id] = phrase
+                        vertical_dis[id] = vdis
+                    else:
+                        if(vdis <= vertical_dis[id]):#update to the closest key 
+                            key_mp[id] = phrase
+                            vertical_dis[id] = vdis
+    return key_mp
+                    
+
 def find_value_group(pv, predict_labels):
     pv = sort_val_based_on_bb_width(pv, predict_labels)
 
@@ -184,14 +214,13 @@ def table_extraction(phrases_bb, predict_labels, phrases):
     record_appearance,pv = get_bb_per_record(record_appearance, phrases_bb, first_record)
     
     
-    mp,footer = find_value_group(pv, predict_labels)
-    for id, item in mp.items():
-        print(id)
-        for p in item:
-            print(p[0])
-    print('footer:')
-    for p in footer:
-        print(p[0])
+    vg,footer = find_value_group(pv, predict_labels)
+    bbv = find_bb_value_group(vg)
+    key_mp = filter_key(bbv, phrases_bb, predict_labels)
+    for id,key in key_mp.items():
+        print(id,key)
+    headers = identify_headers(key_mp, predict_labels, footer)
+    print(headers)
 
 
 def format_dict(dict):
