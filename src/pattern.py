@@ -63,16 +63,90 @@ def pattern_detection(phrases, predict_labels, threshold = 0.9):
         return 'kv or mix'
     
 def get_bb_per_record(record_appearance, phrases_bb, phrases):
+    #phrases: phrase -> a list of bounding box for all records 
     #record_appearance: phrase p->the number of appearances of p so far 
-    #output: phases and the correspinding bb 
-    pv = {}
-    for p in phrases:
+    #output: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
+    pv = []
+    non_dul_phrases = list(set(phrases))#remove duplicated phrases 
+    for p in non_dul_phrases:
         c = phrases.count(p)
         if(p not in pv and p in phrases_bb):
             cur = record_appearance[p]
-            pv[p] = phrases_bb[p][cur: cur + c]
+            lst = phrases_bb[p][cur: cur + c]
+            #create tuple instances 
+            for bb in lst:
+                pv.append((p,bb))
             record_appearance[p] = cur + c
     return record_appearance, pv
+
+def get_horizontal_mid(bb):
+    return (bb[0] + bb[2])/2
+
+def find_closest_value(val, lst):
+    if(len(lst) == 0):
+        return -1
+    # Use a list comprehension to calculate the absolute differences
+    closest_val = min(lst, key=lambda x: abs(x - val))
+    return closest_val
+
+def is_inclusive(b1,b2,delta = 1):
+    #input: b1 and b2 are bounding box of two phrases 
+    if (b1[0] <= b2[0] and b1[2]+delta >= b2[2]):
+        return 1
+    if (b2[0] <= b1[0] and b2[2]+delta >= b1[2]):
+        return 1
+    return 0
+
+def sort_val_based_on_bb_width(pv, predict_labels):
+    new_pv = []
+    for item in pv:
+        p = item[0]
+        bb = item[1]
+        width = bb[2] - bb[0]
+        new_pv.append((p,bb,width))
+    sorted_list = sorted(new_pv, key=lambda x: x[2])
+    return sorted_list
+
+def find_value_group(pv, predict_labels):
+    pv = sort_val_based_on_bb_width(pv, predict_labels)
+
+    #input: a list of tuples. Each tuple:  (phrase, bounding box) 
+    #output: a cluster dict. Cluster id -> a list of tuples
+    mp = {}
+    id = 0
+    footer = []
+    for item in pv:
+        pi = item[0]
+        if(pi in predict_labels):#skip keys, consider values 
+            continue
+        bbi = item[1]
+        #print('***', pi,bbi)
+        is_match = 0 
+        matched_id = -1
+        for i in range(id):#scan cluster 
+            lst = mp[i]
+            for pb in lst:
+                pj = pb[0]
+                bbj = pb[1]
+                if(is_inclusive(bbi,bbj) == 1):
+                    #add to current cluster 
+                    # print(pi,pj)
+                    # print(bbi,bbj)
+                    #mp[i].append(item)
+                    matched_id = i
+                    is_match += 1
+                    break
+            if(is_match > 1):
+                break
+        if(is_match == 0):#there is no cluster matching with current item, create a new cluster
+            mp[id] = [item]
+            id += 1
+        if(is_match == 1):
+            mp[matched_id].append(item)
+        if(is_match > 1):
+            footer.append(item)
+    return mp,footer
+
 
 def table_extraction(phrases_bb, predict_labels, phrases):
     #get phrases for the first record 
@@ -84,8 +158,16 @@ def table_extraction(phrases_bb, predict_labels, phrases):
         record_appearance[p] = 0
     #get the bounding box vector of phrases for the first record  
     record_appearance,pv = get_bb_per_record(record_appearance, phrases_bb, first_record)
-    for p,v in pv.items():
-        print(p,v)
+    
+    
+    mp,footer = find_value_group(pv, predict_labels)
+    for id, item in mp.items():
+        print(id)
+        for p in item:
+            print(p[0])
+    print('footer:')
+    for p in footer:
+        print(p[0])
 
 
 def format_dict(dict):
