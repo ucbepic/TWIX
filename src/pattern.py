@@ -107,6 +107,30 @@ def sort_val_based_on_bb_width(pv, predict_labels):
     sorted_list = sorted(new_pv, key=lambda x: x[2])
     return sorted_list
 
+def find_bb_value_group(vg):
+    #input vg (val_group): cluster_id -> a list of tuples. Each tuple: (phrase, bb)
+    #output: cluster_id -> bb of value group
+    bbv = {}
+    max = 10000
+    min = 0
+    for id, tuples in vg.items():
+        b0 = max#x0
+        b1 = max#top
+        b2 = min#x1
+        b3 = min#bottem
+        for tuple in tuples:
+            b = tuple[1]
+            if(b[0] <= b0):
+                b0 = b[0]
+            if(b[2] >= b2):
+                b2 = b[2]
+            if(b[1] <= b1):
+                b1 = b[1]
+            if(b[3] >= b3):
+                b3 = b[3]
+        bbv[id] = (b0,b1,b2,b3)
+    return bbv
+
 def find_value_group(pv, predict_labels):
     pv = sort_val_based_on_bb_width(pv, predict_labels)
 
