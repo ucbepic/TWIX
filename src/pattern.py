@@ -97,6 +97,63 @@ def is_inclusive(b1,b2,delta = 1):
         return 1
     return 0
 
+def is_aligned(b1,b2,delta = 0.5):
+    if (b1[1] <= b2[1] and b1[3]+delta >= b2[3]):
+        return 1
+    if (b2[1] <= b1[1] and b2[3]+delta >= b1[3]):
+        return 1
+    return 0
+
+def find_rows(vg, key_mp):
+    #key_mp: cluster_id -> key
+    #input: a cluster dict. Cluster id -> a list of tuples. Each tuple:  (phrase, bounding box) 
+    #output: row_id -> a list of tuples. Each tuple:  (phrase, bounding box) 
+    row_id = 0
+    row_mp = {}
+    pb = []
+    re_map = {}#tuple -> key cluster_id
+    for id, tuples in vg.items():
+        for t in tuples:
+            pb.append(t)
+            re_map[t] = id
+    for t in range(pb):
+        pi = t[0]
+        bi = t[1]
+        is_match = 0
+        for id, tuples in row_mp.items():#scan cluster
+            for tt in tuples:
+                pj = tt[0]
+                bj = tt[1]
+                if(is_aligned(bi,bj) == 1):
+                    is_match = 1
+                    row_mp[id].append(t)
+                    break
+            if(is_match == 1):
+                break
+        if(is_match == 0):
+            row_mp[row_id] = [t]
+            row_id += 1
+
+    new_row_mp = {}
+    #sort row based on keys
+    for id, tuples in row_mp.items():
+        lst = []
+        quick_mp = {}
+        for t in tuples:
+            key = re_map[t]
+            quick_mp[key] = t
+        for kid, key in key_mp.items():
+            if(key in quick_mp):
+                lst.append(quick_mp[key])
+            else:
+                lst.append(('null',[0,0,0,0]))#denote missing value 
+        new_row_mp[id] = lst
+
+    return new_row_mp
+
+
+
+
 def sort_val_based_on_bb_width(pv, predict_labels):
     new_pv = []
     for item in pv:
