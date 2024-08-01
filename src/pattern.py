@@ -104,6 +104,11 @@ def is_aligned(b1,b2,delta = 0.5):
         return 1
     return 0
 
+def hash_tuple(tuple):
+    p = tuple[0]
+    bb = tuple[1]
+    return (p,bb[0],bb[1],bb[2],bb[3])
+
 def find_rows(vg, key_mp):
     #key_mp: cluster_id -> key
     #input: a cluster dict. Cluster id -> a list of tuples. Each tuple:  (phrase, bounding box) 
@@ -114,9 +119,10 @@ def find_rows(vg, key_mp):
     re_map = {}#tuple -> key cluster_id
     for id, tuples in vg.items():
         for t in tuples:
+            #print(t)
             pb.append(t)
-            re_map[t] = id
-    for t in range(pb):
+            re_map[hash_tuple(t)] = id
+    for t in pb:
         pi = t[0]
         bi = t[1]
         is_match = 0
@@ -134,17 +140,19 @@ def find_rows(vg, key_mp):
             row_mp[row_id] = [t]
             row_id += 1
 
+    #print(row_mp)
+
     new_row_mp = {}
     #sort row based on keys
     for id, tuples in row_mp.items():
         lst = []
         quick_mp = {}
         for t in tuples:
-            key = re_map[t]
-            quick_mp[key] = t
+            key_id = re_map[hash_tuple(t)]
+            quick_mp[key_id] = t
         for kid, key in key_mp.items():
-            if(key in quick_mp):
-                lst.append(quick_mp[key])
+            if(kid in quick_mp):
+                lst.append(quick_mp[kid])
             else:
                 lst.append(('null',[0,0,0,0]))#denote missing value 
         new_row_mp[id] = lst
@@ -277,7 +285,15 @@ def table_extraction(phrases_bb, predict_labels, phrases):
     for id,key in key_mp.items():
         print(id,key)
     headers = identify_headers(key_mp, predict_labels, footer)
-    print(headers)
+    #print(headers)
+    row_mp = find_rows(vg, key_mp)
+    for id, tuples in row_mp.items():
+        #print(id)
+        row = []
+        row.append(id)
+        for t in tuples:
+            row.append(t[0])
+        print(row)
 
 
 def format_dict(dict):
