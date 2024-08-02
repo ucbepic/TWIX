@@ -109,7 +109,7 @@ def hash_tuple(tuple):
     bb = tuple[1]
     return (p,bb[0],bb[1],bb[2],bb[3])
 
-def find_rows(vg, key_mp):
+def find_rows(vg, key_mp, bbv):
     #key_mp: cluster_id -> key
     #input: a cluster dict. Cluster id -> a list of tuples. Each tuple:  (phrase, bounding box) 
     #output: row_id -> a list of tuples. Each tuple:  (phrase, bounding box) 
@@ -118,10 +118,12 @@ def find_rows(vg, key_mp):
     pb = []
     re_map = {}#tuple -> key cluster_id
     for id, tuples in vg.items():
+        key = key_mp[id]
+        #print(key, id)
         for t in tuples:
             #print(t)
             pb.append(t)
-            re_map[hash_tuple(t)] = id
+            re_map[hash_tuple(t)] = key
     for t in pb:
         pi = t[0]
         bi = t[1]
@@ -143,21 +145,35 @@ def find_rows(vg, key_mp):
     #print(row_mp)
 
     new_row_mp = {}
+    keys = sort_keys(key_mp, bbv)
+    row_loc = {}# x['top']-> id
     #sort row based on keys
+    print(len(row_mp))
     for id, tuples in row_mp.items():
         lst = []
         quick_mp = {}
         for t in tuples:
-            key_id = re_map[hash_tuple(t)]
-            quick_mp[key_id] = t
-        for kid, key in key_mp.items():
-            if(kid in quick_mp):
-                lst.append(quick_mp[kid])
+            key = re_map[hash_tuple(t)]
+            quick_mp[key] = t
+        x_top = 0
+        for key in keys:
+            if(key in quick_mp):
+                tuple = quick_mp[key]
+                lst.append(tuple)
+                x_top = tuple[1][1]
             else:
                 lst.append(('null',[0,0,0,0]))#denote missing value 
+        row_loc[x_top] = id
         new_row_mp[id] = lst
 
-    return new_row_mp
+    #sort row based on bound box 
+    sorted_rows = []
+    sorted_row_loc = dict(sorted(row_loc.items()))
+    #print(sorted_row_loc)
+    for x_top, id in sorted_row_loc.items():
+        sorted_rows.append(new_row_mp[id])
+
+    return sorted_rows, keys
 
 
 
@@ -225,6 +241,18 @@ def filter_key(bbv, phrases_bb, predict_labels):
                             vertical_dis[id] = vdis
     return key_mp
                     
+def sort_keys(key_mp, bbv):
+    #key_mp: cluster_id -> key
+    #bbv: cluster_id -> bounding box of value group
+    keys = []
+    keys_bb = []
+    for id, key in key_mp.items():
+        bb = bbv[id]
+        keys_bb.append((key,bb[0]))
+    sorted_keys = sorted(keys_bb, key=lambda x: x[1])
+    for key in sorted_keys:
+        keys.append(key[0])
+    return keys 
 
 def find_value_group(pv, predict_labels):
     pv = sort_val_based_on_bb_width(pv, predict_labels)
@@ -267,7 +295,7 @@ def find_value_group(pv, predict_labels):
     return mp,footer
 
 
-def table_extraction(phrases_bb, predict_labels, phrases):
+def table_extraction(phrases_bb, predict_labels, phrases, path):
     #get phrases for the first record 
     first_record = record_extraction(phrases, predict_labels)
     #print(first_record)
@@ -282,19 +310,39 @@ def table_extraction(phrases_bb, predict_labels, phrases):
     vg,footer = find_value_group(pv, predict_labels)
     bbv = find_bb_value_group(vg)
     key_mp = filter_key(bbv, phrases_bb, predict_labels)
-    for id,key in key_mp.items():
-        print(id,key)
     headers = identify_headers(key_mp, predict_labels, footer)
     #print(headers)
-    row_mp = find_rows(vg, key_mp)
-    for id, tuples in row_mp.items():
-        #print(id)
-        row = []
-        row.append(id)
-        for t in tuples:
-            row.append(t[0])
-        print(row)
+    rows,keys = find_rows(vg, key_mp, bbv)
+    # print(keys)
+    # for row in rows:
+    #     row_out = []
+    #     for r in row:
+    #         row_out.append(r[0])
+    #     print(row_out)
+    #write_table(keys, rows, path)
+    print("headers:")
+    for p in headers:
+        print(p)
+    print("footers")
+    for p in footer:
+        print(p[0])
 
+
+def write_table(keys, rows, path):
+    keys_out = ', '.join(keys)
+    keys_out += '\n'
+    
+    with open(path, 'w') as file:
+        file.write(keys_out)
+        for row in rows:
+            row_out = ''
+            for r in row:
+                row_out += r[0] + ','
+            file.write(row_out[:-1]+'\n')
+        #print(row_out[:-1])
+            #print(row[0])
+            # row_out = ', '.join(row[0][0])
+            # file.write(row_out)
 
 def format_dict(dict):
     d = {}
@@ -326,6 +374,7 @@ if __name__ == "__main__":
         truth_path = key.get_truth_path(path,1)
         extracted_path = key.get_extracted_path(path)
         bb_path = get_bb_path(extracted_path)
+        out_path = key.get_key_val_path(path)
 
 
         truths = format(read_file(truth_path))
@@ -333,5 +382,5 @@ if __name__ == "__main__":
         phrases = format(read_file(extracted_path))
         phrases_bb = format_dict(read_json(bb_path))
 
-        table_extraction(phrases_bb, results, phrases)
+        table_extraction(phrases_bb, results, phrases, out_path)
         #print(pattern_detection(phrases, results))

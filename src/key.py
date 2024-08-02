@@ -235,6 +235,11 @@ def get_result_path(raw_path):
     path = path.replace('.pdf', '.txt')
     return path
 
+def get_key_val_path(raw_path):
+    path = raw_path.replace('data/raw','result')
+    path = path.replace('.pdf', '_kv.csv')
+    return path
+
 def get_baseline_result_path(raw_path,baseline_name):
     path = raw_path.replace('data/raw','result')
     path = path.replace('.pdf', '_' + baseline_name + '.txt')
