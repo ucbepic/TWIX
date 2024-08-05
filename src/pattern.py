@@ -1,4 +1,7 @@
-import key,extract,json 
+import key,extract,json,sys 
+sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
+from model import model 
+model_name = 'gpt4o'
 
 def read_file(file):
     data = []
@@ -39,28 +42,131 @@ def get_bb_path(extracted_file):
     file = extracted_file.replace('.txt','.json')
     return file 
 
-def pattern_detection(phrases, predict_labels, threshold = 0.9):
+def key_val_extraction(phrases, predict_labels):
+    kv = {}#relative location id -> (key,val)
+    kk = {}#relative location id -> (key,key)
+    vv = {}#relative location id -> (val,val)
+    phrases = record_extraction(phrases, predict_labels)
+    #phrases are the phrases one record
+    ids = []
+    for i in range(len(phrases)):
+        p = phrases[i]
+        if(p in predict_labels):
+            if(i < len(phrases)-1 and phrases[i+1] not in predict_labels):#kv pair
+                pn = phrases[i+1]
+                kv[i] = (p,pn)
+                ids.append(i)
+                ids.append(i+1)
+    #second pass: scan for kv and vv 
+    i = 0
+    while i < len(phrases):
+        p = phrases[i]
+        if(i in ids):#skip the kv pairs 
+            i+=1
+            continue
+        # if(i < len(phrases)-1 and (i+1) in ids):
+        #     i+=1
+        #     continue
+        if(p in predict_labels):
+            if(i < len(phrases)-1 and phrases[i+1] in predict_labels):#kk pair
+                pn = phrases[i+1]
+                kk[i] = (p,pn)
+                #i+=1
+        else:
+            if(i < len(phrases)-1 and phrases[i+1] not in predict_labels):#vv pair
+                pn = phrases[i+1]
+                vv[i] = (p,pn)
+                #i+=1
+        i+=1
+        
+    #process kk pair 
+    for id, (p,pn) in kk.items():
+        if(id in ids):#skip this pair since we don't want to modifty it
+            continue
+        if(id not in ids and id+1 in ids):#need to check
+            kv[id] = (p,'missing')
+            continue
+        if(pair_oracle(p,pn) == 1):
+            kv[id] = (p,pn)#insert into kv
+            ids.append(id)
+            ids.append(id+1)
+        else:
+            kv[id] = (p,'missing')
+            ids.append(id)
+    #process vv pair
+    for id, (p,pn) in vv.items():
+        if(id in ids):#skip this pair since we don't want to modifty it
+            continue
+        if(pair_oracle(p,pn) == 1):
+            kv[id] = (p,pn)#insert into kv
+            ids.append(id)
+            ids.append(id+1)
+    kv_out = []
+    #search for consecutive vals 
+    #add back consecutive values 
+    # added = []
+    # for id, (p,pn) in vv.items():
+    #     if(id in added):
+    #         continue
+    #     if(id-2 in kv): 
+    #         val = kv[id-1]
+    #         while(True):
+    #             if(id not in added):
+    #                 val += p
+    #                 added.append(id)
+    #             if(id+1 not in added):
+    #                 val += pn
+    #                 added.append(id+1)
+    #             if(id+1 not in vv or id == len(phrases)-1):#consecutive vals end
+    #                 break
+    #         kv[id-2] = val
+    #produce final kv pairs 
+    for id, (p,pn) in kv.items():
+        kv_out.append((p,pn))
+    return kv_out
+
+
+def pair_oracle(left,right):
+    instruction = 'The following two phrases are extracted from a table. ' 'Is ' + right + ' a possible value for the key word ' + left + '? Return only yes or no. '
+    context = ''
+    prompt = (instruction,context)
+    response = model(model_name,prompt)
+    #print(response)
+    if('yes' in response.lower()):
+        return 1
+    return 0
+
+def pattern_detection(phrases, predict_labels, threshold_table = 0.9, threshold_kv = 0.5):
     phrases = record_extraction(phrases, predict_labels)
     #create key and value line vectors
 
     kv = []
     vv = []
+    kv_match = 0
     for i in range(len(phrases)):
         p = phrases[i]
         if(p in predict_labels):
             kv.append(i)
+            if(i < len(phrases)-1 and phrases[i+1] not in predict_labels):
+                kv_match += 1
+            # else:
+            #     if(i < len(phrases)-1):
+            #         print(print(p, '***', phrases[i+1]))
         else:
             vv.append(i)
+        
     mismatch = 0
     for i in range(1,len(kv)):
         if(kv[i]-kv[i-1] > 1):
             mismatch += 1
     k_percentage = (len(kv)-mismatch)/len(kv)
-
-    if(k_percentage > threshold):
+    kv_percentage = kv_match/len(kv)
+    #print(kv_percentage)
+    if(k_percentage > threshold_table):
         return 'table'
-    else:
-        return 'kv or mix'
+    
+    #if((1-k_percentage) )
+    return 'mix'
     
 def get_bb_per_record(record_appearance, phrases_bb, phrases):
     #phrases: phrase -> a list of bounding box for all records 
@@ -362,7 +468,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 3 #starting from 1
+    tested_id = 2 #starting from 1
     k=1
 
     for path in tested_paths:
@@ -382,5 +488,8 @@ if __name__ == "__main__":
         phrases = format(read_file(extracted_path))
         phrases_bb = format_dict(read_json(bb_path))
 
-        table_extraction(phrases_bb, results, phrases, out_path)
+        #table_extraction(phrases_bb, results, phrases, out_path)
         #print(pattern_detection(phrases, results))
+        kvs = key_val_extraction(phrases, results)
+        for kv in kvs:
+            print(kv)
