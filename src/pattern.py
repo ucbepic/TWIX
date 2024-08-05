@@ -1,4 +1,4 @@
-import key,extract,json,sys 
+import key,extract,json,sys,csv 
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
 model_name = 'gpt4o'
@@ -84,14 +84,14 @@ def key_val_extraction(phrases, predict_labels):
         if(id in ids):#skip this pair since we don't want to modifty it
             continue
         if(id not in ids and id+1 in ids):#need to check
-            kv[id] = (p,'missing')
+            kv[id] = (p,'')
             continue
         if(pair_oracle(p,pn) == 1):
             kv[id] = (p,pn)#insert into kv
             ids.append(id)
             ids.append(id+1)
         else:
-            kv[id] = (p,'missing')
+            kv[id] = (p,'')
             ids.append(id)
     #process vv pair
     for id, (p,pn) in vv.items():
@@ -456,6 +456,20 @@ def format_dict(dict):
         d[k.lower()] = v
     return d
 
+def write_result(results,path):
+    with open(path, 'w', newline='') as file:
+        # Write each row to the CSV file
+        for row in results:
+            key = row[0]
+            val = row[1]
+            page = 1.0
+            if(',' in val):
+                val = val.replace(',','')
+            out = key +','+val +','+str(page)
+            #print(out)
+            file.write(out + '\n')
+
+
 if __name__ == "__main__":
     root_path = extract.get_root_path()
     #print(root_path)
@@ -491,5 +505,6 @@ if __name__ == "__main__":
         #table_extraction(phrases_bb, results, phrases, out_path)
         #print(pattern_detection(phrases, results))
         kvs = key_val_extraction(phrases, results)
-        for kv in kvs:
-            print(kv)
+        write_result(kvs,out_path)
+        # for kv in kvs:
+        #     print(kv)

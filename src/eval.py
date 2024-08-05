@@ -15,8 +15,14 @@ def format(lst):
         l.append(v.lower().strip())
     return l
 
-def format_key_val(dict):
-    a=0
+def format_key_val(lst):
+    data = []
+    for l in lst:
+        r = l.split(',')
+        if(r[0].lower() == 'key' and r[1].lower() == 'value'):
+            continue
+        data.append((r[0].lower().strip(),r[1].lower().strip(),r[2]))
+    return data 
 
 def filter(truths, phrases):
     l = []
@@ -50,27 +56,54 @@ def eval_key(truths, results):
 
     return precision, recall, FP, FN
 
-def read_csv(file):
-    # Open the CSV file
-    with open('filename.csv', mode='r', newline='') as file:
-        # Create a CSV reader object
-        reader = csv.reader(file)
-        
-        # Iterate over each row in the CSV file
-        for row in reader:
-            print(row)  # Each row is a list of values
 
 def eval_key_val(truths, results):
-    page = 1
+    page = '1.0'
+    precision = 0
+    recall = 0
+    FP = []
+    FN = []
+
+    truth_size = 0
+    for truth in truths:
+        #print(type(truth[2]), type(page))
+        if(truth[2] != page):
+            continue
+        truth_size += 1
+        t = (truth[0],truth[1])
+        is_match = 0
+        for result in results:
+            r = (result[0], result[1])
+            if(t==r):
+                recall += 1
+                is_match = 1
+                break
+        if(is_match == 0):
+            FN.append(t)
     
-def get_key_val_result_path(raw_path):
-    path = raw_path.replace('data/raw','result')
-    path = path.replace('.pdf', '_keyval.txt')
-    return path
+    for result in results:
+        r = (result[0], result[1])
+        is_match = 0
+        for truth in truths:
+            if(truth[2] != page):
+                continue
+            t = (truth[0],truth[1])
+            if(t==r):
+                precision += 1
+                is_match = 1
+                break
+        if(is_match == 0):
+            FP.append(r)
+            
+    precision /= len(results)
+    recall /= truth_size
+
+    return precision, recall, FP, FN
+
 
 def get_truth_key_val_path(raw_path):
     path = raw_path.replace('raw','truths/key_value_truth')
-    path = path.replace('.pdf','.txt')
+    path = path.replace('.pdf','.csv')
     return path
 
 def eval_key_procedure():
@@ -112,22 +145,31 @@ def eval_key_val_procedure():
     tested_paths.append(root_path + '/data/raw/certification/MT/RptEmpRstrDetail Active.pdf')
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
+    tested_id = 1
+    
+    path = tested_paths[tested_id]
+    print(path)
+    result_path = key.get_key_val_path(path)
+    truth_path = get_truth_key_val_path(path)
+    extracted_path = key.get_extracted_path(path)
 
-    for tested_id in range(len(tested_paths)):
+    phrases = format(read_file(extracted_path))
+    truths = format_key_val(read_file(truth_path))
+    results = format_key_val(read_file(result_path))
 
-        path = tested_paths[tested_id]
-        print(path)
-        result_path = get_key_val_result_path(path)
-        truth_path = get_truth_key_val_path(path,1)
-        extracted_path = key.get_extracted_path(path)
+    for l in results:
+        print(l)
+    
+    precision, recall, FP, FN = eval_key_val(truths, results)
+    print(precision,recall)
 
-        phrases = format(read_file(extracted_path))
-        truths = format_key_val(read_csv(truth_path))
-        results = format_key_val(read_csv(result_path))
-        
-        truths = filter(truths, phrases)
-        precision, recall, FP, FN = eval_key_val(truths, results)
-        print(precision,recall)
+    print('FP:')
+    for fp in FP:
+        print(fp)
+
+    print('FN:')
+    for fn in FN:
+        print(fn)
 
 if __name__ == "__main__":
     eval_key_val_procedure()

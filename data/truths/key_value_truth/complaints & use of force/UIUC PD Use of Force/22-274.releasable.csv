@@ -6,7 +6,7 @@ Assist,Yes,1.0
 Agency,SCTF,1.0
 Information Taken From,Crime/ Incident,1.0
 Status,Completed,1.0
-Incident Reviewed By,"Ahart, Rachael F.",1.0
+Incident Reviewed By, Ahart Rachael F.,1.0
 Date Reviewed,1/15/2021,1.0
 Drugs/Alcohol,No,1.0
 Location,1609 Valley Road Apt. D1,1.0
@@ -42,7 +42,7 @@ Arrest ID,None,1.0
 Injured,No,1.0
 Type Injuries,,1.0
 Medical Aid,,1.0
-Officer,"Snow, Ryan S.",1.0
+Officer,"Snow Ryan S.",1.0
 Action Taken,Firearm - Pointed At Subject,1.0
 Action Taken Useful,Yes,1.0
 Camera,Yes,1.0
@@ -58,7 +58,7 @@ Assist,Yes,2.0
 Agency,CPD,2.0
 Information Taken From,Crime/ Incident,2.0
 Status,Completed,2.0
-Incident Reviewed By,"Benoit, Robert W.",2.0
+Incident Reviewed By,"Benoit Robert W.",2.0
 Date Reviewed,2/2/2021,2.0
 Drugs/Alcohol,No,2.0
 Location,Green & Second Streets,2.0
