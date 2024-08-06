@@ -1,4 +1,4 @@
-import key,extract,json,sys,csv 
+import key,extract,json,sys,csv,math 
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
 model_name = 'gpt4o'
@@ -42,13 +42,44 @@ def get_bb_path(extracted_file):
     file = extracted_file.replace('.txt','.json')
     return file 
 
-def key_val_extraction(phrases, predict_labels):
+def get_bb_phrase(phrase, c, phrases_bb):
+    if(phrase not in phrases_bb):
+        return (-1,-1,-1,-1)
+    bbs = phrases_bb[phrase]
+    if(c<len(bbs)):
+        return bbs[c]
+    return (-1,-1,-1,-1)
+
+def get_bbdict_per_record(record_appearance, phrases_bb, phrases):
+    #phrases: phrase -> a list of bounding box for all records 
+    #record_appearance: phrase p->the number of appearances of p so far 
+    #output: a dict. phrase -> a list of bounding box for the phrase in current record
+    pv = {}
+    non_dul_phrases = list(set(phrases))#remove duplicated phrases 
+    for p in non_dul_phrases:
+        c = phrases.count(p)
+        if(p not in pv and p in phrases_bb):
+            cur = record_appearance[p]
+            lst = phrases_bb[p][cur: cur + c]
+            pv[p] = lst
+            record_appearance[p] = cur + c
+    return record_appearance, pv
+
+def key_val_extraction(phrases, phrases_bb, predict_labels):
     kv = {}#relative location id -> (key,val)
     kk = {}#relative location id -> (key,key)
     vv = {}#relative location id -> (val,val)
     phrases = record_extraction(phrases, predict_labels)
+    record_appearance = {}
+    appear = {} #record number of times a phrase appears so far 
+    for p in phrases:
+        record_appearance[p] = 0
+
+    record_appearance,pv = get_bbdict_per_record(record_appearance, phrases_bb, phrases)
+    
     #phrases are the phrases one record
     ids = []
+    dis = {}
     for i in range(len(phrases)):
         p = phrases[i]
         if(p in predict_labels):
@@ -57,74 +88,104 @@ def key_val_extraction(phrases, predict_labels):
                 kv[i] = (p,pn)
                 ids.append(i)
                 ids.append(i+1)
+
+                #update appear
+                if(p not in appear):
+                    appear[p] = 0
+                else:
+                    appear[p] = appear[p] + 1
+                if(pn not in appear):
+                    appear[pn] = 0
+                else:
+                    appear[pn] = appear[pn] + 1
+
+                #get bbs for p and pb
+                bbp = get_bb_phrase(p,appear[p],pv)
+                bbpn = get_bb_phrase(pn,appear[pn],pv)
+                dis[i] = min_distance(bbp,bbpn)
+                print(p,pn,dis[i])
+                print(bbp, appear[p])
+                print(bbpn, appear[pn])
+                print('')
     #second pass: scan for kv and vv 
-    i = 0
-    while i < len(phrases):
-        p = phrases[i]
-        if(i in ids):#skip the kv pairs 
-            i+=1
-            continue
-        # if(i < len(phrases)-1 and (i+1) in ids):
-        #     i+=1
-        #     continue
-        if(p in predict_labels):
-            if(i < len(phrases)-1 and phrases[i+1] in predict_labels):#kk pair
-                pn = phrases[i+1]
-                kk[i] = (p,pn)
-                #i+=1
-        else:
-            if(i < len(phrases)-1 and phrases[i+1] not in predict_labels):#vv pair
-                pn = phrases[i+1]
-                vv[i] = (p,pn)
-                #i+=1
-        i+=1
+    # i = 0
+    # while i < len(phrases):
+    #     p = phrases[i]
+    #     if(i in ids):#skip the kv pairs 
+    #         i+=1
+    #         continue
+    #     # if(i < len(phrases)-1 and (i+1) in ids):
+    #     #     i+=1
+    #     #     continue
+    #     if(p in predict_labels):
+    #         if(i < len(phrases)-1 and phrases[i+1] in predict_labels):#kk pair
+    #             pn = phrases[i+1]
+    #             kk[i] = (p,pn)
+    #             #i+=1
+    #     else:
+    #         if(i < len(phrases)-1 and phrases[i+1] not in predict_labels):#vv pair
+    #             pn = phrases[i+1]
+    #             vv[i] = (p,pn)
+    #             #i+=1
+    #     i+=1
         
-    #process kk pair 
-    for id, (p,pn) in kk.items():
-        if(id in ids):#skip this pair since we don't want to modifty it
-            continue
-        if(id not in ids and id+1 in ids):#need to check
-            kv[id] = (p,'')
-            continue
-        if(pair_oracle(p,pn) == 1):
-            kv[id] = (p,pn)#insert into kv
-            ids.append(id)
-            ids.append(id+1)
-        else:
-            kv[id] = (p,'')
-            ids.append(id)
-    #process vv pair
-    for id, (p,pn) in vv.items():
-        if(id in ids):#skip this pair since we don't want to modifty it
-            continue
-        if(pair_oracle(p,pn) == 1):
-            kv[id] = (p,pn)#insert into kv
-            ids.append(id)
-            ids.append(id+1)
-    kv_out = []
-    #search for consecutive vals 
-    #add back consecutive values 
-    added = []
-    for id, (p,pn) in vv.items():
-        if(id in added):
-            continue
-        print(p,pn)
-        # if(id-2 in kv): 
-        #     val = kv[id-1]
-        #     while(True):
-        #         if(id not in added):
-        #             val += p
-        #             added.append(id)
-        #         if(id+1 not in added):
-        #             val += pn
-        #             added.append(id+1)
-        #         if(id+1 not in vv or id == len(phrases)-1):#consecutive vals end
-        #             break
-        #     kv[id-2] = val
-    #produce final kv pairs 
-    for id, (p,pn) in kv.items():
-        kv_out.append((p,pn))
-    return kv_out
+    # #process kk pair 
+    # for id, (p,pn) in kk.items():
+    #     if(id in ids):#skip this pair since we don't want to modifty it
+    #         continue
+    #     if(id not in ids and id+1 in ids):#need to check
+    #         kv[id] = (p,'')
+    #         continue
+    #     if(pair_oracle(p,pn) == 1):
+    #         kv[id] = (p,pn)#insert into kv
+    #         ids.append(id)
+    #         ids.append(id+1)
+    #     else:
+    #         kv[id] = (p,'')
+    #         ids.append(id)
+    # #process vv pair
+    # for id, (p,pn) in vv.items():
+    #     if(id in ids):#skip this pair since we don't want to modifty it
+    #         continue
+    #     if(pair_oracle(p,pn) == 1):
+    #         kv[id] = (p,pn)#insert into kv
+    #         ids.append(id)
+    #         ids.append(id+1)
+    # kv_out = []
+    # #search for consecutive vals 
+    # #add back consecutive values 
+    # added = []
+    # for id, (p,pn) in vv.items():
+    #     if(id in added):
+    #         continue
+    #     print(p,pn)
+    #     # if(id-2 in kv): 
+    #     #     val = kv[id-1]
+    #     #     while(True):
+    #     #         if(id not in added):
+    #     #             val += p
+    #     #             added.append(id)
+    #     #         if(id+1 not in added):
+    #     #             val += pn
+    #     #             added.append(id+1)
+    #     #         if(id+1 not in vv or id == len(phrases)-1):#consecutive vals end
+    #     #             break
+    #     #     kv[id-2] = val
+    # #produce final kv pairs 
+    # for id, (p,pn) in kv.items():
+    #     kv_out.append((p,pn))
+    # return kv_out
+
+def min_distance(bb1,bb2):
+    # min(current_bbox[0], word['x0']),
+    # min(current_bbox[1], word['top']),
+    # max(current_bbox[2], word['x1']),
+    # max(current_bbox[3], word['bottom'])
+    lx = [abs(bb1[0]-bb2[0]), abs(bb1[0]-bb2[2]),abs(bb1[2]-bb2[0]),abs(bb1[2]-bb2[2])]
+    ly = [abs(bb1[1]-bb2[1]), abs(bb1[1]-bb2[3]),abs(bb1[3]-bb2[1]),abs(bb1[3]-bb2[3])]
+    x_min = min(lx)
+    y_min = min(ly)
+    return max(x_min,y_min)
 
 
 def pair_oracle(left,right):
@@ -505,7 +566,7 @@ if __name__ == "__main__":
 
         #table_extraction(phrases_bb, results, phrases, out_path)
         #print(pattern_detection(phrases, results))
-        kvs = key_val_extraction(phrases, results)
+        key_val_extraction(phrases, phrases_bb, results)
         #write_result(kvs,out_path)
         # for kv in kvs:
         #     print(kv)

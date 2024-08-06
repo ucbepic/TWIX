@@ -26,6 +26,74 @@ def extract_text_from_image(image):
     return text
 
 
+def phrase_extract_v1(pdf_path, x_tolerance=3, y_tolerance=3):
+    phrases = {}
+    page_break = 0
+    raw_phrases = []
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            words = page.extract_words(x_tolerance=x_tolerance, y_tolerance=y_tolerance, extra_attrs=['size'])
+            if not words:
+                print("This pdf is image-based or contains no selectable text.")
+                return {},[]
+            else:
+                current_phrase = [words[0]['text']]
+                # Initialize bounding box for the current phrase
+                current_bbox = [words[0]['x0'], words[0]['top'], words[0]['x1'], words[0]['bottom']]
+                
+                for prev, word in zip(words, words[1:]):
+                    is_header_cond = is_header(word['size'], threshold=12)  # Assuming is_header is defined elsewhere
+                    if is_header_cond:
+                        continue
+                    elif (
+                        ((word['top'] == prev['top'] or word['bottom'] == prev['bottom'])) 
+                        and abs(word['x0'] - prev['x1']) < x_tolerance
+                    ):
+                        # Words are on the same line and close to each other horizontally
+                        current_phrase.append(word['text'])
+                        # Update bounding box for the current phrase
+                        current_bbox = [
+                            min(current_bbox[0], word['x0']),
+                            min(current_bbox[1], word['top']),
+                            max(current_bbox[2], word['x1']),
+                            max(current_bbox[3], word['bottom'])
+                        ]
+                    else:
+                        phrase_text = ' '.join(current_phrase)
+                        raw_phrases.append(phrase_text)
+                        
+                        ad_phrases = adjust_phrase(phrase_text)
+                        for p in ad_phrases:
+                            if(len(p) == 0):
+                                continue
+                            if p in phrases:
+                                phrases[p].append(tuple(current_bbox))
+                            else:
+                                phrases[p] = [tuple(current_bbox)]
+                        # Reset for the next phrase
+                        current_phrase = [word['text']]
+                        current_bbox = [word['x0'], word['top'], word['x1'], word['bottom']]
+                
+                # Append the last phrase and its bounding box
+                # phrases[' '.join(current_phrase)] = current_bbox
+                phrase_text = ' '.join(current_phrase)
+                raw_phrases.append(phrase_text)
+
+                ad_phrases = adjust_phrase(phrase_text)
+                for p in ad_phrases:
+                    if(len(p) == 0):
+                        continue
+                    if p in phrases:
+                        phrases[p].append(tuple(current_bbox))
+                    else:
+                        phrases[p] = [tuple(current_bbox)]
+            if page_break == 6:
+                break
+            page_break += 1
+
+    return phrases, raw_phrases
+    
+
 def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
     phrases = {}
     page_break = 0
@@ -70,7 +138,7 @@ def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
                         if phrase_text in phrases:
                             
                             # Phrase already exists, append the bounding box to the list of bounding boxes
-                            print(phrase_text, tuple(current_bbox))
+                            #print(phrase_text, tuple(current_bbox))
                             phrases[phrase_text].append(tuple(current_bbox))
                         else:
                           
@@ -92,11 +160,26 @@ def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
                 break
             page_break += 1
 
+    # c=0
+    # for p,bb in phrases.items():
+    #     print(p)
+    #     for i in range(min(len(bb),10)):
+    #         print(bb[i])
+    #     print('')
+    #     c+=1
+    #     if(c>=80):
+    #         break
+
     """
     Now take every phrase and split the colon values 
     """
     adjusted_phrases_with_boxes = {}
+    c=0
     for phrase, bboxes_list in phrases.items():
+        # print(phrase)
+        # c+=1
+        # if(c>=10):
+        #     break
         if not is_valid_time(phrase) and phrase.count(':') == 1:
             before_colon, after_colon = phrase.split(':')
             # For the part before the colon, include the colon and append each bounding box to the list
@@ -176,11 +259,11 @@ def write_texts(data_folder):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         print(path)
-        # if('Munson' not in path):
+        # if('releasable' not in path):
         #     continue
         text_path = get_text_path(path, '.txt')
         dict_path = get_text_path(path, '.json')
-        phrases, raw_phrases = phrase_extract(path)
+        phrases, raw_phrases = phrase_extract_v1(path)
         adjusted_phrases = []
         for phrase in raw_phrases:
             adjusted_phrase = adjust_phrase(phrase)
@@ -190,6 +273,8 @@ def write_texts(data_folder):
                 adjusted_phrases.append(p)
         #write_phrase(text_path, adjusted_phrases)
         write_dict(dict_path, phrases)
+
+        
 
         
 
