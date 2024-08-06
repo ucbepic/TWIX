@@ -71,42 +71,28 @@ def key_val_extraction(phrases, phrases_bb, predict_labels):
     vv = {}#relative location id -> (val,val)
     phrases = record_extraction(phrases, predict_labels)
     record_appearance = {}
-    appear = {} #record number of times a phrase appears so far 
     for p in phrases:
         record_appearance[p] = 0
 
-    record_appearance,pv = get_bbdict_per_record(record_appearance, phrases_bb, phrases)
+    record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
     
-    #phrases are the phrases one record
     ids = []
     dis = {}
-    for i in range(len(phrases)):
-        p = phrases[i]
+    for i in range(len(pv)):
+        p = pv[i][0]
+        bbp = pv[i][1]
         if(p in predict_labels):
-            if(i < len(phrases)-1 and phrases[i+1] not in predict_labels):#kv pair
-                pn = phrases[i+1]
+            if(i < len(pv)-1 and pv[i+1][0] not in predict_labels):#kv pair
+                pn = pv[i+1][0]
                 kv[i] = (p,pn)
                 ids.append(i)
                 ids.append(i+1)
-
-                #update appear
-                if(p not in appear):
-                    appear[p] = 0
-                else:
-                    appear[p] = appear[p] + 1
-                if(pn not in appear):
-                    appear[pn] = 0
-                else:
-                    appear[pn] = appear[pn] + 1
-
-                #get bbs for p and pb
-                bbp = get_bb_phrase(p,appear[p],pv)
-                bbpn = get_bb_phrase(pn,appear[pn],pv)
+                bbpn = pv[i+1][1]
                 dis[i] = min_distance(bbp,bbpn)
                 print(p,pn,dis[i])
-                print(bbp, appear[p])
-                print(bbpn, appear[pn])
-                print('')
+                print(bbp)
+                print(bbpn)
+
     #second pass: scan for kv and vv 
     # i = 0
     # while i < len(phrases):
@@ -230,6 +216,35 @@ def pattern_detection(phrases, predict_labels, threshold_table = 0.9, threshold_
     #if((1-k_percentage) )
     return 'mix'
     
+
+def get_bblist_per_record(record_appearance, phrases_bb, phrases):
+    #phrases: phrase -> a list of bounding box for all records 
+    #record_appearance: phrase p->the number of appearances of p so far 
+    #output: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
+    pv = []
+    appear = {}
+    record = {}
+    for p in phrases:
+        c = phrases.count(p)
+        cur = record_appearance[p]
+        if(p in phrases_bb):
+            lst = phrases_bb[p][cur: cur + c]
+            if(p not in appear):
+                appear[p] = 0
+                record[p] = cur + c
+            else:
+                appear[p] = appear[p] + 1
+
+            # print(p,c,appear[p],len(lst))
+            # print(phrases_bb[p], cur, cur+c)
+            bb = lst[appear[p]]
+            pv.append((p,bb))
+    for p in phrases:
+        if(p in phrases_bb):
+            record_appearance[p] = record[p]
+            
+    return record_appearance, pv
+
 def get_bb_per_record(record_appearance, phrases_bb, phrases):
     #phrases: phrase -> a list of bounding box for all records 
     #record_appearance: phrase p->the number of appearances of p so far 
