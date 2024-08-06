@@ -104,22 +104,23 @@ def key_val_extraction(phrases, predict_labels):
     kv_out = []
     #search for consecutive vals 
     #add back consecutive values 
-    # added = []
-    # for id, (p,pn) in vv.items():
-    #     if(id in added):
-    #         continue
-    #     if(id-2 in kv): 
-    #         val = kv[id-1]
-    #         while(True):
-    #             if(id not in added):
-    #                 val += p
-    #                 added.append(id)
-    #             if(id+1 not in added):
-    #                 val += pn
-    #                 added.append(id+1)
-    #             if(id+1 not in vv or id == len(phrases)-1):#consecutive vals end
-    #                 break
-    #         kv[id-2] = val
+    added = []
+    for id, (p,pn) in vv.items():
+        if(id in added):
+            continue
+        print(p,pn)
+        # if(id-2 in kv): 
+        #     val = kv[id-1]
+        #     while(True):
+        #         if(id not in added):
+        #             val += p
+        #             added.append(id)
+        #         if(id+1 not in added):
+        #             val += pn
+        #             added.append(id+1)
+        #         if(id+1 not in vv or id == len(phrases)-1):#consecutive vals end
+        #             break
+        #     kv[id-2] = val
     #produce final kv pairs 
     for id, (p,pn) in kv.items():
         kv_out.append((p,pn))
@@ -505,6 +506,6 @@ if __name__ == "__main__":
         #table_extraction(phrases_bb, results, phrases, out_path)
         #print(pattern_detection(phrases, results))
         kvs = key_val_extraction(phrases, results)
-        write_result(kvs,out_path)
+        #write_result(kvs,out_path)
         # for kv in kvs:
         #     print(kv)
