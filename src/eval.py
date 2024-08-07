@@ -149,7 +149,7 @@ def eval_key_val_procedure():
     
     path = tested_paths[tested_id]
     print(path)
-    result_path = key.get_key_val_path(path)
+    result_path = key.get_key_val_path(path, 'partial')
     truth_path = get_truth_key_val_path(path)
     extracted_path = key.get_extracted_path(path)
 
@@ -157,8 +157,8 @@ def eval_key_val_procedure():
     truths = format_key_val(read_file(truth_path))
     results = format_key_val(read_file(result_path))
 
-    for l in results:
-        print(l)
+    # for l in results:
+    #     print(l)
     
     precision, recall, FP, FN = eval_key_val(truths, results)
     print(precision,recall)

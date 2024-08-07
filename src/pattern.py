@@ -1,4 +1,7 @@
-import key,extract,json,sys,csv,math 
+import key,extract,json,sys,csv,math
+import numpy as np 
+from scipy.sparse import csr_matrix
+from scipy.sparse.csgraph import min_weight_full_bipartite_matching
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
 model_name = 'gpt4o'
@@ -65,6 +68,205 @@ def get_bbdict_per_record(record_appearance, phrases_bb, phrases):
             record_appearance[p] = cur + c
     return record_appearance, pv
 
+def outlier_detect(dis):
+    lst = []
+    for id, d in dis.items():
+        lst.append(d)
+    
+    threshold = 1  
+    mean = np.mean(lst)
+    std = np.std(lst)
+    
+    outliers = []
+    for value in lst:
+        z_score = (value - mean) / std
+        if np.abs(z_score) > threshold:
+            outliers.append(value)
+    
+    cutoff = min(outliers)
+    false_pairs = []
+    for id, d in dis.items():
+        if(d >= cutoff):
+            false_pairs.append(id)
+    #print(cutoff)
+    sum = 0
+    new_lst = []
+    for val in lst:
+        if(val >= cutoff):
+            continue
+        new_lst.append(val)
+        sum += val
+    new_mean = sum/(len(lst) - len(outliers))
+    return false_pairs, cutoff, new_mean, new_lst
+
+def is_outlier(lst, d):
+    lst.append(d)
+    threshold = 1  
+    mean = np.mean(lst)
+    std = np.std(lst)
+    
+    outliers = []
+    for value in lst:
+        z_score = (value - mean) / std
+        if np.abs(z_score) > threshold:
+            outliers.append(value)
+    
+    cutoff = min(outliers)
+    #print(cutoff)
+    if(d >= cutoff):
+        return 1
+    return 0
+
+def bipartite_match(edges, num_nodes_A, num_nodes_B):
+    #(left, right and weight)
+    #left and right starting from 0
+    # edges = [
+    #     (0, 0, 3),
+    #     (1, 0, 1),
+    #     (0, 1, 10),
+    #     (2, 0, 1),
+    #     (2, 1, 2)
+    # ]
+
+    # num_nodes_A = 3
+    # num_nodes_B = 2
+
+    adjacency_matrix = np.full((num_nodes_A, num_nodes_B), np.inf)
+
+    for u, v, w in edges:
+        adjacency_matrix[u, v] = w
+
+    csr_adjacency_matrix = csr_matrix(adjacency_matrix)
+
+    row_ind, col_ind = min_weight_full_bipartite_matching(csr_adjacency_matrix)
+
+    weight = 0
+    matching = {}
+
+    # Iterate over the indices returned by the matching function
+    for row, col in zip(row_ind, col_ind):
+        matching[row] = (col, adjacency_matrix[row,col])
+        #weight += adjacency_matrix[row,col]
+        #print(row, col)
+
+    #print(weight)
+    return matching
+
+def key_val_bipartite_extraction(phrases, phrases_bb, predict_labels):
+    #greedy seems better since biM is globally optimization and local noise would affect other results significantly 
+    phrases = record_extraction(phrases, predict_labels)
+    record_appearance = {}
+    for p in phrases:
+        record_appearance[p] = 0
+
+    record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
+    #pv: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
+    #construct graph 
+    edges = []
+    left_nodes = {}
+    right_nodes = {}
+    left_id = 0
+    right_id = 0
+
+    c = 0
+    #construct nodes
+    for t in pv:
+        c+=1
+        if(c>=20):
+            break
+        p = t[0]
+        if(p in predict_labels):
+            left_nodes[left_id] = t
+            left_id += 1
+        else:
+            right_nodes[right_id] = t
+            right_id += 1
+
+    #construct edges 
+    for i in range(left_id):
+        for j in range(right_id):
+            dis = min_distance(left_nodes[i][1], right_nodes[j][1])
+            edges.append((i,j,dis))
+            # if(left_nodes[i][0] == 'case number' and right_nodes[j][0] == '21-00017'):
+            #     print(dis)
+            #print(left_nodes[i][0],right_nodes[j][0], dis)
+
+    print('------')
+    #run bipartite_match
+    matching = bipartite_match(edges, left_id, right_id)
+
+    results = []
+    #process matching
+    for left, (right,weight) in matching.items():
+        l = left_nodes[left][0]
+        r = right_nodes[right][0]
+        results.append((l,r))
+        print(l,r,weight)
+    return results
+
+def greedy_key_val_extraction(phrases, phrases_bb, predict_labels):
+    phrases = record_extraction(phrases, predict_labels)
+    record_appearance = {}
+    for p in phrases:
+        record_appearance[p] = 0
+
+    record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
+    #pv: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
+    #for each predicated key, find its nearest phrases as the value. 
+
+    kvs = []
+    kks = []
+    found = {}
+    ks = []
+    vs = []
+
+    for i in range(len(pv)):
+        dis = 10000
+        target = -1
+        if(pv[i][0] not in predict_labels):
+            vs.append(i)
+            continue
+            #print(pv[i][0])
+        for j in range(i+1, len(pv)):#simple trick, value should appear later than key 
+            if(i==j):
+                continue
+            d = min_distance(pv[i][1],pv[j][1]) 
+            if(d < dis):
+                target = j
+                dis = d
+        if(target != -1 and target not in found):#a new phrase is found
+            if(pv[target][0] in predict_labels): #kk pair 
+                kks.append((i,target))
+                print(pv[i][0],pv[target][0],dis)
+            else:#kv pair
+                kvs.append((i,target))
+                #print(pv[i][0],pv[target][0],dis)
+                found[i] = 1
+                found[target] = 1
+        else:
+            #for a key, the closest phrase has already matched with other
+            ks.append(i)
+            #print(pv[i][0])
+
+    results = []
+
+    # for v in vs:
+    #     if(v not in found):
+    #         print(pv[v][0])
+    #check kv pairs
+    for kv in kvs:
+        results.append((pv[kv[0]][0], pv[kv[1]][0]))
+
+    
+
+    # print('------')
+    # #check kk paris 
+    # for kk in kks: 
+    #     print(pv[kk[0]][0], pv[kk[1]][0])
+    return results
+
+
+
 def key_val_extraction(phrases, phrases_bb, predict_labels):
     kv = {}#relative location id -> (key,val)
     kk = {}#relative location id -> (key,key)
@@ -80,64 +282,94 @@ def key_val_extraction(phrases, phrases_bb, predict_labels):
     dis = {}
     for i in range(len(pv)):
         p = pv[i][0]
+        # if('medical' in p):
+        #     print(p)
         bbp = pv[i][1]
         if(p in predict_labels):
             if(i < len(pv)-1 and pv[i+1][0] not in predict_labels):#kv pair
+                # if('medical' in p):
+                #     print(p)
                 pn = pv[i+1][0]
                 kv[i] = (p,pn)
                 ids.append(i)
                 ids.append(i+1)
                 bbpn = pv[i+1][1]
                 dis[i] = min_distance(bbp,bbpn)
-                print(p,pn,dis[i])
-                print(bbp)
-                print(bbpn)
+                # print(p,pn,dis[i])
+                # print(bbp)
+                # print(bbpn)
 
-    #second pass: scan for kv and vv 
-    # i = 0
-    # while i < len(phrases):
-    #     p = phrases[i]
-    #     if(i in ids):#skip the kv pairs 
-    #         i+=1
-    #         continue
-    #     # if(i < len(phrases)-1 and (i+1) in ids):
-    #     #     i+=1
-    #     #     continue
-    #     if(p in predict_labels):
-    #         if(i < len(phrases)-1 and phrases[i+1] in predict_labels):#kk pair
-    #             pn = phrases[i+1]
-    #             kk[i] = (p,pn)
-    #             #i+=1
-    #     else:
-    #         if(i < len(phrases)-1 and phrases[i+1] not in predict_labels):#vv pair
-    #             pn = phrases[i+1]
-    #             vv[i] = (p,pn)
-    #             #i+=1
-    #     i+=1
+    outliers, cutoff, new_mean, new_lst = outlier_detect(dis)
+    
+    #second pass: scan for kk and vv 
+    
+    for id in outliers:
+        kv[id] = (pv[id][0],'')
+        ids.append(id)
+
+    single_v = []
+    i = 0
+    while i < len(pv):
+        p = pv[i][0]
+        if(i in ids):#skip the kv pairs 
+            i+=1
+            continue
+        if(p in predict_labels):
+            if(i < len(pv)-1 and pv[i+1][0] in predict_labels):#kk pair
+                pn = pv[i+1][0]
+                kk[i] = (p,pn)
+        else:
+            if(i < len(pv)-1 and pv[i+1][0] not in predict_labels):#vv pair
+                pn = pv[i+1][0]
+                vv[i] = (p,pn)
+            else:
+                #vk? 
+                single_v.append(i)
+        i+=1
         
-    # #process kk pair 
-    # for id, (p,pn) in kk.items():
-    #     if(id in ids):#skip this pair since we don't want to modifty it
-    #         continue
-    #     if(id not in ids and id+1 in ids):#need to check
-    #         kv[id] = (p,'')
-    #         continue
-    #     if(pair_oracle(p,pn) == 1):
-    #         kv[id] = (p,pn)#insert into kv
-    #         ids.append(id)
-    #         ids.append(id+1)
-    #     else:
-    #         kv[id] = (p,'')
-    #         ids.append(id)
-    # #process vv pair
-    # for id, (p,pn) in vv.items():
-    #     if(id in ids):#skip this pair since we don't want to modifty it
-    #         continue
-    #     if(pair_oracle(p,pn) == 1):
-    #         kv[id] = (p,pn)#insert into kv
-    #         ids.append(id)
-    #         ids.append(id+1)
-    # kv_out = []
+    #process kk pair 
+    bad_kv = []
+    for id, (p,pn) in kk.items():
+        if(id in ids):#skip this pair since we don't want to modifty it
+            continue
+        #print(p,pn)
+        if(is_outlier(new_lst, min_distance(pv[id][1],pv[id+1][1])) == False):#valid distance or semantically same or  pair_oracle(p,pn) == 1
+            kv[id] = (p,pn)#insert into kv
+            ids.append(id)
+            ids.append(id+1)
+            #update pn: remove in kv pair starting with pn 
+            for id, (pi,pni) in kv.items():
+                if(pi == pn):
+                    bad_kv.append(id)
+                    break
+        else:
+                #print('not match')
+                kv[id] = (p,'')
+                ids.append(id)
+    
+    #process vv pair
+    for id, (p,pn) in vv.items():
+        if(id in ids):#skip this pair since we don't want to modifty it
+            continue
+        if(pair_oracle(p,pn) == 1):
+            kv[id] = (p,pn)#insert into kv
+            #print('matched')
+            ids.append(id)
+            ids.append(id+1)
+
+    #process single v
+    for i in single_v:
+        v = pv[i][0]
+        print(v)
+        if(key_oracle(v) == 1):
+            kv[i] = (v,'')
+
+    kv_out = []
+    for id, (p,pn) in kv.items():
+        if(id in bad_kv):
+            continue
+        kv_out.append((p,pn))
+    return kv_out
     # #search for consecutive vals 
     # #add back consecutive values 
     # added = []
@@ -157,10 +389,7 @@ def key_val_extraction(phrases, phrases_bb, predict_labels):
     #     #         if(id+1 not in vv or id == len(phrases)-1):#consecutive vals end
     #     #             break
     #     #     kv[id-2] = val
-    # #produce final kv pairs 
-    # for id, (p,pn) in kv.items():
-    #     kv_out.append((p,pn))
-    # return kv_out
+    #produce final kv pairs 
 
 def min_distance(bb1,bb2):
     # min(current_bbox[0], word['x0']),
@@ -176,6 +405,16 @@ def min_distance(bb1,bb2):
 
 def pair_oracle(left,right):
     instruction = 'The following two phrases are extracted from a table. ' 'Is ' + right + ' a possible value for the key word ' + left + '? Return only yes or no. '
+    context = ''
+    prompt = (instruction,context)
+    response = model(model_name,prompt)
+    #print(response)
+    if('yes' in response.lower()):
+        return 1
+    return 0
+
+def key_oracle(val):
+    instruction = 'The following phrase is either a key word or value extracted from a table. ' 'If ' + val + ' a key word, return yes. If'  + val + ' is a value, return no. '
     context = ''
     prompt = (instruction,context)
     response = model(model_name,prompt)
@@ -571,7 +810,7 @@ if __name__ == "__main__":
         truth_path = key.get_truth_path(path,1)
         extracted_path = key.get_extracted_path(path)
         bb_path = get_bb_path(extracted_path)
-        out_path = key.get_key_val_path(path)
+        out_path = key.get_key_val_path(path, 'partial')
 
 
         truths = format(read_file(truth_path))
@@ -581,7 +820,9 @@ if __name__ == "__main__":
 
         #table_extraction(phrases_bb, results, phrases, out_path)
         #print(pattern_detection(phrases, results))
-        key_val_extraction(phrases, phrases_bb, results)
-        #write_result(kvs,out_path)
+        kvs = key_val_extraction(phrases, phrases_bb, results)
+        #kvs = key_val_bipartite_extraction(phrases, phrases_bb, results)
+        # kvs = greedy_key_val_extraction(phrases, phrases_bb, results)
+        write_result(kvs,out_path)
         # for kv in kvs:
         #     print(kv)
