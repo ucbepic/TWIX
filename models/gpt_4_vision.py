@@ -36,11 +36,11 @@ def get_openai_output(image_path, prompt):
         ]
     )
     output = response.choices[0].message.content
-    #json_string = json_string.replace("```json\n", "").replace("\n```", "")
+    #output = output.replace("```\n", "").replace("\n```", "")
 
     return output
 
-def gpt_4o_vision(prompt):
+def gpt_4o_vision(image_path, prompt):
     message_content = prompt[0] + prompt[1]
-    return get_openai_output(message_content)
+    return get_openai_output(image_path, message_content)
 

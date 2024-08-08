@@ -5,6 +5,15 @@ from scipy.sparse.csgraph import min_weight_full_bipartite_matching
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
 model_name = 'gpt4o'
+vision_model_name = 'gpt4vision'
+
+def get_metadata(image_path = '/Users/yiminglin/Downloads/page_1.jpg'):
+    instruction = 'Return the headers and footers in this page. Give me the raw output from the image directly, do not add any more text to clarify.' 
+    context = ''
+    prompt = (instruction,context)
+    response = model(vision_model_name,prompt, image_path = image_path)
+    #print(response)
+    return response
 
 def read_file(file):
     data = []
@@ -19,7 +28,6 @@ def read_json(path):
     with open(path, 'r') as file:
         data = json.load(file)
     return data
-
 
 def record_extraction(phrases,predict_labels):
     #only return the first record 
@@ -265,9 +273,42 @@ def greedy_key_val_extraction(phrases, phrases_bb, predict_labels):
     #     print(pv[kk[0]][0], pv[kk[1]][0])
     return results
 
+def is_metadata(meta, val):
+    if(val not in meta):
+        return 0
+    # Initialize the list to store the indices
+    indices = []
+    start = 0
+
+    # Loop to find all occurrences of the substring
+    while True:
+        index = meta.find(val, start)
+        if index == -1:
+            break
+        indices.append(index)
+        start = index + 1
+
+    for i in indices:
+        l = i-1
+        r = i+len(val)
+        f1 = 0
+        f2 = 0
+        if(l>=0 and (meta[l] == ' ' or meta[l] == '\n' or meta[l] == ':')):
+            f1 = 1
+        if(r<len(meta) and (meta[r] == ' ' or meta[r] == '\n' or meta[r] == ':')):
+            f2 = 1
+        if(l<0):
+            f1 = 1
+        if(r == len(meta)):
+            f2 = 1
+        if(f1 == 1 and f2 == 1):
+            return 1
+    return 0
 
 
 def key_val_extraction(phrases, phrases_bb, predict_labels):
+    metadata = get_metadata().lower()
+    #print(metadata)
     kv = {}#relative location id -> (key,val)
     kk = {}#relative location id -> (key,key)
     vv = {}#relative location id -> (val,val)
@@ -304,8 +345,10 @@ def key_val_extraction(phrases, phrases_bb, predict_labels):
     #second pass: scan for kk and vv 
     
     for id in outliers:
-        kv[id] = (pv[id][0],'')
-        ids.append(id)
+        if(is_metadata(metadata, pv[id][0]) == 0):
+            print('outlier: ', pv[id][0])
+            kv[id] = (pv[id][0],'')
+            ids.append(id)
 
     single_v = []
     i = 0
@@ -344,6 +387,8 @@ def key_val_extraction(phrases, phrases_bb, predict_labels):
                     break
         else:
                 #print('not match')
+            if(is_metadata(metadata,p) == 0):
+                print('kk:', p)
                 kv[id] = (p,'')
                 ids.append(id)
     
@@ -360,13 +405,19 @@ def key_val_extraction(phrases, phrases_bb, predict_labels):
     #process single v
     for i in single_v:
         v = pv[i][0]
-        print(v)
-        if(key_oracle(v) == 1):
+        
+        if(key_oracle(v) == 1 and is_metadata(metadata, v) == 0):
+            print('single v:', v)
             kv[i] = (v,'')
 
     kv_out = []
+    print(metadata)
+    # print('-----')
     for id, (p,pn) in kv.items():
         if(id in bad_kv):
+            continue
+        if((is_metadata(metadata, p) == 1 and len(p) > 3) and (is_metadata(metadata, pn) == 1 and len(pn) > 3)):
+            #print(p,pn)
             continue
         kv_out.append((p,pn))
     return kv_out
