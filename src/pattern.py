@@ -838,42 +838,43 @@ def write_result(results,path):
 
 
 if __name__ == "__main__":
-    root_path = extract.get_root_path()
-    #print(root_path)
-    tested_paths = []
-    tested_paths.append(root_path + '/data/raw/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted.pdf')
-    tested_paths.append(root_path + '/data/raw/complaints & use of force/UIUC PD Use of Force/22-274.releasable.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/CT/DecertifiedOfficersRev_9622 Emilie Munson.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/IA/Active_Employment.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/MT/RptEmpRstrDetail Active.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
+    print(get_metadata())
+    # root_path = extract.get_root_path()
+    # #print(root_path)
+    # tested_paths = []
+    # tested_paths.append(root_path + '/data/raw/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted.pdf')
+    # tested_paths.append(root_path + '/data/raw/complaints & use of force/UIUC PD Use of Force/22-274.releasable.pdf')
+    # tested_paths.append(root_path + '/data/raw/certification/CT/DecertifiedOfficersRev_9622 Emilie Munson.pdf')
+    # tested_paths.append(root_path + '/data/raw/certification/IA/Active_Employment.pdf')
+    # tested_paths.append(root_path + '/data/raw/certification/MT/RptEmpRstrDetail Active.pdf')
+    # tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
-    id = 0
-    tested_id = 2 #starting from 1
-    k=1
+    # id = 0
+    # tested_id = 2 #starting from 1
+    # k=1
 
-    for path in tested_paths:
-        id += 1
-        if(id != tested_id):
-            continue
-        print(path)
-        result_path = key.get_result_path(path)
-        truth_path = key.get_truth_path(path,1)
-        extracted_path = key.get_extracted_path(path)
-        bb_path = get_bb_path(extracted_path)
-        out_path = key.get_key_val_path(path, 'partial')
+    # for path in tested_paths:
+    #     id += 1
+    #     if(id != tested_id):
+    #         continue
+    #     print(path)
+    #     result_path = key.get_result_path(path)
+    #     truth_path = key.get_truth_path(path,1)
+    #     extracted_path = key.get_extracted_path(path)
+    #     bb_path = get_bb_path(extracted_path)
+    #     out_path = key.get_key_val_path(path, 'partial')
 
 
-        truths = format(read_file(truth_path))
-        results = format(read_file(result_path))
-        phrases = format(read_file(extracted_path))
-        phrases_bb = format_dict(read_json(bb_path))
+    #     truths = format(read_file(truth_path))
+    #     results = format(read_file(result_path))
+    #     phrases = format(read_file(extracted_path))
+    #     phrases_bb = format_dict(read_json(bb_path))
 
-        #table_extraction(phrases_bb, results, phrases, out_path)
-        #print(pattern_detection(phrases, results))
-        kvs = key_val_extraction(phrases, phrases_bb, results)
-        #kvs = key_val_bipartite_extraction(phrases, phrases_bb, results)
-        # kvs = greedy_key_val_extraction(phrases, phrases_bb, results)
-        write_result(kvs,out_path)
-        # for kv in kvs:
-        #     print(kv)
+    #     #table_extraction(phrases_bb, results, phrases, out_path)
+    #     #print(pattern_detection(phrases, results))
+    #     kvs = key_val_extraction(phrases, phrases_bb, results)
+    #     #kvs = key_val_bipartite_extraction(phrases, phrases_bb, results)
+    #     # kvs = greedy_key_val_extraction(phrases, phrases_bb, results)
+    #     write_result(kvs,out_path)
+    #     # for kv in kvs:
+    #     #     print(kv)

@@ -15,10 +15,11 @@ def format(lst):
         l.append(v.lower().strip())
     return l
 
-def format_key_val(lst):
+def format_key_val(lst, delimeter = ','):
     data = []
     for l in lst:
-        r = l.split(',')
+        r = l.split(delimeter)
+        #print(r)
         if(r[0].lower() == 'key' and r[1].lower() == 'value'):
             continue
         data.append((r[0].lower().strip(),r[1].lower().strip(),r[2]))
@@ -149,13 +150,13 @@ def eval_key_val_procedure():
     
     path = tested_paths[tested_id]
     print(path)
-    result_path = key.get_key_val_path(path, 'partial')
+    result_path = key.get_key_val_path(path, 'visionLLM_1')
     truth_path = get_truth_key_val_path(path)
     extracted_path = key.get_extracted_path(path)
 
     phrases = format(read_file(extracted_path))
     truths = format_key_val(read_file(truth_path))
-    results = format_key_val(read_file(result_path))
+    results = format_key_val(read_file(result_path), '|')
 
     # for l in results:
     #     print(l)
