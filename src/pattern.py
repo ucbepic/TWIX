@@ -562,24 +562,24 @@ def find_closest_value(val, lst):
     closest_val = min(lst, key=lambda x: abs(x - val))
     return closest_val
 
-def is_inclusive(b1,b2,delta = 1):
+def is_inclusive(b1,b2):
     #input: b1 and b2 are bounding box of two phrases 
     if(b1[2] < b2[0]):
         return 0
     if(b2[2] < b1[0]):
         return 0
-    # if (b1[0]-delta <= b2[0] and b1[2]+delta >= b2[2]):
-    #     return 1
-    # if (b2[0]-delta <= b1[0] and b2[2]+delta >= b1[2]):
-    #     return 1
     return 1
 
 def is_aligned(b1,b2,delta = 0.5):
-    if (b1[1] <= b2[1] and b1[3]+delta >= b2[3]):
-        return 1
-    if (b2[1] <= b1[1] and b2[3]+delta >= b1[3]):
-        return 1
-    return 0
+    # if (b1[1] <= b2[1] and b1[3]+delta >= b2[3]):
+    #     return 1
+    # if (b2[1] <= b1[1] and b2[3]+delta >= b1[3]):
+    #     return 1
+    if(b1[1] > b2[3]):
+        return 0
+    if(b2[3] < b1[1]):
+        return 0
+    return 1
 
 def hash_tuple(tuple):
     p = tuple[0]
@@ -796,12 +796,12 @@ def table_extraction(phrases_bb, predict_labels, phrases, path):
     key_mp = filter_key(bbv, phrases_bb, predict_labels)
     headers = identify_headers(key_mp, predict_labels, footer)
     #print(headers)
-    # for id, vals in key_mp.items():
-    #     print(id)
-    #     print(vals)
+    for id, vals in key_mp.items():
+        print(id)
+        print(vals)
     
     rows,keys = find_rows(vg, key_mp, bbv)
-    print(keys)
+    #print(keys)
     # for row in rows:
     #     row_out = []
     #     for r in row:
@@ -865,7 +865,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 4 #starting from 1
+    tested_id = 5 #starting from 1
     k=1
 
     for path in tested_paths:
