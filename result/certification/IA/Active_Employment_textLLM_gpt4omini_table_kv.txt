@@ -1,0 +1,2428 @@
+Here is the table formatted based on the provided keys and values:
+
+
+ Agency                                   
+ Date       
+ F/P 
+ Action      
+ Status   
+ Assignment                          
+ Pos/Rank 
+ Level    
+ Class     
+ Shift    
+
+
+------------------------------------------
+------------
+-----
+-------------
+----------
+-------------------------------------
+----------
+----------
+-----------
+----------
+
+
+ IOWA STATE PATROL                       
+ 9-21-2007  
+ F   
+ Promotion   
+ Active   
+ Trpr 3                              
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 5-23-1994  
+ H   
+ Hired       
+ Active   
+ Trooper                             
+ Fulltime 
+          
+           
+          
+
+
+ LINN COUNTY SHERIFF'S OFFICE            
+ 5-22-1994  
+ R   
+ Resigned    
+ Inactive 
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ LINN COUNTY SHERIFF'S OFFICE            
+ 2-15-1993  
+ H   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 11-17-2006 
+ F   
+ Promotion   
+ Active   
+ Trpr 3                              
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 10-31-1997 
+ T   
+ Transfr In  
+ Active   
+ Trooper                             
+ Fulltime 
+          
+           
+          
+
+
+ DIVISION OF CRIMINAL INVESTIGATION      
+ 10-30-1997 
+ T   
+ Transf Out  
+ Inactive 
+ Gaming Off                          
+ Fulltime 
+          
+           
+          
+
+
+ DIVISION OF CRIMINAL INVESTIGATION      
+ 8-07-1995  
+ H   
+ Hired       
+ Active   
+ Gaming Off                          
+ Fulltime 
+          
+           
+          
+
+
+ AURELIA POLICE DEPARTMENT               
+ 1-30-2020  
+ P   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ CARLISLE POLICE DEPARTMENT              
+ 11-20-2019 
+ F   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ CARLISLE POLICE DEPARTMENT              
+ 8-02-2016  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ BUENA VISTA COUNTY SHERIFF'S OFFICE     
+ 7-28-2016  
+ F   
+ Resigned    
+ Inactive 
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ BUENA VISTA COUNTY SHERIFF'S OFFICE     
+ 11-29-2010 
+ F   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ LAURENS POLICE DEPARTMENT               
+ 11-07-2006 
+ D   
+ Dismissed   
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ LAURENS POLICE DEPARTMENT               
+ 4-18-2005  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ WEST POINT POLICE DEPARTMENT            
+ 6-22-2017  
+ V   
+ Volunteer    
+ Active   
+ Reserve, Resrv Offc, No Super, Temp Emp 
+          
+          
+           
+          
+
+
+ FT MADISON POLICE DEPARTMENT            
+ 5-05-1998  
+ R   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ FT MADISON POLICE DEPARTMENT            
+ 3-06-1996  
+ R   
+ Reinstate   
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ FT MADISON POLICE DEPARTMENT            
+ 1-05-1996  
+ D   
+ Dismissed   
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ FT MADISON POLICE DEPARTMENT            
+ 7-01-1991  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ CEDAR FALLS POLICE DEPARTMENT           
+ 1-02-2019  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ UNIVERSITY OF NORTHERN IOWA POLICE     
+ 1-01-2019  
+ P   
+ Resigned    
+ Inactive 
+ Telecom, Telecomm.                  
+ Partime  
+          
+           
+          
+
+
+ UNIVERSITY OF NORTHERN IOWA POLICE     
+ 10-09-2017 
+ P   
+ Tele Hire   
+ Active   
+ Telecom, Telecomm.                  
+ Partime  
+          
+           
+          
+
+
+ WAYNE COUNTY SHERIFF'S OFFICE           
+ 1-02-2007  
+ F   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ LINN COUNTY SHERIFF'S OFFICE            
+ 4-09-2006  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ LINN COUNTY SHERIFF'S OFFICE            
+ 11-25-1996 
+ H   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ JOHNSTON POLICE DEPARTMENT               
+ 2-22-2018  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ CRESTON POLICE DEPARTMENT                
+ 2-16-2018  
+ F   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ CRESTON POLICE DEPARTMENT                
+ 3-25-2013  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ ALTOONA POLICE DEPARTMENT                
+ 12-16-2013 
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ WESTCOM                                  
+ 12-10-2013 
+ F   
+ Tele Rsgn   
+ Inactive 
+ Telecom, Telecomm.                  
+ Fulltime 
+          
+           
+          
+
+
+ WESTCOM                                  
+ 3-04-2013  
+ F   
+ Tele Hire   
+ Active   
+ Telecom, Telecomm.                  
+ Fulltime 
+          
+           
+          
+
+
+ CEDAR RAPIDS POLICE DEPARTMENT          
+ 4-23-2022  
+ F   
+ Promotion   
+ Active   
+ Captain                             
+ Fulltime 
+          
+           
+          
+
+
+ CEDAR RAPIDS POLICE DEPARTMENT          
+ 6-22-2013  
+ F   
+ Promotion   
+ Active   
+ Lieutenant                          
+ Fulltime 
+          
+           
+          
+
+
+ CEDAR RAPIDS POLICE DEPARTMENT          
+ 9-25-2004  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ CEDAR RAPIDS POLICE DEPARTMENT          
+ 8-03-1998  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ MARSHALLTOWN POLICE DEPARTMENT           
+ 9-12-2022  
+ F   
+ Promotion   
+ Active   
+ Lieutenant                          
+ Fulltime 
+          
+           
+          
+
+
+ MARSHALLTOWN POLICE DEPARTMENT           
+ 11-30-2009 
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ DES MOINES POLICE DEPARTMENT             
+ 9-06-2021  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ DES MOINES POLICE DEPARTMENT             
+ 4-09-2007  
+ F   
+ Promotion   
+ Active   
+ Pol Off Sr                          
+ Fulltime 
+          
+           
+          
+
+
+ HUXLEY POLICE DEPARTMENT                 
+ 4-04-2005  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ HUXLEY POLICE DEPARTMENT                 
+ 4-01-2005  
+ R   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ HUXLEY POLICE DEPARTMENT                 
+ 11-09-2002 
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ AMES POLICE DEPARTMENT                   
+ 8-10-2015  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 6-29-2018  
+ F   
+ Hired       
+ Active   
+ Trpr 2                              
+ Fulltime 
+          
+           
+          
+
+
+ WASHINGTON COUNTY SHERIFF'S OFFICE      
+ 10-01-2014 
+ R   
+ Resv.Term.  
+ Inactive 
+ Reserve, Resrv Offc, No Super, Temp Emp 
+          
+          
+           
+          
+
+
+ WASHINGTON COUNTY SHERIFF'S OFFICE      
+ 3-06-2012  
+ V   
+ Volunteer    
+ Active   
+ Reserve, Resrv Offc, No Super, Temp Emp 
+          
+          
+           
+          
+
+
+ WASHINGTON POLICE DEPARTMENT             
+ 9-01-2010  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ POLK COUNTY SHERIFF'S OFFICE             
+ 1-02-2001  
+ F   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ TAMA POLICE DEPARTMENT                   
+ 12-07-2021 
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ EMMETSBURG POLICE DEPARTMENT             
+ 1-22-1996  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ DAVENPORT POLICE DEPARTMENT              
+ 4-21-2021  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ WASHINGTON COUNTY SHERIFF'S OFFICE      
+ 4-11-2021  
+ F   
+ Resigned    
+ Inactive 
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ WASHINGTON COUNTY SHERIFF'S OFFICE      
+ 8-15-2019  
+ F   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ ALGONA POLICE DEPARTMENT                 
+ 4-23-2018  
+ R   
+ Resv.Term.  
+ Inactive 
+ Reserve, Resrv Offc, No Super, Temp Emp 
+          
+          
+           
+          
+
+
+ ESTHERVILLE POLICE DEPARTMENT            
+ 4-17-2018  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ ALGONA POLICE DEPARTMENT                 
+ 12-08-2017 
+ V   
+ Volunteer    
+ Active   
+ Reserve, Resrv Offc, No Super, Temp Emp 
+          
+          
+           
+          
+
+
+ CEDAR RAPIDS POLICE DEPARTMENT           
+ 7-06-2020  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 8-21-2020  
+ F   
+ Hired       
+ Active   
+ Trpr 2                              
+ Fulltime 
+          
+           
+          
+
+
+ OTTUMWA POLICE DEPARTMENT                
+ 4-20-2015  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ CEDAR FALLS POLICE DEPARTMENT           
+ 10-14-2019 
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 11-28-2008 
+ F   
+ Promotion   
+ Active   
+ Trpr 3                              
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 10-30-1998 
+ T   
+ Transfr In  
+ Active   
+ Trooper                             
+ Fulltime 
+          
+           
+          
+
+
+ CAPITOL POLICE                          
+ 10-29-1998 
+ T   
+ Transf Out  
+ Inactive 
+ Cap P.O.                            
+ Fulltime 
+          
+           
+          
+
+
+ CAPITOL POLICE                          
+ 8-07-1995  
+ H   
+ Hired       
+ Active   
+ Cap P.O.                            
+ Fulltime 
+          
+           
+          
+
+
+ DIVISION OF CRIMINAL INVESTIGATION      
+ 12-14-2011 
+ F   
+ Transfr In  
+ Active   
+ Spec Agnt2                          
+ Fulltime 
+          
+           
+          
+
+
+ DIVISION OF NARCOTICS ENFORCEMENT      
+ 12-13-2011 
+ F   
+ Transf Out  
+ Inactive 
+ Spec Agnt2                          
+ Fulltime 
+          
+           
+          
+
+
+ DIVISION OF NARCOTICS ENFORCEMENT      
+ 12-10-2010 
+ F   
+ Promotion   
+ Active   
+ Spec Agnt2                          
+ Fulltime 
+          
+           
+          
+
+
+ DIVISION OF NARCOTICS ENFORCEMENT      
+ 6-02-2006  
+ T   
+ Transfr In  
+ Active   
+ Spec Agnt                           
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 6-01-2006  
+ T   
+ Transf Out  
+ Inactive 
+ Trooper                             
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 9-02-1994  
+ H   
+ Hired       
+ Active   
+ Trooper                             
+ Fulltime 
+          
+           
+          
+
+
+ CLINTON POLICE DEPARTMENT                
+ 3-16-2020  
+ F   
+ Promotion   
+ Active   
+ Corporal                            
+ Fulltime 
+          
+           
+          
+
+
+ CLINTON POLICE DEPARTMENT                
+ 1-02-2003  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ WEST LIBERTY POLICE DEPARTMENT           
+ 11-18-2019 
+ P   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ TIPTON POLICE DEPARTMENT                 
+ 9-02-2019  
+ F   
+ Other       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ TIPTON POLICE DEPARTMENT                 
+ 6-29-2019  
+ P   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ SPENCER POLICE DEPARTMENT                
+ 5-09-2018  
+ F   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ SPENCER POLICE DEPARTMENT                
+ 8-07-2017  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ SIOUX CITY POLICE DEPARTMENT             
+ 4-22-2020  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ FAYETTE COUNTY SHERIFF'S OFFICE         
+ 10-11-1999 
+ F   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ DAYTON POLICE DEPARTMENT                 
+ 10-01-1999 
+ R   
+ Resigned    
+ Inactive 
+ Chief                               
+ Fulltime 
+          
+           
+          
+
+
+ DAYTON POLICE DEPARTMENT                 
+ 4-20-1999  
+ P   
+ Promotion   
+ Active   
+ Chief                               
+ Fulltime 
+          
+           
+          
+
+
+ DAYTON POLICE DEPARTMENT                 
+ 1-14-1998  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ SIOUX CITY POLICE DEPARTMENT             
+ 4-28-2018  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ MONONA COUNTY SHERIFF'S OFFICE           
+ 7-31-2007  
+ R   
+ Resigned    
+ Inactive 
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ SIOUX CITY POLICE DEPARTMENT             
+ 7-30-2007  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ MONONA COUNTY SHERIFF'S OFFICE           
+ 7-15-2002  
+ H   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ ONAWA POLICE DEPARTMENT                  
+ 7-13-2002  
+ R   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ ONAWA POLICE DEPARTMENT                  
+ 11-01-2000 
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ JOHNSTON POLICE DEPARTMENT               
+ 12-19-2022 
+ F   
+ Promotion   
+ Active   
+ Lieutenant                          
+ Fulltime 
+          
+           
+          
+
+
+ JOHNSTON POLICE DEPARTMENT               
+ 7-03-2011  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ JOHNSTON POLICE DEPARTMENT               
+ 4-03-2006  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ DES MOINES POLICE DEPARTMENT             
+ 12-07-2004 
+ R   
+ Resv.Term.  
+ Inactive 
+ Resrv Offc, Temp Emp               
+          
+          
+           
+          
+
+
+ DES MOINES POLICE DEPARTMENT             
+ 4-23-2004  
+ V   
+ Volunteer    
+ Active   
+ Resrv Offc, Temp Emp               
+          
+          
+           
+          
+
+
+ ANKENY POLICE DEPARTMENT                 
+ 6-08-2003  
+ R   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ ANKENY POLICE DEPARTMENT                 
+ 12-19-1996 
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ CEDAR RAPIDS POLICE DEPARTMENT           
+ 6-04-2022  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ CEDAR RAPIDS POLICE DEPARTMENT           
+ 8-01-2011  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 5-01-2020  
+ F   
+ Promotion   
+ Active   
+ Spec Agnt2                          
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 4-10-2015  
+ F   
+ Promotion   
+ Active   
+ Trpr 2                              
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 9-27-2013  
+ F   
+ Hired       
+ Active   
+ Trpr 1                              
+ Fulltime 
+          
+           
+          
+
+
+ SCOTT COUNTY SHERIFF'S OFFICE           
+ 8-25-2022  
+ F   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ ESTHERVILLE POLICE DEPARTMENT            
+ 9-11-2015  
+ P   
+ Demotion    
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ ESTHERVILLE POLICE DEPARTMENT            
+ 12-21-2010 
+ F   
+ Promotion   
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ ESTHERVILLE POLICE DEPARTMENT            
+ 7-07-2010  
+ P   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ ESTHERVILLE POLICE DEPARTMENT            
+ 8-28-2006  
+ R   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ ESTHERVILLE POLICE DEPARTMENT            
+ 11-24-2003 
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ SCOTT COUNTY SHERIFF'S OFFICE           
+ 10-31-2019 
+ F   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ BURLINGTON POLICE DEPARTMENT             
+ 10-31-2019 
+ F   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ BURLINGTON POLICE DEPARTMENT             
+ 8-04-2015  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ POLK COUNTY CONSERVATION BOARD           
+ 3-07-2018  
+ P   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ POLK COUNTY CONSERVATION BOARD           
+ 5-09-2016  
+ P   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ BELLE PLAINE POLICE DEPARTMENT           
+ 7-08-2010  
+ F   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ POLK CITY POLICE DEPARTMENT              
+ 7-08-2009  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ BELLE PLAINE POLICE DEPARTMENT           
+ 2-04-2008  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ READLYN POLICE DEPARTMENT                
+ 12-06-2004 
+ H   
+ Hired       
+ Active   
+ Chief                               
+ Fulltime 
+          
+           
+          
+
+
+ POLK COUNTY SHERIFF'S OFFICE             
+ 2-27-2021  
+ F   
+ Promotion   
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ WARREN COUNTY SHERIFF'S OFFICE           
+ 5-01-2015  
+ F   
+ Resigned    
+ Inactive 
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ POLK COUNTY SHERIFF'S OFFICE             
+ 4-01-2015  
+ F   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ MELCHER-DALLAS POLICE DEPARTMENT         
+ 6-20-2014  
+ P   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ MELCHER-DALLAS POLICE DEPARTMENT         
+ 8-12-2013  
+ P   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ WARREN COUNTY SHERIFF'S OFFICE           
+ 4-25-2013  
+ F   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ GREENFIELD POLICE DEPARTMENT             
+ 3-20-2013  
+ F   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ GREENFIELD POLICE DEPARTMENT             
+ 3-15-2011  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ MISSOURI VALLEY POLICE DEPARTMENT        
+ 10-05-2017 
+ F   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ TABOR POLICE DEPARTMENT                  
+ 10-01-2017 
+ F   
+ Promotion   
+ Active   
+ Chief                               
+ Fulltime 
+          
+           
+          
+
+
+ MISSOURI VALLEY POLICE DEPARTMENT        
+ 6-02-2015  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ TABOR POLICE DEPARTMENT                  
+ 1-01-2014  
+ P   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ FREMONT COUNTY SHERIFF'S OFFICE         
+ 1-01-2009  
+ F   
+ Promotion   
+ Active   
+ Sheriff                             
+ Fulltime 
+          
+           
+          
+
+
+ FREMONT COUNTY SHERIFF'S OFFICE         
+ 2-01-1993  
+ P   
+ Promotion   
+ Active   
+ Chf. Dep.                           
+ Fulltime 
+          
+           
+          
+
+
+ FREMONT COUNTY SHERIFF'S OFFICE         
+ 8-01-1987  
+ H   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ TABOR POLICE DEPARTMENT                  
+ 7-31-1987  
+ R   
+ Resigned    
+ Inactive 
+ Chief                               
+ Fulltime 
+          
+           
+          
+
+
+ TABOR POLICE DEPARTMENT                  
+ 1-01-1984  
+ P   
+ Promotion   
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ TABOR POLICE DEPARTMENT                  
+ 7-01-1978  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ WATERLOO POLICE DEPARTMENT               
+ 1-13-2020  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ MASON CITY POLICE DEPARTMENT             
+ 1-17-2022  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 4-18-2023  
+ F   
+ Promotion   
+ Active   
+ Chf. Dep.                           
+ Fulltime 
+          
+           
+          
+
+
+ CLARKE COUNTY SHERIFF'S OFFICE          
+ 3-27-2023  
+ F   
+ Promotion   
+ Active   
+ Chf. Dep.                           
+ Fulltime 
+          
+           
+          
+
+
+ LEON POLICE DEPARTMENT                   
+ 1-25-2018  
+ R   
+ Resv.Term.  
+ Inactive 
+ Reserve, Resrv Offc, No Super, Temp Emp 
+          
+          
+           
+          
+
+
+ CLARKE COUNTY SHERIFF'S OFFICE          
+ 2-29-2016  
+ F   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ CHARITON POLICE DEPARTMENT               
+ 2-28-2016  
+ F   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ CHARITON POLICE DEPARTMENT               
+ 7-20-2015  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ LEON POLICE DEPARTMENT                   
+ 5-08-2014  
+ V   
+ Volunteer    
+ Active   
+ Reserve, Resrv Offc, No Super, Temp Emp 
+          
+          
+           
+          
+
+
+ UNIVERSITY HEIGHTS POLICE DEPARTMENT     
+ 8-19-2019  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ IOWA CITY POLICE DEPARTMENT              
+ 8-14-2019  
+ F   
+ Retired     
+ Inactive 
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ IOWA CITY POLICE DEPARTMENT              
+ 2-04-2012  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ IOWA CITY POLICE DEPARTMENT              
+ 9-28-1988  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ MARSHALLTOWN POLICE DEPARTMENT           
+ 9-28-1988  
+ R   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ MARSHALLTOWN POLICE DEPARTMENT           
+ 1-25-1988  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ HUXLEY POLICE DEPARTMENT                 
+ 1-24-2023  
+ F   
+ Promotion   
+ Active   
+ Chief                               
+ Fulltime 
+          
+           
+          
+
+
+ HUXLEY POLICE DEPARTMENT                 
+ 9-25-2018  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ HUXLEY POLICE DEPARTMENT                 
+ 7-29-2006  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ BELLEVUE POLICE DEPARTMENT               
+ 7-27-2006  
+ R   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ BELLEVUE POLICE DEPARTMENT               
+ 8-18-2003  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ NORWALK POLICE DEPARTMENT                
+ 8-29-2002  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ COUNCIL BLUFFS POLICE DEPARTMENT         
+ 4-02-2022  
+ F   
+ Promotion   
+ Active   
+ Lieutenant                          
+ Fulltime 
+          
+           
+          
+
+
+ COUNCIL BLUFFS POLICE DEPARTMENT         
+ 9-10-2015  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ COUNCIL BLUFFS POLICE DEPARTMENT         
+ 8-01-2015  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ COUNCIL BLUFFS POLICE DEPARTMENT         
+ 9-11-2000  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ MISSOURI VALLEY POLICE DEPARTMENT        
+ 8-06-2000  
+ R   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ MISSOURI VALLEY POLICE DEPARTMENT        
+ 3-08-1999  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 6-30-2017  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 5-31-2007  
+ F   
+ Hired       
+ Active   
+ Trpr 2                              
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 9-30-2022  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 4-21-2017  
+ F   
+ Promotion   
+ Active   
+ Trpr 3                              
+ Fulltime 
+          
+           
+          
+
+
+ IOWA STATE PATROL                       
+ 11-30-2005 
+ F   
+ Hired       
+ Active   
+ Trpr 2                              
+ Fulltime 
+          
+           
+          
+
+
+ SIOUX CITY POLICE DEPARTMENT             
+ 1-09-2006  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ DAVENPORT POLICE DEPARTMENT              
+ 4-25-2022  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ NORWALK POLICE DEPARTMENT                
+ 12-26-2019 
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ PRAIRIE CITY POLICE DEPARTMENT           
+ 1-10-2023  
+ F   
+ Other       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ PRAIRIE CITY POLICE DEPARTMENT           
+ 11-09-2022 
+ P   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ JASPER COUNTY SHERIFF'S OFFICE          
+ 4-12-2022  
+ F   
+ Resigned    
+ Inactive 
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ JASPER COUNTY SHERIFF'S OFFICE          
+ 9-02-2014  
+ H   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ WINTERSET POLICE DEPARTMENT              
+ 3-01-2019  
+ P   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ WINTERSET POLICE DEPARTMENT              
+ 11-22-2014 
+ P   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ DEPARTMENT OF TRANSPORTATION             
+ 7-15-2002  
+ H   
+ Hired       
+ Active   
+ M.V.E.O. 1                          
+ Fulltime 
+          
+           
+          
+
+
+ DALLAS COUNTY SHERIFF'S OFFICE          
+ 7-07-2002  
+ R   
+ Resigned    
+ Inactive 
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ DALLAS COUNTY SHERIFF'S OFFICE          
+ 8-10-1998  
+ H   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ MT PLEASANT POLICE DEPARTMENT            
+ 8-06-1998  
+ R   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ MT PLEASANT POLICE DEPARTMENT            
+ 11-27-1995 
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ SCOTT COUNTY SHERIFF'S OFFICE           
+ 2-05-2009  
+ V   
+ Volunteer    
+ Active   
+ Reserve, Resrv Offc, No Super, Temp Emp 
+          
+          
+           
+          
+
+
+ BUFFALO POLICE DEPARTMENT                
+ 1-01-2005  
+ P   
+ Promotion   
+ Active   
+ Corporal                            
+ Partime  
+          
+           
+          
+
+
+ BUFFALO POLICE DEPARTMENT                
+ 4-02-1992  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ BUFFALO POLICE DEPARTMENT                
+ 12-19-1983 
+ R   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ BUFFALO POLICE DEPARTMENT                
+ 5-24-1983  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ BLUE GRASS POLICE DEPARTMENT             
+ 5-22-1983  
+ D   
+ Dismissed   
+ Inactive 
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ BLUE GRASS POLICE DEPARTMENT             
+ 3-01-1983  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Partime  
+          
+           
+          
+
+
+ ADAIR COUNTY SHERIFF'S OFFICE           
+ 8-02-2019  
+ F   
+ Promotion   
+ Active   
+ Chf. Dep.                           
+ Fulltime 
+          
+           
+          
+
+
+ ADAIR COUNTY SHERIFF'S OFFICE           
+ 1-05-2015  
+ F   
+ Hired       
+ Active   
+ Deputy                              
+ Fulltime 
+          
+           
+          
+
+
+ STUART POLICE DEPARTMENT                 
+ 1-01-2015  
+ F   
+ Resigned    
+ Inactive 
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ STUART POLICE DEPARTMENT                 
+ 6-01-2011  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ DALLAS COUNTY SHERIFF'S OFFICE          
+ 8-25-2010  
+ R   
+ Resv.Term.  
+ Inactive 
+ Reserve, Resrv Offc, No Super, Temp Emp 
+          
+          
+           
+          
+
+
+ STUART POLICE DEPARTMENT                 
+ 2-13-2010  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ DALLAS COUNTY SHERIFF'S OFFICE          
+ 10-01-2009 
+ V   
+ Volunteer    
+ Active   
+ Reserve, Resrv Offc, No Super, Temp Emp 
+          
+          
+           
+          
+
+
+ OTTUMWA POLICE DEPARTMENT                
+ 7-03-2011  
+ F   
+ Promotion   
+ Active   
+ Sergeant                            
+ Fulltime 
+          
+           
+          
+
+
+ OTTUMWA POLICE DEPARTMENT                
+ 4-12-2010  
+ F   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ DIVISION OF CRIMINAL INVESTIGATION      
+ 4-01-2010  
+ F   
+ Resigned    
+ Inactive 
+ Gaming Off                          
+ Fulltime 
+          
+           
+          
+
+
+ DIVISION OF CRIMINAL INVESTIGATION      
+ 5-29-2008  
+ H   
+ Hired       
+ Active   
+ Gaming Off                          
+ Fulltime 
+          
+           
+          
+
+
+ OTTUMWA POLICE DEPARTMENT                
+ 5-28-2008  
+ R   
+ Resigned    
+ Inactive 
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+ OTTUMWA POLICE DEPARTMENT                
+ 7-15-2002  
+ H   
+ Hired       
+ Active   
+ Police Off                          
+ Fulltime 
+          
+           
+          
+
+
+This table summarizes the data extracted from the provided text, with each row representing an entry corresponding to the keys.

@@ -1,0 +1,278 @@
+The table is as follows:
+
+
+ Name 
+ Badge Number 
+ Agency 
+ Date 
+ F/P 
+ Action 
+ Status 
+ Assignment 
+ Pos/Rank 
+ Level 
+ Class 
+ Shift 
+
+
+ --- 
+ --- 
+ --- 
+ --- 
+ --- 
+ --- 
+ --- 
+ --- 
+ --- 
+ --- 
+ --- 
+ --- 
+
+
+ Aarhus, Ryan D. 
+ 135-01 
+ IOWA STATE PATROL 
+ 9-21-2007 
+ F 
+ Promotion 
+ Active 
+ Trpr 3 
+ Fulltime 
+ IOWA STATE PATROL 
+ 5-23-1994 
+ Hired 
+
+
+ Aarhus, Todd C. 
+ DPS22-01 
+ IOWA STATE PATROL 
+ 11-17-2006 
+ F 
+ Promotion 
+ Active 
+ Trpr 3 
+ Fulltime 
+ IOWA STATE PATROL 
+ 10-31-1997 
+ Transfr In 
+
+
+ Abbas, April S. 
+ WI6-01 
+ AURELIA POLICE DEPARTMENT 
+ 1-30-2020 
+ P 
+ Hired 
+ Active 
+ Police Off 
+ Partime 
+ CARLISLE POLICE DEPARTMENT 
+ 11-20-2019 
+ F 
+
+
+ Abbey, Jeffery A. 
+ CR21-01 
+ WEST POINT POLICE DEPARTMENT 
+ 6-22-2017 
+ Volunteer 
+ Active 
+ Reserve 
+ Resrv Offc 
+ No Super 
+ Temp Emp 
+ Functions 
+ Reserve 
+
+
+ Abbott, Marissa K. 
+ 287-01 
+ CEDAR FALLS POLICE DEPARTMENT 
+ 1-02-2019 
+ F 
+ Hired 
+ Active 
+ Police Off 
+ Fulltime 
+ UNIVERSITY OF NORTHERN IOWA POLICE 
+ 1-01-2019 
+ P 
+
+
+ Abel, Garrett J. 
+ 218-01 
+ WAYNE COUNTY SHERIFF'S OFFICE 
+ 1-02-2007 
+ F 
+ Hired 
+ Active 
+ Deputy 
+ Fulltime 
+ Abel, Yon A. 
+ J1997-01 
+ LINN COUNTY SHERIFF'S OFFICE 
+
+
+ Abell, Samuel T. 
+ 253-01 
+ JOHNSTON POLICE DEPARTMENT 
+ 2-27-2022 
+ F 
+ Promotion 
+ Active 
+ Sergeant 
+ Fulltime 
+ APR 18,2023 
+ Iowa 
+ Law 
+
+
+ Abernathy, Ryan S. 
+ T2013-22 
+ ALTOONA POLICE DEPARTMENT 
+ 12-16-2013 
+ F 
+ Hired 
+ Active 
+ Police Off 
+ Fulltime 
+ WESTCOM 
+ 12-10-2013 
+ F 
+
+
+ Abodeely, Ryan M. 
+ CR27-01 
+ CEDAR RAPIDS POLICE DEPARTMENT 
+ 4-23-2022 
+ F 
+ Promotion 
+ Active 
+ Captain 
+ Fulltime 
+ CEDAR RAPIDS POLICE DEPARTMENT 
+ 6-22-2013 
+ F 
+
+
+ Accola, Anthony J. 
+ 232-01 
+ MARSHALLTOWN POLICE DEPARTMENT 
+ 9-12-2022 
+ F 
+ Promotion 
+ Active 
+ Lieutenant 
+ Fulltime 
+ MARSHALLTOWN POLICE DEPARTMENT 
+ 11-30-2009 
+ F 
+
+
+ Accola, Curtiss N. 
+ 191-01 
+ DES MOINES POLICE DEPARTMENT 
+ 9-06-2021 
+ F 
+ Promotion 
+ Active 
+ Sergeant 
+ Fulltime 
+ DES MOINES POLICE DEPARTMENT 
+ 4-09-2007 
+ F 
+
+
+ Accola, Derek G. 
+ 265-01 
+ AMES POLICE DEPARTMENT 
+ 8-10-2015 
+ F 
+ Hired 
+ Active 
+ Police Off 
+ Fulltime 
+ Achterhoff, Ethan J. 
+ DPS41-01 
+ IOWA STATE PATROL 
+
+
+ Adam, Seth M. 
+ 236-01 
+ WASHINGTON COUNTY SHERIFF'S OFFIC 
+ 10-01-2014 
+ Resv.Term. 
+ Inactive 
+ Reserve 
+ Resrv Offc 
+ No Super 
+ Temp Emp 
+ WASHINGTON COUNTY SHERIFF'S OFFIC 
+ 3-06-2012 
+
+
+ Adamovicz, Patrick J. 
+ 195-01 
+ POLK COUNTY SHERIFF'S OFFICE 
+ 1-02-2001 
+ F 
+ Hired 
+ Active 
+ Deputy 
+ Fulltime 
+ Adams, Aaron T. 
+ 304-01 
+ TAMA POLICE DEPARTMENT 
+
+
+ Adams, Darrin E. 
+ 153-01 
+ EMMETSBURG POLICE DEPARTMENT 
+ 1-22-1996 
+ F 
+ Hired 
+ Active 
+ Police Off 
+ Fulltime 
+ Adams, Justin J. 
+ 288-01 
+ DAVENPORT POLICE DEPARTMENT 
+
+
+ Adams, Matthew T. 
+ 285-01 
+ ALGONA POLICE DEPARTMENT 
+ 4-23-2018 
+ Resv.Term. 
+ Inactive 
+ Reserve 
+ Resrv Offc 
+ No Super 
+ Temp Emp 
+ Functions 
+ Reserve 
+
+
+ Adams, Nathan A. 
+ CR48-01 
+ CEDAR RAPIDS POLICE DEPARTMENT 
+ 7-06-2020 
+ F 
+ Hired 
+ Active 
+ Police Off 
+ Fulltime 
+ Adams, Nicholas A. 
+ DPS44-01 
+ IOWA STATE PATROL 
+
+
+ Adams, Scott A. 
+ 263-02 
+ OTTUMWA POLICE DEPARTMENT 
+ 4-20-2015 
+ F 
+ Hired 
+ Active 
+ Police Off 
+ Full

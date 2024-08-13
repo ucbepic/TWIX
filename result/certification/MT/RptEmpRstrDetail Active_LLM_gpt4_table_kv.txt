@@ -1,0 +1,70 @@
+OCT, 1,2019, Montana, POST, Council, Page, 1, 12:25PM, Employee, Roster, with, Details, Invisible Institute Active Officers, Name, I.D., Sex, Birth Date, Age, Employee Type, Employee, Instructor, Supervisor
+Adair, Christopher M., 022070, M, 1978, 41, Peace Officer, 
+Adame, Jesse A., 025042, M, 1988, 31, Peace Officer, 
+Adams, Ashley A., 025657, F, -1990, 28, Detention & Correction, 
+Adams, Jeremiah A., 020885, M, 1984, 35, Peace Officer, 
+Adams, Ross E., 000012, M, 1960, 59, Peace Officer, 
+Adams, Seth H., 022864, M, 1989, 30, Peace Officer, 
+Adams, Tyler, 023612, M, -1984, 34, Detention & Correction, 
+Adkins, Kevin, 016759, Peace Officer, 
+Adolph, Jerry O., 014668, M, -1959, 59, Detention & Correction, 
+Adorni, Larry F., 016753, M, 1957, 62, Peace Officer, 
+Adsem, Steven J., 005552, M, 1965, 54, Peace Officer, 
+Aggers, Mary, 012393, F, 1970, 49, Probation & Parole, 
+Ahlin, Benjamin J., 024854, M, 1993, 26, Detention & Correction, 
+Ahmann, Jacob G., 023943, M, 1992, 27, Peace Officer, 
+Aiello, Antonio D., 023659, M, 1984, 35, Detention & Correction, 
+Albright, Christopher B., 010496, M, 1970, 49, Peace Officer, 
+Albright, Cody J., 021589, M, 1990, 29, Detention & Correction, 
+Aliperto, Benjamin J., 025733, M, 1995, 24, Detention & Correction, 
+Allen, Darin C., 015463, M, 1974, 45, Probation & Parole, 
+Allen, Jack E., 000025, M, -1959, 59, Peace Officer, 
+Allen, Jesse C., 021937, M, 1982, 37, Peace Officer, 
+Allen, Payton E., 025919, M, 1999, 20, Detention & Correction, 
+Allen, Robert J., 025593, M, 1976, 43, Peace Officer, 
+Allen, Sean C., 024063, M, -1986, 32, Peace Officer, 
+Allen, Tammy A., 017266, -1967, 51, Detention & Correction, 
+Allison, Derek, 025076, M, 1999, 20, Detention & Correction, 
+Allison, Thomas B., 022103, M, -1992, 26, Peace Officer, 
+Allmendinger, Jacob O., 020851, M, -1987, 31, Peace Officer, 
+Allred, Sabrina, 025094, F, 1978, 41, Probation & Parole, 
+Althaus, Terry L., 000028, M, 1960, 59, Peace Officer, 
+Altmiller, Jason D., 024024, Peace Officer, 
+Altschwager, Daniel T., 020936, M, -1983, 35, Peace Officer, 
+Amaro, Ishmael G., 025336, M, 1995, 24, Detention & Correction, 
+Ames, Danny H., 000034, Peace Officer, 
+Ames, Joshua A., 024710, M, 1981, 38, Peace Officer, 
+Amundsen, Gregory M., 002435, M, 1961, 58, Peace Officer, 
+Amundson, Daniel S., 014908, M, 1969, 50, Peace Officer, 
+Anderberg, Chad B., 022675, M, 1986, 33, Peace Officer, 
+Andersen, Dirk, 000036, M, 1957, 62, Reserve, 
+Andersen, Shad A., 019490, M, 1974, 45, Peace Officer, 
+Anderson, Adam S., 025070, M, 1983, 36, Detention & Correction, 
+Anderson, Bryan L., 023954, M, 1984, 35, Peace Officer, 
+Anderson, Cache, 021951, M, 1982, 37, Peace Officer, 
+Anderson, Cactus J., 021851, M, 1980, 39, Peace Officer, 
+Anderson, Clint W., 019254, M, 1980, 39, Peace Officer, 
+Anderson, Codee R., 019273, -1987, 31, Reserve, 
+Anderson, David A., 014614, M, -1964, 54, Detention & Correction, 
+Anderson, Ian M., 022250, M, -1989, 29, Peace Officer, 
+Anderson, James R., 013738, M, -1971, 47, Peace Officer, 
+Anderson, Jonathan M., 018722, M, 1969, 50, Peace Officer, 
+Anderson, Joshua S., 025301, M, 1994, 25, Peace Officer, 
+Anderson, Kent M., 018466, M, 1984, 35, Peace Officer, 
+Anderson, Lee R., 007664, M, 1972, 47, Peace Officer, 
+Anderson, Michael B., 023290, M, 1985, 34, Peace Officer, 
+Anderson, Spencer P., 009378, M, 1977, 42, Peace Officer, 
+Anderson, Steve F., 013276, M, 1964, 55, Detention & Correction, 
+Andress, Robert W., 019652, Peace Officer, 
+Andrews, Justin C., 020912, M, -1988, 30, Peace Officer, 
+Anglin, Clint C., 021081, M, 1978, 41, Peace Officer, 
+Anglin, Jarred G., 020563, M, 1986, 33, Peace Officer, 
+Araujo, Christopher R., 021405, M, -1988, 30, Peace Officer, 
+Arca, Shelby M., 025106, F, 1993, 26, Detention & Correction, 
+Arends, Linda N., 019463, F, -1958, 60, Detention & Correction, 
+Arlee, Travis L., 024828, M, 1971, 48, Peace Officer, 
+Arment, Marc T., 025133, M, 1982, 37, Peace Officer, 
+Armstrong, Barbara A., 023185, F, 1981, 38, Peace Officer, 
+Armstrong, Donald, 020144, M, 1962, 57, Detention & Correction, 
+Armstrong, Robert J., 006665, M, 1970, 49, Peace Officer, 
+Arneson, Jerod, 025385, M, 1993, 26, Detention & Correction
