@@ -564,11 +564,15 @@ def find_closest_value(val, lst):
 
 def is_inclusive(b1,b2,delta = 1):
     #input: b1 and b2 are bounding box of two phrases 
-    if (b1[0] <= b2[0] and b1[2]+delta >= b2[2]):
-        return 1
-    if (b2[0] <= b1[0] and b2[2]+delta >= b1[2]):
-        return 1
-    return 0
+    if(b1[2] < b2[0]):
+        return 0
+    if(b2[2] < b1[0]):
+        return 0
+    # if (b1[0]-delta <= b2[0] and b1[2]+delta >= b2[2]):
+    #     return 1
+    # if (b2[0]-delta <= b1[0] and b2[2]+delta >= b1[2]):
+    #     return 1
+    return 1
 
 def is_aligned(b1,b2,delta = 0.5):
     if (b1[1] <= b2[1] and b1[3]+delta >= b2[3]):
@@ -591,6 +595,8 @@ def find_rows(vg, key_mp, bbv):
     pb = []
     re_map = {}#tuple -> key cluster_id
     for id, tuples in vg.items():
+        if(id not in key_mp):
+            continue
         key = key_mp[id]
         #print(key, id)
         for t in tuples:
@@ -635,7 +641,7 @@ def find_rows(vg, key_mp, bbv):
                 lst.append(tuple)
                 x_top = tuple[1][1]
             else:
-                lst.append(('null',[0,0,0,0]))#denote missing value 
+                lst.append(('',[0,0,0,0]))#denote missing value 
         row_loc[x_top] = id
         new_row_mp[id] = lst
 
@@ -779,26 +785,35 @@ def table_extraction(phrases_bb, predict_labels, phrases, path):
     #get the bounding box vector of phrases for the first record  
     record_appearance,pv = get_bb_per_record(record_appearance, phrases_bb, first_record)
     
-    
+    #print(pv)
     vg,footer = find_value_group(pv, predict_labels)
+    # for id, vals in vg.items():
+    #     print(id)
+    #     for v in vals:
+    #         print(v[0])
+        
     bbv = find_bb_value_group(vg)
     key_mp = filter_key(bbv, phrases_bb, predict_labels)
     headers = identify_headers(key_mp, predict_labels, footer)
     #print(headers)
+    # for id, vals in key_mp.items():
+    #     print(id)
+    #     print(vals)
+    
     rows,keys = find_rows(vg, key_mp, bbv)
-    # print(keys)
+    print(keys)
     # for row in rows:
     #     row_out = []
     #     for r in row:
     #         row_out.append(r[0])
     #     print(row_out)
-    #write_table(keys, rows, path)
-    print("headers:")
-    for p in headers:
-        print(p)
-    print("footers")
-    for p in footer:
-        print(p[0])
+    write_table(keys, rows, path)
+    # print("headers:")
+    # for p in headers:
+    #     print(p)
+    # print("footers")
+    # for p in footer:
+    #     print(p[0])
 
 
 def write_table(keys, rows, path):
@@ -850,7 +865,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 2 #starting from 1
+    tested_id = 4 #starting from 1
     k=1
 
     for path in tested_paths:
@@ -862,7 +877,7 @@ if __name__ == "__main__":
         truth_path = key.get_truth_path(path,1)
         extracted_path = key.get_extracted_path(path)
         bb_path = get_bb_path(extracted_path)
-        out_path = key.get_key_val_path(path, 'partial_kv')
+        out_path = key.get_key_val_path(path, '')
 
 
         truths = format(read_file(truth_path))
@@ -870,11 +885,11 @@ if __name__ == "__main__":
         phrases = format(read_file(extracted_path))
         phrases_bb = format_dict(read_json(bb_path))
 
-        #table_extraction(phrases_bb, results, phrases, out_path)
+        table_extraction(phrases_bb, results, phrases, out_path)
         #print(pattern_detection(phrases, results))
-        kvs = key_val_extraction(phrases, phrases_bb, results)
+        #kvs = key_val_extraction(phrases, phrases_bb, results)
         #kvs = key_val_bipartite_extraction(phrases, phrases_bb, results)
         # kvs = greedy_key_val_extraction(phrases, phrases_bb, results)
-        write_result(kvs,out_path)
+        #write_result(kvs,out_path)
         # for kv in kvs:
         #     print(kv)
