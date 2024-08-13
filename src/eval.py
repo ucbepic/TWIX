@@ -150,13 +150,13 @@ def eval_key_val_procedure():
     
     path = tested_paths[tested_id]
     print(path)
-    result_path = key.get_key_val_path(path, 'visionLLM_1')
+    result_path = key.get_key_val_path(path, 'partial_kv')
     truth_path = get_truth_key_val_path(path)
     extracted_path = key.get_extracted_path(path)
 
     phrases = format(read_file(extracted_path))
     truths = format_key_val(read_file(truth_path))
-    results = format_key_val(read_file(result_path), '|')
+    results = format_key_val(read_file(result_path))
 
     # for l in results:
     #     print(l)
