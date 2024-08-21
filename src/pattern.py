@@ -528,6 +528,8 @@ def get_bblist_per_record(record_appearance, phrases_bb, phrases):
             # print(p,c,appear[p],len(lst))
             # print(phrases_bb[p], cur, cur+c)
             bb = lst[appear[p]]
+            if('formal' in p):
+                print(p,bb, appear[p])
             pv.append((p,bb))
     for p in phrases:
         if(p in phrases_bb):
@@ -851,6 +853,59 @@ def write_result(results,path):
             #print(out)
             file.write(out + '\n')
 
+def is_same_row(b1,b2):
+    #b2 should be in the right side of b1
+    if(b2[0] < b1[0]):
+        return 0
+    # b1 and b2 should overlap in y
+    if(b1[3] < b2[1] or b1[1] > b2[3]):
+        return 0
+    return 1
+
+def pattern_detect_by_row(pv):
+    #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record
+    p_pre = pv[0][0]
+    bb_pre = pv[0][1]
+    row_id = 0
+    row_mp = {} #row_id -> a list of (phrase, bb)
+    row_mp[row_id] = []
+    row_mp[row_id].append((p_pre, bb_pre))
+    for i in range(1, len(pv)):
+        p = pv[i][0]
+        bb = pv[i][1]
+        if(is_same_row(bb_pre,bb) == 0):
+            row_id += 1
+            row_mp[row_id] = []
+        row_mp[row_id].append((p, bb))
+        p_pre = p
+        bb_pre = bb
+
+    for row_id, lst in row_mp.items():
+        print(row_id)
+        prt = []
+        for (p,bb) in lst:
+            prt.append(p)
+        print(prt)
+    
+
+    
+
+def mix_pattern_extract(phrases_bb, predict_labels, phrases):
+    #get the first record
+    phrases = record_extraction(phrases, predict_labels)
+    #print(phrases)
+    record_appearance = {}
+    for p in phrases:
+        record_appearance[p] = 0
+
+    record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
+    #pv: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
+    pattern_detect_by_row(pv)
+    # for (p,bb) in pv:
+    #     if('formal' not in p):
+    #         continue
+    #     print(p,bb)
+
 
 if __name__ == "__main__":
     #print(get_metadata())
@@ -865,7 +920,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 5 #starting from 1
+    tested_id = 1 #starting from 1
     k=1
 
     for path in tested_paths:
@@ -881,15 +936,20 @@ if __name__ == "__main__":
 
 
         truths = format(read_file(truth_path))
-        results = format(read_file(result_path))
-        phrases = format(read_file(extracted_path))
-        phrases_bb = format_dict(read_json(bb_path))
+        results = read_file(result_path)
+        phrases = read_file(extracted_path)
+        phrases_bb = read_json(bb_path)
 
-        table_extraction(phrases_bb, results, phrases, out_path)
+        # for p,lst in phrases_bb.items():
+        #     if('FORMAL' in p):
+        #         print(p,lst)
+
+        mix_pattern_extract(phrases_bb, results, phrases)
+        #table_extraction(phrases_bb, results, phrases, out_path)
         #print(pattern_detection(phrases, results))
         #kvs = key_val_extraction(phrases, phrases_bb, results)
         #kvs = key_val_bipartite_extraction(phrases, phrases_bb, results)
-        # kvs = greedy_key_val_extraction(phrases, phrases_bb, results)
+        #kvs = greedy_key_val_extraction(phrases, phrases_bb, results)
         #write_result(kvs,out_path)
         # for kv in kvs:
         #     print(kv)
