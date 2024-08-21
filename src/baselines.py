@@ -2,9 +2,9 @@ import sys
 import key,eval,time
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
-model_name = 'gpt4o'
+model_name = 'gpt4'
 
-def LLM_text(phrases, path):
+def LLM_key_extraction(phrases, path):
     instruction = 'The following list contains keys and values extracted from a document, return all the keys seperated by |. Do not generate duplicated keys. Do not make up new keys.'
     delimiter = ', '
     context = delimiter.join(phrases)
@@ -25,7 +25,7 @@ def LLM_table_extraction(phrases, path):
     key.write_result(path, response)
 
 def LLM_KV_extraction(phrases, path):
-    instruction = 'The following list contains keys and values extracted from a document, find all the keys and their corresponding values. In each line, return a key and its value. Do not generate duplicated keys. Do not make up new keys.'
+    instruction = 'The following data contains keys and values extracted from a document, find all the keys and their corresponding values. In each line, return key,value. Do not make up new phrase.'
     delimiter = ', '
     context = delimiter.join(phrases)
     #print(context)
@@ -61,7 +61,6 @@ if __name__ == "__main__":
         extracted_path = key.get_extracted_path(path)
 
         phrases = eval.read_file(extracted_path)
-        #LLM_text(phrases, result_path)
         LLM_KV_extraction(phrases, result_path)
         t2 = time.time()
         print(t2-t1)
