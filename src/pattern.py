@@ -862,7 +862,33 @@ def is_same_row(b1,b2):
         return 0
     return 1
 
-def pattern_detect_by_row(pv):
+def row_pattern(lst, predict_labels, esp = 0.7):
+    kvs = 0
+    kks = 0 
+    vvs = 0
+    p_pre = lst[0][0]
+    for i in range(1,len(lst)):
+        p = lst[i][0]
+        if(p_pre in predict_labels and p in predict_labels):
+            kks += 1
+        elif(p_pre in predict_labels and p not in predict_labels):
+            kvs += 1
+        elif(p_pre not in predict_labels and p not in predict_labels):
+            vvs += 1
+        p_pre = p
+        
+    size = len(lst)-1
+    print(kks, kvs, vvs)
+
+    if(max(kks,kvs,vvs) == kks):
+        return 'key'
+    if(max(kks,kvs,vvs) == kvs):
+        return 'kv'
+    if(max(kks,kvs,vvs) == vvs):
+        return 'val'
+    
+
+def pattern_detect_by_row(pv, predict_labels):
     #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record
     p_pre = pv[0][0]
     bb_pre = pv[0][1]
@@ -882,10 +908,13 @@ def pattern_detect_by_row(pv):
 
     for row_id, lst in row_mp.items():
         print(row_id)
+        row_label = row_pattern(lst, predict_labels)
+        
         prt = []
         for (p,bb) in lst:
             prt.append(p)
         print(prt)
+        print(row_label)
     
 
     
@@ -900,7 +929,7 @@ def mix_pattern_extract(phrases_bb, predict_labels, phrases):
 
     record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
     #pv: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
-    pattern_detect_by_row(pv)
+    pattern_detect_by_row(pv, predict_labels)
     # for (p,bb) in pv:
     #     if('formal' not in p):
     #         continue
