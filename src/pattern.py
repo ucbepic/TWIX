@@ -909,7 +909,7 @@ def row_pattern(lst, predict_labels, new_lst, esp = 0.5):
         p_pre = p
         
     size = len(lst)-1
-    print(kks, kvs, vvs, size)
+    #print(kks, kvs, vvs, size)
     if(kks / size > esp):
         return 'key'
     
@@ -969,7 +969,7 @@ def pattern_detect_by_row(pv, predict_labels):
 
     rls = {}
     for row_id, lst in row_mp.items():
-        print(row_id)
+        #print(row_id)
         row_label = row_pattern(lst, predict_labels, new_lst)
         if(row_label == 'undefined'):
             if(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 0):
@@ -978,12 +978,36 @@ def pattern_detect_by_row(pv, predict_labels):
                 row_label = 'val'
         rls[row_id] = row_label
         
-        prt = []
-        for (p,bb) in lst:
-            prt.append(p)
-        print(prt)
-        print(row_label)
+        # prt = []
+        # for (p,bb) in lst:
+        #     prt.append(p)
+        # print(prt)
+        # print(row_label)
+    # for id, label in rls.items():
+    #     print(id, label)
+    blk = block_decider(rls)
+    print(blk)
     
+def block_decider(rls):
+    blk = {}
+    bid = 0
+    status = ''
+    for id, label in rls.items():
+        if(label == 'key'):
+            bid += 1
+            blk[bid] = []
+            blk[bid].append(id)
+            status = 'key'
+        elif(label == 'val' and status == 'key'):
+            blk[bid].append(id)
+        elif(label == 'kv' and status != 'kv'):#start a new block for kv
+            bid += 1
+            blk[bid] = []
+            blk[bid].append(id)
+            status = 'kv'
+        elif(label == 'kv' and status == 'kv'):
+            blk[bid].append(id)
+    return blk
 
 
             
