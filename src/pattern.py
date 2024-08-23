@@ -76,12 +76,11 @@ def get_bbdict_per_record(record_appearance, phrases_bb, phrases):
             record_appearance[p] = cur + c
     return record_appearance, pv
 
-def outlier_detect(dis):
+def outlier_detect(dis, threshold = 1):
     lst = []
     for id, d in dis.items():
         lst.append(d)
     
-    threshold = 1  
     mean = np.mean(lst)
     std = np.std(lst)
     
@@ -121,7 +120,7 @@ def is_outlier(lst, d):
     
     cutoff = min(outliers)
     #print(cutoff)
-    if(d >= cutoff):
+    if(d >= cutoff):#is an outlier
         return 1
     return 0
 
@@ -583,6 +582,13 @@ def is_aligned(b1,b2,delta = 0.5):
         return 0
     return 1
 
+def is_overlap_vertically(b1,b2):
+    if(b1[2] < b2[0]):
+        return 0
+    if(b1[0] > b2[2]):
+        return 0
+    return 1
+
 def hash_tuple(tuple):
     p = tuple[0]
     bb = tuple[1]
@@ -862,33 +868,88 @@ def is_same_row(b1,b2):
         return 0
     return 1
 
-def row_pattern(lst, predict_labels, esp = 0.7):
+def row_aligned(row1, row2):
+    #check if there exist a phrase in row2 that overlapps with more than 2 vals in row 2
+    id1 = 1
+    id2 = 0
+    while(id1 < len(row1) and id2 < len(row2)):
+        #print(row1[id1][0], row2[id2][0])
+        #print(is_overlap_vertically(row2[id2][1], row1[id1][1]), is_overlap_vertically(row2[id2][1], row1[id1-1][1]))
+        if(is_overlap_vertically(row2[id2][1], row1[id1][1]) == 1 and is_overlap_vertically(row2[id2][1], row1[id1-1][1]) == 1):
+            return 0
+        #print(row1[id1][1][2], row2[id2][1][2])
+        if(row1[id1][1][2] < row2[id2][1][2]):
+            id1 += 1
+        else:
+            id2 += 1
+    return 1
+
+    
+
+def row_pattern(lst, predict_labels, new_lst, esp = 0.5):
     kvs = 0
     kks = 0 
     vvs = 0
     p_pre = lst[0][0]
+    bb_pre = lst[0][1]
     for i in range(1,len(lst)):
         p = lst[i][0]
+        bb = lst[i][1]
         if(p_pre in predict_labels and p in predict_labels):
             kks += 1
         elif(p_pre in predict_labels and p not in predict_labels):
-            kvs += 1
+            if(is_outlier(new_lst,min_distance(bb,bb_pre)) == 0):
+                kvs += 1
+                #print(p_pre,p)
+            else:
+                vvs += 1
+            #print(p_pre,p)
         elif(p_pre not in predict_labels and p not in predict_labels):
             vvs += 1
         p_pre = p
         
     size = len(lst)-1
-    print(kks, kvs, vvs)
-
-    if(max(kks,kvs,vvs) == kks):
+    print(kks, kvs, vvs, size)
+    if(kks / size > esp):
         return 'key'
-    if(max(kks,kvs,vvs) == kvs):
+    
+    if(kvs / size > esp):
         return 'kv'
-    if(max(kks,kvs,vvs) == vvs):
+    
+    if(vvs / size > esp):
         return 'val'
+    
+    return 'undefined'
+
+    # if(max(kks,kvs,vvs) == kks):
+    #     return 'key'
+    # if(max(kks,kvs,vvs) == kvs):
+    #     return 'kv'
+    # if(max(kks,kvs,vvs) == vvs):
+    #     return 'val'
     
 
 def pattern_detect_by_row(pv, predict_labels):
+    #refine kv pair by using distance constraint
+    kv = {}
+    ids = []
+    dis = {}
+    for i in range(len(pv)):
+        p = pv[i][0]
+        bbp = pv[i][1]
+        if(p in predict_labels):
+            if(i < len(pv)-1 and pv[i+1][0] not in predict_labels):#kv pair
+                pn = pv[i+1][0]
+                kv[i] = (p,pn)
+                ids.append(i)
+                ids.append(i+1)
+                bbpn = pv[i+1][1]
+                dis[i] = min_distance(bbp,bbpn)
+
+    outliers, cutoff, new_mean, new_lst = outlier_detect(dis)
+    # for i in outliers:
+    #     print(kv[i])
+
     #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record
     p_pre = pv[0][0]
     bb_pre = pv[0][1]
@@ -906,9 +967,16 @@ def pattern_detect_by_row(pv, predict_labels):
         p_pre = p
         bb_pre = bb
 
+    rls = {}
     for row_id, lst in row_mp.items():
         print(row_id)
-        row_label = row_pattern(lst, predict_labels)
+        row_label = row_pattern(lst, predict_labels, new_lst)
+        if(row_label == 'undefined'):
+            if(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 0):
+                row_label = 'kv'
+            elif(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 1):
+                row_label = 'val'
+        rls[row_id] = row_label
         
         prt = []
         for (p,bb) in lst:
@@ -917,7 +985,8 @@ def pattern_detect_by_row(pv, predict_labels):
         print(row_label)
     
 
-    
+
+            
 
 def mix_pattern_extract(phrases_bb, predict_labels, phrases):
     #get the first record
