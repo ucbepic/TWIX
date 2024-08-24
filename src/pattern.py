@@ -990,6 +990,7 @@ def pattern_detect_by_row(pv, predict_labels):
     
 def block_decider(rls):
     blk = {}
+    blk_id = {}
     bid = 0
     status = ''
     for id, label in rls.items():
