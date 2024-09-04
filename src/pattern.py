@@ -941,18 +941,21 @@ def row_pattern(lst, predict_labels, new_lst, esp = 0.5):
         if(p_pre in predict_labels and p in predict_labels):
             kks += 1
         elif(p_pre in predict_labels and p not in predict_labels):
-            if(is_outlier(new_lst,min_distance(bb,bb_pre)) == 0):
+            #if(is_outlier(new_lst,min_distance(bb,bb_pre)) == 0):
                 kvs += 1
                 #print(p_pre,p)
-            else:
-                vvs += 1
+            # else:
+            #     vvs += 1
             #print(p_pre,p)
         elif(p_pre not in predict_labels and p not in predict_labels):
             vvs += 1
         p_pre = p
         
-    size = len(lst)-1
-    #print(kks, kvs, vvs, size)
+    size = kks + kvs + vvs
+    
+    if(size == 0):
+        return 'undefined'
+    print(kks, kvs, vvs)
     if(kks / size > esp):
         return 'key'
     
@@ -1012,24 +1015,24 @@ def pattern_detect_by_row(pv, predict_labels):
 
     rls = {}
     for row_id, lst in row_mp.items():
-        #print(row_id)
+        print(row_id)
+        row = []
+        for l in lst:
+            row.append(l[0])
+        print(row)
         row_label = row_pattern(lst, predict_labels, new_lst)
-        if(row_label == 'undefined'):
-            if(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 0):
-                row_label = 'kv'
-            elif(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 1):
-                row_label = 'val'
-        rls[row_id] = row_label
+        # if(row_label == 'undefined'):
+        #     if(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 0):
+        #         row_label = 'kv'
+        #     elif(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 1):
+        #         row_label = 'val'
+        # rls[row_id] = row_label
         
-        # prt = []
-        # for (p,bb) in lst:
-        #     prt.append(p)
-        # print(prt)
-        # print(row_label)
+        print(row_label)
     # for id, label in rls.items():
     #     print(id, label)
-    blk, blk_id = block_decider(rls)
-    return blk, blk_id, row_mp
+    #blk, blk_id = block_decider(rls)
+    #return blk, blk_id, row_mp
     
     
     
@@ -1072,29 +1075,26 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases):
 def mix_pattern_extract(predict_labels, pv):
     
     #pv: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
-    #print(pv)
-    blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels)
+    
+    # for item in pv:
+    #     print(item[0])
 
-    for id, lst in blk.items():
-        if(blk_id[id] == 'table'):
-            #print(blk_id[id], lst)
-            key = [lst[0]]
-            vals = []
-            for id in range(1,len(lst)):
-                vals.append(lst[id])
-            table_extraction_top_down(row_mp, key, vals)
-        else:
-            print(blk_id[id], lst)
-            kvs = []
-            for id in lst:
-                kvs += row_mp[id]
-            # for item in kvs:
-            #     p = item[0]
-            #     if(p in predict_labels):
-            #         print(p)
-            results = key_val_extraction(kvs, predict_labels)
-            # print(results)
-        #break
+    #blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels)
+    pattern_detect_by_row(pv, predict_labels)
+
+    # for id, lst in blk.items():
+    #     if(blk_id[id] == 'table'):
+    #         #print(blk_id[id], lst)
+    #         key = [lst[0]]
+    #         vals = []
+    #         for id in range(1,len(lst)):
+    #             vals.append(lst[id])
+    #         table_extraction_top_down(row_mp, key, vals)
+    #     else:
+    #         #print(blk_id[id], lst)
+    #         kvs = []
+    #         for id in lst:
+    #             kvs += row_mp[id]
 
 
 if __name__ == "__main__":
@@ -1110,7 +1110,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 1 #starting from 1
+    tested_id = 6 #starting from 1
     k=1
 
     #pair_oracle('name','joe')

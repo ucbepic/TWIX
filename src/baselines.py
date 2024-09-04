@@ -2,7 +2,9 @@ import sys
 import key,eval,time
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
+from pdf2image import convert_from_path
 model_name = 'gpt4'
+vision_model_name = 'gpt4vision'
 
 def LLM_key_extraction(phrases, path):
     instruction = 'The following list contains keys and values extracted from a document, return all the keys seperated by |. Do not generate duplicated keys. Do not make up new keys.'
@@ -34,6 +36,21 @@ def LLM_KV_extraction(phrases, path):
     #print(response)
     key.write_result(path, response)
 
+def get_image_path(path):
+    images = convert_from_path(path)
+    for i in range(len(images)):
+        page_path = key.get_extracted_image_path(path, i)
+        images[i] = images[i].save(page_path)
+    return images
+
+def LLM_KV_extraction_vision(image_path = '/Users/yiminglin/Downloads/page_1.jpg'):
+    instruction = 'This document contains tables or key values. If it contains tables, return the schema followed by a list of rows. If it contains key values, return a list of key values in the reading order. If it contains both tables and key values, extract the table content and key values in the reading order of the document. ' 
+    context = ''
+    prompt = (instruction,context)
+    response = model(vision_model_name,prompt, image_path = image_path)
+    #print(response)
+    return response
+
 if __name__ == "__main__":
 
     root_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse'
@@ -45,7 +62,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/MT/RptEmpRstrDetail Active.pdf')
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
-    test_lst = [1]
+    test_lst = [0]
     
     for tested_id in range(len(tested_paths)):
 
@@ -59,9 +76,9 @@ if __name__ == "__main__":
         result_path = key.get_baseline_result_path(path,name)
         truth_path = key.get_truth_path(path,1)
         extracted_path = key.get_extracted_path(path)
-
-        phrases = eval.read_file(extracted_path)
-        LLM_KV_extraction(phrases, result_path)
+        print(extracted_path)
+        #phrases = eval.read_file(extracted_path)
+        #LLM_KV_extraction(phrases, result_path)
         t2 = time.time()
         print(t2-t1)
     

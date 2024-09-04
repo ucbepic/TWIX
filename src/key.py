@@ -38,6 +38,11 @@ def get_extracted_path(path):
     path = path.replace('.pdf','.txt')
     return path
 
+def get_extracted_image_path(path,page_id):
+    path = path.replace('raw','extracted')
+    path = path.replace('.pdf','_' + page_id + '.jpg')
+    return path
+
 def get_relative_location_path(extracted_path):
     path = extracted_path[:-4] + '_relative_location.csv'
     return path
