@@ -36,9 +36,9 @@ def LLM_KV_extraction(phrases, path):
     #print(response)
     key.write_result(path, response)
 
-def get_image_path(path):
+def pdf_2_image(path, page_num):
     images = convert_from_path(path)
-    for i in range(len(images)):
+    for i in range(page_num):
         page_path = key.get_extracted_image_path(path, i)
         images[i] = images[i].save(page_path)
     return images
@@ -62,7 +62,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/MT/RptEmpRstrDetail Active.pdf')
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
-    test_lst = [0]
+    test_lst = [5]
     
     for tested_id in range(len(tested_paths)):
 
@@ -76,7 +76,8 @@ if __name__ == "__main__":
         result_path = key.get_baseline_result_path(path,name)
         truth_path = key.get_truth_path(path,1)
         extracted_path = key.get_extracted_path(path)
-        print(extracted_path)
+        #print(extracted_path)
+        pdf_2_image(path,6)
         #phrases = eval.read_file(extracted_path)
         #LLM_KV_extraction(phrases, result_path)
         t2 = time.time()

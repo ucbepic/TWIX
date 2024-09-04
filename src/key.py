@@ -40,7 +40,7 @@ def get_extracted_path(path):
 
 def get_extracted_image_path(path,page_id):
     path = path.replace('raw','extracted')
-    path = path.replace('.pdf','_' + page_id + '.jpg')
+    path = path.replace('.pdf','_' + str(page_id) + '.jpg')
     return path
 
 def get_relative_location_path(extracted_path):
