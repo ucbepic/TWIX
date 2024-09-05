@@ -1,0 +1,20 @@
+table
+Date, Number, Investigator, Date Assigned, Racial, Category / Type, Location Of Occurrence, Disposition, Completed, Recorded On Camera
+1/27/2008, 08-01, Swenson, Jon, null, No, FORMAL, Not Stated, SUSTAINED, null, No
+null, null, null, 1/30/2008, null, Citizen, null, null, 2/7/2008, N/A
+
+kv
+Complainant,
+DOB,
+Gender,FEMAL
+Address,Terr, Champaign IL 61820
+H Phone,
+
+table
+Type Of Complaint, Description, Complaint Disposition
+R-3B.1 Courtesy, Discourteous Conduct, SUSTAINED
+
+table
+Name, ID No., Rank, Division, Officer Disposition, Action Taken, Body Cam
+Griffet, David I., 914, SERGEANT, Field Operations, SUSTAINED, COUNSELING, No
+

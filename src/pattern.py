@@ -1,5 +1,6 @@
 import key,extract,json,sys,csv,math
 import numpy as np 
+import key
 from scipy.sparse import csr_matrix
 from scipy.sparse.csgraph import min_weight_full_bipartite_matching
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
@@ -345,7 +346,7 @@ def key_val_extraction(pv, predict_labels):
     
     for id in outliers:
         if(is_metadata(metadata, pv[id][0]) == 0):
-            print('outlier: ', pv[id][0])
+            #print('outlier: ', pv[id][0])
             kv[id] = (pv[id][0],'')
             ids.append(id)
 
@@ -371,9 +372,9 @@ def key_val_extraction(pv, predict_labels):
                 single_v.append(i)
         i+=1
         
-    print(kv)
-    print(kk)
-    print(vv)
+    # print(kv)
+    # print(kk)
+    # print(vv)
     bad_kv = []
     #process kk pair 
     for id, (p,pn) in kk.items():
@@ -514,8 +515,8 @@ def get_bblist_per_record(record_appearance, phrases_bb, phrases):
             # print(p,c,appear[p],len(lst))
             # print(phrases_bb[p], cur, cur+c)
             bb = lst[appear[p]]
-            if('formal' in p):
-                print(p,bb, appear[p])
+            # if('formal' in p):
+            #     print(p,bb, appear[p])
             pv.append((p,bb))
     for p in phrases:
         if(p in phrases_bb):
@@ -813,13 +814,28 @@ def key_val_mp(key_row, val_row):
 def table_extraction_top_down(row_mp, kid, vid):
     key_row = row_mp[kid[0]]
     val_rows = []
+    kvs = []
+    rows = []# list of list 
+    keys = []
+    for (key,bb) in key_row:
+        keys.append(key)
     #print(key_row)
     for id in vid:
         #print(id)
         val_rows.append(row_mp[id])
         #print(row_mp[id])
     for val_row in val_rows:
-        key_val_mp(key_row, val_row)
+        kv = key_val_mp(key_row, val_row)
+        #print(kv)
+        kvs.append(kv)
+    #clean the tabular format
+    for kv in kvs:
+        row = []
+        for (key,bb) in key_row:
+            row.append(kv[key])
+        rows.append(row)
+    return keys, rows
+
 
     
 
@@ -952,10 +968,10 @@ def row_pattern(lst, predict_labels, new_lst, esp = 0.5):
         p_pre = p
         
     size = kks + kvs + vvs
-    
+    #print(kks, kvs, vvs)
     if(size == 0):
         return 'undefined'
-    print(kks, kvs, vvs)
+    
     if(kks / size > esp):
         return 'key'
     
@@ -996,11 +1012,12 @@ def pattern_detect_by_row(pv, predict_labels):
     # for i in outliers:
     #     print(kv[i])
 
+    
     #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record
     p_pre = pv[0][0]
     bb_pre = pv[0][1]
     row_id = 0
-    row_mp = {} #row_id -> a list of (phrase, bb)
+    row_mp = {} #row_id -> a list of (phrase, bb) in the current row
     row_mp[row_id] = []
     row_mp[row_id].append((p_pre, bb_pre))
     for i in range(1, len(pv)):
@@ -1013,6 +1030,8 @@ def pattern_detect_by_row(pv, predict_labels):
         p_pre = p
         bb_pre = bb
 
+    
+
     rls = {}
     for row_id, lst in row_mp.items():
         print(row_id)
@@ -1021,24 +1040,27 @@ def pattern_detect_by_row(pv, predict_labels):
             row.append(l[0])
         print(row)
         row_label = row_pattern(lst, predict_labels, new_lst)
-        # if(row_label == 'undefined'):
-        #     if(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 0):
-        #         row_label = 'kv'
-        #     elif(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 1):
-        #         row_label = 'val'
-        # rls[row_id] = row_label
+        if(row_label == 'undefined'):
+            if(len(lst) <= 1):
+                row_label = 'undefined'
+            elif(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 0):
+                row_label = 'kv'
+            elif(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 1):
+                row_label = 'val'
+        rls[row_id] = row_label
         
         print(row_label)
     # for id, label in rls.items():
     #     print(id, label)
-    #blk, blk_id = block_decider(rls)
-    #return blk, blk_id, row_mp
+    blk, blk_id = block_decider(rls)
+    
+    return blk, blk_id, row_mp
     
     
     
 def block_decider(rls):
-    blk = {}
-    blk_id = {}
+    blk = {}#store the community of all rows belonging to the same block
+    blk_id = {}#store the 
     bid = 0
     status = ''
     for id, label in rls.items():
@@ -1061,7 +1083,7 @@ def block_decider(rls):
     return blk, blk_id
 
 
-def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases):
+def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path):
     #get the first record
     phrases = record_extraction(phrases, predict_labels)
     #print(phrases)
@@ -1070,32 +1092,53 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases):
         record_appearance[p] = 0
 
     record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
-    mix_pattern_extract(predict_labels, pv)
+    
+    mix_pattern_extract(predict_labels, pv,path)
 
-def mix_pattern_extract(predict_labels, pv):
+def mix_pattern_extract(predict_labels, pv, path):
     
     #pv: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
     
     # for item in pv:
     #     print(item[0])
 
-    #blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels)
-    pattern_detect_by_row(pv, predict_labels)
+    blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels)
 
-    # for id, lst in blk.items():
-    #     if(blk_id[id] == 'table'):
-    #         #print(blk_id[id], lst)
-    #         key = [lst[0]]
-    #         vals = []
-    #         for id in range(1,len(lst)):
-    #             vals.append(lst[id])
-    #         table_extraction_top_down(row_mp, key, vals)
-    #     else:
-    #         #print(blk_id[id], lst)
-    #         kvs = []
-    #         for id in lst:
-    #             kvs += row_mp[id]
+    out = ''
 
+    for id, lst in blk.items():
+        out += blk_id[id] + '\n'
+        if(blk_id[id] == 'table'):
+            a=0
+            #print(blk_id[id],lst)#lst is the list of row ids belonging to the same community
+            key = [lst[0]]
+            vals = []
+            for id in range(1,len(lst)):
+                vals.append(lst[id])
+            key, rows = table_extraction_top_down(row_mp, key, vals)
+            #print(key)
+            out += ", ".join(key) + '\n'
+            for row in rows:
+                #print(row)
+                out += ", ".join(row) + '\n'
+        else:
+            
+            #print(blk_id[id],lst)
+            kvs = []#kvs stores a list of tuples, where each tuple is (phrase, bb)
+            # for id in lst:
+            #     kvs += row_mp[id]
+            # kv_out = key_val_extraction(kvs, predict_labels)
+            # for kv in kv_out:
+            #     out += kv[0] + ',' + kv[1] + '\n'
+            #print(kv_out)
+        out += '\n'
+    #print(out)
+    #write_string(path, out)
+        
+
+def write_string(result_path, content):
+    with open(result_path, 'w') as file:
+        file.write(content)
 
 if __name__ == "__main__":
     #print(get_metadata())
@@ -1132,8 +1175,10 @@ if __name__ == "__main__":
         phrases = read_file(extracted_path)
         phrases_bb = read_json(bb_path)
 
+        #print(out_path)
+        mix_pattern_extract_pipeline(phrases_bb, results, phrases, out_path)
 
-        mix_pattern_extract_pipeline(phrases_bb, results, phrases)
+
         #table_extraction_pipeline(phrases_bb, results, phrases, out_path)
         #kvs = key_val_extraction(phrases, phrases_bb, results)
         #write_result(kvs,out_path)

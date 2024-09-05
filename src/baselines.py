@@ -36,19 +36,33 @@ def LLM_KV_extraction(phrases, path):
     #print(response)
     key.write_result(path, response)
 
+def LLM_mix_extraction(phrases, path):
+    # instruction = 'This document contains tables or key values. If it contains tables, return a line of table schema and seperate phrases by using comma. For each row of the table, display the row in a line and  seperate phrases by using comma. If it contains key values, return a list of key values in the reading order, where in each line, use the format of key:value to show a pair of key and value. If it contains both tables and key values, extract the content of table and key values in the above format. Do not add explanations.'
+    instruction = 'This document might contain tables or key values. Process the document in the reading order. If it has a table block, output a json object called table. In table object, each column is a key and all the corresponding values are the values of the key. If it has a key value block, output a json object called KV. In KV object, output each pair of key value to be the key and value in the json object. Do not add explanations and do not make up new prhases. Return the output in the json format. '
+    delimiter = ', '
+    context = delimiter.join(phrases)
+    #print(context)
+    prompt = (instruction,context)
+    response = model(model_name,prompt)
+    #print(response)
+    key.write_raw_response(path, response)
+
 def pdf_2_image(path, page_num):
-    images = convert_from_path(path)
+    images = convert_from_path(path, first_page = 1, last_page = page_num)
     for i in range(page_num):
         page_path = key.get_extracted_image_path(path, i)
+        print(i)
         images[i] = images[i].save(page_path)
     return images
 
-def LLM_KV_extraction_vision(image_path = '/Users/yiminglin/Downloads/page_1.jpg'):
-    instruction = 'This document contains tables or key values. If it contains tables, return the schema followed by a list of rows. If it contains key values, return a list of key values in the reading order. If it contains both tables and key values, extract the table content and key values in the reading order of the document. ' 
+def LLM_KV_extraction_vision(image_path, out_path):
+    # instruction = 'This document contains tables or key values. If it contains tables, return a line of table schema and seperate phrases by using comma. For each row of the table, display the row in a line and  seperate phrases by using comma. If it contains key values, return a list of key values in the reading order, where in each line, use the format of key:value to show a pair of key and value. If it contains both tables and key values, extract the content of table and key values in the above format. Do not add explanations.' 
+    instruction = 'The document contains structure information, like tables or key values. Can you extract these information out? If it contains tables, return a line of table schema and seperate phrases by using comma. For each row of the table, display the row in a line and  seperate phrases by using comma. If it contains key values, return a list of key values in the reading order, where in each line, use the format of key:value to show a pair of key and value. If it contains both tables and key values, extract the content of table and key values in the above format. Do not add explanations.'
     context = ''
     prompt = (instruction,context)
     response = model(vision_model_name,prompt, image_path = image_path)
     #print(response)
+    key.write_raw_response(out_path, response)
     return response
 
 if __name__ == "__main__":
@@ -72,14 +86,18 @@ if __name__ == "__main__":
         t1 = time.time()
         path = tested_paths[tested_id]
         print(path)
-        name = 'LLM_' + model_name + '_kv'
+        name = 'LLM_' + model_name + '_kv_json'
         result_path = key.get_baseline_result_path(path,name)
         truth_path = key.get_truth_path(path,1)
         extracted_path = key.get_extracted_path(path)
-        #print(extracted_path)
-        pdf_2_image(path,6)
-        #phrases = eval.read_file(extracted_path)
+        
+        #pdf_2_image(path,6)
+        phrases = eval.read_file(extracted_path)
         #LLM_KV_extraction(phrases, result_path)
+        LLM_mix_extraction(phrases, result_path)
+        #image_path = key.get_extracted_image_path(path,0)
+        #print(image_path, result_path)
+        #LLM_KV_extraction_vision(image_path, result_path)
         t2 = time.time()
-        print(t2-t1)
+        #print(t2-t1)
     

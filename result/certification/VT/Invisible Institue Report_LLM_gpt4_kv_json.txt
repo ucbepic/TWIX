@@ -1,0 +1,18 @@
+{
+  "table": {
+    "Employee": ["Aamodt, Michael J.", "Abell, Dustin J.", "Acevedo, Eric", "Adams, Benjamin J.", "Adams, Jerod J.", "Adams, Jonathan J."],
+    "Certification Date": ["7-01-2015", "7-10-2015", "5-24-2019", "7-01-2015", "7-01-2015", "7-01-2015"],
+    "Status": ["Certified", "Certified", "Certified", "Certified", "Certified", "Certified"],
+    "Expires": ["11-18-1994", "7-10-2015", "5-24-2019", "11-17-2006", "12-05-2008", "5-27-2005"],
+    "Probation": ["MJA2024", "DJA1121", "EA3743", "BJA3068", "JJA7277", "JJA1380"],
+    "Cert #": ["Law Enforcement Level III / Certified", "Law Enforcement Level II - spec III / Certified", "Law Enforcement Level III / Certified", "Law Enforcement Level III / Certified", "Law Enforcement Level III / Certified", "Law Enforcement Level III / Certified"],
+    "Employment History": ["VT State Police", "Grand Isle County Sheriff's Department", "VT State Police", "Winooski Police Department", "Franklin County Sheriff's Department", "Windsor Police Department"],
+    "Service": ["2 Years, 306 Days", "7 Years, 230 Days", "Years, 217 Days", "Years, 86 Days", "Years, 206 Days", "5 Years, 62 Days"],
+    "Date": ["10-16-2016", "1-01-2012", "1-14-2019", "5-25-2019", "1-31-2019", "6-17-2014"],
+    "Action": ["Transfer", "Promotion", "Hired", "Reduced hours", "Resigned", "Promotion"],
+    "Assignment": ["St Albans Barracks", "Sergeant", "Trooper", "Patrol Officer", "Deputy", "Sergeant"],
+    "Pos/Rank": ["Sergeant", "Sergeant", "Trooper", "Patrol Officer", "Deputy", "Sergeant"],
+    "Level": ["Class, Level III", "Class, Level II-S", "Class, Level III", "Class, Level III", "Class, Level III", "Class, Level III"],
+    "Shift": ["VT State Police", "St. Albans Police Department", "VT State Police", "VT Dept. of Liquor Control", "Chittenden County Sheriff's Department", "Windsor Police Department"]
+  }
+}

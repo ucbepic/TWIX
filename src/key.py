@@ -257,6 +257,10 @@ def write_result(result_path, keys):
             # Write each value to a separate line
             file.write(f"{value}\n")
 
+def write_raw_response(result_path, content):
+    with open(result_path, 'w') as file:
+        file.write(content)
+
 def get_truth_path(raw_path, meta):
     path = raw_path.replace('raw','truths/key_truth')
     if(meta == 1):
