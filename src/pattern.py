@@ -928,19 +928,31 @@ def is_same_row(b1,b2):
     return 1
 
 def row_aligned(row1, row2):
-    #check if there exist a phrase in row2 that overlapps with more than 2 vals in row 2
-    id1 = 1
-    id2 = 0
+    #check if there exist a phrase in row2 that overlapps with more than 2 phrases in row1
+    
+    id1 = 1 #id in row 1
+    id2 = 0 #id in row 2
     while(id1 < len(row1) and id2 < len(row2)):
-        #print(row1[id1][0], row2[id2][0])
-        #print(is_overlap_vertically(row2[id2][1], row1[id1][1]), is_overlap_vertically(row2[id2][1], row1[id1-1][1]))
         if(is_overlap_vertically(row2[id2][1], row1[id1][1]) == 1 and is_overlap_vertically(row2[id2][1], row1[id1-1][1]) == 1):
+            print('overlapping two')
             return 0
         #print(row1[id1][1][2], row2[id2][1][2])
         if(row1[id1][1][2] < row2[id2][1][2]):
             id1 += 1
         else:
             id2 += 1
+
+    #check if there exist a phrase in row2 that does not overlapps with ant of val in row1
+    
+    for (p2,bb2) in row2:
+        valid = 0
+        for (p1,bb1) in row1:
+            if(is_overlap_vertically(bb2,bb1) == 1):
+                valid = 1
+                break
+        if(valid == 0):
+            print(p2)
+            return 0
     return 1
 
     
@@ -991,21 +1003,28 @@ def row_pattern(lst, predict_labels, new_lst, esp = 0.5):
     #     return 'val'
     
 def check_vadility(row_mp, rls, id): 
+    if(rls[id] == 'undefined'):
+        return 'undefined'
+    
     if(rls[id] == 'key'):
         #for a 'key' row, if there is no aligned val row under it, make it to be undefined
         valid = 0
         nid = id
         while(True):
             nid += 1
+            if(nid >= len(row_mp)):
+                break
             if(rls[nid] == 'kv' or rls[nid] == 'key'):#mark the end of current table block
+                #print('kv or key')
                 break
-            if(row_aligned(row_mp[nid], row_mp[id])==1):
+            if(rls[nid] == 'val' and row_aligned(row_mp[id], row_mp[nid])==1):
                 valid = 1
-                break
-            if(nid <= len(row_mp)):
                 break
         if(valid == 0):
             return 'undefined'
+        else:
+            return 'key'
+        
     if(rls[id] == 'val'):
         #for a 'val' row, if there is no aligned key row above it, make it to be undefined
         valid = 0
@@ -1023,6 +1042,13 @@ def check_vadility(row_mp, rls, id):
                 break
         if(valid == 0):
             return 'undefined'
+        else:
+            return 'val'
+    return rls[id]
+        
+def infer_undefined(row_mp, rls):
+    #guess the label of undefined rows based on rules 
+    a=0
  
 def pattern_detect_by_row(pv, predict_labels):
     #refine kv pair by using distance constraint
@@ -1063,30 +1089,26 @@ def pattern_detect_by_row(pv, predict_labels):
         p_pre = p
         bb_pre = bb
 
-    
-
     rls = {}
     for row_id, lst in row_mp.items():
-        #print(row_id)
         row = []
         for l in lst:
             row.append(l[0])
-        #print(row)
         row_label = row_pattern(lst, predict_labels, new_lst)
-        # if(row_label == 'undefined'):
-        #     if(len(lst) <= 1):
-        #         row_label = 'undefined'
-        #     elif(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 0):
-        #         row_label = 'kv'
-        #     elif(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 1):
-        #         row_label = 'val'
         rls[row_id] = row_label
         
-        #print(row_label)
+
     #check the validity of the labels by using rules 
     for row_id, lst in row_mp.items():
+        print(row_id)
+        p_print = []
+        for (p,bb) in lst:
+            p_print.append(p)
+        print(p_print)
         new_label = check_vadility(row_mp, rls, row_id)
+        print(rls[row_id], new_label)
         rls[row_id] = new_label
+        
 
     # for id, label in rls.items():
     #     print(id, label)
