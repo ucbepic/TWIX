@@ -990,7 +990,40 @@ def row_pattern(lst, predict_labels, new_lst, esp = 0.5):
     # if(max(kks,kvs,vvs) == vvs):
     #     return 'val'
     
-
+def check_vadility(row_mp, rls, id): 
+    if(rls[id] == 'key'):
+        #for a 'key' row, if there is no aligned val row under it, make it to be undefined
+        valid = 0
+        nid = id
+        while(True):
+            nid += 1
+            if(rls[nid] == 'kv' or rls[nid] == 'key'):#mark the end of current table block
+                break
+            if(row_aligned(row_mp[nid], row_mp[id])==1):
+                valid = 1
+                break
+            if(nid <= len(row_mp)):
+                break
+        if(valid == 0):
+            return 'undefined'
+    if(rls[id] == 'val'):
+        #for a 'val' row, if there is no aligned key row above it, make it to be undefined
+        valid = 0
+        nid = id
+        while(True):
+            nid -= 1
+            if(nid <= 0):
+                break
+            if(rls[nid] == 'key' and row_aligned(row_mp[nid],row_mp[id]) == 1):
+                valid = 1
+                break
+            if(rls[nid] == 'key' and row_aligned(row_mp[nid],row_mp[id]) == 0):
+                break
+            if(rls[nid] == 'kv'):
+                break
+        if(valid == 0):
+            return 'undefined'
+ 
 def pattern_detect_by_row(pv, predict_labels):
     #refine kv pair by using distance constraint
     kv = {}
@@ -1034,22 +1067,27 @@ def pattern_detect_by_row(pv, predict_labels):
 
     rls = {}
     for row_id, lst in row_mp.items():
-        print(row_id)
+        #print(row_id)
         row = []
         for l in lst:
             row.append(l[0])
-        print(row)
+        #print(row)
         row_label = row_pattern(lst, predict_labels, new_lst)
-        if(row_label == 'undefined'):
-            if(len(lst) <= 1):
-                row_label = 'undefined'
-            elif(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 0):
-                row_label = 'kv'
-            elif(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 1):
-                row_label = 'val'
+        # if(row_label == 'undefined'):
+        #     if(len(lst) <= 1):
+        #         row_label = 'undefined'
+        #     elif(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 0):
+        #         row_label = 'kv'
+        #     elif(row_id > 1 and rls[row_id-1] != 'kv' and row_aligned(row_mp[row_id-1], lst) == 1):
+        #         row_label = 'val'
         rls[row_id] = row_label
         
-        print(row_label)
+        #print(row_label)
+    #check the validity of the labels by using rules 
+    for row_id, lst in row_mp.items():
+        new_label = check_vadility(row_mp, rls, row_id)
+        rls[row_id] = new_label
+
     # for id, label in rls.items():
     #     print(id, label)
     blk, blk_id = block_decider(rls)
