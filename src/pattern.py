@@ -944,15 +944,15 @@ def row_aligned(row1, row2):
 
     #check if there exist a phrase in row2 that does not overlapps with ant of val in row1
     
-    for (p2,bb2) in row2:
-        valid = 0
-        for (p1,bb1) in row1:
-            if(is_overlap_vertically(bb2,bb1) == 1):
-                valid = 1
-                break
-        if(valid == 0):
-            print(p2)
-            return 0
+    # for (p2,bb2) in row2:
+    #     valid = 0
+    #     for (p1,bb1) in row1:
+    #         if(is_overlap_vertically(bb2,bb1) == 1):
+    #             valid = 1
+    #             break
+    #     if(valid == 0):
+    #         print(p2)
+    #         return 0
     return 1
 
     
@@ -1020,6 +1020,8 @@ def check_vadility(row_mp, rls, id):
             if(rls[nid] == 'val' and row_aligned(row_mp[id], row_mp[nid])==1):
                 valid = 1
                 break
+            # else:
+            #     print('key-val not aligned ***')
         if(valid == 0):
             return 'undefined'
         else:
@@ -1061,10 +1063,10 @@ def infer_undefined(row_mp, rls):
             if(check_vadility(row_mp, rls, row_id) == 'key'): #if undefined->key, it is valid
                 continue
             rls[row_id] = 'kv'
-            if(row_id-1>=0 and row_id+1 < len(row_mp) and rls[row_id-1] == 'kv' and rls[row_id+1] == 'kv'): 
-                continue
-            else:
-                rls[row_id] = 'undefined'
+            # if(row_id-1>=0 and row_id+1 < len(row_mp) and rls[row_id-1] == 'kv' and rls[row_id+1] == 'kv'): 
+            #     continue
+            # else:
+            #     rls[row_id] = 'undefined'
 
 
         elif(row_id-1>=0 and row_id+1 < len(row_mp) and rls[row_id-1] == 'kv' and rls[row_id+1] == 'kv'):
@@ -1120,12 +1122,17 @@ def pattern_detect_by_row(pv, predict_labels):
         for l in lst:
             row.append(l[0])
         row_label = row_pattern(lst, predict_labels, new_lst)
+        #print(row_id, row_label)
+        # p_print = []
+        # for (p,bb) in lst:
+        #     p_print.append(p)
+        # print(p_print)
         rls[row_id] = row_label
         
 
     #check the validity of the labels by using rules 
     for row_id, lst in row_mp.items():
-        # print(row_id)
+        #print(row_id)
         # p_print = []
         # for (p,bb) in lst:
         #     p_print.append(p)
@@ -1136,12 +1143,12 @@ def pattern_detect_by_row(pv, predict_labels):
 
     rls = infer_undefined(row_mp, rls)
 
-    # for row_id, lst in row_mp.items():
-    #     print(row_id, rls[row_id])
-    #     p_print = []
-    #     for (p,bb) in lst:
-    #         p_print.append(p)
-    #     print(p_print)
+    for row_id, lst in row_mp.items():
+        print(row_id, rls[row_id])
+        p_print = []
+        for (p,bb) in lst:
+            p_print.append(p)
+        print(p_print)
         
     blk, blk_id = block_decider(rls)
 
@@ -1212,36 +1219,37 @@ def mix_pattern_extract(predict_labels, pv, path):
 
     blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels)
 
+    print(blk_id)
     out = ''
 
-    for id, lst in blk.items():
-        out += blk_id[id] + '\n'
-        if(blk_id[id] == 'table'):
-            a=0
-            #print(blk_id[id],lst)#lst is the list of row ids belonging to the same community
-            key = [lst[0]]
-            vals = []
-            for id in range(1,len(lst)):
-                vals.append(lst[id])
-            key, rows = table_extraction_top_down(row_mp, key, vals)
-            #print(key)
-            out += ", ".join(key) + '\n'
-            for row in rows:
-                #print(row)
-                out += ", ".join(row) + '\n'
-        else:
+    # for id, lst in blk.items():
+    #     out += blk_id[id] + '\n'
+    #     if(blk_id[id] == 'table'):
+    #         a=0
+    #         #print(blk_id[id],lst)#lst is the list of row ids belonging to the same community
+    #         key = [lst[0]]
+    #         vals = []
+    #         for id in range(1,len(lst)):
+    #             vals.append(lst[id])
+    #         key, rows = table_extraction_top_down(row_mp, key, vals)
+    #         #print(key)
+    #         out += ", ".join(key) + '\n'
+    #         for row in rows:
+    #             #print(row)
+    #             out += ", ".join(row) + '\n'
+    #     else:
             
-            #print(blk_id[id],lst)
-            kvs = []#kvs stores a list of tuples, where each tuple is (phrase, bb)
-            for id in lst:
-                kvs += row_mp[id]
-            kv_out = key_val_extraction(kvs, predict_labels)
-            for kv in kv_out:
-                out += kv[0] + ',' + kv[1] + '\n'
-            #print(kv_out)
-        out += '\n'
-    print(out)
-    write_string(path, out)
+    #         #print(blk_id[id],lst)
+    #         kvs = []#kvs stores a list of tuples, where each tuple is (phrase, bb)
+    #         for id in lst:
+    #             kvs += row_mp[id]
+    #         kv_out = key_val_extraction(kvs, predict_labels)
+    #         for kv in kv_out:
+    #             out += kv[0] + ',' + kv[1] + '\n'
+    #         #print(kv_out)
+    #     out += '\n'
+    # print(out)
+    #write_string(path, out)
         
 
 def write_string(result_path, content):
