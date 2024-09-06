@@ -934,7 +934,7 @@ def row_aligned(row1, row2):
     id2 = 0 #id in row 2
     while(id1 < len(row1) and id2 < len(row2)):
         if(is_overlap_vertically(row2[id2][1], row1[id1][1]) == 1 and is_overlap_vertically(row2[id2][1], row1[id1-1][1]) == 1):
-            print('overlapping two')
+            #print('overlapping two')
             return 0
         #print(row1[id1][1][2], row2[id2][1][2])
         if(row1[id1][1][2] < row2[id2][1][2]):
@@ -1048,7 +1048,32 @@ def check_vadility(row_mp, rls, id):
         
 def infer_undefined(row_mp, rls):
     #guess the label of undefined rows based on rules 
-    a=0
+    #try to modify undefined to different labels and check if this trial is valid or not 
+    for row_id, lst in row_mp.items():
+        if(rls[row_id] != 'undefined'):
+            continue
+
+        if(len(lst) > 1):
+            rls[row_id] = 'val'
+            if(check_vadility(row_mp, rls, row_id) == 'val'): #if undefined->val, it is valid
+                continue 
+            rls[row_id] = 'key'
+            if(check_vadility(row_mp, rls, row_id) == 'key'): #if undefined->key, it is valid
+                continue
+            rls[row_id] = 'kv'
+            if(row_id-1>=0 and row_id+1 < len(row_mp) and rls[row_id-1] == 'kv' and rls[row_id+1] == 'kv'): 
+                continue
+            else:
+                rls[row_id] = 'undefined'
+
+
+        elif(row_id-1>=0 and row_id+1 < len(row_mp) and rls[row_id-1] == 'kv' and rls[row_id+1] == 'kv'):
+            rls[row_id] = 'kv' 
+        else:
+            rls[row_id] = 'undefined'
+    return rls
+
+
  
 def pattern_detect_by_row(pv, predict_labels):
     #refine kv pair by using distance constraint
@@ -1100,27 +1125,36 @@ def pattern_detect_by_row(pv, predict_labels):
 
     #check the validity of the labels by using rules 
     for row_id, lst in row_mp.items():
-        print(row_id)
-        p_print = []
-        for (p,bb) in lst:
-            p_print.append(p)
-        print(p_print)
+        # print(row_id)
+        # p_print = []
+        # for (p,bb) in lst:
+        #     p_print.append(p)
+        # print(p_print)
         new_label = check_vadility(row_mp, rls, row_id)
-        print(rls[row_id], new_label)
+        #print(rls[row_id], new_label)
         rls[row_id] = new_label
-        
 
-    # for id, label in rls.items():
-    #     print(id, label)
+    rls = infer_undefined(row_mp, rls)
+
+    # for row_id, lst in row_mp.items():
+    #     print(row_id, rls[row_id])
+    #     p_print = []
+    #     for (p,bb) in lst:
+    #         p_print.append(p)
+    #     print(p_print)
+        
     blk, blk_id = block_decider(rls)
+
+    # print(blk)
+    # print(blk_id)
     
     return blk, blk_id, row_mp
     
     
     
 def block_decider(rls):
-    blk = {}#store the community of all rows belonging to the same block
-    blk_id = {}#store the 
+    blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
+    blk_id = {}#store the name per block: bid-> name of block
     bid = 0
     status = ''
     for id, label in rls.items():
@@ -1140,7 +1174,21 @@ def block_decider(rls):
             blk_id[bid] = 'kv'
         elif(label == 'kv' and status == 'kv'):
             blk[bid].append(id)
+    #block smooth for kv 
+    #impute all the undefined row inside the kv block to be kv 
+    for bid, name in blk_id.items():
+        if(name == 'kv'):
+            #print(blk[bid])
+            new_row = []
+            l = blk[bid][0]
+            r = blk[bid][len(blk[bid])-1]
+            for i in range(l,r+1):
+                new_row.append(i)
+            blk[bid] = new_row
+            #print(blk[bid])
     return blk, blk_id
+
+
 
 
 def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path):
@@ -1185,15 +1233,15 @@ def mix_pattern_extract(predict_labels, pv, path):
             
             #print(blk_id[id],lst)
             kvs = []#kvs stores a list of tuples, where each tuple is (phrase, bb)
-            # for id in lst:
-            #     kvs += row_mp[id]
-            # kv_out = key_val_extraction(kvs, predict_labels)
-            # for kv in kv_out:
-            #     out += kv[0] + ',' + kv[1] + '\n'
+            for id in lst:
+                kvs += row_mp[id]
+            kv_out = key_val_extraction(kvs, predict_labels)
+            for kv in kv_out:
+                out += kv[0] + ',' + kv[1] + '\n'
             #print(kv_out)
         out += '\n'
-    #print(out)
-    #write_string(path, out)
+    print(out)
+    write_string(path, out)
         
 
 def write_string(result_path, content):
