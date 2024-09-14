@@ -1,142 +1,147 @@
 [
     {
-        "type": "table",
-        "content": [
+        "record_id": 0,
+        "structure": [
             {
-                "YEAR": "2022",
-                "NAME": "HARRIS, Austin G.",
-                "DEPARTMENT": "Old Saybrook Police Department",
-                "POST ID#": "18077",
-                "DATE": "1/7/2022",
-                "REASON": "Misconduct"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "SINGH, Taranjit",
-                "DEPARTMENT": "Norwalk Police Department",
-                "POST ID#": "15768",
-                "DATE": "3/10/2022",
-                "REASON": "Misconduct"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "DIMEGLIO, Michael",
-                "DEPARTMENT": "Norwalk Police Department",
-                "POST ID#": "15171",
-                "DATE": "3/10/2022",
-                "REASON": "Misconduct"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "LAUDANO, Sara",
-                "DEPARTMENT": "Norwalk Police Department",
-                "POST ID#": "16619",
-                "DATE": "3/10/2022",
-                "REASON": "Misconduct"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "ACHEYCHEK, Jeffrey",
-                "DEPARTMENT": "Wallingford Police Department",
-                "POST ID#": "16085",
-                "DATE": "1/13/2022",
-                "REASON": "Misconduct"
-            },
-            {
-                "YEAR": "2021",
-                "NAME": "GAMARRA, Gary",
-                "DEPARTMENT": "New Haven Police Department",
-                "POST ID#": "16942",
-                "DATE": "11/18/2021",
-                "REASON": "Misconduct"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "PEREZ, Armando J.",
-                "DEPARTMENT": "Bridgeport Police Department",
-                "POST ID#": "2126",
-                "DATE": "11/18/2021",
-                "REASON": "Felony Conviction"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "CARRANO, John",
-                "DEPARTMENT": "Bridgeport Police Department",
-                "POST ID#": "15034",
-                "DATE": "3/11/2021",
-                "REASON": "Felony Conviction"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "TORNIERO, Justin",
-                "DEPARTMENT": "Hartford Police Department",
-                "POST ID#": "13930",
-                "DATE": "3/11/2021",
-                "REASON": "Felony Conviction"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "HUDSON, Richard, T.",
-                "DEPARTMENT": "Guilford Police Department",
-                "POST ID#": "15108",
-                "DATE": "6/17/2019",
-                "REASON": "Felony Conviction"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "KELLY, Bryan, W.",
-                "DEPARTMENT": "Hamden Police Department",
-                "POST ID#": "10403",
-                "DATE": "1/17/2019",
-                "REASON": "Felony Conviction"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "DiCHIARA, Mark J.",
-                "DEPARTMENT": "Newington Police Department",
-                "POST ID#": "8048",
-                "DATE": "1/18/2018",
-                "REASON": "Felony Conviction"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "LONGOLUCCO, Jaime",
-                "DEPARTMENT": "Norwich Police Department",
-                "POST ID#": "10404",
-                "DATE": "1/18/2018",
-                "REASON": "Felony Conviction"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "RILLING, Stephen, J",
-                "DEPARTMENT": "Fairfield Police Department",
-                "POST ID#": "10283",
-                "DATE": "9/13/2018",
-                "REASON": "Drug Conviction"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "GIBBS, Leighton H.",
-                "DEPARTMENT": "Meriden Police Department",
-                "POST ID#": "10218",
-                "DATE": "1/12/2017",
-                "REASON": "Felony Conviction (Worker's Comp Fraud)"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "BRYANT, III, Charles M.",
-                "DEPARTMENT": "New Haven Police Department",
-                "POST ID#": "16286",
-                "DATE": "1/14/2016",
-                "REASON": "Falsifying Police Officer Application"
-            },
-            {
-                "YEAR": "null",
-                "NAME": "DUNBAR, Jermaine D.",
-                "DEPARTMENT": "Waterbury Police Department",
-                "POST ID#": "12480",
-                "DATE": "5/12/2016",
-                "REASON": "Making False Statements"
+                "type": "table",
+                "content": [
+                    {
+                        "YEAR": "2022",
+                        "NAME": "HARRIS, Austin G.",
+                        "DEPARTMENT": "Old Saybrook Police Department",
+                        "POST ID#": "18077",
+                        "DATE": "1/7/2022",
+                        "REASON": "Misconduct"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "SINGH, Taranjit",
+                        "DEPARTMENT": "Norwalk Police Department",
+                        "POST ID#": "15768",
+                        "DATE": "3/10/2022",
+                        "REASON": "Misconduct"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "DIMEGLIO, Michael",
+                        "DEPARTMENT": "Norwalk Police Department",
+                        "POST ID#": "15171",
+                        "DATE": "3/10/2022",
+                        "REASON": "Misconduct"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "LAUDANO, Sara",
+                        "DEPARTMENT": "Norwalk Police Department",
+                        "POST ID#": "16619",
+                        "DATE": "3/10/2022",
+                        "REASON": "Misconduct"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "ACHEYCHEK, Jeffrey",
+                        "DEPARTMENT": "Wallingford Police Department",
+                        "POST ID#": "16085",
+                        "DATE": "1/13/2022",
+                        "REASON": "Misconduct"
+                    },
+                    {
+                        "YEAR": "2021",
+                        "NAME": "GAMARRA, Gary",
+                        "DEPARTMENT": "New Haven Police Department",
+                        "POST ID#": "16942",
+                        "DATE": "11/18/2021",
+                        "REASON": "Misconduct"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "PEREZ, Armando J.",
+                        "DEPARTMENT": "Bridgeport Police Department",
+                        "POST ID#": "2126",
+                        "DATE": "11/18/2021",
+                        "REASON": "Felony Conviction"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "CARRANO, John",
+                        "DEPARTMENT": "Bridgeport Police Department",
+                        "POST ID#": "15034",
+                        "DATE": "3/11/2021",
+                        "REASON": "Felony Conviction"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "TORNIERO, Justin",
+                        "DEPARTMENT": "Hartford Police Department",
+                        "POST ID#": "13930",
+                        "DATE": "3/11/2021",
+                        "REASON": "Felony Conviction"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "HUDSON, Richard, T.",
+                        "DEPARTMENT": "Guilford Police Department",
+                        "POST ID#": "15108",
+                        "DATE": "6/17/2019",
+                        "REASON": "Felony Conviction"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "KELLY, Bryan, W.",
+                        "DEPARTMENT": "Hamden Police Department",
+                        "POST ID#": "10403",
+                        "DATE": "1/17/2019",
+                        "REASON": "Felony Conviction"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "DiCHIARA, Mark J.",
+                        "DEPARTMENT": "Newington Police Department",
+                        "POST ID#": "8048",
+                        "DATE": "1/18/2018",
+                        "REASON": "Felony Conviction"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "LONGOLUCCO, Jaime",
+                        "DEPARTMENT": "Norwich Police Department",
+                        "POST ID#": "10404",
+                        "DATE": "1/18/2018",
+                        "REASON": "Felony Conviction"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "RILLING, Stephen, J",
+                        "DEPARTMENT": "Fairfield Police Department",
+                        "POST ID#": "10283",
+                        "DATE": "9/13/2018",
+                        "REASON": "Drug Conviction"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "GIBBS, Leighton H.",
+                        "DEPARTMENT": "Meriden Police Department",
+                        "POST ID#": "10218",
+                        "DATE": "1/12/2017",
+                        "REASON": "Felony Conviction (Worker's Comp Fraud)"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "BRYANT, III, Charles M.",
+                        "DEPARTMENT": "New Haven Police Department",
+                        "POST ID#": "16286",
+                        "DATE": "1/14/2016",
+                        "REASON": "Falsifying Police Officer Application"
+                    },
+                    {
+                        "YEAR": "null",
+                        "NAME": "DUNBAR, Jermaine D.",
+                        "DEPARTMENT": "Waterbury Police Department",
+                        "POST ID#": "12480",
+                        "DATE": "5/12/2016",
+                        "REASON": "Making False Statements"
+                    }
+                ]
             }
         ]
     }

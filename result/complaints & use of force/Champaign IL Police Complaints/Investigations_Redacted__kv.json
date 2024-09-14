@@ -1,74 +1,79 @@
 [
     {
-        "type": "table",
-        "content": [
+        "record_id": 0,
+        "structure": [
             {
-                "Date": "1/27/2008",
-                "Number": "08-01",
-                "Investigator": "Swenson, Jon",
-                "Date Assigned": "null",
-                "Racial": "No",
-                "Category / Type": "FORMAL",
-                "Location Of Occurrence": "Not Stated",
-                "Disposition": "SUSTAINED",
-                "Completed": "null",
-                "Recorded On Camera": "No"
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "1/27/2008",
+                        "Number": "08-01",
+                        "Investigator": "Swenson, Jon",
+                        "Date Assigned": "null",
+                        "Racial": "No",
+                        "Category / Type": "FORMAL",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "SUSTAINED",
+                        "Completed": "null",
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": "null",
+                        "Number": "null",
+                        "Investigator": "null",
+                        "Date Assigned": "1/30/2008",
+                        "Racial": "null",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "null",
+                        "Disposition": "null",
+                        "Completed": "2/7/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
             },
             {
-                "Date": "null",
-                "Number": "null",
-                "Investigator": "null",
-                "Date Assigned": "1/30/2008",
-                "Racial": "null",
-                "Category / Type": "Citizen",
-                "Location Of Occurrence": "null",
-                "Disposition": "null",
-                "Completed": "2/7/2008",
-                "Recorded On Camera": "N/A"
-            }
-        ]
-    },
-    {
-        "type": "kv",
-        "content": [
-            {
-                "Gender": "FEMAL"
+                "type": "kv",
+                "content": [
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": "Terr, Champaign IL 61820"
+                    },
+                    {
+                        "H Phone": ""
+                    },
+                    {
+                        "Complainant": ""
+                    },
+                    {
+                        "DOB": ""
+                    }
+                ]
             },
             {
-                "Address": "Terr, Champaign IL 61820"
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.1 Courtesy",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "SUSTAINED"
+                    }
+                ]
             },
             {
-                "H Phone": ""
-            },
-            {
-                "Complainant": ""
-            },
-            {
-                "DOB": ""
-            }
-        ]
-    },
-    {
-        "type": "table",
-        "content": [
-            {
-                "Type Of Complaint": "R-3B.1 Courtesy",
-                "Description": "Discourteous Conduct",
-                "Complaint Disposition": "SUSTAINED"
-            }
-        ]
-    },
-    {
-        "type": "table",
-        "content": [
-            {
-                "Name": "Griffet, David I.",
-                "ID No.": "914",
-                "Rank": "SERGEANT",
-                "Division": "Field Operations",
-                "Officer Disposition": "SUSTAINED",
-                "Action Taken": "COUNSELING",
-                "Body Cam": "No"
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Griffet, David I.",
+                        "ID No.": "914",
+                        "Rank": "SERGEANT",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "SUSTAINED",
+                        "Action Taken": "COUNSELING",
+                        "Body Cam": "No"
+                    }
+                ]
             }
         ]
     }

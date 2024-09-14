@@ -1241,13 +1241,15 @@ def mix_pattern_extract(predict_labels, pv, path):
     
     #pv: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
     
-    # for item in pv:
-    #     print(item[0])
 
     blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels)
 
     print(blk)
     print(blk_id)
+    rid = 0
+    records = []
+    record = {}
+    record['record_id'] = rid
     out = []
 
     for id, lst in blk.items():
@@ -1287,7 +1289,10 @@ def mix_pattern_extract(predict_labels, pv, path):
                 content.append(kvm)
             object['content'] = content
         out.append(object)
-    write_json(out, path)
+    
+    record['structure'] = out
+    records.append(record)
+    write_json(records, path)
         
 
 def write_string(result_path, content):
@@ -1307,8 +1312,8 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 6 #starting from 1
-    k=1
+    tested_id = 5 #starting from 1
+    
 
     #pair_oracle('name','joe')
 
