@@ -834,6 +834,7 @@ def table_extraction_top_down(row_mp, kid, vid):
         for (key,bb) in key_row:
             row.append(kv[key])
         rows.append(row)
+    #print(rows)
     return keys, rows
 
 
@@ -1053,7 +1054,7 @@ def infer_undefined_LLM(lst):
         vals.append(val)
     #evaluate by LLM
     context = ', '.join(vals)
-    instruction = 'If the following list of values are keywords, return key. If the following list of values are values, return value. If the following list of values are a list of key value pairs where the key can have missing values, return kv. Do not add explanations, only return one of {key, value, kv}. '
+    instruction = 'If the following list of phrases are mostly keywords, return key. If the following list of phrases are mostly values, return value. If the following list of phrases are a list of key value pairs where the key can have missing values, return kv. Do not add explanations, only return one of {key, value, kv}. '
     prompt = (instruction,context)
     response = model(model_name,prompt)
     #print(response)
@@ -1167,7 +1168,7 @@ def pattern_detect_by_row(pv, predict_labels):
     rls = infer_undefined(row_mp, rls)
 
     for row_id, lst in row_mp.items():
-        print(row_id, rls[row_id])
+        #print(row_id, rls[row_id])
         p_print = []
         for (p,bb) in lst:
             p_print.append(p)
@@ -1186,8 +1187,8 @@ def block_decider(rls):
     blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
     blk_id = {}#store the name per block: bid-> name of block
     bid = 0
-    status = ''
     nearest_key_bid = 0
+    kv_bid = -1 #all kvs can be put into one block
     for id, label in rls.items():
         if(label == 'key'):
             bid += 1
@@ -1195,17 +1196,15 @@ def block_decider(rls):
             blk[bid].append(id)
             blk_id[bid] = 'table'
             nearest_key_bid = bid
-            status = 'key'
         elif(label == 'val'):
             blk[nearest_key_bid].append(id)
-        elif(label == 'kv' and status != 'kv'):#start a new block for kv
-            bid += 1
-            blk[bid] = []
-            blk[bid].append(id)
-            status = 'kv'
-            blk_id[bid] = 'kv'
-        elif(label == 'kv' and status == 'kv'):
-            blk[bid].append(id)
+        elif(label == 'kv'):#start a new block for kv
+            if(kv_bid == -1):
+                bid += 1
+                kv_bid = bid
+            blk[kv_bid] = []
+            blk[kv_bid].append(id)
+            blk_id[kv_bid] = 'kv'
     #block smooth for kv 
     #impute all the undefined row inside the kv block to be kv 
     for bid, name in blk_id.items():
@@ -1220,6 +1219,9 @@ def block_decider(rls):
             #print(blk[bid])
     return blk, blk_id
 
+def write_json(out, path):
+    with open(path, 'w') as json_file:
+        json.dump(out, json_file, indent=4)
 
 
 
@@ -1246,36 +1248,46 @@ def mix_pattern_extract(predict_labels, pv, path):
 
     print(blk)
     print(blk_id)
-    #out = ''
+    out = []
 
-    # for id, lst in blk.items():
-    #     out += blk_id[id] + '\n'
-    #     if(blk_id[id] == 'table'):
-    #         a=0
-    #         #print(blk_id[id],lst)#lst is the list of row ids belonging to the same community
-    #         key = [lst[0]]
-    #         vals = []
-    #         for id in range(1,len(lst)):
-    #             vals.append(lst[id])
-    #         key, rows = table_extraction_top_down(row_mp, key, vals)
-    #         #print(key)
-    #         out += ", ".join(key) + '\n'
-    #         for row in rows:
-    #             #print(row)
-    #             out += ", ".join(row) + '\n'
-    #     else:
+    for id, lst in blk.items():
+        object = {}
+        if(blk_id[id] == 'table'):
+            print(id)
+            object['type'] = 'table'
+            #print(blk_id[id],lst)#lst is the list of row ids belonging to the same community
+            key = [lst[0]]
+            vals = []
+            for id in range(1,len(lst)):
+                vals.append(lst[id])
+            key, rows = table_extraction_top_down(row_mp, key, vals)
+            content = []
             
-    #         #print(blk_id[id],lst)
-    #         kvs = []#kvs stores a list of tuples, where each tuple is (phrase, bb)
-    #         for id in lst:
-    #             kvs += row_mp[id]
-    #         kv_out = key_val_extraction(kvs, predict_labels)
-    #         for kv in kv_out:
-    #             out += kv[0] + ',' + kv[1] + '\n'
-    #         #print(kv_out)
-    #     out += '\n'
-    # print(out)
-    #write_string(path, out)
+            for row in rows:
+                kvs = {}
+                for i in range(len(key)):
+                    k = key[i]
+                    r = row[i]
+                    kvs[k] = r
+                content.append(kvs)
+            print(content)
+            object['content'] = content 
+        else:
+            object['type'] = 'kv'
+            #print(blk_id[id],lst)
+            kvs = []#kvs stores a list of tuples, where each tuple is (phrase, bb)
+            for id in lst:
+                kvs += row_mp[id]
+            kv_out = key_val_extraction(kvs, predict_labels)
+            content = []
+            
+            for kv in kv_out:
+                kvm = {}
+                kvm[kv[0]] = kv[1]
+                content.append(kvm)
+            object['content'] = content
+        out.append(object)
+    write_json(out, path)
         
 
 def write_string(result_path, content):
@@ -1295,7 +1307,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 6 #starting from 1
+    tested_id = 1 #starting from 1
     k=1
 
     #pair_oracle('name','joe')

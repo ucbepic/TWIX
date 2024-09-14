@@ -242,7 +242,7 @@ def get_result_path(raw_path):
 
 def get_key_val_path(raw_path, approach):
     path = raw_path.replace('data/raw','result')
-    path = path.replace('.pdf', '_' + approach + '_kv.csv')
+    path = path.replace('.pdf', '_' + approach + '_kv.json')
     return path
 
 def get_baseline_result_path(raw_path,baseline_name):
