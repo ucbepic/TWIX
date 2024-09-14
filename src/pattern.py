@@ -1168,11 +1168,11 @@ def pattern_detect_by_row(pv, predict_labels):
     rls = infer_undefined(row_mp, rls)
 
     for row_id, lst in row_mp.items():
-        #print(row_id, rls[row_id])
+        print(row_id, rls[row_id])
         p_print = []
         for (p,bb) in lst:
             p_print.append(p)
-        #print(p_print)
+        print(p_print)
         
     blk, blk_id = block_decider(rls)
 
@@ -1202,7 +1202,7 @@ def block_decider(rls):
             if(kv_bid == -1):
                 bid += 1
                 kv_bid = bid
-            blk[kv_bid] = []
+                blk[kv_bid] = []
             blk[kv_bid].append(id)
             blk_id[kv_bid] = 'kv'
     #block smooth for kv 
@@ -1307,7 +1307,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 1 #starting from 1
+    tested_id = 6 #starting from 1
     k=1
 
     #pair_oracle('name','joe')
@@ -1331,10 +1331,3 @@ if __name__ == "__main__":
 
         #print(out_path)
         mix_pattern_extract_pipeline(phrases_bb, results, phrases, out_path)
-
-
-        #table_extraction_pipeline(phrases_bb, results, phrases, out_path)
-        #kvs = key_val_extraction(phrases, phrases_bb, results)
-        #write_result(kvs,out_path)
-        # for kv in kvs:
-        #     print(kv)
