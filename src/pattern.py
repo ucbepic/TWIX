@@ -934,7 +934,9 @@ def row_aligned(row1, row2):
     id2 = 0 #id in row 2
     while(id1 < len(row1) and id2 < len(row2)):
         if(is_overlap_vertically(row2[id2][1], row1[id1][1]) == 1 and is_overlap_vertically(row2[id2][1], row1[id1-1][1]) == 1):
-            #print('overlapping two')
+            #print('overlapping two: ', row2[id2], row1[id1], row1[id1-1])
+            #print(row1)
+            #print(row2)
             return 0
         #print(row1[id1][1][2], row2[id2][1][2])
         if(row1[id1][1][2] < row2[id2][1][2]):
@@ -942,7 +944,7 @@ def row_aligned(row1, row2):
         else:
             id2 += 1
 
-    #check if there exist a phrase in row2 that does not overlapps with ant of val in row1
+    #check if there exist a phrase in row2 that does not overlapps with any of val in row1
     
     # for (p2,bb2) in row2:
     #     valid = 0
@@ -951,7 +953,7 @@ def row_aligned(row1, row2):
     #             valid = 1
     #             break
     #     if(valid == 0):
-    #         print(p2)
+    #         #print(p2 + ' does not overlap with any val in row1')
     #         return 0
     return 1
 
@@ -994,20 +996,13 @@ def row_pattern(lst, predict_labels, new_lst, esp = 0.5):
         return 'val'
     
     return 'undefined'
-
-    # if(max(kks,kvs,vvs) == kks):
-    #     return 'key'
-    # if(max(kks,kvs,vvs) == kvs):
-    #     return 'kv'
-    # if(max(kks,kvs,vvs) == vvs):
-    #     return 'val'
     
 def check_vadility(row_mp, rls, id): 
     if(rls[id] == 'undefined'):
         return 'undefined'
     
     if(rls[id] == 'key'):
-        #for a 'key' row, if there is no aligned val row under it, make it to be undefined
+        #for a 'key' row, if the next val is not aligned with key, make it to be undefined
         valid = 0
         nid = id
         while(True):
@@ -1017,9 +1012,13 @@ def check_vadility(row_mp, rls, id):
             if(rls[nid] == 'kv' or rls[nid] == 'key'):#mark the end of current table block
                 #print('kv or key')
                 break
-            if(rls[nid] == 'val' and row_aligned(row_mp[id], row_mp[nid])==1):
-                valid = 1
-                break
+            if(rls[nid] == 'val'):
+                if(row_aligned(row_mp[id], row_mp[nid])==1):
+                    valid = 1
+                    break
+                else:
+                    valid = 0
+                    break 
             # else:
             #     print('key-val not aligned ***')
         if(valid == 0):
@@ -1048,26 +1047,50 @@ def check_vadility(row_mp, rls, id):
             return 'val'
     return rls[id]
         
+def infer_undefined_LLM(lst):
+    vals = []
+    for (val,bb) in lst:
+        vals.append(val)
+    #evaluate by LLM
+    context = ', '.join(vals)
+    instruction = 'If the following list of values are keywords, return key. If the following list of values are values, return value. If the following list of values are a list of key value pairs where the key can have missing values, return kv. Do not add explanations, only return one of {key, value, kv}. '
+    prompt = (instruction,context)
+    response = model(model_name,prompt)
+    #print(response)
+    if('kv' in response):
+        return 'kv'
+    if('key' in response):
+        return 'key'
+    if('value' in response):
+        return 'val'
+    return 'undefined'
+        
+        
+
 def infer_undefined(row_mp, rls):
     #guess the label of undefined rows based on rules 
     #try to modify undefined to different labels and check if this trial is valid or not 
     for row_id, lst in row_mp.items():
         if(rls[row_id] != 'undefined'):
             continue
-
         if(len(lst) > 1):
-            rls[row_id] = 'val'
-            if(check_vadility(row_mp, rls, row_id) == 'val'): #if undefined->val, it is valid
-                continue 
-            rls[row_id] = 'key'
-            if(check_vadility(row_mp, rls, row_id) == 'key'): #if undefined->key, it is valid
-                continue
-            rls[row_id] = 'kv'
-            # if(row_id-1>=0 and row_id+1 < len(row_mp) and rls[row_id-1] == 'kv' and rls[row_id+1] == 'kv'): 
-            #     continue
-            # else:
-            #     rls[row_id] = 'undefined'
-
+            label = infer_undefined_LLM(lst)
+            if(label == 'val'):
+                rls[row_id] = 'val'
+                if(check_vadility(row_mp, rls, row_id) == 'val'): #if undefined->val, it is valid
+                    continue 
+                else:
+                    rls[row_id] = 'undefined'
+            elif(label == 'key'):
+                rls[row_id] = 'key'
+                if(check_vadility(row_mp, rls, row_id) == 'key'): #if undefined->key, it is valid
+                    continue
+                else:
+                    rls[row_id] = 'undefined'
+            elif(label == 'kv'):
+                rls[row_id] = 'kv'
+            else:
+                rls[row_id] = label
 
         elif(row_id-1>=0 and row_id+1 < len(row_mp) and rls[row_id-1] == 'kv' and rls[row_id+1] == 'kv'):
             rls[row_id] = 'kv' 
@@ -1129,7 +1152,7 @@ def pattern_detect_by_row(pv, predict_labels):
         # print(p_print)
         rls[row_id] = row_label
         
-
+    #print('###')
     #check the validity of the labels by using rules 
     for row_id, lst in row_mp.items():
         #print(row_id)
@@ -1148,7 +1171,7 @@ def pattern_detect_by_row(pv, predict_labels):
         p_print = []
         for (p,bb) in lst:
             p_print.append(p)
-        print(p_print)
+        #print(p_print)
         
     blk, blk_id = block_decider(rls)
 
@@ -1164,15 +1187,17 @@ def block_decider(rls):
     blk_id = {}#store the name per block: bid-> name of block
     bid = 0
     status = ''
+    nearest_key_bid = 0
     for id, label in rls.items():
         if(label == 'key'):
             bid += 1
             blk[bid] = []
             blk[bid].append(id)
             blk_id[bid] = 'table'
+            nearest_key_bid = bid
             status = 'key'
-        elif(label == 'val' and status == 'key'):
-            blk[bid].append(id)
+        elif(label == 'val'):
+            blk[nearest_key_bid].append(id)
         elif(label == 'kv' and status != 'kv'):#start a new block for kv
             bid += 1
             blk[bid] = []
@@ -1219,8 +1244,9 @@ def mix_pattern_extract(predict_labels, pv, path):
 
     blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels)
 
+    print(blk)
     print(blk_id)
-    out = ''
+    #out = ''
 
     # for id, lst in blk.items():
     #     out += blk_id[id] + '\n'
