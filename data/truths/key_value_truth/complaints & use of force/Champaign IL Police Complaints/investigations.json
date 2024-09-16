@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "08-01",
+                        "Number": "Swenson",
+                        "Investigator": "Jon",
+                        "Date Assigned": "null",
+                        "Racial": "No",
+                        "Category / Type": "FORMAL",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "SUSTAINED",
+                        "Completed": "null",
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": "null",
+                        "Number": "null",
+                        "Investigator": "1/30/2008",
+                        "Date Assigned": "null",
+                        "Racial": "Citizen",
+                        "Category / Type": "null",
+                        "Location Of Occurrence": "null",
+                        "Disposition": "2/7/2008",
+                        "Completed": "N/A",
+                        "Recorded On Camera": NaN
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": ""
+                    },
+                    {
+                        "DOB": ""
+                    },
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": "Terr, Champaign IL 61820"
+                    },
+                    {
+                        "H Phone": ""
+                    },
+                    {
+                        "": ""
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.1 Courtesy",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "SUSTAINED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "David I.",
+                        "ID No.": 914,
+                        "Rank": "SERGEANT",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "SUSTAINED",
+                        "Action Taken": "COUNSELING",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    }
+]

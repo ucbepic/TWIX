@@ -15,7 +15,3 @@ R-3B.1 Courtesy, Discourteous Conduct, SUSTAINED
 -TABLE
 Name, ID No., Rank, Division, Officer Disposition, Action Taken, Body Cam
 Griffet, David I., 914, SERGEANT, Field Operations, SUSTAINED, COUNSELING, No
-
-#Record2
--TABLE
-....(Follow the exact same format as record 1)
