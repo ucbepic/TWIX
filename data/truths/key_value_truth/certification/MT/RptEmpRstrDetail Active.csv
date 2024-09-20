@@ -1,161 +1,179 @@
+#Record1
+-TABLE
 Name,I.D.,Sex,Birth Date,Age,Employee Type,Employee,Instructor,Supervisor
-"Adair, Christopher M.",022070,M,1978,41,Peace Officer,True,,
-"Adame, Jesse A.",025042,M,1988,31,Peace Officer,True,,
-"Adams, Ashley A.",025657,F,-1990,28,Detention & Correction,True,,
-"Adams, Jeremiah A.",020885,M,1984,35,Peace Officer,True,,
-"Adams, Ross E.",000012,M,1960,59,Peace Officer,True,,
-"Adams, Seth H.",022864,M,1989,30,Peace Officer,True,,
-"Adams, Tyler",023612,M,-1984,34,Detention & Correction,True,,
-"Adkins, Kevin",016759,,,,Peace Officer,True,,
-"Adolph, Jerry O.",014668,M,-1959,59,Detention & Correction,True,,
-"Adorni, Larry F.",016753,M,1957,62,Peace Officer,True,,
-"Adsem, Steven J.",005552,M,1965,54,Peace Officer,True,,
-"Aggers, Mary",012393,F,1970,49,Probation & Parole,True,,
-"Ahlin, Benjamin J.",024854,M,1993,26,Detention & Correction,True,,
-"Ahmann, Jacob G.",023943,M,1992,27,Peace Officer,True,,
-"Aiello, Antonio D.",023659,M,1984,35,Detention & Correction,True,,
-"Albright, Christopher B.",010496,M,1970,49,Peace Officer,True,,
-"Albright, Cody J.",021589,M,1990,29,Detention & Correction,True,,
-"Aliperto, Benjamin J.",025733,M,1995,24,Detention & Correction,True,,
-"Allen, Darin C.",015463,M,1974,45,Probation & Parole,True,,
-"Allen, Jack E.",000025,M,-1959,59,Peace Officer,True,,
-"Allen, Jesse C.",021937,M,1982,37,Peace Officer,True,,
-"Allen, Payton E.",025919,M,1999,20,Detention & Correction,True,,
-"Allen, Robert J.",025593,M,1976,43,Peace Officer,True,,
-"Allen, Sean C.",024063,M,-1986,32,Peace Officer,True,,
-"Allen, Tammy A.",017266,,-1967,51,Detention & Correction,True,,
-"Allison, Derek",025076,M,1999,20,Detention & Correction,True,,
-"Allison, Thomas B.",022103,M,-1992,26,Peace Officer,True,,
-"Allmendinger, Jacob O.",020851,M,-1987,31,Peace Officer,True,,
-"Allred, Sabrina",025094,F,1978,41,Probation & Parole,True,,
-"Althaus, Terry L.",000028,M,1960,59,Peace Officer,True,,
-"Altmiller, Jason D.",024024,,,,Peace Officer,True,,
-"Altschwager, Daniel T.",020936,M,-1983,35,Peace Officer,True,,
-"Amaro, Ishmael G.",025336,M,1995,24,Detention & Correction,True,,
-"Ames, Danny H.",000034,,,,Peace Officer,True,,
-"Ames, Joshua A.",024710,M,1981,38,Peace Officer,True,,
-"Amundsen, Gregory M.",002435,M,1961,58,Peace Officer,True,,
-"Amundson, Daniel S.",014908,M,1969,50,Peace Officer,True,,
-"Anderberg, Chad B.",022675,M,1986,33,Peace Officer,True,,
-"Andersen, Dirk",000036,M,1957,62,Reserve,True,,
-"Andersen, Shad A.",019490,M,1974,45,Peace Officer,True,,
-"Anderson, Adam S.",025070,M,1983,36,Detention & Correction,True,,
-"Anderson, Bryan L.",023954,M,1984,35,Peace Officer,True,,
-"Anderson, Cache",021951,M,1982,37,Peace Officer,True,,
-"Anderson, Cactus J.",021851,M,1980,39,Peace Officer,True,,
-"Anderson, Clint W.",019254,M,1980,39,Peace Officer,True,,
-"Anderson, Codee R.",019273,,-1987,31,Reserve,True,,
-"Anderson, David A.",014614,M,-1964,54,Detention & Correction,True,,
-"Anderson, lan M.",022250,M,-1989,29,Peace Officer,True,,
-"Anderson, James R.",013738,M,-1971,47,Peace Officer,True,,
-"Anderson, Jonathan M.",018722,M,1969,50,Peace Officer,True,,
-"Anderson, Joshua S.",025301,M,1994,25,Peace Officer,True,,
-"Anderson, Kent M.",018466,M,1984,35,Peace Officer,True,,
-"Anderson, Lee R.",007664,M,1972,47,Peace Officer,True,,
-"Anderson, Michael B.",023290,M,1985,34,Peace Officer,True,,
-"Anderson, Spencer P.",009378,M,1977,42,Peace Officer,True,,
-"Anderson, Steve F.",013276,M,1964,55,Detention & Correction,True,,
-"Andress, Robert W.",019652,,,,Peace Officer,True,,
-"Andrews, Justin C.",020912,M,-1988,30,Peace Officer,True,,
-"Anglin, Clint C.",021081,M,1978,41,Peace Officer,True,,
-"Anglin, Jarred G.",020563,M,1986,33,Peace Officer,True,,
-"Araujo, Christopher R.",021405,M,-1988,30,Peace Officer,True,,
-"Arca, Shelby M.",025106,F,1993,26,Detention & Correction,True,,
-"Arends, Linda N.",019463,F,-1958,60,Detention & Correction,True,,
-"Arlee, Travis L.",024828,M,1971,48,Peace Officer,True,,
-"Arment, Marc T.",025133,M,1982,37,Peace Officer,True,,
-"Armstrong, Barbara A.",023185,F,1981,38,Peace Officer,True,,
-"Armstrong, Donald",020144,M,1962,57,Detention & Correction,True,,
-"Armstrong, Robert J.",006665,M,1970,49,Peace Officer,True,,
-"Arneson, Jerod",025385,M,1993,26,Detention & Correction,True,,
-"Arneson, Kyle R.",023417,M,-1992,26,Detention & Correction,True,,
-"Arnett, Tracie",025220,,-1975,43,Detention & Correction,True,,
-"Arnold, Daniel T.",019975,M,1985,34,Peace Officer,True,,
-"Arnold, Jonathan",023669,M,1989,30,Peace Officer,True,,
-"Asencio, Ben",008807,M,1973,46,Peace Officer,True,,
-"Ashby, Steven E.",019525,M,1967,52,Peace Officer,True,,
-"Atkins, Dustin L.",020950,M,1979,40,Detention & Correction,True,,
-"Atkinson, Ann E.",018567,F,1962,57,Detention & Correction,True,,
-"Atkinson Jr., Michael T.",007170,M,1973,46,Peace Officer,True,,
-"Atsbeha, Eayoall M.",024420,M,1987,32,Detention & Correction,True,,
-"Auch, Jacob A.",019106,M,1981,38,Peace Officer,True,,
-"Austin, Alicia M.",018355,F,1978,41,Peace Officer,True,,
-"Austin, John R.",007163,M,-1964,54,Peace Officer,True,,
-"Axelrod, Bryan J.",023027,M,1984,35,Peace Officer,True,,
-"Ayers, Brandon L.",025583,M,1992,27,Peace Officer,True,,
-"Ayers, Jeralyn",011031,F,-1961,57,Detention & Correction,True,,
-"Bach, Trinity L.",023022,F,1968,51,Detention & Correction,True,,
-"Baggs, David J.",017559,M,-1975,43,Peace Officer,True,,
-"Bagnoli, Colton J.",023146,M,1983,36,Peace Officer,True,,
-"Baiamonte, Stephen",002355,M,-1967,51,Reserve,True,,
-"Bailey, Cory A.",007358,M,-1971,47,Peace Officer,True,,
-"Bailey, Dunny W.",017225,,-1975,43,Detention & Correction,True,,
-"Bailey, James A.",017111,,1975,44,Peace Officer,True,,
-"Bailey, James S.",012458,M,1962,57,Detention & Correction,True,,
-"Bain, Dennis A.",021271,M,1977,42,Peace Officer,True,,
-"Baken, Nicholas",025410,M,1994,25,Detention & Correction,True,,
-"Baker, Christopher J.",018409,M,1974,45,Peace Officer,True,,
-"Baker, Guy A.",002170,M,1968,51,Peace Officer,True,,
-"Baker, Jason",020803,M,-1971,47,Peace Officer,True,,
-"Baker, Rae M.",021193,F,1967,52,Probation & Parole,True,,
-"Balis, Bradford A.",022324,M,1987,32,Peace Officer,True,,
-"Ball, Christopher L.",024117,M,1990,29,Detention & Correction,True,,
-"Baltezar, Beau C.",020921,M,1988,31,Detention & Correction,True,,
-"Barbao, Harlee I.",023944,M,1992,27,Peace Officer,True,,
-"Barbera, Andrew J.",025525,M,1983,36,Peace Officer,True,,
-"Barce, Austin",025262,M,-1992,26,Detention & Correction,True,,
-"Barclay, Steven B.",005854,,1969,50,Peace Officer,True,,
-"Bardwell, Allen G.",002205,M,-1956,62,Peace Officer,True,,
-"Bare, Bryce",023344,M,1992,27,Peace Officer,True,,
-"Barkell, Tim F.",002178,M,1962,57,Peace Officer,True,,
-"Barkus, Jason A.",018592,M,1971,48,Peace Officer,True,,
-"Barnes, Timothy C.",014393,M,1962,57,Peace Officer,True,,
-"Barnt, James J.",017399,M,1977,42,Detention & Correction,True,,
-"Barrett, Anthony",025112,M,1963,56,Probation & Parole,True,,
-"Barrett, Michael P.",023109,M,1987,32,Reserve,True,,
-"Barry, Chan A.",019972,M,1975,44,Peace Officer,True,,
-"Barsness, Kyle P.",019386,M,1980,39,Peace Officer,True,,
-"Barstad, Bruce E.",000099,M,1966,53,Probation & Parole,True,,
-"Barthel, Jon J.",014630,M,-1974,44,Detention & Correction,True,,
-"Barthel, Michael J.",000100,M,-1964,54,Probation & Parole,True,,
-"Barton, Andrew K.",021997,M,1985,34,Peace Officer,True,,
-"Bartos, Charles D.",006307,M,1966,53,Peace Officer,True,,
-"Barzen, Jake",025486,M,-1994,24,Peace Officer,True,,
-"Bauer, Dustin L.",022217,M,1989,30,Detention & Correction,True,,
-"Baugatz Jr., John A.",007011,M,-1964,54,Detention & Correction,True,,
-"Baukema, Toman L.",006667,M,1969,50,Peace Officer,True,,
-"Baum, Craig A.",006047,M,1971,48,Peace Officer,True,,
-"Baum, Denise K.",008322,F,-1967,51,Peace Officer,True,,
-"Baum, Michael J.",023317,M,1988,31,Peace Officer,True,,
-"Baumann, Eric A.",008665,M,-1974,44,Peace Officer,True,,
-"Baxter, Jayson B.",016490,M,1970,49,Probation & Parole,True,,
-"Bear Medicine, Doyle L.",024354,M,1980,39,Peace Officer,True,,
-"Beard, Brenton A.",024086,M,1992,27,Peace Officer,True,,
-"Beasley, Daniel L.",023062,M,1981,38,Detention & Correction,True,,
-"Bebbington, Brian S.",019543,M,1972,47,Peace Officer,True,,
-"Beccari, Kathleen M.",010765,F,1961,58,Probation & Parole,True,,
-"Bechtold, Terry L.",000108,M,1959,60,Peace Officer,True,,
-"Beck, Benjamin T.",021082,M,1988,31,Peace Officer,True,,
-"Beck, James J.",022102,M,1991,28,Peace Officer,True,,
-"Becker, Thomas",025626,M,-1984,34,Detention & Correction,True,,
-"Beckett, Jace A.",022375,,1992,27,Peace Officer,True,,
-"Beckwith, Carl F.",007622,M,-1940,78,Reserve,True,,
-"Bedford, John R.",001902,M,1961,58,Peace Officer,True,,
-"Beechie, Michael B.",023596,M,1988,31,Peace Officer,True,,
-"Beecroft, Jeffery D.",002095,M,1962,57,Peace Officer,True,,
-"Beehler, Anton J.",009746,M,1967,52,Peace Officer,True,,
-"Beeson Jr., Myron",025744,M,1979,40,Detention & Correction,True,,
-"Belcourt, Jalin C.",024131,M,1994,25,Peace Officer,True,,
-"Belford, Austin J.",025558,,,,Peace Officer,True,,
-"Bell, Donald R.",005860,M,-1958,60,Peace Officer,True,,
-"Bellusci, George E.",023418,M,1970,49,Detention & Correction,True,,
-"Bellusci, William W.",000118,M,-1953,65,Probation & Parole,True,,
-"Bemis, Christopher W.",006284,M,-1964,54,Detention & Correction,True,,
-"Bender Jr., Robert R.",009665,M,1978,41,Peace Officer,True,,
-"Bennett, Bryan R.",023948,M,1978,41,Peace Officer,True,,
-"Bennett, Scott F.",013814,M,1962,57,Peace Officer,True,,
-"Benson, Christopher J.",024072,M,-1981,37,Peace Officer,True,,
-"Benson, Michael S.",000127,M,1965,54,Peace Officer,True,,
-"Benz, Britney B.",024165,F,1991,28,Peace Officer,True,,
-"Berg, Shannon",025666,F,1988,31,Probation & Parole,True,,
-"Berger, Brian P.",021900,M,-1985,33,Peace Officer,True,,
+"Adair, Christopher M.",022070,M,1978,41,Peace Officer,True,null,null
+"Adame, Jesse A.",025042,M,1988,31,Peace Officer,True,null,null
+"Adams, Ashley A.",025657,F,-1990,28,Detention & Correction,True,null,null
+"Adams, Jeremiah A.",020885,M,1984,35,Peace Officer,True,null,null
+"Adams, Ross E.",000012,M,1960,59,Peace Officer,True,null,null
+"Adams, Seth H.",022864,M,1989,30,Peace Officer,True,null,null
+"Adams, Tyler",023612,M,-1984,34,Detention & Correction,True,null,null
+"Adkins, Kevin",016759,null,null,null,null,Peace Officer,True,null,null
+"Adolph, Jerry O.",014668,M,-1959,59,Detention & Correction,True,null,null
+"Adorni, Larry F.",016753,M,1957,62,Peace Officer,True,null,null
+"Adsem, Steven J.",005552,M,1965,54,Peace Officer,True,null,null
+"Aggers, Mary",012393,F,1970,49,Probation & Parole,True,null,null
+"Ahlin, Benjamin J.",024854,M,1993,26,Detention & Correction,True,null,null
+"Ahmann, Jacob G.",023943,M,1992,27,Peace Officer,True,null,null
+"Aiello, Antonio D.",023659,M,1984,35,Detention & Correction,True,null,null
+"Albright, Christopher B.",010496,M,1970,49,Peace Officer,True,null,null
+"Albright, Cody J.",021589,M,1990,29,Detention & Correction,True,null,null
+"Aliperto, Benjamin J.",025733,M,1995,24,Detention & Correction,True,null,null
+"Allen, Darin C.",015463,M,1974,45,Probation & Parole,True,null,null
+"Allen, Jack E.",000025,M,-1959,59,Peace Officer,True,null,null
+"Allen, Jesse C.",021937,M,1982,37,Peace Officer,True,null,null
+"Allen, Payton E.",025919,M,1999,20,Detention & Correction,True,null,null
+"Allen, Robert J.",025593,M,1976,43,Peace Officer,True,null,null
+"Allen, Sean C.",024063,M,-1986,32,Peace Officer,True,null,null
+"Allen, Tammy A.",017266,null,null,-1967,51,Detention & Correction,True,null,null
+"Allison, Derek",025076,M,1999,20,Detention & Correction,True,null,null
+"Allison, Thomas B.",022103,M,-1992,26,Peace Officer,True,null,null
+"Allmendinger, Jacob O.",020851,M,-1987,31,Peace Officer,True,null,null
+"Allred, Sabrina",025094,F,1978,41,Probation & Parole,True,null,null
+"Althaus, Terry L.",000028,M,1960,59,Peace Officer,True,null,null
+"Altmiller, Jason D.",024024,null,null,null,null,Peace Officer,True,null,null
+"Altschwager, Daniel T.",020936,M,-1983,35,Peace Officer,True,null,null
+
+#Record2
+-TABLE
+Name,I.D.,Sex,Birth Date,Age,Employee Type,Employee,Instructor,Supervisor
+"Amaro, Ishmael G.",025336,M,1995,24,Detention & Correction,True,null,null
+"Ames, Danny H.",000034,null,null,null,null,Peace Officer,True,null,null
+"Ames, Joshua A.",024710,M,1981,38,Peace Officer,True,null,null
+"Amundsen, Gregory M.",002435,M,1961,58,Peace Officer,True,null,null
+"Amundson, Daniel S.",014908,M,1969,50,Peace Officer,True,null,null
+"Anderberg, Chad B.",022675,M,1986,33,Peace Officer,True,null,null
+"Andersen, Dirk",000036,M,1957,62,Reserve,True,null,null
+"Andersen, Shad A.",019490,M,1974,45,Peace Officer,True,null,null
+"Anderson, Adam S.",025070,M,1983,36,Detention & Correction,True,null,null
+"Anderson, Bryan L.",023954,M,1984,35,Peace Officer,True,null,null
+"Anderson, Cache",021951,M,1982,37,Peace Officer,True,null,null
+"Anderson, Cactus J.",021851,M,1980,39,Peace Officer,True,null,null
+"Anderson, Clint W.",019254,M,1980,39,Peace Officer,True,null,null
+"Anderson, Codee R.",019273,null,null,-1987,31,Reserve,True,null,null
+"Anderson, David A.",014614,M,-1964,54,Detention & Correction,True,null,null
+"Anderson, lan M.",022250,M,-1989,29,Peace Officer,True,null,null
+"Anderson, James R.",013738,M,-1971,47,Peace Officer,True,null,null
+"Anderson, Jonathan M.",018722,M,1969,50,Peace Officer,True,null,null
+"Anderson, Joshua S.",025301,M,1994,25,Peace Officer,True,null,null
+"Anderson, Kent M.",018466,M,1984,35,Peace Officer,True,null,null
+"Anderson, Lee R.",007664,M,1972,47,Peace Officer,True,null,null
+"Anderson, Michael B.",023290,M,1985,34,Peace Officer,True,null,null
+"Anderson, Spencer P.",009378,M,1977,42,Peace Officer,True,null,null
+"Anderson, Steve F.",013276,M,1964,55,Detention & Correction,True,null,null
+"Andress, Robert W.",019652,null,null,null,null,Peace Officer,True,null,null
+"Andrews, Justin C.",020912,M,-1988,30,Peace Officer,True,null,null
+"Anglin, Clint C.",021081,M,1978,41,Peace Officer,True,null,null
+"Anglin, Jarred G.",020563,M,1986,33,Peace Officer,True,null,null
+"Araujo, Christopher R.",021405,M,-1988,30,Peace Officer,True,null,null
+"Arca, Shelby M.",025106,F,1993,26,Detention & Correction,True,null,null
+"Arends, Linda N.",019463,F,-1958,60,Detention & Correction,True,null,null
+
+#Record3
+-TABLE
+Name,I.D.,Sex,Birth Date,Age,Employee Type,Employee,Instructor,Supervisor
+"Arlee, Travis L.",024828,M,1971,48,Peace Officer,True,null,null
+"Arment, Marc T.",025133,M,1982,37,Peace Officer,True,null,null
+"Armstrong, Barbara A.",023185,F,1981,38,Peace Officer,True,null,null
+"Armstrong, Donald",020144,M,1962,57,Detention & Correction,True,null,null
+"Armstrong, Robert J.",006665,M,1970,49,Peace Officer,True,null,null
+"Arneson, Jerod",025385,M,1993,26,Detention & Correction,True,null,null
+"Arneson, Kyle R.",023417,M,-1992,26,Detention & Correction,True,null,null
+"Arnett, Tracie",025220,null,null,-1975,43,Detention & Correction,True,null,null
+"Arnold, Daniel T.",019975,M,1985,34,Peace Officer,True,null,null
+"Arnold, Jonathan",023669,M,1989,30,Peace Officer,True,null,null
+"Asencio, Ben",008807,M,1973,46,Peace Officer,True,null,null
+"Ashby, Steven E.",019525,M,1967,52,Peace Officer,True,null,null
+"Atkins, Dustin L.",020950,M,1979,40,Detention & Correction,True,null,null
+"Atkinson, Ann E.",018567,F,1962,57,Detention & Correction,True,null,null
+"Atkinson Jr., Michael T.",007170,M,1973,46,Peace Officer,True,null,null
+"Atsbeha, Eayoall M.",024420,M,1987,32,Detention & Correction,True,null,null
+"Auch, Jacob A.",019106,M,1981,38,Peace Officer,True,null,null
+"Austin, Alicia M.",018355,F,1978,41,Peace Officer,True,null,null
+"Austin, John R.",007163,M,-1964,54,Peace Officer,True,null,null
+"Axelrod, Bryan J.",023027,M,1984,35,Peace Officer,True,null,null
+"Ayers, Brandon L.",025583,M,1992,27,Peace Officer,True,null,null
+"Ayers, Jeralyn",011031,F,-1961,57,Detention & Correction,True,null,null
+"Bach, Trinity L.",023022,F,1968,51,Detention & Correction,True,null,null
+"Baggs, David J.",017559,M,-1975,43,Peace Officer,True,null,null
+"Bagnoli, Colton J.",023146,M,1983,36,Peace Officer,True,null,null
+"Baiamonte, Stephen",002355,M,-1967,51,Reserve,True,null,null
+"Bailey, Cory A.",007358,M,-1971,47,Peace Officer,True,null,null
+"Bailey, Dunny W.",017225,null,null,-1975,43,Detention & Correction,True,null,null
+"Bailey, James A.",017111,null,null,1975,44,Peace Officer,True,null,null
+"Bailey, James S.",012458,M,1962,57,Detention & Correction,True,null,null
+"Bain, Dennis A.",021271,M,1977,42,Peace Officer,True,null,null
+"Baken, Nicholas",025410,M,1994,25,Detention & Correction,True,null,null
+"Baker, Christopher J.",018409,M,1974,45,Peace Officer,True,null,null
+
+#Record4
+-TABLE
+Name,I.D.,Sex,Birth Date,Age,Employee Type,Employee,Instructor,Supervisor
+"Baker, Guy A.",002170,M,1968,51,Peace Officer,True,null,null
+"Baker, Jason",020803,M,-1971,47,Peace Officer,True,null,null
+"Baker, Rae M.",021193,F,1967,52,Probation & Parole,True,null,null
+"Balis, Bradford A.",022324,M,1987,32,Peace Officer,True,null,null
+"Ball, Christopher L.",024117,M,1990,29,Detention & Correction,True,null,null
+"Baltezar, Beau C.",020921,M,1988,31,Detention & Correction,True,null,null
+"Barbao, Harlee I.",023944,M,1992,27,Peace Officer,True,null,null
+"Barbera, Andrew J.",025525,M,1983,36,Peace Officer,True,null,null
+"Barce, Austin",025262,M,-1992,26,Detention & Correction,True,null,null
+"Barclay, Steven B.",005854,null,null,1969,50,Peace Officer,True,null,null
+"Bardwell, Allen G.",002205,M,-1956,62,Peace Officer,True,null,null
+"Bare, Bryce",023344,M,1992,27,Peace Officer,True,null,null
+"Barkell, Tim F.",002178,M,1962,57,Peace Officer,True,null,null
+"Barkus, Jason A.",018592,M,1971,48,Peace Officer,True,null,null
+"Barnes, Timothy C.",014393,M,1962,57,Peace Officer,True,null,null
+"Barnt, James J.",017399,M,1977,42,Detention & Correction,True,null,null
+"Barrett, Anthony",025112,M,1963,56,Probation & Parole,True,null,null
+"Barrett, Michael P.",023109,M,1987,32,Reserve,True,null,null
+"Barry, Chan A.",019972,M,1975,44,Peace Officer,True,null,null
+"Barsness, Kyle P.",019386,M,1980,39,Peace Officer,True,null,null
+"Barstad, Bruce E.",000099,M,1966,53,Probation & Parole,True,null,null
+"Barthel, Jon J.",014630,M,-1974,44,Detention & Correction,True,null,null
+"Barthel, Michael J.",000100,M,-1964,54,Probation & Parole,True,null,null
+"Barton, Andrew K.",021997,M,1985,34,Peace Officer,True,null,null
+"Bartos, Charles D.",006307,M,1966,53,Peace Officer,True,null,null
+"Barzen, Jake",025486,M,-1994,24,Peace Officer,True,null,null
+"Bauer, Dustin L.",022217,M,1989,30,Detention & Correction,True,null,null
+"Baugatz Jr., John A.",007011,M,-1964,54,Detention & Correction,True,null,null
+"Baukema, Toman L.",006667,M,1969,50,Peace Officer,True,null,null
+"Baum, Craig A.",006047,M,1971,48,Peace Officer,True,null,null
+"Baum, Denise K.",008322,F,-1967,51,Peace Officer,True,null,null
+
+#Record5
+-TABLE
+Name,I.D.,Sex,Birth Date,Age,Employee Type,Employee,Instructor,Supervisor
+"Baum, Michael J.",023317,M,1988,31,Peace Officer,True,null,null
+"Baumann, Eric A.",008665,M,-1974,44,Peace Officer,True,null,null
+"Baxter, Jayson B.",016490,M,1970,49,Probation & Parole,True,null,null
+"Bear Medicine, Doyle L.",024354,M,1980,39,Peace Officer,True,null,null
+"Beard, Brenton A.",024086,M,1992,27,Peace Officer,True,null,null
+"Beasley, Daniel L.",023062,M,1981,38,Detention & Correction,True,null,null
+"Bebbington, Brian S.",019543,M,1972,47,Peace Officer,True,null,null
+"Beccari, Kathleen M.",010765,F,1961,58,Probation & Parole,True,null,null
+"Bechtold, Terry L.",000108,M,1959,60,Peace Officer,True,null,null
+"Beck, Benjamin T.",021082,M,1988,31,Peace Officer,True,null,null
+"Beck, James J.",022102,M,1991,28,Peace Officer,True,null,null
+"Becker, Thomas",025626,M,-1984,34,Detention & Correction,True,null,null
+"Beckett, Jace A.",022375,null,null,1992,27,Peace Officer,True,null,null
+"Beckwith, Carl F.",007622,M,-1940,78,Reserve,True,null,null
+"Bedford, John R.",001902,M,1961,58,Peace Officer,True,null,null
+"Beechie, Michael B.",023596,M,1988,31,Peace Officer,True,null,null
+"Beecroft, Jeffery D.",002095,M,1962,57,Peace Officer,True,null,null
+"Beehler, Anton J.",009746,M,1967,52,Peace Officer,True,null,null
+"Beeson Jr., Myron",025744,M,1979,40,Detention & Correction,True,null,null
+"Belcourt, Jalin C.",024131,M,1994,25,Peace Officer,True,null,null
+"Belford, Austin J.",025558,null,null,null,null,Peace Officer,True,null,null
+"Bell, Donald R.",005860,M,-1958,60,Peace Officer,True,null,null
+"Bellusci, George E.",023418,M,1970,49,Detention & Correction,True,null,null
+"Bellusci, William W.",000118,M,-1953,65,Probation & Parole,True,null,null
+"Bemis, Christopher W.",006284,M,-1964,54,Detention & Correction,True,null,null
+"Bender Jr., Robert R.",009665,M,1978,41,Peace Officer,True,null,null
+"Bennett, Bryan R.",023948,M,1978,41,Peace Officer,True,null,null
+"Bennett, Scott F.",013814,M,1962,57,Peace Officer,True,null,null
+"Benson, Christopher J.",024072,M,-1981,37,Peace Officer,True,null,null
+"Benson, Michael S.",000127,M,1965,54,Peace Officer,True,null,null
+"Benz, Britney B.",024165,F,1991,28,Peace Officer,True,null,null
+"Berg, Shannon",025666,F,1988,31,Probation & Parole,True,null,null
+"Berger, Brian P.",021900,M,-1985,33,Peace Officer,True,null,null

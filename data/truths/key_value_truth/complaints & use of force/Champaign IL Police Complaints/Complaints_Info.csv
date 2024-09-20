@@ -14,21 +14,21 @@ DOB,,1,1
 Gender,FEMAL,1,1
 Address,"Terr, Champaign IL 61820",1,1
 H Phone,,1,1
-Date,2/24/2008,1,2
-Number,08-02,1,2
-Investigator,"Swan, Scott",1,2
-Date Assigned,2/27/2008,1,2
-Racial,No,1,2
-Category / Type,FORMAL Citizen,1,2
-Location of Occurrence,Not Stated,1,2
-Disposition,SUSTAINED,1,2
-Completed,3/17/2008,1,2
-Recorded On Camera,No,1,2
-Complainant,,1,2
-DOB,,1,2
-Gender,FEMAL,1,2
-Address,", Champaign IL 61821",1,2
-H Phone,,1,2
+Date,2/24/2008,
+Number,08-02,
+Investigator,"Swan, Scott",
+Date Assigned,2/27/2008,
+Racial,No,
+Category / Type,FORMAL Citizen,
+Location of Occurrence,Not Stated,
+Disposition,SUSTAINED,
+Completed,3/17/2008,
+Recorded On Camera,No,
+Complainant,,
+DOB,,
+Gender,FEMAL,
+Address,", Champaign IL 61821",
+H Phone,,
 Date,3/5/2008,1,3
 Number,08-03,1,3
 Investigator,"Paulus, Michael",1,3
@@ -45,7 +45,7 @@ Gender,MALE,1,3
 Address,", Champaign IL 61821",1,3
 H Phone,,1,3
 Date,3/14/2008,2,4
-Number,08-II01,2,4
+Number,08-II0,4
 Investigator,"Swan, Scott",2,4
 Date Assigned,3/14/2008,2,4
 Racial,No,2,4

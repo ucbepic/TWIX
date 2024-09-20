@@ -27,7 +27,7 @@
                         "Location Of Occurrence": "null",
                         "Disposition": "2/7/2008",
                         "Completed": "N/A",
-                        "Recorded On Camera": NaN
+                        "Recorded On Camera": "null"
                     }
                 ]
             },
@@ -48,9 +48,6 @@
                     },
                     {
                         "H Phone": ""
-                    },
-                    {
-                        "": ""
                     }
                 ]
             },
