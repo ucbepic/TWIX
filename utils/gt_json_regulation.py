@@ -129,7 +129,7 @@ def write_json(out, path):
         json.dump(out, json_file, indent=4)
 
 if __name__ == "__main__":
-    in_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations_template.txt'
+    in_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.txt'
     out_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.json'
     records = regulate_template(in_path)
     records = regular_full(records)
