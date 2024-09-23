@@ -7,8 +7,8 @@
                 "content": [
                     {
                         "Date": "08-01",
-                        "Number": "Swenson",
-                        "Investigator": "Jon",
+                        "Number": "\"Swenson",
+                        "Investigator": "Jon\"",
                         "Date Assigned": "null",
                         "Racial": "No",
                         "Category / Type": "FORMAL",
@@ -27,7 +27,7 @@
                         "Location Of Occurrence": "null",
                         "Disposition": "2/7/2008",
                         "Completed": "N/A",
-                        "Recorded On Camera": "null"
+                        "Recorded On Camera": NaN
                     }
                 ]
             },
@@ -44,10 +44,13 @@
                         "Gender": "FEMAL"
                     },
                     {
-                        "Address": "Terr, Champaign IL 61820"
+                        "Address": "\"Terr, Champaign IL 61820\""
                     },
                     {
                         "H Phone": ""
+                    },
+                    {
+                        "": ""
                     }
                 ]
             },
@@ -65,10 +68,354 @@
                 "type": "table",
                 "content": [
                     {
-                        "Name": "David I.",
+                        "Name": "Griffet, David I.",
                         "ID No.": 914,
                         "Rank": "SERGEANT",
                         "Division": "Field Operations",
+                        "Officer Disposition": "SUSTAINED",
+                        "Action Taken": "COUNSELING",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "2/24/2008",
+                        "Number": "08-02",
+                        "Investigator": "Swan, Scott",
+                        "Date Assigned": NaN,
+                        "Racial": "No",
+                        "Category / Type": "FORMAL",
+                        "Location of Occurrence": "Not Stated",
+                        "Disposition": "SUSTAINED",
+                        "Completed": NaN,
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": NaN,
+                        "Number": NaN,
+                        "Investigator": NaN,
+                        "Date Assigned": "2/27/2008",
+                        "Racial": NaN,
+                        "Category / Type": NaN,
+                        "Location of Occurrence": NaN,
+                        "Disposition": NaN,
+                        "Completed": "3/17/2008",
+                        "Recorded On Camera": NaN
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": ""
+                    },
+                    {
+                        "DOB": ""
+                    },
+                    {
+                        "Gender": "FEMALE"
+                    },
+                    {
+                        "Address": "\", Champaign IL 61821\""
+                    },
+                    {
+                        "H Phone": ""
+                    },
+                    {
+                        "": ""
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.1 Courtesy: Profanity",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "NOT SUSTAINED"
+                    },
+                    {
+                        "Type Of Complaint": "R-3B.4 COURTESY: COMMENT",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "SUSTAINED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "EXONERATED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Petrilli, Thomas P.",
+                        "ID No.": 939,
+                        "Rank": "Senior Officer",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "SUSTAINED",
+                        "Action Taken": "COUNSELING",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "08-03",
+                        "Number": "Paulus",
+                        "Investigator": "Michael",
+                        "Date Assigned": NaN,
+                        "Racial": "No",
+                        "Category / Type": "FORMAL",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "NOT SUSTAINED",
+                        "Completed": NaN,
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": NaN,
+                        "Number": NaN,
+                        "Investigator": "3/10/2008",
+                        "Date Assigned": NaN,
+                        "Racial": NaN,
+                        "Category / Type": NaN,
+                        "Location Of Occurrence": NaN,
+                        "Disposition": "4/28/2008",
+                        "Completed": NaN,
+                        "Recorded On Camera": NaN
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": ""
+                    },
+                    {
+                        "DOB": ""
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": "\" , Champaign IL 61821\""
+                    },
+                    {
+                        "H Phone": ""
+                    },
+                    {
+                        "": ""
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.2 Courtesy: Rude",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "UNFOUNDED"
+                    },
+                    {
+                        "Type Of Complaint": "R-3B.2 Courtesy: Rude",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "NOT SUSTAINED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Shepard, Charles F.",
+                        "ID No.": "921RET",
+                        "Rank": "SERGEANT",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "NOT SUSTAINED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "3/14/2008",
+                        "Number": "08-II01",
+                        "Investigator": "Swan, Scott",
+                        "Date Assigned": NaN,
+                        "Racial": "No",
+                        "Category / Type": "FORMAL",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "SUSTAINED",
+                        "Completed": NaN,
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": NaN,
+                        "Number": NaN,
+                        "Investigator": NaN,
+                        "Date Assigned": "3/14/2008",
+                        "Racial": NaN,
+                        "Category / Type": NaN,
+                        "Location Of Occurrence": NaN,
+                        "Disposition": NaN,
+                        "Completed": "3/14/2008",
+                        "Recorded On Camera": NaN
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": ""
+                    },
+                    {
+                        "DOB": ""
+                    },
+                    {
+                        "Gender": "FEMALE"
+                    },
+                    {
+                        "Address": "\" , Champaign IL 61821\""
+                    },
+                    {
+                        "H Phone": ""
+                    },
+                    {
+                        "": ""
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.2 Courtesy: Rude",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "SUSTAINED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Richard W.",
+                        "ID No.": "799RESI",
+                        "Rank": "Senior Officer",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "SUSTAINED",
+                        "Action Taken": "COUNSELING",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "3/18/2008",
+                        "Number": "08-06",
+                        "Investigator": "Gallo, Joe",
+                        "Date Assigned": NaN,
+                        "Racial": "No",
+                        "Category / Type": "FORMAL Citizen",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "SUSTAINED",
+                        "Completed": NaN,
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": NaN,
+                        "Number": NaN,
+                        "Investigator": NaN,
+                        "Date Assigned": "4/17/2008",
+                        "Racial": NaN,
+                        "Category / Type": NaN,
+                        "Location Of Occurrence": NaN,
+                        "Disposition": NaN,
+                        "Completed": "4/23/2008",
+                        "Recorded On Camera": NaN
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": ""
+                    },
+                    {
+                        "DOB": ""
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": "\" , Champaign IL 61821\""
+                    },
+                    {
+                        "H Phone": ""
+                    },
+                    {
+                        "": ""
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.1 Courtesy: Profanity",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "NOT SUSTAINED"
+                    },
+                    {
+                        "Type Of Complaint": "R-3B.4 COURTESY: COMMENT",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "SUSTAINED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Kelly, Patrick M.",
+                        "ID No.": "722-Ret",
+                        "Rank": "DETECTIVE",
+                        "Division": "Operations Supp",
                         "Officer Disposition": "SUSTAINED",
                         "Action Taken": "COUNSELING",
                         "Body Cam": "No"

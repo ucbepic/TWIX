@@ -2,7 +2,8 @@
 import pandas as pd
 from io import StringIO
 import json
-
+import os 
+import math 
 def regulate_table(data):
     table_data = StringIO(data)
     # Read the CSV file into a pandas DataFrame
@@ -13,6 +14,9 @@ def regulate_table(data):
         #print(index)
         row_object = {}
         for key,val in row.items():
+            #print(key,val)
+            # if(math.isnan(float(val))):
+            #     print('val is null')
             if(isinstance(key, str)):
                 key = key.strip()
             if(isinstance(val, str)):
@@ -58,8 +62,16 @@ def regulate_template(path):
         for line in file:
             line = line.strip()
             if('#Record' in line):
+                
                 #add previous record into records 
-                if(len(record) > 0 ):
+                if(len(record) > 0):
+                    #add last block 
+                    if(content != ''):
+                        block['content'] = content
+                        object.append(block)
+                        #set up a new block
+                        block = {}
+                        content = ''
                     record['content'] = object
                     records.append(record)
                 #initialie a new record and setup the record id
@@ -107,6 +119,7 @@ def regulate_template(path):
 def regular_full(records):
     new_records = []
     for record in records:
+        #print(record['id'])
         new_record = {}
         new_record['id'] = record['id']
         object = record['content']
@@ -128,12 +141,33 @@ def write_json(out, path):
     with open(path, 'w') as json_file:
         json.dump(out, json_file, indent=4)
 
+def scan_folder(path):
+    file_names = []
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            file_name = os.path.join(root, file)
+            if('DS_Store' in file_name):
+                continue
+            if('.txt' not in file_name):
+                continue
+            file_names.append(file_name)
+    return file_names
+            
+
 if __name__ == "__main__":
     in_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.txt'
     out_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.json'
-    records = regulate_template(in_path)
-    records = regular_full(records)
-    write_json(records, out_path)
+
+    folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/'
+    files = scan_folder(folder_path)
+    for in_file in files:
+        out_file = in_file.replace('txt','json')
+        print(out_file)
+        # if('Munson' not in out_file):
+        #     continue
+        records = regulate_template(in_file)
+        records = regular_full(records)
+        write_json(records, out_file)
     
 
 
