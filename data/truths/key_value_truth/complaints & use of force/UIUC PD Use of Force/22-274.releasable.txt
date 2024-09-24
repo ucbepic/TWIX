@@ -26,11 +26,11 @@ Final Disposition,Not Listed
 Verbal De-Escalation Attempted,No
 Notes,Entered on 4/6/2021 9:55:14 AM by jbclark.
 Subject #,1
-DOB,
+DOB,missing
 Gender,Male
-Race,
-HGT,
-WGT,
+Race,missing
+HGT,missing
+WGT,missing
 Under The Influence,No
 Address,1609 Valley Road Apt. D1
 Level Of Resistance,Fleeing Suspect
@@ -81,11 +81,11 @@ Final Disposition,Not Listed
 Verbal De-Escalation Attempted,No
 Notes,Entered on 4/6/2021 10:04:34 AM by jbclark.
 Subject #,1
-DOB,
+DOB,missing
 Gender,Male
-Race,
-HGT,
-WGT,
+Race,missing
+HGT,missing
+WGT,missing
 Under The Influence,No
 Address,1114 1/2 Ashford Ct
 City,Mahomet
@@ -137,11 +137,11 @@ Final Disposition,Arrested/Lodged
 Verbal De-Escalation Attempted,No
 Notes,Entered on 4/6/2021 10:11:28 AM by jbclark.
 Subject #,1
-DOB,
+DOB,missing
 Gender,Male
-Race,
-HGT,
-WGT,
+Race,missing
+HGT,missing
+WGT,missing
 Under The Influence,No
 Address,2019 Cynthia Apt. M204
 City,Champaign
@@ -218,14 +218,14 @@ Final Disposition,Released / No Action
 Verbal De-Escalation Attempted,No
 Notes,Entered on 4/6/2021 10:30:09 AM by jbclark.
 Subject #,1
-DOB,
+DOB,missing
 Gender,Male
-Race,
-HGT,
-WGT,
+Race,missing
+HGT,missing
+WGT,missing
 Under The Influence,Yes
-Address,
-City,
+Address,missing
+City,missing
 Level Of Resistance,Physical Resistance
 Subject Armed With,Hands
 Force Used,Physical Resistance
@@ -268,7 +268,7 @@ Case Number,21-02257
 Date,3/20/2021
 Time,1818
 Assist,No
-Agency,
+Agency,missing
 Information Taken From,Crime/ Incident
 Status,Completed
 Incident Reviewed By,"Schroeder, Michelle L."
@@ -279,7 +279,7 @@ City,Champaign
 K-9,No
 Crisis Intervention Related,No
 Type Premises,Alley
-District,
+District,missing
 Recorded On Camera,Yes
 Camera,Vehicle/BWC
 Type Situation,Felony Stop
@@ -290,14 +290,14 @@ Final Disposition,Released / No Action
 Verbal De-Escalation Attempted,No
 Notes,Entered on 4/13/2021 1:07:19 PM by jbclark.
 Subject #,1
-DOB,
+DOB,missing
 Gender,Male
-Race,
-HGT,
-WGT,
+Race,missing
+HGT,missing
+WGT,missing
 Under The Influence,No
-Address,
-City,
+Address,missing
+City,missing
 Level Of Resistance,Cooperative
 Subject Armed With,N/A
 Force Used,None
@@ -306,17 +306,17 @@ Arrested,No
 Arrested For,Not Stated
 Arrest ID,None
 Injured,No
-Type Injuries,
-Medical Aid,
+Type Injuries,missing
+Medical Aid,missing
 Subject #,2
-DOB,
+DOB,missing
 Gender,Male
-Race,
-HGT,
-WGT,
+Race,missing
+HGT,missing
+WGT,missing
 Under The Influence,No
-Address,
-City,
+Address,missing
+City,missing
 Level of Resistance,Cooperative
 Subject Armed With,N/A
 Force Used,None

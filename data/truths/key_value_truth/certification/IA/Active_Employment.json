@@ -11,47 +11,47 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Trpr 3",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "IOWA STATE PATROL",
                         "Date": "5-23-1994",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Trooper",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "LINN COUNTY SHERIFF'S OFFICE",
                         "Date": "5-22-1994",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "LINN COUNTY SHERIFF'S OFFICE",
                         "Date": "2-15-1993",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "IOWA STATE PATROL",
@@ -59,47 +59,47 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Trpr 3",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "IOWA STATE PATROL",
                         "Date": "10-31-1997",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Transfr In",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Trooper",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DIVISION OF CRIMINAL INVESTIGATION",
                         "Date": "10-30-1997",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Transfer Out",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Gaming Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DIVISION OF CRIMINAL INVESTIGATION",
                         "Date": "8-07-1995",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Gaming Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "AURELIA POLICE DEPARTMENT",
@@ -107,11 +107,11 @@
                         "F/P": "P",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CARLISLE POLICE DEPARTMENT",
@@ -119,11 +119,11 @@
                         "F/P": "F",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CARLISLE POLICE DEPARTMENT",
@@ -131,11 +131,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "BUENA VISTA COUNTY SHERIFF'S OFFICE",
@@ -143,11 +143,11 @@
                         "F/P": "F",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "BUENA VISTA COUNTY SHERIFF'S OFFICE",
@@ -155,95 +155,95 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "LAURENS POLICE DEPARTMENT",
                         "Date": "11-07-2006",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Dismissed",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "LAURENS POLICE DEPARTMENT",
                         "Date": "4-18-2005",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "WEST POINT POLICE DEPARTMENT",
                         "Date": "6-22-2017",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Volunteer",
                         "Status": "Active",
                         "Assignment": "Reserve",
                         "Pos/Rank": "Resrv Ofc",
                         "Level": "No Super",
                         "Class": "Temp Emp",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "FT MADISON POLICE DEPARTMENT",
                         "Date": "5-05-1998",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "FT MADISON POLICE DEPARTMENT",
                         "Date": "3-06-1996",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Reinstated",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "FT MADISON POLICE DEPARTMENT",
                         "Date": "1-05-1996",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Dismissed",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "FT MADISON POLICE DEPARTMENT",
                         "Date": "7-01-1991",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CEDAR FALLS POLICE DEPARTMENT",
@@ -251,11 +251,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "UNIVERSITY OF NORTHERN IOWA POLICE",
@@ -265,9 +265,9 @@
                         "Status": "Inactive",
                         "Assignment": "Telocom",
                         "Pos/Rank": "Telecomm.",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "UNIVERSITY OF NORTHERN IOWA POLICE",
@@ -277,9 +277,9 @@
                         "Status": "Active",
                         "Assignment": "Telocom",
                         "Pos/Rank": "Telecomm.",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "WAYNE COUNTY SHERIFF'S OFFICE",
@@ -287,11 +287,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "LINN COUNTY SHERIFF'S OFFICE",
@@ -299,23 +299,23 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Sergeant",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "LINN COUNTY SHERIFF'S OFFICE",
                         "Date": "11-25-1996",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "JOHNSTON POLICE DEPARTMENT",
@@ -323,11 +323,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Sergeant",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     }
                 ]
             }
@@ -345,11 +345,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CRESTON POLICE DEPARTMENT",
@@ -357,11 +357,11 @@
                         "F/P": "F",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CRESTON POLICE DEPARTMENT",
@@ -369,11 +369,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "ALTOONA POLICE DEPARTMENT",
@@ -381,11 +381,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "WESTCOM",
@@ -395,9 +395,9 @@
                         "Status": "Inactive",
                         "Assignment": "Telecom",
                         "Pos/Rank": "Telecomm.",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "WESTCOM",
@@ -407,9 +407,9 @@
                         "Status": "Active",
                         "Assignment": "Telecom",
                         "Pos/Rank": "Telecomm.",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CEDAR RAPIDS POLICE DEPARTMENT",
@@ -417,11 +417,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Captain",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CEDAR RAPIDS POLICE DEPARTMENT",
@@ -429,11 +429,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Lieutenant",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CEDAR RAPIDS POLICE DEPARTMENT",
@@ -441,23 +441,23 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Sergeant",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CEDAR RAPIDS POLICE DEPARTMENT",
                         "Date": "8-03-1998",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "MARSHALLTOWN POLICE DEPARTMENT",
@@ -465,11 +465,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Lieutenant",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "MARSHALLTOWN POLICE DEPARTMENT",
@@ -477,11 +477,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DES MOINES POLICE DEPARTMENT",
@@ -489,11 +489,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Sergeant",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DES MOINES POLICE DEPARTMENT",
@@ -501,47 +501,47 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Pol Off Sr",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DES MOINES POLICE DEPARTMENT",
                         "Date": "4-04-2005",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "HUXLEY POLICE DEPARTMENT",
                         "Date": "1-01-2005",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "HUXLEY POLICE DEPARTMENT",
                         "Date": "11-09-2002",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "AMES POLICE DEPARTMENT",
@@ -549,11 +549,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "IOWA STATE PATROL",
@@ -561,35 +561,35 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Trpr 2",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "WASHINGTON COUNTY SHERIFF'S OFFICE",
                         "Date": "1-01-2014",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Resv.Term.",
                         "Status": "Inactive",
                         "Assignment": "Reserve",
                         "Pos/Rank": "Resrv Offc",
                         "Level": "No Super",
                         "Class": "Temp Emp",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "WASHINGTON COUNTY SHERIFF'S OFFICE",
                         "Date": "3-06-2012",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Volunteer",
                         "Status": "Active",
                         "Assignment": "Reserve",
                         "Pos/Rank": "Resrv Offc",
                         "Level": "No Super",
                         "Class": "Temp Emp",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "WASHINGTON POLICE DEPARTMENT",
@@ -597,11 +597,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "POLK COUNTY SHERIFF'S OFFICE",
@@ -609,11 +609,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "TAMA POLICE DEPARTMENT",
@@ -621,11 +621,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "EMMETSBURG POLICE DEPARTMENT",
@@ -633,11 +633,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DAVENPORT POLICE DEPARTMENT",
@@ -645,11 +645,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     }
                 ]
             }
@@ -667,11 +667,11 @@
                         "F/P": "F",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "WASHINGTON COUNTY SHERIFF'S OFFICE",
@@ -679,23 +679,23 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "ALGONA POLICE DEPARTMENT",
                         "Date": "4-23-2018",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Resv.Term.",
                         "Status": "Inactive",
                         "Assignment": "Reserve",
                         "Pos/Rank": "Resrv Offc",
                         "Level": "No Super",
                         "Class": "Temp Emp",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "ESTHERVILLE POLICE DEPARTMENT",
@@ -703,23 +703,23 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "ALGONA POLICE DEPARTMENT",
                         "Date": "12-08-2017",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Volunteer",
                         "Status": "Active",
                         "Assignment": "Reserve",
                         "Pos/Rank": "Resrv Offc",
                         "Level": "No Super",
                         "Class": "Temp Emp",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CEDAR RAPIDS POLICE DEPARTMENT",
@@ -727,11 +727,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "IOWA STATE PATROL",
@@ -739,11 +739,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Trpr 2",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "OTTUMWA POLICE DEPARTMENT",
@@ -751,11 +751,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CEDAR FALLS POLICE DEPARTMENT",
@@ -763,11 +763,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "IOWA STATE PATROL",
@@ -775,47 +775,47 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Trpr 3",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "IOWA STATE PATROL",
                         "Date": "10-30-1998",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Transfr In",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Trooper",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "Capitol Police",
                         "Date": "10-29-1998",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Transfr Out",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Cap P.O.",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "Capitol Police",
                         "Date": "8-07-1995",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Cap P.O.",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DIVISION OF CRIMINAL INVESTIGATION",
@@ -823,11 +823,11 @@
                         "F/P": "F",
                         "Action": "Transfr In",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Spec Agnt2",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DIVISION OF NARCOTICS ENFORCEMENT",
@@ -835,11 +835,11 @@
                         "F/P": "F",
                         "Action": "Transfr Out",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Spec Agnt2",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DIVISION OF NARCOTICS ENFORCEMENT",
@@ -847,47 +847,47 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Spec Agnt2",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DIVISION OF NARCOTICS ENFORCEMENT",
                         "Date": "12-02-2006",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Transfr In",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Spec Agnt",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "IOWA STATE PATROL",
                         "Date": "6-01-2006",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Transfr Out",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Trooper",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "IOWA STATE PATROL",
                         "Date": "9-02-1994",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Trooper",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CLINTON POLICE DEPARTMENT",
@@ -895,11 +895,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Corporal",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CLINTON POLICE DEPARTMENT",
@@ -907,11 +907,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "WEST LIBERTY POLICE DEPARTMENT",
@@ -919,11 +919,11 @@
                         "F/P": "P",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "TIPTON POLICE DEPARTMENT",
@@ -931,11 +931,11 @@
                         "F/P": "F",
                         "Action": "Other",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "TIPTON POLICE DEPARTMENT",
@@ -943,11 +943,11 @@
                         "F/P": "P",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "SPENCER POLICE DEPARTMENT",
@@ -955,11 +955,11 @@
                         "F/P": "F",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "SPENCER POLICE DEPARTMENT",
@@ -967,11 +967,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     }
                 ]
             }
@@ -989,11 +989,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "FAYETTE COUNTY SHERIFF'S OFFICE",
@@ -1001,47 +1001,47 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DAYTON POLICE DEPARTMENT",
                         "Date": "10-01-1999",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Chief",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DAYTON POLICE DEPARTMENT",
                         "Date": "4-20-1999",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Chief",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DAYTON POLICE DEPARTMENT",
                         "Date": "1-14-1998",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "SIOUX CITY POLICE DEPARTMENT",
@@ -1049,23 +1049,23 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Sergeant",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "MONONA COUNTY SHERIFF'S OFFICE",
                         "Date": "7-31-2007",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "SIOUX CITY POLICE DEPARTMENT",
@@ -1073,47 +1073,47 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "MONONA COUNTY SHERIFF'S OFFICE",
                         "Date": "7-15-2002",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "Onawa Police Department",
                         "Date": "7-13-2002",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "Onawa Police Department",
                         "Date": "11-01-2000",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "JOHNSTON POLICE DEPARTMENT",
@@ -1121,11 +1121,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Lieutenant",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "JOHNSTON POLICE DEPARTMENT",
@@ -1133,71 +1133,71 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Sergeant",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "JOHNSTON POLICE DEPARTMENT",
                         "Date": "4-03-2006",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DES MOINES POLICE DEPARTMENT",
                         "Date": "12-07-2004",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Resv.Term.",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Resrv Ofc",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Temp Emp",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "DES MOINES POLICE DEPARTMENT",
                         "Date": "4-23-2004",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Volunteer",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Resrv Ofc",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Temp Emp",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "ANKENY POLICE DEPARTMENT",
                         "Date": "6-08-2003",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "ANKENY POLICE DEPARTMENT",
                         "Date": "12-19-1996",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CEDAR RAPIDS POLICE DEPARTMENT",
@@ -1205,11 +1205,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Sergeant",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "CEDAR RAPIDS POLICE DEPARTMENT",
@@ -1217,11 +1217,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "IOWA STATE PATROL",
@@ -1229,11 +1229,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Spec Agnt2",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "IOWA STATE PATROL",
@@ -1241,11 +1241,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Trpr 2",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "IOWA STATE PATROL",
@@ -1253,11 +1253,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Trpr 1",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "SCOTT COUNTY SHERIFF'S OFFICE",
@@ -1265,11 +1265,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "ESTHERVILLE POLICE DEPARTMENT",
@@ -1277,11 +1277,11 @@
                         "F/P": "P",
                         "Action": "Demotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "ESTHERVILLE POLICE DEPARTMENT",
@@ -1289,11 +1289,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "ESTHERVILLE POLICE DEPARTMENT",
@@ -1301,35 +1301,35 @@
                         "F/P": "P",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "ESTHERVILLE POLICE DEPARTMENT",
                         "Date": "6-01-2006",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "ESTHERVILLE POLICE DEPARTMENT",
                         "Date": "11-24-2003",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     }
                 ]
             }
@@ -1347,11 +1347,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "BURLINGTON POLICE DEPARTMENT",
@@ -1359,11 +1359,11 @@
                         "F/P": "F",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "BURLINGTON POLICE DEPARTMENT",
@@ -1371,11 +1371,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "POLK COUNTY CONSERVATION BOARD",
@@ -1383,11 +1383,11 @@
                         "F/P": "P",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "POLK COUNTY CONSERVATION BOARD",
@@ -1395,11 +1395,11 @@
                         "F/P": "P",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "BELLE PLAINE POLICE DEPARTMENT",
@@ -1407,11 +1407,11 @@
                         "F/P": "F",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "POLK CITY POLICE DEPARTMENT",
@@ -1419,23 +1419,23 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "BELLE PLAINE POLICE DEPARTMENT",
                         "Date": "2-04-2008",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "READLYN POLICE DEPARTMENT",
@@ -1443,11 +1443,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Chief",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "POLK COUNTY SHERIFF'S OFFICE",
@@ -1455,11 +1455,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "WARREN COUNTY SHERIFF'S OFFICE",
@@ -1467,11 +1467,11 @@
                         "F/P": "F",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "POLK COUNTY SHERIFF'S OFFICE",
@@ -1479,11 +1479,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "MELCHER-DALLAS POLICE DEPARTMENT",
@@ -1491,11 +1491,11 @@
                         "F/P": "P",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "MELCHER-DALLAS POLICE DEPARTMENT",
@@ -1503,11 +1503,11 @@
                         "F/P": "P",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "WARREN COUNTY SHERIFF'S OFFICE",
@@ -1515,11 +1515,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "GREENFIELD POLICE DEPARTMENT",
@@ -1527,11 +1527,11 @@
                         "F/P": "F",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "GREENFIELD POLICE DEPARTMENT",
@@ -1539,11 +1539,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "MISSOURI VALLEY POLICE DEPARTMENT",
@@ -1551,11 +1551,11 @@
                         "F/P": "F",
                         "Action": "Resigned",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "TABOR POLICE DEPARTMENT",
@@ -1563,11 +1563,11 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Chief",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "MISSOURI VALLEY POLICE DEPARTMENT",
@@ -1575,11 +1575,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "TABOR POLICE DEPARTMENT",
@@ -1587,11 +1587,11 @@
                         "F/P": "P",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "FREMONT COUNTY SHERIFF'S OFFICE",
@@ -1599,71 +1599,71 @@
                         "F/P": "F",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Sheriff",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "FREMONT COUNTY SHERIFF'S OFFICE",
                         "Date": "10-01-1993",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Chf. Dep.",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "FREMONT COUNTY SHERIFF'S OFFICE",
                         "Date": "8-01-1987",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Deputy",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "TABOR POLICE DEPARTMENT",
                         "Date": "7-31-1987",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Hired",
                         "Status": "Inactive",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Chief",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "TABOR POLICE DEPARTMENT",
                         "Date": "6-01-1984",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Resigned",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "TABOR POLICE DEPARTMENT",
                         "Date": "7-01-1978",
-                        "F/P": NaN,
+                        "F/P": "missing",
                         "Action": "Promotion",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Partime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "WATERLOO POLICE DEPARTMENT",
@@ -1671,11 +1671,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     },
                     {
                         "Agency": "MASON CITY POLICE DEPARTMENT",
@@ -1683,11 +1683,11 @@
                         "F/P": "F",
                         "Action": "Hired",
                         "Status": "Active",
-                        "Assignment": NaN,
+                        "Assignment": "missing",
                         "Pos/Rank": "Police Off",
-                        "Level": NaN,
+                        "Level": "missing",
                         "Class": "Fulltime",
-                        "Shift": NaN
+                        "Shift": "missing"
                     }
                 ]
             }

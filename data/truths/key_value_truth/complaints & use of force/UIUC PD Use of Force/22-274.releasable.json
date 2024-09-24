@@ -84,19 +84,19 @@
                         "Subject #": "1"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     },
                     {
                         "Gender": "Male"
                     },
                     {
-                        "Race": ""
+                        "Race": "missing"
                     },
                     {
-                        "HGT": ""
+                        "HGT": "missing"
                     },
                     {
-                        "WGT": ""
+                        "WGT": "missing"
                     },
                     {
                         "Under The Influence": "No"
@@ -256,19 +256,19 @@
                         "Subject #": "1"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     },
                     {
                         "Gender": "Male"
                     },
                     {
-                        "Race": ""
+                        "Race": "missing"
                     },
                     {
-                        "HGT": ""
+                        "HGT": "missing"
                     },
                     {
-                        "WGT": ""
+                        "WGT": "missing"
                     },
                     {
                         "Under The Influence": "No"
@@ -431,19 +431,19 @@
                         "Subject #": "1"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     },
                     {
                         "Gender": "Male"
                     },
                     {
-                        "Race": ""
+                        "Race": "missing"
                     },
                     {
-                        "HGT": ""
+                        "HGT": "missing"
                     },
                     {
-                        "WGT": ""
+                        "WGT": "missing"
                     },
                     {
                         "Under The Influence": "No"
@@ -681,28 +681,28 @@
                         "Subject #": "1"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     },
                     {
                         "Gender": "Male"
                     },
                     {
-                        "Race": ""
+                        "Race": "missing"
                     },
                     {
-                        "HGT": ""
+                        "HGT": "missing"
                     },
                     {
-                        "WGT": ""
+                        "WGT": "missing"
                     },
                     {
                         "Under The Influence": "Yes"
                     },
                     {
-                        "Address": ""
+                        "Address": "missing"
                     },
                     {
-                        "City": ""
+                        "City": "missing"
                     },
                     {
                         "Level Of Resistance": "Physical Resistance"
@@ -838,7 +838,7 @@
                         "Assist": "No"
                     },
                     {
-                        "Agency": ""
+                        "Agency": "missing"
                     },
                     {
                         "Information Taken From": "Crime/ Incident"
@@ -871,7 +871,7 @@
                         "Type Premises": "Alley"
                     },
                     {
-                        "District": ""
+                        "District": "missing"
                     },
                     {
                         "Recorded On Camera": "Yes"
@@ -904,28 +904,28 @@
                         "Subject #": "1"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     },
                     {
                         "Gender": "Male"
                     },
                     {
-                        "Race": ""
+                        "Race": "missing"
                     },
                     {
-                        "HGT": ""
+                        "HGT": "missing"
                     },
                     {
-                        "WGT": ""
+                        "WGT": "missing"
                     },
                     {
                         "Under The Influence": "No"
                     },
                     {
-                        "Address": ""
+                        "Address": "missing"
                     },
                     {
-                        "City": ""
+                        "City": "missing"
                     },
                     {
                         "Level Of Resistance": "Cooperative"
@@ -952,37 +952,37 @@
                         "Injured": "No"
                     },
                     {
-                        "Type Injuries": ""
+                        "Type Injuries": "missing"
                     },
                     {
-                        "Medical Aid": ""
+                        "Medical Aid": "missing"
                     },
                     {
                         "Subject #": "2"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     },
                     {
                         "Gender": "Male"
                     },
                     {
-                        "Race": ""
+                        "Race": "missing"
                     },
                     {
-                        "HGT": ""
+                        "HGT": "missing"
                     },
                     {
-                        "WGT": ""
+                        "WGT": "missing"
                     },
                     {
                         "Under The Influence": "No"
                     },
                     {
-                        "Address": ""
+                        "Address": "missing"
                     },
                     {
-                        "City": ""
+                        "City": "missing"
                     },
                     {
                         "Level of Resistance": "Cooperative"

@@ -9,353 +9,353 @@
                         "Name": "Adair, Christopher M.",
                         "I.D.": 22070,
                         "Sex": "M",
-                        "Birth Date": 1978.0,
-                        "Age": 41.0,
+                        "Birth Date": "1978",
+                        "Age": "41",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Adame, Jesse A.",
                         "I.D.": 25042,
                         "Sex": "M",
-                        "Birth Date": 1988.0,
-                        "Age": 31.0,
+                        "Birth Date": "1988",
+                        "Age": "31",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Adams, Ashley A.",
                         "I.D.": 25657,
                         "Sex": "F",
-                        "Birth Date": -1990.0,
-                        "Age": 28.0,
+                        "Birth Date": "-1990",
+                        "Age": "28",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Adams, Jeremiah A.",
                         "I.D.": 20885,
                         "Sex": "M",
-                        "Birth Date": 1984.0,
-                        "Age": 35.0,
+                        "Birth Date": "1984",
+                        "Age": "35",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Adams, Ross E.",
                         "I.D.": 12,
                         "Sex": "M",
-                        "Birth Date": 1960.0,
-                        "Age": 59.0,
+                        "Birth Date": "1960",
+                        "Age": "59",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Adams, Seth H.",
                         "I.D.": 22864,
                         "Sex": "M",
-                        "Birth Date": 1989.0,
-                        "Age": 30.0,
+                        "Birth Date": "1989",
+                        "Age": "30",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Adams, Tyler",
                         "I.D.": 23612,
                         "Sex": "M",
-                        "Birth Date": -1984.0,
-                        "Age": 34.0,
+                        "Birth Date": "-1984",
+                        "Age": "34",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Adkins, Kevin",
                         "I.D.": 16759,
-                        "Sex": NaN,
-                        "Birth Date": NaN,
-                        "Age": NaN,
+                        "Sex": "missing",
+                        "Birth Date": "missing",
+                        "Age": "missing",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Adolph, Jerry O.",
                         "I.D.": 14668,
                         "Sex": "M",
-                        "Birth Date": -1959.0,
-                        "Age": 59.0,
+                        "Birth Date": "-1959",
+                        "Age": "59",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Adorni, Larry F.",
                         "I.D.": 16753,
                         "Sex": "M",
-                        "Birth Date": 1957.0,
-                        "Age": 62.0,
+                        "Birth Date": "1957",
+                        "Age": "62",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Adsem, Steven J.",
                         "I.D.": 5552,
                         "Sex": "M",
-                        "Birth Date": 1965.0,
-                        "Age": 54.0,
+                        "Birth Date": "1965",
+                        "Age": "54",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Aggers, Mary",
                         "I.D.": 12393,
                         "Sex": "F",
-                        "Birth Date": 1970.0,
-                        "Age": 49.0,
+                        "Birth Date": "1970",
+                        "Age": "49",
                         "Employee Type": "Probation & Parole",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Ahlin, Benjamin J.",
                         "I.D.": 24854,
                         "Sex": "M",
-                        "Birth Date": 1993.0,
-                        "Age": 26.0,
+                        "Birth Date": "1993",
+                        "Age": "26",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Ahmann, Jacob G.",
                         "I.D.": 23943,
                         "Sex": "M",
-                        "Birth Date": 1992.0,
-                        "Age": 27.0,
+                        "Birth Date": "1992",
+                        "Age": "27",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Aiello, Antonio D.",
                         "I.D.": 23659,
                         "Sex": "M",
-                        "Birth Date": 1984.0,
-                        "Age": 35.0,
+                        "Birth Date": "1984",
+                        "Age": "35",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Albright, Christopher B.",
                         "I.D.": 10496,
                         "Sex": "M",
-                        "Birth Date": 1970.0,
-                        "Age": 49.0,
+                        "Birth Date": "1970",
+                        "Age": "49",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Albright, Cody J.",
                         "I.D.": 21589,
                         "Sex": "M",
-                        "Birth Date": 1990.0,
-                        "Age": 29.0,
+                        "Birth Date": "1990",
+                        "Age": "29",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Aliperto, Benjamin J.",
                         "I.D.": 25733,
                         "Sex": "M",
-                        "Birth Date": 1995.0,
-                        "Age": 24.0,
+                        "Birth Date": "1995",
+                        "Age": "24",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Allen, Darin C.",
                         "I.D.": 15463,
                         "Sex": "M",
-                        "Birth Date": 1974.0,
-                        "Age": 45.0,
+                        "Birth Date": "1974",
+                        "Age": "45",
                         "Employee Type": "Probation & Parole",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Allen, Jack E.",
                         "I.D.": 25,
                         "Sex": "M",
-                        "Birth Date": -1959.0,
-                        "Age": 59.0,
+                        "Birth Date": "-1959",
+                        "Age": "59",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Allen, Jesse C.",
                         "I.D.": 21937,
                         "Sex": "M",
-                        "Birth Date": 1982.0,
-                        "Age": 37.0,
+                        "Birth Date": "1982",
+                        "Age": "37",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Allen, Payton E.",
                         "I.D.": 25919,
                         "Sex": "M",
-                        "Birth Date": 1999.0,
-                        "Age": 20.0,
+                        "Birth Date": "1999",
+                        "Age": "20",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Allen, Robert J.",
                         "I.D.": 25593,
                         "Sex": "M",
-                        "Birth Date": 1976.0,
-                        "Age": 43.0,
+                        "Birth Date": "1976",
+                        "Age": "43",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Allen, Sean C.",
                         "I.D.": 24063,
                         "Sex": "M",
-                        "Birth Date": -1986.0,
-                        "Age": 32.0,
+                        "Birth Date": "-1986",
+                        "Age": "32",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Allen, Tammy A.",
                         "I.D.": 17266,
-                        "Sex": NaN,
-                        "Birth Date": -1967.0,
-                        "Age": 51.0,
+                        "Sex": "missing",
+                        "Birth Date": "-1967",
+                        "Age": "51",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Allison, Derek",
                         "I.D.": 25076,
                         "Sex": "M",
-                        "Birth Date": 1999.0,
-                        "Age": 20.0,
+                        "Birth Date": "1999",
+                        "Age": "20",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Allison, Thomas B.",
                         "I.D.": 22103,
                         "Sex": "M",
-                        "Birth Date": -1992.0,
-                        "Age": 26.0,
+                        "Birth Date": "-1992",
+                        "Age": "26",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Allmendinger, Jacob O.",
                         "I.D.": 20851,
                         "Sex": "M",
-                        "Birth Date": -1987.0,
-                        "Age": 31.0,
+                        "Birth Date": "-1987",
+                        "Age": "31",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Allred, Sabrina",
                         "I.D.": 25094,
                         "Sex": "F",
-                        "Birth Date": 1978.0,
-                        "Age": 41.0,
+                        "Birth Date": "1978",
+                        "Age": "41",
                         "Employee Type": "Probation & Parole",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Althaus, Terry L.",
                         "I.D.": 28,
                         "Sex": "M",
-                        "Birth Date": 1960.0,
-                        "Age": 59.0,
+                        "Birth Date": "1960",
+                        "Age": "59",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Altmiller, Jason D.",
                         "I.D.": 24024,
-                        "Sex": NaN,
-                        "Birth Date": NaN,
-                        "Age": NaN,
+                        "Sex": "missing",
+                        "Birth Date": "missing",
+                        "Age": "missing",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Altschwager, Daniel T.",
                         "I.D.": 20936,
                         "Sex": "M",
-                        "Birth Date": -1983.0,
-                        "Age": 35.0,
+                        "Birth Date": "-1983",
+                        "Age": "35",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     }
                 ]
             }
@@ -371,342 +371,342 @@
                         "Name": "Amaro, Ishmael G.",
                         "I.D.": 25336,
                         "Sex": "M",
-                        "Birth Date": 1995.0,
-                        "Age": 24.0,
+                        "Birth Date": "1995",
+                        "Age": "24",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Ames, Danny H.",
                         "I.D.": 34,
-                        "Sex": NaN,
-                        "Birth Date": NaN,
-                        "Age": NaN,
+                        "Sex": "missing",
+                        "Birth Date": "missing",
+                        "Age": "missing",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Ames, Joshua A.",
                         "I.D.": 24710,
                         "Sex": "M",
-                        "Birth Date": 1981.0,
-                        "Age": 38.0,
+                        "Birth Date": "1981",
+                        "Age": "38",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Amundsen, Gregory M.",
                         "I.D.": 2435,
                         "Sex": "M",
-                        "Birth Date": 1961.0,
-                        "Age": 58.0,
+                        "Birth Date": "1961",
+                        "Age": "58",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Amundson, Daniel S.",
                         "I.D.": 14908,
                         "Sex": "M",
-                        "Birth Date": 1969.0,
-                        "Age": 50.0,
+                        "Birth Date": "1969",
+                        "Age": "50",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderberg, Chad B.",
                         "I.D.": 22675,
                         "Sex": "M",
-                        "Birth Date": 1986.0,
-                        "Age": 33.0,
+                        "Birth Date": "1986",
+                        "Age": "33",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Andersen, Dirk",
                         "I.D.": 36,
                         "Sex": "M",
-                        "Birth Date": 1957.0,
-                        "Age": 62.0,
+                        "Birth Date": "1957",
+                        "Age": "62",
                         "Employee Type": "Reserve",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Andersen, Shad A.",
                         "I.D.": 19490,
                         "Sex": "M",
-                        "Birth Date": 1974.0,
-                        "Age": 45.0,
+                        "Birth Date": "1974",
+                        "Age": "45",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Adam S.",
                         "I.D.": 25070,
                         "Sex": "M",
-                        "Birth Date": 1983.0,
-                        "Age": 36.0,
+                        "Birth Date": "1983",
+                        "Age": "36",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Bryan L.",
                         "I.D.": 23954,
                         "Sex": "M",
-                        "Birth Date": 1984.0,
-                        "Age": 35.0,
+                        "Birth Date": "1984",
+                        "Age": "35",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Cache",
                         "I.D.": 21951,
                         "Sex": "M",
-                        "Birth Date": 1982.0,
-                        "Age": 37.0,
+                        "Birth Date": "1982",
+                        "Age": "37",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Cactus J.",
                         "I.D.": 21851,
                         "Sex": "M",
-                        "Birth Date": 1980.0,
-                        "Age": 39.0,
+                        "Birth Date": "1980",
+                        "Age": "39",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Clint W.",
                         "I.D.": 19254,
                         "Sex": "M",
-                        "Birth Date": 1980.0,
-                        "Age": 39.0,
+                        "Birth Date": "1980",
+                        "Age": "39",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Codee R.",
                         "I.D.": 19273,
-                        "Sex": NaN,
-                        "Birth Date": -1987.0,
-                        "Age": 31.0,
+                        "Sex": "missing",
+                        "Birth Date": "-1987",
+                        "Age": "31",
                         "Employee Type": "Reserve",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, David A.",
                         "I.D.": 14614,
                         "Sex": "M",
-                        "Birth Date": -1964.0,
-                        "Age": 54.0,
+                        "Birth Date": "-1964",
+                        "Age": "54",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, lan M.",
                         "I.D.": 22250,
                         "Sex": "M",
-                        "Birth Date": -1989.0,
-                        "Age": 29.0,
+                        "Birth Date": "-1989",
+                        "Age": "29",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, James R.",
                         "I.D.": 13738,
                         "Sex": "M",
-                        "Birth Date": -1971.0,
-                        "Age": 47.0,
+                        "Birth Date": "-1971",
+                        "Age": "47",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Jonathan M.",
                         "I.D.": 18722,
                         "Sex": "M",
-                        "Birth Date": 1969.0,
-                        "Age": 50.0,
+                        "Birth Date": "1969",
+                        "Age": "50",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Joshua S.",
                         "I.D.": 25301,
                         "Sex": "M",
-                        "Birth Date": 1994.0,
-                        "Age": 25.0,
+                        "Birth Date": "1994",
+                        "Age": "25",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Kent M.",
                         "I.D.": 18466,
                         "Sex": "M",
-                        "Birth Date": 1984.0,
-                        "Age": 35.0,
+                        "Birth Date": "1984",
+                        "Age": "35",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Lee R.",
                         "I.D.": 7664,
                         "Sex": "M",
-                        "Birth Date": 1972.0,
-                        "Age": 47.0,
+                        "Birth Date": "1972",
+                        "Age": "47",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Michael B.",
                         "I.D.": 23290,
                         "Sex": "M",
-                        "Birth Date": 1985.0,
-                        "Age": 34.0,
+                        "Birth Date": "1985",
+                        "Age": "34",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Spencer P.",
                         "I.D.": 9378,
                         "Sex": "M",
-                        "Birth Date": 1977.0,
-                        "Age": 42.0,
+                        "Birth Date": "1977",
+                        "Age": "42",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anderson, Steve F.",
                         "I.D.": 13276,
                         "Sex": "M",
-                        "Birth Date": 1964.0,
-                        "Age": 55.0,
+                        "Birth Date": "1964",
+                        "Age": "55",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Andress, Robert W.",
                         "I.D.": 19652,
-                        "Sex": NaN,
-                        "Birth Date": NaN,
-                        "Age": NaN,
+                        "Sex": "missing",
+                        "Birth Date": "missing",
+                        "Age": "missing",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Andrews, Justin C.",
                         "I.D.": 20912,
                         "Sex": "M",
-                        "Birth Date": -1988.0,
-                        "Age": 30.0,
+                        "Birth Date": "-1988",
+                        "Age": "30",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anglin, Clint C.",
                         "I.D.": 21081,
                         "Sex": "M",
-                        "Birth Date": 1978.0,
-                        "Age": 41.0,
+                        "Birth Date": "1978",
+                        "Age": "41",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Anglin, Jarred G.",
                         "I.D.": 20563,
                         "Sex": "M",
-                        "Birth Date": 1986.0,
-                        "Age": 33.0,
+                        "Birth Date": "1986",
+                        "Age": "33",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Araujo, Christopher R.",
                         "I.D.": 21405,
                         "Sex": "M",
-                        "Birth Date": -1988.0,
-                        "Age": 30.0,
+                        "Birth Date": "-1988",
+                        "Age": "30",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Arca, Shelby M.",
                         "I.D.": 25106,
                         "Sex": "F",
-                        "Birth Date": 1993.0,
-                        "Age": 26.0,
+                        "Birth Date": "1993",
+                        "Age": "26",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Arends, Linda N.",
                         "I.D.": 19463,
                         "Sex": "F",
-                        "Birth Date": -1958.0,
-                        "Age": 60.0,
+                        "Birth Date": "-1958",
+                        "Age": "60",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     }
                 ]
             }
@@ -726,8 +726,8 @@
                         "Age": 48,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Arment, Marc T.",
@@ -737,8 +737,8 @@
                         "Age": 37,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Armstrong, Barbara A.",
@@ -748,8 +748,8 @@
                         "Age": 38,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Armstrong, Donald",
@@ -759,8 +759,8 @@
                         "Age": 57,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Armstrong, Robert J.",
@@ -770,8 +770,8 @@
                         "Age": 49,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Arneson, Jerod",
@@ -781,8 +781,8 @@
                         "Age": 26,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Arneson, Kyle R.",
@@ -792,19 +792,19 @@
                         "Age": 26,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Arnett, Tracie",
                         "I.D.": 25220,
-                        "Sex": NaN,
+                        "Sex": "missing",
                         "Birth Date": -1975,
                         "Age": 43,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Arnold, Daniel T.",
@@ -814,8 +814,8 @@
                         "Age": 34,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Arnold, Jonathan",
@@ -825,8 +825,8 @@
                         "Age": 30,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Asencio, Ben",
@@ -836,8 +836,8 @@
                         "Age": 46,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Ashby, Steven E.",
@@ -847,8 +847,8 @@
                         "Age": 52,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Atkins, Dustin L.",
@@ -858,8 +858,8 @@
                         "Age": 40,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Atkinson, Ann E.",
@@ -869,8 +869,8 @@
                         "Age": 57,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Atkinson Jr., Michael T.",
@@ -880,8 +880,8 @@
                         "Age": 46,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Atsbeha, Eayoall M.",
@@ -891,8 +891,8 @@
                         "Age": 32,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Auch, Jacob A.",
@@ -902,8 +902,8 @@
                         "Age": 38,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Austin, Alicia M.",
@@ -913,8 +913,8 @@
                         "Age": 41,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Austin, John R.",
@@ -924,8 +924,8 @@
                         "Age": 54,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Axelrod, Bryan J.",
@@ -935,8 +935,8 @@
                         "Age": 35,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Ayers, Brandon L.",
@@ -946,8 +946,8 @@
                         "Age": 27,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Ayers, Jeralyn",
@@ -957,8 +957,8 @@
                         "Age": 57,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bach, Trinity L.",
@@ -968,8 +968,8 @@
                         "Age": 51,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baggs, David J.",
@@ -979,8 +979,8 @@
                         "Age": 43,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bagnoli, Colton J.",
@@ -990,8 +990,8 @@
                         "Age": 36,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baiamonte, Stephen",
@@ -1001,8 +1001,8 @@
                         "Age": 51,
                         "Employee Type": "Reserve",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bailey, Cory A.",
@@ -1012,30 +1012,30 @@
                         "Age": 47,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bailey, Dunny W.",
                         "I.D.": 17225,
-                        "Sex": NaN,
+                        "Sex": "missing",
                         "Birth Date": -1975,
                         "Age": 43,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bailey, James A.",
                         "I.D.": 17111,
-                        "Sex": NaN,
+                        "Sex": "missing",
                         "Birth Date": 1975,
                         "Age": 44,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bailey, James S.",
@@ -1045,8 +1045,8 @@
                         "Age": 57,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bain, Dennis A.",
@@ -1056,8 +1056,8 @@
                         "Age": 42,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baken, Nicholas",
@@ -1067,8 +1067,8 @@
                         "Age": 25,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baker, Christopher J.",
@@ -1078,8 +1078,8 @@
                         "Age": 45,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     }
                 ]
             }
@@ -1099,8 +1099,8 @@
                         "Age": 51,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baker, Jason",
@@ -1110,8 +1110,8 @@
                         "Age": 47,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baker, Rae M.",
@@ -1121,8 +1121,8 @@
                         "Age": 52,
                         "Employee Type": "Probation & Parole",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Balis, Bradford A.",
@@ -1132,8 +1132,8 @@
                         "Age": 32,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Ball, Christopher L.",
@@ -1143,8 +1143,8 @@
                         "Age": 29,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baltezar, Beau C.",
@@ -1154,8 +1154,8 @@
                         "Age": 31,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barbao, Harlee I.",
@@ -1165,8 +1165,8 @@
                         "Age": 27,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barbera, Andrew J.",
@@ -1176,8 +1176,8 @@
                         "Age": 36,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barce, Austin",
@@ -1187,19 +1187,19 @@
                         "Age": 26,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barclay, Steven B.",
                         "I.D.": 5854,
-                        "Sex": NaN,
+                        "Sex": "missing",
                         "Birth Date": 1969,
                         "Age": 50,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bardwell, Allen G.",
@@ -1209,8 +1209,8 @@
                         "Age": 62,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bare, Bryce",
@@ -1220,8 +1220,8 @@
                         "Age": 27,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barkell, Tim F.",
@@ -1231,8 +1231,8 @@
                         "Age": 57,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barkus, Jason A.",
@@ -1242,8 +1242,8 @@
                         "Age": 48,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barnes, Timothy C.",
@@ -1253,8 +1253,8 @@
                         "Age": 57,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barnt, James J.",
@@ -1264,8 +1264,8 @@
                         "Age": 42,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barrett, Anthony",
@@ -1275,8 +1275,8 @@
                         "Age": 56,
                         "Employee Type": "Probation & Parole",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barrett, Michael P.",
@@ -1286,8 +1286,8 @@
                         "Age": 32,
                         "Employee Type": "Reserve",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barry, Chan A.",
@@ -1297,8 +1297,8 @@
                         "Age": 44,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barsness, Kyle P.",
@@ -1308,8 +1308,8 @@
                         "Age": 39,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barstad, Bruce E.",
@@ -1319,8 +1319,8 @@
                         "Age": 53,
                         "Employee Type": "Probation & Parole",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barthel, Jon J.",
@@ -1330,8 +1330,8 @@
                         "Age": 44,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barthel, Michael J.",
@@ -1341,8 +1341,8 @@
                         "Age": 54,
                         "Employee Type": "Probation & Parole",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barton, Andrew K.",
@@ -1352,8 +1352,8 @@
                         "Age": 34,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bartos, Charles D.",
@@ -1363,8 +1363,8 @@
                         "Age": 53,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Barzen, Jake",
@@ -1374,8 +1374,8 @@
                         "Age": 24,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bauer, Dustin L.",
@@ -1385,8 +1385,8 @@
                         "Age": 30,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baugatz Jr., John A.",
@@ -1396,8 +1396,8 @@
                         "Age": 54,
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baukema, Toman L.",
@@ -1407,8 +1407,8 @@
                         "Age": 50,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baum, Craig A.",
@@ -1418,8 +1418,8 @@
                         "Age": 48,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baum, Denise K.",
@@ -1429,8 +1429,8 @@
                         "Age": 51,
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     }
                 ]
             }
@@ -1446,364 +1446,364 @@
                         "Name": "Baum, Michael J.",
                         "I.D.": 23317,
                         "Sex": "M",
-                        "Birth Date": 1988.0,
-                        "Age": 31.0,
+                        "Birth Date": "1988",
+                        "Age": "31",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baumann, Eric A.",
                         "I.D.": 8665,
                         "Sex": "M",
-                        "Birth Date": -1974.0,
-                        "Age": 44.0,
+                        "Birth Date": "-1974",
+                        "Age": "44",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Baxter, Jayson B.",
                         "I.D.": 16490,
                         "Sex": "M",
-                        "Birth Date": 1970.0,
-                        "Age": 49.0,
+                        "Birth Date": "1970",
+                        "Age": "49",
                         "Employee Type": "Probation & Parole",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bear Medicine, Doyle L.",
                         "I.D.": 24354,
                         "Sex": "M",
-                        "Birth Date": 1980.0,
-                        "Age": 39.0,
+                        "Birth Date": "1980",
+                        "Age": "39",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Beard, Brenton A.",
                         "I.D.": 24086,
                         "Sex": "M",
-                        "Birth Date": 1992.0,
-                        "Age": 27.0,
+                        "Birth Date": "1992",
+                        "Age": "27",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Beasley, Daniel L.",
                         "I.D.": 23062,
                         "Sex": "M",
-                        "Birth Date": 1981.0,
-                        "Age": 38.0,
+                        "Birth Date": "1981",
+                        "Age": "38",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bebbington, Brian S.",
                         "I.D.": 19543,
                         "Sex": "M",
-                        "Birth Date": 1972.0,
-                        "Age": 47.0,
+                        "Birth Date": "1972",
+                        "Age": "47",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Beccari, Kathleen M.",
                         "I.D.": 10765,
                         "Sex": "F",
-                        "Birth Date": 1961.0,
-                        "Age": 58.0,
+                        "Birth Date": "1961",
+                        "Age": "58",
                         "Employee Type": "Probation & Parole",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bechtold, Terry L.",
                         "I.D.": 108,
                         "Sex": "M",
-                        "Birth Date": 1959.0,
-                        "Age": 60.0,
+                        "Birth Date": "1959",
+                        "Age": "60",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Beck, Benjamin T.",
                         "I.D.": 21082,
                         "Sex": "M",
-                        "Birth Date": 1988.0,
-                        "Age": 31.0,
+                        "Birth Date": "1988",
+                        "Age": "31",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Beck, James J.",
                         "I.D.": 22102,
                         "Sex": "M",
-                        "Birth Date": 1991.0,
-                        "Age": 28.0,
+                        "Birth Date": "1991",
+                        "Age": "28",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Becker, Thomas",
                         "I.D.": 25626,
                         "Sex": "M",
-                        "Birth Date": -1984.0,
-                        "Age": 34.0,
+                        "Birth Date": "-1984",
+                        "Age": "34",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Beckett, Jace A.",
                         "I.D.": 22375,
-                        "Sex": NaN,
-                        "Birth Date": 1992.0,
-                        "Age": 27.0,
+                        "Sex": "missing",
+                        "Birth Date": "1992",
+                        "Age": "27",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Beckwith, Carl F.",
                         "I.D.": 7622,
                         "Sex": "M",
-                        "Birth Date": -1940.0,
-                        "Age": 78.0,
+                        "Birth Date": "-1940",
+                        "Age": "78",
                         "Employee Type": "Reserve",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bedford, John R.",
                         "I.D.": 1902,
                         "Sex": "M",
-                        "Birth Date": 1961.0,
-                        "Age": 58.0,
+                        "Birth Date": "1961",
+                        "Age": "58",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Beechie, Michael B.",
                         "I.D.": 23596,
                         "Sex": "M",
-                        "Birth Date": 1988.0,
-                        "Age": 31.0,
+                        "Birth Date": "1988",
+                        "Age": "31",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Beecroft, Jeffery D.",
                         "I.D.": 2095,
                         "Sex": "M",
-                        "Birth Date": 1962.0,
-                        "Age": 57.0,
+                        "Birth Date": "1962",
+                        "Age": "57",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Beehler, Anton J.",
                         "I.D.": 9746,
                         "Sex": "M",
-                        "Birth Date": 1967.0,
-                        "Age": 52.0,
+                        "Birth Date": "1967",
+                        "Age": "52",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Beeson Jr., Myron",
                         "I.D.": 25744,
                         "Sex": "M",
-                        "Birth Date": 1979.0,
-                        "Age": 40.0,
+                        "Birth Date": "1979",
+                        "Age": "40",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Belcourt, Jalin C.",
                         "I.D.": 24131,
                         "Sex": "M",
-                        "Birth Date": 1994.0,
-                        "Age": 25.0,
+                        "Birth Date": "1994",
+                        "Age": "25",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Belford, Austin J.",
                         "I.D.": 25558,
-                        "Sex": NaN,
-                        "Birth Date": NaN,
-                        "Age": NaN,
+                        "Sex": "missing",
+                        "Birth Date": "missing",
+                        "Age": "missing",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bell, Donald R.",
                         "I.D.": 5860,
                         "Sex": "M",
-                        "Birth Date": -1958.0,
-                        "Age": 60.0,
+                        "Birth Date": "-1958",
+                        "Age": "60",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bellusci, George E.",
                         "I.D.": 23418,
                         "Sex": "M",
-                        "Birth Date": 1970.0,
-                        "Age": 49.0,
+                        "Birth Date": "1970",
+                        "Age": "49",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bellusci, William W.",
                         "I.D.": 118,
                         "Sex": "M",
-                        "Birth Date": -1953.0,
-                        "Age": 65.0,
+                        "Birth Date": "-1953",
+                        "Age": "65",
                         "Employee Type": "Probation & Parole",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bemis, Christopher W.",
                         "I.D.": 6284,
                         "Sex": "M",
-                        "Birth Date": -1964.0,
-                        "Age": 54.0,
+                        "Birth Date": "-1964",
+                        "Age": "54",
                         "Employee Type": "Detention & Correction",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bender Jr., Robert R.",
                         "I.D.": 9665,
                         "Sex": "M",
-                        "Birth Date": 1978.0,
-                        "Age": 41.0,
+                        "Birth Date": "1978",
+                        "Age": "41",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bennett, Bryan R.",
                         "I.D.": 23948,
                         "Sex": "M",
-                        "Birth Date": 1978.0,
-                        "Age": 41.0,
+                        "Birth Date": "1978",
+                        "Age": "41",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Bennett, Scott F.",
                         "I.D.": 13814,
                         "Sex": "M",
-                        "Birth Date": 1962.0,
-                        "Age": 57.0,
+                        "Birth Date": "1962",
+                        "Age": "57",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Benson, Christopher J.",
                         "I.D.": 24072,
                         "Sex": "M",
-                        "Birth Date": -1981.0,
-                        "Age": 37.0,
+                        "Birth Date": "-1981",
+                        "Age": "37",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Benson, Michael S.",
                         "I.D.": 127,
                         "Sex": "M",
-                        "Birth Date": 1965.0,
-                        "Age": 54.0,
+                        "Birth Date": "1965",
+                        "Age": "54",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Benz, Britney B.",
                         "I.D.": 24165,
                         "Sex": "F",
-                        "Birth Date": 1991.0,
-                        "Age": 28.0,
+                        "Birth Date": "1991",
+                        "Age": "28",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Berg, Shannon",
                         "I.D.": 25666,
                         "Sex": "F",
-                        "Birth Date": 1988.0,
-                        "Age": 31.0,
+                        "Birth Date": "1988",
+                        "Age": "31",
                         "Employee Type": "Probation & Parole",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     },
                     {
                         "Name": "Berger, Brian P.",
                         "I.D.": 21900,
                         "Sex": "M",
-                        "Birth Date": -1985.0,
-                        "Age": 33.0,
+                        "Birth Date": "-1985",
+                        "Age": "33",
                         "Employee Type": "Peace Officer",
                         "Employee": true,
-                        "Instructor": NaN,
-                        "Supervisor": NaN
+                        "Instructor": "missing",
+                        "Supervisor": "missing"
                     }
                 ]
             }

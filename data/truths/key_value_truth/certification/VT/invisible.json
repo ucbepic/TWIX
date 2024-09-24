@@ -9,8 +9,8 @@
                         "Date": "7-01-2015",
                         "Status": "Certified",
                         "Certified": "11-18-1994",
-                        "Expires": NaN,
-                        "Probation": NaN,
+                        "Expires": "missing",
+                        "Probation": "missing",
                         "Cert #": "MJA2024"
                     },
                     {
@@ -18,15 +18,15 @@
                         "Status": "Lapsed",
                         "Certified": "11-18-1994",
                         "Expires": "7-01-2015",
-                        "Probation": NaN,
+                        "Probation": "missing",
                         "Cert #": "001160"
                     },
                     {
                         "Date": "4-04-1994",
                         "Status": "Lapsed",
                         "Certified": "3-29-1994",
-                        "Expires": NaN,
-                        "Probation": NaN,
+                        "Expires": "missing",
+                        "Probation": "missing",
                         "Cert #": "001579"
                     }
                 ]
@@ -53,13 +53,13 @@
                         "Pos/Rank": "Sergeant"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Level III"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Service": "3 Years 151 Days"
@@ -74,19 +74,19 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Detective Sergeant"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Full-Time"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Service": "1 Years 183 Days"
@@ -101,19 +101,19 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Sergeant"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Full-Time"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Service": "11 Years 109 Days"
@@ -128,19 +128,19 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
-                        "Pos/Rank": "null"
+                        "Pos/Rank": "missing"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
-                        "Class": "null"
+                        "Class": "missing"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Service": "15 Years 28 Days"
@@ -155,22 +155,22 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Trooper"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Full-Time"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
-                        "Service": "null"
+                        "Service": "missing"
                     },
                     {
                         "Date": "10-21-1996"
@@ -182,19 +182,19 @@
                         "Status": "Inactive"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
-                        "Class": "null"
+                        "Class": "missing"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Service": "2 Years 113 Days"
@@ -209,19 +209,19 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Corporal"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Full-Time"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Service": "1 Years 65 Days"
@@ -236,19 +236,19 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Part-Time"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "": ""
@@ -270,24 +270,24 @@
                         "Date": "7-10-2015",
                         "Status": "Certified",
                         "Certified": "7-10-2015",
-                        "Expires": NaN,
-                        "Probation": NaN,
+                        "Expires": "missing",
+                        "Probation": "missing",
                         "Cert #": "DJA1121"
                     },
                     {
                         "Date": "6-09-2015",
                         "Status": "Lapsed",
                         "Certified": "6-09-2015",
-                        "Expires": NaN,
-                        "Probation": NaN,
+                        "Expires": "missing",
+                        "Probation": "missing",
                         "Cert #": "DJA1121"
                     },
                     {
                         "Date": "7-27-2007",
                         "Status": "Lapsed",
                         "Certified": "7-27-2007",
-                        "Expires": NaN,
-                        "Probation": NaN,
+                        "Expires": "missing",
+                        "Probation": "missing",
                         "Cert #": "DJA1121"
                     }
                 ]
@@ -308,19 +308,19 @@
                         "Status": "Active Part-time"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Sergeant"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Level II-S"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Date": "1-12-2010"
@@ -332,19 +332,19 @@
                         "Status": "Inactive"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Patrol Officer"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Level II"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Date": "7-01-2009"
@@ -359,19 +359,19 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Part-Time"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Date": "7-18-2008"
@@ -383,19 +383,19 @@
                         "Status": "Inactive"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Part-Time"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Date": "4-15-2008"
@@ -410,19 +410,19 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Patrol Officer"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Full-Time"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Date": "1-28-2007"
@@ -437,19 +437,19 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Part-Time"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "": ""
@@ -471,8 +471,8 @@
                         "Date": "5-24-2019",
                         "Status": "Certified",
                         "Certified": "5-24-2019",
-                        "Expires": NaN,
-                        "Probation": NaN,
+                        "Expires": "missing",
+                        "Probation": "missing",
                         "Cert #": "EA3743"
                     }
                 ]
@@ -493,19 +493,19 @@
                         "Status": "Active Full-time"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Trooper"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Level III"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "": ""
@@ -527,8 +527,8 @@
                         "7-01-2015": "7-01-2015",
                         "Certified": "Lapsed",
                         "11-17-2006": "11-17-2006",
-                        "null": "7-01-2015",
-                        "null.1": NaN,
+                        "missing": "7-01-2015",
+                        "missing.1": "missing",
                         "BJA3068": "BJA3068"
                     }
                 ]
@@ -549,19 +549,19 @@
                         "Status": "Active Part-time"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Patrol Officer"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Level III"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Date": "4-24-2019"
@@ -576,19 +576,19 @@
                         "Status": "Active Full-time"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Investigator"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Level III"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Date": "7-23-2006"
@@ -603,19 +603,19 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Patrol Officer"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Level III"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Date": "4-01-2006"
@@ -627,19 +627,19 @@
                         "Status": "Inactive"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Patrol Officer"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Part-Time"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Date": "11-11-2005"
@@ -654,19 +654,19 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Patrol Officer"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Part-Time"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "": ""
@@ -691,8 +691,8 @@
                         "7-01-2015": "7-01-2015",
                         "Certified": "Lapsed",
                         "12-05-2008": "12-05-2008",
-                        "null": NaN,
-                        "null.1": NaN,
+                        "missing": "missing",
+                        "missing.1": "missing",
                         "JJA7277": "JJA7277"
                     }
                 ]
@@ -710,19 +710,19 @@
                         "Status": "Inactive Full-time"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Level III"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Date": "1-25-2019"
@@ -737,19 +737,19 @@
                         "Status": "Active Full-time"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Level III"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Date": "8-04-2008"
@@ -764,19 +764,19 @@
                         "Status": "Active Full-time"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Level III"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "Date": "3-18-2008"
@@ -791,19 +791,19 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "null"
+                        "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
                     },
                     {
-                        "Level": "null"
+                        "Level": "missing"
                     },
                     {
                         "Class": "Part-Time"
                     },
                     {
-                        "Shift": "null"
+                        "Shift": "missing"
                     },
                     {
                         "": ""
