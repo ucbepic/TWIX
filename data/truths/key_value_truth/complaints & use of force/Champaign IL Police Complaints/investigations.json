@@ -6,9 +6,9 @@
                 "type": "table",
                 "content": [
                     {
-                        "Date": "08-01",
-                        "Number": "\"Swenson",
-                        "Investigator": "Jon\"",
+                        "Date": "1/27/2008",
+                        "Number": "08-01",
+                        "Investigator": "Swenson, Jon",
                         "Date Assigned": "missing",
                         "Racial": "No",
                         "Category / Type": "FORMAL",
@@ -27,7 +27,7 @@
                         "Location Of Occurrence": "missing",
                         "Disposition": "2/7/2008",
                         "Completed": "N/A",
-                        "Recorded On Camera": NaN
+                        "Recorded On Camera": "missing"
                     }
                 ]
             },
@@ -44,13 +44,10 @@
                         "Gender": "FEMAL"
                     },
                     {
-                        "Address": "\"Terr, Champaign IL 61820\""
+                        "Address": "Terr, Champaign IL 61820"
                     },
                     {
                         "H Phone": ""
-                    },
-                    {
-                        "": ""
                     }
                 ]
             },
@@ -108,7 +105,7 @@
                         "Location of Occurrence": "missing",
                         "Disposition": "missing",
                         "Completed": "3/17/2008",
-                        "Recorded On Camera": NaN
+                        "Recorded On Camera": "missing"
                     }
                 ]
             },
@@ -125,13 +122,10 @@
                         "Gender": "FEMALE"
                     },
                     {
-                        "Address": "\", Champaign IL 61821\""
+                        "Address": ", Champaign IL 61821"
                     },
                     {
                         "H Phone": ""
-                    },
-                    {
-                        "": ""
                     }
                 ]
             },
@@ -198,8 +192,8 @@
                         "Category / Type": "missing",
                         "Location Of Occurrence": "missing",
                         "Disposition": "4/28/2008",
-                        "Completed": NaN,
-                        "Recorded On Camera": NaN
+                        "Completed": "missing",
+                        "Recorded On Camera": "missing"
                     }
                 ]
             },
@@ -216,13 +210,10 @@
                         "Gender": "MALE"
                     },
                     {
-                        "Address": "\" , Champaign IL 61821\""
+                        "Address": " , Champaign IL 61821"
                     },
                     {
                         "H Phone": ""
-                    },
-                    {
-                        "": ""
                     }
                 ]
             },
@@ -285,7 +276,7 @@
                         "Location Of Occurrence": "missing",
                         "Disposition": "missing",
                         "Completed": "3/14/2008",
-                        "Recorded On Camera": NaN
+                        "Recorded On Camera": "missing"
                     }
                 ]
             },
@@ -302,13 +293,10 @@
                         "Gender": "FEMALE"
                     },
                     {
-                        "Address": "\" , Champaign IL 61821\""
+                        "Address": " , Champaign IL 61821"
                     },
                     {
                         "H Phone": ""
-                    },
-                    {
-                        "": ""
                     }
                 ]
             },
@@ -366,7 +354,7 @@
                         "Location Of Occurrence": "missing",
                         "Disposition": "missing",
                         "Completed": "4/23/2008",
-                        "Recorded On Camera": NaN
+                        "Recorded On Camera": "missing"
                     }
                 ]
             },
@@ -383,13 +371,10 @@
                         "Gender": "MALE"
                     },
                     {
-                        "Address": "\" , Champaign IL 61821\""
+                        "Address": " , Champaign IL 61821"
                     },
                     {
                         "H Phone": ""
-                    },
-                    {
-                        "": ""
                     }
                 ]
             },

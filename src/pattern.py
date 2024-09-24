@@ -30,19 +30,23 @@ def read_json(path):
         data = json.load(file)
     return data
 
-def record_extraction(phrases,predict_labels):
+def record_extraction(pss,predict_labels):
     #only return the first record 
     first_key = 'null'
+    phrases = {} #record id -> phrases
+    rid = 1
     ps = []
-    for p in phrases:
+    for p in pss:
         if(p == first_key):#check the first record
-            break
+            phrases[rid] = ps
+            ps = []
+            rid += 1
         ps.append(p)
         if(p in predict_labels):
             if(first_key == 'null'):
                 first_key = p
-    #print(first_key)
-    return ps 
+    
+    return phrases 
 
 def format(lst):
     l = []
@@ -796,7 +800,7 @@ def key_val_mp(key_row, val_row):
         key = item[0]
         keyb = item[1]
         hd = 10000000
-        t_val = 'null'
+        t_val = 'missing'
         for item in val_row:
             val = item[0]
             valb = item[1]
@@ -836,12 +840,6 @@ def table_extraction_top_down(row_mp, kid, vid):
         rows.append(row)
     #print(rows)
     return keys, rows
-
-
-    
-
-    
-    
 
 
 def table_extraction(predict_labels, pv, path):
@@ -1033,7 +1031,7 @@ def check_vadility(row_mp, rls, id):
         nid = id
         while(True):
             nid -= 1
-            if(nid <= 0):
+            if(nid < 0):
                 break
             if(rls[nid] == 'key' and row_aligned(row_mp[nid],row_mp[id]) == 1):
                 valid = 1
@@ -1075,7 +1073,10 @@ def infer_undefined(row_mp, rls):
         if(rls[row_id] != 'undefined'):
             continue
         if(len(lst) > 1):
+            print('LLM call!', rls[row_id])
+            print(lst)
             label = infer_undefined_LLM(lst)
+            print(label)
             if(label == 'val'):
                 rls[row_id] = 'val'
                 if(check_vadility(row_mp, rls, row_id) == 'val'): #if undefined->val, it is valid
@@ -1101,7 +1102,7 @@ def infer_undefined(row_mp, rls):
 
 
  
-def pattern_detect_by_row(pv, predict_labels):
+def pattern_detect_by_row(pv, predict_labels, rid):
     #refine kv pair by using distance constraint
     kv = {}
     ids = []
@@ -1153,26 +1154,26 @@ def pattern_detect_by_row(pv, predict_labels):
         # print(p_print)
         rls[row_id] = row_label
         
-    #print('###')
-    #check the validity of the labels by using rules 
-    for row_id, lst in row_mp.items():
-        #print(row_id)
-        # p_print = []
-        # for (p,bb) in lst:
-        #     p_print.append(p)
-        # print(p_print)
-        new_label = check_vadility(row_mp, rls, row_id)
-        #print(rls[row_id], new_label)
-        rls[row_id] = new_label
+    if(rid == 1): #expensive learning for the first record
+        #check the validity of the labels by using rules 
+        for row_id, lst in row_mp.items():
+            print(row_id)
+            p_print = []
+            for (p,bb) in lst:
+                p_print.append(p)
+            print(p_print)
+            new_label = check_vadility(row_mp, rls, row_id)
+            print(rls[row_id], new_label)
+            rls[row_id] = new_label
 
     rls = infer_undefined(row_mp, rls)
 
-    for row_id, lst in row_mp.items():
-        print(row_id, rls[row_id])
-        p_print = []
-        for (p,bb) in lst:
-            p_print.append(p)
-        print(p_print)
+    # for row_id, lst in row_mp.items():
+    #     #print(row_id, rls[row_id])
+    #     p_print = []
+    #     for (p,bb) in lst:
+    #         p_print.append(p)
+    #     print(p_print)
         
     blk, blk_id = block_decider(rls)
 
@@ -1230,32 +1231,48 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path):
     phrases = record_extraction(phrases, predict_labels)
     #print(phrases)
     record_appearance = {}
-    for p in phrases:
-        record_appearance[p] = 0
+    for rid, ps in phrases.items():
+        for p in ps:
+            record_appearance[p] = 0
 
-    record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
+    records = []
+    rid = 1
     
-    mix_pattern_extract(predict_labels, pv,path)
+    for rid, ps in phrases.items():
+        record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, ps)
 
-def mix_pattern_extract(predict_labels, pv, path):
+        # print(rid)
+        # vals = []
+        # for (val,bb) in pv:
+        #     vals.append(val)
+        # print(vals)
+        # print(record_appearance)
+        record,keys = mix_pattern_extract(predict_labels, pv, rid)
+        predict_labels = keys
+        records.append(record)
+        #print(keys)
+        if(rid > 4):
+            break
+    write_json(records, path)
+
+def mix_pattern_extract(predict_labels, pv, rid):
     
     #pv: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
+    keys = []
+
+    blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels, rid)
+
+    # print(blk)
+    # print(blk_id)
     
-
-    blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels)
-
-    print(blk)
-    print(blk_id)
-    rid = 0
-    records = []
-    record = {}
-    record['record_id'] = rid
     out = []
+    record = {}
+    record['id'] = rid
 
     for id, lst in blk.items():
         object = {}
         if(blk_id[id] == 'table'):
-            print(id)
+            #print(id)
             object['type'] = 'table'
             #print(blk_id[id],lst)#lst is the list of row ids belonging to the same community
             key = [lst[0]]
@@ -1271,8 +1288,9 @@ def mix_pattern_extract(predict_labels, pv, path):
                     k = key[i]
                     r = row[i]
                     kvs[k] = r
+                    keys.append(k)
                 content.append(kvs)
-            print(content)
+            #print(content)
             object['content'] = content 
         else:
             object['type'] = 'kv'
@@ -1286,13 +1304,15 @@ def mix_pattern_extract(predict_labels, pv, path):
             for kv in kv_out:
                 kvm = {}
                 kvm[kv[0]] = kv[1]
+                keys.append(kv[0])
                 content.append(kvm)
             object['content'] = content
         out.append(object)
     
-    record['structure'] = out
-    records.append(record)
-    write_json(records, path)
+    record['content'] = out
+
+    return record,keys 
+    
         
 
 def write_string(result_path, content):
@@ -1312,7 +1332,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 5 #starting from 1
+    tested_id = 1 #starting from 1
     
 
     #pair_oracle('name','joe')
@@ -1334,5 +1354,5 @@ if __name__ == "__main__":
         phrases = read_file(extracted_path)
         phrases_bb = read_json(bb_path)
 
-        #print(out_path)
+        print(results)
         mix_pattern_extract_pipeline(phrases_bb, results, phrases, out_path)
