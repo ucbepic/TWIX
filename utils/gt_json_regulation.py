@@ -5,13 +5,17 @@ import json
 import os 
 import math 
 def regulate_table(data):
+    print('print raw data:')
+    print(data)
+    print("end of printing raw data")
     table_data = StringIO(data)
     # Read the CSV file into a pandas DataFrame
-    df = pd.read_csv(table_data)
+    df = pd.read_csv(table_data, index_col=False, quotechar='"', skipinitialspace=True)
     rows = []
     
     for index, row in df.iterrows():
-        #print(index)
+        print('index:', index)
+        print(row)
         row_object = {}
         for key,val in row.items():
             #print(key,val)
@@ -41,6 +45,9 @@ def regulate_kv(data):
                 key = key.strip()
         if(isinstance(val, str)):
             val = val.strip()
+        if(key == ''):
+            continue
+        #print(key,val)
         object[key] = val
         kvs_content.append(object)
         #print(key,val)
@@ -119,7 +126,7 @@ def regulate_template(path):
 def regular_full(records):
     new_records = []
     for record in records:
-        #print(record['id'])
+        print(record['id'])
         new_record = {}
         new_record['id'] = record['id']
         object = record['content']
@@ -163,8 +170,8 @@ if __name__ == "__main__":
     for in_file in files:
         out_file = in_file.replace('txt','json')
         print(out_file)
-        # if('Munson' not in out_file):
-        #     continue
+        if('investigation' not in out_file):
+            continue
         records = regulate_template(in_file)
         records = regular_full(records)
         write_json(records, out_file)

@@ -20,14 +20,14 @@
                     {
                         "Date": "missing",
                         "Number": "missing",
-                        "Investigator": "1/30/2008",
-                        "Date Assigned": "missing",
-                        "Racial": "Citizen",
-                        "Category / Type": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "1/30/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
                         "Location Of Occurrence": "missing",
-                        "Disposition": "2/7/2008",
-                        "Completed": "N/A",
-                        "Recorded On Camera": "missing"
+                        "Disposition": "missing",
+                        "Completed": "2/7/2008",
+                        "Recorded On Camera": "N/A"
                     }
                 ]
             },
@@ -35,10 +35,10 @@
                 "type": "kv",
                 "content": [
                     {
-                        "Complainant": ""
+                        "Complainant": "missing"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     },
                     {
                         "Gender": "FEMAL"
@@ -47,7 +47,7 @@
                         "Address": "Terr, Champaign IL 61820"
                     },
                     {
-                        "H Phone": ""
+                        "H Phone": "missing"
                     }
                 ]
             },
@@ -101,11 +101,11 @@
                         "Investigator": "missing",
                         "Date Assigned": "2/27/2008",
                         "Racial": "missing",
-                        "Category / Type": "missing",
+                        "Category / Type": "citizen",
                         "Location of Occurrence": "missing",
                         "Disposition": "missing",
                         "Completed": "3/17/2008",
-                        "Recorded On Camera": "missing"
+                        "Recorded On Camera": "N/A"
                     }
                 ]
             },
@@ -113,19 +113,19 @@
                 "type": "kv",
                 "content": [
                     {
-                        "Complainant": ""
+                        "Complainant": "missing"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     },
                     {
-                        "Gender": "FEMALE"
+                        "Gender": "femal"
                     },
                     {
                         "Address": ", Champaign IL 61821"
                     },
                     {
-                        "H Phone": ""
+                        "H Phone": "missing"
                     }
                 ]
             },
@@ -172,9 +172,9 @@
                 "type": "table",
                 "content": [
                     {
-                        "Date": "08-03",
-                        "Number": "Paulus",
-                        "Investigator": "Michael",
+                        "Date": "3/5/2008",
+                        "Number": "08-03",
+                        "Investigator": "Paulus, Michael",
                         "Date Assigned": "missing",
                         "Racial": "No",
                         "Category / Type": "FORMAL",
@@ -186,14 +186,14 @@
                     {
                         "Date": "missing",
                         "Number": "missing",
-                        "Investigator": "3/10/2008",
-                        "Date Assigned": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "3/10/2008",
                         "Racial": "missing",
-                        "Category / Type": "missing",
+                        "Category / Type": "citizen",
                         "Location Of Occurrence": "missing",
-                        "Disposition": "4/28/2008",
-                        "Completed": "missing",
-                        "Recorded On Camera": "missing"
+                        "Disposition": "missing",
+                        "Completed": "4/28/2008",
+                        "Recorded On Camera": "N/A"
                     }
                 ]
             },
@@ -201,19 +201,19 @@
                 "type": "kv",
                 "content": [
                     {
-                        "Complainant": ""
+                        "Complainant": "missing"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     },
                     {
                         "Gender": "MALE"
                     },
                     {
-                        "Address": " , Champaign IL 61821"
+                        "Address": ", Champaign IL 61821"
                     },
                     {
-                        "H Phone": ""
+                        "H Phone": "missing"
                     }
                 ]
             },
@@ -272,11 +272,11 @@
                         "Investigator": "missing",
                         "Date Assigned": "3/14/2008",
                         "Racial": "missing",
-                        "Category / Type": "missing",
+                        "Category / Type": "citizen",
                         "Location Of Occurrence": "missing",
                         "Disposition": "missing",
                         "Completed": "3/14/2008",
-                        "Recorded On Camera": "missing"
+                        "Recorded On Camera": "N/A"
                     }
                 ]
             },
@@ -284,19 +284,19 @@
                 "type": "kv",
                 "content": [
                     {
-                        "Complainant": ""
+                        "Complainant": "missing"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     },
                     {
-                        "Gender": "FEMALE"
+                        "Gender": "femal"
                     },
                     {
-                        "Address": " , Champaign IL 61821"
+                        "Address": ", Champaign IL 61821"
                     },
                     {
-                        "H Phone": ""
+                        "H Phone": "missing"
                     }
                 ]
             },
@@ -314,7 +314,7 @@
                 "type": "table",
                 "content": [
                     {
-                        "Name": "Richard W.",
+                        "Name": "Wilberg, Richard W.",
                         "ID No.": "799RESI",
                         "Rank": "Senior Officer",
                         "Division": "Field Operations",
@@ -350,11 +350,11 @@
                         "Investigator": "missing",
                         "Date Assigned": "4/17/2008",
                         "Racial": "missing",
-                        "Category / Type": "missing",
+                        "Category / Type": "citizen",
                         "Location Of Occurrence": "missing",
                         "Disposition": "missing",
                         "Completed": "4/23/2008",
-                        "Recorded On Camera": "missing"
+                        "Recorded On Camera": "N/A"
                     }
                 ]
             },
@@ -362,19 +362,19 @@
                 "type": "kv",
                 "content": [
                     {
-                        "Complainant": ""
+                        "Complainant": "missing"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     },
                     {
                         "Gender": "MALE"
                     },
                     {
-                        "Address": " , Champaign IL 61821"
+                        "Address": ", Champaign IL 61821"
                     },
                     {
-                        "H Phone": ""
+                        "H Phone": "missing"
                     }
                 ]
             },

@@ -27,10 +27,28 @@ def clean_phrase(p):
         return p.lower().strip()
     return p
 
+def equal(a,b):
+    if(a==b):
+        return 1
+    if(isinstance(a,str)):
+        a = a.strip('\'')
+        a = a.strip('\"')
+    if(isinstance(b,str)):
+        b = b.strip('\'')
+        b = b.strip('\"')
+    if(isinstance(a,str) and isinstance(b,int)):
+        if(str(b) == a):
+            return 1
+    if(isinstance(b,str) and isinstance(a,int)):
+        if(str(a) == b):
+            return 1
+    return 0
+
 def get_PR(results_kvs, truth_kvs):
     precisions = {} #record id ->  precision 
     recalls = {} # record id -> recall
     for id, truth_kv in truth_kvs.items():
+        print(id)
         precision = 0
         recall = 0
         if id not in results_kvs:
@@ -50,17 +68,31 @@ def get_PR(results_kvs, truth_kvs):
         # print(new_truth_kv)
         # print(new_result_kv)
         
+        print('FP:')
         #evaluate precision
         for kv in new_result_kv:
-            if(kv in new_truth_kv):
-                precision += 1
+            is_match = 0
+            for kv1 in new_truth_kv:
+                if(equal(kv[0],kv1[0]) == 1 and equal(kv[1],kv1[1]) == 1):
+                    precision += 1
+                    is_match = 1
+                    break
+            if(is_match == 0):
+                print(kv)
         
         precision /= len(new_result_kv)
 
+        print('FN:')
         #evaluate recall
         for kv in new_truth_kv:
-            if kv in new_result_kv:
-                recall += 1
+            is_match = 0
+            for kv1 in new_result_kv:
+                if(equal(kv[0],kv1[0]) == 1 and equal(kv[1],kv1[1]) == 1):
+                    recall += 1
+                    is_match = 1
+                    break
+            if(is_match == 0):
+                print(kv)
         
         recall /= len(new_truth_kv)
 

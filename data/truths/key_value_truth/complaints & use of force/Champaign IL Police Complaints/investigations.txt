@@ -4,11 +4,11 @@ Date, Number, Investigator, Date Assigned, Racial, Category / Type, Location Of 
 1/27/2008, 08-01, "Swenson, Jon", missing, No, FORMAL, Not Stated, SUSTAINED, missing, No
 missing, missing, missing, 1/30/2008, missing, Citizen, missing, missing, 2/7/2008, N/A
 -KV
-Complainant,
-DOB,
+Complainant,missing
+DOB,missing
 Gender,FEMAL
-Address,"Terr, Champaign IL 61820"
-H Phone,
+Address,Terr, Champaign IL 61820
+H Phone,missing
 -TABLE
 Type Of Complaint, Description, Complaint Disposition
 R-3B.1 Courtesy, Discourteous Conduct, SUSTAINED
@@ -20,13 +20,13 @@ Name, ID No., Rank, Division, Officer Disposition, Action Taken, Body Cam
 -TABLE
 Date,Number,Investigator,Date Assigned,Racial,Category / Type,Location of Occurrence,Disposition,Completed,Recorded On Camera
 2/24/2008,08-02,"Swan, Scott",missing,No,FORMAL,Not Stated,SUSTAINED,missing,No
-missing,missing,missing,2/27/2008,missing,missing,missing,missing,3/17/2008,N/A
+missing,missing,missing,2/27/2008,missing,citizen,missing,missing,3/17/2008,N/A
 -KV
-Complainant, 
-DOB, 
-Gender, FEMALE
-Address, ", Champaign IL 61821"
-H Phone, 
+Complainant,missing
+DOB,missing
+Gender, femal
+Address, , Champaign IL 61821
+H Phone, missing
 -TABLE
 Type Of Complaint, Description, Complaint Disposition
 R-3B.1 Courtesy: Profanity, Discourteous Conduct, NOT SUSTAINED
@@ -39,14 +39,14 @@ Name, ID No., Rank, Division, Officer Disposition, Action Taken, Body Cam
 #Record3
 -TABLE 
 Date,Number,Investigator,Date Assigned,Racial,Category / Type,Location Of Occurrence,Disposition,Completed,Recorded On Camera
-3/5/2008,08-03,Paulus, Michael,missing,No,FORMAL,Not Stated,NOT SUSTAINED,missing,No
-missing,missing,missing,3/10/2008,missing,missing,missing,missing,4/28/2008,N/A
+3/5/2008,08-03,"Paulus, Michael",missing,No,FORMAL,Not Stated,NOT SUSTAINED,missing,No
+missing,missing,missing,3/10/2008,missing,citizen,missing,missing,4/28/2008,N/A
 -KV
-Complainant, 
-DOB, 
+Complainant, missing
+DOB, missing
 Gender, MALE
-Address, " , Champaign IL 61821"
-H Phone, 
+Address,  , Champaign IL 61821
+H Phone, (
 -TABLE 
 Type Of Complaint,Description,Complaint Disposition
 R-3B.2 Courtesy: Rude,Discourteous Conduct,UNFOUNDED
@@ -59,31 +59,31 @@ Name,ID No.,Rank,Division,Officer Disposition,Action Taken,Body Cam
 -TABLE 
 Date,Number,Investigator,Date Assigned,Racial,Category / Type,Location Of Occurrence,Disposition,Completed,Recorded On Camera
 3/14/2008,08-II01,"Swan, Scott",missing,No,FORMAL,Not Stated,SUSTAINED,missing,No
-missing,missing,missing,3/14/2008,missing,missing,missing,missing,3/14/2008,N/A
+missing,missing,missing,3/14/2008,missing,citizen,missing,missing,3/14/2008,N/A
 -KV
-Complainant, 
-DOB, 
-Gender, FEMALE
-Address, " , Champaign IL 61821"
-H Phone, 
+Complainant, missing
+DOB, missing
+Gender, femal
+Address,  , Champaign IL 61821
+H Phone, missing
 -TABLE 
 Type Of Complaint,Description,Complaint Disposition
 R-3B.2 Courtesy: Rude,Discourteous Conduct,SUSTAINED
 -TABLE
 Name,ID No.,Rank,Division,Officer Disposition,Action Taken,Body Cam
-Wilberg, Richard W.,799RESI,Senior Officer,Field Operations,SUSTAINED,COUNSELING,No
+"Wilberg, Richard W.",799RESI,Senior Officer,Field Operations,SUSTAINED,COUNSELING,No
 
 #Record5
 -TABLE
 Date,Number,Investigator,Date Assigned,Racial,Category / Type,Location Of Occurrence,Disposition,Completed,Recorded On Camera
 3/18/2008,08-06,"Gallo, Joe",missing,No,FORMAL Citizen,Not Stated,SUSTAINED,missing,No
-missing,missing,missing,4/17/2008,missing,missing,missing,missing,4/23/2008,N/A
+missing,missing,missing,4/17/2008,missing,citizen,missing,missing,4/23/2008,N/A
 -KV
-Complainant, 
-DOB, 
+Complainant, missing
+DOB, missing
 Gender, MALE
-Address, " , Champaign IL 61821"
-H Phone, 
+Address,  , Champaign IL 61821
+H Phone, missing
 -TABLE 
 Type Of Complaint,Description,Complaint Disposition
 R-3B.1 Courtesy: Profanity,Discourteous Conduct,NOT SUSTAINED

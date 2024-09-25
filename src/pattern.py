@@ -1303,7 +1303,10 @@ def mix_pattern_extract(predict_labels, pv, rid):
             
             for kv in kv_out:
                 kvm = {}
-                kvm[kv[0]] = kv[1]
+                if(kv[1] == ''):
+                    kvm[kv[0]] = 'missing'
+                else:
+                    kvm[kv[0]] = kv[1]
                 keys.append(kv[0])
                 content.append(kvm)
             object['content'] = content

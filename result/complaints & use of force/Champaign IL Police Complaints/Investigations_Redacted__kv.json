@@ -41,13 +41,13 @@
                         "Address": "Terr, Champaign IL 61820"
                     },
                     {
-                        "H Phone": ""
+                        "H Phone": "missing"
                     },
                     {
-                        "Complainant": ""
+                        "Complainant": "missing"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     }
                 ]
             },
@@ -119,13 +119,13 @@
                         "Address": ", Champaign IL 61821"
                     },
                     {
-                        "H Phone": ""
+                        "H Phone": "missing"
                     },
                     {
-                        "Complainant": ""
+                        "Complainant": "missing"
                     },
                     {
-                        "DOB": ""
+                        "DOB": "missing"
                     }
                 ]
             },
@@ -201,13 +201,13 @@
                 "type": "kv",
                 "content": [
                     {
-                        "Address": ""
+                        "Address": "missing"
                     },
                     {
                         "H Phone": "("
                     },
                     {
-                        "Complainant": ""
+                        "Complainant": "missing"
                     },
                     {
                         "DOB": "Gender"
@@ -305,10 +305,10 @@
                         "Address": ", Champaign IL 61821"
                     },
                     {
-                        "H Phone": ""
+                        "H Phone": "missing"
                     },
                     {
-                        "Complainant": ""
+                        "Complainant": "missing"
                     }
                 ]
             },
@@ -380,13 +380,13 @@
                         "Address": ", Champaign IL 61821"
                     },
                     {
-                        "H Phone": ""
+                        "H Phone": "missing"
                     },
                     {
-                        "Complainant": ""
+                        "Complainant": "missing"
                     },
                     {
-                        "MALE": ""
+                        "MALE": "missing"
                     }
                 ]
             },
