@@ -5,17 +5,17 @@ import json
 import os 
 import math 
 def regulate_table(data):
-    print('print raw data:')
-    print(data)
-    print("end of printing raw data")
+    # print('print raw data:')
+    # print(data)
+    # print("end of printing raw data")
     table_data = StringIO(data)
     # Read the CSV file into a pandas DataFrame
     df = pd.read_csv(table_data, index_col=False, quotechar='"', skipinitialspace=True)
     rows = []
     
     for index, row in df.iterrows():
-        print('index:', index)
-        print(row)
+        #print('index:', index)
+        #print(row)
         row_object = {}
         for key,val in row.items():
             #print(key,val)
@@ -111,7 +111,7 @@ def regulate_template(path):
                     #process a row of data 
                     if(type == 'table'):
                         content += line + '\n'
-                    else:
+                    elif(type == 'kv'):
                         content += line + '\n'
         
         #last line, add last block and last records
@@ -165,13 +165,14 @@ if __name__ == "__main__":
     in_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.txt'
     out_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.json'
 
-    folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/'
+    #folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/'
+    folder_path = '/Users/yiminglin/Downloads/aws_table_extraction_pdf/'
     files = scan_folder(folder_path)
     for in_file in files:
         out_file = in_file.replace('txt','json')
         print(out_file)
-        if('investigation' not in out_file):
-            continue
+        # if('investigation' not in out_file):
+        #     continue
         records = regulate_template(in_file)
         records = regular_full(records)
         write_json(records, out_file)

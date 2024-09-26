@@ -30,6 +30,10 @@ def clean_phrase(p):
 def equal(a,b):
     if(a==b):
         return 1
+    if(a=='missing' and b == ''):
+        return 1
+    if(a == '' and b == 'missing'):
+        return 1
     if(isinstance(a,str)):
         a = a.strip('\'')
         a = a.strip('\"')
@@ -129,8 +133,8 @@ def get_result_path(truth_path):
     return result_path
 
 if __name__ == "__main__":
-    truth_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.json'
-    result_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted__kv.json'
+    truth_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/certification/IA/Active_Certifications.json'
+    result_path = '/Users/yiminglin/Downloads/aws_table_extraction_pdf/certification/IA/Active_Certifications/output.json'
 
     result = read_json(result_path)
     truth = read_json(truth_path)
@@ -141,6 +145,7 @@ if __name__ == "__main__":
     avg_precision, avg_recall, precisions, recalls = get_PR(result_kvs, truth_kvs)
     print(precisions)
     print(recalls)
+    print(avg_precision, avg_recall)
 
 
     

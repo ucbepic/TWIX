@@ -27,7 +27,7 @@
                         "Location Of Occurrence": "missing",
                         "Disposition": "missing",
                         "Completed": "2/7/2008",
-                        "Recorded On Camera": "N/A"
+                        "Recorded On Camera": NaN
                     }
                 ]
             },
@@ -105,7 +105,7 @@
                         "Location of Occurrence": "missing",
                         "Disposition": "missing",
                         "Completed": "3/17/2008",
-                        "Recorded On Camera": "N/A"
+                        "Recorded On Camera": NaN
                     }
                 ]
             },
@@ -193,7 +193,7 @@
                         "Location Of Occurrence": "missing",
                         "Disposition": "missing",
                         "Completed": "4/28/2008",
-                        "Recorded On Camera": "N/A"
+                        "Recorded On Camera": NaN
                     }
                 ]
             },
@@ -213,7 +213,7 @@
                         "Address": ", Champaign IL 61821"
                     },
                     {
-                        "H Phone": "missing"
+                        "H Phone": "("
                     }
                 ]
             },
@@ -276,7 +276,7 @@
                         "Location Of Occurrence": "missing",
                         "Disposition": "missing",
                         "Completed": "3/14/2008",
-                        "Recorded On Camera": "N/A"
+                        "Recorded On Camera": NaN
                     }
                 ]
             },
@@ -354,7 +354,7 @@
                         "Location Of Occurrence": "missing",
                         "Disposition": "missing",
                         "Completed": "4/23/2008",
-                        "Recorded On Camera": "N/A"
+                        "Recorded On Camera": NaN
                     }
                 ]
             },

@@ -7,7 +7,7 @@ Assist,Yes
 Agency,SCTF
 Information Taken From,Crime/ Incident
 Status,Completed
-Incident Reviewed By, Ahart Rachael F.
+Incident Reviewed By, Ahart, Rachael F.
 Date Reviewed,1/15/2021
 Drugs/Alcohol,No
 Location,1609 Valley Road Apt. D1
@@ -43,7 +43,7 @@ Arrest ID,None
 Injured,No
 Type Injuries,
 Medical Aid,
-Officer,Snow Ryan S.
+Officer,Snow, Ryan S.
 Action Taken,Firearm - Pointed At Subject
 Action Taken Useful,Yes
 Camera,Yes
@@ -62,7 +62,7 @@ Assist,Yes
 Agency,CPD
 Information Taken From,Crime/ Incident
 Status,Completed
-Incident Reviewed By,"Benoit Robert W."
+Incident Reviewed By,Benoit, Robert W.
 Date Reviewed,2/2/2021
 Drugs/Alcohol,No
 Location,Green & Second Streets
@@ -99,7 +99,7 @@ Arrest ID,None
 Injured,No
 Type Injuries,
 Medical Aid,
-Officer,"Schroeder, Michelle L."
+Officer,Schroeder, Michelle L.
 Action Taken,Firearm - Pointed At Subject
 Action Taken Useful,Yes
 Camera,Yes
@@ -118,7 +118,7 @@ Assist,Yes
 Agency,UPD
 Information Taken From,Crime/ Incident
 Status,Completed
-Incident Reviewed By,"Hetrick, Timothy W."
+Incident Reviewed By,Hetrick, Timothy W.
 Date Reviewed,2/6/2021
 Drugs/Alcohol,No
 Location,Busey Woods
@@ -156,7 +156,7 @@ Injured,Yes
 Type Injuries,Minor
 Medical Aid,
 Notes,Suspect had a facial injury as a result of running through the woods.
-Officer,"Crane, Ben"
+Officer,Crane, Ben
 Action Taken,Firearm - Pointed At Subject
 Action Taken Useful,Yes
 Camera,Yes
@@ -164,7 +164,7 @@ CIT,No
 Type Injuries,None
 Disciplinary Action,None
 Included On Alert,Yes
-Officer,"Germany, Karl"
+Officer,Germany, Karl
 Action Taken,Firearm - Pointed At Subject
 Action Taken Useful,Yes
 Camera,Yes

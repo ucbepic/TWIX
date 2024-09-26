@@ -1197,7 +1197,7 @@ def block_decider(rls):
             blk[bid].append(id)
             blk_id[bid] = 'table'
             nearest_key_bid = bid
-        elif(label == 'val'):
+        elif(label == 'val' and nearest_key_bid > 0):
             blk[nearest_key_bid].append(id)
         elif(label == 'kv'):#start a new block for kv
             if(kv_bid == -1):
@@ -1335,7 +1335,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 1 #starting from 1
+    tested_id = 3 #starting from 1
     
 
     #pair_oracle('name','joe')
