@@ -113,6 +113,12 @@
                 "type": "kv",
                 "content": [
                     {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
                         "Gender": "FEMAL"
                     },
                     {
@@ -120,12 +126,6 @@
                     },
                     {
                         "H Phone": "missing"
-                    },
-                    {
-                        "Complainant": "missing"
-                    },
-                    {
-                        "DOB": "missing"
                     }
                 ]
             },
@@ -201,16 +201,19 @@
                 "type": "kv",
                 "content": [
                     {
-                        "Address": "missing"
-                    },
-                    {
-                        "H Phone": "("
-                    },
-                    {
                         "Complainant": "missing"
                     },
                     {
-                        "DOB": "Gender"
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": ", Champaign IL 61821"
+                    },
+                    {
+                        "H Phone": "("
                     }
                 ]
             },
@@ -299,16 +302,19 @@
                 "type": "kv",
                 "content": [
                     {
-                        "DOB": "Gender"
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "FEMAL"
                     },
                     {
                         "Address": ", Champaign IL 61821"
                     },
                     {
                         "H Phone": "missing"
-                    },
-                    {
-                        "Complainant": "missing"
                     }
                 ]
             },
@@ -374,19 +380,19 @@
                 "type": "kv",
                 "content": [
                     {
-                        "DOB": "Gender"
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
                     },
                     {
                         "Address": ", Champaign IL 61821"
                     },
                     {
                         "H Phone": "missing"
-                    },
-                    {
-                        "Complainant": "missing"
-                    },
-                    {
-                        "MALE": "missing"
                     }
                 ]
             },

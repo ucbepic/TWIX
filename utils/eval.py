@@ -1,5 +1,5 @@
 #this script implements the evaluation metric 
-import json,os
+import json,os,math
 
 def read_json(file_path):
     with open(file_path, 'r') as file:
@@ -33,6 +33,10 @@ def equal(a,b):
     if(a=='missing' and b == ''):
         return 1
     if(a == '' and b == 'missing'):
+        return 1
+    if(isinstance(b, float) and math.isnan(b) and a.lower() == 'n/a'):
+        return 1
+    if(isinstance(a, float) and math.isnan(a) and b.lower() == 'n/a'):
         return 1
     if(isinstance(a,str)):
         a = a.strip('\'')
@@ -133,8 +137,8 @@ def get_result_path(truth_path):
     return result_path
 
 if __name__ == "__main__":
-    truth_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/certification/IA/Active_Certifications.json'
-    result_path = '/Users/yiminglin/Downloads/aws_table_extraction_pdf/certification/IA/Active_Certifications/output.json'
+    truth_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.json'
+    result_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted__kv.json'
 
     result = read_json(result_path)
     truth = read_json(truth_path)

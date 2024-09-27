@@ -318,6 +318,29 @@ def key_val_extraction_pipeline(phrases, phrases_bb, predict_labels):
     record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
     key_val_extraction(pv, predict_labels)
 
+def key_val_extraction_by_first_learn(pv, predict_labels):
+    #print(pv, predict_labels)
+    kvs = []
+    i = 0
+    while i < len(pv):
+        p = pv[i][0]
+        if (p in predict_labels and i+1<len(pv) and pv[i+1][0] not in predict_labels):
+            kvs.append((p,pv[i+1][0]))
+            i += 2
+        elif(p in predict_labels and i+1<len(pv) and pv[i+1][0] in predict_labels):
+            kvs.append((p,'missing'))
+            kvs.append((pv[i+1][0],'missing'))
+            i += 2
+        elif(p in predict_labels and i == len(pv)-1):
+            kvs.append((p,'missing'))
+            i += 1
+        elif(p not in predict_labels):
+            i += 1
+        else:
+            i += 1
+
+    return kvs
+
 def key_val_extraction(pv, predict_labels):
     #metadata = get_metadata().lower()
     metadata = []
@@ -376,16 +399,14 @@ def key_val_extraction(pv, predict_labels):
                 single_v.append(i)
         i+=1
         
-    # print(kv)
-    # print(kk)
-    # print(vv)
+    
     bad_kv = []
     #process kk pair 
     for id, (p,pn) in kk.items():
         if(id in ids):#skip this pair since we don't want to modifty it
             continue
-        #print(p,pn)
-        #if(pair_oracle(p,pn) == 1):
+        
+        
         if(len(new_lst) > 0 and is_outlier(new_lst, min_distance(pv[id][1],pv[id+1][1])) == False ):#valid distance or semantically same or  pair_oracle(p,pn) == 1
             kv[id] = (p,pn)#insert into kv
             ids.append(id)
@@ -401,6 +422,8 @@ def key_val_extraction(pv, predict_labels):
                 #print('kk:', p)
                 kv[id] = (p,'')
                 ids.append(id)
+        
+            
     
     #process vv pair
     for id, (p,pn) in vv.items():
@@ -417,12 +440,10 @@ def key_val_extraction(pv, predict_labels):
         v = pv[i][0]
         
         if(key_oracle(v) == 1 and is_metadata(metadata, v) == 0):
-            print('single v:', v)
+            #print('single v:', v)
             kv[i] = (v,'')
 
     kv_out = []
-    # print(metadata)
-    # print('-----')
     for id, (p,pn) in kv.items():
         if(id in bad_kv):
             continue
@@ -962,6 +983,7 @@ def row_pattern(lst, predict_labels, new_lst, esp = 0.5):
     kvs = 0
     kks = 0 
     vvs = 0
+    
     p_pre = lst[0][0]
     bb_pre = lst[0][1]
     for i in range(1,len(lst)):
@@ -1241,16 +1263,18 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path):
     for rid, ps in phrases.items():
         record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, ps)
 
-        # print(rid)
+        print(rid)
         # vals = []
         # for (val,bb) in pv:
         #     vals.append(val)
         # print(vals)
         # print(record_appearance)
+        #print(predict_labels)
         record,keys = mix_pattern_extract(predict_labels, pv, rid)
-        predict_labels = keys
+        if(rid == 1):
+            predict_labels = keys
         records.append(record)
-        #print(keys)
+        #print(predict_labels)
         if(rid > 4):
             break
     write_json(records, path)
@@ -1298,7 +1322,10 @@ def mix_pattern_extract(predict_labels, pv, rid):
             kvs = []#kvs stores a list of tuples, where each tuple is (phrase, bb)
             for id in lst:
                 kvs += row_mp[id]
-            kv_out = key_val_extraction(kvs, predict_labels)
+            if(rid == 1):
+                kv_out = key_val_extraction(kvs, predict_labels)
+            else:
+                kv_out = key_val_extraction_by_first_learn(kvs, predict_labels)
             content = []
             
             for kv in kv_out:
@@ -1335,10 +1362,8 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 3 #starting from 1
+    tested_id = 1 #starting from 1
     
-
-    #pair_oracle('name','joe')
 
     for path in tested_paths:
         id += 1
