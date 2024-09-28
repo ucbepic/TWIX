@@ -329,8 +329,7 @@ def key_val_extraction_by_first_learn(pv, predict_labels):
             i += 2
         elif(p in predict_labels and i+1<len(pv) and pv[i+1][0] in predict_labels):
             kvs.append((p,'missing'))
-            kvs.append((pv[i+1][0],'missing'))
-            i += 2
+            i += 1
         elif(p in predict_labels and i == len(pv)-1):
             kvs.append((p,'missing'))
             i += 1
@@ -407,7 +406,7 @@ def key_val_extraction(pv, predict_labels):
             continue
         
         
-        if(len(new_lst) > 0 and is_outlier(new_lst, min_distance(pv[id][1],pv[id+1][1])) == False ):#valid distance or semantically same or  pair_oracle(p,pn) == 1
+        if(len(new_lst) > 0 and is_outlier(new_lst, min_distance(pv[id][1],pv[id+1][1])) == False and pair_oracle(p,pn) == 1):#valid distance or semantically same or  pair_oracle(p,pn) == 1
             kv[id] = (p,pn)#insert into kv
             ids.append(id)
             ids.append(id+1)
@@ -977,7 +976,21 @@ def row_aligned(row1, row2):
     #         return 0
     return 1
 
-    
+def row_pattern_by_learned_pattern(lst, predicat_labels):
+    is_key = 0
+    is_val = 0
+    #print(lst, predicat_labels)
+    for (l,bb) in lst:
+        if(l in predicat_labels):
+            is_key = 1
+        else:
+            is_val = 1
+    if(is_key == 1 and is_val == 0):
+        return 'key'
+    if(is_key == 0 and is_val == 1):
+        return 'val'
+    if(is_key == 1 and is_val == 1):
+        return 'kv'
 
 def row_pattern(lst, predict_labels, new_lst, esp = 0.5):
     kvs = 0
@@ -1168,25 +1181,28 @@ def pattern_detect_by_row(pv, predict_labels, rid):
         row = []
         for l in lst:
             row.append(l[0])
-        row_label = row_pattern(lst, predict_labels, new_lst)
-        #print(row_id, row_label)
+        if(rid == 1):
+            row_label = row_pattern(lst, predict_labels, new_lst)
+        else:
+            row_label = row_pattern_by_learned_pattern(lst, predict_labels)
+        # print(row_id, row_label)
         # p_print = []
         # for (p,bb) in lst:
         #     p_print.append(p)
         # print(p_print)
         rls[row_id] = row_label
         
-    if(rid == 1): #expensive learning for the first record
+    #if(rid == 1): #expensive learning for the first record
         #check the validity of the labels by using rules 
-        for row_id, lst in row_mp.items():
-            print(row_id)
-            p_print = []
-            for (p,bb) in lst:
-                p_print.append(p)
-            print(p_print)
-            new_label = check_vadility(row_mp, rls, row_id)
-            print(rls[row_id], new_label)
-            rls[row_id] = new_label
+    for row_id, lst in row_mp.items():
+        print(row_id)
+        p_print = []
+        for (p,bb) in lst:
+            p_print.append(p)
+        print(p_print)
+        new_label = check_vadility(row_mp, rls, row_id)
+        print(rls[row_id], new_label)
+        rls[row_id] = new_label
 
     rls = infer_undefined(row_mp, rls)
 
@@ -1246,10 +1262,17 @@ def write_json(out, path):
     with open(path, 'w') as json_file:
         json.dump(out, json_file, indent=4)
 
-
+def filter_non_key(lst, non_key):
+    nl = []
+    for l in lst:
+        if(l.lower() in non_key):
+            continue
+        nl.append(l)
+    return nl
 
 def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path):
     #get the first record
+    non_key_meta = ['none','yes','no','/']
     phrases = record_extraction(phrases, predict_labels)
     #print(phrases)
     record_appearance = {}
@@ -1270,9 +1293,12 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path):
         # print(vals)
         # print(record_appearance)
         #print(predict_labels)
+        predict_labels = filter_non_key(predict_labels, non_key_meta)
         record,keys = mix_pattern_extract(predict_labels, pv, rid)
         if(rid == 1):
+            keys = filter_non_key(keys, non_key_meta)
             predict_labels = keys
+        #print(record)
         records.append(record)
         #print(predict_labels)
         if(rid > 4):
@@ -1362,7 +1388,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 1 #starting from 1
+    tested_id = 2 #starting from 1
     
 
     for path in tested_paths:
