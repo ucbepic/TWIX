@@ -1,0 +1,2987 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Update Date": "09/15/21"
+                    },
+                    {
+                        "Flight Dates": "09/13/21 10/03/21"
+                    },
+                    {
+                        "Version": "1 Vs. 1"
+                    },
+                    {
+                        "Agency": "Keller Media Consulting"
+                    },
+                    {
+                        "Advertiser": "Small Business Association of Michigan"
+                    },
+                    {
+                        "Show All Lines": "missing"
+                    },
+                    {
+                        "Total # of Weeks": "3"
+                    },
+                    {
+                        "Total": "\"$65,422.00\""
+                    },
+                    {
+                        "Client Code": "missing"
+                    },
+                    {
+                        "AE": "Leah Losier"
+                    },
+                    {
+                        "Commission": "\"$9,813.30\""
+                    },
+                    {
+                        "Product Code": "missing"
+                    },
+                    {
+                        "Net Total": "\"$55,608.70\""
+                    },
+                    {
+                        "Sales Coordinator": "Michael Ryan"
+                    },
+                    {
+                        "Est Code": "missing"
+                    },
+                    {
+                        "Product Name": "add to sked 9.16-9.30"
+                    },
+                    {
+                        "Total Spots": "2200"
+                    },
+                    {
+                        "Office": "Chicago"
+                    },
+                    {
+                        "Credit Status": "Cash in Advance"
+                    },
+                    {
+                        "Phone": "(312) 527-5755"
+                    },
+                    {
+                        "Affiliate Split": "100.0"
+                    },
+                    {
+                        "Cost Per Spot": "missing"
+                    },
+                    {
+                        "Sold On": "missing"
+                    },
+                    {
+                        "Status": "Accepted"
+                    },
+                    {
+                        "GRP": "GIMP -"
+                    },
+                    {
+                        "Primary Demo": "Adults 18+"
+                    },
+                    {
+                        "Survey": "DMA Nielsen Live+3 Sep20"
+                    },
+                    {
+                        "CPP": "-"
+                    },
+                    {
+                        "CPM": "-"
+                    },
+                    {
+                        "Makegood Policy": "Approval Required"
+                    },
+                    {
+                        "Comments": "9.14 new order. please confirm. thanks"
+                    },
+                    {
+                        "Page": "1 of 13"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": 1,
+                        "Net": "AEN",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$190.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 2,
+                        "Net": "AEN",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$190.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 3,
+                        "Net": "AEN",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "missing",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "-",
+                        "Total Spots": 10,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$190.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 4,
+                        "Net": "AEN",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "-",
+                        "Total Spots": 5,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$130.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 5,
+                        "Net": "AEN",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "missing",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$130.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 6,
+                        "Net": "AEN",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "[X]",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$104.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 7,
+                        "Net": "AEN",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ]",
+                        "RTG": "-",
+                        "IMP": "-",
+                        "Total Spots": 14,
+                        "Unit Cost": "$33.00",
+                        "Total Cost": "$462.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 8,
+                        "Net": "AEN",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ]",
+                        "RTG": "-",
+                        "IMP": "-",
+                        "Total Spots": 14,
+                        "Unit Cost": "$33.00",
+                        "Total Cost": "$462.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 9,
+                        "Net": "AEN",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 8,
+                        "Unit Cost": "$33.00",
+                        "Total Cost": "$264.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 10,
+                        "Net": "AMC",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$190.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 11,
+                        "Net": "AMC",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "X",
+                        "S.1": "X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$190.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 12,
+                        "Net": "AMC",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$190.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 13,
+                        "Net": "AMC",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[ ] X",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$130.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 14,
+                        "Net": "AMC",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$130.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 15,
+                        "Net": "AMC",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "[ ] X",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$104.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 16,
+                        "Net": "AMC",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "X",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$33.00",
+                        "Total Cost": "$462.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 17,
+                        "Net": "AMC",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$33.00",
+                        "Total Cost": "$462.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 18,
+                        "Net": "AMC",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 8,
+                        "Unit Cost": "$33.00",
+                        "Total Cost": "$264.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 19,
+                        "Net": "APL",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$9.00",
+                        "Total Cost": "$90.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 20,
+                        "Net": "APL",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "missing",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$9.00",
+                        "Total Cost": "$90.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 21,
+                        "Net": "APL",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "missing",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$9.00",
+                        "Total Cost": "$90.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Order #": "62924075"
+                    },
+                    {
+                        "Update Date": "09/15/21"
+                    },
+                    {
+                        "Version": "1 Vs. 1"
+                    },
+                    {
+                        "Syscode": "0166"
+                    },
+                    {
+                        "System Name": "\"Spectrum/Traverse City Interconnect, MI\""
+                    },
+                    {
+                        "Show All Lines": "missing"
+                    },
+                    {
+                        "Total # of Weeks": "3"
+                    },
+                    {
+                        "Market": "Traverse City"
+                    },
+                    {
+                        "Total": "\"$65,422.00\""
+                    },
+                    {
+                        "Client Code": "missing"
+                    },
+                    {
+                        "AE": "Leah Losier"
+                    },
+                    {
+                        "Commission": "\"$9,813.30\""
+                    },
+                    {
+                        "Product Code": "missing"
+                    },
+                    {
+                        "Net Total": "\"$55,608.70\""
+                    },
+                    {
+                        "Sales Coordinator": "Michael Ryan"
+                    },
+                    {
+                        "Est Code": "missing"
+                    },
+                    {
+                        "Product Name": "add to sked 9.16-9.30"
+                    },
+                    {
+                        "Total Spots": "2200"
+                    },
+                    {
+                        "Office": "Chicago"
+                    },
+                    {
+                        "Credit Status": "Cash in Advance"
+                    },
+                    {
+                        "Phone": "(312) 527-5755"
+                    },
+                    {
+                        "Affiliate Split": "100.0"
+                    },
+                    {
+                        "Cost Per Spot": "missing"
+                    },
+                    {
+                        "Sold On": "missing"
+                    },
+                    {
+                        "Status": "Accepted"
+                    },
+                    {
+                        "GRP": "GIMP -"
+                    },
+                    {
+                        "Primary Demo": "Adults 18+"
+                    },
+                    {
+                        "Survey": "DMA Nielsen Live+3 Sep20"
+                    },
+                    {
+                        "CPP": "CPM -"
+                    },
+                    {
+                        "Makegood Policy Approval": "Required"
+                    },
+                    {
+                        "Comments": "9.14 new order. please confirm. thanks"
+                    },
+                    {
+                        "Page": "2 of 13"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": 22,
+                        "Net": "APL",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "[ ]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "-",
+                        "Total Spots": 5,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$70.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 23,
+                        "Net": "APL",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$70.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 24,
+                        "Net": "APL",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "missing",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$56.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 25,
+                        "Net": "APL",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "-",
+                        "IMP": "-",
+                        "Total Spots": 14,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$266.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 26,
+                        "Net": "APL",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "missing",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$266.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 27,
+                        "Net": "APL",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "-",
+                        "Total Spots": 8,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$152.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 28,
+                        "Net": "BRVO",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "-",
+                        "Total Spots": 10,
+                        "Unit Cost": "$17.00",
+                        "Total Cost": "$170.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 29,
+                        "Net": "BRVO",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$17.00",
+                        "Total Cost": "$170.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 30,
+                        "Net": "BRVO",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$17.00",
+                        "Total Cost": "$170.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 31,
+                        "Net": "BRVO",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$130.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 32,
+                        "Net": "BRVO",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "missing",
+                        "T.1": "missing",
+                        "F": "[ ] X",
+                        "S": "X",
+                        "S.1": "X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$130.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 33,
+                        "Net": "BRVO",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$104.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 34,
+                        "Net": "BRVO",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "X",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$33.00",
+                        "Total Cost": "$462.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 35,
+                        "Net": "BRVO",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$33.00",
+                        "Total Cost": "$462.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 36,
+                        "Net": "BRVO",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "missing",
+                        "T.1": "missing",
+                        "F": "missing",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 8,
+                        "Unit Cost": "$33.00",
+                        "Total Cost": "$264.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 37,
+                        "Net": "CMT",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "X",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$8.00",
+                        "Total Cost": "$80.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 38,
+                        "Net": "CMT",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$8.00",
+                        "Total Cost": "$80.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 39,
+                        "Net": "CMT",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$8.00",
+                        "Total Cost": "$80.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 40,
+                        "Net": "CMT",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "X",
+                        "S.1": "missing",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$70.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 41,
+                        "Net": "CMT",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[X]",
+                        "T": "missing",
+                        "W": "missing",
+                        "T.1": "missing",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$70.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 42,
+                        "Net": "CMT",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[X]",
+                        "T": "missing",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "-",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$56.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Order #": "62924075"
+                    },
+                    {
+                        "Update Date": "09/15/21"
+                    },
+                    {
+                        "Version": "1 Vs. 1"
+                    },
+                    {
+                        "Syscode": "0166"
+                    },
+                    {
+                        "System Name": "\"Spectrum/Traverse City Interconnect, MI\""
+                    },
+                    {
+                        "Show All Lines": "missing"
+                    },
+                    {
+                        "Total # of Weeks": "3"
+                    },
+                    {
+                        "Market": "Traverse City"
+                    },
+                    {
+                        "Total": "\"$65,422.00\""
+                    },
+                    {
+                        "Client Code": "missing"
+                    },
+                    {
+                        "AE": "Leah Losier"
+                    },
+                    {
+                        "Commission": "\"$9,813.30\""
+                    },
+                    {
+                        "Product Code": "missing"
+                    },
+                    {
+                        "Net Total": "\"$55,608.70\""
+                    },
+                    {
+                        "Sales Coordinator": "Michael Ryan"
+                    },
+                    {
+                        "Est Code": "missing"
+                    },
+                    {
+                        "Product Name": "add to sked 9.16-9.30"
+                    },
+                    {
+                        "Office": "Chicago"
+                    },
+                    {
+                        "Total Spots": "2200"
+                    },
+                    {
+                        "Credit Status": "Cash in Advance"
+                    },
+                    {
+                        "Affiliate Split": "100.0"
+                    },
+                    {
+                        "Phone": "(312) 527-5755"
+                    },
+                    {
+                        "Status": "Accepted"
+                    },
+                    {
+                        "Sold On": "Cost Per Spot"
+                    },
+                    {
+                        "GRP": "GIMP"
+                    },
+                    {
+                        "Survey": "DMA Nielsen Live+3 Sep20"
+                    },
+                    {
+                        "Primary Demo": "Adults 18+"
+                    },
+                    {
+                        "CPP": "-"
+                    },
+                    {
+                        "Makegood Policy": "Approval Required"
+                    },
+                    {
+                        "Comments": "9.14 new order. please confirm. thanks"
+                    },
+                    {
+                        "Line": "missing"
+                    },
+                    {
+                        "Program": "missing"
+                    },
+                    {
+                        "53": "missing"
+                    },
+                    {
+                        "0900": "missing"
+                    },
+                    {
+                        "Page": "3 of 13"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": 43,
+                        "Net": "CMT",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$266.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 44,
+                        "Net": "CMT",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$266.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 45,
+                        "Net": "CMT",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 8,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$152.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 46,
+                        "Net": "DISC",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$25.00",
+                        "Total Cost": "$250.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 47,
+                        "Net": "DISC",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$25.00",
+                        "Total Cost": "$250.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 48,
+                        "Net": "DISC",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$25.00",
+                        "Total Cost": "$250.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 49,
+                        "Net": "DISC",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "-",
+                        "Total Spots": 4,
+                        "Unit Cost": "$37.00",
+                        "Total Cost": "$148.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 50,
+                        "Net": "DISC",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[X]",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$37.00",
+                        "Total Cost": "$148.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 51,
+                        "Net": "DISC",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "X",
+                        "T.1": "missing",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$37.00",
+                        "Total Cost": "$148.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 52,
+                        "Net": "DISC",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$50.00",
+                        "Total Cost": "$500.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 53,
+                        "Net": "DISC",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$50.00",
+                        "Total Cost": "$500.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 54,
+                        "Net": "DISC",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ] X",
+                        "T.1": "missing",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 8,
+                        "Unit Cost": "$50.00",
+                        "Total Cost": "$400.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 55,
+                        "Net": "ESP2",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[ ] X",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$9.00",
+                        "Total Cost": "$90.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 56,
+                        "Net": "ESP2",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$9.00",
+                        "Total Cost": "$90.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 57,
+                        "Net": "ESP2",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "X",
+                        "W": "[ ] X",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$9.00",
+                        "Total Cost": "$90.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 58,
+                        "Net": "ESP2",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "X",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$70.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 59,
+                        "Net": "ESP2",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[ ]",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$70.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 60,
+                        "Net": "ESP2",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$56.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 61,
+                        "Net": "ESP2",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$266.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 62,
+                        "Net": "ESP2",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[X]",
+                        "T": "missing",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$266.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 63,
+                        "Net": "ESP2",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 8,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$152.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Order #": "62924075"
+                    },
+                    {
+                        "Update Date": "09/15/21"
+                    },
+                    {
+                        "Version": "1 Vs. 1"
+                    },
+                    {
+                        "Syscode": "0166"
+                    },
+                    {
+                        "System Name": "\"Spectrum/Traverse City Interconnect, MI\""
+                    },
+                    {
+                        "Show All Lines": "missing"
+                    },
+                    {
+                        "Total # of Weeks": "3"
+                    },
+                    {
+                        "Market": "Traverse City"
+                    },
+                    {
+                        "Total": "\"$65,422.00\""
+                    },
+                    {
+                        "Client Code": "missing"
+                    },
+                    {
+                        "AE": "Leah Losier"
+                    },
+                    {
+                        "Commission": "\"$9,813.30\""
+                    },
+                    {
+                        "Product Code": "missing"
+                    },
+                    {
+                        "Net Total": "\"$55,608.70\""
+                    },
+                    {
+                        "Sales Coordinator": "Michael Ryan"
+                    },
+                    {
+                        "Est Code": "missing"
+                    },
+                    {
+                        "Product Name": "add to sked 9.16-9.30"
+                    },
+                    {
+                        "Office": "Chicago"
+                    },
+                    {
+                        "Total Spots": "2200"
+                    },
+                    {
+                        "Credit Status": "Cash in Advance"
+                    },
+                    {
+                        "Affiliate Split": "100.0"
+                    },
+                    {
+                        "Phone": "(312) 527-5755"
+                    },
+                    {
+                        "Status": "Accepted"
+                    },
+                    {
+                        "Sold On": "Cost Per Spot"
+                    },
+                    {
+                        "GRP": "GIMP"
+                    },
+                    {
+                        "Survey": "DMA Nielsen Live+3 Sep20"
+                    },
+                    {
+                        "Primary Demo": "Adults 18+"
+                    },
+                    {
+                        "CPP": "-"
+                    },
+                    {
+                        "Makegood Policy": "Approval Required"
+                    },
+                    {
+                        "CPM": "missing"
+                    },
+                    {
+                        "Comments": "9.14 new order. please confirm. thanks"
+                    },
+                    {
+                        "Line Net": "missing"
+                    },
+                    {
+                        "Program": "missing"
+                    },
+                    {
+                        "Page": "4 of 13"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": 64,
+                        "Net": "ESPN",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "missing",
+                        "T": "[ ]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "-",
+                        "Total Spots": 10,
+                        "Unit Cost": "$46.00",
+                        "Total Cost": "$460.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 65,
+                        "Net": "ESPN",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$46.00",
+                        "Total Cost": "$460.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 66,
+                        "Net": "ESPN",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "missing",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "-",
+                        "IMP": "-",
+                        "Total Spots": 10,
+                        "Unit Cost": "$46.00",
+                        "Total Cost": "$460.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 67,
+                        "Net": "ESPN",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "X",
+                        "S.1": "[ ] X",
+                        "RTG": "-",
+                        "IMP": "-",
+                        "Total Spots": 5,
+                        "Unit Cost": "$75.00",
+                        "Total Cost": "$375.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 68,
+                        "Net": "ESPN",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "missing",
+                        "T.1": "[ ]",
+                        "F": "missing",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$75.00",
+                        "Total Cost": "$375.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 69,
+                        "Net": "ESPN",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$75.00",
+                        "Total Cost": "$300.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 70,
+                        "Net": "ESPN",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "missing",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "-",
+                        "IMP": "-",
+                        "Total Spots": 14,
+                        "Unit Cost": "$96.00",
+                        "Total Cost": "$1,344.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 71,
+                        "Net": "ESPN",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$96.00",
+                        "Total Cost": "$1,344.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 72,
+                        "Net": "ESPN",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[X]",
+                        "T": "X",
+                        "W": "[ ] X",
+                        "T.1": "missing",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 8,
+                        "Unit Cost": "$96.00",
+                        "Total Cost": "$768.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 73,
+                        "Net": "FOOD",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$260.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 74,
+                        "Net": "FOOD",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$260.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 75,
+                        "Net": "FOOD",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "X",
+                        "W": "[ ] X",
+                        "T.1": "missing",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$260.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 76,
+                        "Net": "FOOD",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$43.00",
+                        "Total Cost": "$215.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 77,
+                        "Net": "FOOD",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$43.00",
+                        "Total Cost": "$215.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 78,
+                        "Net": "FOOD",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ] X",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$43.00",
+                        "Total Cost": "$172.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 79,
+                        "Net": "FOOD",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "X",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$54.00",
+                        "Total Cost": "$756.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 80,
+                        "Net": "FOOD",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$54.00",
+                        "Total Cost": "$756.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 81,
+                        "Net": "FOOD",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 8,
+                        "Unit Cost": "$54.00",
+                        "Total Cost": "$432.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 82,
+                        "Net": "FRFM",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "missing",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$17.00",
+                        "Total Cost": "$170.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 83,
+                        "Net": "FRFM",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "missing",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "X",
+                        "S.1": "X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$17.00",
+                        "Total Cost": "$170.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 84,
+                        "Net": "FRFM",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "missing",
+                        "W": "missing",
+                        "T.1": "missing",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$17.00",
+                        "Total Cost": "$170.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Order #": "62924075"
+                    },
+                    {
+                        "Update Date": "09/15/21"
+                    },
+                    {
+                        "Version": "1 Vs. 1"
+                    },
+                    {
+                        "Syscode": "0166"
+                    },
+                    {
+                        "System Name": "\"Spectrum/Traverse City Interconnect, MI\""
+                    },
+                    {
+                        "Show All Lines": "missing"
+                    },
+                    {
+                        "Total # of Weeks": "3"
+                    },
+                    {
+                        "Market": "Traverse City"
+                    },
+                    {
+                        "Total": "\"$65,422.00\""
+                    },
+                    {
+                        "Client Code": "missing"
+                    },
+                    {
+                        "AE": "Leah Losier"
+                    },
+                    {
+                        "Commission": "\"$9,813.30\""
+                    },
+                    {
+                        "Product Code": "missing"
+                    },
+                    {
+                        "Net Total": "\"$55,608.70\""
+                    },
+                    {
+                        "Sales Coordinator": "Michael Ryan"
+                    },
+                    {
+                        "Est Code": "missing"
+                    },
+                    {
+                        "Product Name": "add to sked 9.16-9.30"
+                    },
+                    {
+                        "Office": "Chicago"
+                    },
+                    {
+                        "Total Spots": "2200"
+                    },
+                    {
+                        "Credit Status": "Cash in Advance"
+                    },
+                    {
+                        "Affiliate Split": "100.0"
+                    },
+                    {
+                        "Phone": "(312) 527-5755"
+                    },
+                    {
+                        "Sold On": "Cost Per Spot"
+                    },
+                    {
+                        "Status": "Accepted"
+                    },
+                    {
+                        "GRP": "GIMP"
+                    },
+                    {
+                        "Survey": "DMA Nielsen Live+3 Sep20"
+                    },
+                    {
+                        "Primary Demo": "Adults 18+"
+                    },
+                    {
+                        "CPP": "-"
+                    },
+                    {
+                        "Makegood Policy": "Approval Required"
+                    },
+                    {
+                        "Comments": "9.14 new order. please confirm. thanks"
+                    },
+                    {
+                        "Line": "missing"
+                    },
+                    {
+                        "Page": "5 of 13"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": 85,
+                        "Net": "FRFM",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$130.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 86,
+                        "Net": "FREM",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$130.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 87,
+                        "Net": "FRFM",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "[X]",
+                        "T.1": "[X]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$26.00",
+                        "Total Cost": "$104.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 88,
+                        "Net": "FRFM",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$33.00",
+                        "Total Cost": "$462.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 89,
+                        "Net": "FRFM",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "missing",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$33.00",
+                        "Total Cost": "$462.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 90,
+                        "Net": "FRFM",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 8,
+                        "Unit Cost": "$33.00",
+                        "Total Cost": "$264.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 91,
+                        "Net": "FS1",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$8.00",
+                        "Total Cost": "$80.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 92,
+                        "Net": "FS1",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "[ ] X",
+                        "W": "missing",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$8.00",
+                        "Total Cost": "$80.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 93,
+                        "Net": "FS1",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "[ ] X",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$8.00",
+                        "Total Cost": "$80.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 94,
+                        "Net": "FS1",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$70.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 95,
+                        "Net": "FS1",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "missing",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$70.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 96,
+                        "Net": "FS1",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "X",
+                        "T.1": "[X]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$56.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 97,
+                        "Net": "FS1",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "X",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$266.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 98,
+                        "Net": "FS1",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "missing",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 14,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$266.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 99,
+                        "Net": "FS1",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "19:00",
+                        "Stop Time": "24:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "[ ] X",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 8,
+                        "Unit Cost": "$19.00",
+                        "Total Cost": "$152.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 100,
+                        "Net": "FSD",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "X",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$9.00",
+                        "Total Cost": "$90.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 101,
+                        "Net": "FSD",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[ ]",
+                        "T": "[ ] X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ] X",
+                        "S.1": "[ ] X",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$9.00",
+                        "Total Cost": "$90.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 102,
+                        "Net": "FSD",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "09:00",
+                        "Stop Time": "16:00",
+                        "M": "[X]",
+                        "T": "X",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 10,
+                        "Unit Cost": "$9.00",
+                        "Total Cost": "$90.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 103,
+                        "Net": "FSD",
+                        "Program": "CABLE",
+                        "Start Date": "9/13/21",
+                        "Stop Date": "9/19/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[ ]",
+                        "T": "[ ]",
+                        "W": "[ ]",
+                        "T.1": "[X]",
+                        "F": "[ ] X",
+                        "S": "[ ] X",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$70.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 104,
+                        "Net": "FSD",
+                        "Program": "CABLE",
+                        "Start Date": "9/20/21",
+                        "Stop Date": "9/26/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "[ ]",
+                        "T.1": "[ ]",
+                        "F": "[ ]",
+                        "S": "X",
+                        "S.1": "[X]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 5,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$70.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    },
+                    {
+                        "Line": 105,
+                        "Net": "FSD",
+                        "Program": "CABLE",
+                        "Start Date": "9/27/21",
+                        "Stop Date": "10/3/21",
+                        "Start Time": "16:00",
+                        "Stop Time": "19:00",
+                        "M": "[X]",
+                        "T": "[X]",
+                        "W": "[ ]",
+                        "T.1": "missing",
+                        "F": "[ ]",
+                        "S": "[ ]",
+                        "S.1": "[ ]",
+                        "RTG": "[ ] -",
+                        "IMP": "[ ] -",
+                        "Total Spots": 4,
+                        "Unit Cost": "$14.00",
+                        "Total Cost": "$56.00",
+                        "Spot Len": 30,
+                        "Line Comment": "OOW 06/28/21-09/26/21"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,1082 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Bill To": "\"MEDIUM 1351 2ND COLUMBUS, KING BUYING FLOOR AVENUE LLC OH 43212\""
+                    },
+                    {
+                        "Agcy#2094": "missing"
+                    },
+                    {
+                        "Advt#2095": "missing"
+                    },
+                    {
+                        "Terms": "Due on Receipt"
+                    },
+                    {
+                        "Day": "Date"
+                    },
+                    {
+                        "Thu": "missing"
+                    },
+                    {
+                        "Printed": "4/1/2019 8:22:06 AM"
+                    },
+                    {
+                        "Page": "1"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Day": "Wed",
+                        "Date": "10/31/18",
+                        "Time": "6:17AM",
+                        "Len": 60,
+                        "Line #": 805910,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Wed",
+                        "Date": "10/31/18",
+                        "Time": "7:39AM",
+                        "Len": 60,
+                        "Line #": 805910,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Wed",
+                        "Date": "10/31/18",
+                        "Time": "10:49AM",
+                        "Len": 60,
+                        "Line #": 805911,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Wed",
+                        "Date": "10/31/18",
+                        "Time": "5:49PM",
+                        "Len": 60,
+                        "Line #": 805912,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Wed",
+                        "Date": "10/31/18",
+                        "Time": "6:48PM",
+                        "Len": 60,
+                        "Line #": 805912,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Thu",
+                        "Date": "11/01/18",
+                        "Time": "8:50AM",
+                        "Len": 60,
+                        "Line #": 805910,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Thu",
+                        "Date": "11/01/18",
+                        "Time": "9:49AM",
+                        "Len": 60,
+                        "Line #": 805910,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Thu",
+                        "Date": "11/01/18",
+                        "Time": "12:30PM",
+                        "Len": 60,
+                        "Line #": 805911,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Thu",
+                        "Date": "11/01/18",
+                        "Time": "2:30PM",
+                        "Len": 60,
+                        "Line #": 805911,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Thu",
+                        "Date": "11/01/18",
+                        "Time": "4:48PM",
+                        "Len": 60,
+                        "Line #": 805912,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Thu",
+                        "Date": "11/01/18",
+                        "Time": "6:48PM",
+                        "Len": 60,
+                        "Line #": 805912,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "11/02/18",
+                        "Time": "6:39AM",
+                        "Len": 60,
+                        "Line #": 805910,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "11/02/18",
+                        "Time": "8:51AM",
+                        "Len": 60,
+                        "Line #": 805910,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "11/02/18",
+                        "Time": "11:50AM",
+                        "Len": 60,
+                        "Line #": 805911,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "11/02/18",
+                        "Time": "1:37PM",
+                        "Len": 60,
+                        "Line #": 805911,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "11/02/18",
+                        "Time": "2:37PM",
+                        "Len": 60,
+                        "Line #": 805911,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "11/02/18",
+                        "Time": "3:50PM",
+                        "Len": 60,
+                        "Line #": 805912,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "11/02/18",
+                        "Time": "4:49PM",
+                        "Len": 60,
+                        "Line #": 805912,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "11/05/18",
+                        "Time": "6:49AM",
+                        "Len": 60,
+                        "Line #": 805915,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "11/05/18",
+                        "Time": "7:39AM",
+                        "Len": 60,
+                        "Line #": 805915,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "11/05/18",
+                        "Time": "10:38AM",
+                        "Len": 60,
+                        "Line #": 805913,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "11/05/18",
+                        "Time": "12:29PM",
+                        "Len": 60,
+                        "Line #": 805913,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "11/05/18",
+                        "Time": "1:29PM",
+                        "Len": 60,
+                        "Line #": 805913,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "11/05/18",
+                        "Time": "2:17PM",
+                        "Len": 60,
+                        "Line #": 805913,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "11/05/18",
+                        "Time": "3:29PM",
+                        "Len": 60,
+                        "Line #": 805914,
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Bill To": "\"MEDIUM 1351 2ND COLUMBUS, KING BUYING FLOOR AVENUE LLC OH 43212\""
+                    },
+                    {
+                        "Agcy#2094": "missing"
+                    },
+                    {
+                        "Advt#2095": "missing"
+                    },
+                    {
+                        "Mon": "missing"
+                    },
+                    {
+                        "Tue": "missing"
+                    },
+                    {
+                        "Total Spots": "30"
+                    },
+                    {
+                        "Gross Amount": "$600.00"
+                    },
+                    {
+                        "Agency Commission": "$90.00"
+                    },
+                    {
+                        "Net Amount": "$510.00"
+                    },
+                    {
+                        "V": "4.1"
+                    },
+                    {
+                        "Printed": "4/1/2019 8:22:06 AM"
+                    },
+                    {
+                        "Page": "2"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Day": "Mon",
+                        "Date": "11/05/18",
+                        "Time": "4:28PM",
+                        "Len": "60",
+                        "Line #": "805914",
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "11/05/18",
+                        "Time": "5:28PM",
+                        "Len": "60",
+                        "Line #": "805914",
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "11/05/18",
+                        "Time": "6:37PM",
+                        "Len": "60",
+                        "Line #": "805914",
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "11/06/18",
+                        "Time": "6:37AM",
+                        "Len": "60",
+                        "Line #": "805915",
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34 & HD91-MUSKEGON RADIO AD A"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "11/06/18",
+                        "Time": "7:39AM",
+                        "Len": "60",
+                        "Line #": "805915",
+                        "Rate": "$20.00",
+                        "CI": "B",
+                        "Product": "MIGOP-MISD34&HD91-MUSKEGON RADIO AD B"
+                    },
+                    {
+                        "Day": "missing",
+                        "Date": "missing",
+                        "Time": "missing",
+                        "Len": "missing",
+                        "Line #": "missing",
+                        "Rate": "missing",
+                        "CI": "missing",
+                        "Product": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Cape": "missing"
+                    },
+                    {
+                        "Bill To": "\"Schlegel 504 Eggert Castle Advertising Ave Hayne, NC 28429\""
+                    },
+                    {
+                        "Randy Burton for Pender County Sherrif": "Advt#284379 Agcy#25346"
+                    },
+                    {
+                        "Thu": "missing"
+                    },
+                    {
+                        "Total Spots": "26"
+                    },
+                    {
+                        "Gross Amount": "$756.00"
+                    },
+                    {
+                        "Agency Commission": "$113.40"
+                    },
+                    {
+                        "Net Amount": "$642.60"
+                    },
+                    {
+                        "V": "4.1"
+                    },
+                    {
+                        "Printed": "12/19/2018 6:22:05 PM"
+                    },
+                    {
+                        "Page": "1"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Gross Amount": "Agency Commission",
+                        "$756.00": "$113.40"
+                    },
+                    {
+                        "Gross Amount": "Net Amount",
+                        "$756.00": "$642.60"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Cape": "Fear's"
+                    },
+                    {
+                        "Bill To": "\"Schlegel 504 Eggert Castle Advertising Ave Hayne, NC 28429\""
+                    },
+                    {
+                        "Randy Burton for Pender County Sherrif": "Advt#284379 Agcy#25346"
+                    },
+                    {
+                        "Total Spots": "22"
+                    },
+                    {
+                        "Gross Amount": "$616.00"
+                    },
+                    {
+                        "Agency Commission": "$92.40"
+                    },
+                    {
+                        "Net Amount": "$523.60"
+                    },
+                    {
+                        "V": "4.1"
+                    },
+                    {
+                        "Printed": "12/19/2018 6:22:05 PM"
+                    },
+                    {
+                        "Page": "2"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Day": "Tue",
+                        "Date": "05/01/18",
+                        "Time": "6:43AM",
+                        "Len": "30",
+                        "Line #": "3116855",
+                        "Rate": "$30.00",
+                        "CI": "T",
+                        "Product": "EXPERIENCE"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "05/01/18",
+                        "Time": "10:13AM",
+                        "Len": "30",
+                        "Line #": "3116858",
+                        "Rate": "$32.00",
+                        "CI": "T",
+                        "Product": "IMAGE"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "05/01/18",
+                        "Time": "4:46PM",
+                        "Len": "30",
+                        "Line #": "3116862",
+                        "Rate": "$30.00",
+                        "CI": "T",
+                        "Product": "EXPERIENCE"
+                    },
+                    {
+                        "Day": "Wed",
+                        "Date": "05/02/18",
+                        "Time": "9:46AM",
+                        "Len": "30",
+                        "Line #": "3116855",
+                        "Rate": "$30.00",
+                        "CI": "T",
+                        "Product": "IMAGE"
+                    },
+                    {
+                        "Day": "Wed",
+                        "Date": "05/02/18",
+                        "Time": "10:16AM",
+                        "Len": "30",
+                        "Line #": "3116858",
+                        "Rate": "$32.00",
+                        "CI": "T",
+                        "Product": "EXPERIENCE"
+                    },
+                    {
+                        "Day": "Wed",
+                        "Date": "05/02/18",
+                        "Time": "3:17PM",
+                        "Len": "30",
+                        "Line #": "3116862",
+                        "Rate": "$30.00",
+                        "CI": "T",
+                        "Product": "IMAGE"
+                    },
+                    {
+                        "Day": "Thu",
+                        "Date": "05/03/18",
+                        "Time": "9:45AM",
+                        "Len": "30",
+                        "Line #": "3116855",
+                        "Rate": "$30.00",
+                        "CI": "T",
+                        "Product": "EXPERIENCE"
+                    },
+                    {
+                        "Day": "Thu",
+                        "Date": "05/03/18",
+                        "Time": "2:14PM",
+                        "Len": "30",
+                        "Line #": "3116858",
+                        "Rate": "$32.00",
+                        "CI": "T",
+                        "Product": "IMAGE"
+                    },
+                    {
+                        "Day": "Thu",
+                        "Date": "05/03/18",
+                        "Time": "4:47PM",
+                        "Len": "30",
+                        "Line #": "3116862",
+                        "Rate": "$30.00",
+                        "CI": "T",
+                        "Product": "EXPERIENCE"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "05/04/18",
+                        "Time": "7:44AM",
+                        "Len": "30",
+                        "Line #": "3116855",
+                        "Rate": "$30.00",
+                        "CI": "T",
+                        "Product": "EXPERIENCE"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "05/04/18",
+                        "Time": "1:14PM",
+                        "Len": "30",
+                        "Line #": "3116858",
+                        "Rate": "$32.00",
+                        "CI": "T",
+                        "Product": "IMAGE"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "05/04/18",
+                        "Time": "5:14PM",
+                        "Len": "30",
+                        "Line #": "3116862",
+                        "Rate": "$30.00",
+                        "CI": "T",
+                        "Product": "EXPERIENCE"
+                    },
+                    {
+                        "Day": "Sat",
+                        "Date": "05/05/18",
+                        "Time": "6:29AM",
+                        "Len": "30",
+                        "Line #": "3116865",
+                        "Rate": "$18.00",
+                        "CI": "T",
+                        "Product": "IMAGE"
+                    },
+                    {
+                        "Day": "Sat",
+                        "Date": "05/05/18",
+                        "Time": "10:17AM",
+                        "Len": "30",
+                        "Line #": "3116867",
+                        "Rate": "$18.00",
+                        "CI": "T",
+                        "Product": "IMAGE"
+                    },
+                    {
+                        "Day": "Sun",
+                        "Date": "05/06/18",
+                        "Time": "6:28AM",
+                        "Len": "30",
+                        "Line #": "3116868",
+                        "Rate": "$10.00",
+                        "CI": "T",
+                        "Product": "EXPERIENCE"
+                    },
+                    {
+                        "Day": "Sun",
+                        "Date": "05/06/18",
+                        "Time": "12:12PM",
+                        "Len": "30",
+                        "Line #": "3116869",
+                        "Rate": "$18.00",
+                        "CI": "T",
+                        "Product": "IMAGE"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "05/07/18",
+                        "Time": "8:23AM",
+                        "Len": "30",
+                        "Line #": "3116855",
+                        "Rate": "$30.00",
+                        "CI": "T",
+                        "Product": "EXPERIENCE"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "05/07/18",
+                        "Time": "12:12PM",
+                        "Len": "30",
+                        "Line #": "3116859",
+                        "Rate": "$32.00",
+                        "CI": "T",
+                        "Product": "IMAGE"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "05/07/18",
+                        "Time": "3:16PM",
+                        "Len": "30",
+                        "Line #": "3116863",
+                        "Rate": "$30.00",
+                        "CI": "T",
+                        "Product": "EXPERIENCE"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "05/08/18",
+                        "Time": "6:24AM",
+                        "Len": "30",
+                        "Line #": "3116855",
+                        "Rate": "$30.00",
+                        "CI": "T",
+                        "Product": "IMAGE"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "05/08/18",
+                        "Time": "1:12PM",
+                        "Len": "30",
+                        "Line #": "3116859",
+                        "Rate": "$32.00",
+                        "CI": "T",
+                        "Product": "EXPERIENCE"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "05/08/18",
+                        "Time": "3:16PM",
+                        "Len": "30",
+                        "Line #": "3116863",
+                        "Rate": "$30.00",
+                        "CI": "T",
+                        "Product": "IMAGE"
+                    },
+                    {
+                        "Day": "missing",
+                        "Date": "missing",
+                        "Time": "missing",
+                        "Len": "missing",
+                        "Line #": "missing",
+                        "Rate": "missing",
+                        "CI": "missing",
+                        "Product": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "SUITE": "missing"
+                    },
+                    {
+                        "Bill To": "\"STRATEGIC 1911 ARLINGTON, N FORT 400 MEDIA MYER SERVICES VA DR 22209\""
+                    },
+                    {
+                        "Advt#2065": "missing"
+                    },
+                    {
+                        "Terms": "Due on Receipt"
+                    },
+                    {
+                        "Day": "Date"
+                    },
+                    {
+                        "Tue": "missing"
+                    },
+                    {
+                        "Printed": "4/1/2019 8:15:13 AM"
+                    },
+                    {
+                        "Page": "1"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Day": "Fri",
+                        "Date": "10/05/18",
+                        "Time": "6:37AM",
+                        "Len": 30,
+                        "Line #": 792877,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "10/05/18",
+                        "Time": "7:28AM",
+                        "Len": 30,
+                        "Line #": 792877,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "10/05/18",
+                        "Time": "7:50AM",
+                        "Len": 30,
+                        "Line #": 792877,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "10/05/18",
+                        "Time": "8:37AM",
+                        "Len": 30,
+                        "Line #": 792877,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "10/05/18",
+                        "Time": "10:39AM",
+                        "Len": 30,
+                        "Line #": 792878,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "10/05/18",
+                        "Time": "11:29AM",
+                        "Len": 30,
+                        "Line #": 792878,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "10/05/18",
+                        "Time": "12:38PM",
+                        "Len": 30,
+                        "Line #": 792878,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "10/05/18",
+                        "Time": "1:38PM",
+                        "Len": 30,
+                        "Line #": 792878,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "10/05/18",
+                        "Time": "3:49PM",
+                        "Len": 30,
+                        "Line #": 792879,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "10/05/18",
+                        "Time": "4:38PM",
+                        "Len": 30,
+                        "Line #": 792879,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "10/05/18",
+                        "Time": "5:29PM",
+                        "Len": 30,
+                        "Line #": 792879,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Fri",
+                        "Date": "10/05/18",
+                        "Time": "5:49PM",
+                        "Len": 30,
+                        "Line #": 792879,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "10/08/18",
+                        "Time": "6:17AM",
+                        "Len": 30,
+                        "Line #": 792880,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "10/08/18",
+                        "Time": "7:38AM",
+                        "Len": 30,
+                        "Line #": 792880,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "10/08/18",
+                        "Time": "8:50AM",
+                        "Len": 30,
+                        "Line #": 792880,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "10/08/18",
+                        "Time": "9:38AM",
+                        "Len": 30,
+                        "Line #": 792880,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "10/08/18",
+                        "Time": "10:38AM",
+                        "Len": 30,
+                        "Line #": 792881,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "10/08/18",
+                        "Time": "12:39PM",
+                        "Len": 30,
+                        "Line #": 792881,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "10/08/18",
+                        "Time": "1:38PM",
+                        "Len": 30,
+                        "Line #": 792881,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "10/08/18",
+                        "Time": "2:28PM",
+                        "Len": 30,
+                        "Line #": 792881,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "10/08/18",
+                        "Time": "3:37PM",
+                        "Len": 30,
+                        "Line #": 792882,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "10/08/18",
+                        "Time": "4:38PM",
+                        "Len": 30,
+                        "Line #": 792882,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "10/08/18",
+                        "Time": "5:38PM",
+                        "Len": 30,
+                        "Line #": 792882,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Mon",
+                        "Date": "10/08/18",
+                        "Time": "6:37PM",
+                        "Len": 30,
+                        "Line #": 792882,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "10/09/18",
+                        "Time": "6:39AM",
+                        "Len": 30,
+                        "Line #": 792883,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "10/09/18",
+                        "Time": "7:38AM",
+                        "Len": 30,
+                        "Line #": 792883,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "10/09/18",
+                        "Time": "8:38AM",
+                        "Len": 30,
+                        "Line #": 792883,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "10/09/18",
+                        "Time": "9:49AM",
+                        "Len": 30,
+                        "Line #": 792883,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "10/09/18",
+                        "Time": "10:38AM",
+                        "Len": 30,
+                        "Line #": 792884,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "10/09/18",
+                        "Time": "11:39AM",
+                        "Len": 30,
+                        "Line #": 792884,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    },
+                    {
+                        "Day": "Tue",
+                        "Date": "10/09/18",
+                        "Time": "1:28PM",
+                        "Len": 30,
+                        "Line #": 792884,
+                        "Rate": "$10.00",
+                        "CI": "B",
+                        "Product": "Greg VanWoerkom_Radio30_v2"
+                    }
+                ]
+            }
+        ]
+    }
+]

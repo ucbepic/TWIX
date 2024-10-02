@@ -1,0 +1,1525 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "P.O. BOX": "missing"
+                    },
+                    {
+                        "Remit To": "\"CBS Television NEWARK, 33091 Stations NJ 07188-0091\""
+                    },
+                    {
+                        "Invoice Num": "1041-556238"
+                    },
+                    {
+                        "Page": "1 of 6"
+                    },
+                    {
+                        "Invoice Date": "10/14/2012"
+                    },
+                    {
+                        "Billing Cycle": "Weekly"
+                    },
+                    {
+                        "PO BOX": "missing"
+                    },
+                    {
+                        "PAY BY": "11/13/2012 Net 30 days"
+                    },
+                    {
+                        "Billing Period": "10/01/2012-10/14/2012"
+                    },
+                    {
+                        "For": "\"BOB CASEY Philadelphia, 58746 FOR SENATE(215421) PA 19102-8746\""
+                    },
+                    {
+                        "In Account": "SHORR JOHNSON MAGNUS(39976)"
+                    },
+                    {
+                        "Ste": "missing"
+                    },
+                    {
+                        "Product Desc": "CASEY FOR SENATE"
+                    },
+                    {
+                        "ATTNAccounts Payable": "missing"
+                    },
+                    {
+                        "With": "\"1831 Philadelphia, Chestnut St PA 19103-3700 602\""
+                    },
+                    {
+                        "Total": "missing"
+                    },
+                    {
+                        "Buy Line": "1"
+                    },
+                    {
+                        "Spots": "4"
+                    },
+                    {
+                        "Description": "missing"
+                    },
+                    {
+                        "Flight": "CBS THIS MORNING"
+                    },
+                    {
+                        "Buy Line Dates": "10/02/2012-10/05/2012"
+                    },
+                    {
+                        "We": "missing"
+                    },
+                    {
+                        "2 CBS THIS MORNING": "10/08/2012-10/08/2012 M 30 1 405.00"
+                    },
+                    {
+                        "Mo": "08:28:01 AM"
+                    },
+                    {
+                        "Air Time": "missing"
+                    },
+                    {
+                        "Day": "missing"
+                    },
+                    {
+                        "M/G For": "missing"
+                    },
+                    {
+                        "TWTF": "30 4 810.00"
+                    },
+                    {
+                        "THIS MORNING (558-7AM)": "10/02/2012-10/05/2012"
+                    },
+                    {
+                        "Warranty": "We warrant the above broadcasts were made according to the official station log."
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Buy Line": 1,
+                        "Flight Description": "CBS THIS MORNING",
+                        "Buy Line Dates": "10/02/2012-10/05/2012",
+                        "MTWTFSS": "TWTF",
+                        "Dur": 30,
+                        "Total Spots": 4,
+                        "Rate": 405.0
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Week Of": "10/01/2012-10/07/2012",
+                        "MTWTFSS": "TWTF.",
+                        "Spots Per Week": 4,
+                        "Rate": 405.0
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Air Date": "10/02/2012",
+                        "Day": "Tu",
+                        "Air Time": "08:27:26 AM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 405.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/03/2012",
+                        "Day": "We",
+                        "Air Time": "08:59:21 AM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 405.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/04/2012",
+                        "Day": "Th",
+                        "Air Time": "08:15:02 AM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 405.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/05/2012",
+                        "Day": "Fr",
+                        "Air Time": "08:24:16 AM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 405.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Week Of": "10/08/2012-10/14/2012",
+                        "MTWTFSS": "M",
+                        "Spots Per Week": 1,
+                        "Rate": 405.0
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Air Date": "10/08/2012",
+                        "Day": "Mo",
+                        "Air Time": "08:28:01 AM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 405.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Week Of": "10/01/2012-10/07/2012",
+                        "MTWTFSS": "TWTF.",
+                        "Spots Per Week": 4,
+                        "Rate": 810.0
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Air Date": "10/02/2012",
+                        "Day": "Tu",
+                        "Air Time": "06:52:04 AM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 810.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/03/2012",
+                        "Day": "We",
+                        "Air Time": "06:17:44 AM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 810.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/04/2012",
+                        "Day": "Th",
+                        "Air Time": "06:58:00 AM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 810.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/05/2012",
+                        "Day": "Fr",
+                        "Air Time": "06:17:38 AM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 810.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "P.O. BOX": "33091"
+                    },
+                    {
+                        "CBS TELEVISION STATIONS": "CW"
+                    },
+                    {
+                        "Invoice Num": "1041-556238"
+                    },
+                    {
+                        "Page": "2 of 6"
+                    },
+                    {
+                        "Invoice Date": "10/14/2012"
+                    },
+                    {
+                        "Billing Cycle": "Weekly"
+                    },
+                    {
+                        "PO BOX": "58746"
+                    },
+                    {
+                        "Net": "missing"
+                    },
+                    {
+                        "PAY BY": "11/13/2012 30 days"
+                    },
+                    {
+                        "Billing Period": "10/01/2012-10/14/2012"
+                    },
+                    {
+                        "In Account": "SHORR JOHNSON MAGNUS(39976)"
+                    },
+                    {
+                        "St Ste": "missing"
+                    },
+                    {
+                        "Product Desc": "CASEY FOR SENATE"
+                    },
+                    {
+                        "ATTNAccounts Payable": "missing"
+                    },
+                    {
+                        "With": "\"1831 Philadelphia, Chestnut PA 19103-3700 602\""
+                    },
+                    {
+                        "Total": "missing"
+                    },
+                    {
+                        "Flight": "missing"
+                    },
+                    {
+                        "Buy Line": "4"
+                    },
+                    {
+                        "Spots": "1"
+                    },
+                    {
+                        "Buy Line Dates": "10/08/2012-10/08/2012"
+                    },
+                    {
+                        "Description": "(5:58-7AM)"
+                    },
+                    {
+                        "THIS MORNING": "missing"
+                    },
+                    {
+                        "ENTERTAINMENT TONIGHT": "10/02/2012-10/05/2012"
+                    },
+                    {
+                        "We": "missing"
+                    },
+                    {
+                        "Th": "missing"
+                    },
+                    {
+                        "Fr": "missing"
+                    },
+                    {
+                        "6 ENTERTAINMENT TONIGHT": "\"10/08/2012-10/08/2012 M 30 1 1,260.00\""
+                    },
+                    {
+                        "Mo": "06:59:27 PM"
+                    },
+                    {
+                        "7 NAVY NCIS": "\"10/02/2012-10/02/2012 T 30 1 13,500.00\""
+                    },
+                    {
+                        "Warranty": "We warrant the above broadcasts were made according to the official station log."
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Buy Line": 4,
+                        "Flight Description": "THIS MORNING (5:58-7AM)",
+                        "Buy Line Dates": "10/08/2012-10/08/2012",
+                        "MTWTFSS": "M",
+                        "Dur": 30,
+                        "Total Spots": 1,
+                        "Rate": 810.0
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Air Date": "10/02/2012",
+                        "Day": "Tu",
+                        "Air Time": "07:25:45 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": "30",
+                        "Rate": "1,080.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/03/2012",
+                        "Day": "We",
+                        "Air Time": "07:12:08 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": "30",
+                        "Rate": "1,080.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/04/2012",
+                        "Day": "Th",
+                        "Air Time": "07:16:27 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": "30",
+                        "Rate": "1,080.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/05/2012",
+                        "Day": "Fr",
+                        "Air Time": "07:26:08 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": "30",
+                        "Rate": "1,080.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "6 ENTERTAINMENT TONIGHT",
+                        "Day": "missing",
+                        "Air Time": "missing",
+                        "M/G For": "missing",
+                        "Material": "10/08/2012-10/08/2012",
+                        "Dur": "M",
+                        "Rate": "missing",
+                        "Debit": "30",
+                        "Credit": "1",
+                        "Remarks": "1,260.00"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Week Of": "10/08/2012-10/14/2012",
+                        "MTWTFSS": "M",
+                        "Spots Per Week": 1,
+                        "Rate": "1,260.00"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Week Of": "10/01/2012-10/07/2012",
+                        "MTWTFSS": "T",
+                        "Spots Per Week": 1,
+                        "Rate": "13,500.00"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Air Date": "10/02/2012",
+                        "Day": "Tu",
+                        "Air Time": "08:35:46 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": "13,500.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Invoice Num": "1041-556238"
+                    },
+                    {
+                        "Account Exec": "JOHN LINK POL."
+                    },
+                    {
+                        "Page": "3 of 6"
+                    },
+                    {
+                        "Office": "GWTS-PH"
+                    },
+                    {
+                        "Invoice Date": "10/14/2012"
+                    },
+                    {
+                        "Contract Num": "1041-80687"
+                    },
+                    {
+                        "Billing Cycle": "Weekly"
+                    },
+                    {
+                        "Contract Dates": "10/02/2012-10/08/2012"
+                    },
+                    {
+                        "Net": "missing"
+                    },
+                    {
+                        "PAY BY": "11/13/2012 30 days"
+                    },
+                    {
+                        "Billing Period": "10/01/2012-10/14/2012"
+                    },
+                    {
+                        "Customer Order": "missing"
+                    },
+                    {
+                        "Linked Order": "missing"
+                    },
+                    {
+                        "CPE": "/ /"
+                    },
+                    {
+                        "Product Desc": "CASEY FOR SENATE"
+                    },
+                    {
+                        "Total": "missing"
+                    },
+                    {
+                        "Buy Line": "missing"
+                    },
+                    {
+                        "Flight": "Description"
+                    },
+                    {
+                        "Spots": "1"
+                    },
+                    {
+                        "SURVIVOR XXV": "PHILLIPINES"
+                    },
+                    {
+                        "Buy Line Dates": "10/03/2012-10/03/2012"
+                    },
+                    {
+                        "PERSON OF INTEREST": "\"10/04/2012-10/04/2012 T 30 1 9,000.00\""
+                    },
+                    {
+                        "THE AMAZING RACE": "\"10/07/2012-10/07/2012 S 30 1 6,750.00\""
+                    },
+                    {
+                        "11 THE GOOD WIFE": "\"10/07/2012-10/07/2012 S 30 1 8,100.00\""
+                    },
+                    {
+                        "Warranty": "We warrant the above broadcasts were made according to the official station log."
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Invoice Num:": "Invoice Date:",
+                        "1041-556238": "10/14/2012"
+                    },
+                    {
+                        "Invoice Num:": "Billing Cycle:",
+                        "1041-556238": "Weekly"
+                    },
+                    {
+                        "Invoice Num:": "Billing Period:",
+                        "1041-556238": "10/01/2012-10/14/2012"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Buy Line": "8",
+                        "Flight Description": "SURVIVOR XXV: PHILLIPINES",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.2": "10/03/2012-10/03/2012",
+                        "missing.3": "missing",
+                        "MTWTFSS": "W",
+                        "Dur": "30",
+                        "missing.4": "missing",
+                        "Total Spots": "1",
+                        "Rate": "9,000.00"
+                    },
+                    {
+                        "Buy Line": "missing",
+                        "Flight Description": "Week Of",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "Buy Line Dates": "MTWTFSS",
+                        "missing.2": "missing",
+                        "missing.3": "Spots Per Week",
+                        "MTWTFSS": "Rate",
+                        "Dur": "missing",
+                        "missing.4": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "10/01/2012-10/07/2012",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "Buy Line Dates": "..W 1",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "MTWTFSS": "9,000.00",
+                        "Dur": "missing",
+                        "missing.4": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "Air Date",
+                        "Flight Description": "missing",
+                        "missing": "Day",
+                        "missing.1": "Air Time",
+                        "Buy Line Dates": "M/G For",
+                        "missing.2": "Material",
+                        "missing.3": "missing",
+                        "MTWTFSS": "Dur Rate",
+                        "Dur": "Debit",
+                        "missing.4": "missing",
+                        "Total Spots": "Credit",
+                        "Rate": "Remarks"
+                    },
+                    {
+                        "Buy Line": "10/03/2012",
+                        "Flight Description": "missing",
+                        "missing": "We",
+                        "missing.1": "08:31:17 PM",
+                        "Buy Line Dates": "BCTV1203H",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "MTWTFSS": "30 9,000.00",
+                        "Dur": "missing",
+                        "missing.4": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "9 PERSON OF INTEREST 10/04/2012-10/04/2012",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "MTWTFSS": "T",
+                        "Dur": "missing",
+                        "missing.4": "30",
+                        "Total Spots": "1",
+                        "Rate": "9,000.00"
+                    },
+                    {
+                        "Buy Line": "missing",
+                        "Flight Description": "Week Of",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "Buy Line Dates": "MTWTFSS",
+                        "missing.2": "missing",
+                        "missing.3": "Spots Per Week",
+                        "MTWTFSS": "Rate",
+                        "Dur": "missing",
+                        "missing.4": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "10/01/2012-10/07/2012",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "Buy Line Dates": "1",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "MTWTFSS": "9,000.00",
+                        "Dur": "missing",
+                        "missing.4": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "Air Date",
+                        "Flight Description": "missing",
+                        "missing": "Day",
+                        "missing.1": "Air Time",
+                        "Buy Line Dates": "M/G For",
+                        "missing.2": "Material",
+                        "missing.3": "missing",
+                        "MTWTFSS": "Dur Rate",
+                        "Dur": "Debit",
+                        "missing.4": "missing",
+                        "Total Spots": "Credit",
+                        "Rate": "Remarks"
+                    },
+                    {
+                        "Buy Line": "10/04/2012",
+                        "Flight Description": "missing",
+                        "missing": "Th",
+                        "missing.1": "09:48:03 PM",
+                        "Buy Line Dates": "missing",
+                        "missing.2": "BCTV1203H",
+                        "missing.3": "missing",
+                        "MTWTFSS": "30 9,000.00",
+                        "Dur": "missing",
+                        "missing.4": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "10 THE AMAZING RACE 10/07/2012-10/07/2012",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "MTWTFSS": "S",
+                        "Dur": "missing",
+                        "missing.4": "30",
+                        "Total Spots": "1",
+                        "Rate": "6,750.00"
+                    },
+                    {
+                        "Buy Line": "missing",
+                        "Flight Description": "Week Of",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "Buy Line Dates": "MTWTFSS",
+                        "missing.2": "missing",
+                        "missing.3": "Spots Per Week",
+                        "MTWTFSS": "Rate",
+                        "Dur": "missing",
+                        "missing.4": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "10/01/2012-10/07/2012",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "Buy Line Dates": "S",
+                        "missing.2": "1",
+                        "missing.3": "missing",
+                        "MTWTFSS": "6,750.00",
+                        "Dur": "missing",
+                        "missing.4": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "Air Date",
+                        "Flight Description": "missing",
+                        "missing": "Day",
+                        "missing.1": "Air Time",
+                        "Buy Line Dates": "M/G For",
+                        "missing.2": "Material",
+                        "missing.3": "missing",
+                        "MTWTFSS": "Dur Rate",
+                        "Dur": "Debit",
+                        "missing.4": "missing",
+                        "Total Spots": "Credit",
+                        "Rate": "Remarks"
+                    },
+                    {
+                        "Buy Line": "10/07/2012 Su",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "missing.1": "09:21:27 PM",
+                        "Buy Line Dates": "missing",
+                        "missing.2": "BCTV1203H",
+                        "missing.3": "missing",
+                        "MTWTFSS": "30 6,750.00",
+                        "Dur": "missing",
+                        "missing.4": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "11 THE GOOD WIFE",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.2": "10/07/2012-10/07/2012",
+                        "missing.3": "missing",
+                        "MTWTFSS": "S",
+                        "Dur": "missing",
+                        "missing.4": "30",
+                        "Total Spots": "1",
+                        "Rate": "8,100.00"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Week Of": "10/01/2012-10/07/2012",
+                        "MTWTFSS": "S",
+                        "Spots Per Week": 1,
+                        "Rate": "8,100.00"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Air Date": "10/07/2012",
+                        "Day": "Su",
+                        "Air Time": "10:25:20 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": "8,100.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "P.O. BOX": "missing"
+                    },
+                    {
+                        "Remit To": "\"CBS Television NEWARK, 33091 Stations NJ 07188-0091\""
+                    },
+                    {
+                        "Invoice Num": "1041-556238"
+                    },
+                    {
+                        "Page": "4 of 6"
+                    },
+                    {
+                        "Invoice Date": "10/14/2012"
+                    },
+                    {
+                        "Billing Cycle": "Weekly"
+                    },
+                    {
+                        "PO BOX": "58746"
+                    },
+                    {
+                        "Net": "missing"
+                    },
+                    {
+                        "PAY BY": "11/13/2012 30 days"
+                    },
+                    {
+                        "Billing Period": "10/01/2012-10/14/2012"
+                    },
+                    {
+                        "SHORR JOHNSON": "missing"
+                    },
+                    {
+                        "In Account": "MAGNUS(39976"
+                    },
+                    {
+                        "Product Desc": "CASEY FOR SENATE"
+                    },
+                    {
+                        "St Ste": "missing"
+                    },
+                    {
+                        "ATTNAccounts Payable": "missing"
+                    },
+                    {
+                        "With": "\"1831 Philadelphia, Chestnut PA 19103-3700 602\""
+                    },
+                    {
+                        "Total": "missing"
+                    },
+                    {
+                        "Flight": "missing"
+                    },
+                    {
+                        "Spots": "4"
+                    },
+                    {
+                        "Description": "LETTERMAN"
+                    },
+                    {
+                        "Buy Line": "12"
+                    },
+                    {
+                        "Buy Line Dates": "10/02/2012-10/05/2012"
+                    },
+                    {
+                        "TWIF": "missing"
+                    },
+                    {
+                        "Th": "missing"
+                    },
+                    {
+                        "DAVID LETTERMAN": "10/08/2012-10/08/2012 M 30 1 900.00"
+                    },
+                    {
+                        "Mo": "12:11:54 AM"
+                    },
+                    {
+                        "Material": "BCTV1203H"
+                    },
+                    {
+                        "Air Time": "missing"
+                    },
+                    {
+                        "M/G For": "missing"
+                    },
+                    {
+                        "Debit": "missing"
+                    },
+                    {
+                        "Remarks": "missing"
+                    },
+                    {
+                        "LATE NEWS": "10/02/2012-10/07/2012"
+                    },
+                    {
+                        "TWTFSS": "\"30 7 2,700.00\""
+                    },
+                    {
+                        "Preempted": "missing"
+                    },
+                    {
+                        "Su": "missing"
+                    },
+                    {
+                        "Makegood in": "23:34:00-00:07:00"
+                    },
+                    {
+                        "Warranty": "We warrant the above broadcasts were made according to the official station log."
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Buy Line": 12,
+                        "Flight Description": "DAVID LETTERMAN",
+                        "Buy Line Dates": "10/02/2012-10/05/2012",
+                        "MTWTFSS": "TWTF",
+                        "Dur": 30,
+                        "Total Spots": 4,
+                        "Rate": 810.0
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Air Date": "10/02/2012",
+                        "Day": "Tu",
+                        "Air Time": "12:10:52 AM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 810.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/03/2012",
+                        "Day": "We",
+                        "Air Time": "12:08:56 AM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 810.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/04/2012",
+                        "Day": "Th",
+                        "Air Time": "11:47:39 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 810.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/05/2012",
+                        "Day": "Fr",
+                        "Air Time": "11:55:23 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": 810.0,
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Week Of": "10/08/2012-10/14/2012",
+                        "MTWTFSS": "M",
+                        "Spots Per Week": 1,
+                        "Rate": 900.0
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Week Of": "10/01/2012-10/07/2012",
+                        "MTWTFSS": "TWTFSS",
+                        "Spots Per Week": 6,
+                        "Rate": "2,700.00"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Air Date": "10/02/2012",
+                        "Day": "Tu",
+                        "Air Time": "11:24:39 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": "2,700.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/03/2012",
+                        "Day": "We",
+                        "Air Time": "11:24:40 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": "2,700.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/04/2012",
+                        "Day": "Th",
+                        "Air Time": "11:23:32 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": "2,700.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/05/2012",
+                        "Day": "Fr",
+                        "Air Time": "11:23:28 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": "2,700.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/06/2012",
+                        "Day": "Sa",
+                        "Air Time": "11:28:48 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": "2,700.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/07/2012",
+                        "Day": "Su",
+                        "Air Time": "missing",
+                        "M/G For": "missing",
+                        "Material": "missing",
+                        "Dur": 30,
+                        "Rate": "missing",
+                        "Debit": "missing",
+                        "Credit": "2,700.00",
+                        "Remarks": "Preempted"
+                    },
+                    {
+                        "Air Date": "10/07/2012",
+                        "Day": "Su",
+                        "Air Time": "11:56:03 PM",
+                        "M/G For": "10/07/2012",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": "2,700.00",
+                        "Debit": "2,700.00",
+                        "Credit": "missing",
+                        "Remarks": "Makegood in 23:34:00-00:07:00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Invoice Num": "1041-556238"
+                    },
+                    {
+                        "Account Exec": "JOHN LINK POL."
+                    },
+                    {
+                        "Page": "5 of 6"
+                    },
+                    {
+                        "Office": "GWTS-PH"
+                    },
+                    {
+                        "Invoice Date": "10/14/2012"
+                    },
+                    {
+                        "Contract Num": "1041-80687"
+                    },
+                    {
+                        "Billing Cycle": "Weekly"
+                    },
+                    {
+                        "Contract Dates": "10/02/2012-10/08/2012"
+                    },
+                    {
+                        "Net": "missing"
+                    },
+                    {
+                        "PAY BY": "11/13/2012 30 days"
+                    },
+                    {
+                        "Billing Period": "10/01/2012-10/14/2012"
+                    },
+                    {
+                        "Customer Order": "missing"
+                    },
+                    {
+                        "Linked Order": "missing"
+                    },
+                    {
+                        "CPE": "/ /"
+                    },
+                    {
+                        "Product Desc": "CASEY FOR SENATE"
+                    },
+                    {
+                        "Total": "missing"
+                    },
+                    {
+                        "Flight": "missing"
+                    },
+                    {
+                        "Description": "missing"
+                    },
+                    {
+                        "Spots": "1"
+                    },
+                    {
+                        "Buy Line Dates": "10/08/2012-10/08/2012"
+                    },
+                    {
+                        "Mo": "11:21:54 PM"
+                    },
+                    {
+                        "WKND NEWS SUN 7-9A": "10/07/2012-10/07/2012 S 30 1 405.00"
+                    },
+                    {
+                        "CBS SUNDAY MORNING": "\"10/07/2012-10/07/2012 S 30 1 1,440.00\""
+                    },
+                    {
+                        "Reconciliation": "\"0,00\""
+                    },
+                    {
+                        "Total Spots": "34"
+                    },
+                    {
+                        "Commission Amt": "\"12,433.50\""
+                    },
+                    {
+                        "Net Amt": "\"70,456.50\""
+                    },
+                    {
+                        "Gross Amt": "\"82,890.00\""
+                    },
+                    {
+                        "NONDISCRIMINATION POLICY": "\"accept CBS any Television advertising Stations which CBS is or intended its Television Stations to discriminate that Stations is intended and on its the to Stations discriminate basis of do race not on discriminate or the ethnicity. basis of Advertiser in race advertising or ethnicity. represents contracts and on warrants the basis that of it race is not or ethnicity, purchasing and time will from not\""
+                    },
+                    {
+                        "Warranty": "We warrant the above broadcasts were made according to the official station log."
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Invoice Num:": "Invoice Date:",
+                        "1041-556238": "10/14/2012"
+                    },
+                    {
+                        "Invoice Num:": "Billing Cycle:",
+                        "1041-556238": "Weekly"
+                    },
+                    {
+                        "Invoice Num:": "Billing Period:",
+                        "1041-556238": "10/01/2012-10/14/2012"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Buy Line": "15",
+                        "Flight Description": "LATE",
+                        "missing": "NEWS",
+                        "Buy Line Dates": "missing",
+                        "missing.1": "10/08/2012-10/08/2012",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "MTWTFSS": "M",
+                        "missing.4": "missing",
+                        "Dur": "30",
+                        "missing.5": "missing",
+                        "Total Spots": "1",
+                        "Rate": "2,700.00"
+                    },
+                    {
+                        "Buy Line": "Week Of",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.1": "MTWTFSS",
+                        "missing.2": "missing",
+                        "missing.3": "Spots Per Week",
+                        "MTWTFSS": "Rate",
+                        "missing.4": "missing",
+                        "Dur": "missing",
+                        "missing.5": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "10/08/2012-10/14/2012",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.1": "M 1",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "MTWTFSS": "2,700.00",
+                        "missing.4": "missing",
+                        "Dur": "missing",
+                        "missing.5": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "Air Date",
+                        "Flight Description": "missing",
+                        "missing": "Day",
+                        "Buy Line Dates": "Air Time",
+                        "missing.1": "M/G For",
+                        "missing.2": "Material",
+                        "missing.3": "missing",
+                        "MTWTFSS": "Dur",
+                        "missing.4": "Rate",
+                        "Dur": "Debit",
+                        "missing.5": "missing",
+                        "Total Spots": "Credit",
+                        "Rate": "Remarks"
+                    },
+                    {
+                        "Buy Line": "10/08/2012",
+                        "Flight Description": "missing",
+                        "missing": "Mo",
+                        "Buy Line Dates": "11:21:54 PM",
+                        "missing.1": "BCTV1203H",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "MTWTFSS": "30",
+                        "missing.4": "2,700.00",
+                        "Dur": "missing",
+                        "missing.5": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "16 WKND NEWS SUN 7-9A 10/07/2012-10/07/2012",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.1": "missing",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "MTWTFSS": "S",
+                        "missing.4": "missing",
+                        "Dur": "30",
+                        "missing.5": "missing",
+                        "Total Spots": "1",
+                        "Rate": "405.00"
+                    },
+                    {
+                        "Buy Line": "Week Of",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.1": "MTWTFSS",
+                        "missing.2": "missing",
+                        "missing.3": "Spots Per Week",
+                        "MTWTFSS": "missing",
+                        "missing.4": "Rate",
+                        "Dur": "missing",
+                        "missing.5": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "10/01/2012-10/07/2012",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.1": "S 1",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "MTWTFSS": "405.00",
+                        "missing.4": "missing",
+                        "Dur": "missing",
+                        "missing.5": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "Air Date",
+                        "Flight Description": "missing",
+                        "missing": "Day",
+                        "Buy Line Dates": "Air Time",
+                        "missing.1": "M/G For",
+                        "missing.2": "Material",
+                        "missing.3": "missing",
+                        "MTWTFSS": "Dur",
+                        "missing.4": "Rate",
+                        "Dur": "Debit",
+                        "missing.5": "missing",
+                        "Total Spots": "Credit",
+                        "Rate": "Remarks"
+                    },
+                    {
+                        "Buy Line": "10/07/2012",
+                        "Flight Description": "missing",
+                        "missing": "Su",
+                        "Buy Line Dates": "07:22:30 AM",
+                        "missing.1": "BCTV1203H",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "MTWTFSS": "30 405.00",
+                        "missing.4": "missing",
+                        "Dur": "missing",
+                        "missing.5": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "17 CBS SUNDAY MORNING",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.1": "10/07/2012-10/07/2012",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "MTWTFSS": "S",
+                        "missing.4": "missing",
+                        "Dur": "30",
+                        "missing.5": "missing",
+                        "Total Spots": "1",
+                        "Rate": "1,440.00"
+                    },
+                    {
+                        "Buy Line": "Week Of",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.1": "MTWTFSS",
+                        "missing.2": "missing",
+                        "missing.3": "Spots Per Week",
+                        "MTWTFSS": "missing",
+                        "missing.4": "Rate",
+                        "Dur": "missing",
+                        "missing.5": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "10/01/2012-10/07/2012",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.1": "S",
+                        "missing.2": "missing",
+                        "missing.3": "1",
+                        "MTWTFSS": "missing",
+                        "missing.4": "1,440.00",
+                        "Dur": "missing",
+                        "missing.5": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "Air Date",
+                        "Flight Description": "missing",
+                        "missing": "Day",
+                        "Buy Line Dates": "Air Time",
+                        "missing.1": "M/G For",
+                        "missing.2": "Material",
+                        "missing.3": "Dur",
+                        "MTWTFSS": "missing",
+                        "missing.4": "Rate",
+                        "Dur": "Debit",
+                        "missing.5": "missing",
+                        "Total Spots": "Credit",
+                        "Rate": "Remarks"
+                    },
+                    {
+                        "Buy Line": "10/07/2012",
+                        "Flight Description": "missing",
+                        "missing": "Su",
+                        "Buy Line Dates": "09:46:52 AM",
+                        "missing.1": "missing",
+                        "missing.2": "BCTV1203H",
+                        "missing.3": "30",
+                        "MTWTFSS": "missing",
+                        "missing.4": "1,440.00",
+                        "Dur": "missing",
+                        "missing.5": "missing",
+                        "Total Spots": "missing",
+                        "Rate": "missing"
+                    },
+                    {
+                        "Buy Line": "Total Spots",
+                        "Flight Description": "missing",
+                        "missing": "missing",
+                        "Buy Line Dates": "missing",
+                        "missing.1": "Gross Amt",
+                        "missing.2": "missing",
+                        "missing.3": "Commission Amt",
+                        "MTWTFSS": "missing",
+                        "missing.4": "Net Amt",
+                        "Dur": "Debit",
+                        "missing.5": "missing",
+                        "Total Spots": "Credit",
+                        "Rate": "Reconciliation"
+                    },
+                    {
+                        "Buy Line": "Air Time Totals",
+                        "Flight Description": "missing",
+                        "missing": "34",
+                        "Buy Line Dates": "missing",
+                        "missing.1": "82,890.00",
+                        "missing.2": "missing",
+                        "missing.3": "12,433.50",
+                        "MTWTFSS": "missing",
+                        "missing.4": "70,456.50",
+                        "Dur": "2,700.00",
+                        "missing.5": "missing",
+                        "Total Spots": "2,700.00",
+                        "Rate": "0,00"
+                    }
+                ]
+            }
+        ]
+    }
+]

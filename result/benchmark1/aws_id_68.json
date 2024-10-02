@@ -1,0 +1,1025 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Version": "Current State Version 1"
+                    },
+                    {
+                        "Changes as of": "9/9/2020 at 11:38 AM"
+                    },
+                    {
+                        "Station": "KBJR"
+                    },
+                    {
+                        "Con Type": "POLITICAL/VOTE"
+                    },
+                    {
+                        "Flight": "9/21/20 - 9/27/20"
+                    },
+                    {
+                        "Total $": "\"$23,350.00\""
+                    },
+                    {
+                        "Market": "Duluth-Superior"
+                    },
+                    {
+                        "Advertiser": "Tina Senate Smith for MN"
+                    },
+                    {
+                        "Product": "Candidate"
+                    },
+                    {
+                        "Office": "WASHINGTON"
+                    },
+                    {
+                        "Total Spots": "99"
+                    },
+                    {
+                        "Service": "Nielsen"
+                    },
+                    {
+                        "Total CPP": "$0.00"
+                    },
+                    {
+                        "Agency Order #": "missing"
+                    },
+                    {
+                        "Total GRP": "missing"
+                    },
+                    {
+                        "Primary Demo": "Adults 35+"
+                    },
+                    {
+                        "Buyer": "Carolilne Wait"
+                    },
+                    {
+                        "Traffic #": "587398"
+                    },
+                    {
+                        "Assistant": "JENNA 202-872-5880 NUBAR"
+                    },
+                    {
+                        "Salesperson": "JENNA 202-872-5880 NUBAR"
+                    },
+                    {
+                        "Separation": "missing"
+                    },
+                    {
+                        "Comments": "Kickback Orders"
+                    },
+                    {
+                        "Printed on 09/10/2020 at 0227 PM I *": "missing"
+                    },
+                    {
+                        "Page": "1 of 2"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "#": "missing",
+                        "Day/Time": "missing",
+                        "DP": "missing",
+                        "Program": "missing",
+                        "Rate": "missing",
+                        "A35P Rating": "missing",
+                        "Len": "missing",
+                        "9/21 9/27": "9/21",
+                        "missing": "9/22",
+                        "missing.1": "9/23",
+                        "missing.2": "9/24",
+                        "missing.3": "9/25",
+                        "missing.4": "9/26",
+                        "missing.5": "9/27",
+                        "missing.6": "missing",
+                        "Total Spots": "missing",
+                        "Total $": "missing",
+                        "CPP*": "missing",
+                        "GRP*": "missing"
+                    },
+                    {
+                        "#": "1",
+                        "Day/Time": "M-F 5a-5:30a",
+                        "DP": "EM",
+                        "Program": "5a News",
+                        "Rate": "$60.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "5",
+                        "Total $": "$300.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "2",
+                        "Day/Time": "M-F 5:30a-6a",
+                        "DP": "EM",
+                        "Program": "530a News",
+                        "Rate": "$80.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "5",
+                        "Total $": "$400.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "3",
+                        "Day/Time": "M-F 6a-6:30a",
+                        "DP": "EM",
+                        "Program": "6a News",
+                        "Rate": "$150.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "5",
+                        "Total $": "$750.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "4",
+                        "Day/Time": "M-F 6:30a-7a",
+                        "DP": "EM",
+                        "Program": "630a News",
+                        "Rate": "$180.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "5",
+                        "Total $": "$900.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "5",
+                        "Day/Time": "M-F 7a-8a",
+                        "DP": "EM",
+                        "Program": "Today Show",
+                        "Rate": "$200.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "5",
+                        "Total $": "$1,000.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "6",
+                        "Day/Time": "M-F 8a-9a",
+                        "DP": "EM",
+                        "Program": "Today Show",
+                        "Rate": "$75.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "5",
+                        "Total $": "$375.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "7",
+                        "Day/Time": "Sa 6a-6:30a",
+                        "DP": "EM",
+                        "Program": "Sa 6a News",
+                        "Rate": "$25.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "1",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$25.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "8",
+                        "Day/Time": "Sa 6:30a-7a",
+                        "DP": "EM",
+                        "Program": "Sa 630a News",
+                        "Rate": "$25.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "1",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$25.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "9",
+                        "Day/Time": "Sa 7a-9a",
+                        "DP": "EM",
+                        "Program": "Sat Today",
+                        "Rate": "$50.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "1",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$50.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "10",
+                        "Day/Time": "Su 6a-6:30a",
+                        "DP": "EM",
+                        "Program": "Sun 6a News",
+                        "Rate": "$25.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "1",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$25.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "11",
+                        "Day/Time": "Su 6:30a-7a",
+                        "DP": "EM",
+                        "Program": "Su 630a News",
+                        "Rate": "$25.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "1",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$25.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "12",
+                        "Day/Time": "Su 7a-8a",
+                        "DP": "EM",
+                        "Program": "Sun Today",
+                        "Rate": "$50.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "1",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$50.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "13",
+                        "Day/Time": "M-F 9a-10a",
+                        "DP": "DY",
+                        "Program": "Today II",
+                        "Rate": "$100.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "1",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "3",
+                        "Total $": "$300.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "14",
+                        "Day/Time": "M-F 10a-11a",
+                        "DP": "DY",
+                        "Program": "Today III",
+                        "Rate": "$50.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "0",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "2",
+                        "Total $": "$100.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "15",
+                        "Day/Time": "M-F 11a-12n",
+                        "DP": "DY",
+                        "Program": "The Jason Show",
+                        "Rate": "$50.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "0",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "4",
+                        "Total $": "$200.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "16",
+                        "Day/Time": "M-F 12n-12:30p",
+                        "DP": "DY",
+                        "Program": "Noon News",
+                        "Rate": "$300.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "1",
+                        "missing": "0",
+                        "missing.1": "1",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "4",
+                        "Total $": "$1,200.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "17",
+                        "Day/Time": "M-F 1p-2p",
+                        "DP": "DY",
+                        "Program": "Days of Our Lives",
+                        "Rate": "$100.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "0",
+                        "missing": "1",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$100.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "18",
+                        "Day/Time": "M-F 2p-2:30p",
+                        "DP": "DY",
+                        "Program": "Hot Bench",
+                        "Rate": "$50.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "1",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$50.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Contract #": "27061923"
+                    },
+                    {
+                        "Version": "Current State Version 1"
+                    },
+                    {
+                        "Changes as of": "9/9/2020 at 11:38 AM"
+                    },
+                    {
+                        "Station": "KBJR"
+                    },
+                    {
+                        "Flight": "9/21/20 - 9/27/20"
+                    },
+                    {
+                        "Con Type": "POLITICAL/VOTE"
+                    },
+                    {
+                        "Total $": "\"$23,350.00\""
+                    },
+                    {
+                        "Market": "Duluth-Superior"
+                    },
+                    {
+                        "Senate": "missing"
+                    },
+                    {
+                        "Advertiser": "Tina Smith for MN"
+                    },
+                    {
+                        "Office": "WASHINGTON"
+                    },
+                    {
+                        "Product": "Candidate"
+                    },
+                    {
+                        "Total Spots": "99"
+                    },
+                    {
+                        "Service": "Nielsen"
+                    },
+                    {
+                        "Total CPP": "$0.00"
+                    },
+                    {
+                        "Agency Order #": "missing"
+                    },
+                    {
+                        "Total GRP": "missing"
+                    },
+                    {
+                        "Primary Demo": "Adults 35+"
+                    },
+                    {
+                        "Buyer": "Carolilne Wait"
+                    },
+                    {
+                        "Traffic #": "587398"
+                    },
+                    {
+                        "Assistant": "JENNA 202-872-5880 NUBAR"
+                    },
+                    {
+                        "Salesperson": "JENNA 202-872-5880 NUBAR"
+                    },
+                    {
+                        "Separation": "missing"
+                    },
+                    {
+                        "Total": "missing"
+                    },
+                    {
+                        "TOTALS": "18 18 17 18 17 7 4"
+                    },
+                    {
+                        "Printed on": "09/10/2020"
+                    },
+                    {
+                        "Page": "2 of 2"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "#": "missing",
+                        "Day/Time": "missing",
+                        "DP": "missing",
+                        "Program": "missing",
+                        "Rate": "missing",
+                        "A35P Rating": "missing",
+                        "Len": "missing",
+                        "9/21 - 9/27": "9/21",
+                        "missing": "9/22",
+                        "missing.1": "9/23",
+                        "missing.2": "9/24",
+                        "missing.3": "9/25",
+                        "missing.4": "9/26",
+                        "missing.5": "9/27",
+                        "missing.6": "missing",
+                        "Total Spots": "missing",
+                        "Total $": "missing",
+                        "CPP*": "missing",
+                        "GRP*": "missing"
+                    },
+                    {
+                        "#": "19",
+                        "Day/Time": "M-F 2:30p-3p",
+                        "DP": "DY",
+                        "Program": "Hot Bench",
+                        "Rate": "$50.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "1",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "1",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "2",
+                        "Total $": "$100.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "20",
+                        "Day/Time": "M-F 3p-4p",
+                        "DP": "EF",
+                        "Program": "Dr. Phil",
+                        "Rate": "$100.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "0",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "0",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "3",
+                        "Total $": "$300.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "21",
+                        "Day/Time": "M-F 4p-4:30p",
+                        "DP": "EF",
+                        "Program": "Judge Judy",
+                        "Rate": "$150.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "0",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "4",
+                        "Total $": "$600.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "22",
+                        "Day/Time": "M-F 4:30p-5p",
+                        "DP": "EF",
+                        "Program": "Judge Judy",
+                        "Rate": "$200.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "5",
+                        "Total $": "$1,000.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "23",
+                        "Day/Time": "M-F 5p-5:30p",
+                        "DP": "EN",
+                        "Program": "5p News",
+                        "Rate": "$250.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "5",
+                        "Total $": "$1,250.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "24",
+                        "Day/Time": "M-F 6p-6:30p",
+                        "DP": "EN",
+                        "Program": "6p News",
+                        "Rate": "$400.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "5",
+                        "Total $": "$2,000.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "25",
+                        "Day/Time": "Sa 6p-6:30p",
+                        "DP": "EN",
+                        "Program": "Sat 6p",
+                        "Rate": "$100.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "1",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$100.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "26",
+                        "Day/Time": "M-F 6:30p-7p",
+                        "DP": "PA",
+                        "Program": "Wheel of Fortune",
+                        "Rate": "$800.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "5",
+                        "Total $": "$4,000.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "27",
+                        "Day/Time": "Sa 6:30p-7p",
+                        "DP": "PA",
+                        "Program": "Wheel of Fortune",
+                        "Rate": "$75.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "1",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$75.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "28",
+                        "Day/Time": "M 9p-10p",
+                        "DP": "PR",
+                        "Program": "Dateline",
+                        "Rate": "$150.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "1",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$150.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "29",
+                        "Day/Time": "Tu 7p-9p",
+                        "DP": "PR",
+                        "Program": "AGT",
+                        "Rate": "$1,500. 00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "0",
+                        "missing": "1",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$1,500.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "30",
+                        "Day/Time": "W 7p-8p",
+                        "DP": "PR",
+                        "Program": "AGT",
+                        "Rate": "$1,500. 00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "1",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$1,500.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "31",
+                        "Day/Time": "Th 9p-10p",
+                        "DP": "PR",
+                        "Program": "Law & Order: SUV",
+                        "Rate": "$750.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "1",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$750.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "32",
+                        "Day/Time": "Sa 7p-9p",
+                        "DP": "PR",
+                        "Program": "Dateline",
+                        "Rate": "$500.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "1",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$500.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "33",
+                        "Day/Time": "M-F 10p-10:35p",
+                        "DP": "LN",
+                        "Program": "10p News",
+                        "Rate": "$400.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "1",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "5",
+                        "Total $": "$2,000.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "34",
+                        "Day/Time": "Sa 10p-10:30p",
+                        "DP": "LN",
+                        "Program": "Sat 10p News",
+                        "Rate": "$600.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "1",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$600.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "35",
+                        "Day/Time": "Su 10:30p-11p",
+                        "DP": "LN",
+                        "Program": "Sun 1030p News",
+                        "Rate": "$600.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "0",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "1",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$600.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "36",
+                        "Day/Time": "M-F 10:35p-11:35p",
+                        "DP": "LF",
+                        "Program": "Tonight Show",
+                        "Rate": "$100.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "1",
+                        "missing": "1",
+                        "missing.1": "0",
+                        "missing.2": "1",
+                        "missing.3": "1",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "4",
+                        "Total $": "$400.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "37",
+                        "Day/Time": "M-F 11:35p-12:35a",
+                        "DP": "LF",
+                        "Program": "Seth Meyers",
+                        "Rate": "$50.00",
+                        "A35P Rating": "0.0",
+                        "Len": "30",
+                        "9/21 - 9/27": "0",
+                        "missing": "0",
+                        "missing.1": "1",
+                        "missing.2": "0",
+                        "missing.3": "0",
+                        "missing.4": "0",
+                        "missing.5": "0",
+                        "missing.6": "missing",
+                        "Total Spots": "1",
+                        "Total $": "$50.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    },
+                    {
+                        "#": "TOTALS:",
+                        "Day/Time": "missing",
+                        "DP": "missing",
+                        "Program": "missing",
+                        "Rate": "missing",
+                        "A35P Rating": "missing",
+                        "Len": "missing",
+                        "9/21 - 9/27": "18",
+                        "missing": "18",
+                        "missing.1": "17",
+                        "missing.2": "18",
+                        "missing.3": "17",
+                        "missing.4": "7",
+                        "missing.5": "4",
+                        "missing.6": "missing",
+                        "Total Spots": "99",
+                        "Total $": "$23,350.00",
+                        "CPP*": "$0.00",
+                        "GRP*": "0.0"
+                    }
+                ]
+            }
+        ]
+    }
+]
