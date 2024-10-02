@@ -1,0 +1,84 @@
+#Record1
+- METADATA
+Buy Detail Report
+- KV
+Client,Club for Grow th Action
+Description,ESTIMATE #2964 OFFER
+Vendor,WCSC-TV\n485 E Bay St\n"Charleston,SC 29403-6336"
+Send Billing To,missing
+Media,TV
+Flight Start Date,05/25/2020
+Product,Club for Grow th Action
+Flight End Date,06/07/2020
+Primary Demo,Adults 55+
+Survey,May20 Proj. "(May 19 HUT, Feb20 SHR)"\nDMA Nielsen Live+SD
+Contact,"Thompson, Charlie"
+Phone,803-723-8371
+Fax,803-723-0074
+Affiliation,CBS
+Date,4/6/2020
+Comments,FLIGHT RUNS 5/27-6/2
+Market/System,"Charleston,SC"
+Signature,missing
+Disclaimer,missing
+Page,1
+- TABLE
+Daypart\nProgram,Daypart\nCode,STN\nGross,Dur,Wks\n5/25,6/1,Total\nSpots,Adults\n55+\nRtg/CPP
+MTuWThF 5:30a- 6:00a,EM,$180.00,30,3,2,5,5.0
+LIVE 5 NEWS @ 530A,missing,missing,missing,missing,missing,missing,$36.00
+MTuWThF 6:00a- 7:00a,EM,$450.00,30,3,2,5,6.2
+LIVE 5 NEWS @ 6A,missing,missing,missing,missing,missing,missing,$72.58
+MTuWThF 7:00a- 9:00a,EM,$450.00,30,6,4,10,7.2
+CBS THIS MORNING,missing,missing,missing,missing,missing,missing,$62.50
+MTuWThF 11:00a-12:00p,DT,$360.00,30,3,2,5,5.9
+THE PRICE IS RIGHT,missing,missing,missing,missing,missing,missing,$61.02
+MTuWThF 12:00p-12:30p,DT,$450.00,30,3,2,5,7.5
+LIVE 5 NEWS @ NOON,missing,missing,missing,missing,missing,missing,$60.00
+MTuWThF 4:30p- 5:00p,EF,$315.00,30,3,2,5,8.1
+INSIDE EDITION,missing,missing,missing,missing,missing,missing,$38.89
+MTuWThF 5:00p- 5:30p,EN,$450.00,30,3,2,5,9.3
+LIVE 5 NEWS @ 5P,missing,missing,missing,missing,missing,missing,$48.39
+MTuWThF 6:00p- 6:30p,EN,$585.00,30,2,2,4,10.7
+LIVE 5 NEWS @ 6P,missing,missing,missing,missing,missing,missing,$54.67
+MTuWThF 11:00p-11:37p,LN,$450.00,30,3,2,5,7.0
+LIVE 5 NEWS @ 11P,missing,missing,missing,missing,missing,missing,$64.29
+#Record2
+- METADATA
+Buy Detail Report
+- KV
+Client,Club for Grow th Action
+Description,ESTIMATE #2964 OFFER
+Vendor,WCSC-TV\n485 E Bay St\n"Charleston,SC 29403-6336"
+Send Billing To,missing
+Media,TV
+Flight Start Date,05/25/2020
+Product,Club for Grow th Action
+Flight End Date,06/07/2020
+Primary Demo,Adults 55+
+Survey,May20 Proj. "(May 19 HUT, Feb20 SHR)"\nDMA Nielsen Live+SD
+Contact,"Thompson, Charlie"
+Phone,803-723-8371
+Fax,803-723-0074
+Affiliation,CBS
+Date,4/6/2020
+Comments,FLIGHT RUNS 5/27-6/2
+Market/System,"Charleston,SC"
+Signature,missing
+Disclaimer,missing
+Page,2
+Total Cost,"$21,735.00"
+- TABLE
+Daypart\nProgram,Daypart\nCode,STN\nGross,Dur,Wks\n5/25,6/1,Total\nSpots,Adults\n55+\nRtg/CPP
+Sa 8:00a-10:00a,WK,$315.00,30,1,0,1,5.8
+CBS SATURDAY EARLY SHOW,missing,missing,missing,missing,missing,missing,$54.31
+Sa 6:00p- 6:30p,WK,$270.00,30,1,0,1,5.1
+LIVE 5 NEWS @ 6P SAT,missing,missing,missing,missing,missing,missing,$52.94
+Su 9:00a-10:30a,WK,$450.00,30,1,0,1,5.8
+CBS SUNDAY MORNING,missing,missing,missing,missing,missing,missing,$77.59
+Su 10:30a-11:30a,WK,$225.00,30,1,0,1,3.6
+FACE THE NATION,missing,missing,missing,missing,missing,missing,$62.50
+Su 11:00p-11:37p,WK,$360.00,30,1,0,1,7.2
+LIVE 5 NEWS @ 11P SU,missing,missing,missing,missing,missing,missing,$50.00
+missing,missing,missing,Total Spots:,34,20,54,missing
+missing,missing,missing,Total GRP/GIM P(000):,239.1,148.2,missing,387.3
+missing,missing,missing,Total CPP/CPM:,missing,missing,missing,$56.12
