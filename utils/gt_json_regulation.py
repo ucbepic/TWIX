@@ -75,6 +75,7 @@ def regulate_template(path):
                     #add last block 
                     if(content != ''):
                         block['content'] = content
+                        #print(block['type'])
                         object.append(block)
                         #set up a new block
                         block = {}
@@ -87,7 +88,7 @@ def regulate_template(path):
                 record['id'] = rid
                 object = []
             else:
-                if('-TABLE' in line):
+                if('TABLE' in line):
                     #add the processed block into object
                     if(content != ''):
                         block['content'] = content
@@ -97,7 +98,7 @@ def regulate_template(path):
                     block['type'] = 'table'
                     type = 'table'
                     content = ''
-                elif('-KV' in line):
+                elif('KV' in line):
                     #add the processed block into object
                     if(content != ''):
                         block['content'] = content
@@ -107,15 +108,27 @@ def regulate_template(path):
                     block['type'] = 'kv'
                     type = 'kv'
                     content = ''
+                elif('METADATA' in line):
+                    if(content != ''):
+                        block['content'] = content
+                        object.append(block)
+                    #set up a new block
+                    block = {}
+                    block['type'] = 'metadata'
+                    type = 'metadata'
+                    content = ''
                 else:
                     #process a row of data 
                     if(type == 'table'):
                         content += line + '\n'
                     elif(type == 'kv'):
                         content += line + '\n'
+                    elif(type == 'metadata'):
+                        content += line + '\n'
         
         #last line, add last block and last records
         if(content != ''):
+            #print(block['type'])
             block['content'] = content
             object.append(block)
         record['content'] = object
@@ -138,6 +151,8 @@ def regular_full(records):
                 content = regulate_table(block['content'])
             elif(block['type'] == 'kv'):
                 content = regulate_kv(block['content'])
+            else:
+                content = block['content']
             new_block['content'] = content
             new_object.append(new_block)
         new_record['content'] = new_object
@@ -166,17 +181,24 @@ if __name__ == "__main__":
     out_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.json'
 
     #folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/'
-    folder_path = '/Users/yiminglin/Downloads/aws_table_extraction_pdf/'
+    folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/benchmark1'
+    dirty = ['id_10','id_14_42','id_12','id_54_58_74_104_107_128_v1','id_133','id_54_58_74_104_107_128_v2','id_54_58_74_104_107_128_v3','id_18_28_45_48_51_57_60_70_72_79_81_89_91_92_94_95_97_99_102_105_113_117_118_119_122_125_131_132_137_139_150_v1','id_18_28_45_48_51_57_60_70_72_79_81_89_91_92_94_95_97_99_102_105_113_117_118_119_122_125_131_132_137_139_150_v2','id_59_87','id_61_63_77_142','id_65_127_141','id_116_151']
     files = scan_folder(folder_path)
     for in_file in files:
         out_file = in_file.replace('txt','json')
         print(in_file)
         print(out_file)
-        # if('investigation' not in out_file):
-        #     continue
-        # records = regulate_template(in_file)
-        # records = regular_full(records)
-        # write_json(records, out_file)
+        flag = 0
+        for f in dirty:
+            if(f in out_file):
+                flag = 1
+                break
+        if(flag == 1):
+            continue
+        records = regulate_template(in_file)
+        records = regular_full(records)
+        #break
+        write_json(records, out_file)
     
 
 

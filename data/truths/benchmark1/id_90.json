@@ -1,0 +1,1242 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "metadata",
+                "content": "FOX21 Duluth-Superior\nKQDS-TV\nDuluth/Superior (KQDS)\nThe parties to this agreement will not discriminate on the placement of advertising on the basis of race or gender.\nB/E Bookend P/B Piggy Back\nPrinted At: 02:36 PM on Monday, August 31 2020\nPage 1 of 4\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Contract #": "59119"
+                    },
+                    {
+                        "Schedule Dates": "09/04/20-09/07/20"
+                    },
+                    {
+                        "Advertiser": "POLJ Biden/D/Pres/US (6268)"
+                    },
+                    {
+                        "Agency": "Media Buying and Analytics (2146)"
+                    },
+                    {
+                        "Product": "Political-Candidate (1058)"
+                    },
+                    {
+                        "Brand": "1106/1350/8137 (38888)"
+                    },
+                    {
+                        "Salesperson": "HRP-Philadelphia, Philadelphia (1087)"
+                    },
+                    {
+                        "Sales Office": "HRP-Philadelphia"
+                    },
+                    {
+                        "Buyer Name": "HUTTON,SHELLI"
+                    },
+                    {
+                        "Phone/Fax": "/"
+                    },
+                    {
+                        "CPE": "1106/1350/8137"
+                    },
+                    {
+                        "Account Types": "National/Political Agency"
+                    },
+                    {
+                        "Billing Type": "Standard"
+                    },
+                    {
+                        "Order Type": "Normal"
+                    },
+                    {
+                        "Commission %": "15.00"
+                    },
+                    {
+                        "Commission": "$101.40"
+                    },
+                    {
+                        "Net Total": "$574.60"
+                    },
+                    {
+                        "Sales Tax": "missing"
+                    },
+                    {
+                        "Headline #": "09918296"
+                    },
+                    {
+                        "Demo": "missing"
+                    },
+                    {
+                        "Package Deal": "missing"
+                    },
+                    {
+                        "CO-OP": "No"
+                    },
+                    {
+                        "Entered By": "Lori Kempton"
+                    },
+                    {
+                        "Date Entered": "08/31/20"
+                    },
+                    {
+                        "Last Modified": "08/31/20"
+                    },
+                    {
+                        "Comments": "BIDEN FOR PRES/60\u2019S\\n****** THIS IS A CASH IN ADVANCE SCHEDULE ******"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "By Broadcast Month": "Sep. 2020",
+                        "Spots": "Spots",
+                        "Rate": "36"
+                    },
+                    {
+                        "By Broadcast Month": "Grand Total",
+                        "Spots": "36",
+                        "Rate": "$676.00"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": 1.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/07/20-09/07/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "6A- MIKE & MOLLY 6AM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": 1,
+                        "Su": 1,
+                        "Spots": "$6.00",
+                        "Rate": "$6.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "MIKE & MOLLY",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 2.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "6A- MIKE & MOLLY 6AM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": 1,
+                        "Su": 1,
+                        "Spots": "$6.00",
+                        "Rate": "$6.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "MIKE & MOLLY",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 3.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "6:30A- TMZ 630AM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": 1,
+                        "Su": 1,
+                        "Spots": "$6.00",
+                        "Rate": "$6.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "TMZ",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 4.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "6:30A- TMZ 630AM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": 1,
+                        "Su": 1,
+                        "Spots": "$6.00",
+                        "Rate": "$6.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "TMZ",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 5.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "9A- FAMILY FEUD 9AM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": 1,
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "FAMILY FEUD",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 6.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "9A- FAMILY FEUD 9AM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": 1,
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "FAMILY FEUD",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 7.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "9:30A- FAMILY FEUD 930AM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": 1,
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "FAMILY FEUD",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 8.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "9:30A- FAMILY FEUD 930AM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": 1,
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "FAMILY FEUD",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 9.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "10A- 11A (CST)",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": 1,
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "2 BROKE/HIMYM",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 10.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "10A- 11A (CST)",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": 1,
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "2 BROKE/HIMYM",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 11.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "11A- PATERNITY COURT 11AM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": 1,
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "PATERNITY COURT",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "metadata",
+                "content": "FOX21 Duluth-Superior\nKQDS-TV\nDuluth/Superior (KQDS)\nThe parties to this agreement will not discriminate on the placement of advertising on the basis of race or gender.\nB/E Bookend P/B Piggy Back\nPrinted At: 02:36 PM on Monday, August 31 2020\nPage 2 of 4\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Contract #": "59119"
+                    },
+                    {
+                        "Schedule Dates": "09/04/20-09/07/20"
+                    },
+                    {
+                        "Advertiser": "POLJ Biden/D/Pres/US (6268)"
+                    },
+                    {
+                        "Agency": "Media Buying and Analytics (2146)"
+                    },
+                    {
+                        "Product": "Political-Candidate (1058)"
+                    },
+                    {
+                        "Brand": "1106/1350/8137 (38888)"
+                    },
+                    {
+                        "Salesperson": "HRP-Philadelphia, Philadelphia (1087)"
+                    },
+                    {
+                        "Sales Office": "HRP-Philadelphia"
+                    },
+                    {
+                        "Buyer Name": "HUTTON,SHELLI"
+                    },
+                    {
+                        "Phone/Fax": "/"
+                    },
+                    {
+                        "CPE": "1106/1350/8137"
+                    },
+                    {
+                        "Account Types": "National/Political Agency"
+                    },
+                    {
+                        "Billing Type": "Standard"
+                    },
+                    {
+                        "Order Type": "Normal"
+                    },
+                    {
+                        "Commission %": "15.00"
+                    },
+                    {
+                        "Commission": "$101.40"
+                    },
+                    {
+                        "Net Total": "$574.60"
+                    },
+                    {
+                        "Sales Tax": "missing"
+                    },
+                    {
+                        "Headline #": "09918296"
+                    },
+                    {
+                        "Demo": "missing"
+                    },
+                    {
+                        "Package Deal": "missing"
+                    },
+                    {
+                        "CO-OP": "No"
+                    },
+                    {
+                        "Entered By": "Lori Kempton"
+                    },
+                    {
+                        "Date Entered": "08/31/20"
+                    },
+                    {
+                        "Last Modified": "08/31/20"
+                    },
+                    {
+                        "Comments": "BIDEN FOR PRES/60\u2019S\\n****** THIS IS A CASH IN ADVANCE SCHEDULE ******"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "By Broadcast Month": "Sep. 2020",
+                        "Spots": "Spots",
+                        "Rate": "36"
+                    },
+                    {
+                        "By Broadcast Month": "Grand Total",
+                        "Spots": "36",
+                        "Rate": "$676.00"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": 12.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "11A- PATERNITY COURT 11AM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "PATERNITY COURT",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 13.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "11:30A- DIVORCE COURT 1130AM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "DIVORCE COURT",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 14.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "11:30A- DIVORCE COURT 1130AM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "DIVORCE COURT",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 15.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "12P- PEOPLES COURT 12PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$14.00",
+                        "Rate": "$14.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "THE PEOPLE'S COURT",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 16.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "12P- PEOPLES COURT 12PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$14.00",
+                        "Rate": "$14.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "THE PEOPLE'S COURT",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 17.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "1P- 2P (CST)",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "AMERICA SAYS",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 18.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "1P- 2P (CST)",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "AMERICA SAYS",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 19.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "2P- ACCESS DAILY 2PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$6.00",
+                        "Rate": "$6.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "ACCESS",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 20.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "2P- ACCESS DAILY 2PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$6.00",
+                        "Rate": "$6.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "ACCESS",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 21.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "3P- 4P (CST)",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$6.00",
+                        "Rate": "$6.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "DAILY MAIL 2X",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 22.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "3P- 4P (CST)",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$6.00",
+                        "Rate": "$6.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "DAILY MAIL 2X",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 23.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "5:30P- LOCAL NEWS 530PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$40.00",
+                        "Rate": "$40.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "FOX 21 NEWS AT 5:30P",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "type": "metadata",
+                "content": "FOX21 Duluth-Superior\nKQDS-TV\nDuluth/Superior (KQDS)\nThe parties to this agreement will not discriminate on the placement of advertising on the basis of race or gender.\nB/E Bookend P/B Piggy Back\nPrinted At: 02:36 PM on Monday, August 31 2020\nPage 3 of 4\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Contract #": "59119"
+                    },
+                    {
+                        "Schedule Dates": "09/04/20-09/07/20"
+                    },
+                    {
+                        "Advertiser": "POLJ Biden/D/Pres/US (6268)"
+                    },
+                    {
+                        "Agency": "Media Buying and Analytics (2146)"
+                    },
+                    {
+                        "Product": "Political-Candidate (1058)"
+                    },
+                    {
+                        "Brand": "1106/1350/8137 (38888)"
+                    },
+                    {
+                        "Salesperson": "HRP-Philadelphia, Philadelphia (1087)"
+                    },
+                    {
+                        "Sales Office": "HRP-Philadelphia"
+                    },
+                    {
+                        "Buyer Name": "HUTTON,SHELLI"
+                    },
+                    {
+                        "Phone/Fax": "/"
+                    },
+                    {
+                        "CPE": "1106/1350/8137"
+                    },
+                    {
+                        "Account Types": "National/Political Agency"
+                    },
+                    {
+                        "Billing Type": "Standard"
+                    },
+                    {
+                        "Order Type": "Normal"
+                    },
+                    {
+                        "Commission %": "15.00"
+                    },
+                    {
+                        "Commission": "$101.40"
+                    },
+                    {
+                        "Net Total": "$574.60"
+                    },
+                    {
+                        "Sales Tax": "missing"
+                    },
+                    {
+                        "Headline #": "09918296"
+                    },
+                    {
+                        "Demo": "missing"
+                    },
+                    {
+                        "Package Deal": "missing"
+                    },
+                    {
+                        "CO-OP": "No"
+                    },
+                    {
+                        "Entered By": "Lori Kempton"
+                    },
+                    {
+                        "Date Entered": "08/31/20"
+                    },
+                    {
+                        "Last Modified": "08/31/20"
+                    },
+                    {
+                        "Comments": "BIDEN FOR PRES/60\u2019S\\n****** THIS IS A CASH IN ADVANCE SCHEDULE ******"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "By Broadcast Month": "Sep. 2020",
+                        "Spots": "Spots",
+                        "Rate": "36"
+                    },
+                    {
+                        "By Broadcast Month": "Grand Total",
+                        "Spots": "36",
+                        "Rate": "$676.00"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": 24.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "5:30P- LOCAL NEWS 530PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$40.00",
+                        "Rate": "$40.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "FOX 21 NEWS AT 5:30P",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 25.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/05/20-09/05/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "9:30P- LOCAL LATE NEWS SAT",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$150.00",
+                        "Rate": "$150.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "FOX 21 NEWS @ 9",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 26.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "10P- 2 BROKE GIRLS 10PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$40.00",
+                        "Rate": "$40.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "2 BROKE GIRLS",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 27.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "10P- 2 BROKE GIRLS 10PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$40.00",
+                        "Rate": "$40.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "2 BROKE GIRLS",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 28.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "11:35P- MODERN FAMILY 1135PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "MODERN FAMILY",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 29.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/04/20-09/04/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "11:35P- MODERN FAMILY 1135PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "MODERN FAMILY",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 30.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/07/20-09/07/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "12:05A- 1:05A (CST)",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "MOM/HIMYM",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 31.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/07/20-09/07/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "12:05A- 1:05A (CST)",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$10.00",
+                        "Rate": "$10.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "MOM/HIMYM",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 32.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/05/20-09/05/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "6:30P- FAMILY FEUD SAT 630PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$40.00",
+                        "Rate": "$40.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "FAMILY FEUD",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    },
+                    {
+                        "Line": 33.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/06/20-09/06/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "8A- FOX NEWS SUNDAY",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": 1,
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": "$20.00",
+                        "Rate": "$20.00",
+                        "Total": "Duluth/Superior (KQDS)",
+                        "Station": "FOX NEWS SUNDAY",
+                        "Comments": "08/31/20",
+                        "Entered": NaN
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": [
+            {
+                "type": "metadata",
+                "content": "FOX21 Duluth-Superior\nKQDS-TV\nDuluth/Superior (KQDS)\nThe parties to this agreement will not discriminate on the placement of advertising on the basis of race or gender.\nB/E Bookend P/B Piggy Back\nPrinted At: 02:36 PM on Monday, August 31 2020\nPage 4 of 4\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Contract #": "59119"
+                    },
+                    {
+                        "Schedule Dates": "09/04/20-09/07/20"
+                    },
+                    {
+                        "Advertiser": "POLJ Biden/D/Pres/US (6268)"
+                    },
+                    {
+                        "Agency": "Media Buying and Analytics (2146)"
+                    },
+                    {
+                        "Product": "Political-Candidate (1058)"
+                    },
+                    {
+                        "Brand": "1106/1350/8137 (38888)"
+                    },
+                    {
+                        "Salesperson": "HRP-Philadelphia, Philadelphia (1087)"
+                    },
+                    {
+                        "Sales Office": "HRP-Philadelphia"
+                    },
+                    {
+                        "Buyer Name": "HUTTON,SHELLI"
+                    },
+                    {
+                        "Phone/Fax": "/"
+                    },
+                    {
+                        "CPE": "1106/1350/8137"
+                    },
+                    {
+                        "Account Types": "National/Political Agency"
+                    },
+                    {
+                        "Billing Type": "Standard"
+                    },
+                    {
+                        "Order Type": "Normal"
+                    },
+                    {
+                        "Commission %": "15.00"
+                    },
+                    {
+                        "Commission": "$101.40"
+                    },
+                    {
+                        "Net Total": "$574.60"
+                    },
+                    {
+                        "Sales Tax": "missing"
+                    },
+                    {
+                        "Headline #": "09918296"
+                    },
+                    {
+                        "Demo": "missing"
+                    },
+                    {
+                        "Package Deal": "missing"
+                    },
+                    {
+                        "CO-OP": "No"
+                    },
+                    {
+                        "Entered By": "Lori Kempton"
+                    },
+                    {
+                        "Date Entered": "08/31/20"
+                    },
+                    {
+                        "Last Modified": "08/31/20"
+                    },
+                    {
+                        "Comments": "BIDEN FOR PRES/60\u2019S\\n****** THIS IS A CASH IN ADVANCE SCHEDULE ******"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "By Broadcast Month": "Sep. 2020",
+                        "Spots": "Spots",
+                        "Rate": "36"
+                    },
+                    {
+                        "By Broadcast Month": "Grand Total",
+                        "Spots": "36",
+                        "Rate": "$676.00"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": 34.1,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/06/20-09/06/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "10P- LAST MAN STANDING SUN 10PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": 1,
+                        "Rate": "$20.00",
+                        "Total": "$20.00",
+                        "Station": "Duluth/Superior (KQDS)",
+                        "Comments": "LAST MAN",
+                        "Entered": "08/31/20"
+                    },
+                    {
+                        "Line": 35.1,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/06/20-09/06/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "10:30P- 2 BROKE GIRLS SUN 1035PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": 1,
+                        "Rate": "$40.00",
+                        "Total": "$40.00",
+                        "Station": "Duluth/Superior (KQDS)",
+                        "Comments": "2 BROKE",
+                        "Entered": "08/31/20"
+                    },
+                    {
+                        "Line": 36.0,
+                        "Line Type": "Normal Line / SPOT",
+                        "Dates": "09/06/20-09/06/20",
+                        "Sec": 4,
+                        "Length": "1:00",
+                        "Run Times": "11:30P- MIKE & MOLLY SUN 1135PM",
+                        "SPW": 1,
+                        "Mo": "missing",
+                        "Tu": "missing",
+                        "We": "missing",
+                        "Th": "missing",
+                        "Fr": "missing",
+                        "Sa": "missing",
+                        "Su": 1,
+                        "Spots": 1,
+                        "Rate": "$10.00",
+                        "Total": "$10.00",
+                        "Station": "Duluth/Superior (KQDS)",
+                        "Comments": "MIKE & MOLLY",
+                        "Entered": "08/31"
+                    }
+                ]
+            }
+        ]
+    }
+]

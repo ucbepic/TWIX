@@ -1,0 +1,473 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "metadata",
+                "content": "Buy Detail Report\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Client": "Club for Grow th Action"
+                    },
+                    {
+                        "Description": "ESTIMATE #2964 OFFER"
+                    },
+                    {
+                        "Vendor": "WCSC-TV\\n485 E Bay St\\n\"Charleston,SC 29403-6336\""
+                    },
+                    {
+                        "Send Billing To": "missing"
+                    },
+                    {
+                        "Media": "TV"
+                    },
+                    {
+                        "Flight Start Date": "05/25/2020"
+                    },
+                    {
+                        "Product": "Club for Grow th Action"
+                    },
+                    {
+                        "Flight End Date": "06/07/2020"
+                    },
+                    {
+                        "Primary Demo": "Adults 55+"
+                    },
+                    {
+                        "Survey": "May20 Proj. \"(May 19 HUT, Feb20 SHR)\"\\nDMA Nielsen Live+SD"
+                    },
+                    {
+                        "Contact": "\"Thompson, Charlie\""
+                    },
+                    {
+                        "Phone": "803-723-8371"
+                    },
+                    {
+                        "Fax": "803-723-0074"
+                    },
+                    {
+                        "Affiliation": "CBS"
+                    },
+                    {
+                        "Date": "4/6/2020"
+                    },
+                    {
+                        "Comments": "FLIGHT RUNS 5/27-6/2"
+                    },
+                    {
+                        "Market/System": "\"Charleston,SC\""
+                    },
+                    {
+                        "Signature": "missing"
+                    },
+                    {
+                        "Disclaimer": "missing"
+                    },
+                    {
+                        "Page": "1"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Daypart\\nProgram": "MTuWThF 5:30a- 6:00a",
+                        "Daypart\\nCode": "EM",
+                        "STN\\nGross": "$180.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "3",
+                        "6/1": "2",
+                        "Total\\nSpots": "5",
+                        "Adults\\n55+\\nRtg/CPP": "5.0"
+                    },
+                    {
+                        "Daypart\\nProgram": "LIVE 5 NEWS @ 530A",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$36.00"
+                    },
+                    {
+                        "Daypart\\nProgram": "MTuWThF 6:00a- 7:00a",
+                        "Daypart\\nCode": "EM",
+                        "STN\\nGross": "$450.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "3",
+                        "6/1": "2",
+                        "Total\\nSpots": "5",
+                        "Adults\\n55+\\nRtg/CPP": "6.2"
+                    },
+                    {
+                        "Daypart\\nProgram": "LIVE 5 NEWS @ 6A",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$72.58"
+                    },
+                    {
+                        "Daypart\\nProgram": "MTuWThF 7:00a- 9:00a",
+                        "Daypart\\nCode": "EM",
+                        "STN\\nGross": "$450.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "6",
+                        "6/1": "4",
+                        "Total\\nSpots": "10",
+                        "Adults\\n55+\\nRtg/CPP": "7.2"
+                    },
+                    {
+                        "Daypart\\nProgram": "CBS THIS MORNING",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$62.50"
+                    },
+                    {
+                        "Daypart\\nProgram": "MTuWThF 11:00a-12:00p",
+                        "Daypart\\nCode": "DT",
+                        "STN\\nGross": "$360.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "3",
+                        "6/1": "2",
+                        "Total\\nSpots": "5",
+                        "Adults\\n55+\\nRtg/CPP": "5.9"
+                    },
+                    {
+                        "Daypart\\nProgram": "THE PRICE IS RIGHT",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$61.02"
+                    },
+                    {
+                        "Daypart\\nProgram": "MTuWThF 12:00p-12:30p",
+                        "Daypart\\nCode": "DT",
+                        "STN\\nGross": "$450.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "3",
+                        "6/1": "2",
+                        "Total\\nSpots": "5",
+                        "Adults\\n55+\\nRtg/CPP": "7.5"
+                    },
+                    {
+                        "Daypart\\nProgram": "LIVE 5 NEWS @ NOON",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$60.00"
+                    },
+                    {
+                        "Daypart\\nProgram": "MTuWThF 4:30p- 5:00p",
+                        "Daypart\\nCode": "EF",
+                        "STN\\nGross": "$315.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "3",
+                        "6/1": "2",
+                        "Total\\nSpots": "5",
+                        "Adults\\n55+\\nRtg/CPP": "8.1"
+                    },
+                    {
+                        "Daypart\\nProgram": "INSIDE EDITION",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$38.89"
+                    },
+                    {
+                        "Daypart\\nProgram": "MTuWThF 5:00p- 5:30p",
+                        "Daypart\\nCode": "EN",
+                        "STN\\nGross": "$450.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "3",
+                        "6/1": "2",
+                        "Total\\nSpots": "5",
+                        "Adults\\n55+\\nRtg/CPP": "9.3"
+                    },
+                    {
+                        "Daypart\\nProgram": "LIVE 5 NEWS @ 5P",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$48.39"
+                    },
+                    {
+                        "Daypart\\nProgram": "MTuWThF 6:00p- 6:30p",
+                        "Daypart\\nCode": "EN",
+                        "STN\\nGross": "$585.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "2",
+                        "6/1": "2",
+                        "Total\\nSpots": "4",
+                        "Adults\\n55+\\nRtg/CPP": "10.7"
+                    },
+                    {
+                        "Daypart\\nProgram": "LIVE 5 NEWS @ 6P",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$54.67"
+                    },
+                    {
+                        "Daypart\\nProgram": "MTuWThF 11:00p-11:37p",
+                        "Daypart\\nCode": "LN",
+                        "STN\\nGross": "$450.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "3",
+                        "6/1": "2",
+                        "Total\\nSpots": "5",
+                        "Adults\\n55+\\nRtg/CPP": "7.0"
+                    },
+                    {
+                        "Daypart\\nProgram": "LIVE 5 NEWS @ 11P",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$64.29"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "metadata",
+                "content": "Buy Detail Report\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Client": "Club for Grow th Action"
+                    },
+                    {
+                        "Description": "ESTIMATE #2964 OFFER"
+                    },
+                    {
+                        "Vendor": "WCSC-TV\\n485 E Bay St\\n\"Charleston,SC 29403-6336\""
+                    },
+                    {
+                        "Send Billing To": "missing"
+                    },
+                    {
+                        "Media": "TV"
+                    },
+                    {
+                        "Flight Start Date": "05/25/2020"
+                    },
+                    {
+                        "Product": "Club for Grow th Action"
+                    },
+                    {
+                        "Flight End Date": "06/07/2020"
+                    },
+                    {
+                        "Primary Demo": "Adults 55+"
+                    },
+                    {
+                        "Survey": "May20 Proj. \"(May 19 HUT, Feb20 SHR)\"\\nDMA Nielsen Live+SD"
+                    },
+                    {
+                        "Contact": "\"Thompson, Charlie\""
+                    },
+                    {
+                        "Phone": "803-723-8371"
+                    },
+                    {
+                        "Fax": "803-723-0074"
+                    },
+                    {
+                        "Affiliation": "CBS"
+                    },
+                    {
+                        "Date": "4/6/2020"
+                    },
+                    {
+                        "Comments": "FLIGHT RUNS 5/27-6/2"
+                    },
+                    {
+                        "Market/System": "\"Charleston,SC\""
+                    },
+                    {
+                        "Signature": "missing"
+                    },
+                    {
+                        "Disclaimer": "missing"
+                    },
+                    {
+                        "Page": "2"
+                    },
+                    {
+                        "Total Cost": "\"$21,735.00\""
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Daypart\\nProgram": "Sa 8:00a-10:00a",
+                        "Daypart\\nCode": "WK",
+                        "STN\\nGross": "$315.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "1",
+                        "6/1": "0",
+                        "Total\\nSpots": "1",
+                        "Adults\\n55+\\nRtg/CPP": "5.8"
+                    },
+                    {
+                        "Daypart\\nProgram": "CBS SATURDAY EARLY SHOW",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$54.31"
+                    },
+                    {
+                        "Daypart\\nProgram": "Sa 6:00p- 6:30p",
+                        "Daypart\\nCode": "WK",
+                        "STN\\nGross": "$270.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "1",
+                        "6/1": "0",
+                        "Total\\nSpots": "1",
+                        "Adults\\n55+\\nRtg/CPP": "5.1"
+                    },
+                    {
+                        "Daypart\\nProgram": "LIVE 5 NEWS @ 6P SAT",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$52.94"
+                    },
+                    {
+                        "Daypart\\nProgram": "Su 9:00a-10:30a",
+                        "Daypart\\nCode": "WK",
+                        "STN\\nGross": "$450.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "1",
+                        "6/1": "0",
+                        "Total\\nSpots": "1",
+                        "Adults\\n55+\\nRtg/CPP": "5.8"
+                    },
+                    {
+                        "Daypart\\nProgram": "CBS SUNDAY MORNING",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$77.59"
+                    },
+                    {
+                        "Daypart\\nProgram": "Su 10:30a-11:30a",
+                        "Daypart\\nCode": "WK",
+                        "STN\\nGross": "$225.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "1",
+                        "6/1": "0",
+                        "Total\\nSpots": "1",
+                        "Adults\\n55+\\nRtg/CPP": "3.6"
+                    },
+                    {
+                        "Daypart\\nProgram": "FACE THE NATION",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$62.50"
+                    },
+                    {
+                        "Daypart\\nProgram": "Su 11:00p-11:37p",
+                        "Daypart\\nCode": "WK",
+                        "STN\\nGross": "$360.00",
+                        "Dur": "30",
+                        "Wks\\n5/25": "1",
+                        "6/1": "0",
+                        "Total\\nSpots": "1",
+                        "Adults\\n55+\\nRtg/CPP": "7.2"
+                    },
+                    {
+                        "Daypart\\nProgram": "LIVE 5 NEWS @ 11P SU",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "missing",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$50.00"
+                    },
+                    {
+                        "Daypart\\nProgram": "missing",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "Total Spots:",
+                        "Wks\\n5/25": "34",
+                        "6/1": "20",
+                        "Total\\nSpots": "54",
+                        "Adults\\n55+\\nRtg/CPP": "missing"
+                    },
+                    {
+                        "Daypart\\nProgram": "missing",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "Total GRP/GIM P(000):",
+                        "Wks\\n5/25": "239.1",
+                        "6/1": "148.2",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "387.3"
+                    },
+                    {
+                        "Daypart\\nProgram": "missing",
+                        "Daypart\\nCode": "missing",
+                        "STN\\nGross": "missing",
+                        "Dur": "Total CPP/CPM:",
+                        "Wks\\n5/25": "missing",
+                        "6/1": "missing",
+                        "Total\\nSpots": "missing",
+                        "Adults\\n55+\\nRtg/CPP": "$56.12"
+                    }
+                ]
+            }
+        ]
+    }
+]
