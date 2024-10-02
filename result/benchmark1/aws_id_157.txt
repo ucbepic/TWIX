@@ -1,0 +1,285 @@
+#Record1
+-KV
+P.O. BOX,missing
+Remit To,"CBS Television NEWARK, 33091 Stations NJ 07188-0091"
+Invoice Num,1041-556238
+Page,1 of 6
+Invoice Date,10/14/2012
+Billing Cycle,Weekly
+PO BOX,missing
+PAY BY,11/13/2012 Net 30 days
+Billing Period,10/01/2012-10/14/2012
+For,"BOB CASEY Philadelphia, 58746 FOR SENATE(215421) PA 19102-8746"
+In Account,SHORR JOHNSON MAGNUS(39976)
+Ste,missing
+Product Desc,CASEY FOR SENATE
+ATTNAccounts Payable,missing
+With,"1831 Philadelphia, Chestnut St PA 19103-3700 602"
+Total,missing
+Buy Line,1
+Spots,4
+Description,missing
+Flight,CBS THIS MORNING
+Buy Line Dates,10/02/2012-10/05/2012
+We,missing
+2 CBS THIS MORNING,10/08/2012-10/08/2012 M 30 1 405.00
+Mo,08:28:01 AM
+Air Time,missing
+Day,missing
+M/G For,missing
+TWTF,30 4 810.00
+THIS MORNING (558-7AM),10/02/2012-10/05/2012
+Warranty,We warrant the above broadcasts were made according to the official station log.
+-TABLE
+Buy Line,Flight Description,Buy Line Dates,MTWTFSS,Dur,Total Spots,Rate
+1,CBS THIS MORNING,10/02/2012-10/05/2012,TWTF,30,4,405.00
+-TABLE
+Week Of,MTWTFSS,Spots Per Week,Rate
+10/01/2012-10/07/2012,TWTF.,4,405.00
+-TABLE
+Air Date,Day,Air Time,M/G For,Material,Dur,Rate,Debit,Credit,Remarks
+10/02/2012,Tu,08:27:26 AM,missing,BCTV1203H,30,405.00,missing,missing,missing
+10/03/2012,We,08:59:21 AM,missing,BCTV1203H,30,405.00,missing,missing,missing
+10/04/2012,Th,08:15:02 AM,missing,BCTV1203H,30,405.00,missing,missing,missing
+10/05/2012,Fr,08:24:16 AM,missing,BCTV1203H,30,405.00,missing,missing,missing
+-TABLE
+Week Of,MTWTFSS,Spots Per Week,Rate
+10/08/2012-10/14/2012,M,1,405.00
+-TABLE
+Air Date,Day,Air Time,M/G For,Material,Dur,Rate,Debit,Credit,Remarks
+10/08/2012,Mo,08:28:01 AM,missing,BCTV1203H,30,405.00,missing,missing,missing
+-TABLE
+Week Of,MTWTFSS,Spots Per Week,Rate
+10/01/2012-10/07/2012,TWTF.,4,810.00
+-TABLE
+Air Date,Day,Air Time,M/G For,Material,Dur,Rate,Debit,Credit,Remarks
+10/02/2012,Tu,06:52:04 AM,missing,BCTV1203H,30,810.00,missing,missing,missing
+10/03/2012,We,06:17:44 AM,missing,BCTV1203H,30,810.00,missing,missing,missing
+10/04/2012,Th,06:58:00 AM,missing,BCTV1203H,30,810.00,missing,missing,missing
+10/05/2012,Fr,06:17:38 AM,missing,BCTV1203H,30,810.00,missing,missing,missing
+#Record2
+-KV
+P.O. BOX,33091
+CBS TELEVISION STATIONS,CW
+Invoice Num,1041-556238
+Page,2 of 6
+Invoice Date,10/14/2012
+Billing Cycle,Weekly
+PO BOX,58746
+Net,missing
+PAY BY,11/13/2012 30 days
+Billing Period,10/01/2012-10/14/2012
+In Account,SHORR JOHNSON MAGNUS(39976)
+St Ste,missing
+Product Desc,CASEY FOR SENATE
+ATTNAccounts Payable,missing
+With,"1831 Philadelphia, Chestnut PA 19103-3700 602"
+Total,missing
+Flight,missing
+Buy Line,4
+Spots,1
+Buy Line Dates,10/08/2012-10/08/2012
+Description,(5:58-7AM)
+THIS MORNING,missing
+ENTERTAINMENT TONIGHT,10/02/2012-10/05/2012
+We,missing
+Th,missing
+Fr,missing
+6 ENTERTAINMENT TONIGHT,"10/08/2012-10/08/2012 M 30 1 1,260.00"
+Mo,06:59:27 PM
+7 NAVY NCIS,"10/02/2012-10/02/2012 T 30 1 13,500.00"
+Warranty,We warrant the above broadcasts were made according to the official station log.
+-TABLE
+Buy Line,Flight Description,Buy Line Dates,MTWTFSS,Dur,Total Spots,Rate
+4,THIS MORNING (5:58-7AM),10/08/2012-10/08/2012,M,30,1,810.00
+-TABLE
+Air Date,Day,Air Time,M/G For,Material,Dur,Rate,Debit,Credit,Remarks
+10/02/2012,Tu,07:25:45 PM,missing,BCTV1203H,30,"1,080.00",missing,missing,missing
+10/03/2012,We,07:12:08 PM,missing,BCTV1203H,30,"1,080.00",missing,missing,missing
+10/04/2012,Th,07:16:27 PM,missing,BCTV1203H,30,"1,080.00",missing,missing,missing
+10/05/2012,Fr,07:26:08 PM,missing,BCTV1203H,30,"1,080.00",missing,missing,missing
+6 ENTERTAINMENT TONIGHT,missing,missing,missing,10/08/2012-10/08/2012,M,missing,30,1,"1,260.00"
+-TABLE
+Week Of,MTWTFSS,Spots Per Week,Rate
+10/08/2012-10/14/2012,M,1,"1,260.00"
+-TABLE
+Week Of,MTWTFSS,Spots Per Week,Rate
+10/01/2012-10/07/2012,T,1,"13,500.00"
+-TABLE
+Air Date,Day,Air Time,M/G For,Material,Dur,Rate,Debit,Credit,Remarks
+10/02/2012,Tu,08:35:46 PM,missing,BCTV1203H,30,"13,500.00",missing,missing,missing
+#Record3
+-KV
+Invoice Num,1041-556238
+Account Exec,JOHN LINK POL.
+Page,3 of 6
+Office,GWTS-PH
+Invoice Date,10/14/2012
+Contract Num,1041-80687
+Billing Cycle,Weekly
+Contract Dates,10/02/2012-10/08/2012
+Net,missing
+PAY BY,11/13/2012 30 days
+Billing Period,10/01/2012-10/14/2012
+Customer Order,missing
+Linked Order,missing
+CPE,/ /
+Product Desc,CASEY FOR SENATE
+Total,missing
+Buy Line,missing
+Flight,Description
+Spots,1
+SURVIVOR XXV,PHILLIPINES
+Buy Line Dates,10/03/2012-10/03/2012
+PERSON OF INTEREST,"10/04/2012-10/04/2012 T 30 1 9,000.00"
+THE AMAZING RACE,"10/07/2012-10/07/2012 S 30 1 6,750.00"
+11 THE GOOD WIFE,"10/07/2012-10/07/2012 S 30 1 8,100.00"
+Warranty,We warrant the above broadcasts were made according to the official station log.
+-TABLE
+Invoice Num:,1041-556238
+Invoice Date:,10/14/2012
+Billing Cycle:,Weekly
+Billing Period:,10/01/2012-10/14/2012
+-TABLE
+Buy Line,Flight Description,missing,missing,Buy Line Dates,missing,missing,MTWTFSS,Dur,missing,Total Spots,Rate
+8,SURVIVOR XXV: PHILLIPINES,missing,missing,missing,10/03/2012-10/03/2012,missing,W,30,missing,1,"9,000.00"
+missing,Week Of,missing,missing,MTWTFSS,missing,Spots Per Week,Rate,missing,missing,missing,missing
+10/01/2012-10/07/2012,missing,missing,missing,..W 1,missing,missing,"9,000.00",missing,missing,missing,missing
+Air Date,missing,Day,Air Time,M/G For,Material,missing,Dur Rate,Debit,missing,Credit,Remarks
+10/03/2012,missing,We,08:31:17 PM,BCTV1203H,missing,missing,"30 9,000.00",missing,missing,missing,missing
+9 PERSON OF INTEREST 10/04/2012-10/04/2012,missing,missing,missing,missing,missing,missing,T,missing,30,1,"9,000.00"
+missing,Week Of,missing,missing,MTWTFSS,missing,Spots Per Week,Rate,missing,missing,missing,missing
+10/01/2012-10/07/2012,missing,missing,missing,1,missing,missing,"9,000.00",missing,missing,missing,missing
+Air Date,missing,Day,Air Time,M/G For,Material,missing,Dur Rate,Debit,missing,Credit,Remarks
+10/04/2012,missing,Th,09:48:03 PM,missing,BCTV1203H,missing,"30 9,000.00",missing,missing,missing,missing
+10 THE AMAZING RACE 10/07/2012-10/07/2012,missing,missing,missing,missing,missing,missing,S,missing,30,1,"6,750.00"
+missing,Week Of,missing,missing,MTWTFSS,missing,Spots Per Week,Rate,missing,missing,missing,missing
+10/01/2012-10/07/2012,missing,missing,missing,S,1,missing,"6,750.00",missing,missing,missing,missing
+Air Date,missing,Day,Air Time,M/G For,Material,missing,Dur Rate,Debit,missing,Credit,Remarks
+10/07/2012 Su,missing,missing,09:21:27 PM,missing,BCTV1203H,missing,"30 6,750.00",missing,missing,missing,missing
+11 THE GOOD WIFE,missing,missing,missing,missing,10/07/2012-10/07/2012,missing,S,missing,30,1,"8,100.00"
+-TABLE
+Week Of,MTWTFSS,Spots Per Week,Rate
+10/01/2012-10/07/2012,S,1,"8,100.00"
+-TABLE
+Air Date,Day,Air Time,M/G For,Material,Dur,Rate,Debit,Credit,Remarks
+10/07/2012,Su,10:25:20 PM,missing,BCTV1203H,30,"8,100.00",missing,missing,missing
+#Record4
+-KV
+P.O. BOX,missing
+Remit To,"CBS Television NEWARK, 33091 Stations NJ 07188-0091"
+Invoice Num,1041-556238
+Page,4 of 6
+Invoice Date,10/14/2012
+Billing Cycle,Weekly
+PO BOX,58746
+Net,missing
+PAY BY,11/13/2012 30 days
+Billing Period,10/01/2012-10/14/2012
+SHORR JOHNSON,missing
+In Account,MAGNUS(39976
+Product Desc,CASEY FOR SENATE
+St Ste,missing
+ATTNAccounts Payable,missing
+With,"1831 Philadelphia, Chestnut PA 19103-3700 602"
+Total,missing
+Flight,missing
+Spots,4
+Description,LETTERMAN
+Buy Line,12
+Buy Line Dates,10/02/2012-10/05/2012
+TWIF,missing
+Th,missing
+DAVID LETTERMAN,10/08/2012-10/08/2012 M 30 1 900.00
+Mo,12:11:54 AM
+Material,BCTV1203H
+Air Time,missing
+M/G For,missing
+Debit,missing
+Remarks,missing
+LATE NEWS,10/02/2012-10/07/2012
+TWTFSS,"30 7 2,700.00"
+Preempted,missing
+Su,missing
+Makegood in,23:34:00-00:07:00
+Warranty,We warrant the above broadcasts were made according to the official station log.
+-TABLE
+Buy Line,Flight Description,Buy Line Dates,MTWTFSS,Dur,Total Spots,Rate
+12,DAVID LETTERMAN,10/02/2012-10/05/2012,TWTF,30,4,810.00
+-TABLE
+Air Date,Day,Air Time,M/G For,Material,Dur,Rate,Debit,Credit,Remarks
+10/02/2012,Tu,12:10:52 AM,missing,BCTV1203H,30,810.00,missing,missing,missing
+10/03/2012,We,12:08:56 AM,missing,BCTV1203H,30,810.00,missing,missing,missing
+10/04/2012,Th,11:47:39 PM,missing,BCTV1203H,30,810.00,missing,missing,missing
+10/05/2012,Fr,11:55:23 PM,missing,BCTV1203H,30,810.00,missing,missing,missing
+-TABLE
+Week Of,MTWTFSS,Spots Per Week,Rate
+10/08/2012-10/14/2012,M,1,900.00
+-TABLE
+Week Of,MTWTFSS,Spots Per Week,Rate
+10/01/2012-10/07/2012,TWTFSS,6,"2,700.00"
+-TABLE
+Air Date,Day,Air Time,M/G For,Material,Dur,Rate,Debit,Credit,Remarks
+10/02/2012,Tu,11:24:39 PM,missing,BCTV1203H,30,"2,700.00",missing,missing,missing
+10/03/2012,We,11:24:40 PM,missing,BCTV1203H,30,"2,700.00",missing,missing,missing
+10/04/2012,Th,11:23:32 PM,missing,BCTV1203H,30,"2,700.00",missing,missing,missing
+10/05/2012,Fr,11:23:28 PM,missing,BCTV1203H,30,"2,700.00",missing,missing,missing
+10/06/2012,Sa,11:28:48 PM,missing,BCTV1203H,30,"2,700.00",missing,missing,missing
+10/07/2012,Su,missing,missing,missing,30,missing,missing,"2,700.00",Preempted
+10/07/2012,Su,11:56:03 PM,10/07/2012,BCTV1203H,30,"2,700.00","2,700.00",missing,Makegood in 23:34:00-00:07:00
+#Record5
+-KV
+Invoice Num,1041-556238
+Account Exec,JOHN LINK POL.
+Page,5 of 6
+Office,GWTS-PH
+Invoice Date,10/14/2012
+Contract Num,1041-80687
+Billing Cycle,Weekly
+Contract Dates,10/02/2012-10/08/2012
+Net,missing
+PAY BY,11/13/2012 30 days
+Billing Period,10/01/2012-10/14/2012
+Customer Order,missing
+Linked Order,missing
+CPE,/ /
+Product Desc,CASEY FOR SENATE
+Total,missing
+Flight,missing
+Description,missing
+Spots,1
+Buy Line Dates,10/08/2012-10/08/2012
+Mo,11:21:54 PM
+WKND NEWS SUN 7-9A,10/07/2012-10/07/2012 S 30 1 405.00
+CBS SUNDAY MORNING,"10/07/2012-10/07/2012 S 30 1 1,440.00"
+Reconciliation,"0,00"
+Total Spots,34
+Commission Amt,"12,433.50"
+Net Amt,"70,456.50"
+Gross Amt,"82,890.00"
+NONDISCRIMINATION POLICY,"accept CBS any Television advertising Stations which CBS is or intended its Television Stations to discriminate that Stations is intended and on its the to Stations discriminate basis of do race not on discriminate or the ethnicity. basis of Advertiser in race advertising or ethnicity. represents contracts and on warrants the basis that of it race is not or ethnicity, purchasing and time will from not"
+Warranty,We warrant the above broadcasts were made according to the official station log.
+-TABLE
+Invoice Num:,1041-556238
+Invoice Date:,10/14/2012
+Billing Cycle:,Weekly
+Billing Period:,10/01/2012-10/14/2012
+-TABLE
+Buy Line,Flight Description,missing,Buy Line Dates,missing,missing,missing,MTWTFSS,missing,Dur,missing,Total Spots,Rate
+15,LATE,NEWS,missing,10/08/2012-10/08/2012,missing,missing,M,missing,30,missing,1,"2,700.00"
+Week Of,missing,missing,missing,MTWTFSS,missing,Spots Per Week,Rate,missing,missing,missing,missing,missing
+10/08/2012-10/14/2012,missing,missing,missing,M 1,missing,missing,"2,700.00",missing,missing,missing,missing,missing
+Air Date,missing,Day,Air Time,M/G For,Material,missing,Dur,Rate,Debit,missing,Credit,Remarks
+10/08/2012,missing,Mo,11:21:54 PM,BCTV1203H,missing,missing,30,"2,700.00",missing,missing,missing,missing
+16 WKND NEWS SUN 7-9A 10/07/2012-10/07/2012,missing,missing,missing,missing,missing,missing,S,missing,30,missing,1,405.00
+Week Of,missing,missing,missing,MTWTFSS,missing,Spots Per Week,missing,Rate,missing,missing,missing,missing
+10/01/2012-10/07/2012,missing,missing,missing,S 1,missing,missing,405.00,missing,missing,missing,missing,missing
+Air Date,missing,Day,Air Time,M/G For,Material,missing,Dur,Rate,Debit,missing,Credit,Remarks
+10/07/2012,missing,Su,07:22:30 AM,BCTV1203H,missing,missing,30 405.00,missing,missing,missing,missing,missing
+17 CBS SUNDAY MORNING,missing,missing,missing,10/07/2012-10/07/2012,missing,missing,S,missing,30,missing,1,"1,440.00"
+Week Of,missing,missing,missing,MTWTFSS,missing,Spots Per Week,missing,Rate,missing,missing,missing,missing
+10/01/2012-10/07/2012,missing,missing,missing,S,missing,1,missing,"1,440.00",missing,missing,missing,missing
+Air Date,missing,Day,Air Time,M/G For,Material,Dur,missing,Rate,Debit,missing,Credit,Remarks
+10/07/2012,missing,Su,09:46:52 AM,missing,BCTV1203H,30,missing,"1,440.00",missing,missing,missing,missing
+Total Spots,missing,missing,missing,Gross Amt,missing,Commission Amt,missing,Net Amt,Debit,missing,Credit,Reconciliation
+Air Time Totals,missing,34,missing,"82,890.00",missing,"12,433.50",missing,"70,456.50","2,700.00",missing,"2,700.00","0,00"

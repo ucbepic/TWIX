@@ -1,0 +1,290 @@
+#Record1
+-KV
+Update Date,09/15/21
+Flight Dates,09/13/21 10/03/21
+Version,1 Vs. 1
+Agency,Keller Media Consulting
+Advertiser,Small Business Association of Michigan
+Show All Lines,missing
+Total # of Weeks,3
+Total,"$65,422.00"
+Client Code,missing
+AE,Leah Losier
+Commission,"$9,813.30"
+Product Code,missing
+Net Total,"$55,608.70"
+Sales Coordinator,Michael Ryan
+Est Code,missing
+Product Name,add to sked 9.16-9.30
+Total Spots,2200
+Office,Chicago
+Credit Status,Cash in Advance
+Phone,(312) 527-5755
+Affiliate Split,100.0
+Cost Per Spot,missing
+Sold On,missing
+Status,Accepted
+GRP,GIMP -
+Primary Demo,Adults 18+
+Survey,DMA Nielsen Live+3 Sep20
+CPP,-
+CPM,-
+Makegood Policy,Approval Required
+Comments ,9.14 new order. please confirm. thanks
+Page,1 of 13
+-TABLE
+Line,Net,Program,Start Date,Stop Date,Start Time,Stop Time,M,T,W,T,F,S,S,RTG,IMP,Total Spots,Unit Cost,Total Cost,Spot Len,Line Comment
+1,AEN,CABLE,9/13/21,9/19/21,09:00,16:00,[ ],[ ],missing,[X],[ ] X,X,[ ] X,[ ] -,[ ] -,10,$19.00,$190.00,30,OOW 06/28/21-09/26/21
+2,AEN,CABLE,9/20/21,9/26/21,09:00,16:00,[X],X,[ ],[ ],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,10,$19.00,$190.00,30,OOW 06/28/21-09/26/21
+3,AEN,CABLE,9/27/21,10/3/21,09:00,16:00,[X],[X],missing,[X],missing,[ ],[ ],[ ] -,-,10,$19.00,$190.00,30,OOW 06/28/21-09/26/21
+4,AEN,CABLE,9/13/21,9/19/21,16:00,19:00,[ ],[ ],missing,[X],[ ],[ ] X,[ ] X,[ ] -,-,5,$26.00,$130.00,30,OOW 06/28/21-09/26/21
+5,AEN,CABLE,9/20/21,9/26/21,16:00,19:00,missing,[ ] X,missing,[ ],[ ],[ ] X,[ ] X,[ ] -,[ ] -,5,$26.00,$130.00,30,OOW 06/28/21-09/26/21
+6,AEN,CABLE,9/27/21,10/3/21,16:00,19:00,missing,[X],[ ],[X],[ ],[ ],[ ],[ ] -,[ ] -,4,$26.00,$104.00,30,OOW 06/28/21-09/26/21
+7,AEN,CABLE,9/13/21,9/19/21,19:00,24:00,[ ],[ ],[ ],[X],[ ] X,[ ] X,[ ],-,-,14,$33.00,$462.00,30,OOW 06/28/21-09/26/21
+8,AEN,CABLE,9/20/21,9/26/21,19:00,24:00,missing,[ ] X,[ ],[ ],[ ],[ ] X,[ ],-,-,14,$33.00,$462.00,30,OOW 06/28/21-09/26/21
+9,AEN,CABLE,9/27/21,10/3/21,19:00,24:00,missing,X,[ ],[ ],[ ],[ ],[ ],[ ] -,[ ] -,8,$33.00,$264.00,30,OOW 06/28/21-09/26/21
+10,AMC,CABLE,9/13/21,9/19/21,09:00,16:00,[ ],[ ],[ ],[X],[ ] X,[ ] X,X,[ ] -,[ ] -,10,$19.00,$190.00,30,OOW 06/28/21-09/26/21
+11,AMC,CABLE,9/20/21,9/26/21,09:00,16:00,missing,X,[ ],[ ],[ ],X,X,[ ] -,[ ] -,10,$19.00,$190.00,30,OOW 06/28/21-09/26/21
+12,AMC,CABLE,9/27/21,10/3/21,09:00,16:00,[X],X,[ ],missing,[ ],[ ],[ ],[ ] -,[ ] -,10,$19.00,$190.00,30,OOW 06/28/21-09/26/21
+13,AMC,CABLE,9/13/21,9/19/21,16:00,19:00,[ ],[ ],[ ],[ ] X,[ ] X,[ ] X,[ ],[ ] -,[ ] -,5,$26.00,$130.00,30,OOW 06/28/21-09/26/21
+14,AMC,CABLE,9/20/21,9/26/21,16:00,19:00,missing,X,[ ],[ ],[ ] X,[ ] X,[ ],[ ] -,[ ] -,5,$26.00,$130.00,30,OOW 06/28/21-09/26/21
+15,AMC,CABLE,9/27/21,10/3/21,16:00,19:00,[X],[X],[ ] X,[ ],[ ],[ ],[ ],[ ] -,[ ] -,4,$26.00,$104.00,30,OOW 06/28/21-09/26/21
+16,AMC,CABLE,9/13/21,9/19/21,19:00,24:00,[ ],[ ],[ ],X,[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,14,$33.00,$462.00,30,OOW 06/28/21-09/26/21
+17,AMC,CABLE,9/20/21,9/26/21,19:00,24:00,missing,X,[ ],[ ],[ ],[ ] X,[ ] X,[ ] -,[ ] -,14,$33.00,$462.00,30,OOW 06/28/21-09/26/21
+18,AMC,CABLE,9/27/21,10/3/21,19:00,24:00,missing,X,[ ],[ ],[ ],[ ],[ ],[ ] -,[ ] -,8,$33.00,$264.00,30,OOW 06/28/21-09/26/21
+19,APL,CABLE,9/13/21,9/19/21,09:00,16:00,[ ],[ ],[ ],[X],[ ] X,[ ] X,[ ],[ ] -,[ ] -,10,$9.00,$90.00,30,OOW 06/28/21-09/26/21
+20,APL,CABLE,9/20/21,9/26/21,09:00,16:00,[X],missing,[ ],[ ],[ ],[ ] X,[ ] X,[ ] -,[ ] -,10,$9.00,$90.00,30,OOW 06/28/21-09/26/21
+21,APL,CABLE,9/27/21,10/3/21,09:00,16:00,[X],missing,missing,[X],[ ],[ ],[ ],[ ] -,[ ] -,10,$9.00,$90.00,30,OOW 06/28/21-09/26/21
+#Record2
+-KV
+Order #,62924075
+Update Date,09/15/21
+Version,1 Vs. 1
+Syscode,0166
+System Name,"Spectrum/Traverse City Interconnect, MI"
+Show All Lines,missing
+Total # of Weeks,3
+Market,Traverse City
+Total,"$65,422.00"
+Client Code,missing
+AE,Leah Losier
+Commission,"$9,813.30"
+Product Code,missing
+Net Total,"$55,608.70"
+Sales Coordinator,Michael Ryan
+Est Code,missing
+Product Name,add to sked 9.16-9.30
+Total Spots,2200
+Office,Chicago
+Credit Status,Cash in Advance
+Phone,(312) 527-5755
+Affiliate Split,100.0
+Cost Per Spot,missing
+Sold On,missing
+Status,Accepted
+GRP,GIMP -
+Primary Demo,Adults 18+
+Survey,DMA Nielsen Live+3 Sep20
+CPP,CPM -
+Makegood Policy Approval,Required
+Comments ,9.14 new order. please confirm. thanks
+Page,2 of 13
+-TABLE
+Line,Net,Program,Start Date,Stop Date,Start Time,Stop Time,M,T,W,T,F,S,S,RTG,IMP,Total Spots,Unit Cost,Total Cost,Spot Len,Line Comment
+22,APL,CABLE,9/13/21,9/19/21,16:00,19:00,missing,[ ],missing,[X],X,[ ] X,[ ] X,[ ] -,-,5,$14.00,$70.00,30,OOW 06/28/21-09/26/21
+23,APL,CABLE,9/20/21,9/26/21,16:00,19:00,missing,X,[ ],[ ],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,5,$14.00,$70.00,30,OOW 06/28/21-09/26/21
+24,APL,CABLE,9/27/21,10/3/21,16:00,19:00,missing,X,[ ],missing,missing,[ ],[ ],[ ] -,[ ] -,4,$14.00,$56.00,30,OOW 06/28/21-09/26/21
+25,APL,CABLE,9/13/21,9/19/21,19:00,24:00,[ ],[ ],missing,[X],[ ] X,[ ] X,[ ] X,-,-,14,$19.00,$266.00,30,OOW 06/28/21-09/26/21
+26,APL,CABLE,9/20/21,9/26/21,19:00,24:00,missing,X,missing,[ ],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,14,$19.00,$266.00,30,OOW 06/28/21-09/26/21
+27,APL,CABLE,9/27/21,10/3/21,19:00,24:00,missing,X,[ ],[X],[ ],[ ],[ ],[ ] -,-,8,$19.00,$152.00,30,OOW 06/28/21-09/26/21
+28,BRVO,CABLE,9/13/21,9/19/21,09:00,16:00,[ ],[ ],missing,[X],[ ] X,[ ] X,[ ] X,[ ] -,-,10,$17.00,$170.00,30,OOW 06/28/21-09/26/21
+29,BRVO,CABLE,9/20/21,9/26/21,09:00,16:00,[X],[ ] X,[ ],[ ],[ ] X,X,[ ] X,[ ] -,[ ] -,10,$17.00,$170.00,30,OOW 06/28/21-09/26/21
+30,BRVO,CABLE,9/27/21,10/3/21,09:00,16:00,[X],X,[ ],missing,[ ],[ ],[ ],[ ] -,[ ] -,10,$17.00,$170.00,30,OOW 06/28/21-09/26/21
+31,BRVO,CABLE,9/13/21,9/19/21,16:00,19:00,[ ],[ ],[ ],missing,[ ] X,[ ] X,X,[ ] -,[ ] -,5,$26.00,$130.00,30,OOW 06/28/21-09/26/21
+32,BRVO,CABLE,9/20/21,9/26/21,16:00,19:00,missing,X,missing,missing,[ ] X,X,X,[ ] -,[ ] -,5,$26.00,$130.00,30,OOW 06/28/21-09/26/21
+33,BRVO,CABLE,9/27/21,10/3/21,16:00,19:00,missing,X,[ ],missing,[ ],[ ],[ ],[ ] -,[ ] -,4,$26.00,$104.00,30,OOW 06/28/21-09/26/21
+34,BRVO,CABLE,9/13/21,9/19/21,19:00,24:00,[ ],[ ],[ ],X,[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,14,$33.00,$462.00,30,OOW 06/28/21-09/26/21
+35,BRVO,CABLE,9/20/21,9/26/21,19:00,24:00,missing,X,[ ],[ ],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,14,$33.00,$462.00,30,OOW 06/28/21-09/26/21
+36,BRVO,CABLE,9/27/21,10/3/21,19:00,24:00,[X],[X],missing,missing,missing,[ ],[ ],[ ] -,[ ] -,8,$33.00,$264.00,30,OOW 06/28/21-09/26/21
+37,CMT,CABLE,9/13/21,9/19/21,09:00,16:00,[ ],[ ],[ ],X,[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,10,$8.00,$80.00,30,OOW 06/28/21-09/26/21
+38,CMT,CABLE,9/20/21,9/26/21,09:00,16:00,missing,X,[ ],[ ],[ ] X,[ ] X,X,[ ] -,[ ] -,10,$8.00,$80.00,30,OOW 06/28/21-09/26/21
+39,CMT,CABLE,9/27/21,10/3/21,09:00,16:00,missing,X,[ ],[ ],[ ],[ ],[ ],[ ] -,[ ] -,10,$8.00,$80.00,30,OOW 06/28/21-09/26/21
+40,CMT,CABLE,9/13/21,9/19/21,16:00,19:00,[ ],[ ],[ ],[X],[ ] X,X,missing,[ ] -,[ ] -,5,$14.00,$70.00,30,OOW 06/28/21-09/26/21
+41,CMT,CABLE,9/20/21,9/26/21,16:00,19:00,[X],missing,missing,missing,[ ] X,[ ] X,X,[ ] -,[ ] -,5,$14.00,$70.00,30,OOW 06/28/21-09/26/21
+42,CMT,CABLE,9/27/21,10/3/21,16:00,19:00,[X],missing,[ ],missing,[ ],[ ],[ ],-,[ ] -,4,$14.00,$56.00,30,OOW 06/28/21-09/26/21
+#Record3
+-KV
+Order #,62924075
+Update Date,09/15/21
+Version,1 Vs. 1
+Syscode,0166
+System Name,"Spectrum/Traverse City Interconnect, MI"
+Show All Lines,missing
+Total # of Weeks,3
+Market,Traverse City
+Total,"$65,422.00"
+Client Code,missing
+AE,Leah Losier
+Commission,"$9,813.30"
+Product Code,missing
+Net Total,"$55,608.70"
+Sales Coordinator,Michael Ryan
+Est Code,missing
+Product Name,add to sked 9.16-9.30
+Office,Chicago
+Total Spots,2200
+Credit Status,Cash in Advance
+Affiliate Split,100.0
+Phone,(312) 527-5755
+Status,Accepted
+Sold On,Cost Per Spot
+GRP,GIMP
+Survey,DMA Nielsen Live+3 Sep20
+Primary Demo,Adults 18+
+CPP,-
+Makegood Policy,Approval Required
+Comments ,9.14 new order. please confirm. thanks
+Line,missing
+Program,missing
+53,missing
+0900,missing
+Page,3 of 13
+-TABLE
+Line,Net,Program,Start Date,Stop Date,Start Time,Stop Time,M,T,W,T,F,S,S,RTG,IMP,Total Spots,Unit Cost,Total Cost,Spot Len,Line Comment
+43,CMT,CABLE,9/13/21,9/19/21,19:00,24:00,[ ],[ ],missing,[X],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,14,$19.00,$266.00,30,OOW 06/28/21-09/26/21
+44,CMT,CABLE,9/20/21,9/26/21,19:00,24:00,missing,X,[ ],missing,[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,14,$19.00,$266.00,30,OOW 06/28/21-09/26/21
+45,CMT,CABLE,9/27/21,10/3/21,19:00,24:00,[X],[X],missing,[X],[ ],[ ],[ ],[ ] -,[ ] -,8,$19.00,$152.00,30,OOW 06/28/21-09/26/21
+46,DISC,CABLE,9/13/21,9/19/21,09:00,16:00,[ ],[ ],missing,[X],[ ] X,X,[ ] X,[ ] -,[ ] -,10,$25.00,$250.00,30,OOW 06/28/21-09/26/21
+47,DISC,CABLE,9/20/21,9/26/21,09:00,16:00,missing,X,[ ],[ ],[ ],[ ] X,[ ] X,[ ] -,[ ] -,10,$25.00,$250.00,30,OOW 06/28/21-09/26/21
+48,DISC,CABLE,9/27/21,10/3/21,09:00,16:00,missing,[ ] X,[ ],[X],[ ],[ ],[ ],[ ] -,[ ] -,10,$25.00,$250.00,30,OOW 06/28/21-09/26/21
+49,DISC,CABLE,9/13/21,9/19/21,16:00,19:00,[ ],[ ],[ ],[X],[ ] X,[ ] X,[ ] X,[ ] -,-,4,$37.00,$148.00,30,OOW 06/28/21-09/26/21
+50,DISC,CABLE,9/20/21,9/26/21,16:00,19:00,[X],X,[ ],[ ],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,4,$37.00,$148.00,30,OOW 06/28/21-09/26/21
+51,DISC,CABLE,9/27/21,10/3/21,16:00,19:00,[X],[X],X,missing,[ ],[ ],[ ],[ ] -,[ ] -,4,$37.00,$148.00,30,OOW 06/28/21-09/26/21
+52,DISC,CABLE,9/13/21,9/19/21,19:00,24:00,[ ],[ ],[ ],missing,[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,10,$50.00,$500.00,30,OOW 06/28/21-09/26/21
+53,DISC,CABLE,9/20/21,9/26/21,19:00,24:00,missing,[ ] X,[ ],[ ],[ ],[ ] X,[ ] X,[ ] -,[ ] -,10,$50.00,$500.00,30,OOW 06/28/21-09/26/21
+54,DISC,CABLE,9/27/21,10/3/21,19:00,24:00,missing,X,[ ] X,missing,[ ],[ ],[ ],[ ] -,[ ] -,8,$50.00,$400.00,30,OOW 06/28/21-09/26/21
+55,ESP2,CABLE,9/13/21,9/19/21,09:00,16:00,[ ],[ ],[ ],[ ] X,[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,10,$9.00,$90.00,30,OOW 06/28/21-09/26/21
+56,ESP2,CABLE,9/20/21,9/26/21,09:00,16:00,missing,[ ] X,[ ],[ ],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,10,$9.00,$90.00,30,OOW 06/28/21-09/26/21
+57,ESP2,CABLE,9/27/21,10/3/21,09:00,16:00,[X],X,[ ] X,[ ],[ ],[ ],[ ],[ ] -,[ ] -,10,$9.00,$90.00,30,OOW 06/28/21-09/26/21
+58,ESP2,CABLE,9/13/21,9/19/21,16:00,19:00,[ ],[ ],[ ],X,[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,5,$14.00,$70.00,30,OOW 06/28/21-09/26/21
+59,ESP2,CABLE,9/20/21,9/26/21,16:00,19:00,[ ],[ ] X,[ ],[ ],[ ],[ ] X,[ ] X,[ ] -,[ ] -,5,$14.00,$70.00,30,OOW 06/28/21-09/26/21
+60,ESP2,CABLE,9/27/21,10/3/21,16:00,19:00,missing,[ ] X,[ ],[ ],[ ],[ ],[ ],[ ] -,[ ] -,4,$14.00,$56.00,30,OOW 06/28/21-09/26/21
+61,ESP2,CABLE,9/13/21,9/19/21,19:00,24:00,[ ],[ ],[ ],missing,[ ] X,[ ] X,[ ],[ ] -,[ ] -,14,$19.00,$266.00,30,OOW 06/28/21-09/26/21
+62,ESP2,CABLE,9/20/21,9/26/21,19:00,24:00,[X],missing,[ ],[ ],[ ],[ ] X,X,[ ] -,[ ] -,14,$19.00,$266.00,30,OOW 06/28/21-09/26/21
+63,ESP2,CABLE,9/27/21,10/3/21,19:00,24:00,[X],[X],[ ],[ ],[ ],[ ],[ ],[ ] -,[ ] -,8,$19.00,$152.00,30,OOW 06/28/21-09/26/21
+#Record4
+-KV
+Order #,62924075
+Update Date,09/15/21
+Version,1 Vs. 1
+Syscode,0166
+System Name,"Spectrum/Traverse City Interconnect, MI"
+Show All Lines,missing
+Total # of Weeks,3
+Market,Traverse City
+Total,"$65,422.00"
+Client Code,missing
+AE,Leah Losier
+Commission,"$9,813.30"
+Product Code,missing
+Net Total,"$55,608.70"
+Sales Coordinator,Michael Ryan
+Est Code,missing
+Product Name,add to sked 9.16-9.30
+Office,Chicago
+Total Spots,2200
+Credit Status,Cash in Advance
+Affiliate Split,100.0
+Phone,(312) 527-5755
+Status,Accepted
+Sold On,Cost Per Spot
+GRP,GIMP
+Survey,DMA Nielsen Live+3 Sep20
+Primary Demo,Adults 18+
+CPP,-
+Makegood Policy,Approval Required
+CPM,missing
+Comments ,9.14 new order. please confirm. thanks
+Line Net,missing
+Program,missing
+Page,4 of 13
+-TABLE
+Line,Net,Program,Start Date,Stop Date,Start Time,Stop Time,M,T,W,T,F,S,S,RTG,IMP,Total Spots,Unit Cost,Total Cost,Spot Len,Line Comment
+64,ESPN,CABLE,9/13/21,9/19/21,09:00,16:00,missing,[ ],missing,[X],[ ] X,[ ] X,[ ] X,[ ] -,-,10,$46.00,$460.00,30,OOW 06/28/21-09/26/21
+65,ESPN,CABLE,9/20/21,9/26/21,09:00,16:00,missing,[ ] X,[ ],missing,[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,10,$46.00,$460.00,30,OOW 06/28/21-09/26/21
+66,ESPN,CABLE,9/27/21,10/3/21,09:00,16:00,[X],[X],missing,[X],missing,[ ],[ ],-,-,10,$46.00,$460.00,30,OOW 06/28/21-09/26/21
+67,ESPN,CABLE,9/13/21,9/19/21,16:00,19:00,[ ],[ ],missing,[X],[ ] X,X,[ ] X,-,-,5,$75.00,$375.00,30,OOW 06/28/21-09/26/21
+68,ESPN,CABLE,9/20/21,9/26/21,16:00,19:00,missing,[ ] X,missing,[ ],missing,[ ] X,[ ] X,[ ] -,[ ] -,5,$75.00,$375.00,30,OOW 06/28/21-09/26/21
+69,ESPN,CABLE,9/27/21,10/3/21,16:00,19:00,missing,[ ] X,[ ],missing,[ ],[ ],[ ],[ ] -,[ ] -,4,$75.00,$300.00,30,OOW 06/28/21-09/26/21
+70,ESPN,CABLE,9/13/21,9/19/21,19:00,24:00,[ ],[ ],missing,[X],[ ] X,[ ] X,[ ] X,-,-,14,$96.00,"$1,344.00",30,OOW 06/28/21-09/26/21
+71,ESPN,CABLE,9/20/21,9/26/21,19:00,24:00,missing,[ ] X,[ ],[ ],X,[ ] X,[ ] X,[ ] -,[ ] -,14,$96.00,"$1,344.00",30,OOW 06/28/21-09/26/21
+72,ESPN,CABLE,9/27/21,10/3/21,19:00,24:00,[X],X,[ ] X,missing,[ ],[ ],[ ],[ ] -,[ ] -,8,$96.00,$768.00,30,OOW 06/28/21-09/26/21
+73,FOOD,CABLE,9/13/21,9/19/21,09:00,16:00,[ ],[ ],[ ],missing,[ ] X,[ ] X,X,[ ] -,[ ] -,10,$26.00,$260.00,30,OOW 06/28/21-09/26/21
+74,FOOD,CABLE,9/20/21,9/26/21,09:00,16:00,missing,[ ] X,[ ],[ ],[ ],[ ] X,[ ] X,[ ] -,[ ] -,10,$26.00,$260.00,30,OOW 06/28/21-09/26/21
+75,FOOD,CABLE,9/27/21,10/3/21,09:00,16:00,[X],X,[ ] X,missing,[ ],[ ],[ ],[ ] -,[ ] -,10,$26.00,$260.00,30,OOW 06/28/21-09/26/21
+76,FOOD,CABLE,9/13/21,9/19/21,16:00,19:00,[ ],[ ],[ ],[ ],X,[ ] X,[ ] X,[ ] -,[ ] -,5,$43.00,$215.00,30,OOW 06/28/21-09/26/21
+77,FOOD,CABLE,9/20/21,9/26/21,16:00,19:00,missing,X,[ ],[ ],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,5,$43.00,$215.00,30,OOW 06/28/21-09/26/21
+78,FOOD,CABLE,9/27/21,10/3/21,16:00,19:00,missing,X,[ ] X,[ ],[ ],[ ],[ ],[ ] -,[ ] -,4,$43.00,$172.00,30,OOW 06/28/21-09/26/21
+79,FOOD,CABLE,9/13/21,9/19/21,19:00,24:00,[ ],[ ],[ ],X,[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,14,$54.00,$756.00,30,OOW 06/28/21-09/26/21
+80,FOOD,CABLE,9/20/21,9/26/21,19:00,24:00,[ ],X,[ ],[ ],[ ],[ ] X,[ ] X,[ ] -,[ ] -,14,$54.00,$756.00,30,OOW 06/28/21-09/26/21
+81,FOOD,CABLE,9/27/21,10/3/21,19:00,24:00,missing,[ ] X,[ ],[ ],[ ],[ ],[ ],[ ] -,[ ] -,8,$54.00,$432.00,30,OOW 06/28/21-09/26/21
+82,FRFM,CABLE,9/13/21,9/19/21,09:00,16:00,[ ],[ ],[ ],missing,[ ] X,[ ] X,missing,[ ] -,[ ] -,10,$17.00,$170.00,30,OOW 06/28/21-09/26/21
+83,FRFM,CABLE,9/20/21,9/26/21,09:00,16:00,[X],missing,[ ],[ ],[ ],X,X,[ ] -,[ ] -,10,$17.00,$170.00,30,OOW 06/28/21-09/26/21
+84,FRFM,CABLE,9/27/21,10/3/21,09:00,16:00,[X],missing,missing,missing,[ ],[ ],[ ],[ ] -,[ ] -,10,$17.00,$170.00,30,OOW 06/28/21-09/26/21
+#Record5
+-KV
+Order #,62924075
+Update Date,09/15/21
+Version,1 Vs. 1
+Syscode,0166
+System Name,"Spectrum/Traverse City Interconnect, MI"
+Show All Lines,missing
+Total # of Weeks,3
+Market,Traverse City
+Total,"$65,422.00"
+Client Code,missing
+AE,Leah Losier
+Commission,"$9,813.30"
+Product Code,missing
+Net Total,"$55,608.70"
+Sales Coordinator,Michael Ryan
+Est Code,missing
+Product Name,add to sked 9.16-9.30
+Office,Chicago
+Total Spots,2200
+Credit Status,Cash in Advance
+Affiliate Split,100.0
+Phone,(312) 527-5755
+Sold On,Cost Per Spot
+Status,Accepted
+GRP,GIMP
+Survey,DMA Nielsen Live+3 Sep20
+Primary Demo,Adults 18+
+CPP,-
+Makegood Policy,Approval Required
+Comments ,9.14 new order. please confirm. thanks
+Line,missing
+Page,5 of 13
+-TABLE
+Line,Net,Program,Start Date,Stop Date,Start Time,Stop Time,M,T,W,T,F,S,S,RTG,IMP,Total Spots,Unit Cost,Total Cost,Spot Len,Line Comment
+85,FRFM,CABLE,9/13/21,9/19/21,16:00,19:00,[ ],[ ],[ ],[X],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,5,$26.00,$130.00,30,OOW 06/28/21-09/26/21
+86,FREM,CABLE,9/20/21,9/26/21,16:00,19:00,[X],[X],[ ],[ ],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,5,$26.00,$130.00,30,OOW 06/28/21-09/26/21
+87,FRFM,CABLE,9/27/21,10/3/21,16:00,19:00,[X],[X],[X],[X],[ ],[ ],[ ],[ ] -,[ ] -,4,$26.00,$104.00,30,OOW 06/28/21-09/26/21
+88,FRFM,CABLE,9/13/21,9/19/21,19:00,24:00,[ ],[ ],[ ],[X],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,14,$33.00,$462.00,30,OOW 06/28/21-09/26/21
+89,FRFM,CABLE,9/20/21,9/26/21,19:00,24:00,missing,[ ] X,missing,[ ],[ ],[ ] X,[ ] X,[ ] -,[ ] -,14,$33.00,$462.00,30,OOW 06/28/21-09/26/21
+90,FRFM,CABLE,9/27/21,10/3/21,19:00,24:00,[ ],[ ] X,[ ],[X],[ ],[ ],[ ],[ ] -,[ ] -,8,$33.00,$264.00,30,OOW 06/28/21-09/26/21
+91,FS1,CABLE,9/13/21,9/19/21,09:00,16:00,[ ],[ ],[ ],[X],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,10,$8.00,$80.00,30,OOW 06/28/21-09/26/21
+92,FS1,CABLE,9/20/21,9/26/21,09:00,16:00,[X],[ ] X,missing,[ ],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,10,$8.00,$80.00,30,OOW 06/28/21-09/26/21
+93,FS1,CABLE,9/27/21,10/3/21,09:00,16:00,[X],[X],[ ] X,[ ],[ ],[ ],[ ],[ ] -,[ ] -,10,$8.00,$80.00,30,OOW 06/28/21-09/26/21
+94,FS1,CABLE,9/13/21,9/19/21,16:00,19:00,[ ],[ ],[ ],[ ],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,5,$14.00,$70.00,30,OOW 06/28/21-09/26/21
+95,FS1,CABLE,9/20/21,9/26/21,16:00,19:00,missing,X,[ ],[ ],[ ],[ ] X,[ ] X,[ ] -,[ ] -,5,$14.00,$70.00,30,OOW 06/28/21-09/26/21
+96,FS1,CABLE,9/27/21,10/3/21,16:00,19:00,[X],[X],X,[X],[ ],[ ],[ ],[ ] -,[ ] -,4,$14.00,$56.00,30,OOW 06/28/21-09/26/21
+97,FS1,CABLE,9/13/21,9/19/21,19:00,24:00,[ ],[ ],[ ],X,[ ] X,[ ] X,[ ],[ ] -,[ ] -,14,$19.00,$266.00,30,OOW 06/28/21-09/26/21
+98,FS1,CABLE,9/20/21,9/26/21,19:00,24:00,missing,[ ] X,[ ],[ ],[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,14,$19.00,$266.00,30,OOW 06/28/21-09/26/21
+99,FS1,CABLE,9/27/21,10/3/21,19:00,24:00,[X],[X],[ ] X,[ ],[ ],[ ],[ ],[ ] -,[ ] -,8,$19.00,$152.00,30,OOW 06/28/21-09/26/21
+100,FSD,CABLE,9/13/21,9/19/21,09:00,16:00,[ ],[ ],[ ],X,[ ] X,[ ] X,[ ] X,[ ] -,[ ] -,10,$9.00,$90.00,30,OOW 06/28/21-09/26/21
+101,FSD,CABLE,9/20/21,9/26/21,09:00,16:00,[ ],[ ] X,[ ],[ ],[ ],[ ] X,[ ] X,[ ] -,[ ] -,10,$9.00,$90.00,30,OOW 06/28/21-09/26/21
+102,FSD,CABLE,9/27/21,10/3/21,09:00,16:00,[X],X,[ ],[ ],[ ],[ ],[ ],[ ] -,[ ] -,10,$9.00,$90.00,30,OOW 06/28/21-09/26/21
+103,FSD,CABLE,9/13/21,9/19/21,16:00,19:00,[ ],[ ],[ ],[X],[ ] X,[ ] X,[ ],[ ] -,[ ] -,5,$14.00,$70.00,30,OOW 06/28/21-09/26/21
+104,FSD,CABLE,9/20/21,9/26/21,16:00,19:00,[X],[X],[ ],[ ],[ ],X,[X],[ ] -,[ ] -,5,$14.00,$70.00,30,OOW 06/28/21-09/26/21
+105,FSD,CABLE,9/27/21,10/3/21,16:00,19:00,[X],[X],[ ],missing,[ ],[ ],[ ],[ ] -,[ ] -,4,$14.00,$56.00,30,OOW 06/28/21-09/26/21

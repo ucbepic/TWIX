@@ -1,0 +1,68 @@
+#Record1
+-KV
+Date,4/6/2020
+Client,Club for Grow th Action
+Send Billing To,missing
+Description,ESTIMATE#2967 OFFER
+Media,TV
+Flight Start Date,05/25/2020
+Product,Club for Growth Action
+Flight End Date,06/07/2020
+Primary Demo,Adults 55+
+Survey,"May20 DMA Proj. Nielsen (May19 Live+SD HUT, Feb20 SHR)"
+Comments,FLIGHT RUNS 5/27-6/2
+Market/System,"Charleston, SC"
+MTuWThF 600a-,7:00a
+MTuWThF 500p-,5:30p
+MTuWThF 600p-,6:30p
+Signature,Signature indicates order is BOOKED and CONFIRMED.
+Disclaimer,missing
+Page,1
+-TABLE
+Daypart Program,Daypart Code,STN Gross,Dur,Wks 5/25,6/1,Total Spots,Adults 55+ Rtg/CPP
+WCSC-TV,missing,missing,missing,missing,missing,5,5.0 $36.00
+MTuWThF 5:30a- 6:00a LIVE 5 NEWS @ 530A,EM,$180.00,30,3,2,missing,missing
+MTuWThF 6:00a- 7:00a LIVE 5 NEWS @ 6A,EM,$450.00,30,3,2,5,6.2 $72.58
+MTuWThF 7:00a- 9:00a CBS THIS MORNING,EM,$450.00,30,6,4,10,7.2 $62.50
+MTuWThF 11:00a-12:00p THE PRICE IS RIGHT,DT,$360.00,30,3,2,5,5.9 $61.02
+MTuWThF 12:00p-12:30p LIVE 5 NEWS @ NOON,DT,$450.00,30,3,2,5,7.5 $60.00
+MTuWThF 4:30p- 5:00p INSIDE EDITION,EF,$315.00,30,3,2,5,8.1 $38.89
+MTuWThF 5:00p- 5:30p LIVE 5 NEWS @ 5P,EN,$450.00,30,3,2,5,9.3 $48.39
+MTuWThF 6:00p- 6:30p LIVE 5 NEWS @ 6P,EN,$585.00,30,2,2,4,10.7 $54.67
+MTuWThF 11:00p-11:37p LIVE 5 NEWS @ 11P,LN,$450.00,30,3,2,5,7.0 $64.29
+#Record2
+-KV
+Date,4/6/2020
+Client,Club for Grow th Action
+Send Billing To,missing
+Description,ESTIMATE#2967 OFFER
+Media,TV
+Flight Start Date,05/25/2020
+Product,Club for Grow th Action
+Flight End Date,06/07/2020
+Primary Demo,Adults 55+
+Survey,"May20 DMA Proj. Nielsen (May19 Live+SD HUT, Feb20 SHR)"
+Comments,FLIGHT RUNS 5/27-6/2
+Market/System,"Charleston, SC"
+Daypart STN,missing
+600p-,6:30p
+Total Spots,34 20 54
+Total GRP/GIMP(000),239.1 148.2
+Total CPP/CPM,$56.12
+Total Cost,"$21,735.00"
+Signature indicates order is BOOKED and CONFIRMED.,missing
+Signature,missing
+Disclaimer,missing
+Page,2
+-TABLE
+Daypart Program,Daypart Code,STN Gross,Dur,Wks 5/25,6/1,Total Spots,Adults 55+ Rtg/CPP
+WCSC-TV,missing,missing,missing,missing,missing,missing,missing
+Sa 8:00a-10:00a CBS SATURDAY EARLY,WK SHOW,$315.00,30,1,0,1,5.8 $54.31
+Sa 6:00p- 6:30p LIVE 5 NEWS @ 6P SAT,WK,$270.00,30,1,0,1,5.1 $52.94
+Su 9:00a-10:30a CBS SUNDAY MORNING,WK,$450.00,30,1,0,1,5.8 $77.59
+Su 10:30a-11:30a FACE THE NATION,WK,$225.00,30,1,0,1,3.6 $62.50
+Su 11:00p-11:37p LIVE 5 NEWS @ 11PSU,WK,$360.00,30,1,0,1,7.2 $50.00
+Total Spots: 34 20,missing,missing,missing,missing,missing,54,missing
+Total GRP/GIMP(000):,missing,missing,missing,239.1 148.2,missing,missing,387.3
+Total CPP/CPM:,missing,missing,missing,missing,missing,missing,$56.12
+Total Cost:,missing,"$21,735.00",missing,missing,missing,54,missing

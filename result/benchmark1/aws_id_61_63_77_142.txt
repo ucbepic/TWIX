@@ -1,0 +1,173 @@
+#Record1
+-KV
+Please Remit To,"KNZZ 1360 Grand News E. Junction, Sherwood Radio CO 1100 Drive 81501"
+Payment Terms,30 Days
+Invoice Month,October
+CO,81506
+Account,Mesa County Republicans
+Billing Type,Monthly
+Salesperson,Maggie
+Flight Dates,10/1/2020 10/31/2020
+Description,Vote Republican
+Est. Number,missing
+IDB Code,missing
+Spot Classification,CM
+KNZZ-AM,missing
+Copy Name,MESA CO REPUBLICAN
+ISCI,PARTY/2020- MESA PARTY/2020-Vote CO REPUBLICAN Vote Republican Republican
+-TABLE
+Invoice,Date
+17686-1,10/31/2020
+Invoice Total:,$465.00
+-TABLE
+Date,Length,KNZZ-AM,Qty,Rate,Total
+missing,missing,Spot Classification: CM,missing,missing,missing
+KNZZ-AM,missing,Copy Name: MESA CO REPUBLICAN PARTY/2020- Vote Republican ISCI: MESA CO REPUBLICAN PARTY/2020-Vote Republican,missing,missing,missing
+10/1/2020,30,7:31:38 AM,1,15.00,15.00
+10/2/2020,30,1:26:58 PM,1,15.00,15.00
+10/3/2020,30,10:18:21 AM,1,15.00,15.00
+10/4/2020,30,1:50:16 PM,1,15.00,15.00
+10/5/2020,30,7:58:50 AM,1,15.00,15.00
+10/6/2020,30,5:52:27 PM,1,15.00,15.00
+10/7/2020,30,9:05:00 AM,1,15.00,15.00
+10/8/2020,30,2:51:38 PM,1,15.00,15.00
+10/9/2020,30,12:22:25 PM,1,15.00,15.00
+10/10/2020,30,6:24:02 PM,1,15.00,15.00
+10/11/2020,30,1:29:28 PM,1,15.00,15.00
+10/12/2020,30,8:04:58 AM,1,15.00,15.00
+10/13/2020,30,1:51:42 PM,1,15.00,15.00
+10/14/2020,30,2:50:20 PM,1,15.00,15.00
+10/15/2020,30,11:25:37 AM,1,15.00,15.00
+10/16/2020,30,6:48:37 AM,1,15.00,15.00
+10/17/2020,30,12:30:28 PM,1,15.00,15.00
+10/18/2020,30,1:29:00 PM,1,15.00,15.00
+10/19/2020,30,2:32:01 PM,1,15.00,15.00
+10/20/2020,30,12:49:48 PM,1,15.00,15.00
+10/21/2020,30,10:24:49 AM,1,15.00,15.00
+10/22/2020,30,10:55:56 AM,1,15.00,15.00
+10/23/2020,30,1:24:08 PM,1,15.00,15.00
+10/24/2020,30,8:52:00 AM,1,15.00,15.00
+#Record2
+-KV
+Please Remit To,"KNZZ 1360 Grand News E. Junction, Sherwood Radio CO 1100 Drive 81501"
+Payment Terms,30 Days
+Invoice Month,October
+Account,Mesa County Republicans
+Billing Type,Monthly
+Salesperson,Maggie
+Flight Dates,10/1/2020 10/31/2020
+Description,Vote Republican
+Est. Number,missing
+IDB Code,missing
+each for a total of,$465.00
+Total Spots,31
+Invoice Total,$465.00
+-TABLE
+Invoice,Date
+17686-1,10/31/2020
+-TABLE
+Date,Length,KNZZ-AM,Qty,Rate,Total
+10/25/2020,30,12:59:20 PM,1,15.00,15.00
+10/26/2020,30,2:05:00 PM,1,15.00,15.00
+10/27/2020,30,12:31:02 PM,1,15.00,15.00
+10/28/2020,30,10:32:02 AM,1,15.00,15.00
+10/29/2020,30,12:51:09 PM,1,15.00,15.00
+10/30/2020,30,5:51:03 PM,1,15.00,15.00
+10/31/2020,30,9:55:50 AM,1,15.00,15.00
+missing,missing,missing,31,missing,$465.00
+#Record3
+-KV
+News Radio,missing
+Please Remit To,"KNZZ 1360 Grand E. Junction, Sherwood CO 1100 Drive 81501"
+Payment Terms,30 Days
+Invoice Month,June
+Account,Elect Ray Scott
+Billing Type,Monthly
+Salesperson,Chenoa
+Flight Dates,6/19/2020 6/30/2020
+Description,Additonal for June Primary
+Est. Number,missing
+IDB Code,missing
+Spot Classification,CM
+-TABLE
+Invoice,Date
+16673-1,6/30/2020
+Invoice Total:,$708.00
+-TABLE
+Date,Length,KNZZ-AM,Qty,Rate,Total
+missing,missing,Spot Classification: CM,missing,missing,missing
+KNZZ-AM,missing,Copy Name: Diane Cox/TABOR ISCI: Diane Cox/TABOR,missing,missing,missing
+6/27/2020,30,1:48:32 PM,1,9.00,9.00
+6/28/2020,30,6:05:00 AM 2:50:20 PM,2,9.00,18.00
+6/29/2020,30,12:26:20 PM,1,12.00,12.00
+6/30/2020,30,5:26:06 PM,1,12.00,12.00
+KNZZ-AM,missing,missing,5,missing,$51.00
+missing,missing,Copy Name: June Primary 2020,missing,missing,missing
+missing,missing,ISCI: June Primary 2020,missing,missing,missing
+6/19/2020,30,10:05:00 AM,1,12.00,12.00
+6/20/2020,30,6:55:50 AM 12:19:26 PM 6:52:53 PM,3,9.00,27.00
+6/21/2020,30,2:51:50 PM 5:32:23 PM,2,9.00,18.00
+6/22/2020,30,8:32:20 AM,1,12.00,12.00
+6/23/2020,30,6:20:50 PM,1,12.00,12.00
+6/24/2020,30,6:50:33 AM,1,12.00,12.00
+6/25/2020,30,2:49:15 PM,1,12.00,12.00
+6/26/2020,30,3:26:08 PM,1,12.00,12.00
+6/27/2020,30,6:15:30 AM 2:30:30 PM,2,9.00,18.00
+6/28/2020,30,12:31:24 PM 3:05:00 PM,2,9.00,18.00
+6/29/2020,30,5:24:38 PM,1,12.00,12.00
+6/30/2020,30,5:58:20 PM,1,12.00,12.00
+KNZZ-AM,missing,Copy Name: June Primary/Diane Cox ISCI: June Primary/Diane Cox,17,missing,$177.00
+6/19/2020,30,12:47:37 PM,1,12.00,12.00
+#Record4
+-KV
+Please Remit To,"KNZZ 1360 Grand News E. Junction, Sherwood Radio CO 1100 Drive 81501"
+Payment Terms,30 Days
+Invoice Month,June
+Account,Elect Ray Scott
+Billing Type,Monthly
+Salesperson,Chenoa
+Flight Dates,6/19/2020 6/30/2020
+Description,Additonal for June Primary
+Est. Number,missing
+IDB Code,missing
+-TABLE
+Invoice,Date
+16673-1,6/30/2020
+#Record5
+-KV
+Please Remit To,"KNZZ 1360 Grand News E. Junction, Sherwood Radio CO 1100 Drive 81501"
+Payment Terms,30 Days
+Invoice Month,June
+Account,Elect Ray Scott
+Billing Type,Monthly
+Salesperson,Chenoa
+Flight Dates,6/19/2020 6/30/2020
+Description,Additonal for June Primary
+Est. Number,missing
+IDB Code,missing
+KNZZ-AM,missing
+Total,$75.00
+Copy Name,Ray/Why Run
+ISCI,Ray/Why Run
+$9.00 each for a total of,$324.00
+each for a total of,$384.00
+Total Spots,68
+Invoice Total,$708.00
+-TABLE
+Invoice,Date
+16673-1,6/30/2020
+-TABLE
+Date,Length,KNZZ-AM,Qty,Rate,Total
+KNZZ-AM,missing,Copy Name: Ray/Why Run,7,missing,$75.00
+missing,missing,ISCI: Ray/Why Run,missing,missing,missing
+6/19/2020,30,6:31:29 PM,1,12.00,12.00
+6/20/2020,30,10:15:28 AM 4:30:30 PM,2,9.00,18.00
+6/21/2020,30,2:29:00 PM 4:31:25 PM,2,9.00,18.00
+6/22/2020,30,7:31:58 AM,1,12.00,12.00
+6/23/2020,30,8:52:34 AM,1,12.00,12.00
+6/24/2020,30,6:52:06 PM,1,12.00,12.00
+6/26/2020,30,8:30:22 AM,1,12.00,12.00
+6/27/2020,30,10:46:58 AM 4:46:28 PM,2,9.00,18.00
+6/28/2020,30,1:32:20 PM 5:30:30 PM,2,9.00,18.00
+6/30/2020,30,6:48:01 AM,1,12.00,12.00
+missing,missing,missing,14,missing,$144.00

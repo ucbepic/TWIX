@@ -1,0 +1,113 @@
+#Record1
+-KV
+Station Order Revised,Jody Wagner for Mayor
+Market,Norfolk-Virginia Beach
+Estimate ID,2415
+Flight Dates,10/26/2020 to 11/3/2020
+Contact,Eileen Baggett
+Email,eileen.baggett@wavy.com
+Total,missing
+Today Show,7:00 AM
+Sat 6a News,6:00 AM
+WAVY,5:30p News
+Agency ID,TV17137 or 9917137
+Date/Time Sent,10/22/2020 2:52:48 PM
+Mary Wittemyer,"BlueWest 5130 E. 18th Media Ave., Denver, CO 80220"
+Page,1 of 2
+-TABLE
+Program Name,DP,Days Length,Gross Rate,Mon Oct 26,Tue Oct 27,Wed Oct 28,Thu Oct 29,Fri Oct 30,Sat Oct 31,Sun Nov 01,Mon Nov 02,Tue Nov 03,Total
+WAVY 5a News 5:00 AM 6:00 AM Q3,EM,M-F 30,"$450.00 $2,250.00",missing,1,1,missing,1,missing,missing,1,1,5
+WAVY 6a News 6:00 AM 7:00 AM,EM,M-F 30,"$770.00 $4,620.00",1,missing,1,1,1,missing,missing,1,1,6
+Today Show 7:00 AM 9:00 AM,EM,M-F 30,"$770.00 $5,390.00",1,1,1,1,1,missing,missing,1,1,7
+Sat 6a News 6:00 AM 7:00 AM,EM,Sa 30,$240.00 $240.00,missing,missing,missing,missing,missing,1,missing,missing,missing,1
+Sun 6a News 6:00 AM 7:00 AM,EM,Su 30,$240.00 $240.00,missing,missing,missing,missing,missing,missing,1,missing,missing,1
+Hampton Roads Sho 11:00 AM 12:00 PM,DT,M-F 30,$140.00 $420.00,missing,1,missing,1,missing,missing,missing,1,missing,3
+WAVY 12p News,DT,M-F 30,$185.00 $370.00,1,missing,1,missing,missing,missing,missing,missing,missing,2
+12:00 PM 1:00 PM,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+The Real 2:00 PM 3:00 PM,DT,M-F 30,$160.00 $160.00,missing,missing,missing,1,missing,missing,missing,missing,missing,1
+WAVY 4p News,EN,M-F,$385.00,1,1,1,1,missing,missing,missing,1,missing,5
+4:00 PM 5:00 PM,missing,30,"$1,925.00",missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+WAVY 5p News 5:00 PM 5:30 PM,EN,M-F 30,"$695.00 $2,780.00",missing,1,missing,1,1,missing,missing,1,missing,4
+WAVY 5:30p News 5:30 PM 6:00 PM,EN,M-F 30,"$695.00 $3,475.00",1,1,1,1,1,missing,missing,missing,missing,5
+#Record2
+-KV
+Station Order Revised,Jody Wagner for Mayor
+Market,Norfolk-Virginia Beach
+Estimate ID,2415
+Flight Dates,10/26/2020 to 11/3/2020
+Contact,Eileen Baggett
+Email,eileen.baggett@wavy.com
+Program Name,missing
+Sat 6p News,6:00 PM
+LN,missing
+Sun,11p News
+Station Gross Totals,"$28,180.00 8 7 8 8 7 3 2 8 3 54"
+Station Net,"$23,953.00"
+Agency ID,TV17137 or 9917137
+Date/Time Sent,10/22/2020 2:52:48 PM
+Mary Wittemyer,"BlueWest 5130 E. 18th Media Ave., Denver, CO 80220"
+Page,2 of 2
+-TABLE
+Program Name,DP,Days Length,Gross Rate,Mon Oct 26,Tue Oct 27,Wed Oct 28,Thu Oct 29,Fri Oct 30,Sat Oct 31,Sun Nov 01,Mon Nov 02,Tue Nov 03,Total
+Sat 6p News 6:00 PM 6:30 PM,EN,Sa 30,$300.00 $300.00,missing,missing,missing,missing,missing,1,missing,missing,missing,1
+WAVY 11p News 11:00 PM 11:35 PM,LN,M-F 30,"$440.00 $3,520.00",2,1,1,1,2,missing,missing,1,missing,8
+Sat 11p News 11:00 PM 11:35 PM,LN,Sa,$615.00 $615.00,missing,missing,missing,missing,missing,1,missing,missing,missing,1
+missing,missing,30,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+Sun 11p News 11:00 PM 11:35 PM,LN,Su 30,$615.00 $615.00,missing,missing,missing,missing,missing,missing,1,missing,missing,1
+Access Hollywood 7:30 PM 8:00 PM,PA,M-F,"$420.00 $1,260.00",1,missing,1,missing,missing,missing,missing,1,missing,3
+missing,missing,30,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+Station Gross Totals,missing,missing,"$28,180.00",8,7,8,8,7,3,2,8,3,54
+Station Net,missing,missing,"$23,953.00",missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+#Record3
+-KV
+Market,Lexington-Fayette
+Estimate ID,2417
+Flight Dates,10/26/2020 to 11/3/2020
+Contact,Benita Tucker
+Email,Benita.Tucker@WKYT.com
+Goldbergs,5:00 PM
+Mom,10:30 PM
+Agency ID,TV17137 or 9917137
+Date/Time Sent,10/22/2020 11:32:44 AM
+Mary Wittemyer,"BlueWest 5130 E. 18th Media Ave., Denver, CO 80220"
+Page,1 of 2
+-TABLE
+Program Name,missing,DP,Days Length,Gross Rate,Mon Oct 26,Tue Oct 27,Wed Oct 28,Thu Oct 29,Fri Oct 30,Sat Oct 31,Sun Nov 01,Mon Nov 02,Tue Nov 03,Total
+Sun 7a News 7:00 AM 8:00 AM,missing,EM,Su 30,$30.00 $30.00,missing,missing,missing,missing,missing,missing,1,missing,missing,1
+25 Words 12:30 PM 1:00 PM,missing,DT,M-F 30,$15.00 $105.00,1,1,1,1,1,missing,missing,1,1,7
+Wknd TMZ 2:00 PM 3:00 PM,missing,DT,Su 30,$15.00 $15.00,missing,missing,missing,missing,missing,missing,1,missing,missing,1
+Goldbergs 5:00 PM 5:30 PM,missing,EF,M-F 30,$18.00 $18.00,missing,missing,missing,missing,missing,missing,missing,1,missing,1
+Golderbergs 5:30 PM 6:00 PM,missing,EF,M-F 30,$12.00 $36.00,missing,1,missing,missing,1,missing,missing,1,missing,3
+Friends 3:00 PM,4:00 PM,EF,Sa 30,$8.00 $8.00,missing,missing,missing,missing,missing,1,missing,missing,missing,1
+Goldbergs 4:00 PM,5:00 PM,EF,Su 30,$18.00 $18.00,missing,missing,missing,missing,missing,missing,1,missing,missing,1
+Friends 5:00 PM,6:00 PM,EF,Su 30,$38.00 $38.00,missing,missing,missing,missing,missing,missing,1,missing,missing,1
+Mom 10:30 PM,11:00 PM,LF,M-F 30,$18.00 $108.00,1,1,1,1,1,missing,missing,1,missing,6
+Mike & Molly 11:00 PM,11:30 PM,LF,M-F 30,$18.00 $108.00,1,1,1,1,1,missing,missing,1,missing,6
+Andy Griffith 7:00 PM,7:30 PM,PA,Sa 30,$60.00 $60.00,missing,missing,missing,missing,missing,1,missing,missing,missing,1
+#Record4
+-KV
+Station Order Revised,Josh Hicks for Congress
+Estimate ID,2417
+Phone,859-299-0411
+Contact,Benita Tucker
+Fax,859-299-2494
+Email,Benita.Tucker@WKYT.com
+Direct,859-566-1209
+730,PM
+NCISNO,missing
+Station Gross Totals,$657.00 3 4 3 3 4 5 4 5 1 32
+Station Net,$558.45
+Agency ID,TV17137 or 9917137
+Date/Time Sent,10/22/2020 11:32:44 AM
+Mary Wittemyer,"BlueWest 5130 E. 18th Media Ave., Denver, CO 80220"
+Page,2 of 2
+-TABLE
+Program Name,DP,Days Length,Gross Rate,Mon Oct 26,Tue Oct 27,Wed Oct 28,Thu Oct 29,Fri Oct 30,Sat Oct 31,Sun Nov 01,Mon Nov 02,Tue Nov 03,Total
+Andy Griffith,PA,Sa,$60.00,missing,missing,missing,missing,missing,1,missing,missing,missing,1
+7:30 PM 8:00 PM,missing,30,$60.00,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+Andy Griffith 9:00 PM 10:00 PM,PT,Sa,$38.00,missing,missing,missing,missing,missing,1,missing,missing,missing,1
+missing,missing,30,$38.00,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+NCIS:NO,PT,Sa,$15.00,missing,missing,missing,missing,missing,1,missing,missing,missing,1
+10:00 PM 11:00 PM,missing,30,$15.00,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+Station Gross Totals,missing,missing,$657.00,3,4,3,3,4,5,4,5,1,32
+Station Net,missing,missing,$558.45,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing

@@ -170,12 +170,13 @@ if __name__ == "__main__":
     files = scan_folder(folder_path)
     for in_file in files:
         out_file = in_file.replace('txt','json')
+        print(in_file)
         print(out_file)
         # if('investigation' not in out_file):
         #     continue
-        records = regulate_template(in_file)
-        records = regular_full(records)
-        write_json(records, out_file)
+        # records = regulate_template(in_file)
+        # records = regular_full(records)
+        # write_json(records, out_file)
     
 
 
