@@ -946,24 +946,32 @@ def is_same_row(b1,b2):
         return 0
     return 1
 
-def row_aligned(row1, row2):
+def major_overlapping_phrase(t,p1,p2):
+    #choose between p1 and p2 which is overlapping more with t
+
+
+def row_aligned(row1, row2, esp = 0.8):
     #check if there exist a phrase in row2 that overlapps with more than 2 phrases in row1
     
     id1 = 1 #id in row 1
     id2 = 0 #id in row 2
+    match = 0
     while(id1 < len(row1) and id2 < len(row2)):
         if(is_overlap_vertically(row2[id2][1], row1[id1][1]) == 1 and is_overlap_vertically(row2[id2][1], row1[id1-1][1]) == 1):
-            #print('overlapping two: ', row2[id2], row1[id1], row1[id1-1])
-            #print(row1)
-            #print(row2)
-            return 0
+            #check semantic alignment and update match 
+            a=0
+        else:
+            #update match
+            b=0
         #print(row1[id1][1][2], row2[id2][1][2])
         if(row1[id1][1][2] < row2[id2][1][2]):
             id1 += 1
         else:
             id2 += 1
 
-    #check if there exist a phrase in row2 that does not overlapps with any of val in row1
+    #write the percetage of keys that have the correspoinding unique value mapping
+
+    #check if there exist a phrase in row2 that does not overlapps with any of val in row1 - this is not robust: if there exist one phrase that violates this condition, then this row would be not correct 
     
     # for (p2,bb2) in row2:
     #     valid = 0
@@ -1300,10 +1308,10 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path):
             predict_labels = keys
         #print(record)
         records.append(record)
-        #print(predict_labels)
-        if(rid > 4):
+        print(predict_labels)
+        if(rid > 2):
             break
-    write_json(records, path)
+    #write_json(records, path)
 
 def mix_pattern_extract(predict_labels, pv, rid):
     
@@ -1312,8 +1320,8 @@ def mix_pattern_extract(predict_labels, pv, rid):
 
     blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels, rid)
 
-    # print(blk)
-    # print(blk_id)
+    print(blk)
+    print(blk_id)
     
     out = []
     record = {}
@@ -1388,7 +1396,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 2 #starting from 1
+    tested_id = 1 #starting from 1
     
 
     for path in tested_paths:

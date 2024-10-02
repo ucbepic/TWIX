@@ -141,8 +141,8 @@ def get_result_path(truth_path):
 
 if __name__ == "__main__":
     
-    truth_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/UIUC PD Use of Force/22-274.releasable.json'
-    result_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/complaints & use of force/UIUC PD Use of Force/22-274.releasable__kv.json'
+    truth_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.json'
+    result_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted__kv.json'
 
     result = read_json(result_path)
     truth = read_json(truth_path)

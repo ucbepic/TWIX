@@ -169,35 +169,6 @@
         "id": 3,
         "content": [
             {
-                "type": "table",
-                "content": [
-                    {
-                        "Date": "3/5/2008",
-                        "Number": "08-03",
-                        "Investigator": "Paulus, Michael",
-                        "Date Assigned": "Paulus, Michael",
-                        "Racial": "No",
-                        "Category / Type": "FORMAL",
-                        "Location Of Occurrence": "Not Stated",
-                        "Disposition": "NOT SUSTAINED",
-                        "Completed": "NOT SUSTAINED",
-                        "Recorded On Camera": "No"
-                    },
-                    {
-                        "Date": "missing",
-                        "Number": "missing",
-                        "Investigator": "missing",
-                        "Date Assigned": "3/10/2008",
-                        "Racial": "missing",
-                        "Category / Type": "Citizen",
-                        "Location Of Occurrence": "missing",
-                        "Disposition": "missing",
-                        "Completed": "4/28/2008",
-                        "Recorded On Camera": "N/A"
-                    }
-                ]
-            },
-            {
                 "type": "kv",
                 "content": [
                     {
@@ -252,15 +223,6 @@
                         "Officer Disposition": "missing",
                         "Action Taken": "missing",
                         "Body Cam": "Page 1 of 74"
-                    },
-                    {
-                        "Name": "missing",
-                        "ID No.": "Champaign Police Department",
-                        "Rank": "Champaign Police Department",
-                        "Division": "missing",
-                        "Officer Disposition": "missing",
-                        "Action Taken": "missing",
-                        "Body Cam": "missing"
                     }
                 ]
             }
@@ -339,6 +301,15 @@
                         "Officer Disposition": "SUSTAINED",
                         "Action Taken": "COUNSELING",
                         "Body Cam": "No"
+                    },
+                    {
+                        "Name": "missing",
+                        "ID No.": "G",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "missing"
                     }
                 ]
             }
