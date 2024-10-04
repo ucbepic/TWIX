@@ -28,6 +28,12 @@ Commission,"$9,813.30"
 Net Total,"$55,608.70"
 Total Spots,2200
 Affiliate Split,100.0
+Sold on, missing
+Cost Per Spot: missing
+GRP, missing
+GIMP, missing
+CPP, missing 
+CPM, missing
 Comments,9.14 new order. please confirm. thanks
 - TABLE
 Line,Net,Program,Start Date,Stop Date,Start Time,Stop Time,M,T,W,T,F,S,S,RTG,IMP,Total Spots,Unit Cost,Total Cost,Spot Len,Line Comment

@@ -1,0 +1,265 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "metadata",
+                "content": "Lierman for Maryland\n\"11150 Fairfax Blvd, Suite 505\"\n\"Fairfax, VA 22030\"\nPage 1 of 2\nScreen Strategies Media\n703-272-7300\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Station": "EBOC-TV"
+                    },
+                    {
+                        "Market": "Salisbury-Ocean City"
+                    },
+                    {
+                        "Flight Dates": "7/12/2022 - 7/19/2022 (Est. 7916)"
+                    },
+                    {
+                        "Buyer": "James Well"
+                    },
+                    {
+                        "Email": "James.Wells@screenstrategies.com"
+                    },
+                    {
+                        "Phone": "703-272-7300"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Program Name": "EBOC 5p News",
+                        "DP": "EN",
+                        "Days\\nLength": "M-F",
+                        "Rate": "$100.00",
+                        "Tue\\n7/12": "1",
+                        "Wed\\n7/13": "1",
+                        "Thu\\n7/14": "missing",
+                        "Fri\\n7/15": "1",
+                        "Sat\\n7/16": "missing",
+                        "Sun\\n7/17": "missing",
+                        "Mon\\n7/18": "1"
+                    },
+                    {
+                        "Program Name": "5:00 PM - 5:30 PM",
+                        "DP": "missing",
+                        "Days\\nLength": "30",
+                        "Rate": "$400.00",
+                        "Tue\\n7/12": "missing",
+                        "Wed\\n7/13": "missing",
+                        "Thu\\n7/14": "missing",
+                        "Fri\\n7/15": "missing",
+                        "Sat\\n7/16": "missing",
+                        "Sun\\n7/17": "missing",
+                        "Mon\\n7/18": "missing"
+                    },
+                    {
+                        "Program Name": "Big Bang Theory",
+                        "DP": "PA",
+                        "Days\\nLength": "M-F",
+                        "Rate": "$60.00",
+                        "Tue\\n7/12": "1",
+                        "Wed\\n7/13": "1",
+                        "Thu\\n7/14": "missing",
+                        "Fri\\n7/15": "1",
+                        "Sat\\n7/16": "missing",
+                        "Sun\\n7/17": "missing",
+                        "Mon\\n7/18": "1"
+                    },
+                    {
+                        "Program Name": "7:00 PM - 7:30 PM",
+                        "DP": "missing",
+                        "Days\\nLength": "30",
+                        "Rate": "$180.00",
+                        "Tue\\n7/12": "missing",
+                        "Wed\\n7/13": "missing",
+                        "Thu\\n7/14": "missing",
+                        "Fri\\n7/15": "missing",
+                        "Sat\\n7/16": "missing",
+                        "Sun\\n7/17": "missing",
+                        "Mon\\n7/18": "missing"
+                    },
+                    {
+                        "Program Name": "EBOC 10p News",
+                        "DP": "LN",
+                        "Days\\nLength": "M-F",
+                        "Rate": "$150.00",
+                        "Tue\\n7/12": "1",
+                        "Wed\\n7/13": "1",
+                        "Thu\\n7/14": "missing",
+                        "Fri\\n7/15": "1",
+                        "Sat\\n7/16": "missing",
+                        "Sun\\n7/17": "missing",
+                        "Mon\\n7/18": "1"
+                    },
+                    {
+                        "Program Name": "10:00 PM - 10:30 PM",
+                        "DP": "missing",
+                        "Days\\nLength": "30",
+                        "Rate": "$600.00",
+                        "Tue\\n7/12": "missing",
+                        "Wed\\n7/13": "missing",
+                        "Thu\\n7/14": "missing",
+                        "Fri\\n7/15": "missing",
+                        "Sat\\n7/16": "missing",
+                        "Sun\\n7/17": "missing",
+                        "Mon\\n7/18": "missing"
+                    },
+                    {
+                        "Program Name": "Seinfeld",
+                        "DP": "LF",
+                        "Days\\nLength": "M-F",
+                        "Rate": "$80.00",
+                        "Tue\\n7/12": "1",
+                        "Wed\\n7/13": "missing",
+                        "Thu\\n7/14": "missing",
+                        "Fri\\n7/15": "missing",
+                        "Sat\\n7/16": "missing",
+                        "Sun\\n7/17": "missing",
+                        "Mon\\n7/18": "1"
+                    },
+                    {
+                        "Program Name": "10:30 PM - 11:00 PM",
+                        "DP": "missing",
+                        "Days\\nLength": "30",
+                        "Rate": "$80.00",
+                        "Tue\\n7/12": "missing",
+                        "Wed\\n7/13": "missing",
+                        "Thu\\n7/14": "missing",
+                        "Fri\\n7/15": "missing",
+                        "Sat\\n7/16": "missing",
+                        "Sun\\n7/17": "missing",
+                        "Mon\\n7/18": "missing"
+                    },
+                    {
+                        "Program Name": "Station Totals",
+                        "DP": "missing",
+                        "Days\\nLength": "missing",
+                        "Rate": "$1,260.00",
+                        "Tue\\n7/12": "3",
+                        "Wed\\n7/13": "2",
+                        "Thu\\n7/14": "2",
+                        "Fri\\n7/15": "2",
+                        "Sat\\n7/16": "0",
+                        "Sun\\n7/17": "0",
+                        "Mon\\n7/18": "3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "metadata",
+                "content": "Lierman for Maryland\n\"11150 Fairfax Blvd, Suite 505\"\n\"Fairfax, VA 22030\"\nPage 2 of 2\nScreen Strategies Media\n703-272-7300\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Station": "EBOC-TV"
+                    },
+                    {
+                        "Market": "Salisbury-Ocean City"
+                    },
+                    {
+                        "Flight Dates": "7/12/2022 - 7/19/2022 (Est. 7916)"
+                    },
+                    {
+                        "Buyer": "James Well"
+                    },
+                    {
+                        "Email": "James.Wells@screenstrategies.com"
+                    },
+                    {
+                        "Phone": "703-272-7300"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Program Name": "EBOC 5p News",
+                        "DP": "EN",
+                        "Days\\nLength": "M-F",
+                        "Rate": "$100.00",
+                        "Tue\\n7/19": "missing",
+                        "Total": "4"
+                    },
+                    {
+                        "Program Name": "5:00 PM - 5:30 PM",
+                        "DP": "missing",
+                        "Days\\nLength": "30",
+                        "Rate": "$400.00",
+                        "Tue\\n7/19": "missing",
+                        "Total": "missing"
+                    },
+                    {
+                        "Program Name": "Big Bang Theory",
+                        "DP": "PA",
+                        "Days\\nLength": "M-F",
+                        "Rate": "$60.00",
+                        "Tue\\n7/19": "missing",
+                        "Total": "3"
+                    },
+                    {
+                        "Program Name": "7:00 PM - 7:30 PM",
+                        "DP": "missing",
+                        "Days\\nLength": "30",
+                        "Rate": "$180.00",
+                        "Tue\\n7/19": "missing",
+                        "Total": "missing"
+                    },
+                    {
+                        "Program Name": "EBOC 10p News",
+                        "DP": "LN",
+                        "Days\\nLength": "M-F",
+                        "Rate": "$150.00",
+                        "Tue\\n7/19": "missing",
+                        "Total": "4"
+                    },
+                    {
+                        "Program Name": "10:00 PM - 10:30 PM",
+                        "DP": "missing",
+                        "Days\\nLength": "30",
+                        "Rate": "$600.00",
+                        "Tue\\n7/19": "missing",
+                        "Total": "missing"
+                    },
+                    {
+                        "Program Name": "Seinfeld",
+                        "DP": "LF",
+                        "Days\\nLength": "M-F",
+                        "Rate": "$80.00",
+                        "Tue\\n7/19": "missing",
+                        "Total": "1"
+                    },
+                    {
+                        "Program Name": "10:30 PM - 11:00 PM",
+                        "DP": "missing",
+                        "Days\\nLength": "30",
+                        "Rate": "$80.00",
+                        "Tue\\n7/19": "missing",
+                        "Total": "missing"
+                    },
+                    {
+                        "Program Name": "Station Totals",
+                        "DP": "missing",
+                        "Days\\nLength": "missing",
+                        "Rate": "$1,260.00",
+                        "Tue\\n7/19": "0",
+                        "Total": "12"
+                    }
+                ]
+            }
+        ]
+    }
+]

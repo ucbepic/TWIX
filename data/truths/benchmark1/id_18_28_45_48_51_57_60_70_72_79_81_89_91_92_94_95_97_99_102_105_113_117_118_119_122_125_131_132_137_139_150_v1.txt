@@ -128,7 +128,7 @@ Line,Start Date,End Date,Description,Start/End Time,MTWTFSS,Length,Spots\n/Week,
 1,09/06/22,09/12/22,M-F News CH8 @ 6-7A,6-7A,MTWTF--,:30,3,"$1,000.00",NM
 - TABLE
 Weeks,Start Date,End Date,MTWTFSS,Spots/Week,Rate
-missing,09/06/22,09/12/22,MTWTF--,3,$1,000.00
+missing,09/06/22,09/12/22,MTWTF--,3,"$1,000.00"
 - TABLE
 Spots,#,Ch,Day,Air Date,Air Time,Description,Start/End Time,Length,Ad-ID,Rate,Type
 missing,3,KCCI,Tu,09/06/22,6:29 AM,M-F News CH8 @ 6-7A,6-7A,:30,HMP221AO3TO1H,"$1,000.00",NM
@@ -158,21 +158,20 @@ missing,3,KCCI,W,09/07/22,8:58 AM,The Early Show 8-9A,8-9A,:30,HMP221AO3TO1H,$70
 missing,2,KCCI,M,09/12/22,8:54 AM,The Early Show 8-9A,8-9A,:30,HMP221AO3TO1H,$700.00,NM
 - TABLE
 Line,Start Date,End Date,Description,Start/End Time,MTWTFSS,Length,Spots/Week,Rate,Type
-4,09/10/22,09/10/22,News CH8 TH Morn-Sat,8-9A,-----1-,:30,1,$1,000.00,NM
+4,09/10/22,09/10/22,News CH8 TH Morn-Sat,8-9A,-----1-,:30,1,"$1,000.00",NM
 - TABLE
 Weeks,Start Date,End Date,MTWTFSS,Spots/Week,Rate
-missing,09/05/22,09/11/22,-----1-,1,$1,000.00
+missing,09/05/22,09/11/22,-----1-,1,"$1,000.00"
 - TABLE
 Spots,#,Ch,Day,Air Date,Air Time,Description,Start/End Time,Length,Ad-ID,Rate,Type
-missing,1,KCCI,Sa,09/10/22,8:13 AM,News CH8 TH Morn-Sat 8-9A,SAT 8-9A,:30,HMP221AO3TO1H,$1,000.00,NM
+missing,1,KCCI,Sa,09/10/22,8:13 AM,News CH8 TH Morn-Sat 8-9A,SAT 8-9A,:30,HMP221AO3TO1H,"$1,000.00",NM
 - TABLE
 Line,Start Date,End Date,Description,Start/End Time,MTWTFSS,Length,Spots/Week,Rate,Type
-5,09/11/22,09/11/22,CBS Sunday Morning,Sun 8-930a,------1,:30,1,$1,800.00,NM
+5,09/11/22,09/11/22,CBS Sunday Morning,Sun 8-930a,------1,:30,1,"$1,800.00",NM
 #Record3
-
 - TABLE
 Line,Start Date,End Date, Description,Start/End Time,MTWTFSS,Length,Spots\n/Week,Rate,Type
-1,10/27/20,11/02/20,TODAY SHOW 7-9a,MTWTF--,:30,10,$800.00,NM
+1,10/27/20,11/02/20,TODAY SHOW,7-9a,MTWTF--,:30,10,$800.00,NM
 - TABLE
 Weeks,Start Date,End Date,MTWTFSS,Spots/Week,Rate
 missing,10/27/20,11/02/20,MTWTF--,10,$800.00
@@ -190,7 +189,7 @@ missing,5,WKYC,M,11/02/20,6:59 AM,TODAY SHOW,7-9a,:30,MD20TV02H,$800.00,NM
 missing,6,WKYC,M,11/02/20,8:59 AM,TODAY SHOW,7-9a,:30,MD20TV02H,$800.00,NM
 - TABLE
 Line,Start Date,End Date,Description,Start/End Time,MTWTFSS,Length,Spots/Week,Rate,Type
-2,11/03/20,11/03/20,TODAY SHOW TUESDA 7-9a\nY,-T-----,:30,2,$800.00,NM
+2,11/03/20,11/03/20,TODAY SHOW TUESDA\nY,7-9a,-T-----,:30,2,$800.00,NM
 - TABLE
 Weeks,Start Date,End Date,MTWTFSS,Spots/Week,Rate
 missing,11/02/20,11/08/20,-T-----,2,$800.00
@@ -200,13 +199,7 @@ missing,2,WKYC,Tu,11/03/20,7:19 AM,TODAY SHOW TUESDAY,7-9a,:30,MD20TV02H,$800.00
 missing,1,WKYC,Tu,11/03/20,8:51 AM,TODAY SHOW TUESDAY,7-9a,:30,MD20TV02H,$800.00,NM
 - TABLE
 Line,Start Date,End Date,Description,Start/End Time,MTWTFSS,Length,Spots/Week,Rate,Type
-3,10/27/20,11/02/20,3 NEWS M-F 6PM,6p-6:30p,MTWTF--,:30,5,$1,500.00,NM
-- TABLE
-Weeks,Start Date,End Date,MTWTFSS,Spots/Week,Rate
-missing,10/27/20,11/02/20,MTWTF--,5,$1,500.00
-- TABLE
-Spots,#,Ch,Day,Air Date,Air Time,Description,Start/End Time,Length,Ad-ID,Rate,Type
-3,WKYC,M,10/27/20,6:00 PM,3 NEWS,6p-6:30p,:30,MD20TV02H,"$1,500.00",NM
+3,10/27/20,11/02/20,3 NEWS M-F 6PM,6p-6:30p,MTWTF--,:30,5,"$1,500.00",NM
 - TABLE
 Weeks,Start Date,End Date,MTWTFSS,Spots/Week,Rate
 missing,10/27/20,11/02/20,MTWTF--,5,"$1,500.00"

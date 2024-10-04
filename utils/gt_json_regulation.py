@@ -177,24 +177,16 @@ def scan_folder(path):
             
 
 if __name__ == "__main__":
-    in_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.txt'
-    out_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.json'
-
-    #folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/'
-    folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
-    #dirty = ['id_10','id_14_42','id_12','id_54_58_74_104_107_128_v1','id_133','id_54_58_74_104_107_128_v2','id_54_58_74_104_107_128_v3','id_18_28_45_48_51_57_60_70_72_79_81_89_91_92_94_95_97_99_102_105_113_117_118_119_122_125_131_132_137_139_150_v1','id_18_28_45_48_51_57_60_70_72_79_81_89_91_92_94_95_97_99_102_105_113_117_118_119_122_125_131_132_137_139_150_v2','id_59_87','id_61_63_77_142','id_65_127_141','id_116_151']
+    
+    folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/benchmark1'
+    #folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
+    
     files = scan_folder(folder_path)
     for in_file in files:
         out_file = in_file.replace('txt','json')
         print(in_file)
         print(out_file)
         flag = 0
-        # for f in dirty:
-        #     if(f in out_file):
-        #         flag = 1
-        #         break
-        # if(flag == 1):
-        #     continue
         records = regulate_template(in_file)
         records = regular_full(records)
         #break

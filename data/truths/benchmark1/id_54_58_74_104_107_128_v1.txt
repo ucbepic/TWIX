@@ -36,30 +36,30 @@ Contract Line Remarks,BBT
 Contract Line Remarks,NEWS
 - TABLE
 Line,Type,Scheduled Time,Scheduled Day to Run,Air Date/Time,Length,Program,AD-ID / ISCI,Amount,Remarks
-1.0,News,7:00:00AM-8:00:00AM,"Per Week (4),Mo,TU,WE,Th,Fr",02/03/20 07:53 am (Mo),00:30,News-FOX Illinois Sunrise,MRBPFK3030EH,$20.00,missing
+missing,News,7:00:00AM-8:00:00AM,"Per Week (4),Mo,TU,WE,Th,Fr",02/03/20 07:53 am (Mo),00:30,News-FOX Illinois Sunrise,MRBPFK3030EH,$20.00,missing
 missing,News,7:00:00AM-8:00:00AM,"Per Week (4),Mo,TU,WE,Th,Fr",02/04/20 07:30 am (Tu),00:30,News-FOX Illinois Sunrise,MRBPFK3031EH,$20.00,missing
 missing,News,missing,missing,02/06/20 (Th),missing,missing,1 preempt @$20.00,$0.00,Pre-empt
 missing,News,missing,missing,02/07/20 (Fr),missing,missing,1 preempt @$20.00,$0.00,Pre-empt
-2.0,SPOT,8:00:00AM-8:30:00AM,"Per Week (2),Mo,TU,WE,Th,Fr",02/03/20 08:25 am (Mo),00:30,EXTRA,MRBPFK3031EH,$25.00,missing
+missing,SPOT,8:00:00AM-8:30:00AM,"Per Week (2),Mo,TU,WE,Th,Fr",02/03/20 08:25 am (Mo),00:30,EXTRA,MRBPFK3031EH,$25.00,missing
 missing,SPOT,8:00:00AM-8:30:00AM,"Per Week (4),Mo,TU,WE,Th,Fr",02/04/20 08:26 am (Tu),00:30,EXTRA,MRBPFK3030EH,$25.00,missing
-3.0,SPOT,9:00:00AM-10:00:00AM,"Per Week (3),Mo,TU,WE,Th,Fr",02/03/20 09:59 am (Mo),00:30,Wendy Williams,MRBPFK3030EH,$25.00,missing
-missing,SPOT,9:00:00AM-10:00:00AM,"Per Week (3),Mo,TU,WE,Th,Fr",02/05/20 09:57 am (We),00:30,Wendy Williams,MRBPFK3031EH,1 preempt @$25.00,$0.00,Pre-empt
+missing,SPOT,9:00:00AM-10:00:00AM,"Per Week (3),Mo,TU,WE,Th,Fr",02/03/20 09:59 am (Mo),00:30,Wendy Williams,MRBPFK3030EH,$25.00,missing
+missing,SPOT,9:00:00AM-10:00:00AM,"Per Week (3),Mo,TU,WE,Th,Fr",02/05/20 09:57 am (We),00:30,Wendy Williams,MRBPFK3031EH,$25.00,missing
 missing,SPOT,missing,missing,02/06/20 (Th),missing,missing,1 preempt @$25.00,$0.00,Pre-empt
 4.0,SPOT,missing,missing,02/03/20 (Mo),missing,missing,1 preempt @$25.00,$0.00,Network\nSpecial\nReport
 missing,SPOT,10:00:00AM-11:00:00AM,"Per Week (3),Mo,TU,WE,Th,Fr",02/06/20 10:25 am (Th),00:30,The Real,MRBPFK3030EH,$25.00,missing
 missing,SPOT,10:00:00AM-11:00:00AM,"Per Week (3),Mo,TU,WE,Th,Fr",02/07/20 10:56 am (Fr),00:30,The Real,MRBPFK3030EH,$25.00,missing
-5.0,SPOT,4:00:00PM-4:30:00PM,"Per Week (3),Mo,TU,WE,Th,Fr",02/03/20 04:24 pm (Mo),00:30,Judge Judy,MRBPFK3013EH,$150.00,missing
+missing,SPOT,4:00:00PM-4:30:00PM,"Per Week (3),Mo,TU,WE,Th,Fr",02/03/20 04:24 pm (Mo),00:30,Judge Judy,MRBPFK3013EH,$150.00,missing
 missing,SPOT,4:00:00PM-4:30:00PM,"Per Week (3),Mo,TU,WE,Th,Fr",02/04/20 04:19 pm (Tu),00:30,Judge Judy,MRBPFK3031EH,$150.00,missing
 missing,SPOT,missing,missing,02/05/20 (We),missing,missing,1 preempt @$150.00,$0.00,Pre-empt
-6.0,SPOT,4:30:00PM-5:00:00PM,"Per Week (2),Mo,TU,WE,Th,Fr",02/03/20 04:55 pm (Mo),00:30,Judge Judy 2,MRBPFK3031EH,$150.00,missing
+missing,SPOT,4:30:00PM-5:00:00PM,"Per Week (2),Mo,TU,WE,Th,Fr",02/03/20 04:55 pm (Mo),00:30,Judge Judy 2,MRBPFK3031EH,$150.00,missing
 missing,SPOT,4:30:00PM-5:00:00PM,"Per Week (2),Mo,TU,WE,Th,Fr",02/04/20 04:59 pm (Tu),00:30,Judge Judy 2,MRBPFK3030EH,$150.00,missing
-7.0,SPOT,5:00:00PM-5:30:00PM,"Per Week (2),Mo,TU,WE,Th,Fr",02/03/20 05:20 pm (Mo),00:30,FAMILY FEUD,MRBPFK3030EH,$125.00,missing
+missing,SPOT,5:00:00PM-5:30:00PM,"Per Week (2),Mo,TU,WE,Th,Fr",02/03/20 05:20 pm (Mo),00:30,FAMILY FEUD,MRBPFK3030EH,$125.00,missing
 missing,SPOT,5:00:00PM-5:30:00PM,"Per Week (2),Mo,TU,WE,Th,Fr",02/04/20 05:27 pm (Tu),00:30,FAMILY FEUD,MRBPFK3031EH,$125.00,missing
-8.0,SPOT,6:00:00PM-6:30:00PM,"Per Week (2),Mo,TU,WE,Th,Fr",02/05/20 06:12 pm (We),00:30,Big Bang\nTheory,MRBPFK3031EH,$300.00,missing
+missing,SPOT,6:00:00PM-6:30:00PM,"Per Week (2),Mo,TU,WE,Th,Fr",02/05/20 06:12 pm (We),00:30,Big Bang\nTheory,MRBPFK3031EH,$300.00,missing
 missing,SPOT,6:00:00PM-6:30:00PM,"Per Week (2),Mo,TU,WE,Th,Fr",02/06/20 06:16 pm (Th),00:30,Big Bang\nTheory,MRBPFK3031EH,$300.00,missing
-9.0,SPOT,6:30:00PM-7:00:00PM,"Per Week (2),Mo,TU,WE,Th,Fr",02/05/20 06:54 pm (We),00:30,Big Bang\nTheory 2,MRBPFK3030EH,$350.00,missing
+missing,SPOT,6:30:00PM-7:00:00PM,"Per Week (2),Mo,TU,WE,Th,Fr",02/05/20 06:54 pm (We),00:30,Big Bang\nTheory 2,MRBPFK3030EH,$350.00,missing
 missing,SPOT,6:30:00PM-7:00:00PM,"Per Week (2),Mo,TU,WE,Th,Fr",02/06/20 06:53 pm (Th),00:30,Big Bang\nTheory 2,MRBPFK3030EH,$350.00,missing
-10.0,SPOT,9:00:00PM-10:00:00PM,"Per Week (3),Mo,TU,WE,Th,Fr",02/04/20 10:14 pm (Tu),00:30,News-FOX\nIllinois News at\n9p,MRBPF
+missing,SPOT,9:00:00PM-10:00:00PM,"Per Week (3),Mo,TU,WE,Th,Fr",02/04/20 10:14 pm (Tu),00:30,News-FOX\nIllinois News at\n9p,MRBPF
 #Record2
 - METADATA
 Sinclair Broadcast Group
@@ -143,38 +143,23 @@ Coop,No
 Comments,Candidate
 Billing Inquiries Phone,(217) 523-8855
 Send Payment To,Sinclair Broadcast Group\nc/o WRSP+\nPO Box 206270\nDallas TX 75320-6270
-Contract Line Remarks,Family Feud
-Contract Line Remarks,Family Feud
-Contract Line Remarks,Judge Judy
-Contract Line Remarks,Judge Judy
-Contract Line Remarks,Family Feud
-Contract Line Remarks,FOX News at 5:30p
-Contract Line Remarks,Big Bang Theory
-Contract Line Remarks,Big Bang Theory
-Contract Line Remarks,FOX News at 9
-Contract Line Remarks,TMZ
-Contract Line Remarks,Access Hollywood
-Contract Line Remarks,Big Bang Theory
-Contract Line Remarks,Mike & Molly
-Contract Line Remarks,FOX News at 9
-Contract Line Remarks,Mike & Molly
 - TABLE
 Line,Type,Scheduled Time,Scheduled Day to Run,Air Date/Time,Length,Program,AD-ID / ISCI,Amount,Remarks
-1.0,SPOT,3:00:00PM-3:30:00PM,"Day,Fr-1",10/02/20 03:28 pm (Fr),00:30,Family Feud B,BL1020H,$75.00,missing
-2.0,SPOT,3:30:00PM-4:00:00PM,"Day,Fr-1",10/02/20 03:58 pm (Fr),00:30,Family Feud C,BL1020H,$75.00,missing
-3.0,SPOT,4:00:00PM-4:30:00PM,"Day,Fr-1",10/02/20 04:29 pm (Fr),00:30,Judge Judy,BL1020H,$150.00,missing
-4.0,SPOT,4:30:00PM-5:00:00PM,"Day,Fr-1",10/02/20 04:58 pm (Fr),00:30,Judge Judy 2,BL1020H,$150.00,missing
-5.0,SPOT,5:00:00PM-5:30:00PM,"Day,Fr-1",10/02/20 05:22 pm (Fr),00:30,FAMILY FEUD,BL1020H,$150.00,missing
-6.0,News,5:30:00PM-6:00:00PM,"Day,Fr-1",10/02/20 05:57 pm (Fr),00:30,News-FOX Illinois News at 530p,BL1020H,$100.00,missing
-7.0,SPOT,6:00:00PM-6:30:00PM,"Day,Fr-1",10/02/20 06:13 pm (Fr),00:30,Big Bang Theory,BL1020H,$200.00,missing
-8.0,SPOT,6:30:00PM-7:00:00PM,"Day,Fr-1",10/02/20 06:40 pm (Fr),00:30,Big Bang Theory 2,BL1020H,$250.00,missing
-9.0,News,9:00:00PM-10:00:00PM,"Day,Fr-1",10/02/20 09:43 pm (Fr),00:30,News-FOX Illinois News at 9p,BL1020H,$200.00,missing
-10.0,SPOT,11:00:00PM-11:30PM,"Day,Fr-1",10/02/20 11:28 pm (Fr),00:30,TMZ,BL1020H,$40.00,missing
-11.0,SPOT,12:00:00AM-12:30AM,"Day,Fr-1",10/02/20 12:28 am (Fr),00:30,Access Hollywood,BL1020H,$10.00,missing
+missing,SPOT,3:00:00PM-3:30:00PM,"Day,Fr-1",10/02/20 03:28 pm (Fr),00:30,Family Feud B,BL1020H,$75.00,missing
+missing,SPOT,3:30:00PM-4:00:00PM,"Day,Fr-1",10/02/20 03:58 pm (Fr),00:30,Family Feud C,BL1020H,$75.00,missing
+missing,SPOT,4:00:00PM-4:30:00PM,"Day,Fr-1",10/02/20 04:29 pm (Fr),00:30,Judge Judy,BL1020H,$150.00,missing
+missing,SPOT,4:30:00PM-5:00:00PM,"Day,Fr-1",10/02/20 04:58 pm (Fr),00:30,Judge Judy 2,BL1020H,$150.00,missing
+missing,SPOT,5:00:00PM-5:30:00PM,"Day,Fr-1",10/02/20 05:22 pm (Fr),00:30,FAMILY FEUD,BL1020H,$150.00,missing
+missing,News,5:30:00PM-6:00:00PM,"Day,Fr-1",10/02/20 05:57 pm (Fr),00:30,News-FOX Illinois News at 530p,BL1020H,$100.00,missing
+missing,SPOT,6:00:00PM-6:30:00PM,"Day,Fr-1",10/02/20 06:13 pm (Fr),00:30,Big Bang Theory,BL1020H,$200.00,missing
+missing,SPOT,6:30:00PM-7:00:00PM,"Day,Fr-1",10/02/20 06:40 pm (Fr),00:30,Big Bang Theory 2,BL1020H,$250.00,missing
+missing,News,9:00:00PM-10:00:00PM,"Day,Fr-1",10/02/20 09:43 pm (Fr),00:30,News-FOX Illinois News at 9p,BL1020H,$200.00,missing
+missing,SPOT,11:00:00PM-11:30PM,"Day,Fr-1",10/02/20 11:28 pm (Fr),00:30,TMZ,BL1020H,$40.00,missing
+missing,SPOT,12:00:00AM-12:30AM,"Day,Fr-1",10/02/20 12:28 am (Fr),00:30,Access Hollywood,BL1020H,$10.00,missing
 12.0,SPOT,missing,missing,10/03/20 (Sa),missing,1 preempt @$30.00,$0.00,Program\nChange
 13.0,SPOT,missing,missing,10/03/20 (Sa),missing,1 preempt @$75.00,$0.00,Program\nChange
 14.0,SPOT,missing,missing,10/03/20 (Sa),missing,1 preempt @$75.00,$0.00,Live Program\nOverrun
-15.0,SPOT,6:00:00PM-6:30:00PM,"Day,Sa-1",10/03/20 06:29 pm (Sa),00:30,Big Bang Theory Wknd 1,BL1020H,$75.00,missing
-16.0,SPOT,9:30:00PM-10:00:00PM,"Day,Sa-1",10/03/20 09:59 pm (Sa),00:30,Mike and Molly Wknd,BL1020H,$75.00,missing
-28.0,News,9:00:00PM-9:35:00PM,"Day,Su-1",10/04/20 09:32 pm (Su),00:30,News-FOX Illinois News at 9,BL1020H,$125.00,missing
-29.0,SPOT,9:35:00PM-10:05:00PM,"Day,Su-1",10/04/20 10:00 pm (Su),00:30,Mike and Molly Wknd 2,BL1020H,$75.00,missing
+missing,SPOT,6:00:00PM-6:30:00PM,"Day,Sa-1",10/03/20 06:29 pm (Sa),00:30,Big Bang Theory Wknd 1,BL1020H,$75.00,missing
+missing,SPOT,9:30:00PM-10:00:00PM,"Day,Sa-1",10/03/20 09:59 pm (Sa),00:30,Mike and Molly Wknd,BL1020H,$75.00,missing
+missing,News,9:00:00PM-9:35:00PM,"Day,Su-1",10/04/20 09:32 pm (Su),00:30,News-FOX Illinois News at 9,BL1020H,$125.00,missing
+missing,SPOT,9:35:00PM-10:05:00PM,"Day,Su-1",10/04/20 10:00 pm (Su),00:30,Mike and Molly Wknd 2,BL1020H,$75.00,missing

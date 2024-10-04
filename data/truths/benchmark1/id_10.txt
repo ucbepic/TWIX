@@ -2,7 +2,11 @@
 - METADATA
 - KV
 Department,A&S Dean's Office
-Status Approved
+Status, Approved
+- TABLE
+GrantID,Director,Grant Title,Agency Name,Amount Awarded
+5319,Ms. Melanie Bentley,Communicating STEM Research to a Broader Audience,University of Kentucky,"$7,637"
+-KV
 Department Summary,A&S Dean's Office
 Submitted,1
 Approved,1
@@ -10,28 +14,27 @@ Pending,0
 Declined,0
 Total $,"7,637"
 Approved $,"7,637"
-Pending $,0
-Declined $,0
-- TABLE
-GrantID,Director,Grant Title,Agency Name,Amount Awarded
-5319,Ms. Melanie Bentley,Communicating STEM Research to a Broader Audience,University of Kentucky,"$7,637"
+Pending $, $0
+Declined $, $0
 #Record2
 - METADATA
 - KV
 Department,"Anthropology, Sociology, & Social Work"
 Status,Declined
+- TABLE
+GrantID,Director,Grant Title,Agency Name,Amount Requested
+5241,Dr. Jennifer Wies,Measuring Pathways to Food Insecurity in Appalachia: Modeling Social-Ecological and Political-Economic Influences,National Science Foundation,"$157,412"
+-KV
 Department Summary,"Anthropology, Sociology, & Social Work"
 Submitted,1
 Approved,0
 Pending,0
 Declined,1
 Total $,"157,412"
-Approved $,0
-Pending $,0
+Approved $,$0
+Pending $,$0
 Declined $,"157,412"
-- TABLE
-GrantID,Director,Grant Title,Agency Name,Amount Requested
-5241,Dr. Jennifer Wies,Measuring Pathways to Food Insecurity in Appalachia: Modeling Social-Ecological and Political-Economic Influences,National Science Foundation,"$157,412"
+
 #Record3
 - METADATA
 - KV
@@ -49,13 +52,14 @@ Approved $,"823,954"
 Pending $,"399,485"
 Declined $,"295,852"
 - TABLE
+- TABLE
 GrantID,Director,Grant Title,Agency Name,Amount Awarded
 5296,Dr. Stephen Richter,Temporal comparisons of genetic variation in the dusky gopher frog (Lithobates sevosus),Kentucky NSF EPSCoR,"$7,959"
 5280,Dr. Marcia Pierce,Bridging the Gap: Appalachian Students in Biomedical Research in Kentucky,University of Kentucky,"$206,183"
 5314,Dr. Robert Frederick,Wildlife Ecologist - Research Startup,Kentucky Science and Technology Corporation,"$30,000"
 5283,Dr. David Brown,Running Buffalo Clover and Deer Survey,Blue Grass Army Depot,"$20,000"
 5146,Dr. Stephen Richter,Enchancing Research Capacity in Appalachia: Research Facilities for Lilley Cornett Woods Field Station,National Science Foundation,"$300,474"
-5232,Dr. Sherry Harrel,Distribution, Movement and Ecology of Etheostoma sagitta spilotum, the Kentucky Arrow Darter,United States Fish and Wildlife Service,"$22,000"
+5232,Dr. Sherry Harrel,"Distribution, Movement and Ecology of Etheostoma sagitta spilotum, the Kentucky Arrow Darter",United States Fish and Wildlife Service,"$22,000"
 5300,Dr. Stephen Richter,Effects of interactions between Notophthalmus viridescens and lithobates sylvaticus in a ridge-top wetland ecosystem,Kentucky Academy of Science,"$1,000"
 5297,Dr. Stephen Richter,Comparative Landscape Genetics of Amphibians Across a Ridge-Top Wetland Ecosystem,Kentucky NSF EPSCoR,"$4,358"
 5290,Dr. Jarrod Thaxton,Linking Theory and Practice to Overcome Barriers to Ecosystem Restoration,Kentucky NSF EPSCoR,"$35,592"
@@ -63,7 +67,7 @@ GrantID,Director,Grant Title,Agency Name,Amount Awarded
 5254,Dr. David Brown,Evaluation of Management Strategies for Long-Term Maintenance of Running Buffalo Clover (Trifolium stoloniferum) populations in Kentucky,Kentucky Natural Lands Trust,"$6,000"
 5189,Dr. Amy Braccia,Assessment of Hydrologic Functions in Combined Stream and Floodplain Restoration,University of Louisville,"$59,732"
 5187,Dr. Stephen Richter,Statewide validation of the Kentucky Wetland Rapid Assessment Method (KY-WRAM) and Indices of Biotic Integrity,Kentucky Division of Water,"$65,451"
-5231,Dr. Sherry Harrel,Distribution, Movement and Ecology of Etheostoma sagitta spilotum, the Kentucky Arrow Darter,Kentucky Department of Fish and Wildlife Resources,"$57,160"
+5231,Dr. Sherry Harrel,"Distribution, Movement and Ecology of Etheostoma sagitta spilotum, the Kentucky Arrow Darter",Kentucky Department of Fish and Wildlife Resources,"$57,160"
 5298,Dr. David Hayes,Molecular Analyses in Conjunction with Ongoing Phylogenetics Research,Missouri Department of Conservation,"$1,000"
 - TABLE
 GrantID,Director,Grant Title,Agency Name,Amount Requested
@@ -81,6 +85,7 @@ GrantID,Director,Grant Title,Agency Name,Amount Requested
 GrantID,Director,Grant Title,Agency Name,Amount Requested
 5332,Dr. Rebekah Waikel,An Early College Initiative to Retain Appalachian Students in STEM Fields,Association of American College and Universities,"$329,489"
 5324,Dr. Rebekah Waikel,Bridge Funding for Estrogen Mediated Regulation of miRNAs in Cardiac Remodeling,University of Louisville,"$69,996"
+
 #Record4
 - METADATA
 - KV
@@ -108,13 +113,14 @@ GrantID,Director,Grant Title,Agency Name,Amount Awarded
 GrantID,Director,Grant Title,Agency Name,Amount Requested
 5320,Dr. Tanea Reed,A novel therapeutic treatment for lipid peroxidation reduction and glutathione elevation in moderate traumatic brain injury,University of Louisville,"$49,981"
 5373,Dr. Lori Wilson,The application of molecular beacons as a diagnostic mechanism for the rapid genotyping of InDels and SNPs,University of Louisville,"$29,000"
-5288,Dr. David Cunningham,Collaborative Research: In-situ measurements of NanoMechanical forces in free-standing fibrous thin-film substrates to understand cell attachment, growth, and proliferation,National Science Foundation,"$231,244"
+5288,Dr. David Cunningham,"Collaborative Research: In-situ measurements of NanoMechanical forces in free-standing fibrous thin-film substrates to understand cell attachment, growth, and proliferation",National Science Foundation,"$231,244"
 5161,Dr. Buchang Shi,Sugar production from low temperature pre-treated biomass,Kentucky Science and Technology Corporation,"$29,998"
 5287,Dr. Donghui Quan,Chemical Modeling of Newly Detected Interstellar Nitro-Prebiotic Modules,University of Kentucky,"$36,856"
 5311,Dr. Margaret Ndinguri,Targeting cancer cells using luteinizing hormone releasing hormone (LHRH) peptide moiety,University of Louisville,"$112,000"
 - TABLE
 GrantID,Director,Grant Title,Agency Name,Amount Requested
 5328,Dr. Tanea Reed,A novel therapeutic treatment for lipid peroxidation reduction and glutathione elevation in moderate traumatic brain injury,University of Louisville,"$69,919"
+
 #Record5
 - METADATA
 - KV
@@ -126,8 +132,8 @@ Approved,0
 Pending,0
 Declined,1
 Total $,"3,046"
-Approved $,0
-Pending $,0
+Approved $,$0
+Pending $,$0
 Declined $,"3,046"
 - TABLE
 GrantID,Director,Grant Title,Agency Name,Amount Requested

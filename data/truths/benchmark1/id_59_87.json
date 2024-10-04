@@ -1,0 +1,718 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "metadata",
+                "content": "Station Order Revised\nJosh Hicks for Congress\nEKYT-TV\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Market": "Lexington-Fayette"
+                    },
+                    {
+                        "Flight Dates": "10/26/2020 to 11/3/2020"
+                    },
+                    {
+                        "Estimate ID": "2417"
+                    },
+                    {
+                        "Contact": "Benita Tucker"
+                    },
+                    {
+                        "Email": "Benita. Tucker@WKYT.com"
+                    },
+                    {
+                        "Phone": "859-299-0411"
+                    },
+                    {
+                        "Fax": "859-299-2494"
+                    },
+                    {
+                        "Direct": "859-566-1209"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Program Name": "Sun 7a News",
+                        "DP": "EM",
+                        "Days\\nLength": "Su\\n30",
+                        "Gross\\nRate": "$30.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    },
+                    {
+                        "Program Name": "25 Words",
+                        "DP": "DT",
+                        "Days\\nLength": "M-F\\n30",
+                        "Gross\\nRate": "$15.00",
+                        "Mon\\nOct\\n26": "1",
+                        "Tue\\nOct\\n27": "1",
+                        "Wed\\nOct\\n28": "1",
+                        "Thu\\nOct\\n29": "1",
+                        "Fri\\nOct\\n30": "1",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "1",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 7
+                    },
+                    {
+                        "Program Name": "Wknd TMZ",
+                        "DP": "DT",
+                        "Days\\nLength": "Su\\n30",
+                        "Gross\\nRate": "$15.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    },
+                    {
+                        "Program Name": "Goldbergs",
+                        "DP": "EF",
+                        "Days\\nLength": "M-F\\n30",
+                        "Gross\\nRate": "$18.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "1",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    },
+                    {
+                        "Program Name": "Goldberbergs",
+                        "DP": "EF",
+                        "Days\\nLength": "M-F\\n30",
+                        "Gross\\nRate": "$12.00",
+                        "Mon\\nOct\\n26": "1",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "1",
+                        "Fri\\nOct\\n30": "1",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 3
+                    },
+                    {
+                        "Program Name": "Friends",
+                        "DP": "EF",
+                        "Days\\nLength": "Sa\\n30",
+                        "Gross\\nRate": "$8.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "1",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    },
+                    {
+                        "Program Name": "Goldbergs",
+                        "DP": "EF",
+                        "Days\\nLength": "Su\\n30",
+                        "Gross\\nRate": "$18.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    },
+                    {
+                        "Program Name": "Friends",
+                        "DP": "EF",
+                        "Days\\nLength": "Su\\n30",
+                        "Gross\\nRate": "$38.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    },
+                    {
+                        "Program Name": "Mom",
+                        "DP": "LF",
+                        "Days\\nLength": "M-F\\n30",
+                        "Gross\\nRate": "$18.00",
+                        "Mon\\nOct\\n26": "1",
+                        "Tue\\nOct\\n27": "1",
+                        "Wed\\nOct\\n28": "1",
+                        "Thu\\nOct\\n29": "1",
+                        "Fri\\nOct\\n30": "1",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 6
+                    },
+                    {
+                        "Program Name": "Mike & Molly",
+                        "DP": "LF",
+                        "Days\\nLength": "M-F\\n30",
+                        "Gross\\nRate": "$18.00",
+                        "Mon\\nOct\\n26": "1",
+                        "Tue\\nOct\\n27": "1",
+                        "Wed\\nOct\\n28": "1",
+                        "Thu\\nOct\\n29": "1",
+                        "Fri\\nOct\\n30": "1",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 6
+                    },
+                    {
+                        "Program Name": "Andy Griffith",
+                        "DP": "PA",
+                        "Days\\nLength": "Sa\\n30",
+                        "Gross\\nRate": "$60.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "1",
+                        "Total": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "metadata",
+                "content": "Station Order Revised\nJosh Hicks for Congress\nEKYT-TV\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Market": "Lexington-Fayette"
+                    },
+                    {
+                        "Flight Dates": "10/26/2020 to 11/3/2020"
+                    },
+                    {
+                        "Estimate ID": "2417"
+                    },
+                    {
+                        "Contact": "Benita Tucker"
+                    },
+                    {
+                        "Email": "Benita. Tucker@WKYT.com"
+                    },
+                    {
+                        "Phone": "859-299-0411"
+                    },
+                    {
+                        "Fax": "859-299-2494"
+                    },
+                    {
+                        "Direct": "859-566-1209"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Program Name": "Sat 6p News",
+                        "DP": "EN",
+                        "Days\\nLength": "Sa\\n30",
+                        "Gross\\nRate": "$300.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "1",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": "1"
+                    },
+                    {
+                        "Program Name": "WAVY 11p News",
+                        "DP": "LN",
+                        "Days\\nLength": "M-F\\n30",
+                        "Gross\\nRate": "$440.00",
+                        "Mon\\nOct\\n26": "2",
+                        "Tue\\nOct\\n27": "1",
+                        "Wed\\nOct\\n28": "1",
+                        "Thu\\nOct\\n29": "1",
+                        "Fri\\nOct\\n30": "2",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "1",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": "8"
+                    },
+                    {
+                        "Program Name": "Sat 11p News",
+                        "DP": "LN",
+                        "Days\\nLength": "Sa\\n30",
+                        "Gross\\nRate": "$615.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "1",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": "1"
+                    },
+                    {
+                        "Program Name": "Sun 11p News",
+                        "DP": "LN",
+                        "Days\\nLength": "Su\\n30",
+                        "Gross\\nRate": "$615.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": "1"
+                    },
+                    {
+                        "Program Name": "Access Hollywood",
+                        "DP": "PA",
+                        "Days\\nLength": "M-F\\n30",
+                        "Gross\\nRate": "$420.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "1",
+                        "Tue\\nNov\\n03": "1",
+                        "Total": "3"
+                    },
+                    {
+                        "Program Name": "Station Gross Totals",
+                        "DP": "missing",
+                        "Days\\nLength": "missing",
+                        "Gross\\nRate": "$28,180.00",
+                        "Mon\\nOct\\n26": "8",
+                        "Tue\\nOct\\n27": "7",
+                        "Wed\\nOct\\n28": "8",
+                        "Thu\\nOct\\n29": "8",
+                        "Fri\\nOct\\n30": "7",
+                        "Sat\\nOct\\n31": "3",
+                        "Sun\\nNov\\n01": "2",
+                        "Mon\\nNov\\n02": "8",
+                        "Tue\\nNov\\n03": "3",
+                        "Total": "54"
+                    },
+                    {
+                        "Program Name": "Station Net",
+                        "DP": "missing",
+                        "Days\\nLength": "missing",
+                        "Gross\\nRate": "$23,953.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "type": "metadata",
+                "content": "Station Order Revised\nJosh Hicks for Congress\nEKYT-TV\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Market": "Lexington-Fayette"
+                    },
+                    {
+                        "Flight Dates": "10/26/2020 to 11/3/2020"
+                    },
+                    {
+                        "Estimate ID": "2417"
+                    },
+                    {
+                        "Contact": "Benita Tucker"
+                    },
+                    {
+                        "Email": "Benita.Tucker@WKYT.com"
+                    },
+                    {
+                        "Phone": "859-299-0411"
+                    },
+                    {
+                        "Fax": "859-299-2494"
+                    },
+                    {
+                        "Direct": "859-566-1209"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Program Name": "Sun 7a News",
+                        "DP": "EM",
+                        "Days\\nLength": "Su\\n30",
+                        "Gross\\nRate": "$30.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "1",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    },
+                    {
+                        "Program Name": "25 Words",
+                        "DP": "DT",
+                        "Days\\nLength": "M-F\\n30",
+                        "Gross\\nRate": "$15.00",
+                        "Mon\\nOct\\n26": "1",
+                        "Tue\\nOct\\n27": "1",
+                        "Wed\\nOct\\n28": "1",
+                        "Thu\\nOct\\n29": "1",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "1",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 7
+                    },
+                    {
+                        "Program Name": "Wknd TMZ",
+                        "DP": "DT",
+                        "Days\\nLength": "Su\\n30",
+                        "Gross\\nRate": "$15.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "1",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    },
+                    {
+                        "Program Name": "Goldbergs",
+                        "DP": "EF",
+                        "Days\\nLength": "M-F\\n30",
+                        "Gross\\nRate": "$18.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    },
+                    {
+                        "Program Name": "Golderbergs",
+                        "DP": "EF",
+                        "Days\\nLength": "M-F\\n30",
+                        "Gross\\nRate": "$36.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "1",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "1",
+                        "Total": 3
+                    },
+                    {
+                        "Program Name": "Friends",
+                        "DP": "EF",
+                        "Days\\nLength": "Sa\\n30",
+                        "Gross\\nRate": "$8.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "1",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    },
+                    {
+                        "Program Name": "Goldbergs",
+                        "DP": "EF",
+                        "Days\\nLength": "Su\\n30",
+                        "Gross\\nRate": "$18.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    },
+                    {
+                        "Program Name": "Friends",
+                        "DP": "EF",
+                        "Days\\nLength": "Su\\n30",
+                        "Gross\\nRate": "$38.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    },
+                    {
+                        "Program Name": "Mom",
+                        "DP": "LF",
+                        "Days\\nLength": "M-F\\n30",
+                        "Gross\\nRate": "$108.00",
+                        "Mon\\nOct\\n26": "1",
+                        "Tue\\nOct\\n27": "1",
+                        "Wed\\nOct\\n28": "1",
+                        "Thu\\nOct\\n29": "1",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 6
+                    },
+                    {
+                        "Program Name": "Mike & Molly",
+                        "DP": "LF",
+                        "Days\\nLength": "M-F\\n30",
+                        "Gross\\nRate": "$108.00",
+                        "Mon\\nOct\\n26": "1",
+                        "Tue\\nOct\\n27": "1",
+                        "Wed\\nOct\\n28": "1",
+                        "Thu\\nOct\\n29": "1",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "1",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 6
+                    },
+                    {
+                        "Program Name": "Andy Griffith",
+                        "DP": "PA",
+                        "Days\\nLength": "Sa\\n30",
+                        "Gross\\nRate": "$60.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "1",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": [
+            {
+                "type": "metadata",
+                "content": "Station Order Revised\nJosh Hicks for Congress\nEKYT-TV\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Market": "Lexington-Fayette"
+                    },
+                    {
+                        "Flight Dates": "10/26/2020 to 11/3/2020"
+                    },
+                    {
+                        "Estimate ID": "2417"
+                    },
+                    {
+                        "Contact": "Benita Tucker"
+                    },
+                    {
+                        "Email": "Benita.Tucker@WKYT.com"
+                    },
+                    {
+                        "Phone": "859-299-0411"
+                    },
+                    {
+                        "Fax": "859-299-2494"
+                    },
+                    {
+                        "Direct": "859-566-1209"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Program Name": "Andy Griffith",
+                        "DP": "PA",
+                        "Days\\nLength": "Sa\\n30",
+                        "Gross\\nRate": "$60.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "1",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": "1"
+                    },
+                    {
+                        "Program Name": "Andy Griffith",
+                        "DP": "PT",
+                        "Days\\nLength": "Sa\\n30",
+                        "Gross\\nRate": "$38.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "1",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": "1"
+                    },
+                    {
+                        "Program Name": "NCIS:NO",
+                        "DP": "PT",
+                        "Days\\nLength": "Sa\\n30",
+                        "Gross\\nRate": "$15.00",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "1",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": "1"
+                    },
+                    {
+                        "Program Name": "Station Gross Totals",
+                        "DP": "missing",
+                        "Days\\nLength": "missing",
+                        "Gross\\nRate": "$657.00",
+                        "Mon\\nOct\\n26": "3",
+                        "Tue\\nOct\\n27": "4",
+                        "Wed\\nOct\\n28": "3",
+                        "Thu\\nOct\\n29": "3",
+                        "Fri\\nOct\\n30": "4",
+                        "Sat\\nOct\\n31": "5",
+                        "Sun\\nNov\\n01": "4",
+                        "Mon\\nNov\\n02": "5",
+                        "Tue\\nNov\\n03": "1",
+                        "Total": "32"
+                    },
+                    {
+                        "Program Name": "Station Net",
+                        "DP": "missing",
+                        "Days\\nLength": "missing",
+                        "Gross\\nRate": "$558.45",
+                        "Mon\\nOct\\n26": "missing",
+                        "Tue\\nOct\\n27": "missing",
+                        "Wed\\nOct\\n28": "missing",
+                        "Thu\\nOct\\n29": "missing",
+                        "Fri\\nOct\\n30": "missing",
+                        "Sat\\nOct\\n31": "missing",
+                        "Sun\\nNov\\n01": "missing",
+                        "Mon\\nNov\\n02": "missing",
+                        "Tue\\nNov\\n03": "missing",
+                        "Total": "missing"
+                    }
+                ]
+            }
+        ]
+    }
+]

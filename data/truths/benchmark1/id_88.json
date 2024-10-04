@@ -51,6 +51,9 @@
                         "AGENCY": "MEDIA FINANCIAL SERVICES"
                     },
                     {
+                        "CONTRACT # FOR INVOICING": "4390162"
+                    },
+                    {
                         "AGY CLI": "missing"
                     },
                     {
@@ -97,7 +100,7 @@
                         "SPT TYP": "missing",
                         "DAYS": ".T.....",
                         "START": "6:00AM",
-                        "END": "10:00AM",
+                        "END\\nTIME": "10:00AM",
                         "LEN": 60,
                         "START.1": "10/6/2020",
                         "STOP": "10/6/2020",
@@ -111,7 +114,7 @@
                         "SPT TYP": "missing",
                         "DAYS": ".T.....",
                         "START": "10:00AM",
-                        "END": "3:00PM",
+                        "END\\nTIME": "3:00PM",
                         "LEN": 60,
                         "START.1": "10/6/2020",
                         "STOP": "10/6/2020",
@@ -125,7 +128,7 @@
                         "SPT TYP": "missing",
                         "DAYS": ".T.....",
                         "START": "3:00PM",
-                        "END": "7:00PM",
+                        "END\\nTIME": "7:00PM",
                         "LEN": 60,
                         "START.1": "10/6/2020",
                         "STOP": "10/6/2020",
@@ -144,7 +147,7 @@
                         "SPT TYP": "missing",
                         "DAYS": "..W....",
                         "START": "6:00AM",
-                        "END": "10:00AM",
+                        "END\\nTIME": "10:00AM",
                         "LEN": 60,
                         "START.1": "10/7/2020",
                         "STOP": "10/7/2020",
@@ -158,7 +161,7 @@
                         "SPT TYP": "missing",
                         "DAYS": "..W....",
                         "START": "10:00AM",
-                        "END": "3:00PM",
+                        "END\\nTIME": "3:00PM",
                         "LEN": 60,
                         "START.1": "10/7/2020",
                         "STOP": "10/7/2020",
@@ -172,7 +175,7 @@
                         "SPT TYP": "missing",
                         "DAYS": "..W....",
                         "START": "3:00PM",
-                        "END": "7:00PM",
+                        "END\\nTIME": "7:00PM",
                         "LEN": 60,
                         "START.1": "10/7/2020",
                         "STOP": "10/7/2020",
@@ -236,6 +239,9 @@
                         "AGENCY": "MEDIA FINANCIAL SERVICES"
                     },
                     {
+                        "CONTRACT # FOR INVOICING": "4390162"
+                    },
+                    {
                         "AGY CLI": "missing"
                     },
                     {
@@ -279,47 +285,44 @@
                     {
                         "MC": "missing",
                         "LN": 1,
-                        "SPT": "missing",
-                        "TYP": "...T...",
-                        "DAYS": "6:00AM",
-                        "START": "10:00AM",
-                        "END": "60",
-                        "LEN": "10/8/2020",
+                        "SPT TYP": "missing",
+                        "DAYS": "...T...",
+                        "START": "6:00AM",
+                        "END\\nTIME": "10:00AM",
+                        "LEN": 60,
                         "START.1": "10/8/2020",
-                        "STOP": "2",
-                        "SP/DY": "$40",
-                        "RATE": "$80",
-                        "TOTAL": NaN
+                        "STOP": "10/8/2020",
+                        "SP/DY": 2,
+                        "RATE": "$40",
+                        "TOTAL": "$80"
                     },
                     {
                         "MC": "missing",
                         "LN": 2,
-                        "SPT": "missing",
-                        "TYP": "...T...",
-                        "DAYS": "10:00AM",
-                        "START": "3:00PM",
-                        "END": "60",
-                        "LEN": "10/8/2020",
+                        "SPT TYP": "missing",
+                        "DAYS": "...T...",
+                        "START": "10:00AM",
+                        "END\\nTIME": "3:00PM",
+                        "LEN": 60,
                         "START.1": "10/8/2020",
-                        "STOP": "1",
-                        "SP/DY": "$40",
+                        "STOP": "10/8/2020",
+                        "SP/DY": 1,
                         "RATE": "$40",
-                        "TOTAL": NaN
+                        "TOTAL": "$40"
                     },
                     {
                         "MC": "missing",
                         "LN": 3,
-                        "SPT": "...T...",
-                        "TYP": "3:00PM",
-                        "DAYS": "7:00PM",
-                        "START": "60",
-                        "END": "10/8/2020",
-                        "LEN": "10/8/2020",
-                        "START.1": "2",
-                        "STOP": "$40",
-                        "SP/DY": "$80",
-                        "RATE": NaN,
-                        "TOTAL": NaN
+                        "SPT TYP": "missing",
+                        "DAYS": "...T...",
+                        "START": "3:00PM",
+                        "END\\nTIME": "7:00PM",
+                        "LEN": 60,
+                        "START.1": "10/8/2020",
+                        "STOP": "10/8/2020",
+                        "SP/DY": 2,
+                        "RATE": "$40",
+                        "TOTAL": "$80"
                     }
                 ]
             },
@@ -329,47 +332,44 @@
                     {
                         "MC": "missing",
                         "LN": 1,
-                        "SPT": "missing",
-                        "TYP": "....F..",
-                        "DAYS": "6:00AM",
-                        "START": "10:00AM",
-                        "END": 60,
-                        "LEN": "10/9/2020",
+                        "SPT TYP": "missing",
+                        "DAYS": "....F..",
+                        "START": "6:00AM",
+                        "END\\nTIME": "10:00AM",
+                        "LEN": 60,
                         "START.1": "10/9/2020",
-                        "STOP": 2,
-                        "SP/DY": "$40",
-                        "RATE": "$80",
-                        "TOTAL": NaN
+                        "STOP": "10/9/2020",
+                        "SP/DY": 2,
+                        "RATE": "$40",
+                        "TOTAL": "$80"
                     },
                     {
                         "MC": "missing",
                         "LN": 2,
-                        "SPT": "missing",
-                        "TYP": "....F..",
-                        "DAYS": "10:00AM",
-                        "START": "3:00PM",
-                        "END": 60,
-                        "LEN": "10/9/2020",
+                        "SPT TYP": "missing",
+                        "DAYS": "....F..",
+                        "START": "10:00AM",
+                        "END\\nTIME": "3:00PM",
+                        "LEN": 60,
                         "START.1": "10/9/2020",
-                        "STOP": 1,
-                        "SP/DY": "$40",
+                        "STOP": "10/9/2020",
+                        "SP/DY": 1,
                         "RATE": "$40",
-                        "TOTAL": NaN
+                        "TOTAL": "$40"
                     },
                     {
                         "MC": "missing",
                         "LN": 3,
-                        "SPT": "missing",
-                        "TYP": "....F..",
-                        "DAYS": "3:00PM",
-                        "START": "7:00PM",
-                        "END": 60,
-                        "LEN": "10/9/2020",
+                        "SPT TYP": "missing",
+                        "DAYS": "....F..",
+                        "START": "3:00PM",
+                        "END\\nTIME": "7:00PM",
+                        "LEN": 60,
                         "START.1": "10/9/2020",
-                        "STOP": 2,
-                        "SP/DY": "$40",
-                        "RATE": "$80",
-                        "TOTAL": NaN
+                        "STOP": "10/9/2020",
+                        "SP/DY": 2,
+                        "RATE": "$40",
+                        "TOTAL": "$80"
                     }
                 ]
             },
@@ -379,17 +379,16 @@
                     {
                         "MC": "missing",
                         "LN": 4,
-                        "SPT": "missing",
-                        "TYP": ".....S.",
-                        "DAYS": "6:00AM",
-                        "START": "7:00PM",
-                        "END": 60,
-                        "LEN": "10/10/2020",
+                        "SPT TYP": "missing",
+                        "DAYS": ".....S.",
+                        "START": "6:00AM",
+                        "END\\nTIME": "7:00PM",
+                        "LEN": 60,
                         "START.1": "10/10/2020",
-                        "STOP": 6,
-                        "SP/DY": "$40",
-                        "RATE": "$240",
-                        "TOTAL": NaN
+                        "STOP": "10/10/2020",
+                        "SP/DY": 6,
+                        "RATE": "$40",
+                        "TOTAL": "$240"
                     }
                 ]
             }
@@ -436,6 +435,9 @@
                     },
                     {
                         "SALESPERSON": "Roger Rafson"
+                    },
+                    {
+                        "CONTRACT # FOR INVOICING": "4390162"
                     },
                     {
                         "SLS FAX": "412 421 6001"
@@ -490,17 +492,16 @@
                     {
                         "MC": "missing",
                         "LN": 4,
-                        "SPT": "missing",
-                        "TYP": "......S",
-                        "DAYS": "6:00AM",
-                        "START": "7:00PM",
-                        "END": 60,
-                        "LEN": "10/11/2020",
+                        "SPT TYP": "missing",
+                        "DAYS": "......S",
+                        "START": "6:00AM",
+                        "END\\nTIME": "7:00PM",
+                        "LEN": 60,
                         "START.1": "10/11/2020",
-                        "STOP": 6,
-                        "SP/DY": "$40",
-                        "RATE": "$240",
-                        "TOTAL": NaN
+                        "STOP": "10/11/2020",
+                        "SP/DY": 6,
+                        "RATE": "$40",
+                        "TOTAL": "$240"
                     }
                 ]
             },
@@ -509,48 +510,45 @@
                 "content": [
                     {
                         "MC": "missing",
-                        "LN": "1",
-                        "SPT": "missing",
-                        "TYP": "M......",
-                        "DAYS": "6:00AM",
-                        "START": "10:00AM",
-                        "END": "60",
-                        "LEN": "10/12/2020",
+                        "LN": 1,
+                        "SPT TYP": "missing",
+                        "DAYS": "M......",
+                        "START": "6:00AM",
+                        "END\\nTIME": "10:00AM",
+                        "LEN": 60,
                         "START.1": "10/12/2020",
-                        "STOP": "2",
-                        "SP/DY": "$40",
-                        "RATE": "$80",
-                        "TOTAL": NaN
-                    },
-                    {
-                        "MC": "missing",
-                        "LN": "2",
-                        "SPT": "missing",
-                        "TYP": "M......",
-                        "DAYS": "10:00AM",
-                        "START": "3:00PM",
-                        "END": "60",
-                        "LEN": "10/12/2020",
-                        "START.1": "10/12/2020",
-                        "STOP": "1",
-                        "SP/DY": "$40",
+                        "STOP": "10/12/2020",
+                        "SP/DY": 2,
                         "RATE": "$40",
-                        "TOTAL": NaN
+                        "TOTAL": "$80"
                     },
                     {
                         "MC": "missing",
-                        "LN": "3.missing",
-                        "SPT": "M......",
-                        "TYP": "3:00PM",
-                        "DAYS": "7:00PM",
-                        "START": "60",
-                        "END": "10/12/2020",
-                        "LEN": "10/12/2020",
-                        "START.1": "2",
-                        "STOP": "$40",
-                        "SP/DY": "$80",
-                        "RATE": NaN,
-                        "TOTAL": NaN
+                        "LN": 2,
+                        "SPT TYP": "missing",
+                        "DAYS": "M......",
+                        "START": "10:00AM",
+                        "END\\nTIME": "3:00PM",
+                        "LEN": 60,
+                        "START.1": "10/12/2020",
+                        "STOP": "10/12/2020",
+                        "SP/DY": 1,
+                        "RATE": "$40",
+                        "TOTAL": "$40"
+                    },
+                    {
+                        "MC": "missing",
+                        "LN": 3,
+                        "SPT TYP": "missing",
+                        "DAYS": "M......",
+                        "START": "3:00PM",
+                        "END\\nTIME": "7:00PM",
+                        "LEN": 60,
+                        "START.1": "10/12/2020",
+                        "STOP": "10/12/2020",
+                        "SP/DY": 2,
+                        "RATE": "$40",
+                        "TOTAL": "$80"
                     }
                 ]
             }

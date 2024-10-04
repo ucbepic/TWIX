@@ -78,7 +78,7 @@ Spots,#,Ch,Day,Air Date,Air Time,Description,Start/End Time,Length,Ad-ID,Rate,Ty
 missing,1,KCCI,Su,09/11/22,9:59 AM,Face the Nation,SU 930-1030A,:30,HMP22IA03T01H,$800.00,NM
 - TABLE
 Line,Start Date,End Date,Description,Start/End Time,MTWTFSS,Length,Spots/\nWeek,Rate,Type
-7,09/11/22,09/11/22,KCCI POLITICAL NEWS 1030A-11A,------1,:30,1,$600.00,NM
+7,09/11/22,09/11/22,KCCI POLITICAL NEWS,1030A-11A,------1,:30,1,$600.00,NM
 - TABLE
 Weeks,Start Date,End Date,MTWTFSS,Spots/\nWeek,Rate
 missing,09/05/22,09/11/22,------1,1,$600.00
@@ -98,7 +98,7 @@ missing,3,KCCI,F,09/09/22,10:28 AM,Price is Right,958-11a,:30,HMP22IA03T01H,"$1,
 missing,1,KCCI,M,09/12/22,9:59 AM,Price is Right,958-11a,:30,HMP22IA03T01H,"$1,100.00",NM
 - TABLE
 Line,Start Date,End Date,Description,Start/End Time,MTWTFSS,Length,Spots/\nWeek,Rate,Type
-9,09/06/22,09/12/22,M-F News CH8 @ 12-12 12-1230P,MTWTF--,:30,3,$900.00,NM
+9,09/06/22,09/12/22,M-F News CH8 @ 12-12,12-1230P,MTWTF--,:30,3,$900.00,NM
 - TABLE
 Weeks,Start Date,End Date,MTWTFSS,Spots/\nWeek,Rate
 missing,09/06/22,09/12/22,MTWTF--,3,$900.00
@@ -109,7 +109,7 @@ missing,1,KCCI,Th,09/08/22,12:22 PM,M-F News CH8 @ 12-1230P,12-1230P,:30,HMP22IA
 missing,2,KCCI,M,09/12/22,12:21 PM,M-F News CH8 @ 12-1230P,12-1230P,:30,HMP22IA03T01H,$900.00,NM
 - TABLE
 Line,Start Date,End Date,Description,Start/End Time,MTWTFSS,Length,Spots/\nWeek,Rate,Type
-10,09/06/22,09/12/22,M-F News CH8 First New 5-530P,MTWTF--,:30,3,"$1,500.00:,NM
+10,09/06/22,09/12/22,M-F News CH8 First New,5-530P,MTWTF--,:30,3,"$1,500.00",NM
 - TABLE
 Weeks,Start Date,End Date,MTWTFSS,Spots/\nWeek,Rate
 missing,09/06/22,09/12/22,MTWTF--,3,"$1,500.00"
