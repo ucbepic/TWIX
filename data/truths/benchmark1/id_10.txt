@@ -2,11 +2,7 @@
 - METADATA
 - KV
 Department,A&S Dean's Office
-Status, Approved
-- TABLE
-GrantID,Director,Grant Title,Agency Name,Amount Awarded
-5319,Ms. Melanie Bentley,Communicating STEM Research to a Broader Audience,University of Kentucky,"$7,637"
--KV
+Status Approved
 Department Summary,A&S Dean's Office
 Submitted,1
 Approved,1
@@ -14,27 +10,28 @@ Pending,0
 Declined,0
 Total $,"7,637"
 Approved $,"7,637"
-Pending $, $0
-Declined $, $0
+Pending $,0
+Declined $,0
+- TABLE
+GrantID,Director,Grant Title,Agency Name,Amount Awarded
+5319,Ms. Melanie Bentley,Communicating STEM Research to a Broader Audience,University of Kentucky,"$7,637"
 #Record2
 - METADATA
 - KV
 Department,"Anthropology, Sociology, & Social Work"
 Status,Declined
-- TABLE
-GrantID,Director,Grant Title,Agency Name,Amount Requested
-5241,Dr. Jennifer Wies,Measuring Pathways to Food Insecurity in Appalachia: Modeling Social-Ecological and Political-Economic Influences,National Science Foundation,"$157,412"
--KV
 Department Summary,"Anthropology, Sociology, & Social Work"
 Submitted,1
 Approved,0
 Pending,0
 Declined,1
 Total $,"157,412"
-Approved $,$0
-Pending $,$0
+Approved $,0
+Pending $,0
 Declined $,"157,412"
-
+- TABLE
+GrantID,Director,Grant Title,Agency Name,Amount Requested
+5241,Dr. Jennifer Wies,Measuring Pathways to Food Insecurity in Appalachia: Modeling Social-Ecological and Political-Economic Influences,National Science Foundation,"$157,412"
 #Record3
 - METADATA
 - KV
@@ -51,7 +48,6 @@ Total $,"1,519,291"
 Approved $,"823,954"
 Pending $,"399,485"
 Declined $,"295,852"
-- TABLE
 - TABLE
 GrantID,Director,Grant Title,Agency Name,Amount Awarded
 5296,Dr. Stephen Richter,Temporal comparisons of genetic variation in the dusky gopher frog (Lithobates sevosus),Kentucky NSF EPSCoR,"$7,959"
@@ -85,7 +81,6 @@ GrantID,Director,Grant Title,Agency Name,Amount Requested
 GrantID,Director,Grant Title,Agency Name,Amount Requested
 5332,Dr. Rebekah Waikel,An Early College Initiative to Retain Appalachian Students in STEM Fields,Association of American College and Universities,"$329,489"
 5324,Dr. Rebekah Waikel,Bridge Funding for Estrogen Mediated Regulation of miRNAs in Cardiac Remodeling,University of Louisville,"$69,996"
-
 #Record4
 - METADATA
 - KV
@@ -120,7 +115,6 @@ GrantID,Director,Grant Title,Agency Name,Amount Requested
 - TABLE
 GrantID,Director,Grant Title,Agency Name,Amount Requested
 5328,Dr. Tanea Reed,A novel therapeutic treatment for lipid peroxidation reduction and glutathione elevation in moderate traumatic brain injury,University of Louisville,"$69,919"
-
 #Record5
 - METADATA
 - KV
@@ -132,8 +126,8 @@ Approved,0
 Pending,0
 Declined,1
 Total $,"3,046"
-Approved $,$0
-Pending $,$0
+Approved $,0
+Pending $,0
 Declined $,"3,046"
 - TABLE
 GrantID,Director,Grant Title,Agency Name,Amount Requested

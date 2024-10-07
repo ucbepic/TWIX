@@ -84,7 +84,7 @@
                     },
                     {
                         "BarCode": 821379,
-                        "Gas": "Nitrogen, UHP",
+                        "Gas": "Nitrogen,UHP",
                         "Size": "200C/Mt.A",
                         "CO #": 482972,
                         "PO #CDLocation": "1483 MEB",
@@ -93,7 +93,7 @@
                     },
                     {
                         "BarCode": 817651,
-                        "Gas": "Helium - 219 CF",
+                        "Gas": "Helium - 219,CF",
                         "Size": "200C/Mt.A",
                         "CO #": 466519,
                         "PO #CDLocation": "1820 Warnock Eng",
@@ -111,7 +111,7 @@
                     },
                     {
                         "BarCode": 202722,
-                        "Gas": "Nitrogen, UHP",
+                        "Gas": "Nitrogen - UHP",
                         "Size": "missing",
                         "CO #": 406982,
                         "PO #CDLocation": "EAST LOADING DOCK FOR NANOFAB",
@@ -120,7 +120,7 @@
                     },
                     {
                         "BarCode": 203030,
-                        "Gas": "Nitrogen, UHP",
+                        "Gas": "Nitrogen - UHP",
                         "Size": "missing",
                         "CO #": 359694,
                         "PO #CDLocation": "2500 SMBB",
@@ -183,7 +183,7 @@
                     },
                     {
                         "BarCode": 806136,
-                        "Gas": "Oxygen - Resear",
+                        "Gas": "Oxygen - Research",
                         "Size": "missing",
                         "CO #": 300341,
                         "PO #CDLocation": "1280 MEB",
@@ -201,7 +201,7 @@
                     },
                     {
                         "BarCode": 807498,
-                        "Gas": "Oxygen - Resear",
+                        "Gas": "Oxygen - Research",
                         "Size": "missing",
                         "CO #": 310665,
                         "PO #CDLocation": "1280 MEB",
@@ -528,7 +528,7 @@
                     },
                     {
                         "BarCode": 819030,
-                        "Gas": "Oxygen, UHP,",
+                        "Gas": "Oxygen - UHP",
                         "Size": "missing",
                         "CO #": 469712,
                         "PO #CDLocation": "36 South Wasatch Dr Nanofab East Loading D",
@@ -537,7 +537,7 @@
                     },
                     {
                         "BarCode": 819031,
-                        "Gas": "Oxygen, UHP,",
+                        "Gas": "Oxygen - UHP",
                         "Size": "missing",
                         "CO #": 469712,
                         "PO #CDLocation": "36 South Wasatch Dr Nanofab East Loading D",
@@ -546,7 +546,7 @@
                     },
                     {
                         "BarCode": 819032,
-                        "Gas": "Oxygen, UHP,",
+                        "Gas": "Oxygen - UHP",
                         "Size": "missing",
                         "CO #": 469712,
                         "PO #CDLocation": "36 South Wasatch Dr Nanofab East Loading D",
@@ -555,7 +555,7 @@
                     },
                     {
                         "BarCode": 819033,
-                        "Gas": "Oxygen, UHP,",
+                        "Gas": "Oxygen - UHP",
                         "Size": "missing",
                         "CO #": 469712,
                         "PO #CDLocation": "36 South Wasatch Dr Nanofab East Loading D",
@@ -600,7 +600,7 @@
                     },
                     {
                         "BarCode": 820778,
-                        "Gas": "Oxygen, UHP,",
+                        "Gas": "Oxygen - UHP",
                         "Size": "missing",
                         "CO #": 480988,
                         "PO #CDLocation": "2500 SMBB Nanofab East Loading Dock",
@@ -609,7 +609,7 @@
                     },
                     {
                         "BarCode": 820779,
-                        "Gas": "Oxygen, UHP,",
+                        "Gas": "Oxygen - UHP",
                         "Size": "missing",
                         "CO #": 480988,
                         "PO #CDLocation": "2500 SMBB Nanofab East Loading Dock",
@@ -618,7 +618,7 @@
                     },
                     {
                         "BarCode": 820780,
-                        "Gas": "Oxygen, UHP,",
+                        "Gas": "Oxygen - UHP",
                         "Size": "missing",
                         "CO #": 480988,
                         "PO #CDLocation": "2500 SMBB Nanofab East Loading Dock",
@@ -627,7 +627,7 @@
                     },
                     {
                         "BarCode": 821178,
-                        "Gas": "Oxygen, UHP,",
+                        "Gas": "Oxygen - UHP",
                         "Size": "missing",
                         "CO #": 481192,
                         "PO #CDLocation": "2500 SMBB Nanofab East Loading Dock",
@@ -636,7 +636,7 @@
                     },
                     {
                         "BarCode": 821179,
-                        "Gas": "Oxygen, UHP,",
+                        "Gas": "Oxygen - UHP",
                         "Size": "missing",
                         "CO #": 488734,
                         "PO #CDLocation": "2500 SMBB",
@@ -789,7 +789,7 @@
                 "content": [
                     {
                         "BarCode": 203622,
-                        "Gas": "N2, Liquid, 265",
+                        "Gas": "N2 Liquid 265",
                         "Size": "265 LTR/U",
                         "CO #": 488863,
                         "PO #CDLocation": "2500 SMBB",
@@ -798,7 +798,7 @@
                     },
                     {
                         "BarCode": 203673,
-                        "Gas": "N2, Liquid, 265",
+                        "Gas": "N2 Liquid 265",
                         "Size": "missing",
                         "CO #": 489841,
                         "PO #CDLocation": "2500 SMBB Nanofab Loading Dock",
@@ -807,7 +807,7 @@
                     },
                     {
                         "BarCode": 203675,
-                        "Gas": "N2, Liquid, 265",
+                        "Gas": "N2 Liquid 265",
                         "Size": "missing",
                         "CO #": 487513,
                         "PO #CDLocation": "2500 SMBB Nanofab East Loading Dock",
@@ -825,7 +825,7 @@
                     },
                     {
                         "BarCode": 804276,
-                        "Gas": "Helium. UHP",
+                        "Gas": "Helium - UHP",
                         "Size": "200C/Mt.A",
                         "CO #": 242085,
                         "PO #CDLocation": "1280 MEB",
@@ -924,7 +924,7 @@
                     },
                     {
                         "BarCode": 115344,
-                        "Gas": "Oxygen, USP",
+                        "Gas": "Oxygen - USP",
                         "Size": "200C/Mt.A",
                         "CO #": 89952,
                         "PO #CDLocation": "1571 MEB",
@@ -933,7 +933,7 @@
                     },
                     {
                         "BarCode": 115347,
-                        "Gas": "Oxygen, USP",
+                        "Gas": "Oxygen - USP",
                         "Size": "missing",
                         "CO #": 89952,
                         "PO #CDLocation": "1571 MEB",
@@ -942,7 +942,7 @@
                     },
                     {
                         "BarCode": 115348,
-                        "Gas": "Oxygen, USP",
+                        "Gas": "Oxygen - USP",
                         "Size": "missing",
                         "CO #": 89952,
                         "PO #CDLocation": "1571 MEB",
@@ -999,7 +999,7 @@
                 "content": [
                     {
                         "BarCode": 814012,
-                        "Gas": "Nitrogen, UHP",
+                        "Gas": "Nitrogen - UHP",
                         "Size": "200C/Mt.A",
                         "CO #": 432239,
                         "PO #CDLocation": "540 BPRB",
@@ -1008,7 +1008,7 @@
                     },
                     {
                         "BarCode": 201136,
-                        "Gas": "Oxygen, USP",
+                        "Gas": "Oxygen - USP",
                         "Size": "K/UU",
                         "CO #": 450403,
                         "PO #CDLocation": "4800J SMBB",

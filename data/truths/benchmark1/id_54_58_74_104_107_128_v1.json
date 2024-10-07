@@ -93,7 +93,7 @@
                 "type": "table",
                 "content": [
                     {
-                        "Line": "missing",
+                        "Line": "1.0",
                         "Type": "News",
                         "Scheduled Time": "7:00:00AM-8:00:00AM",
                         "Scheduled Day to Run": "Per Week (4),Mo,TU,WE,Th,Fr",
@@ -141,7 +141,7 @@
                         "Remarks": "Pre-empt"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "2.0",
                         "Type": "SPOT",
                         "Scheduled Time": "8:00:00AM-8:30:00AM",
                         "Scheduled Day to Run": "Per Week (2),Mo,TU,WE,Th,Fr",
@@ -165,7 +165,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "3.0",
                         "Type": "SPOT",
                         "Scheduled Time": "9:00:00AM-10:00:00AM",
                         "Scheduled Day to Run": "Per Week (3),Mo,TU,WE,Th,Fr",
@@ -237,7 +237,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "5.0",
                         "Type": "SPOT",
                         "Scheduled Time": "4:00:00PM-4:30:00PM",
                         "Scheduled Day to Run": "Per Week (3),Mo,TU,WE,Th,Fr",
@@ -273,7 +273,7 @@
                         "Remarks": "Pre-empt"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "6.0",
                         "Type": "SPOT",
                         "Scheduled Time": "4:30:00PM-5:00:00PM",
                         "Scheduled Day to Run": "Per Week (2),Mo,TU,WE,Th,Fr",
@@ -297,7 +297,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "7.0",
                         "Type": "SPOT",
                         "Scheduled Time": "5:00:00PM-5:30:00PM",
                         "Scheduled Day to Run": "Per Week (2),Mo,TU,WE,Th,Fr",
@@ -321,7 +321,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "8.0",
                         "Type": "SPOT",
                         "Scheduled Time": "6:00:00PM-6:30:00PM",
                         "Scheduled Day to Run": "Per Week (2),Mo,TU,WE,Th,Fr",
@@ -345,7 +345,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "9.0",
                         "Type": "SPOT",
                         "Scheduled Time": "6:30:00PM-7:00:00PM",
                         "Scheduled Day to Run": "Per Week (2),Mo,TU,WE,Th,Fr",
@@ -369,16 +369,16 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "10.0",
                         "Type": "SPOT",
                         "Scheduled Time": "9:00:00PM-10:00:00PM",
                         "Scheduled Day to Run": "Per Week (3),Mo,TU,WE,Th,Fr",
                         "Air Date/Time": "02/04/20 10:14 pm (Tu)",
                         "Length": "00:30",
                         "Program": "News-FOX\\nIllinois News at\\n9p",
-                        "AD-ID / ISCI": "MRBPF",
-                        "Amount": NaN,
-                        "Remarks": NaN
+                        "AD-ID / ISCI": "MRBPFK3030EH",
+                        "Amount": "$200.00",
+                        "Remarks": "missing"
                     }
                 ]
             }
@@ -690,11 +690,11 @@
                         "Scheduled Time": "missing",
                         "Scheduled Day to Run": "missing",
                         "Air Date/Time": "10/20/18 (Sa)",
-                        "Length": "1 preempt @$150.00",
-                        "Program": "$0.00",
-                        "AD-ID / ISCI": "missing",
-                        "Amount": NaN,
-                        "Remarks": NaN
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISCI": "1 preempt @$150.00",
+                        "Amount": "$0.00",
+                        "Remarks": "missing"
                     },
                     {
                         "Line": "11.0",
@@ -802,6 +802,51 @@
                     },
                     {
                         "Send Payment To": "Sinclair Broadcast Group\\nc/o WRSP+\\nPO Box 206270\\nDallas TX 75320-6270"
+                    },
+                    {
+                        "Contract Line Remarks": "Family Feud"
+                    },
+                    {
+                        "Contract Line Remarks": "Family Feud"
+                    },
+                    {
+                        "Contract Line Remarks": "Judge Judy"
+                    },
+                    {
+                        "Contract Line Remarks": "Judge Judy"
+                    },
+                    {
+                        "Contract Line Remarks": "Family Feud"
+                    },
+                    {
+                        "Contract Line Remarks": "FOX News at 5:30p"
+                    },
+                    {
+                        "Contract Line Remarks": "Big Bang Theory"
+                    },
+                    {
+                        "Contract Line Remarks": "Big Bang Theory"
+                    },
+                    {
+                        "Contract Line Remarks": "FOX News at 9"
+                    },
+                    {
+                        "Contract Line Remarks": "TMZ"
+                    },
+                    {
+                        "Contract Line Remarks": "Access Hollywood"
+                    },
+                    {
+                        "Contract Line Remarks": "Big Bang Theory"
+                    },
+                    {
+                        "Contract Line Remarks": "Mike & Molly"
+                    },
+                    {
+                        "Contract Line Remarks": "FOX News at 9"
+                    },
+                    {
+                        "Contract Line Remarks": "Mike & Molly"
                     }
                 ]
             },
@@ -809,7 +854,7 @@
                 "type": "table",
                 "content": [
                     {
-                        "Line": "missing",
+                        "Line": 1.0,
                         "Type": "SPOT",
                         "Scheduled Time": "3:00:00PM-3:30:00PM",
                         "Scheduled Day to Run": "Day,Fr-1",
@@ -821,7 +866,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 2.0,
                         "Type": "SPOT",
                         "Scheduled Time": "3:30:00PM-4:00:00PM",
                         "Scheduled Day to Run": "Day,Fr-1",
@@ -833,7 +878,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 3.0,
                         "Type": "SPOT",
                         "Scheduled Time": "4:00:00PM-4:30:00PM",
                         "Scheduled Day to Run": "Day,Fr-1",
@@ -845,7 +890,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 4.0,
                         "Type": "SPOT",
                         "Scheduled Time": "4:30:00PM-5:00:00PM",
                         "Scheduled Day to Run": "Day,Fr-1",
@@ -857,7 +902,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 5.0,
                         "Type": "SPOT",
                         "Scheduled Time": "5:00:00PM-5:30:00PM",
                         "Scheduled Day to Run": "Day,Fr-1",
@@ -869,7 +914,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 6.0,
                         "Type": "News",
                         "Scheduled Time": "5:30:00PM-6:00:00PM",
                         "Scheduled Day to Run": "Day,Fr-1",
@@ -881,7 +926,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 7.0,
                         "Type": "SPOT",
                         "Scheduled Time": "6:00:00PM-6:30:00PM",
                         "Scheduled Day to Run": "Day,Fr-1",
@@ -893,7 +938,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 8.0,
                         "Type": "SPOT",
                         "Scheduled Time": "6:30:00PM-7:00:00PM",
                         "Scheduled Day to Run": "Day,Fr-1",
@@ -905,7 +950,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 9.0,
                         "Type": "News",
                         "Scheduled Time": "9:00:00PM-10:00:00PM",
                         "Scheduled Day to Run": "Day,Fr-1",
@@ -917,7 +962,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 10.0,
                         "Type": "SPOT",
                         "Scheduled Time": "11:00:00PM-11:30PM",
                         "Scheduled Day to Run": "Day,Fr-1",
@@ -929,7 +974,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 11.0,
                         "Type": "SPOT",
                         "Scheduled Time": "12:00:00AM-12:30AM",
                         "Scheduled Day to Run": "Day,Fr-1",
@@ -941,43 +986,43 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "12.0",
+                        "Line": 12.0,
                         "Type": "SPOT",
                         "Scheduled Time": "missing",
                         "Scheduled Day to Run": "missing",
                         "Air Date/Time": "10/03/20 (Sa)",
                         "Length": "missing",
-                        "Program": "1 preempt @$30.00",
-                        "AD-ID / ISCI": "$0.00",
-                        "Amount": "Program\\nChange",
-                        "Remarks": NaN
+                        "Program": "missing",
+                        "AD-ID / ISCI": "1 preempt @$30.00",
+                        "Amount": "$0.00",
+                        "Remarks": "Program\\nChange"
                     },
                     {
-                        "Line": "13.0",
+                        "Line": 13.0,
                         "Type": "SPOT",
                         "Scheduled Time": "missing",
                         "Scheduled Day to Run": "missing",
                         "Air Date/Time": "10/03/20 (Sa)",
                         "Length": "missing",
-                        "Program": "1 preempt @$75.00",
-                        "AD-ID / ISCI": "$0.00",
-                        "Amount": "Program\\nChange",
-                        "Remarks": NaN
+                        "Program": "missing",
+                        "AD-ID / ISCI": "1 preempt @$75.00",
+                        "Amount": "$0.00",
+                        "Remarks": "Program\\nChange"
                     },
                     {
-                        "Line": "14.0",
+                        "Line": 14.0,
                         "Type": "SPOT",
                         "Scheduled Time": "missing",
                         "Scheduled Day to Run": "missing",
                         "Air Date/Time": "10/03/20 (Sa)",
                         "Length": "missing",
-                        "Program": "1 preempt @$75.00",
-                        "AD-ID / ISCI": "$0.00",
-                        "Amount": "Live Program\\nOverrun",
-                        "Remarks": NaN
+                        "Program": "missing",
+                        "AD-ID / ISCI": "1 preempt @$75.00",
+                        "Amount": "$0.00",
+                        "Remarks": "Live Program\\nOverrun"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 15.0,
                         "Type": "SPOT",
                         "Scheduled Time": "6:00:00PM-6:30:00PM",
                         "Scheduled Day to Run": "Day,Sa-1",
@@ -989,7 +1034,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 16.0,
                         "Type": "SPOT",
                         "Scheduled Time": "9:30:00PM-10:00:00PM",
                         "Scheduled Day to Run": "Day,Sa-1",
@@ -1001,7 +1046,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 28.0,
                         "Type": "News",
                         "Scheduled Time": "9:00:00PM-9:35:00PM",
                         "Scheduled Day to Run": "Day,Su-1",
@@ -1013,7 +1058,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 29.0,
                         "Type": "SPOT",
                         "Scheduled Time": "9:35:00PM-10:05:00PM",
                         "Scheduled Day to Run": "Day,Su-1",

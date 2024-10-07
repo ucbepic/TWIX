@@ -41,9 +41,9 @@
                         "Account Executive": "D. PARKER",
                         "Start Date": "10-08-2012",
                         "End Date": "10-14-2012",
-                        "Billing": "M (Broadcast Month",
-                        "Package": "Cycle 1)",
-                        "Contract Title": "N"
+                        "Billing": "M (Broadcast Month, Cycle 1)",
+                        "Package": "N",
+                        "Contract Title": 245910
                     }
                 ]
             },
@@ -66,9 +66,9 @@
                         "S": "X",
                         "S.1": "missing",
                         "SPW": 4,
-                        "Price": 1.0,
-                        "Tot Spots": 900.0,
-                        "Total $": 4.0
+                        "Price": "1,900",
+                        "Tot Spots": 4,
+                        "Total $": "7,600.00"
                     },
                     {
                         "Line": 2,
@@ -86,9 +86,9 @@
                         "S": "X",
                         "S.1": "missing",
                         "SPW": 3,
-                        "Price": 760.0,
-                        "Tot Spots": 3.0,
-                        "Total $": 2.0
+                        "Price": "760",
+                        "Tot Spots": 3,
+                        "Total $": "2,280.00"
                     },
                     {
                         "Line": 3,
@@ -106,9 +106,9 @@
                         "S": "missing",
                         "S.1": "missing",
                         "SPW": 1,
-                        "Price": 8.0,
-                        "Tot Spots": 550.0,
-                        "Total $": 1.0
+                        "Price": "8,550",
+                        "Tot Spots": 1,
+                        "Total $": "8,550.00"
                     },
                     {
                         "Line": 4,
@@ -121,14 +121,14 @@
                         "M": "missing",
                         "T": "missing",
                         "W": "missing",
-                        "T.1": "X",
-                        "F": NaN,
-                        "S": "missing",
-                        "S.1": "1",
-                        "SPW": 950,
-                        "Price": 1.0,
-                        "Tot Spots": 950.0,
-                        "Total $": NaN
+                        "T.1": "missing",
+                        "F": "missing",
+                        "S": "X",
+                        "S.1": "missing",
+                        "SPW": 1,
+                        "Price": "950",
+                        "Tot Spots": 1,
+                        "Total $": "950.00"
                     },
                     {
                         "Line": 5,
@@ -141,14 +141,14 @@
                         "M": "missing",
                         "T": "missing",
                         "W": "missing",
-                        "T.1": "X",
+                        "T.1": "missing",
                         "F": "missing",
-                        "S": "missing",
-                        "S.1": "1",
-                        "SPW": 950,
-                        "Price": 1.0,
-                        "Tot Spots": 950.0,
-                        "Total $": NaN
+                        "S": "X",
+                        "S.1": "missing",
+                        "SPW": 1,
+                        "Price": "950",
+                        "Tot Spots": 1,
+                        "Total $": "950.00"
                     },
                     {
                         "Line": 6,
@@ -161,14 +161,14 @@
                         "M": "missing",
                         "T": "missing",
                         "W": "missing",
-                        "T.1": "X",
+                        "T.1": "missing",
                         "F": "missing",
-                        "S": "missing",
-                        "S.1": "1",
-                        "SPW": 2,
-                        "Price": 0.0,
-                        "Tot Spots": 1.0,
-                        "Total $": 2.0
+                        "S": "X",
+                        "S.1": "missing",
+                        "SPW": 1,
+                        "Price": "2,000",
+                        "Tot Spots": 1,
+                        "Total $": "2,000.00"
                     },
                     {
                         "Line": 7,
@@ -182,13 +182,13 @@
                         "T": "missing",
                         "W": "missing",
                         "T.1": "missing",
-                        "F": "X",
-                        "S": "1",
-                        "S.1": "665",
+                        "F": "missing",
+                        "S": "missing",
+                        "S.1": "X",
                         "SPW": 1,
-                        "Price": 665.0,
-                        "Tot Spots": NaN,
-                        "Total $": NaN
+                        "Price": "665",
+                        "Tot Spots": 1,
+                        "Total $": "665.00"
                     },
                     {
                         "Line": 8,
@@ -202,13 +202,13 @@
                         "T": "missing",
                         "W": "missing",
                         "T.1": "missing",
-                        "F": "X",
-                        "S": "1",
-                        "S.1": "855",
+                        "F": "missing",
+                        "S": "missing",
+                        "S.1": "X",
                         "SPW": 1,
-                        "Price": 855.0,
-                        "Tot Spots": NaN,
-                        "Total $": NaN
+                        "Price": "855",
+                        "Tot Spots": 1,
+                        "Total $": "855.00"
                     },
                     {
                         "Line": 9,
@@ -222,13 +222,13 @@
                         "T": "missing",
                         "W": "missing",
                         "T.1": "missing",
-                        "F": "X",
-                        "S": "1",
-                        "S.1": "1",
-                        "SPW": 140,
-                        "Price": 1.0,
-                        "Tot Spots": 1.0,
-                        "Total $": 140.0
+                        "F": "missing",
+                        "S": "missing",
+                        "S.1": "X",
+                        "SPW": 1,
+                        "Price": "1,140",
+                        "Tot Spots": 1,
+                        "Total $": "1,140.00"
                     },
                     {
                         "Line": 10,
@@ -244,11 +244,11 @@
                         "T.1": "X",
                         "F": "X",
                         "S": "missing",
-                        "S.1": "3",
-                        "SPW": 1,
-                        "Price": 235.0,
-                        "Tot Spots": 3.0,
-                        "Total $": 3.0
+                        "S.1": "missing",
+                        "SPW": 3,
+                        "Price": "1,235",
+                        "Tot Spots": 3,
+                        "Total $": "3,705.00"
                     },
                     {
                         "Line": 11,
@@ -264,11 +264,11 @@
                         "T.1": "X",
                         "F": "X",
                         "S": "missing",
-                        "S.1": "4",
-                        "SPW": 1,
-                        "Price": 520.0,
-                        "Tot Spots": 4.0,
-                        "Total $": 6.0
+                        "S.1": "missing",
+                        "SPW": 4,
+                        "Price": "1,520",
+                        "Tot Spots": 4,
+                        "Total $": "6,080.00"
                     },
                     {
                         "Line": 12,
@@ -284,11 +284,11 @@
                         "T.1": "X",
                         "F": "X",
                         "S": "missing",
-                        "S.1": "4",
-                        "SPW": 855,
-                        "Price": 4.0,
-                        "Tot Spots": 3.0,
-                        "Total $": 420.0
+                        "S.1": "missing",
+                        "SPW": 4,
+                        "Price": "855",
+                        "Tot Spots": 4,
+                        "Total $": "3,420.00"
                     },
                     {
                         "Line": 13,
@@ -304,11 +304,11 @@
                         "T.1": "X",
                         "F": "X",
                         "S": "missing",
-                        "S.1": "5",
-                        "SPW": 800,
-                        "Price": 5.0,
-                        "Tot Spots": 4.0,
-                        "Total $": 0.0
+                        "S.1": "missing",
+                        "SPW": 5,
+                        "Price": "800",
+                        "Tot Spots": 5,
+                        "Total $": "4,000.00"
                     },
                     {
                         "Line": 14,
@@ -324,11 +324,11 @@
                         "T.1": "X",
                         "F": "X",
                         "S": "missing",
-                        "S.1": "4",
-                        "SPW": 1,
-                        "Price": 805.0,
-                        "Tot Spots": 4.0,
-                        "Total $": 7.0
+                        "S.1": "missing",
+                        "SPW": 4,
+                        "Price": "1,805",
+                        "Tot Spots": 4,
+                        "Total $": "7,220.00"
                     },
                     {
                         "Line": 15,
@@ -344,11 +344,11 @@
                         "T.1": "X",
                         "F": "X",
                         "S": "missing",
-                        "S.1": "4",
-                        "SPW": 2,
-                        "Price": 280.0,
-                        "Tot Spots": 4.0,
-                        "Total $": 9.0
+                        "S.1": "missing",
+                        "SPW": 4,
+                        "Price": "2,280",
+                        "Tot Spots": 4,
+                        "Total $": "9,120.00"
                     }
                 ]
             }
@@ -408,9 +408,9 @@
                         "Account Executive": "D. PARKER",
                         "Start Date": "10-08-2012",
                         "End Date": "10-14-2012",
-                        "Billing": "M (Broadcast Month",
-                        "Package": "Cycle 1)",
-                        "Contract Title": "N"
+                        "Billing": "M (Broadcast Month, Cycle 1)",
+                        "Package": "N",
+                        "Contract Title": 245910
                     }
                 ]
             },
@@ -426,16 +426,16 @@
                         "RC": 1,
                         "Duration": 30,
                         "M": "X",
-                        "T": "X",
+                        "T": "missing",
                         "W": "X",
                         "T.1": "X",
                         "F": "X",
                         "S": "missing",
                         "S.1": "missing",
                         "SPW": 2,
-                        "Price": 2.0,
-                        "Tot Spots": 660.0,
-                        "Total $": 2.0
+                        "Price": "2,660",
+                        "Tot Spots": 2,
+                        "Total $": "5,320.00"
                     },
                     {
                         "Line": 17,
@@ -453,9 +453,9 @@
                         "S": "missing",
                         "S.1": "missing",
                         "SPW": 3,
-                        "Price": 3.0,
-                        "Tot Spots": 400.0,
-                        "Total $": 3.0
+                        "Price": "3,400",
+                        "Tot Spots": 3,
+                        "Total $": "10,200.00"
                     },
                     {
                         "Line": 18,
@@ -473,9 +473,9 @@
                         "S": "missing",
                         "S.1": "missing",
                         "SPW": 3,
-                        "Price": 5.0,
-                        "Tot Spots": 225.0,
-                        "Total $": 3.0
+                        "Price": "5,225",
+                        "Tot Spots": 3,
+                        "Total $": "15,675.00"
                     },
                     {
                         "Line": 19,
@@ -489,13 +489,13 @@
                         "T": "missing",
                         "W": "missing",
                         "T.1": "missing",
-                        "F": "X",
-                        "S": "1",
-                        "S.1": "5",
-                        "SPW": 225,
-                        "Price": 1.0,
-                        "Tot Spots": 5.0,
-                        "Total $": 225.0
+                        "F": "missing",
+                        "S": "missing",
+                        "S.1": "X",
+                        "SPW": 1,
+                        "Price": "5,225",
+                        "Tot Spots": 1,
+                        "Total $": "5,225.00"
                     },
                     {
                         "Line": 20,
@@ -509,13 +509,13 @@
                         "T": "missing",
                         "W": "missing",
                         "T.1": "missing",
-                        "F": "X",
-                        "S": "1",
-                        "S.1": "760",
+                        "F": "missing",
+                        "S": "missing",
+                        "S.1": "X",
                         "SPW": 1,
-                        "Price": 760.0,
-                        "Tot Spots": NaN,
-                        "Total $": NaN
+                        "Price": "760",
+                        "Tot Spots": 1,
+                        "Total $": "760.00"
                     },
                     {
                         "Line": 21,
@@ -529,13 +529,13 @@
                         "T": "missing",
                         "W": "missing",
                         "T.1": "missing",
-                        "F": "X",
-                        "S": "1",
-                        "S.1": "570",
+                        "F": "missing",
+                        "S": "missing",
+                        "S.1": "X",
                         "SPW": 1,
-                        "Price": 570.0,
-                        "Tot Spots": NaN,
-                        "Total $": NaN
+                        "Price": "570",
+                        "Tot Spots": 1,
+                        "Total $": "570.00"
                     },
                     {
                         "Line": 22,
@@ -546,16 +546,16 @@
                         "RC": 1,
                         "Duration": 30,
                         "M": "missing",
-                        "T": "missing",
+                        "T": "X",
                         "W": "missing",
                         "T.1": "missing",
-                        "F": "X",
-                        "S": "1",
-                        "S.1": "2",
-                        "SPW": 660,
-                        "Price": 1.0,
-                        "Tot Spots": 2.0,
-                        "Total $": 660.0
+                        "F": "missing",
+                        "S": "missing",
+                        "S.1": "missing",
+                        "SPW": 1,
+                        "Price": "2,660",
+                        "Tot Spots": 1,
+                        "Total $": "2,660.00"
                     },
                     {
                         "Line": 23,
@@ -566,16 +566,16 @@
                         "RC": 1,
                         "Duration": 30,
                         "M": "missing",
-                        "T": "missing",
+                        "T": "X",
                         "W": "missing",
                         "T.1": "missing",
-                        "F": "X",
-                        "S": "1",
-                        "S.1": "7",
-                        "SPW": 400,
-                        "Price": 1.0,
-                        "Tot Spots": 7.0,
-                        "Total $": 400.0
+                        "F": "missing",
+                        "S": "missing",
+                        "S.1": "missing",
+                        "SPW": 1,
+                        "Price": "7,400",
+                        "Tot Spots": 1,
+                        "Total $": "7,400.00"
                     },
                     {
                         "Line": 24,
@@ -589,13 +589,13 @@
                         "T": "missing",
                         "W": "missing",
                         "T.1": "missing",
-                        "F": "X",
-                        "S": "1",
-                        "S.1": "60",
+                        "F": "missing",
+                        "S": "X",
+                        "S.1": "missing",
                         "SPW": 1,
-                        "Price": 60.0,
-                        "Tot Spots": NaN,
-                        "Total $": NaN
+                        "Price": "60",
+                        "Tot Spots": 1,
+                        "Total $": "60.00"
                     }
                 ]
             }
@@ -628,9 +628,9 @@
                         "Account Executive": "D. PARKER",
                         "Start Date": "10-08-2012",
                         "End Date": "10-14-2012",
-                        "Billing": "M (Broadcast Month",
-                        "Package": "Cycle 1)",
-                        "Contract Title": "N"
+                        "Billing": "M (Broadcast Month, Cycle 1)",
+                        "Package": "N",
+                        "Contract Title": 245910
                     }
                 ]
             },
@@ -641,8 +641,8 @@
                         "Line": "missing",
                         "Start Date": "missing",
                         "End Date": "missing",
-                        "Time Period": "missing",
-                        "Description": "Agency CPE: E : DCCC - EST",
+                        "Time Period": "Agency CPE: E : DCCC - EST",
+                        "Description": "missing",
                         "RC": "missing",
                         "Duration": "missing",
                         "M": "missing",
@@ -654,8 +654,8 @@
                         "S.1": "missing",
                         "SPW": "missing",
                         "Price": "missing",
-                        "Tot Spots": NaN,
-                        "Total $": NaN
+                        "Tot Spots": "missing",
+                        "Total $": "missing"
                     }
                 ]
             },

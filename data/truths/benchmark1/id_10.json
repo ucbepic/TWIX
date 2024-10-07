@@ -9,25 +9,8 @@
                         "Department": "A&S Dean's Office"
                     },
                     {
-                        "Status": "Approved"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
-                    {
-                        "GrantID": 5319,
-                        "Director": "Ms. Melanie Bentley",
-                        "Grant Title": "Communicating STEM Research to a Broader Audience",
-                        "Agency Name": "University of Kentucky",
-                        "Amount Awarded": "$7,637"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
+                        "Status Approved": ""
+                    },
                     {
                         "Department Summary": "A&S Dean's Office"
                     },
@@ -50,10 +33,22 @@
                         "Approved $": "\"7,637\""
                     },
                     {
-                        "Pending $": "$0"
+                        "Pending $": "0"
                     },
                     {
-                        "Declined $": "$0"
+                        "Declined $": "0"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": 5319,
+                        "Director": "Ms. Melanie Bentley",
+                        "Grant Title": "Communicating STEM Research to a Broader Audience",
+                        "Agency Name": "University of Kentucky",
+                        "Amount Awarded": "$7,637"
                     }
                 ]
             }
@@ -70,24 +65,7 @@
                     },
                     {
                         "Status": "Declined"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
-                    {
-                        "GrantID": 5241,
-                        "Director": "Dr. Jennifer Wies",
-                        "Grant Title": "Measuring Pathways to Food Insecurity in Appalachia: Modeling Social-Ecological and Political-Economic Influences",
-                        "Agency Name": "National Science Foundation",
-                        "Amount Requested": "$157,412"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
+                    },
                     {
                         "Department Summary": "\"Anthropology, Sociology, & Social Work\""
                     },
@@ -107,13 +85,25 @@
                         "Total $": "\"157,412\""
                     },
                     {
-                        "Approved $": "$0"
+                        "Approved $": "0"
                     },
                     {
-                        "Pending $": "$0"
+                        "Pending $": "0"
                     },
                     {
                         "Declined $": "\"157,412\""
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": 5241,
+                        "Director": "Dr. Jennifer Wies",
+                        "Grant Title": "Measuring Pathways to Food Insecurity in Appalachia: Modeling Social-Ecological and Political-Economic Influences",
+                        "Agency Name": "National Science Foundation",
+                        "Amount Requested": "$157,412"
                     }
                 ]
             }
@@ -551,10 +541,10 @@
                         "Total $": "\"3,046\""
                     },
                     {
-                        "Approved $": "$0"
+                        "Approved $": "0"
                     },
                     {
-                        "Pending $": "$0"
+                        "Pending $": "0"
                     },
                     {
                         "Declined $": "\"3,046\""

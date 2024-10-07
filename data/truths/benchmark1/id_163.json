@@ -224,10 +224,10 @@
                         "Length": ":30",
                         "Priority": "P2",
                         "State Reaso": "missing",
-                        "Makegood": "$200.00",
-                        "Internal Rate 1": "No",
-                        "Invoiced?": "4",
-                        "Spot #": NaN
+                        "Makegood": "missing",
+                        "Internal Rate 1": "$200.00",
+                        "Invoiced?": "No",
+                        "Spot #": "4"
                     },
                     {
                         "Spot State": "missing",

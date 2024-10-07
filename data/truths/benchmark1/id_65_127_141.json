@@ -77,8 +77,8 @@
                         "Days\\nWTFSSMT": "--F-----",
                         "Rate": "440.00",
                         "Oct\\n21": 1,
-                        "Total\\nSpots": "440.00",
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": "440.00"
                     },
                     {
                         "Line": 1,
@@ -89,8 +89,8 @@
                         "Days\\nWTFSSMT": "-T-----",
                         "Rate": "440.00",
                         "Oct\\n21": 1,
-                        "Total\\nSpots": "440.00",
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": "440.00"
                     },
                     {
                         "Line": 1,
@@ -101,8 +101,8 @@
                         "Days\\nWTFSSMT": "-----M-",
                         "Rate": "440.00",
                         "Oct\\n21": 1,
-                        "Total\\nSpots": "440.00",
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": "440.00"
                     },
                     {
                         "Line": 2,
@@ -113,8 +113,8 @@
                         "Days\\nWTFSSMT": "-T-----",
                         "Rate": "480.00",
                         "Oct\\n21": 1,
-                        "Total\\nSpots": "480.00",
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": "480.00"
                     },
                     {
                         "Line": 2,
@@ -125,8 +125,8 @@
                         "Days\\nWTFSSMT": "-----M-",
                         "Rate": "480.00",
                         "Oct\\n21": 1,
-                        "Total\\nSpots": "480.00",
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": "480.00"
                     },
                     {
                         "Line": 3,
@@ -137,8 +137,8 @@
                         "Days\\nWTFSSMT": "--F-----",
                         "Rate": "675.00",
                         "Oct\\n21": 1,
-                        "Total\\nSpots": "675.00",
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": "675.00"
                     },
                     {
                         "Line": 3,
@@ -149,8 +149,8 @@
                         "Days\\nWTFSSMT": "W------",
                         "Rate": "675.00",
                         "Oct\\n21": 1,
-                        "Total\\nSpots": "675.00",
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": "675.00"
                     },
                     {
                         "Line": 3,
@@ -161,8 +161,8 @@
                         "Days\\nWTFSSMT": "------T",
                         "Rate": "675.00",
                         "Oct\\n21": 1,
-                        "Total\\nSpots": "675.00",
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": "675.00"
                     },
                     {
                         "Line": 4,
@@ -173,8 +173,8 @@
                         "Days\\nWTFSSMT": "-T-----",
                         "Rate": "980.00",
                         "Oct\\n21": 1,
-                        "Total\\nSpots": "980.00",
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": "980.00"
                     },
                     {
                         "Line": 5,
@@ -185,8 +185,8 @@
                         "Days\\nWTFSSMT": "--F-----",
                         "Rate": "1,980.00",
                         "Oct\\n21": 1,
-                        "Total\\nSpots": "1,980.00",
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": "1,980.00"
                     }
                 ]
             },
@@ -315,8 +315,8 @@
                         "Days\\nWTFSSMT": "-T-----",
                         "Rate": 200.0,
                         "May\\n6": 1,
-                        "Total\\nSpots": 200.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 200.0
                     },
                     {
                         "Line": 1,
@@ -327,8 +327,8 @@
                         "Days\\nWTFSSMT": "W------",
                         "Rate": 200.0,
                         "May\\n6": 1,
-                        "Total\\nSpots": 200.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 200.0
                     },
                     {
                         "Line": 1,
@@ -339,8 +339,8 @@
                         "Days\\nWTFSSMT": "-----M-",
                         "Rate": 200.0,
                         "May\\n6": 1,
-                        "Total\\nSpots": 200.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 200.0
                     },
                     {
                         "Line": 2,
@@ -351,8 +351,8 @@
                         "Days\\nWTFSSMT": "W------",
                         "Rate": 300.0,
                         "May\\n6": 1,
-                        "Total\\nSpots": 300.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 300.0
                     },
                     {
                         "Line": 2,
@@ -363,8 +363,8 @@
                         "Days\\nWTFSSMT": "--F-----",
                         "Rate": 300.0,
                         "May\\n6": 1,
-                        "Total\\nSpots": 300.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 300.0
                     },
                     {
                         "Line": 2,
@@ -375,8 +375,8 @@
                         "Days\\nWTFSSMT": "-----M-",
                         "Rate": 300.0,
                         "May\\n6": 1,
-                        "Total\\nSpots": 300.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 300.0
                     },
                     {
                         "Line": 2,
@@ -387,8 +387,8 @@
                         "Days\\nWTFSSMT": "------T",
                         "Rate": 300.0,
                         "May\\n6": 1,
-                        "Total\\nSpots": 300.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 300.0
                     },
                     {
                         "Line": 3,
@@ -399,8 +399,8 @@
                         "Days\\nWTFSSMT": "-T-----",
                         "Rate": 250.0,
                         "May\\n6": 1,
-                        "Total\\nSpots": 250.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 250.0
                     },
                     {
                         "Line": 3,
@@ -411,8 +411,8 @@
                         "Days\\nWTFSSMT": "--F-----",
                         "Rate": 250.0,
                         "May\\n6": 1,
-                        "Total\\nSpots": 250.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 250.0
                     },
                     {
                         "Line": 3,
@@ -423,8 +423,8 @@
                         "Days\\nWTFSSMT": "W------",
                         "Rate": 250.0,
                         "May\\n6": 1,
-                        "Total\\nSpots": 250.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 50.0
                     }
                 ]
             },
@@ -557,8 +557,8 @@
                         "Days\\nTWTFFSSM": "--T----",
                         "Rate": 500.0,
                         "Jun\\n7": 1,
-                        "Total\\nSpots": 500.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 500.0
                     },
                     {
                         "Line": 1,
@@ -569,8 +569,8 @@
                         "Days\\nTWTFFSSM": "--F----",
                         "Rate": 500.0,
                         "Jun\\n7": 1,
-                        "Total\\nSpots": 500.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 500.0
                     },
                     {
                         "Line": 1,
@@ -581,8 +581,8 @@
                         "Days\\nTWTFFSSM": "-W-----",
                         "Rate": 500.0,
                         "Jun\\n7": 1,
-                        "Total\\nSpots": 500.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 500.0
                     },
                     {
                         "Line": 1,
@@ -593,8 +593,8 @@
                         "Days\\nTWTFFSSM": "------M",
                         "Rate": 500.0,
                         "Jun\\n7": 1,
-                        "Total\\nSpots": 500.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 500.0
                     },
                     {
                         "Line": 1,
@@ -605,8 +605,8 @@
                         "Days\\nTWTFFSSM": "--T----",
                         "Rate": 500.0,
                         "Jun\\n7": 1,
-                        "Total\\nSpots": 500.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 500.0
                     },
                     {
                         "Line": 2,
@@ -617,8 +617,8 @@
                         "Days\\nTWTFFSSM": "--T----",
                         "Rate": 750.0,
                         "Jun\\n7": 1,
-                        "Total\\nSpots": 750.0,
-                        "Total Cost": NaN
+                        "Total\\nSpots": 1,
+                        "Total Cost": 750.0
                     }
                 ]
             },

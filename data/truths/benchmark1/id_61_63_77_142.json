@@ -10,7 +10,19 @@
                 "type": "kv",
                 "content": [
                     {
+                        "Please Remit To": "KNZZ News Radio 1100"
+                    },
+                    {
+                        "Invoice": "17686-1"
+                    },
+                    {
+                        "Date": "10/31/2020"
+                    },
+                    {
                         "Invoice Total": "$465.00"
+                    },
+                    {
+                        "Payment Terms": "30 Days"
                     },
                     {
                         "Invoice Month": "October"
@@ -50,15 +62,6 @@
                     },
                     {
                         "ISCI": "MESA CO REPUBLICAN"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
-                    {
-                        "Invoice": "17686-1",
-                        "Date": "10/21/2020"
                     }
                 ]
             },
@@ -275,6 +278,15 @@
                         "Please Remit To": "KNZZ News Radio 1100"
                     },
                     {
+                        "Invoice": "17686-1"
+                    },
+                    {
+                        "Date": "10/31/2020"
+                    },
+                    {
+                        "Payment Terms": "30 Dyas"
+                    },
+                    {
                         "Invoice Month": "October"
                     },
                     {
@@ -321,15 +333,6 @@
                     },
                     {
                         "Invoice Total": "$465.00"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
-                    {
-                        "Invoice": "17686-1",
-                        "Date": "10/31/2020"
                     }
                 ]
             },
@@ -418,7 +421,16 @@
                         "Please Remit To": "KNZZ News Radio 1100"
                     },
                     {
+                        "Invoice": "16673-1"
+                    },
+                    {
+                        "Date": "6/30/2020"
+                    },
+                    {
                         "Invoice Total": "$708.00"
+                    },
+                    {
+                        "Payment Terms": "30 Days"
                     },
                     {
                         "Invoice Month": "June"
@@ -449,6 +461,12 @@
                     },
                     {
                         "IDB Code": "missing"
+                    },
+                    {
+                        "Spot Classification": "CM"
+                    },
+                    {
+                        "ISCI": "Diane Cox/TABOR"
                     }
                 ]
             },
@@ -465,17 +483,17 @@
                 "type": "table",
                 "content": [
                     {
-                        "Date": "missing",
+                        "Date": "KNZZ-AM",
                         "Length": "missing",
-                        "KNZZ-AM": "Spot Classification: CM",
+                        "KNZZ-AM": "Copy Name: Diane Cox/TABOR",
                         "Qty": "missing",
                         "Rate": "missing",
                         "Total": "missing"
                     },
                     {
-                        "Date": "KNZZ-AM",
+                        "Date": "missing",
                         "Length": "missing",
-                        "KNZZ-AM": "Copy Name: Diane Cox/TABOR",
+                        "KNZZ-AM": "ISCI: Diane Cox/TABOR",
                         "Qty": "missing",
                         "Rate": "missing",
                         "Total": "missing"
@@ -682,6 +700,15 @@
                         "Please Remit To": "KNZZ News Radio 1100"
                     },
                     {
+                        "Invoice": "16673-1"
+                    },
+                    {
+                        "Date": "6/30/2020"
+                    },
+                    {
+                        "Payment Terms": "30 Days"
+                    },
+                    {
                         "Invoice Month": "June"
                     },
                     {
@@ -710,15 +737,6 @@
                     },
                     {
                         "IDB Code": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
-                    {
-                        "Invoice": "16673-1",
-                        "Date": "6/30/2020"
                     }
                 ]
             },
@@ -975,10 +993,10 @@
                         "Please Remit To: KNZZ News Radio 1100": ""
                     },
                     {
-                        "Invoice Date": "6/30/2020"
+                        "Invoice": "16673-1"
                     },
                     {
-                        "Invoice Number": "16673-1"
+                        "Date": "6/30/2020"
                     },
                     {
                         "Payment Terms": "30 Days"

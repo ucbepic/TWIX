@@ -4,6 +4,233 @@
         "content": [
             {
                 "type": "metadata",
+                "content": "Contract Data (Traffic) Report\nSUMMARY FOR ORDER # 2800160\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Traffic Order #": "\"646492,646493\""
+                    },
+                    {
+                        "Created On": "8/28/2019 11:59:36 AM"
+                    },
+                    {
+                        "Order Status": "Contract Confirmed"
+                    },
+                    {
+                        "Order #": "2800160"
+                    },
+                    {
+                        "Created By": "NCC_Gateway_User"
+                    },
+                    {
+                        "Gross $": "52672.00"
+                    },
+                    {
+                        "Order Descrp": "62680868_POL - Issue Doctor Patient\\nUnity DET-DDSH"
+                    },
+                    {
+                        "Updated On": "8/28/2019 1:07:22 PM"
+                    },
+                    {
+                        "Net $": "37923.84"
+                    },
+                    {
+                        "Client": "DOCTOR PATIENT UNITY - NCC - MI"
+                    },
+                    {
+                        "Updated By": "\"Smith, Brogan\""
+                    },
+                    {
+                        "Units": "115"
+                    },
+                    {
+                        "Start Date": "8/26/2019"
+                    },
+                    {
+                        "Industry": "Political-Association"
+                    },
+                    {
+                        "Credit Hold": "NO"
+                    },
+                    {
+                        "End Date": "9/1/2019"
+                    }
+                ]
+            },
+            {
+                "type": "metadata",
+                "content": "REFERENCES\nBILLING INFORMATION\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "# of Weeks": "1"
+                    },
+                    {
+                        "Primary": "missing"
+                    },
+                    {
+                        "Purchase Order #": "8299MI"
+                    }
+                ]
+            },
+            {
+                "type": "metadata",
+                "content": "SALES\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Secondary": "missing"
+                    },
+                    {
+                        "Billing Schedule": "EndOfFlight"
+                    },
+                    {
+                        "ActiveWeeks": "1"
+                    },
+                    {
+                        "Tertiary": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "metadata",
+                "content": "EDI,INFORMATION\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "AE 1": "NCC - MI - WASH DC"
+                    },
+                    {
+                        "Quarternary": "missing"
+                    },
+                    {
+                        "Product": "ORDR"
+                    },
+                    {
+                        "AE 2": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "metadata",
+                "content": "TRAFFIC OPTIONS\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Estimate": "8299MI"
+                    },
+                    {
+                        "Agency": "DEL CIELO MEDIA - NCC"
+                    }
+                ]
+            },
+            {
+                "type": "metadata",
+                "content": "15.00%\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Address 1": "NCC MEDIA"
+                    },
+                    {
+                        "Submit EDI Invoice?": "Submit EDI Invoice"
+                    },
+                    {
+                        "RepFirm": "NCC"
+                    }
+                ]
+            },
+            {
+                "type": "metadata",
+                "content": "13.00%\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Address 2": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "metadata",
+                "content": "ORDER /INVOICE/TRAFFIC/REPORT NOTES/COMMENTS\nCopy Instr ID,missing\n\"City,State,Zip\",\"BLOOMFIELD,NJ\"\nTotal Zones,2\nZip,07003\nZones,\"Detroit MI Interconnect,Detroit MI DI...\"\nContact,missing\n"
+            },
+            {
+                "type": "metadata",
+                "content": "Detroit,Priority,NP=80;IP=74,,see,key,on,FCC,site,for\nnetwork/zone,information\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Total Networks": "6"
+                    },
+                    {
+                        "Phone": "111-111-1111"
+                    }
+                ]
+            },
+            {
+                "type": "metadata",
+                "content": "GENERAL COMMENTS\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Avail Tag": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "metadata",
+                "content": "SYSCODE LIST\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Contract Type": "Standard"
+                    }
+                ]
+            },
+            {
+                "type": "metadata",
+                "content": "\"5557,9819\"\n"
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Copy Group": "missing"
+                    },
+                    {
+                        "Division": "missing"
+                    },
+                    {
+                        "Reference #": "62680868"
+                    }
+                ]
+            },
+            {
+                "type": "metadata",
+                "content": "Contract Data (Traffic) Report\nPage 1 of 9\n\"Nielsen Audience Estimates Copyright \u00a92014 The Nielsen Company, used under license, all rights reserved\"\nPrinted On 8/29/2019 10:16:54 AM\n\"Printed By Becker, Kathleen\"\n"
+            },
+            {
+                "type": "metadata",
                 "content": "SUMMARY FOR SYSCODE 5557\n"
             },
             {
@@ -477,13 +704,8 @@
             },
             {
                 "type": "metadata",
-                "content": "Contract Data (Traffic) Report\nPage 4 of 9\n\"Nielsen Audience Estimates Copyright \u00a92014 The Nielsen Company, used under license,all rights reserved\"\nPrinted On 8/29/2019 10:16:54 AM\n\"Printed By Becker, Kathleen\"\n\n"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "content": [
+                "content": "Contract Data (Traffic) Report\nPage 4 of 9\n\"Nielsen Audience Estimates Copyright \u00a92014 The Nielsen Company, used under license,all rights reserved\"\nPrinted On 8/29/2019 10:16:54 AM\n\"Printed By Becker, Kathleen\"\n"
+            },
             {
                 "type": "metadata",
                 "content": "SUMMARY FOR SYSCODE 9819\n"
@@ -903,15 +1125,11 @@
             {
                 "type": "metadata",
                 "content": "Contract Data (Traffic) Report\nPage 6 of 9\n\"Nielsen Audience Estimates Copyright \u00a92014 The Nielsen Company, used under license,all rights reserved\"\nPrinted On 8/29/2019 10:16:54 AM\n\"Printed By Becker, Kathleen\"\n"
-            },
-            {
-                "type": "table",
-                "content": []
             }
         ]
     },
     {
-        "id": 3,
+        "id": 2,
         "content": [
             {
                 "type": "metadata",

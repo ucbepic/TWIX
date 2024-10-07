@@ -322,8 +322,8 @@
                         "Buy Line Dates": "10/08/2012-10/08/2012",
                         "M T W F S S": "M . . . . . .",
                         "Dur": 30,
-                        "Total\\nSpots": "1,810.00",
-                        "Rate": NaN
+                        "Total\\nSpots": 1,
+                        "Rate": 810.0
                     }
                 ]
             },
@@ -958,8 +958,20 @@
                         "M/G For": "missing",
                         "Material": "BCTV1203H",
                         "Dur": 30,
-                        "Rate": "2,700.00,missing,missing,missing\n10/03/2012,We,11:24:40 PM,missing,BCTV1203H,30,2",
-                        "Debit": "700.00",
+                        "Rate": "2,700.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/03/2012",
+                        "Day": "We",
+                        "Air Time": "11:24:40 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": "2,700.00",
+                        "Debit": "missing",
                         "Credit": "missing",
                         "Remarks": "missing"
                     },
@@ -970,8 +982,20 @@
                         "M/G For": "missing",
                         "Material": "BCTV1203H",
                         "Dur": 30,
-                        "Rate": "2,700.00,missing,missing,missing\n10/05/2012,Fr,11:23:28 PM,missing,BCTV1203H,30,2",
-                        "Debit": "700.00",
+                        "Rate": "2,700.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/05/2012",
+                        "Day": "Fr",
+                        "Air Time": "11:23:28 PM",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": "2,700.00",
+                        "Debit": "missing",
                         "Credit": "missing",
                         "Remarks": "missing"
                     },
@@ -982,10 +1006,22 @@
                         "M/G For": "missing",
                         "Material": "BCTV1203H",
                         "Dur": 30,
-                        "Rate": "2,700.00,missing,missing,missing\n10/07/2012,Su,missing,missing,BCTV1203H,30,missing,missing,2",
-                        "Debit": "700.00\"",
-                        "Credit": "Preempted",
-                        "Remarks": NaN
+                        "Rate": "2,700.00",
+                        "Debit": "missing",
+                        "Credit": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Air Date": "10/07/2012",
+                        "Day": "Su",
+                        "Air Time": "missing",
+                        "M/G For": "missing",
+                        "Material": "BCTV1203H",
+                        "Dur": 30,
+                        "Rate": "missing",
+                        "Debit": "missing",
+                        "Credit": "2,700.00",
+                        "Remarks": "Preempted"
                     },
                     {
                         "Air Date": "10/07/2012",

@@ -62,7 +62,7 @@ def get_PR(results_kvs, truth_kvs):
     precisions = {} #record id ->  precision 
     recalls = {} # record id -> recall
     for id, truth_kv in truth_kvs.items():
-        print(id)
+        #print(id)
         precision = 0
         recall = 0
         if id not in results_kvs:
@@ -82,7 +82,7 @@ def get_PR(results_kvs, truth_kvs):
         # print(new_truth_kv)
         # print(new_result_kv)
         
-        print('FP:')
+        #print('FP:')
         #evaluate precision
         for kv in new_result_kv:
             is_match = 0
@@ -91,12 +91,12 @@ def get_PR(results_kvs, truth_kvs):
                     precision += 1
                     is_match = 1
                     break
-            if(is_match == 0):
-                print(kv)
+            # if(is_match == 0):
+            #     print(kv)
         
         precision /= len(new_result_kv)
 
-        print('FN:')
+        #print('FN:')
         #evaluate recall
         for kv in new_truth_kv:
             is_match = 0
@@ -105,8 +105,8 @@ def get_PR(results_kvs, truth_kvs):
                     recall += 1
                     is_match = 1
                     break
-            if(is_match == 0):
-                print(kv)
+            # if(is_match == 0):
+            #     print(kv)
         
         recall /= len(new_truth_kv)
 
@@ -158,23 +158,23 @@ if __name__ == "__main__":
     
     truth_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.json'
     result_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted__kv.json'
-    eval_one_doc(truth_path, result_path)
+    #eval_one_doc(truth_path, result_path)
 
-    # result_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
-    # results = scan_folder(result_folder_path)
-    # for result_path in results:
-    #     if('.txt' in result_path):
-    #         continue
-    #     #print(result)
-    #     truth_path = result_path.replace('result','data/truths')
-    #     truth_path = truth_path.replace('aws_','')
-    #     if not os.path.exists(truth_path):
-    #         continue
-    #     if('id_15' not in truth_path):
-    #         continue
+    result_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
+    results = scan_folder(result_folder_path)
+    for result_path in results:
+        if('.txt' in result_path):
+            continue
+        #print(result)
+        truth_path = result_path.replace('result','data/truths')
+        truth_path = truth_path.replace('aws_','')
+        if not os.path.exists(truth_path):
+            continue
+        # if('id_15' not in truth_path):
+        #     continue
 
-    #     print(truth_path)
-    #     eval_one_doc(truth_path, result_path)
+        print(truth_path)
+        eval_one_doc(truth_path, result_path)
 
         
 

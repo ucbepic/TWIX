@@ -83,6 +83,24 @@
                     },
                     {
                         "Gen. Date": "8/27/2018 2:18:54 PM"
+                    },
+                    {
+                        "Gross Total": "$550.00"
+                    },
+                    {
+                        "Comission": "($82.50)"
+                    },
+                    {
+                        "Net Total": "$467.50"
+                    },
+                    {
+                        "Page": "1"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
                     }
                 ]
             },
@@ -90,7 +108,7 @@
                 "type": "table",
                 "content": [
                     {
-                        "Line": "missing",
+                        "Line": 7.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Mo",
@@ -102,7 +120,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 12.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Mo",
@@ -112,20 +130,6 @@
                         "Copy/ISCI": "TW-TV18-13H",
                         "Amount": "$275.00",
                         "Remarks": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Gross Total": "$550.00"
-                    },
-                    {
-                        "Comission": "($82.50)"
-                    },
-                    {
-                        "Net Total": "$467.50"
                     }
                 ]
             }
@@ -215,6 +219,60 @@
                     },
                     {
                         "Gen. Date": "8/27/2018 2:18:54 PM"
+                    },
+                    {
+                        "Gross Total": "\"$3,015.00\""
+                    },
+                    {
+                        "Comission": "($452.25)"
+                    },
+                    {
+                        "Net Total": "\"$2,562.75\""
+                    },
+                    {
+                        "Page": "1"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "WATM News Centre"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Good Morning America Weekend"
                     }
                 ]
             },
@@ -222,7 +280,7 @@
                 "type": "table",
                 "content": [
                     {
-                        "Line": "missing",
+                        "Line": 1.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Sa",
@@ -234,7 +292,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 2.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Sa",
@@ -246,7 +304,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 3.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Fr",
@@ -258,7 +316,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 4.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Th",
@@ -270,7 +328,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 5.0,
                         "Type": "SPOT",
                         "Scheduled": "23851-WATM News Centre",
                         "Schedule Days to Run": "Per week (1),Sa",
@@ -282,7 +340,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 6.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Tu",
@@ -294,7 +352,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 7.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),We",
@@ -306,7 +364,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "8.0",
+                        "Line": 8.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Th",
@@ -318,7 +376,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "9.0",
+                        "Line": 9.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Mo",
@@ -330,7 +388,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 10.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Tu",
@@ -342,7 +400,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 11.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),We",
@@ -354,7 +412,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 12.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Fr",
@@ -366,7 +424,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 13.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Mo",
@@ -378,7 +436,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 14.0,
                         "Type": "SPOT",
                         "Scheduled": "20108-ABC Good Morning America",
                         "Schedule Days to Run": "Per week (1),Su",
@@ -388,20 +446,6 @@
                         "Copy/ISCI": "TW-TV18-16H",
                         "Amount": "$60.00",
                         "Remarks": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Gross Total": "\"$3,015.00\""
-                    },
-                    {
-                        "Comission": "($452.25)"
-                    },
-                    {
-                        "Net Total": "\"$2,562.75\""
                     }
                 ]
             }
@@ -491,6 +535,60 @@
                     },
                     {
                         "Gen. Date": "8/27/2018 2:19:02 PM"
+                    },
+                    {
+                        "Gross Total": "\"$3,015.00\""
+                    },
+                    {
+                        "Comission": "($452.25)"
+                    },
+                    {
+                        "Net Total": "\"$2,562.75\""
+                    },
+                    {
+                        "Page": "1"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "WATM News Centre"
+                    },
+                    {
+                        "Contract Line Remarks": "Good Morning America Weekend"
                     }
                 ]
             },
@@ -498,7 +596,7 @@
                 "type": "table",
                 "content": [
                     {
-                        "Line": "missing",
+                        "Line": 1.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Sa",
@@ -510,7 +608,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 2.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Sa",
@@ -522,7 +620,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 3.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Tu",
@@ -534,7 +632,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 4.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),We",
@@ -546,7 +644,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 5.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Th",
@@ -558,7 +656,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 6.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Fr",
@@ -570,7 +668,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 7.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Mo",
@@ -582,7 +680,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 8.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Tu",
@@ -594,7 +692,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 9.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),We",
@@ -606,7 +704,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 10.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Th",
@@ -618,7 +716,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 11.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Fr",
@@ -630,7 +728,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 12.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Mo",
@@ -642,7 +740,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 13.0,
                         "Type": "SPOT",
                         "Scheduled": "23851-WATM News Centre",
                         "Schedule Days to Run": "Per week (1),Sa",
@@ -654,7 +752,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 14.0,
                         "Type": "SPOT",
                         "Scheduled": "20108-ABC Good Morning America",
                         "Schedule Days to Run": "Per week (1),Su",
@@ -664,20 +762,6 @@
                         "Copy/ISCI": "TW-TV18-15H",
                         "Amount": "$60.00",
                         "Remarks": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Gross Total": "\"$3,015.00\""
-                    },
-                    {
-                        "Comission": "($452.25)"
-                    },
-                    {
-                        "Net Total": "\"$2,562.75\""
                     }
                 ]
             }
@@ -767,6 +851,54 @@
                     },
                     {
                         "Gen. Date": "8/27/2018 2:19:02 PM"
+                    },
+                    {
+                        "Gross Total": "\"$2,465.00\""
+                    },
+                    {
+                        "Comission": "($369.75)"
+                    },
+                    {
+                        "Net Total": "\"$2,095.25\""
+                    },
+                    {
+                        "Page": "1"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Wheel of Fortune"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "Jeopardy"
+                    },
+                    {
+                        "Contract Line Remarks": "WATM News Centre"
+                    },
+                    {
+                        "Contract Line Remarks": "Good Morning America Weekend"
                     }
                 ]
             },
@@ -774,7 +906,7 @@
                 "type": "table",
                 "content": [
                     {
-                        "Line": "missing",
+                        "Line": 1.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Sa",
@@ -786,7 +918,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 2.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Sa",
@@ -798,7 +930,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 3.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Tu",
@@ -810,7 +942,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 4.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),We",
@@ -822,7 +954,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 5.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Th",
@@ -834,7 +966,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 6.0,
                         "Type": "SPOT",
                         "Scheduled": "20122-Wheel of Fortune",
                         "Schedule Days to Run": "Per week (1),Fr",
@@ -846,7 +978,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 8.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Tu",
@@ -858,7 +990,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 9.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),We",
@@ -870,7 +1002,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 10.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Th",
@@ -882,7 +1014,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 11.0,
                         "Type": "SPOT",
                         "Scheduled": "20121-Jeopardy",
                         "Schedule Days to Run": "Per week (1),Fr",
@@ -894,7 +1026,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 13.0,
                         "Type": "SPOT",
                         "Scheduled": "23851-WATM News Centre",
                         "Schedule Days to Run": "Per week (1),Sa",
@@ -906,7 +1038,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 14.0,
                         "Type": "SPOT",
                         "Scheduled": "20108-ABC Good Morning America",
                         "Schedule Days to Run": "Per week (1),Su",
@@ -916,20 +1048,6 @@
                         "Copy/ISCI": "TW-TV18-18H",
                         "Amount": "$60.00",
                         "Remarks": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Gross Total": "\"$2,465.00\""
-                    },
-                    {
-                        "Comission": "($369.75)"
-                    },
-                    {
-                        "Net Total": "\"$2,095.25\""
                     }
                 ]
             }
@@ -1007,6 +1125,54 @@
                     },
                     {
                         "Comments": "GOLDEN FOR Congress"
+                    },
+                    {
+                        "Contract Line Remarks": "FAMILY FEUD/FUNNY YOU-ASK"
+                    },
+                    {
+                        "Contract Line Remarks": "FAMILY FEUD/FUNNY YOU-ASK"
+                    },
+                    {
+                        "Contract Line Remarks": "FAMILY FEUD"
+                    },
+                    {
+                        "Contract Line Remarks": "FAMILY FEUD"
+                    },
+                    {
+                        "Contract Line Remarks": "FAMILY FEUD B"
+                    },
+                    {
+                        "Contract Line Remarks": "FAMILY FEUD B"
+                    },
+                    {
+                        "Contract Line Remarks": "AVG. ALL WKS"
+                    },
+                    {
+                        "Contract Line Remarks": "AVG. ALL WKS"
+                    },
+                    {
+                        "Contract Line Remarks: SIMPSONS-FOX": ""
+                    },
+                    {
+                        "Contract Line Remarks: GOOD DAY ME 1": ""
+                    },
+                    {
+                        "Contract Line Remarks: BRKLYN 9-9-FOX": ""
+                    },
+                    {
+                        "Contract Line Remarks: FAMILY GUY-FOX": ""
+                    },
+                    {
+                        "Contract Line Remarks: FOX23 NEWS-TEN<": ""
+                    },
+                    {
+                        "Contract Line Remarks: FOX23 NEWS-TEN<": ""
+                    },
+                    {
+                        "Contract Line Remarks: AVG. ALL WKS": ""
+                    },
+                    {
+                        "Contract Line Remarks: FOX23 NEWS-TEN<": ""
                     }
                 ]
             },
@@ -1014,7 +1180,7 @@
                 "type": "table",
                 "content": [
                     {
-                        "Line": "missing",
+                        "Line": 2.0,
                         "Type": "SPOT",
                         "Scheduled": "FAMILY FEUD/FUNNY YOU-ASK",
                         "Schedule Days to Run": "Day,Th-2",
@@ -1026,7 +1192,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 3.0,
                         "Type": "SPOT",
                         "Scheduled": "FAMILY FEUD/FUNNY YOU-ASK",
                         "Schedule Days to Run": "Day,F-2",
@@ -1038,7 +1204,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 4.0,
                         "Type": "SPOT",
                         "Scheduled": "FAMILY FEUD/FUNNY YOU-ASK",
                         "Schedule Days to Run": "Day,F-2",
@@ -1050,7 +1216,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 5.0,
                         "Type": "SPOT",
                         "Scheduled": "FAMILY FEUD",
                         "Schedule Days to Run": "Day,Th-1",
@@ -1062,7 +1228,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 6.0,
                         "Type": "SPOT",
                         "Scheduled": "FAMILY FEUD",
                         "Schedule Days to Run": "Day,F-2",
@@ -1074,7 +1240,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 8.0,
                         "Type": "SPOT",
                         "Scheduled": "FAMILY FEUD B",
                         "Schedule Days to Run": "Day,F-1",
@@ -1086,7 +1252,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 9.0,
                         "Type": "SPOT",
                         "Scheduled": "FAMILY FEUD B",
                         "Schedule Days to Run": "Day,F-1",
@@ -1098,7 +1264,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 13.0,
                         "Type": "Prime",
                         "Scheduled": "AVG. ALL WKS",
                         "Schedule Days to Run": "Day,F-2",
@@ -1110,7 +1276,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 14.0,
                         "Type": "Prime",
                         "Scheduled": "AVG. ALL WKS",
                         "Schedule Days to Run": "Day,F-2",
@@ -1122,7 +1288,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 15.0,
                         "Type": "Prime",
                         "Scheduled": "SIMPSONS-FOX",
                         "Schedule Days to Run": "Day,Su-1",
@@ -1134,7 +1300,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 16.0,
                         "Type": "News",
                         "Scheduled": "GOOD DAY ME 1",
                         "Schedule Days to Run": "Day,Th-2",
@@ -1146,7 +1312,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 17.0,
                         "Type": "News",
                         "Scheduled": "BRKLYN 9-9-FOX",
                         "Schedule Days to Run": "Day,Su-1",
@@ -1158,7 +1324,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 18.0,
                         "Type": "News",
                         "Scheduled": "FAMILY GUY-FOX",
                         "Schedule Days to Run": "Day,Su-1",
@@ -1170,7 +1336,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 20.0,
                         "Type": "News",
                         "Scheduled": "FOX23 NEWS-TEN<",
                         "Schedule Days to Run": "Day,Th-2",
@@ -1182,7 +1348,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 21.0,
                         "Type": "News",
                         "Scheduled": "FOX23 NEWS-TEN<",
                         "Schedule Days to Run": "Day,Th-2",
@@ -1194,7 +1360,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 22.0,
                         "Type": "News",
                         "Scheduled": "AVG. ALL WKS",
                         "Schedule Days to Run": "Day,Sa-1",
@@ -1206,7 +1372,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": 23.0,
                         "Type": "News",
                         "Scheduled": "FOX23 NEWS-TEN<",
                         "Schedule Days to Run": "Day,Su-2",
@@ -1290,6 +1456,45 @@
                     },
                     {
                         "Revision": "missing"
+                    },
+                    {
+                        "Comments": "GOLDEN FOR Congress"
+                    },
+                    {
+                        "Contract Line Remarks": "VARIOUS"
+                    },
+                    {
+                        "Contract Line Remarks": "VARIOUS"
+                    },
+                    {
+                        "Contract Line Remarks": "GOOD DAY ME 1"
+                    },
+                    {
+                        "Contract Line Remarks": "AVG. ALL WKS"
+                    },
+                    {
+                        "Contract Line Remarks": "FOX EARLY COLL FTBL"
+                    },
+                    {
+                        "Contract Line Remarks": "AVG. ALL WKS"
+                    },
+                    {
+                        "Contract Line Remarks": "AVG. ALL WKS"
+                    },
+                    {
+                        "Contract Line Remarks": "FOX NWS SUNDAY"
+                    },
+                    {
+                        "Contract Line Remarks": "HOT BENCH B<"
+                    },
+                    {
+                        "Contract Line Remarks": "HOT BENCH B<"
+                    },
+                    {
+                        "Contract Line Remarks": "NFL 1P"
+                    },
+                    {
+                        "Contract Line Remarks": "NFL 1P"
                     }
                 ]
             },
@@ -1309,7 +1514,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "25.0",
                         "Type": "SPOT",
                         "Scheduled": "VARIOUS",
                         "Schedule Days to Run": "Day,Th-1",
@@ -1321,7 +1526,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "26.1",
                         "Type": "SPOT",
                         "Scheduled": "VARIOUS",
                         "Schedule Days to Run": "Day,F-1",
@@ -1333,7 +1538,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "27.0",
                         "Type": "News",
                         "Scheduled": "GOOD DAY ME 1",
                         "Schedule Days to Run": "Day,F-2",
@@ -1345,7 +1550,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "28.0",
                         "Type": "News",
                         "Scheduled": "AVG. ALL WKS",
                         "Schedule Days to Run": "Day,Sa-3",
@@ -1357,7 +1562,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "29.0",
                         "Type": "Football",
                         "Scheduled": "FOX EARLY COLL FTBL",
                         "Schedule Days to Run": "Day,Sa-3",
@@ -1369,7 +1574,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "29.0",
                         "Type": "Football",
                         "Scheduled": "FOX EARLY COLL FTBL",
                         "Schedule Days to Run": "Day,Sa-3",
@@ -1381,7 +1586,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "30.0",
                         "Type": "Football",
                         "Scheduled": "AVG. ALL WKS",
                         "Schedule Days to Run": "Day,Sa-3",
@@ -1393,7 +1598,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "31.0",
                         "Type": "Football",
                         "Scheduled": "AVG. ALL WKS",
                         "Schedule Days to Run": "Day,Sa-3",
@@ -1405,7 +1610,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "32.0",
                         "Type": "News",
                         "Scheduled": "FOX NWS SUNDAY",
                         "Schedule Days to Run": "Day,Su-2",
@@ -1417,7 +1622,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "34.0",
                         "Type": "SPOT",
                         "Scheduled": "HOT BENCH B",
                         "Schedule Days to Run": "Day,Th-2",
@@ -1429,7 +1634,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "35.0",
                         "Type": "SPOT",
                         "Scheduled": "HOT BENCH B",
                         "Schedule Days to Run": "Day,F-2",
@@ -1441,7 +1646,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "37.0",
                         "Type": "Football",
                         "Scheduled": "NFL 1P",
                         "Schedule Days to Run": "Day,Su-2",
@@ -1453,7 +1658,7 @@
                         "Remarks": "missing"
                     },
                     {
-                        "Line": "missing",
+                        "Line": "38.0",
                         "Type": "Football",
                         "Scheduled": "NFL 4P",
                         "Schedule Days to Run": "Day,Su-2",
