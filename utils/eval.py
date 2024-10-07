@@ -142,35 +142,40 @@ def get_result_path(truth_path):
     result_path = truth_path.replace('')
     return result_path
 
+def eval_one_doc(truth_path, result_path):
+    result = read_json(result_path)
+    truth = read_json(truth_path)
+
+    result_kvs = get_leaf_nodes_paris(result)
+    truth_kvs = get_leaf_nodes_paris(truth)
+
+    avg_precision, avg_recall, precisions, recalls = get_PR(result_kvs, truth_kvs)
+    print(precisions)
+    print(recalls)
+    print(avg_precision, avg_recall)
+
 if __name__ == "__main__":
     
     truth_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.json'
     result_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted__kv.json'
+    eval_one_doc(truth_path, result_path)
 
-    result_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
-    results = scan_folder(result_folder_path)
-    for result_path in results:
-        if('.txt' in result_path):
-            continue
-        #print(result)
-        truth_path = result_path.replace('result','data/truths')
-        truth_path = truth_path.replace('aws_','')
-        if not os.path.exists(truth_path):
-            continue
-        if('id_15' not in truth_path):
-            continue
+    # result_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
+    # results = scan_folder(result_folder_path)
+    # for result_path in results:
+    #     if('.txt' in result_path):
+    #         continue
+    #     #print(result)
+    #     truth_path = result_path.replace('result','data/truths')
+    #     truth_path = truth_path.replace('aws_','')
+    #     if not os.path.exists(truth_path):
+    #         continue
+    #     if('id_15' not in truth_path):
+    #         continue
 
-        print(truth_path)
+    #     print(truth_path)
+    #     eval_one_doc(truth_path, result_path)
 
-        result = read_json(result_path)
-        truth = read_json(truth_path)
-
-        result_kvs = get_leaf_nodes_paris(result)
-        truth_kvs = get_leaf_nodes_paris(truth)
-
-        avg_precision, avg_recall, precisions, recalls = get_PR(result_kvs, truth_kvs)
-        print(precisions)
-        print(recalls)
-        print(avg_precision, avg_recall)
+        
 
     

@@ -150,7 +150,7 @@ def eval_key_val_procedure():
     
     path = tested_paths[tested_id]
     print(path)
-    result_path = key.get_key_val_path(path, 'partial_kv')
+    result_path = key.get_key_val_path(path, 'kv')
     truth_path = get_truth_key_val_path(path)
     extracted_path = key.get_extracted_path(path)
 

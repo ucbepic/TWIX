@@ -948,6 +948,7 @@ def is_same_row(b1,b2):
 
 def major_overlapping_phrase(t,p1,p2):
     #choose between p1 and p2 which is overlapping more with t
+    a=0 
 
 
 def row_aligned(row1, row2, esp = 0.8):
@@ -1416,5 +1417,5 @@ if __name__ == "__main__":
         phrases = read_file(extracted_path)
         phrases_bb = read_json(bb_path)
 
-        print(results)
+        #print(results)
         mix_pattern_extract_pipeline(phrases_bb, results, phrases, out_path)
