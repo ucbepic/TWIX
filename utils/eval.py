@@ -165,7 +165,7 @@ if __name__ == "__main__":
     for result_path in results:
         if('.txt' in result_path):
             continue
-        #print(result)
+        print(result_path)
         truth_path = result_path.replace('result','data/truths')
         truth_path = truth_path.replace('aws_','')
         if not os.path.exists(truth_path):
@@ -173,7 +173,7 @@ if __name__ == "__main__":
         # if('id_15' not in truth_path):
         #     continue
 
-        print(truth_path)
+        #print(truth_path)
         eval_one_doc(truth_path, result_path)
 
         
