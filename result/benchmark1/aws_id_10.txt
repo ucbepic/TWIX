@@ -1,0 +1,105 @@
+#Record1
+-KV
+Grant Project Start Date between,7/1/2013 and
+Grant Report,6/30/2014
+Amount Requested,"$157,412"
+"Friday,","October 31, 2014"
+Page,1 of 35
+-TABLE
+GrantID,Director,Grant Title,Agency Name,Amount Awarded
+5319,Ms. Melanie Bentley,Communicating STEM Research to a Broader Audience,University of Kentucky,"$7,637"
+-TABLE
+GrantID,Director,Grant Title,Agency Name,Amount Requested
+5241,Dr. Jennifer Wies,Measuring Pathways to Food Insecurity in Appalachia: Modeling Social-Ecological and Political-Economic Influences,National Science Foundation,"$157,412"
+#Record2
+-KV
+Page,2 of 35
+-TABLE
+GrantID 5296,Director,Grant Title Temporal comparisons of genetic variation in the dusky gopher frog (Lithobates sevosus),Agency Name Kentucky NSF EPSCoR,"Amount Awarded $7,959"
+missing,Dr. Stephen Richter,missing,missing,missing
+5280,Dr. Marcia Pierce,Bridging the Gap: Appalachian Students in Biomedical Research in Kentucky,University of Kentucky,"$206,183"
+5314,Dr. Robert Frederick,Wildlife Ecologist - Research Startup,Kentucky Science and Technology Corporation,"$30,000"
+5283,Dr. David Brown,Running Buffalo Clover and Deer Survey,Blue Grass Army Depot,"$20,000"
+5146,Dr. Stephen Richter,Enchancing Research Capacity in Appalachia: Research Facilities for Lilley Cornett Woods Field Station,National Science Foundation,"$300,474"
+5232,Dr. Sherry Harrel,"Distribution, Movement and Ecology of Etheostoma sagitta spilotum, the Kentucky Arrow Darter",United States Fish and Wildlife Service,"$22,000"
+5300,Dr. Stephen Richter,Effects of interactions between Notophthalmus viridescens and lithobates sylvaticus in a ridge-top wetland ecosystem,Kentucky Academy of Science,"$1,000"
+5297,Dr. Stephen Richter,Comparative Landscape Genetics of Amphibians Across a Ridge-Top Wetland Ecosystem,Kentucky NSF EPSCoR,"$4,358"
+5290,Dr. Jarrod Thaxton,Linking Theory and Practice to Overcome Barriers to Ecosystem Restoration,Kentucky NSF EPSCoR,"$35,592"
+5200,Dr. Stephen Richter,Conservation genetics of gopher frogs in Alabama,Alabama Division of Wildlife and Freshwater Fis,"$7,045"
+5254,Dr. David Brown,Evaluation of Management Strategies for Long-Term Maintenance of Running Buffalo Clover (Trifolium stoloniferum) populations in Kentucky,Kentucky Natural Lands Trust,"$6,000"
+5189,Dr. Amy Braccia,Assessment of Hydrologic Functions in Combined Stream and Floodplain Restoration,University of Louisville,"$59,732"
+#Record3
+-KV
+Texas Parks and Wildlife Department,"$22,008"
+Kentucky Academy of Science,"$1,283"
+National Science Foundation,"$40,424"
+The Wetland Foundation,$800
+Oak Ridge Associated Universities,"$5,000"
+Page,3 of 35
+"Friday,","October 31, 2014"
+-TABLE
+5187 Dr. Stephen Richter,Statewide validation of the Kentucky Wetland Rapid Assessment Method (KY-WRAM) and Indices of Biotic Integrity,Kentucky Division of Water,"$65,451"
+5231 Dr. Sherry Harrel,"Distribution, Movement and Ecology of Etheostoma sagitta spilotum, the Kentucky Arrow Darter",Kentucky Department of Fish and Wildlife Resou,"$57,160"
+5298 Dr. David Hayes,Molecular Analyses in Conjunction with Ongoing Phylogenetics Research,Missouri Department of Conservation,"$1,000"
+-TABLE
+GrantID,Director,Grant Title,Agency Name,Amount Requested
+5301,Dr. Gary Ritchison,Vocal Responses of Blue Jays to Raptors: possible use of referential alarm calls to convey information to conspecifics,Kentucky Academy of Science,"$4,780"
+5179,Dr. Stephen Richter,Developing a genotyping tool for assisting the management of the critically endangered dusky gopher frog,San Diego Zoo,$0
+5182,Dr. Stephen Richter,Reversing the Decline of an Eastern Grassland Indicator Species,Texas Parks and Wildlife Department,"$22,008"
+5302,Dr. Gary Ritchison,Provisioning Strateies of Male and Female American Kestrel: Effects of Variation in the Intensity of Beggin by Nestlings,Kentucky Academy of Science,"$1,283"
+5204,Dr. Patrick Calie,Dimensions: Collaborative Research: Convergent evolution and chemotypic diversification of vertically transmitted plant- symbiotic fungi,National Science Foundation,"$40,424"
+5305,Dr. Stephen Richter,Effects of interactions between Notophthalmus viridescens and Lithobates sylvaticus in a ridge-top wetland system,The Wetland Foundation,$800
+5310,Dr. Brad Ruhfel,Plastid Phlogenomics of Podostemaceae,Oak Ridge Associated Universities,"$5,000"
+5312,Dr. Lindsay Calderon,iPLA2beta a novel regulator of breast cancer tumor growth and metastasis,University of Louisville,"$112,000"
+5279,Dr. Lindsay Calderon,Enchancing Appalachian Undergraduate Education through,American Heart Association,"$40,000"
+#Record4
+-KV
+Nonparametric Approaches to Estimate Phylogenetic Tree National Science Foundation Distributions,missing
+the Cardiovascular Summer Research Institute,"5100 Dr. Patrick Calie $69,557"
+Status,Pending
+Submitted,27
+Declined,10
+Approved,15
+Pending,2
+Declined $,"$295,852"
+Total $,"$1,519,291"
+Pending $,"$399,485"
+Approved $,"$823,954"
+Department,Chemistry
+Amount Awarded,"$10,440"
+Page,4 of 35
+"Friday,","October 31, 2014"
+-TABLE
+GrantID,Director,Grant Title,Agency Name,Amount Requested
+5332,Dr. Rebekah Waikel,An Early College Initiative to Retain Appalachian Students in STEM Fields,Association of American College and Universitie,"$329,489"
+5324,Dr. Rebekah Waikel,Bridge Funding for Estrogen Mediated Regulation of miRNAs in Cardiac Remodeling,University of Louisville,"$69,996"
+-TABLE
+GrantID 5285,Director Dr. Tanea Reed,Grant Title The role of glutathione elevation in moderate traumatic brain injury,Agency Name Kentucky NSF EPSCoR,"Amount Awarded $10,440"
+5343,Dr. Lori Wilson,Startup Funds for Assistant Professor of Inorganic Chemistry,Kentucky Science and Technology Corporation,"$25,000"
+5286,Dr. Buchang Shi,Towards understanding the mechanism of hydrocarbon synthesis on iron catalysts,Kentucky NSF EPSCoR,"$25,000"
+5365,Dr. Lori Wilson,The application of molecular beacons as a diagnostic mechanism for rapid SNP genotyping of highly degraded forensic samples,Kentucky NSF EPSCoR,"$59,361"
+#Record5
+-KV
+Abbott Point-of-Care,"$25,000"
+Coating Research,5307 Dr. David Cunningham
+GrantID Director,5328 Dr. Tanea Reed
+Declined,6
+Submitted,12
+Approved,5
+Pending,1
+Declined $,"$489,079"
+Total $,"$703,799"
+Approved $,"$144,801"
+Pending $,"$69,919"
+Page,5 of 35
+-TABLE
+GrantID,Director,Grant Title,Agency Name,Amount Requested
+5320,Dr. Tanea Reed,A novel therapeutic treatment for lipid peroxidation reduction and gluathione elevation in moderate traumatic brain injury,University of Louisville,"$49,981"
+5373,Dr. Lori Wilson,The application of molecular beacons as a diagnostic mechanism for the rapid genotyping of InDels and SNPs,University of Louisville,"$29,000"
+5288,Dr. David Cunningham,"Collaborative Research: In-situ measurements of NanoMechanical forces in free-standing fibrous thin-film substrates to understand cell attachment, growth, and proliferation",National Science Foundation,"$231,244"
+5161,Dr. Buchang Shi,Sugar production from low temperature pre-treated biomass,Kentucky Science and Technology Corporation,"$29,998"
+5287,Dr. Donghui Quan,Chemical Modeling of Newly Detected Interstellar Nitro- Prebiotic Modules,University of Kentucky,"$36,856"
+5311,Dr. Margaret Ndinguri,Targeting cancer cells using luteinizing hormone releasing hormone (LHRH) peptide moiety,University of Louisville,"$112,000"
+-TABLE
+GrantID,Director,Grant Title,Agency Name,Amount Requested
+5328 Dr. Tanea Reed,missing,A novel therapeutic treatment for lipid peroxidation reduction and gluthathione elevation in moderate traumatic brain injury.,University of Louisville,"$69,919"

@@ -1,0 +1,193 @@
+#Record1
+-KV
+Date Entered,09/25/20
+Last Modified,09/25/20
+Entered By,JENNY OLSZEWSKI
+CO-OP,No
+Headline #,missing
+Demo,missing
+Order Type,Normal
+Package Deal,missing
+Commission %,15.00
+PO Box,333
+Commission,$990.00
+Net Total,"$5,610.00"
+Sales Tax,missing
+Accepted-Station,missing
+Accepted-Agency/Advertiser,missing
+Comments,missing
+B/E Bookend,P/B Piggy Back
+Printed At,"06:51 PM on Friday, September 25 2020"
+-TABLE
+Line,Line Type / Break Type (Ref #),Dates,Sec,Length,Run Times,SPW,Mo,Tu,We,Th,Fr,Sa,Su,Spots,Rate,Total,missing
+1.0,Normal Line / SPOT,09/29/20-10/02/20,5,:30,6A- 7A (PST),missing,missing,1,1,1,1,missing,missing,4,$15.00,$60.00,NBC - CA
+2.0,Normal Line / SPOT,09/29/20-10/02/20,5,:30,7A-9A (PST),missing,missing,1,1,1,1,missing,missing,4,$35.00,$140.00,NBC - CA
+3.0,Normal Line / SPOT,09/29/20-10/02/20,5,:30,5P- 5:30P (PST),missing,missing,1,1,1,1,missing,missing,4,$135.00,$540.00,NBC - CA
+4.1,Normal Line / SPOT,09/30/20-10/02/20,5,:30,6P- 6:30P (PST),missing,missing,missing,1,1,1,missing,missing,3,$135.00,$405.00,NBC - CA
+5.0,Normal Line / SPOT,09/29/20-10/02/20,5,:30,11P- 11:35P (PST),missing,missing,1,1,1,1,missing,missing,4,$100.00,$400.00,NBC - CA
+6.0,Normal Line / SPOT,09/29/20-10/02/20,5,:30,11:35P- 12:35A (PST),missing,missing,1,1,1,1,missing,missing,4,$30.00,$120.00,NBC - CA
+7.0,Normal Line / SPOT,10/04/20-10/04/20,5,:30,11P- 11:35P (PST),missing,missing,missing,missing,missing,missing,missing,1,1,$75.00,$75.00,NBC - CA
+8.0,Normal Line / SPOT,10/04/20-10/04/20,5,:30,8A- 9A (PST),missing,missing,missing,missing,missing,missing,missing,1,1,$25.00,$25.00,NBC - CA
+9.0,Normal Line / SPOT,10/05/20-10/09/20,5,:30,6A-7A (PST),missing,1,1,1,1,1,missing,missing,5,$15.00,$75.00,NBC - CA
+10.0,Normal Line / SPOT,10/05/20-10/09/20,5,:30,7A- 9A (PST),missing,1,1,1,1,1,missing,missing,5,$35.00,$175.00,NBC - CA
+11.0,Normal Line / SPOT,10/12/20-10/16/20,5,:30,7A- 9A (PST),missing,1,1,1,1,1,missing,missing,5,$35.00,$175.00,NBC - CA
+12.0,Normal Line / SPOT,10/05/20-10/09/20,5,:30,5P- 5:30P (PST),missing,1,1,1,1,1,missing,missing,5,$135.00,$675.00,NBC - CA
+13.0,Normal Line / SPOT,10/12/20-10/16/20,5,:30,5P- 5:30P (PST),missing,1,1,1,1,1,missing,missing,5,$135.00,$675.00,NBC - CA
+14.0,Normal Line / SPOT,10/05/20-10/09/20,5,:30,6P- 6:30P (PST),missing,1,1,1,1,1,missing,missing,5,$135.00,$675.00,NBC - CA
+15.0,Normal Line / SPOT,10/05/20-10/09/20,5,:30,11P- 11:35P (PST),missing,1,1,1,1,1,missing,missing,5,$100.00,$500.00,NBC - CA
+missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+#Record2
+-KV
+Contract #,28735
+Schedule Dates,09/29/20-10/18/20
+Advertiser,Estelle Fennell for Supervisor (3297)
+Agency,Estelle Fennell for Supervisor (1640)
+Product,CITY/COUNTY POLITICAL RACES (1087)
+Brand,2020 (12967)
+Salesperson,"OLSZEWSKI, JENNY (1060)"
+Sales Office,KVIQ LOCAL
+Buyer Name,"Fennell,Estelle"
+PO Box,333
+Phone/Fax,(707) 223-5618 /
+CPE,N/A
+Account Types,Local/Political Candidate
+Billing Type,Calendar
+CONFIRMATION CONTRACT,missing
+Accepted-Station,missing
+Accepted-Agency/Advertiser,missing
+Printed At,"06:51 PM on Friday, September 25 2020"
+-TABLE
+Line,Line Type / Break Type (Ref #),Dates,Sec,Length,Run Times,SPW,Mo Tu We Th Fr Sa Su,missing,missing,missing,missing,missing,missing,Spots,Rate,Total,missing
+16.0,Normal Line / SPOT,10/12/20-10/16/20,5,:30,11P- 11:35P (PST),missing,1,1,1,1,1,missing,missing,5,$100.00,$500.00,NBC CA
+17.0,Normal Line / SPOT,10/05/20-10/09/20,5,:30,11:35P- 12:35A (PST),missing,1,1,1,1,1,missing,missing,5,$30.00,$150.00,NBC CA
+18.0,Normal Line / SPOT,10/12/20-10/16/20,5,:30,11:35P- 12:35A (PST),missing,1,1,1,1,1,missing,missing,5,$30.00,$150.00,NBC CA
+19.0,Normal Line / SPOT,10/11/20-10/11/20,5,:30,11P- 11:35P (PST),missing,missing,missing,missing,missing,missing,missing,1,1,$75.00,$75.00,NBC CA
+20.0,Normal Line / SPOT,10/18/20-10/18/20,5,:30,11P- 11:35P (PST),missing,missing,missing,missing,missing,missing,missing,1,1,$75.00,$75.00,NBC CA
+21.0,Normal Line / SPOT,10/11/20-10/11/20,5,:30,8A- 9A (PST),missing,missing,missing,missing,missing,missing,missing,1,1,$25.00,$25.00,NBC CA
+22.0,Normal Line / SPOT,10/18/20-10/18/20,5,:30,8A- 9A (PST),missing,missing,missing,missing,missing,missing,missing,1,1,$25.00,$25.00,NBC CA
+23.0,Normal Line / SPOT,10/12/20-10/16/20,5,:30,6A-7A (PST),missing,1,1,1,1,1,missing,missing,5,$15.00,$75.00,NBC CA
+24.0,Normal Line / SPOT,10/12/20-10/16/20,5,:30,6P- 6:30P (PST),missing,1,1,1,1,1,missing,missing,5,$135.00,$675.00,NBC - CA
+25.0,Normal Line / SPOT,10/06/20-10/06/20,5,:30,9P- 9:30P (PST),missing,missing,1,missing,missing,missing,missing,missing,1,$135.00,$135.00,NBC CA
+missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+#Record3
+-KV
+Date Entered,05/08/12
+Last Modified,10/17/12
+Oct.,missing
+2012,"232 $156,435.00"
+Entered By,Penne Marsh
+Nov. 2012,"117 $79,720.00"
+CO-OP,No
+Grand Total,"349 $236,155.00"
+Headline #,06135017
+Order Type,Normal
+Package Deal,missing
+Commission %,15.00
+Commission,"$35,423.25"
+Net Total,"$200,731.75"
+Sales Tax,missing
+Accepted-Agency/Advertiser,missing
+Accepted-Station,missing
+Comments,missing
+B/E Bookend,P/B Piggy Back
+Page,of 7
+Printed At,"10:50 AM on Thursday, October 18 2012"
+-TABLE
+Line,Line Type/Break Type (Ref,Dates,Sec,Length,Run Times,SPW,Mo Tu,We Th,Fr Sa Su,Spots,Rate,Total,Station,Comments,Entered
+1.0,Normal Line / SPOT,10/30/12-11/02/12,5,:30,12:58P-3:58P ( (ET),14,missing,XXXX,missing,14,$350.00,"$4,900.00",Norfolk (WVEC) (WVEC),PM ROTATION,5/8/12
+2.0,Normal Line / SPOT,10/09/12-10/12/12,4,:30,10A- 10:58A (ET),1,missing,X X X X,missing,missing,$275.00,missing,Norfolk (WVEC) (WVEC),RACHAEL RAY,5/8/12
+3.1,Normal Line / SPOT,10/16/12-10/19/12,5,:30,10A- 10:58A (ET),2,missing,XXXX,[ ],2,$275.00,$550.00,Norfolk (WVEC) (WVEC),RACHAEL RAY,10/9/12
+4.1,Normal Line / SPOT,10/23/12-11/02/12,5,:30,10A- 10:58A (ET),5,missing,XXXX,[ ],10,$275.00,"$2,750.00",Norfolk (WVEC) (WVEC),RACHAEL RAY,10/9/12
+5.1,Normal Line / SPOT,10/23/12-10/26/12,5,:30,11:35P-12:02A (ET),missing,missing,111,[ ],4,$325.00,"$1,300.00",Norfolk (WVEC) (WVEC),ABC NIGHTLINE,10/9/12
+6.1,Normal Line / SPOT,10/30/12-11/02/12,5,:30,11:35P-12:02A (ET),5,missing,XXXX,[ ],[ ] 5,$325.00,"$1,625.00",Norfolk (WVEC) (WVEC),ABC NIGHTLINE,10/9/12
+7.0,Normal Line / SPOT,10/09/12-10/12/12,4,:30,10:58A- 12P (ET),[ ] 1,missing,X X X X,[ ],[ ],$450.00,missing,Norfolk (WVEC) (WVEC),THE VIEW,5/8/12
+8.1,Normal Line / SPOT,10/16/12-10/19/12,5,:30,10:58A-12P (ET),2,missing,XXXX,[ ],[ ] 2,$450.00,$900.00,Norfolk (WVEC) (WVEC),THE VIEW,10/9/12
+9.1,Normal Line / SPOT,10/23/12-11/02/12,5,:30,10:58A- 12P (ET),[ ] 5,missing,XXXX,[ ],[ ] 10,$450.00,"$4,500.00",Norfolk (WVEC) (WVEC),THE VIEW,10/9/12
+10.0,Normal Line / SPOT,10/09/12-10/19/12,4,:30,12P-12:57P (ET),[ ] 5,missing,XXXX,missing,[ ] 5,$275.00,"$1,375.00",Norfolk (WVEC) (WVEC),13 NEWS MIDDAY,5/8/12
+11.1,Normal Line / SPOT,10/23/12-10/26/12,5,:30,12P- - 12:57P (ET),4,XXXX [ ],missing,missing,[ ] 4,$275.00,"$1,100.00",Norfolk (WVEC) (WVEC),13 NEWS MIDDAY,10/9/12
+12.1,Normal Line / SPOT,10/30/12-11/02/12,5,:30,12P- 12:57P (ET),[ ] 5,XXXX,missing,missing,[ ] 5,$275.00,"$1,375.00",Norfolk (WVEC) (WVEC),13 NEWS MIDDAY,10/9/12
+13.0,Normal Line / SPOT,10/09/12-10/26/12,4,:30,3:58P-4:58P (ET),[ ] 5,missing,XXXX,[ ],[ ] 15,$600.00,"$9,000.00",Norfolk (WVEC) (WVEC),DR. OZ,5/8/12
+14.0,Normal Line / SPOT,10/30/12-11/02/12,4,:30,3:58P-4:58P (ET),4,X X X,missing,missing,4,$600.00,"$2,400.00",Norfolk (WVEC) (WVEC),DR. OZ,5/8/12
+#Record4
+-KV
+Contract #,828059
+Schedule Dates,10/09/12-11/05/12
+Oct.,2012
+Advertiser,Democratic Senatorial Campaign Committee (1639
+Nov.,"117 $79,720.00"
+Agency/T-Code,Great American Media (2039)/556615156
+Grand Total,"349 $236,155.00"
+WVEC,"613 Norfolk, Woodis VA Ave. 23510"
+Product,Political US Senate (1176)
+Brand,Republican (ANTI) (178218)
+Salesperson,"Blair, Cheryl (2205)"
+Sales Office,TeleRep Philadelphia
+Buyer Name,missing
+Phone/Fax,/
+DC,20007-3603
+CPE,49/53/1139
+Account Types,National/Political PAC - Agency
+Billing Type,Weekly/Irregular
+13 NEWS DAYBREAK,10/9/12
+Accepted-Station,missing
+Accepted-Agency/Advertiser,missing
+B/E Bookend,P/B Piggy Back
+Page,2 of 7
+Printed At,"10:50 AM on Thursday, October 18 2012"
+-TABLE
+Line,Line Type / Break Type (Ref #),Dates,Sec,Length,Run Times,SPW,Mo,Tu,We Th,Fr,Sa,Su,Spots,Rate,Total,Station,Comments,Entered
+15.0,Normal Line / SPOT,10/09/12-10/12/12,4,missing,:30|4:58P-5:29P (ET),5,missing,missing,XXXX,[X],[ ],[ ],[ ],$750.00,missing,Norfolk (WVEC) (WVEC),13 NEWS AT 5P,5/8/12
+16.1,Normal Line / SPOT,10/16/12-10/19/12,5,:30,4:58P-5:29P (ET),4,missing,[X],XXXX,[X],[ ],[ ],[ ] 4,$750.00,"$3,000.00",Norfolk (WVEC) (WVEC),13 NEWS AT 5P,10/9/12
+17.1,Normal Line / SPOT,10/23/12-11/02/12,5,:30,4:58P-5:29P (ET),5,missing,[X],XXXX,[X],[ ],[ ],[ ] 10,$750.00,"$7,500.00",Norfolk (WVEC) (WVEC),13 NEWS AT 5P,10/9/12
+18.1,Normal Line / SPOT,10/09/12-10/12/12,5,:30,5A- 5:58A (ET),4,missing,[X],XXXX,[X],[ ],[ ],4,$325.00,"$1,300.00",Norfolk (WVEC) (WVEC),5AM NEWS,10/5/12
+19.1,Normal Line / SPOT,10/16/12-11/02/12,5,:30,5A- 5:58A (ET),[ ] 5,missing,[X],XXXX,[X],[ ],[ ],[ ] 15,$325.00,"$4,875.00",Norfolk (WVEC) (WVEC),5AM NEWS,10/9/12
+20.0,Normal Line / SPOT,10/09/12-10/12/12,4,:30,5:29P- 5:58P (ET),4,missing,[X],[X],[ ],missing,[ ],[ ],$800.00,missing,Norfolk (WVEC) (WVEC),NEWS,5/8/12
+21.1,Normal Line / SPOT,10/16/12-11/02/12,5,:30,5:29P-5:58P ( (ET),[ ] 5,missing,missing,[X],[X],missing,[ ],[ ] 15,$800.00,"$12,000.00",Norfolk (WVEC) (WVEC),NEWS,10/9/12
+22.1,End Dated Line / SPOT,10/09/12-10/09/12,4,:30,6P. 6:30P (ET),5,missing,[X],[ ],[ ],[ ],[ ],[ ],$825.00,missing,Norfolk (WVEC) (WVEC),13 NEWS AT 6P,10/9/12
+23.1,Normal Line/ SPOT,10/30/12-11/02/12,5,:30,6P. 6:30P (ET),[X] 4,[ ],missing,missing,[X],[ ],[ ],[ ] 4,$825.00,"$3,300.00",Norfolk (WVEC) (WVEC),13 NEWS AT 6P,10/9/12
+24.1,Normal Line / SPOT,10/09/12-10/12/12,5,:30,5:58A- 7A (ET),[ ] 5,[ ],[X],XXXX,[X],[ ],[ ],[ ] 5,$650.00,"$3,250.00",Norfolk (WVEC) (WVEC),13 NEWS DAYBREAK,10/5/12
+25.1,Normal Line / SPOT,10/16/12-10/19/12,5,:30,5:58A- 7A (ET),[X] 4,[ ],[X],XXXX,[X],[ ],[ ],4,$650.00,"$2,600.00",Norfolk (WVEC) (WVEC),13 NEWS DAYBREAK,10/9/12
+26.1,Normal Line / SPOT,10/23/12-11/02/12,[X] 5,:30,5:58A- 7A (ET),[ ] 5,[ ],missing,[X],[X],[ ],[ ],[ ] 10,$650.00,"$6,500.00",Norfolk (WVEC) (WVEC),13 NEWS DAYBREAK,10/9/12
+27.1,End Dated Line SPOT,10/09/12-10/12/12,[X] 4,:30,6:58P-7:28P (ET),[ ] 5,[ ],missing,XXXX,[X],[ ],[ ],[ ] 5,"$1,300.00","$6,500.00",Norfolk (WVEC) (WVEC),WHEEL OF FORTUNE,10/9/12
+28.1,Normal Line/ SPOT,10/23/12-10/26/12,[X] 5,:30,6:58P- 7:28P (ET),[X] 4,[ ],[X],X,[X],[ ],[ ],[X] 4,"$1,300.00","$5,200.00",Norfolk (WVEC) (WVEC),WHEEL OF FORTUNE,10/9/12
+#Record5
+-KV
+Contract #,828059
+Schedule Dates,10/09/12-11/05/12
+Oct.,missing
+2012,"232 $156,435.00"
+Advertiser,Democratic Senatorial Campaign Committee (1639
+Nov. 2012,"117 $79,720.00"
+Agency/T-Code,Great American Media (2039)/556615156
+Grand Total,"349 $236,155.00"
+WVEC,"613 Norfolk, Woodis VA Ave. 23510"
+Product,Political US Senate (1176)
+Brand,Republican (ANTI) (178218)
+Salesperson,"Blair, Cheryl (2205)"
+Sales Office,TeleRep Philadelphia
+Buyer Name,missing
+Phone/Fax,/
+CPE,49/53/1139
+Account Types,National/Political PAC Agency
+Billing Type,Weekly/Irregular
+Accepted-Station,missing
+Accepted-Agency/Advertiser,missing
+B/E Bookend,P/B Piggy Back
+Page,3 of 7
+Printed At,"10:50 AM on Thursday, October 18 2012"
+-TABLE
+Line,Line Type / Break Type (Ref #),Dates,Sec,Length,Run Times,SPW,Mo,Tu,We Th,Fr,Sa Su,Spots,Rate,Total,Station,Comments,Entered
+29.1,Normal Line / SPOT,10/30/12-11/02/12,5,missing,:30|6:58P-7:28P (ET),5,missing,missing,XXXX,missing,missing,5,"$1,300.00","$6,500.00",Norfolk (WVEC) (WVEC),WHEEL OF FORTUNE,10/9/12
+30.1,Normal Line / SPOT,10/09/12-10/19/12,5,:30,7A- 9A (ET),5,missing,missing,XXXX,[X],[ ],10,$600.00,"$6,000.00",Norfolk (WVEC) (WVEC),GOOD MORNING AMERICA,10/5/12
+31.1,Normal Line / SPOT,10/23/12-10/26/12,5,:30,7A-9A (ET),4,missing,X,x x,missing,[ ] [ ],4,$600.00,"$2,400.00",Norfolk (WVEC) (WVEC),GOOD MORNING AMERICA,10/9/12
+32.1,Normal Line / SPOT,10/30/12-11/02/12,5,:30,7A- 9A (ET),10,missing,X,X X,missing,[ ],10,$600.00,"$6,000.00",Norfolk (WVEC) (WVEC),GOOD MORNING AMERICA,10/9/12
+33.0,Normal Line / SPOT,10/09/12-10/12/12,4,:30,7:28P- 7:57P (ET),4,missing,X,X X,missing,[ ] [ ],4,"$1,300.00","$5,200.00",Norfolk (WVEC) (WVEC),JEOPARDY,5/8/12
+34.1,Normal Line / SPOT,10/16/12-11/02/12,5,:30,7:28P-7:57P (ET),5,missing,X,x,missing,[ ],15,"$1,300.00","$19,500.00",Norfolk (WVEC) (WVEC),JEOPARDY,10/9/12
+35.1,Normal Line / SPOT,10/09/12-10/12/12,5,:30,9A- 10A (ET),2,missing,X,X,[X],missing,2,$300.00,$600.00,Norfolk (WVEC) (WVEC),LIVE WITH KELLY,10/5/12
+36.1,Normal Line / SPOT,10/16/12-10/19/12,5,:30,9A- 10A (ET),1,missing,X,X,[X],missing,1,$300.00,$300.00,Norfolk (WVEC) (WVEC),LIVE WITH KELLY,10/9/12
+37.1,Normal Line / SPOT,10/23/12-11/02/12,5,:30,9A- 10A (ET),5,missing,[X],X X,[X],[ ],10,$300.00,"$3,000.00",Norfolk (WVEC) (WVEC),LIVE WITH KELLY,10/9/12
+38.1,Normal Line / SPOT,10/26/12-11/02/12,5,:30,10P-11P (ET),missing,missing,[ ],[ ],1,[ ],2,"$1,250.00","$2,500.00",Norfolk (WVEC) (WVEC),20/20,10/9/12
+39.1,Normal Line / SPOT,11/05/12-11/05/12,5,:30,7:58P- 10P (ET),[ ],[X] 1,missing,[ ],[ ],[ ],1,"$3,500.00","$3,500.00",Norfolk (WVEC) (WVEC),DANCING WITH THE STARSEFF 9/24/12,10/9/12
+40.1,Normal Line / NCAA FOOTBALL,10/27/12-11/03/12,5,:30,12P- 6:58P (ET),[ ],[ ],[ ],[ ],missing,[X] 4,8,$950.00,"$7,600.00",Norfolk (WVEC) (WVEC),CLLG FTBL SEP-DEC12,10/9/12
+41.0,Normal Line / SPOT,10/13/12-11/03/12,4,missing,:30|6P-6:30P (ET),missing,missing,[ ],[ ],missing,1,missing,$300.00,missing,Norfolk (WVEC) (WVEC),WEEKEND NEWS,5/8/12
+missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing

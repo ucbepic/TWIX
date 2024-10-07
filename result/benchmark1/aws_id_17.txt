@@ -1,0 +1,129 @@
+#Record1
+-KV
+Report ID,SR201
+Arts & Communication - College - Arts & Communication College - Subject,A&C Interdepartmental
+Class,missing
+Catalog,493
+Section,01
+Subject,ACINDP
+Nbr,1070
+Units,2 - 6
+Course Title,ARTS MGMT/MERCH INTERN
+Component,Field Studies
+Topics,missing
+Room,ARRANGED
+Instructor,missing
+Bldg,ARRANGED
+Days,TBA
+"Anderson, Marshall B",missing
+Class Min Enrl,missing
+Class Enrl Tot,0
+Class Wait Tot 0,missing
+Class Enrl Cap,10
+Class Wait Cap,0
+-TABLE
+Page No.,1 of 253
+Run Date:,08/12/2021
+Run Time:,11:15:26
+#Record2
+-KV
+Univ of Wisconsin -,Whitewater
+Page No.,2 of 253
+Report ID,SR201
+Run Date,08/12/2021
+Schedule of Classes,for Summer Term 2021
+Twelve,Week
+Run Time,11:15:26
+Subject,Art Studio
+-TABLE
+Subject,Catalog Nbr,Section,Class Nbr,Course Title,Component,Units,Topics
+ARTSTDIO,492,01,1420,FIELD INTERNSHIP IN ART,Field Studies,1 3,missing
+Bldg:,ARRANGED,missing,Room: ARRANGED,Days: TBA Time: TBA,missing,missing,"Instructor: Kim,Daniel I"
+Class,Enrl Cap: 18,missing,Class Enrl Tot: 4 Class Wait Cap: 0,missing,Class Wait Tot: 0,Class Min Enrl: 0,missing
+ARTSTDIO,498,01,1587,INDEPENDENT STUDIES,Independent Study,1 6,missing
+Bldg:,ARRANGED,missing,Room: ARRANGED,Days: TBA Time: TBA,PHOTOGRAPHY,missing,"Instructor: Frame,Teri"
+Class,Enrl Cap: 35,missing,Class Enrl Tot: 1 Class Wait Cap: 0,missing,Class Wait Tot: 0,Class Min Enrl: 0,missing
+ARTSTDIO,498,02,1596 INDEPENDENT STUDIES,missing,Independent Study,1 6,missing
+Bldg:,ARRANGED,missing,Room: ARRANGED Days: TBA Time: TBA,missing,PAINTING,missing,"Instructor: Porcaro, Greg"
+Class,Enrl Cap: 35,missing,Class Enrl Tot: 2 Class Wait Cap: 0,missing,Class Wait Tot: 0,Class Min Enrl: 0,missing
+#Record3
+-KV
+Univ of Wisconsin -,Whitewater
+Report ID,SR201
+Page No.,3 of 253
+Run Date,08/12/2021
+Schedule of Classes,for Summer Term 2021
+Twelve,Week
+Run Time,11:15:26
+Arts & Communication - College - Communication Dept - Subject,Communication
+-TABLE
+Subject,Catalog Nbr,Section,Class Nbr,Course Title,Component,Units,Topics
+COMM,493C,01,1055,INTERNSHIP COMMUNICATION,Field Studies,1 3,missing
+Bldg:,ARRANGED,missing,Room: ARRANGED,Days: TBA Time: TBA,missing,missing,"Instructor: Lowell,William E"
+Class,Enrl Cap: 35,missing,Class Enrl Tot: 9 Class Wait Cap: 0,missing,Class Wait Tot: 0,Class Min Enrl: 0,missing
+COMM,493E,01,1056,INTERNSHIP ELECTR MEDIA,Field Studies,1 3,missing
+Bldg:,ARRANGED,missing,Room: ARRANGED,Days: TBA Time: TBA,missing,missing,"Instructor: Lowell,William E"
+Class,Enrl Cap: 35,missing,Class Enrl Tot:,2 Class Wait Cap: 0,Class Wait Tot: 0,Class Min Enrl: 0,missing
+COMM,493I,01,1057,PR INTERNSHIP,Field Studies,1 3,missing
+Bldg:,ARRANGED,missing,Room: ARRANGED,Days: TBA Time: TBA,missing,missing,"Instructor: Lowell,William E"
+Class,Enrl Cap: 35,missing,Class Enrl Tot: 2 Class Wait Cap: 0,missing,Class Wait Tot: 0,Class Min Enrl: 0,missing
+COMM,493M,01,1058 MAGD INTERNSHIP,missing,Independent Study,1 3,missing
+Bldg:,ARRANGED,missing,Room: ARRANGED Days: TBA Time: TBA,missing,missing,missing,"Instructor: Lowell, William E"
+Class,Enrl Cap: 35,missing,Class Enrl Tot: 1 Class Wait Cap: 0,missing,Class Wait Tot: 0,Class Min Enrl: 0,missing
+#Record4
+-KV
+Univ of Wisconsin -,Whitewater
+Report ID,SR201
+Schedule of Classes,for Summer Term 2021
+Twelve,Week
+Arts & Communication - College - Communication Dept - Subject,Journalism
+Catalog Nbr,493A
+Subject,JOURNLSM
+Class Nbr,1059
+Section,01
+Course Title,INTERNSHIP ADVERTISING
+Component,Field Studies
+Class Min Enrl,0
+Class Equivalents,JOURNLSM 493A/493AEX
+Field Studies,1 3
+Class Min Enrl ,0
+-TABLE
+Page No.,4 of 253
+Run Date:,08/12/2021
+Run Time:,11:15:26
+-TABLE
+Subject,Catalog Nbr,Section,Class Nbr,Course Title,Component,Units,Topics
+JOURNLSM,493A,01,1059,INTERNSHIP ADVERTISING,Field Studies,1 3,missing
+Bldg:,ARRANGED,Room: ARRANGED,missing,Days: TBA Time: TBA,missing,missing,"Instructor: Lowell,William E"
+Class Class,Enrl Cap: 35 Equivalents:,Class Enrl Tot: JOURNLSM 493A/493AEX,missing,0 Class Wait Cap: 0,Class Wait Tot: 0,Class Min,Enrl: 0
+JOURNLSM,493G,01,1060,INTERNSHIP JOURNALISM,Field Studies,1 3,missing
+Bldg:,ARRANGED,Room: ARRANGED,missing,Days: TBA Time: TBA,missing,missing,"Instructor: Lowell,William E"
+Class,Enrl Cap: 35,Class Enrl Tot:,missing,2 Class Wait Cap: 0,Class Wait Tot: 0,Class Min Enrl : 0,missing
+#Record5
+-KV
+Univ of Wisconsin -,Whitewater
+Report ID,SR201
+Schedule of Classes for,Summer Term 2021
+Arts & Communication - College - Theatre & Dance Dept - Subject,Theatre
+Catalog,493
+Subject,THEATRE
+Class Nbr,1068
+Section,01
+Course Title,INTERN THEATRE PRACTICE
+Units,1 12
+Component,Field Studies
+Topics,missing
+Room,ARRANGED
+Instructor,B
+"Anderson, Marshall",missing
+Bldg,ARRANGED
+Days,TBA
+Class Enrl Tot,0
+Class Min Enrl 0,missing
+Class Wait Tot,missing
+Class Wait Cap,0
+Class Enrl Cap,35
+-TABLE
+Page No.,5 of 253
+Run Date:,08/12/2021
+Run Time:,11:15:26

@@ -178,8 +178,8 @@ def scan_folder(path):
 
 if __name__ == "__main__":
     
-    folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/benchmark1'
-    #folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
+    #folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/benchmark1'
+    folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
     
     files = scan_folder(folder_path)
     for in_file in files:

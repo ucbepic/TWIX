@@ -1,0 +1,104 @@
+#Record1
+-KV
+Page,2 of 2
+Billing Inquiries,missing
+Send Payment To,"WMGL-FM Cumulus 3635 Chicago, Momentum Media- IL 60689-5336 Charleston Place cmls.ar@cumulus.com"
+Spots/ Week,4
+Line,4
+Description,M-F
+Type,NM
+Length,:30
+Weeks,09/04/23
+Total Spots,21
+Net Total,$420.00
+DUE NET 30,2.0%
+Invoice Balance as of 12/22/23 132932 ET,$0.00
+Effective,"May 15, 2023,"
+powered by,WideOrbit
+-TABLE
+Line,Start Date,End Date,Description,Start/End Time,MTWTFSS,Length,Spots/ Week,Rate,Type
+4,09/04/23,09/05/23,M-F,6a-10a,MT,:30,4,$20.00,NM
+-TABLE
+Spots: #,Ch,Day Air Date,Air Time Description,Start/End Time,Length Ad-ID,Rate Type,missing
+1,WMGL,M 09/04/23,7:17 AM M-F,6a-10a,:30 MOORE SPOT 1,$20.00,NM
+4,WMGL,Tu 09/05/23,6:23 AM M-F,6a-10a,:30 MOORE SPOT 2,$20.00,NM
+2,WMGL,Tu 09/05/23,9:39 AM M-F,6a-10a,:30 MOORE SPOT 1,$20.00,NM
+-TABLE
+Spots: #,Ch,Day Air Date,missing,Air Time Description,Start/End Time,Length Ad-ID,Rate,Type
+6,WMGL,M,09/04/23,10:33 AM M-F,10a-3p,:30 MOORE SPOT 2,$20.00,NM
+8,WMGL,M,09/04/23,11:35 AM M-F,10a-3p,:30 MOORE SPOT 1,$20.00,NM
+5,WMGL,Tu 09/05/23,missing,10:36 AM M-F,10a-3p,:30 MOORE SPOT 2,$20.00,NM
+7,WMGL,Tu 09/05/23,missing,10:54 AM M-F,10a-3p,:30 MOORE SPOT 1,$20.00,NM
+-TABLE
+09/04/23 09/10/23 M,missing,missing,missing,missing,2,$20.00,missing,missing,missing
+Spots: #,Ch,Day,Air Date,Air Time Description,missing,Start/End Time,Length Ad-ID,Rate,Type
+3,WMGL,M,09/04/23,3:47 PM M-F,missing,3p-7p,:30 MOORE SPOT 2,$20.00,NM
+2,WMGL,M,09/04/23,4:16 PM M-F,missing,3p-7p,:30 MOORE SPOT 1,$20.00,NM
+missing,missing,missing,missing,missing,missing,Total Spots,21,missing,missing
+#Record2
+-KV
+Page,2 of 5
+PO Box,missing
+Send Payment To,"KCCI Des Moines, 14556 IA 50306-3556"
+Line,5
+Face the Nation,SU 930-1030A
+Air Time,9:59 AM
+Price is Right,958-11a
+W,missing
+M-F News CH8 First New,5-530P
+M-F CBS Evening News,530-6P
+"This invoice is subject to the Standard Terms and Conditions for Purchase of Broadcast Advertising, which can be reviewed at the following URL","Credited https://www.hearst.com/-/hearst-television-broadcast-terms-conditions,"
+powered by,WideOrbit
+-TABLE
+Spots: #,Ch,Day,Air Date,Air Time Description,Start/End Time,Length Ad-ID,Rate Type
+2,KCCI,W,09/07/22,10:30 AM Price is Right,958-11a,:30 HMP22IA03T01H,"$1,100.00 NM"
+3,KCCI,F,09/09/22,10:28 AM Price is Right,958-11a,:30 HMP22IA03T01H,"$1,100.00 NM"
+1,KCCI,M,09/12/22,9:59 AM Price is Right,958-11a,:30 HMP22IA03T01H,"$1,100.00 NM"
+-TABLE
+Spots: #,Ch,Day,Air Date,Air Time Description,Start/End Time,Length Ad-ID,Rate Type
+3,KCCI,W,09/07/22,12:22 PM M-F News CH8 @ 12-1230P,12-1230P,:30 HMP22IA03T01H,$900.00 NM
+1,KCCI,Th,09/08/22,12:22 PM M-F News CH8 @ 12-1230P,12-1230P,:30 HMP22IA03T01H,$900.00 NM
+2,KCCI,M,09/12/22,12:21 PM M-F News CH8 @ 12-1230P,12-1230P,:30 HMP22IA03T01H,$900.00 NM
+-TABLE
+Spots: #,Ch,Day,Air Date,Air Time Description,Start/End Time,Length Ad-ID,Rate Type
+1,KCCI,W,09/07/22,5:28 PM M-F News CH8 First,News@Five 5-530P,:30 HMP22IA03T01H,"$1,500.00 NM"
+3,KCCI,F [ ],09/09/22,5:28 PM M-F News CH8 First,News@Five 5-530P,:30 HMP22IA03T01H,"$1,500.00 NM"
+2,KCCI,M,09/12/22,5:11 PM M-F News CH8 First,News@Five 5-530P,:30 HMP22IA03T01H,"$1,500.00 NM"
+#Record3
+-KV
+Page,4 of 5
+PO Box,missing
+Send Payment To,"KCCI Des Moines, 14556 IA 50306-3556"
+Line,09/06/22
+Week Rate,"1 $2,600.00"
+Rate Type,$900.00
+Air Time,7:49 PM
+Total Spots,45
+Gross Total,"$61,200.00"
+Payment Terms,30 Days
+"Terms and Conditions for Purchase of Broadcast Advertising, which can be reviewed at the following URL",https://www.hearst.com/-/hearst-television-broadcast-terms-conditions
+powered by,WideOrbit
+-TABLE
+Line Start Date,missing,missing,End Date Description,Start/End Time,MTWTFSS,Length,Spots/ Week,Rate,Type
+18 09/06/22 Class of,missing,missing,09/06/22 Tue CBS Prime A Time - Non Pre-emptible,7-8p,1,:30,1,"$2,600.00",NM
+Weeks: Start Date End Date MTWTFSS Spots/Week 09/05/22 09/11/22 -1 1 Spots: # Ch Day Air Date Air Time Description 1 KCCI Tu 09/06/22 7:35 PM Tue CBS Prime A,missing,missing,missing,missing,"Rate $2,600.00 Start/End Time 7-8p",Length Ad-ID :30 HMP22IA03T01H,missing,missing,"Rate Type $2,600.00 NM"
+19 09/11/22 09/11/22 Sun CBS Prime A 6-7P Class of Time - Non Pre-emptible,missing,missing,missing,missing,1,:30,1,"$1,800.00",NM
+Weeks: Start Date End Date MTWTFSS Spots/Week 09/05/22 09/11/22 1 1 Spots: # Ch Day Air Date Air Time Description 1 KCCI Su 09/11/22 Sun CBS Prime A Credited,missing,missing,missing,missing,"Rate $1,800.00 Start/End Time 6-7P",Length Ad-ID :00,missing,missing,"Rate Type $1,800.00 NM"
+20 09/10/22 09/10/22 Matter of Fact LF 1030p-11p Class of Time - Pre-emptible with notice,missing,missing,missing,missing,S -,:30,1,$300.00,NM
+Weeks: Start Date End Date MTWTFSS Spots/Week 09/05/22 09/11/22 - 1 Spots: # Ch Day Air Date Air Time Description 1 KCCI Sa 09/10/22 11:27 PM Matter of Fact LF,missing,missing,missing,missing,Rate $300.00 Start/End Time 1030p-11p,Length Ad-ID :30 HMP22IA03T01H,missing,missing,Rate Type $300.00 NM
+21 09/09/22 09/09/22 CY/HAWK SHOWDOWN CY/HAWK SHOWD Class of Time - Non Pre-emptible,missing,missing,missing,missing,missing,:30,1,"$1,600.00",NM
+missing,Weeks:,missing,Start Date End Date MTWTFSS 09/05/22 09/11/22,Spots/Week 1,"Rate $1,600.00",missing,missing,missing,missing
+Spots: # Ch Day Air Date Air Time Description,missing,missing,missing,missing,Start/End Time,Length Ad-ID,missing,missing,Rate Type
+missing,1,KCCI,F 09/09/22 6:50 PM CY/HAWK,SHOWDOWN,CY/HAWK SHOWD,:30 HMP22IA03T01H,missing,missing,"$1,600.00 NM"
+22 09/10/22 09/10/22 SAT News CH8 @ 6-630 SAT 6-630P p Class of Time - Pre-emptible with notice,missing,missing,missing,missing,S,:30,1,$800.00,NM
+Weeks: Start Date End Date MTWTFSS Spots/Week 09/05/22 09/11/22 1 Spots: # Ch Day Air Date Air Time Description 1 KCCI Sa 09/10/22 6:27 PM SAT News CH8 @ 6-630p,missing,missing,missing,missing,Rate $800.00 Start/End Time SAT 6-630P,Length,Ad-ID,missing,Rate Type
+missing,missing,missing,missing,missing,missing,:30 HMP22IA03T01H,missing,missing,$800.00 NM
+23 09/11/22 09/11/22 Sun CBS Prime C 8-9p Class of Time - Pre-emptible with notice,missing,missing,missing,missing,S,:30,1,$900.00,NM
+Weeks: Start Date End Date MTWTFSS Spots/Week 09/05/22 09/11/22 S 1 Spots: # Ch Day Air Date Air Time Description 1 KCCI Su 09/11/22 9:19 PM Sun CBS Prime C LR Football,missing,missing,missing,missing,Rate $900.00 Start/End Time,Length,Ad-ID,missing,Rate Type
+missing,missing,missing,missing,missing,8-9p,:30 HMP22IA03T01H,missing,missing,$900.00 NM
+24 09/12/22 09/12/22 Mon CBS Prime A MON 7-8P Class of Time - Pre-emptible with notice,missing,missing,missing,missing,M,:30,1,$900.00,NM
+Weeks: Start Date End Date MTWTFSS Spots/Week 09/12/22 09/18/22 M 1,missing,missing,missing,missing,Rate $900.00,missing,missing,missing,missing
+Spots: # Ch Day Air Date Air Time Description,missing,missing,missing,missing,Start/End Time,Length Ad-ID,missing,missing,Rate Type
+1 KCCI M 09/12/22 7:49 PM Mon CBS Prime A,missing,missing,missing,missing,MON 7-8P,:30 HMP22IA03T01H,missing,missing,$900.00 NM
+missing,missing,missing,missing,missing,Total Spots,45,missing,missing,missing
+Payment Terms 30 Days Gross Total,missing,missing,missing,missing,missing,missing,missing,missing,"$61,200.00"

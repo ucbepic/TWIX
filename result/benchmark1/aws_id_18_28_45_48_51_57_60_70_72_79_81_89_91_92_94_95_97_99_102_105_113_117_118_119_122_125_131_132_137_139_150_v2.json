@@ -1,0 +1,677 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Page": "2 of 2"
+                    },
+                    {
+                        "Billing Inquiries": "missing"
+                    },
+                    {
+                        "Send Payment To": "\"WMGL-FM Cumulus 3635 Chicago, Momentum Media- IL 60689-5336 Charleston Place cmls.ar@cumulus.com\""
+                    },
+                    {
+                        "Spots/ Week": "4"
+                    },
+                    {
+                        "Line": "4"
+                    },
+                    {
+                        "Description": "M-F"
+                    },
+                    {
+                        "Type": "NM"
+                    },
+                    {
+                        "Length": ":30"
+                    },
+                    {
+                        "Weeks": "09/04/23"
+                    },
+                    {
+                        "Total Spots": "21"
+                    },
+                    {
+                        "Net Total": "$420.00"
+                    },
+                    {
+                        "DUE NET 30": "2.0%"
+                    },
+                    {
+                        "Invoice Balance as of 12/22/23 132932 ET": "$0.00"
+                    },
+                    {
+                        "Effective": "\"May 15, 2023,\""
+                    },
+                    {
+                        "powered by": "WideOrbit"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": 4,
+                        "Start Date": "09/04/23",
+                        "End Date": "09/05/23",
+                        "Description": "M-F",
+                        "Start/End Time": "6a-10a",
+                        "MTWTFSS": "MT",
+                        "Length": ":30",
+                        "Spots/ Week": 4,
+                        "Rate": "$20.00",
+                        "Type": "NM"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Spots: #": 1,
+                        "Ch": "WMGL",
+                        "Day Air Date": "M 09/04/23",
+                        "Air Time Description": "7:17 AM M-F",
+                        "Start/End Time": "6a-10a",
+                        "Length Ad-ID": ":30 MOORE SPOT 1",
+                        "Rate Type": "$20.00",
+                        "missing": "NM"
+                    },
+                    {
+                        "Spots: #": 4,
+                        "Ch": "WMGL",
+                        "Day Air Date": "Tu 09/05/23",
+                        "Air Time Description": "6:23 AM M-F",
+                        "Start/End Time": "6a-10a",
+                        "Length Ad-ID": ":30 MOORE SPOT 2",
+                        "Rate Type": "$20.00",
+                        "missing": "NM"
+                    },
+                    {
+                        "Spots: #": 2,
+                        "Ch": "WMGL",
+                        "Day Air Date": "Tu 09/05/23",
+                        "Air Time Description": "9:39 AM M-F",
+                        "Start/End Time": "6a-10a",
+                        "Length Ad-ID": ":30 MOORE SPOT 1",
+                        "Rate Type": "$20.00",
+                        "missing": "NM"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Spots: #": 6,
+                        "Ch": "WMGL",
+                        "Day Air Date": "M",
+                        "missing": "09/04/23",
+                        "Air Time Description": "10:33 AM M-F",
+                        "Start/End Time": "10a-3p",
+                        "Length Ad-ID": ":30 MOORE SPOT 2",
+                        "Rate": "$20.00",
+                        "Type": "NM"
+                    },
+                    {
+                        "Spots: #": 8,
+                        "Ch": "WMGL",
+                        "Day Air Date": "M",
+                        "missing": "09/04/23",
+                        "Air Time Description": "11:35 AM M-F",
+                        "Start/End Time": "10a-3p",
+                        "Length Ad-ID": ":30 MOORE SPOT 1",
+                        "Rate": "$20.00",
+                        "Type": "NM"
+                    },
+                    {
+                        "Spots: #": 5,
+                        "Ch": "WMGL",
+                        "Day Air Date": "Tu 09/05/23",
+                        "missing": "missing",
+                        "Air Time Description": "10:36 AM M-F",
+                        "Start/End Time": "10a-3p",
+                        "Length Ad-ID": ":30 MOORE SPOT 2",
+                        "Rate": "$20.00",
+                        "Type": "NM"
+                    },
+                    {
+                        "Spots: #": 7,
+                        "Ch": "WMGL",
+                        "Day Air Date": "Tu 09/05/23",
+                        "missing": "missing",
+                        "Air Time Description": "10:54 AM M-F",
+                        "Start/End Time": "10a-3p",
+                        "Length Ad-ID": ":30 MOORE SPOT 1",
+                        "Rate": "$20.00",
+                        "Type": "NM"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "09/04/23 09/10/23 M": "Spots: #",
+                        "missing": "Ch",
+                        "missing.1": "Day",
+                        "missing.2": "Air Date",
+                        "missing.3": "Air Time Description",
+                        "2": "missing",
+                        "$20.00": "Start/End Time",
+                        "missing.4": "Length Ad-ID",
+                        "missing.5": "Rate",
+                        "missing.6": "Type"
+                    },
+                    {
+                        "09/04/23 09/10/23 M": "3",
+                        "missing": "WMGL",
+                        "missing.1": "M",
+                        "missing.2": "09/04/23",
+                        "missing.3": "3:47 PM M-F",
+                        "2": "missing",
+                        "$20.00": "3p-7p",
+                        "missing.4": ":30 MOORE SPOT 2",
+                        "missing.5": "$20.00",
+                        "missing.6": "NM"
+                    },
+                    {
+                        "09/04/23 09/10/23 M": "2",
+                        "missing": "WMGL",
+                        "missing.1": "M",
+                        "missing.2": "09/04/23",
+                        "missing.3": "4:16 PM M-F",
+                        "2": "missing",
+                        "$20.00": "3p-7p",
+                        "missing.4": ":30 MOORE SPOT 1",
+                        "missing.5": "$20.00",
+                        "missing.6": "NM"
+                    },
+                    {
+                        "09/04/23 09/10/23 M": "missing",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "missing.2": "missing",
+                        "missing.3": "missing",
+                        "2": "missing",
+                        "$20.00": "Total Spots",
+                        "missing.4": "21",
+                        "missing.5": "missing",
+                        "missing.6": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Page": "2 of 5"
+                    },
+                    {
+                        "PO Box": "missing"
+                    },
+                    {
+                        "Send Payment To": "\"KCCI Des Moines, 14556 IA 50306-3556\""
+                    },
+                    {
+                        "Line": "5"
+                    },
+                    {
+                        "Face the Nation": "SU 930-1030A"
+                    },
+                    {
+                        "Air Time": "9:59 AM"
+                    },
+                    {
+                        "Price is Right": "958-11a"
+                    },
+                    {
+                        "W": "missing"
+                    },
+                    {
+                        "M-F News CH8 First New": "5-530P"
+                    },
+                    {
+                        "M-F CBS Evening News": "530-6P"
+                    },
+                    {
+                        "\"This invoice is subject to the Standard Terms and Conditions for Purchase of Broadcast Advertising": "which can be reviewed at the following URL\",\"Credited https://www.hearst.com/-/hearst-television-broadcast-terms-conditions,\""
+                    },
+                    {
+                        "powered by": "WideOrbit"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Spots: #": 2,
+                        "Ch": "KCCI",
+                        "Day": "W",
+                        "Air Date": "09/07/22",
+                        "Air Time Description": "10:30 AM Price is Right",
+                        "Start/End Time": "958-11a",
+                        "Length Ad-ID": ":30 HMP22IA03T01H",
+                        "Rate Type": "$1,100.00 NM"
+                    },
+                    {
+                        "Spots: #": 3,
+                        "Ch": "KCCI",
+                        "Day": "F",
+                        "Air Date": "09/09/22",
+                        "Air Time Description": "10:28 AM Price is Right",
+                        "Start/End Time": "958-11a",
+                        "Length Ad-ID": ":30 HMP22IA03T01H",
+                        "Rate Type": "$1,100.00 NM"
+                    },
+                    {
+                        "Spots: #": 1,
+                        "Ch": "KCCI",
+                        "Day": "M",
+                        "Air Date": "09/12/22",
+                        "Air Time Description": "9:59 AM Price is Right",
+                        "Start/End Time": "958-11a",
+                        "Length Ad-ID": ":30 HMP22IA03T01H",
+                        "Rate Type": "$1,100.00 NM"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Spots: #": 3,
+                        "Ch": "KCCI",
+                        "Day": "W",
+                        "Air Date": "09/07/22",
+                        "Air Time Description": "12:22 PM M-F News CH8 @ 12-1230P",
+                        "Start/End Time": "12-1230P",
+                        "Length Ad-ID": ":30 HMP22IA03T01H",
+                        "Rate Type": "$900.00 NM"
+                    },
+                    {
+                        "Spots: #": 1,
+                        "Ch": "KCCI",
+                        "Day": "Th",
+                        "Air Date": "09/08/22",
+                        "Air Time Description": "12:22 PM M-F News CH8 @ 12-1230P",
+                        "Start/End Time": "12-1230P",
+                        "Length Ad-ID": ":30 HMP22IA03T01H",
+                        "Rate Type": "$900.00 NM"
+                    },
+                    {
+                        "Spots: #": 2,
+                        "Ch": "KCCI",
+                        "Day": "M",
+                        "Air Date": "09/12/22",
+                        "Air Time Description": "12:21 PM M-F News CH8 @ 12-1230P",
+                        "Start/End Time": "12-1230P",
+                        "Length Ad-ID": ":30 HMP22IA03T01H",
+                        "Rate Type": "$900.00 NM"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Spots: #": 1,
+                        "Ch": "KCCI",
+                        "Day": "W",
+                        "Air Date": "09/07/22",
+                        "Air Time Description": "5:28 PM M-F News CH8 First",
+                        "Start/End Time": "News@Five 5-530P",
+                        "Length Ad-ID": ":30 HMP22IA03T01H",
+                        "Rate Type": "$1,500.00 NM"
+                    },
+                    {
+                        "Spots: #": 3,
+                        "Ch": "KCCI",
+                        "Day": "F [ ]",
+                        "Air Date": "09/09/22",
+                        "Air Time Description": "5:28 PM M-F News CH8 First",
+                        "Start/End Time": "News@Five 5-530P",
+                        "Length Ad-ID": ":30 HMP22IA03T01H",
+                        "Rate Type": "$1,500.00 NM"
+                    },
+                    {
+                        "Spots: #": 2,
+                        "Ch": "KCCI",
+                        "Day": "M",
+                        "Air Date": "09/12/22",
+                        "Air Time Description": "5:11 PM M-F News CH8 First",
+                        "Start/End Time": "News@Five 5-530P",
+                        "Length Ad-ID": ":30 HMP22IA03T01H",
+                        "Rate Type": "$1,500.00 NM"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Page": "4 of 5"
+                    },
+                    {
+                        "PO Box": "missing"
+                    },
+                    {
+                        "Send Payment To": "\"KCCI Des Moines, 14556 IA 50306-3556\""
+                    },
+                    {
+                        "Line": "09/06/22"
+                    },
+                    {
+                        "Week Rate": "\"1 $2,600.00\""
+                    },
+                    {
+                        "Rate Type": "$900.00"
+                    },
+                    {
+                        "Air Time": "7:49 PM"
+                    },
+                    {
+                        "Total Spots": "45"
+                    },
+                    {
+                        "Gross Total": "\"$61,200.00\""
+                    },
+                    {
+                        "Payment Terms": "30 Days"
+                    },
+                    {
+                        "\"Terms and Conditions for Purchase of Broadcast Advertising": "which can be reviewed at the following URL\",https://www.hearst.com/-/hearst-television-broadcast-terms-conditions"
+                    },
+                    {
+                        "powered by": "WideOrbit"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line Start Date": "18 09/06/22 Class of",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "09/06/22 Tue CBS Prime A Time - Non Pre-emptible",
+                        "Start/End Time": "7-8p",
+                        "MTWTFSS": "1",
+                        "Length": ":30",
+                        "Spots/ Week": "1",
+                        "Rate": "$2,600.00",
+                        "Type": "NM"
+                    },
+                    {
+                        "Line Start Date": "Weeks: Start Date End Date MTWTFSS Spots/Week 09/05/22 09/11/22 -1 1 Spots: # Ch Day Air Date Air Time Description 1 KCCI Tu 09/06/22 7:35 PM Tue CBS Prime A",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "Rate $2,600.00 Start/End Time 7-8p",
+                        "Length": "Length Ad-ID :30 HMP22IA03T01H",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "Rate Type $2,600.00 NM"
+                    },
+                    {
+                        "Line Start Date": "19 09/11/22 09/11/22 Sun CBS Prime A 6-7P Class of Time - Non Pre-emptible",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "1",
+                        "Length": ":30",
+                        "Spots/ Week": "1",
+                        "Rate": "$1,800.00",
+                        "Type": "NM"
+                    },
+                    {
+                        "Line Start Date": "Weeks: Start Date End Date MTWTFSS Spots/Week 09/05/22 09/11/22 1 1 Spots: # Ch Day Air Date Air Time Description 1 KCCI Su 09/11/22 Sun CBS Prime A Credited",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "Rate $1,800.00 Start/End Time 6-7P",
+                        "Length": "Length Ad-ID :00",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "Rate Type $1,800.00 NM"
+                    },
+                    {
+                        "Line Start Date": "20 09/10/22 09/10/22 Matter of Fact LF 1030p-11p Class of Time - Pre-emptible with notice",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "S -",
+                        "Length": ":30",
+                        "Spots/ Week": "1",
+                        "Rate": "$300.00",
+                        "Type": "NM"
+                    },
+                    {
+                        "Line Start Date": "Weeks: Start Date End Date MTWTFSS Spots/Week 09/05/22 09/11/22 - 1 Spots: # Ch Day Air Date Air Time Description 1 KCCI Sa 09/10/22 11:27 PM Matter of Fact LF",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "Rate $300.00 Start/End Time 1030p-11p",
+                        "Length": "Length Ad-ID :30 HMP22IA03T01H",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "Rate Type $300.00 NM"
+                    },
+                    {
+                        "Line Start Date": "21 09/09/22 09/09/22 CY/HAWK SHOWDOWN CY/HAWK SHOWD Class of Time - Non Pre-emptible",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "missing",
+                        "Length": ":30",
+                        "Spots/ Week": "1",
+                        "Rate": "$1,600.00",
+                        "Type": "NM"
+                    },
+                    {
+                        "Line Start Date": "missing",
+                        "missing": "Weeks:",
+                        "missing.1": "missing",
+                        "End Date Description": "Start Date End Date MTWTFSS 09/05/22 09/11/22",
+                        "Start/End Time": "Spots/Week 1",
+                        "MTWTFSS": "Rate $1,600.00",
+                        "Length": "missing",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "missing"
+                    },
+                    {
+                        "Line Start Date": "Spots: # Ch Day Air Date Air Time Description",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "Start/End Time",
+                        "Length": "Length Ad-ID",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "Rate Type"
+                    },
+                    {
+                        "Line Start Date": "missing",
+                        "missing": "1",
+                        "missing.1": "KCCI",
+                        "End Date Description": "F 09/09/22 6:50 PM CY/HAWK",
+                        "Start/End Time": "SHOWDOWN",
+                        "MTWTFSS": "CY/HAWK SHOWD",
+                        "Length": ":30 HMP22IA03T01H",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "$1,600.00 NM"
+                    },
+                    {
+                        "Line Start Date": "22 09/10/22 09/10/22 SAT News CH8 @ 6-630 SAT 6-630P p Class of Time - Pre-emptible with notice",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "S",
+                        "Length": ":30",
+                        "Spots/ Week": "1",
+                        "Rate": "$800.00",
+                        "Type": "NM"
+                    },
+                    {
+                        "Line Start Date": "Weeks: Start Date End Date MTWTFSS Spots/Week 09/05/22 09/11/22 1 Spots: # Ch Day Air Date Air Time Description 1 KCCI Sa 09/10/22 6:27 PM SAT News CH8 @ 6-630p",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "Rate $800.00 Start/End Time SAT 6-630P",
+                        "Length": "Length",
+                        "Spots/ Week": "Ad-ID",
+                        "Rate": "missing",
+                        "Type": "Rate Type"
+                    },
+                    {
+                        "Line Start Date": "missing",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "missing",
+                        "Length": ":30 HMP22IA03T01H",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "$800.00 NM"
+                    },
+                    {
+                        "Line Start Date": "23 09/11/22 09/11/22 Sun CBS Prime C 8-9p Class of Time - Pre-emptible with notice",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "S",
+                        "Length": ":30",
+                        "Spots/ Week": "1",
+                        "Rate": "$900.00",
+                        "Type": "NM"
+                    },
+                    {
+                        "Line Start Date": "Weeks: Start Date End Date MTWTFSS Spots/Week 09/05/22 09/11/22 S 1 Spots: # Ch Day Air Date Air Time Description 1 KCCI Su 09/11/22 9:19 PM Sun CBS Prime C LR Football",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "Rate $900.00 Start/End Time",
+                        "Length": "Length",
+                        "Spots/ Week": "Ad-ID",
+                        "Rate": "missing",
+                        "Type": "Rate Type"
+                    },
+                    {
+                        "Line Start Date": "missing",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "8-9p",
+                        "Length": ":30 HMP22IA03T01H",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "$900.00 NM"
+                    },
+                    {
+                        "Line Start Date": "24 09/12/22 09/12/22 Mon CBS Prime A MON 7-8P Class of Time - Pre-emptible with notice",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "M",
+                        "Length": ":30",
+                        "Spots/ Week": "1",
+                        "Rate": "$900.00",
+                        "Type": "NM"
+                    },
+                    {
+                        "Line Start Date": "Weeks: Start Date End Date MTWTFSS Spots/Week 09/12/22 09/18/22 M 1",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "Rate $900.00",
+                        "Length": "missing",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "missing"
+                    },
+                    {
+                        "Line Start Date": "Spots: # Ch Day Air Date Air Time Description",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "Start/End Time",
+                        "Length": "Length Ad-ID",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "Rate Type"
+                    },
+                    {
+                        "Line Start Date": "1 KCCI M 09/12/22 7:49 PM Mon CBS Prime A",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "MON 7-8P",
+                        "Length": ":30 HMP22IA03T01H",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "$900.00 NM"
+                    },
+                    {
+                        "Line Start Date": "missing",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "Total Spots",
+                        "Length": "45",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "missing"
+                    },
+                    {
+                        "Line Start Date": "Payment Terms 30 Days Gross Total",
+                        "missing": "missing",
+                        "missing.1": "missing",
+                        "End Date Description": "missing",
+                        "Start/End Time": "missing",
+                        "MTWTFSS": "missing",
+                        "Length": "missing",
+                        "Spots/ Week": "missing",
+                        "Rate": "missing",
+                        "Type": "$61,200.00"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+#Record1
+-KV
+Page,2 of 2
+C/O,WRSP
+PO BOX,206270
+Acct #,8284
+Invoice Date,2/9/2020
+Inv #,7237942
+WRSP+WCCU Combo,100/0 (WRSP+)
+Per Week,"(3),Mo,Tu,We,Th,F"
+Access,missing
+Prime,8:00:00PM-9:00:00P
+"Day,Mo-1",missing
+21.1,missing
+23.0,missing
+Illinois News at,9
+Gross Total,"$5,050.00"
+Total Spots,35
+Commission,($757.50)
+Sales Tax,$0.00
+NET TOTAL,"$4,292.50"
+Due By,2/9/2020
+"The parties intend for the Standard Advertiser Terms and Conditions ("Terms") located at.,",http://sbgi.net/?p=1224
+-TABLE
+Line,Type,Scheduled Time,Scheduled Day to Run,Air Date/Time,Length,Program,AD-ID / ISCI,Amount,Remarks
+missing,News,9:00:00PM-10:00:00,"Per Week (3),Mo,Tu,We,Th,F",02/05/20 09:41 pm (We),00:30,News-FOX Illinios News at 9p,MRBPBK3031EH,$200.00,missing
+missing,News,missing,missing,02/07/20 (Fr),missing,missing,1 preempt @$200.00,$0.00,Pre-empt
+11.0,Contract SPOT,Line Remarks: ACCESS 12:00:00AM-12:30:0,"Per Week (3),Mo,Tu,We,Th,Fr",02/03/20 12:19 am (Mo),00:30,Access Hollywood,MRBPBK3030EH,$15.00,missing
+missing,SPOT,12:00:00AM-12:30:0,"Per Week (3),Mo,Tu,We,Th,Fr",02/04/20 12:13 am (Tu),00:30,Access Hollywood,MRBPBK3031EH,$15.00,missing
+missing,SPOT,missing,missing,02/05/20 (We),missing,missing,1 preempt @$15.00,$0.00,Pre-empt
+12.0,Contract Prime,Line Remarks: 8:00:00PM-9:00:00P,"PRODIGAL SON Day,Mo-1",02/03/20 08:47 pm (Mo),00:30,FOX-Prodigal Son (Monday),MRBPBK3031EH,$300.00,missing
+21.1,Contract SPOT,Line Remarks: REAL 10:00:00AM-11:00:0,missing,02/05/20 10:59 am (We),01:00,The Real,MRBPSS618EH,$50.00,M/G For 4.0.1
+22.1,Contract SPOT,Line Remarks: BBT 6:30:00PM-7:00:00P,missing,02/07/20 06:40 pm (Fr),00:30,Big Bang Theory 2,MRBPBK3031EH,$350.00,missing
+23.0,Contract News,Line Remarks: NEWS 7:00:00AM-8:00:00A,missing,02/05/20 07:39 am (We),01:00,News-FOX Illinois Sunrise,MRBPSS618EH,$40.00,M/G For 1.0.1.1.0.2
+missing,News,7:00:00AM-8:00:00A,missing,02/06/20 07:58 am (Th),01:00,News-FOX Illinois Sunrise,MRBPSS618EH,$40.00,M/G For 1.0.1.1.0.2
+24.0,Contract SPOT,Line Remarks: WENDY 19:00:00AM-10:00:00,missing,02/06/20 09:50 am (Th),01:00,Wendy Williams,MRBPSS618EH,$50.00,M/G For 3.0.1
+25.0,Contract SPOT,Line Remarks: JJ 4:00:00PM-4:30:00P,missing,02/05/20 04:24 pm (We),01:00,Judge Judy,MRBPSS618EH,$300.00,M/G For 5.0.1
+26.0,Contract News,Line Remarks: NEWS 9:00:00PM-10:00:00,missing,02/06/20 09:57 pm (Th),01:00,News-FOX Illinios News at 9p,MRBPSS618EH,$400.00,M/G For 10.0.1
+27.0,Contract Line Remarks: ACCESS,missing,missing,02/06/20 12:24 am (Th),01:00,Access Hollywood,MRBPSS618EH,$30.00,M/G For 11.0.1
+missing,SPOT,12:00:00AM-12:30:00,missing,missing,missing,missing,missing,missing,missing
+28.0,Contract SPOT,Line Remarks: DM 10:00:00PM-11:00:00,missing,02/06/20 10:48 pm (Th),00:30,DailyMailTV 2,MRBPBK3031EH,$60.00,missing
+missing,SPOT,10:00:00PM-11:00:0,missing,02/07/20 10:29 pm (Fr),00:30,DailyMailTV,MRBPBK3030EH,$60.00,missing
+41.0,SPOT,missing,missing,02/08/20 (Sa),missing,missing,1 preempt @$120.00,$0.00,Program Change
+42.0,SPOT,missing,missing,02/08/20 (Sa),missing,missing,1 preempt @$120.00,$0.00,Program Change
+43.0,Contract News,Line Remarks: NEWS 9:00:00PM-9:30:00P,"Day,Sa-1",02/08/20 09:23 pm (Sa),01:00,News-FOX Illinois News at 9,MRBPSS618EH,$300.00,missing
+44.0,Contract News,Line Remarks: NEWS 9:00:00PM-9:35:00P,"Day,Su-1",02/09/20 09:24 pm (Su),01:00,News-FOX Illinois News at 9,MRBPSS618EH,$300.00,missing
+missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+#Record2
+-KV
+Page,2 of 2
+PO BOX,missing
+Acct,7041
+Invoice Date,10/21/2018
+Inv #,6176196
+Sinclair Broadcast Group,C/O WRSP DALLAS 206270 TX 75320-6270
+WRSP+WCCU Combo,100/0 (WRSP+)
+Program,missing
+Prime,7:00:00PM-8:00:00P
+2 preempts,@$50.00
+Standing,missing
+Gross Total,"$10,110.00"
+Total Spots,33
+Commission,"($1,516.50)"
+Sales Tax,$0.00
+NET TOTAL,"$8,593.50"
+Due By,10/21/2018
+The parties intend for the Standard Advertiser Terms and Conditions ("Terms") located at.,"http://sbgi.net/?p=1224 to be part of their agreement, and the sale of advertising is expressly subject to said Terms."
+-TABLE
+Line,Type,Scheduled Time,Scheduled Day to Run,Air Date/Time,Length,Program,AD-ID / ISCI,Amount,Remarks
+missing,SPOT,9:00:00PM-9:30:00P,"Per Week (5),Mo,Tu,We,Th,Fr",10/16/18 09:22 pm (Tu),00:30,News-FOX Springfield News at 9,WV18-IL13-T02H,$350.00,missing
+missing,SPOT,9:00:00PM-9:30:00P,"Per Week (5),Mo,Tu,We,Th,Fr",10/17/18 09:14 pm (We),00:30,News-FOX Springfield News at 9,WV18-IL13-T02H,$350.00,missing
+12.1,SPOT,9:30:00PM-10:00:00,"Per Week (1),Mo,Tu,We,Th,Fr",10/19/18 09:44 pm (Fr),00:30,News-FOX Springfield News at 9,WV18-IL13-T02H,$350.00,missing
+13.1,Prime,8:00:00PM-9:00:00P,"Day,Tu-1",10/16/18 08:45 pm (Tu),00:30,FOX-Lethal Weapon (Tuesday),WV18-IL13-T02H,$500.00,missing
+14.1,Prime,7:00:00PM-8:00:00P,"Day,We-1",10/17/18 07:44 pm (We),00:30,FOX-Empire (Wednesday),WV18-IL13-T02H,$800.00,missing
+15.0,SPOT,9:00:00PM-9:35:00P,"Day,Su-1",10/21/18 09:26 pm (Su),00:30,News-FOX Springfield News at 9,WV18-IL13-T02H,$300.00,missing
+16.0,SPOT,10:35:00PM-11:05:0,"Day,Su-1",10/21/18 10:57 pm (Su),00:30,Sports-FOX NFL Game Day Prime,WV18-IL13-T02H,$150.00,missing
+18.0,SPOT,9:00:00PM-10:00:00,"Day,Fr-2",10/19/18 09:12 pm (Fr),00:30,News-FOX Springfield News at 9,WV18-IL13-T02H,$250.00,M/G For 8.1.1
+missing,SPOT,9:00:00PM-10:00:00,"Day,Fr-2",10/19/18 09:52 pm (Fr),00:30,News-FOX Springfield News at 9,WV18-IL13-T02H,$250.00,M/G For 8.1.1
+19.0,SPOT,missing,missing,10/21/18 (Su),missing,missing,2 preempts @$50.00,$0.00,missing
+20.0,Prime,7:00:00PM-8:00:00P,"Day,Fr-1",10/19/18 06:58 pm (Fr),00:30,FOX-Last Man Standing (Friday),WV18-IL13-T02H,$400.00,M/G For 10.1.1
+missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+#Record3
+-KV
+Page,2 of 2
+C/O,WRSP
+PO BOX,206270
+Acct #,95523
+Invoice Date,10/4/2020
+Inv #,7748821
+WRSP+WCCU Combo,100/0 (WRSP+)
+1 preempt,@$75.00
+BL1020H,$75.00
+Gross Total,"$1,835.00"
+Total Spots,17
+Commission,($275.25)
+Sales Tax,$0.00
+NET TOTAL,"$1,559.75"
+Due By,10/4/2020
+located at,http://sbgi.net/?p=1224
+-TABLE
+Line,Type,Scheduled Time,Scheduled Day to Run,Air Date/Time,Length,Program,AD-ID / ISCI,Amount,Remarks
+30.0,SPOT,missing,missing,10/04/20 (Su),missing,missing,1 preempt @$75.00,$0.00,Advertiser Separation
+31.0,Contract Line Remarks: Big Bang Theory,missing,missing,10/04/20 10:45 pm (Su),00:30,Big Bang Theory Wknd 4,BL1020H,$75.00,missing
+missing,SPOT,10:35:00PM-11:05:0,"Day,Su-1",missing,missing,missing,missing,missing,missing
+"32,0",Contract,Line Remarks: TMZ,missing,missing,00:30,TMZ WKND,BL1020H,$10.00,missing
+missing,SPOT,12:05:00AM-1:00:00,"Day,Su-1",10/04/20 12:54 am (Su),missing,missing,missing,missing,missing
+missing,missing,missing,missing,missing,missing,missing,missing,missing,missing

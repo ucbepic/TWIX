@@ -1,0 +1,1235 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Page": "1 of 2"
+                    },
+                    {
+                        "PO BOX": "missing"
+                    },
+                    {
+                        "Acct #": "8284"
+                    },
+                    {
+                        "Invoice Date": "2/9/2020"
+                    },
+                    {
+                        "Inv #": "7237942"
+                    },
+                    {
+                        "Sinclair Broadcast Group Inc": "C/O WRSP DALLAS 206270 TX 75320-6270"
+                    },
+                    {
+                        "Advertiser": "Mike Bloomberg 2020 Inc-D (133903)"
+                    },
+                    {
+                        "Agency": "Assembly (16037)"
+                    },
+                    {
+                        "Period": "2/3/2020 2/9/2020"
+                    },
+                    {
+                        "ph": "missing"
+                    },
+                    {
+                        "Salesperson": "\"Washington DC Millennium/DC, (202) 955-5342\""
+                    },
+                    {
+                        "Product": "POLITICAL CANDIDATE (ns) (1186)"
+                    },
+                    {
+                        "Brand": "MBLM/MBLM/0121 (1330964)"
+                    },
+                    {
+                        "Contract": "4225820"
+                    },
+                    {
+                        "Acct Type": "National/Political"
+                    },
+                    {
+                        "Terms": "CIA"
+                    },
+                    {
+                        "Bill Type": "Weekly/Irregular"
+                    },
+                    {
+                        "Buyer": "Laura Kollappal"
+                    },
+                    {
+                        "Coop": "No"
+                    },
+                    {
+                        "Estimate/HL": "0121/ECR26792936"
+                    },
+                    {
+                        "Comments": "MIKE BLOOMBERG 2020"
+                    },
+                    {
+                        "For Billing Inquires Call": "(217) 523-8855"
+                    },
+                    {
+                        "c/o": "missing"
+                    },
+                    {
+                        "PO Box": "missing"
+                    },
+                    {
+                        "Send Payment To": "Sinclair WRSP+ Dallas Broadcast 206270 TX 75320-6270 Group"
+                    },
+                    {
+                        "WRSP+WCCU Combo": "100/0 (WRSP+)"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": "1.0",
+                        "Type": "Contract News",
+                        "Scheduled Time": "Line Remarks: NEWS 7:00:00AM-8:00:00A",
+                        "Scheduled Day to Run": "Per Week (4),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/03/20 07:53 am (Mo)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Illinois Sunrise",
+                        "AD-ID / ISC": "MRBPBK3030EH",
+                        "Amount": "$20.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "News",
+                        "Scheduled Time": "7:00:00AM-8:00:00A",
+                        "Scheduled Day to Run": "Per Week (4),Mo,Tu,We,Th,",
+                        "Air Date/Time": "02/04/20 07:30 am (Tu)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Illinois Sunrise",
+                        "AD-ID / ISC": "MRBPBK3031EH",
+                        "Amount": "$20.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "News",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "02/06/20 (Th)",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISC": "1 preempt @$20.00",
+                        "Amount": "$0.00",
+                        "Remarks": "Pre-empt"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "News",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "02/07/20 (Fr)",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISC": "1 preempt @$20.00",
+                        "Amount": "$0.00",
+                        "Remarks": "Pre-empt"
+                    },
+                    {
+                        "Line": "2.0",
+                        "Type": "Contract",
+                        "Scheduled Time": "Line Remarks: EXTRA",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "missing",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISC": "MRBPBK3031EH",
+                        "Amount": "$25.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "8:00:00AM-8:30:00A",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/03/20 08:25 am (Mo)",
+                        "Length": "00:30",
+                        "Program": "EXTRA",
+                        "AD-ID / ISC": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "8:00:00AM-8:30:00A",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/04/200 08:26 am (Tu)",
+                        "Length": "00:30",
+                        "Program": "EXTRA",
+                        "AD-ID / ISC": "MRBPBK3030EH",
+                        "Amount": "$25.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "3.0 Contract Line Remarks: WENDY",
+                        "Type": "missing",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "missing",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISC": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "9:00:00AM-10:00:00",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/03/20 09:59 am (Mo)",
+                        "Length": "00:30",
+                        "Program": "Wendy Williams",
+                        "AD-ID / ISC": "MRBPBK3030EH",
+                        "Amount": "$25.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "9:00:00AM-10:00:00",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th, Fr",
+                        "Air Date/Time": "02/05/20 09:57 am (We)",
+                        "Length": "00:30",
+                        "Program": "Wendy Williams",
+                        "AD-ID / ISC": "MRBPBK3030EH",
+                        "Amount": "$25.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "02/06/20 (Th)",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISC": "1 preempt @$25.00",
+                        "Amount": "$0.00",
+                        "Remarks": "Pre-empt"
+                    },
+                    {
+                        "Line": "4.0",
+                        "Type": "SPOT",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "02/03/20 (Mo)",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISC": "1 preempt @$25.00",
+                        "Amount": "$0.00",
+                        "Remarks": "Network Special Report"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "10:00:00AM-11:00:0",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/06/20 10:25 am (Th)",
+                        "Length": "00:30",
+                        "Program": "The Real",
+                        "AD-ID / ISC": "MRBPBK3030EH",
+                        "Amount": "$25.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "10:00:00AM-11:00:00",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/07/20 10:56 am (Fr)",
+                        "Length": "00:30",
+                        "Program": "The Real",
+                        "AD-ID / ISC": "MRBPBK3030EH",
+                        "Amount": "$25.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "5.0",
+                        "Type": "Contract",
+                        "Scheduled Time": "Line Remarks: JJ",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "missing",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISC": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "4:00:00PM-4:30:00P",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/03/20 04:24 pm (Mo)",
+                        "Length": "00:30",
+                        "Program": "Judge Judy",
+                        "AD-ID / ISC": "MRBPBK3013EH",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "4:00:00PM-4:30:00P",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th, Fr",
+                        "Air Date/Time": "02/04/20 04:19 pm (Tu)",
+                        "Length": "00:30",
+                        "Program": "Judge Judy",
+                        "AD-ID / ISC": "MRBPBK3031EH",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "02/05/20 (We)",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISC": "1 preempt @$150.00",
+                        "Amount": "$0.00",
+                        "Remarks": "Pre-empt"
+                    },
+                    {
+                        "Line": "6.0",
+                        "Type": "Contract",
+                        "Scheduled Time": "Line Remarks: JJ",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "missing",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISC": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "4:30:00PM-5:00:00P",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/03/20 04:55 pm (Mo)",
+                        "Length": "00:30",
+                        "Program": "Judge Judy 2",
+                        "AD-ID / ISC": "MRBPBK3013EH",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "4:30:00PM-5:00:00P",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/04/20 04:59 pm (Tu)",
+                        "Length": "00:30",
+                        "Program": "Judge Judy 2",
+                        "AD-ID / ISC": "MRBPBK3030EH",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "7.0",
+                        "Type": "Contract",
+                        "Scheduled Time": "Line Remarks: FAM",
+                        "Scheduled Day to Run": "FEUD",
+                        "Air Date/Time": "missing",
+                        "Length": "00:30",
+                        "Program": "missing",
+                        "AD-ID / ISC": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "5:00:00PM-5:30:00P",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/03/20 05:20 pm (Mo)",
+                        "Length": "missing",
+                        "Program": "FAMILY FEUD",
+                        "AD-ID / ISC": "MRBPBK3030EH",
+                        "Amount": "$125.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "5:00:00PM-5:30:00P",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/04/20 05:27 pm (Tu)",
+                        "Length": "00:30",
+                        "Program": "FAMILY FEUD",
+                        "AD-ID / ISC": "MRBPBK3031EH",
+                        "Amount": "$125.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "8.0",
+                        "Type": "Contract Line Remarks: BBT",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "missing",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISC": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "6:00:00PM-6:30:00P",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/05/20 06:12 pm (We)",
+                        "Length": "00:30",
+                        "Program": "Big Bang Theory",
+                        "AD-ID / ISC": "MRBPBK3031EH",
+                        "Amount": "$300.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "6:00:00PM-6:30:00P",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/06/20 06:16 pm (Th)",
+                        "Length": "00:30",
+                        "Program": "Big Bang Theory",
+                        "AD-ID / ISC": "MRBPBK3031EH",
+                        "Amount": "$300.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "9,0",
+                        "Type": "Contract",
+                        "Scheduled Time": "Line Remarks: BBT",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "missing",
+                        "Length": "00:30",
+                        "Program": "Big Bang Theory 2",
+                        "AD-ID / ISC": "MRBPBK3030EH",
+                        "Amount": "$350.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "6:30:00PM-7:00:00P",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/05/20 06:54 pm (We)",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISC": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "6:30:00PM-7:00:00P",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/06/20 06:53 pm (Th)",
+                        "Length": "00:30",
+                        "Program": "Big Bang Theory 2",
+                        "AD-ID / ISC": "MRBPBK3030EH",
+                        "Amount": "$350.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "10.0",
+                        "Type": "Contract News",
+                        "Scheduled Time": "Line Remarks: NEWS 9:00:00PM-10:00:00",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "02/04/20 10:14 pm (Tu)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Illinios News at 9p",
+                        "AD-ID / ISC": "MRBPBK3030EH",
+                        "Amount": "$200.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "missing",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "missing",
+                        "Length": "missing",
+                        "Program": "CONTINUED",
+                        "AD-ID / ISC": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "missing",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "missing",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISC": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Page": "1 of 2"
+                    },
+                    {
+                        "PO BOX": "206270"
+                    },
+                    {
+                        "Acct #": "7041"
+                    },
+                    {
+                        "Invoice Date": "10/21/2018"
+                    },
+                    {
+                        "Inv #": "6176196"
+                    },
+                    {
+                        "Advertiser": "Women Vote (74334)"
+                    },
+                    {
+                        "Agency": "Waterfront Strategies (7591)"
+                    },
+                    {
+                        "Period": "10/15/2018 - 10/21/2018"
+                    },
+                    {
+                        "ph": "missing"
+                    },
+                    {
+                        "Salesperson": "\"Washington DC Millennium/DC, (202) 955-5342\""
+                    },
+                    {
+                        "Product": "POLITICAL ISSUE (ns) (1187)"
+                    },
+                    {
+                        "Brand": "144/150/7101 (1063466)"
+                    },
+                    {
+                        "Contract": "3483364"
+                    },
+                    {
+                        "Terms": "CIA"
+                    },
+                    {
+                        "Buyer": "\"Bassett, Laura\""
+                    },
+                    {
+                        "Estimate/HL": "7101/ECR26143566"
+                    },
+                    {
+                        "Comments": "issue ALEXANDRA BRADLEY"
+                    },
+                    {
+                        "For Billing Inquires Call": "(217) 523-8855"
+                    },
+                    {
+                        "PO Box": "missing"
+                    },
+                    {
+                        "Send Payment To": "Sinclair c/o WRSP+ Dallas Broadcast 206270 TX 75320-6270 Group"
+                    },
+                    {
+                        "WRSP+WCCU Combo": "100/0 (WRSP+)"
+                    },
+                    {
+                        "SPOT 60000PM-63000P": "missing"
+                    },
+                    {
+                        "1": "preempt @$150.00"
+                    },
+                    {
+                        "CONTINUED": "missing"
+                    },
+                    {
+                        "Warranty-We": "warrant the above broadcasts were made according to the official station log. Please note that"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": "1.0",
+                        "Type": "SPOT",
+                        "Scheduled Time": "9:00:00AM-10:00:00",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/15/18 09:54 am (Mo)",
+                        "Length": "00:30",
+                        "Program": "Wendy Williams",
+                        "AD-ID / ISCI": "WV18-IL13-T03H",
+                        "Amount": "$30.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "9:00:00AM-10:00:00",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/16/18 09:58 am (Tu)",
+                        "Length": "00:30",
+                        "Program": "Wendy Williams",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$30.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "2.0",
+                        "Type": "SPOT",
+                        "Scheduled Time": "3:00:00PM-3:30:00P",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/15/18 03:28 pm (Mo)",
+                        "Length": "00:30",
+                        "Program": "Family Feud B",
+                        "AD-ID / ISCI": "WV18-IL13-T03H",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "3:00:00PM-3:30:00P",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/17/18 03:19 pm (We)",
+                        "Length": "00:30",
+                        "Program": "Family Feud B",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "3:00:00PM-3:30:00P",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/19/18 03:21 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "Family Feud B",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "3.0",
+                        "Type": "SPOT",
+                        "Scheduled Time": "3:30:00PM-4:00:00P",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,F",
+                        "Air Date/Time": "10/15/18 03:59 pm (Mo)",
+                        "Length": "00:30",
+                        "Program": "Family Feud C",
+                        "AD-ID / ISCI": "WV18-IL13-T03H",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "3:30:00PM-4:00:00P",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/18/18 03:58 pm (Th)",
+                        "Length": "00:30",
+                        "Program": "Family Feud C",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "3:30:00PM-4:00:00P",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/19/18 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "Family Feud C",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "4.0",
+                        "Type": "SPOT",
+                        "Scheduled Time": "4:30:00PM-5:00:00P",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/15/18 04:59 pm (Mo)",
+                        "Length": "00:30",
+                        "Program": "Judge Judy 2",
+                        "AD-ID / ISCI": "WV18-IL13-T03H",
+                        "Amount": "$400.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "4:30:00PM-5:00:00P",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/18/18 pm (Th)",
+                        "Length": "00:30",
+                        "Program": "Judge Judy 2",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$400.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "4:30:00PM-5:00:00P",
+                        "Scheduled Day to Run": "Per Week (3),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/19/18 04:59 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "Judge Judy 2",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$400.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "5.0",
+                        "Type": "SPOT",
+                        "Scheduled Time": "5:00:00PM-5:30:00P",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/17/18 05:15 pm (We)",
+                        "Length": "00:30",
+                        "Program": "FAMILY FEUD",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$250.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "5:00:00PM-5:30:00P",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/18/18 05:27 pm (Th)",
+                        "Length": "00:30",
+                        "Program": "FAMILY FEUD",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$250.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "6.0",
+                        "Type": "News",
+                        "Scheduled Time": "5:30:00PM-6:00:00P",
+                        "Scheduled Day to Run": "Per Week (5),Mo,Tu,We,Th,F",
+                        "Air Date/Time": "10/15/18 05:41 pm (Mo)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Springfield News at 530",
+                        "AD-ID / ISCI": "WV18-IL13-T03H",
+                        "Amount": "$200.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "News",
+                        "Scheduled Time": "5:30:00PM-6:00:00P",
+                        "Scheduled Day to Run": "Per Week (5),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/15/18 05:55 pm (Mo)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Springfield News at 530",
+                        "AD-ID / ISCI": "WV18-IL13-T03H",
+                        "Amount": "$200.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "News",
+                        "Scheduled Time": "5:30:00PM-6:00:00P",
+                        "Scheduled Day to Run": "Per Week (5),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/16/18 05:55 pm : (Tu)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Springfield News at 530",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$200.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "News",
+                        "Scheduled Time": "5:30:00PM-6:00:00P",
+                        "Scheduled Day to Run": "Per Week (5),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/17/18 05:56 pm (We)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Springfield News at 530",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$200.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "News",
+                        "Scheduled Time": "5:30:00PM-6:00:00P",
+                        "Scheduled Day to Run": "Per Week (5),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/19/18 05:57 p pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Springfield News at 530",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$200.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "7.0",
+                        "Type": "SPOT",
+                        "Scheduled Time": "6:00:00PM-6:30:00P",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/15/18 06:25 pm (Mo)",
+                        "Length": "00:30",
+                        "Program": "Big Bang Theory",
+                        "AD-ID / ISCI": "WV18-IL13-T03H",
+                        "Amount": "$850.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "6:00:00PM-6:30:00P",
+                        "Scheduled Day to Run": "Per Week (2),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/17/18 06:15 pm (We)",
+                        "Length": "00:30",
+                        "Program": "Big Bang Theory",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$850.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "9.0",
+                        "Type": "SPOT",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "10/20/18 (Sa)",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISCI": "1 preempt @$150.00",
+                        "Amount": "$0.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "11.1",
+                        "Type": "SPOT",
+                        "Scheduled Time": "9:00:00PM-9:30:00P",
+                        "Scheduled Day to Run": "Per Week (5),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/15/18 09:14 pm (Mo)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Springfield News at 9",
+                        "AD-ID / ISCI": "WV18-IL13-T03H",
+                        "Amount": "$350.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "9:00:00PM-9:30:00P",
+                        "Scheduled Day to Run": "Per Week (5),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/15/18 09:28 pm (Mo)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Springfield News at 9",
+                        "AD-ID / ISCI": "WV18-IL13-T03H",
+                        "Amount": "$350.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "9:00:00PM-9:30:00P",
+                        "Scheduled Day to Run": "Per Week (5),Mo,Tu,We,Th,Fr",
+                        "Air Date/Time": "10/16/18 09:13 pm (Tu)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Springfield News at 9",
+                        "AD-ID / ISCI": "WV18-IL13-T02H",
+                        "Amount": "$350.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "missing",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "missing",
+                        "Length": "missing",
+                        "Program": "CONTINUED",
+                        "AD-ID / ISCI": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "missing",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "missing",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISCI": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Page": "1 of 2"
+                    },
+                    {
+                        "PO BOX": "206270"
+                    },
+                    {
+                        "Acct#95523": "missing"
+                    },
+                    {
+                        "Invoice Date": "10/4/2020"
+                    },
+                    {
+                        "Inv #": "7748821"
+                    },
+                    {
+                        "Advertiser": "Betsy Dirksen Londrigan for Congress-D (122283)"
+                    },
+                    {
+                        "Agency": "Beacon Media (7261)"
+                    },
+                    {
+                        "Period": "9/28/2020 - 10/4/2020"
+                    },
+                    {
+                        "ph": "missing"
+                    },
+                    {
+                        "Salesperson": "\"Washington DC Millennium/DC, (202) 955-5342\""
+                    },
+                    {
+                        "Product": "POLITICAL CANDIDATE (ns) (1186)"
+                    },
+                    {
+                        "Brand": "865/896/8836 (1448525)"
+                    },
+                    {
+                        "Contract": "4556750"
+                    },
+                    {
+                        "Acct Type": "National/Political"
+                    },
+                    {
+                        "Terms": "CIA"
+                    },
+                    {
+                        "Bill Type": "Weekly/Irregular"
+                    },
+                    {
+                        "Buyer": "\"Placement, Medi\""
+                    },
+                    {
+                        "Coop": "No"
+                    },
+                    {
+                        "Estimate/HL": "8836/ECR27134516"
+                    },
+                    {
+                        "Comments": "Candidate"
+                    },
+                    {
+                        "For Billing Inquires Call": "(217) 523-8855"
+                    },
+                    {
+                        "PO Box": "missing"
+                    },
+                    {
+                        "Send Payment To": "Sinclair c/o WRSP+ Dallas Broadcast 206270 TX 75320-6270 Group"
+                    },
+                    {
+                        "WRSP+WCCU Combo": "100/0 (WRSP+)"
+                    },
+                    {
+                        "\"10": "0 Contract Line\",TMZ"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Line": "1.0",
+                        "Type": "Contract SPOT",
+                        "Scheduled Time": "Line Remarks: Family 3:00:00PM-3:30:00P",
+                        "Scheduled Day to Run": "Feud Day,Fr-1",
+                        "Air Date/Time": "10/02/20 03:28 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "Family Feud B",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$75.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "2.0",
+                        "Type": "Contract SPOT",
+                        "Scheduled Time": "Line Remarks: Family 3:30:00PM-4:00:00P",
+                        "Scheduled Day to Run": "Feud Day,Fr-1",
+                        "Air Date/Time": "10/02/20 03:58 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "Family Feud C",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$75.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "3.0",
+                        "Type": "Contract SPOT",
+                        "Scheduled Time": "Line Remarks: Judge 4:00:00PM-4:30:00P",
+                        "Scheduled Day to Run": "Judy Day,Fr-1",
+                        "Air Date/Time": "10/02/20 04:29 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "Judge Judy",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "4.0",
+                        "Type": "Contract SPOT",
+                        "Scheduled Time": "Line Remarks: Judge 4:30:00PM-5:00:00P",
+                        "Scheduled Day to Run": "Judy Day,Fr-1",
+                        "Air Date/Time": "10/02/20 04:58 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "Judge Judy 2",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "5.0",
+                        "Type": "Contract SPOT",
+                        "Scheduled Time": "Line Remarks: Family 5:00:00PM-5:30:00P",
+                        "Scheduled Day to Run": "Feud Day,Fr-1",
+                        "Air Date/Time": "10/02/20 05:22 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "FAMILY FEUD",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$150.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "6.0",
+                        "Type": "Contract News",
+                        "Scheduled Time": "Line Remarks: FOX 5:30:00PM-6:00:00P",
+                        "Scheduled Day to Run": "News at 5:30p Day,Fr-1",
+                        "Air Date/Time": "10/02/20 05:57 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Illinios News at 530p",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$100.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "7.0",
+                        "Type": "Contract SPOT",
+                        "Scheduled Time": "Line Remarks: Big 6:00:00PM-6:30:00P",
+                        "Scheduled Day to Run": "Bang Theory Day,Fr-1",
+                        "Air Date/Time": "10/02/20 06:13 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "Big Bang Theory",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$200.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "8.0",
+                        "Type": "Contract SPOT",
+                        "Scheduled Time": "Line Remarks: Big 6:30:00PM-7:00:00P",
+                        "Scheduled Day to Run": "Bang Theory Day,Fr-1",
+                        "Air Date/Time": "10/02/20 06:40 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "Big Bang Theory 2",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$250.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "9.0",
+                        "Type": "Contract News",
+                        "Scheduled Time": "Line Remarks: FOX 9:00:00PM-10:00:00",
+                        "Scheduled Day to Run": "News at 9 Day,Fr-1",
+                        "Air Date/Time": "10/02/20 09:43 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Illinios News at 9p",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$200.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "10,0",
+                        "Type": "Contract SPOT",
+                        "Scheduled Time": "Line Remarks: TMZ 11:00:00PM-11:30:0",
+                        "Scheduled Day to Run": "Day,Fr-1",
+                        "Air Date/Time": "10/02/20 11:28 pm (Fr)",
+                        "Length": "00:30",
+                        "Program": "TMZ",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$40.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "11,0",
+                        "Type": "Contract SPOT",
+                        "Scheduled Time": "Line Remarks: Access 12:00:00AM-12:30:0",
+                        "Scheduled Day to Run": "Hollywood Day,Fr-1",
+                        "Air Date/Time": "10/02/20 12:28 am (Fr)",
+                        "Length": "00:30",
+                        "Program": "Access Hollywood",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$10.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "12.0",
+                        "Type": "SPOT",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "10/03/20 (Sa)",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISCI": "1 preempt @$30.00",
+                        "Amount": "$0.00",
+                        "Remarks": "Program Change"
+                    },
+                    {
+                        "Line": "13.0",
+                        "Type": "SPOT",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "10/03/20 (Sa)",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISCI": "1 preempt @$75.00",
+                        "Amount": "$0.00",
+                        "Remarks": "Program Change"
+                    },
+                    {
+                        "Line": "14.0",
+                        "Type": "SPOT",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "10/03/20 (Sa)",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISCI": "1 preempt @$75.00",
+                        "Amount": "$0.00",
+                        "Remarks": "Live Program Overrun"
+                    },
+                    {
+                        "Line": "15,0",
+                        "Type": "Contract SPOT",
+                        "Scheduled Time": "Line Remarks: Big 6:00:00PM-6:30:00P",
+                        "Scheduled Day to Run": "Bang Theory Day,Sa-1",
+                        "Air Date/Time": "10/03/20 06:29 pm (Sa)",
+                        "Length": "00:30",
+                        "Program": "Big Bang Theory Wknd 1",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$75.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "16.0",
+                        "Type": "Contract SPOT",
+                        "Scheduled Time": "Line Remarks: Mike 9:30:00PM-10:00:00",
+                        "Scheduled Day to Run": "& Molly Day,Sa-1",
+                        "Air Date/Time": "10/03/20 09:59 pm (Sa)",
+                        "Length": "00:30",
+                        "Program": "Mike and Molly Wknd",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$75.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "28.0",
+                        "Type": "Contract News",
+                        "Scheduled Time": "Line Remarks: FOX 9:00:00PM-9:35:00P",
+                        "Scheduled Day to Run": "News at 9 Day,Su-1",
+                        "Air Date/Time": "10/04/20 09:32 pm (Su)",
+                        "Length": "00:30",
+                        "Program": "News-FOX Illinois News at 9",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$125.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "29.0",
+                        "Type": "Contract Line Remarks: Mike",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "& Molly",
+                        "Air Date/Time": "missing",
+                        "Length": "00:30",
+                        "Program": "Mike and Molly Wknd 2",
+                        "AD-ID / ISCI": "BL1020H",
+                        "Amount": "$75.00",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "SPOT",
+                        "Scheduled Time": "9:35:00PM-10:05:00",
+                        "Scheduled Day to Run": "Day,Su-1",
+                        "Air Date/Time": "10/04/20 10:00 pm (Su)",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISCI": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "missing",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "missing",
+                        "Length": "missing",
+                        "Program": "CONTINUED",
+                        "AD-ID / ISCI": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    },
+                    {
+                        "Line": "missing",
+                        "Type": "missing",
+                        "Scheduled Time": "missing",
+                        "Scheduled Day to Run": "missing",
+                        "Air Date/Time": "missing",
+                        "Length": "missing",
+                        "Program": "missing",
+                        "AD-ID / ISCI": "missing",
+                        "Amount": "missing",
+                        "Remarks": "missing"
+                    }
+                ]
+            }
+        ]
+    }
+]
