@@ -274,9 +274,7 @@ def write_texts(data_folder, page_limit):
         write_phrase(text_path, adjusted_phrases)
         write_dict(dict_path, phrases)
 
-        
-
-        
+    
 
 if __name__ == "__main__":
     root_path = get_root_path()

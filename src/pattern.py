@@ -1384,6 +1384,18 @@ def write_string(result_path, content):
     with open(result_path, 'w') as file:
         file.write(content)
 
+def kv_extraction(pdf_path, out_path):
+    key_path = key.get_result_path(pdf_path)#result is the predicted keys
+    extracted_path = key.get_extracted_path(pdf_path)
+    bb_path = get_bb_path(extracted_path)
+    
+    keywords = read_file(key_path)#predicted keywords
+    phrases = read_file(extracted_path)#list of phrases
+    phrases_bb = read_json(bb_path)#phrases with bounding boxes
+
+    #print(keywords)
+    mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path)
+
 if __name__ == "__main__":
     #print(get_metadata())
     root_path = extract.get_root_path()
@@ -1400,23 +1412,10 @@ if __name__ == "__main__":
     tested_id = 1 #starting from 1
     
 
-    for path in tested_paths:
+    for pdf_path in tested_paths:
         id += 1
         if(id != tested_id):
             continue
-        print(path)
-        result_path = key.get_result_path(path)#result is the predicted keys
-        truth_path = key.get_truth_path(path,1)
-        extracted_path = key.get_extracted_path(path)
-        bb_path = get_bb_path(extracted_path)
-        out_path = key.get_key_val_path(path, '')
-
-
-        truths = format(read_file(truth_path))
-        results = read_file(result_path)
-        phrases = read_file(extracted_path)
-        phrases_bb = read_json(bb_path)
-
-        print(results)
-        print(result_path)
-        #mix_pattern_extract_pipeline(phrases_bb, results, phrases, out_path)
+        print(pdf_path)
+        out_path = key.get_key_val_path(pdf_path, '')#output path
+        kv_extraction(pdf_path, out_path)

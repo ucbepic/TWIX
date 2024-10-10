@@ -87,7 +87,7 @@ def partial_perfect_match(v1,v2,k):#len(v1) < len(v2)
             new_v1.append(v - delta)
     return is_subsequence(new_v1,v2,k)
 
-def perfect_align_clustering(phrases_vec,k):
+def perfect_align_clustering(phrases_vec,k=1):#k is the definition of partial perfect match
     mp = {}
     remap = {}
     id = 0
@@ -269,8 +269,17 @@ def get_truth_path(raw_path, meta):
         path = path.replace('.pdf','.txt')
     return path
 
-def key_prediction():
-    #input: 
+def key_prediction(pdf_path, result_path):
+    extracted_path = get_extracted_path(pdf_path)
+    reading_order_path = get_relative_location_path(extracted_path)
+    phrases = read_dict(reading_order_path)
+    mp, remap = perfect_align_clustering(phrases)
+    candidate_key_clusters = candidate_key_clusters_selection(remap)
+    key_clusters = clustering_group(phrases, remap, candidate_key_clusters, k=1)
+    keys = get_keys(remap, key_clusters)
+
+    #write result
+    write_result(result_path,keys)
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
@@ -292,19 +301,5 @@ if __name__ == "__main__":
         if(id != tested_id):
             continue
         #print(path)
-        result_path = get_result_path(path)
-        extracted_path = get_extracted_path(path)
-        #print(result_path)
-        phrases = get_relative_locations(extracted_path)
-        out_path = get_relative_location_path(extracted_path)
-        phrases = read_dict(out_path)
-        mp, remap = perfect_align_clustering(phrases,k)
-        print(remap)
-        candidate_key_clusters = candidate_key_clusters_selection(remap)
-        print(candidate_key_clusters)
-        key_clusters = clustering_group(phrases, remap, candidate_key_clusters, k=1)
-        print(key_clusters)
-        keys = get_keys(remap, key_clusters)
-        #print(keys)
-        write_result(result_path,keys)
+        
         
