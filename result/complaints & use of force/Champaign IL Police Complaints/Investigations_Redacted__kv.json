@@ -169,6 +169,35 @@
         "id": 3,
         "content": [
             {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "3/5/2008",
+                        "Number": "08-03",
+                        "Investigator": "Paulus, Michael",
+                        "Date Assigned": "Paulus, Michael",
+                        "Racial": "No",
+                        "Category / Type": "FORMAL",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "NOT SUSTAINED",
+                        "Completed": "NOT SUSTAINED",
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "3/10/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "4/28/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
                 "type": "kv",
                 "content": [
                     {
@@ -223,6 +252,15 @@
                         "Officer Disposition": "missing",
                         "Action Taken": "missing",
                         "Body Cam": "Page 1 of 74"
+                    },
+                    {
+                        "Name": "missing",
+                        "ID No.": "Champaign Police Department",
+                        "Rank": "Champaign Police Department",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "missing"
                     }
                 ]
             }
@@ -392,6 +430,93 @@
                         "Division": "Operations Supp",
                         "Officer Disposition": "SUSTAINED",
                         "Action Taken": "COUNSELING",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "3/22/2008",
+                        "Number": "08-04a",
+                        "Investigator": "Swenson, Jon",
+                        "Date Assigned": "missing",
+                        "Racial": "No",
+                        "Category / Type": "FORMAL",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "UNFOUNDED",
+                        "Completed": "UNFOUNDED",
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "4/16/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "5/1/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": "Ct, Rantoul IL 61866"
+                    },
+                    {
+                        "H Phone": "("
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Lack, Aaron V.",
+                        "ID No.": "920",
+                        "Rank": "SERGEANT",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "MULTIPLE OFFICERS/EMPLOY",
+                        "ID No.": "missing",
+                        "Rank": "NOT STATED",
+                        "Division": "NOT ENTERED",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
                         "Body Cam": "No"
                     }
                 ]

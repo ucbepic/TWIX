@@ -470,7 +470,7 @@ def pair_oracle(left,right):
     context = ''
     prompt = (instruction,context)
     response = model(model_name,prompt)
-    print(response)
+    #print(response)
     if('yes' in response.lower()):
         return 1
     return 0
@@ -974,15 +974,15 @@ def row_aligned(row1, row2, esp = 0.8):
 
     #check if there exist a phrase in row2 that does not overlapps with any of val in row1 - this is not robust: if there exist one phrase that violates this condition, then this row would be not correct 
     
-    for (p2,bb2) in row2:
-        valid = 0
-        for (p1,bb1) in row1:
-            if(is_overlap_vertically(bb2,bb1) == 1):
-                valid = 1
-                break
-        if(valid == 0):
-            #print(p2 + ' does not overlap with any val in row1')
-            return 0
+    # for (p2,bb2) in row2:
+    #     valid = 0
+    #     for (p1,bb1) in row1:
+    #         if(is_overlap_vertically(bb2,bb1) == 1):
+    #             valid = 1
+    #             break
+    #     if(valid == 0):
+    #         #print(p2 + ' does not overlap with any val in row1')
+    #         return 0
     return 1
 
 def row_pattern_by_learned_pattern(lst, predicat_labels):
@@ -1117,10 +1117,10 @@ def infer_undefined(row_mp, rls):
         if(rls[row_id] != 'undefined'):
             continue
         if(len(lst) > 1):
-            print('LLM call!', rls[row_id])
-            print(lst)
+            #print('LLM call!', rls[row_id])
+            #print(lst)
             label = infer_undefined_LLM(lst)
-            print(label)
+            #print(label)
             if(label == 'val'):
                 rls[row_id] = 'val'
                 if(check_vadility(row_mp, rls, row_id) == 'val'): #if undefined->val, it is valid
@@ -1146,7 +1146,7 @@ def infer_undefined(row_mp, rls):
 
 
  
-def pattern_detect_by_row(pv, predict_labels, rid):
+def pattern_detect_by_row(pv, predict_labels, rid, debug = 0):
     #refine kv pair by using distance constraint
     kv = {}
     ids = []
@@ -1185,6 +1185,8 @@ def pattern_detect_by_row(pv, predict_labels, rid):
         p_pre = p
         bb_pre = bb
 
+    if(debug == 1):
+        print('first pass label prediction')
     rls = {}
     for row_id, lst in row_mp.items():
         row = []
@@ -1194,38 +1196,42 @@ def pattern_detect_by_row(pv, predict_labels, rid):
             row_label = row_pattern(lst, predict_labels, new_lst)
         else:
             row_label = row_pattern_by_learned_pattern(lst, predict_labels)
-        # print(row_id, row_label)
-        # p_print = []
-        # for (p,bb) in lst:
-        #     p_print.append(p)
-        # print(p_print)
+        if(debug == 1):
+            print(row_id, row_label)
+            p_print = []
+            for (p,bb) in lst:
+                p_print.append(p)
+            print(p_print)
         rls[row_id] = row_label
         
     #if(rid == 1): #expensive learning for the first record
         #check the validity of the labels by using rules 
+    if(debug == 1):
+        print('second pass validation')
     for row_id, lst in row_mp.items():
-        print(row_id)
-        p_print = []
-        for (p,bb) in lst:
-            p_print.append(p)
-        print(p_print)
         new_label = check_vadility(row_mp, rls, row_id)
-        print(rls[row_id], new_label)
+        if(debug == 1):
+            print(row_id)
+            p_print = []
+            for (p,bb) in lst:
+                p_print.append(p)
+            print(p_print)
+            print(rls[row_id], new_label)
         rls[row_id] = new_label
 
+    if(debug == 1):
+        print('third pass infer undefined')
     rls = infer_undefined(row_mp, rls)
 
-    # for row_id, lst in row_mp.items():
-    #     #print(row_id, rls[row_id])
-    #     p_print = []
-    #     for (p,bb) in lst:
-    #         p_print.append(p)
-    #     print(p_print)
+    if(debug == 1):
+        for row_id, lst in row_mp.items():
+            print(row_id, rls[row_id])
+            p_print = []
+            for (p,bb) in lst:
+                p_print.append(p)
+            print(p_print)
         
     blk, blk_id = block_decider(rls)
-
-    # print(blk)
-    # print(blk_id)
     
     return blk, blk_id, row_mp
     
@@ -1279,7 +1285,7 @@ def filter_non_key(lst, non_key):
         nl.append(l)
     return nl
 
-def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path):
+def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debug = 0):
     #get the first record
     non_key_meta = ['none','yes','no','/']
     phrases = record_extraction(phrases, predict_labels)
@@ -1303,23 +1309,23 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path):
         # print(record_appearance)
         #print(predict_labels)
         predict_labels = filter_non_key(predict_labels, non_key_meta)
-        record,keys = mix_pattern_extract(predict_labels, pv, rid)
+        record,keys = mix_pattern_extract(predict_labels, pv, rid, debug)
         if(rid == 1):
             keys = filter_non_key(keys, non_key_meta)
             predict_labels = keys
         #print(record)
         records.append(record)
-        print(predict_labels)
-        if(rid > 2):
+        #print(predict_labels)
+        if(rid > 5):
             break
-    #write_json(records, path)
+    write_json(records, path)
 
-def mix_pattern_extract(predict_labels, pv, rid):
+def mix_pattern_extract(predict_labels, pv, rid, debug = 0):
     
     #pv: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
     keys = []
 
-    blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels, rid)
+    blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels, rid, debug)
 
     print(blk)
     print(blk_id)
@@ -1392,9 +1398,10 @@ def kv_extraction(pdf_path, out_path):
     keywords = read_file(key_path)#predicted keywords
     phrases = read_file(extracted_path)#list of phrases
     phrases_bb = read_json(bb_path)#phrases with bounding boxes
+    debug_mode = 0
 
     #print(keywords)
-    mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path)
+    mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, debug_mode)
 
 if __name__ == "__main__":
     #print(get_metadata())
