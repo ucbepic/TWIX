@@ -170,14 +170,14 @@ def get_PR(results_kvs, truth_kvs):
 
     return avg_precision, avg_recall, precisions, recalls
 
-def scan_folder(path):
+def scan_folder(path, filter_file_type = '.json'):
     file_names = []
     for root, dirs, files in os.walk(path):
         for file in files:
             file_name = os.path.join(root, file)
             if('DS_Store' in file_name):
                 continue
-            if('.json' not in file_name):
+            if(filter_file_type not in file_name):
                 continue
             file_names.append(file_name)
     return file_names
@@ -216,22 +216,25 @@ def eval_new_benchmark():
         #print(truth_path)
         eval_one_doc(truth_path, result_path)
 
-def eval_old_benchmark():
-    result_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/raw'
-    results = scan_folder(result_folder_path)
-    for result_path in results:
-        if('.txt' in result_path):
-            continue
-        print(result_path)
-        # truth_path = result_path.replace('result','data/truths')
-        # truth_path = truth_path.replace('aws_','')
-        # if not os.path.exists(truth_path):
-        #     continue
-        # if('id_14' not in truth_path):
-        #     continue
+def get_key_val_path(raw_path, approach):
+    path = raw_path.replace('data/raw','result')
+    path = path.replace('.pdf', '_' + approach + '_kv.json')
+    return path
 
-        #print(truth_path)
-        #eval_one_doc(truth_path, result_path)
+def eval_old_benchmark():
+    pdf_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/raw/complaints & use of force'
+    pdfs = scan_folder(pdf_folder_path,'.pdf')
+    for pdf_path in pdfs:
+        print(pdf_path)
+        #get result path
+        result_path = get_key_val_path(pdf_path, '')#result path
+        print(result_path)
+        #get truth path
+        truth_path = pdf_path.replace('raw','truths/key_value_truth').replace('.pdf','.json')
+        print(truth_path)
+        if('Investigations_Redacted' not in truth_path):
+            continue
+        eval_one_doc(truth_path, result_path)
 
 if __name__ == "__main__":
     eval_old_benchmark()
