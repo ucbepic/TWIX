@@ -974,15 +974,15 @@ def row_aligned(row1, row2, esp = 0.8):
 
     #check if there exist a phrase in row2 that does not overlapps with any of val in row1 - this is not robust: if there exist one phrase that violates this condition, then this row would be not correct 
     
-    # for (p2,bb2) in row2:
-    #     valid = 0
-    #     for (p1,bb1) in row1:
-    #         if(is_overlap_vertically(bb2,bb1) == 1):
-    #             valid = 1
-    #             break
-    #     if(valid == 0):
-    #         #print(p2 + ' does not overlap with any val in row1')
-    #         return 0
+    for (p2,bb2) in row2:
+        valid = 0
+        for (p1,bb1) in row1:
+            if(is_overlap_vertically(bb2,bb1) == 1):
+                valid = 1
+                break
+        if(valid == 0):
+            #print(p2 + ' does not overlap with any val in row1')
+            return 0
     return 1
 
 def row_pattern_by_learned_pattern(lst, predicat_labels):

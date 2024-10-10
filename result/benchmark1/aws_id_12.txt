@@ -136,7 +136,7 @@ Chart : 01000532500060516260012021,missing,missing,missing,missing,missing,missi
 Date,07/31/2020
 Page,5
 -TABLE
-BarCode,Gas,Size,CO,PO #CDLocation,Demurrage,Delivery Code
+BarCode,Gas,Size,CO #,PO #CDLocation,Demurrage,Delivery Code
 Amount Total,missing,missing,missing,missing,20.46,missing
 Chart: 01000532500194566260012021,missing,missing,missing,missing,missing,missing
 814012,"Nitrogen, UHP",200C/Mt.A,0432239,540 BPRB,7.13,0151031000

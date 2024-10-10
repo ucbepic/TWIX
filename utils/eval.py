@@ -1,5 +1,6 @@
 #this script implements the evaluation metric 
 import json,os,math
+import Levenshtein
 
 def read_json(file_path):
     with open(file_path, 'r') as file:
@@ -30,7 +31,47 @@ def clean_phrase(p):
         return p.lower().strip()
     return p
 
+def can_convert_to_int(string):
+    try:
+        # Try converting the string to an integer
+        int(string)
+        return True
+    except ValueError:
+        # If a ValueError occurs, the string can't be converted to an integer
+        return False
+
+def can_convert_to_float(string):
+    try:
+        # Try converting the string to an integer
+        float(string)
+        return True
+    except ValueError:
+        # If a ValueError occurs, the string can't be converted to an integer
+        return False
+    
+def normalize_string(s):
+    # Replace literal '\\n' (backslash followed by 'n') and spaces, then convert to lowercase
+    s = s.replace('\\n', '').replace(' ', '').lower()
+    s = s.replace('|','').replace('\\','')
+    return s
+
+def approx_equal(str1, str2, esp = 0.95):
+    # Calculate the Levenshtein distance (edit distance) between two strings
+    distance = Levenshtein.distance(normalize_string(str1), normalize_string(str2))
+    ratio = 1 - distance/(max(len(str1),len(str2)))
+    if(ratio > esp):
+        return 1
+    else:
+        return 0
 def equal(a,b):
+    if(isinstance(a,str) and isinstance(b,int) and can_convert_to_int(a) and int(a) == b):
+        return 1
+    if(isinstance(b,str) and isinstance(a,int) and can_convert_to_int(b) and int(b) == a):
+        return 1
+    if(isinstance(a,float) and isinstance(b,str) and can_convert_to_float(b) and a==float(b)):
+        return 1
+    if(isinstance(b,float) and isinstance(a,str) and can_convert_to_float(a) and float(a)==b):
+        return 1
     if(a==b):
         return 1
     if(a=='missing' and b == ''):
@@ -56,13 +97,17 @@ def equal(a,b):
     if(isinstance(a,str) and isinstance(b,str)):
         if(a == b):
             return 1
+        if(normalize_string(a) == normalize_string(b)):
+            return 1
+        if(approx_equal(a,b) == 1):
+            return 1
     return 0
 
 def get_PR(results_kvs, truth_kvs):
     precisions = {} #record id ->  precision 
     recalls = {} # record id -> recall
     for id, truth_kv in truth_kvs.items():
-        #print(id)
+        print(id)
         precision = 0
         recall = 0
         if id not in results_kvs:
@@ -82,7 +127,7 @@ def get_PR(results_kvs, truth_kvs):
         # print(new_truth_kv)
         # print(new_result_kv)
         
-        #print('FP:')
+        print('FP:')
         #evaluate precision
         for kv in new_result_kv:
             is_match = 0
@@ -91,12 +136,12 @@ def get_PR(results_kvs, truth_kvs):
                     precision += 1
                     is_match = 1
                     break
-            # if(is_match == 0):
-            #     print(kv)
+            if(is_match == 0):
+                print(kv)
         
         precision /= len(new_result_kv)
 
-        #print('FN:')
+        print('FN:')
         #evaluate recall
         for kv in new_truth_kv:
             is_match = 0
@@ -105,8 +150,8 @@ def get_PR(results_kvs, truth_kvs):
                     recall += 1
                     is_match = 1
                     break
-            # if(is_match == 0):
-            #     print(kv)
+            if(is_match == 0):
+                print(kv)
         
         recall /= len(new_truth_kv)
 
@@ -154,12 +199,7 @@ def eval_one_doc(truth_path, result_path):
     print(recalls)
     print(avg_precision, avg_recall)
 
-if __name__ == "__main__":
-    
-    truth_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/key_value_truth/complaints & use of force/Champaign IL Police Complaints/investigations.json'
-    result_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted__kv.json'
-    #eval_one_doc(truth_path, result_path)
-
+def eval_new_benchmark():
     result_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
     results = scan_folder(result_folder_path)
     for result_path in results:
@@ -170,11 +210,33 @@ if __name__ == "__main__":
         truth_path = truth_path.replace('aws_','')
         if not os.path.exists(truth_path):
             continue
-        # if('id_15' not in truth_path):
-        #     continue
+        if('id_14' not in truth_path):
+            continue
 
         #print(truth_path)
         eval_one_doc(truth_path, result_path)
+
+def eval_old_benchmark():
+    result_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
+    results = scan_folder(result_folder_path)
+    for result_path in results:
+        if('.txt' in result_path):
+            continue
+        print(result_path)
+        truth_path = result_path.replace('result','data/truths')
+        truth_path = truth_path.replace('aws_','')
+        if not os.path.exists(truth_path):
+            continue
+        if('id_14' not in truth_path):
+            continue
+
+        #print(truth_path)
+        eval_one_doc(truth_path, result_path)
+
+if __name__ == "__main__":
+    eval_old_benchmark()
+
+    
 
         
 
