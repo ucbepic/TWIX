@@ -217,21 +217,21 @@ def eval_new_benchmark():
         eval_one_doc(truth_path, result_path)
 
 def eval_old_benchmark():
-    result_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
+    result_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/raw'
     results = scan_folder(result_folder_path)
     for result_path in results:
         if('.txt' in result_path):
             continue
         print(result_path)
-        truth_path = result_path.replace('result','data/truths')
-        truth_path = truth_path.replace('aws_','')
-        if not os.path.exists(truth_path):
-            continue
-        if('id_14' not in truth_path):
-            continue
+        # truth_path = result_path.replace('result','data/truths')
+        # truth_path = truth_path.replace('aws_','')
+        # if not os.path.exists(truth_path):
+        #     continue
+        # if('id_14' not in truth_path):
+        #     continue
 
         #print(truth_path)
-        eval_one_doc(truth_path, result_path)
+        #eval_one_doc(truth_path, result_path)
 
 if __name__ == "__main__":
     eval_old_benchmark()

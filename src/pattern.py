@@ -1405,7 +1405,7 @@ if __name__ == "__main__":
         if(id != tested_id):
             continue
         print(path)
-        result_path = key.get_result_path(path)
+        result_path = key.get_result_path(path)#result is the predicted keys
         truth_path = key.get_truth_path(path,1)
         extracted_path = key.get_extracted_path(path)
         bb_path = get_bb_path(extracted_path)
@@ -1417,5 +1417,6 @@ if __name__ == "__main__":
         phrases = read_file(extracted_path)
         phrases_bb = read_json(bb_path)
 
-        #print(results)
-        mix_pattern_extract_pipeline(phrases_bb, results, phrases, out_path)
+        print(results)
+        print(result_path)
+        #mix_pattern_extract_pipeline(phrases_bb, results, phrases, out_path)

@@ -269,6 +269,9 @@ def get_truth_path(raw_path, meta):
         path = path.replace('.pdf','.txt')
     return path
 
+def key_prediction():
+    #input: 
+
 if __name__ == "__main__":
     root_path = extract.get_root_path()
     #print(root_path)

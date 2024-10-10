@@ -26,7 +26,7 @@ def extract_text_from_image(image):
     return text
 
 
-def phrase_extract_v1(pdf_path, x_tolerance=3, y_tolerance=3):
+def phrase_extract_v1(pdf_path, x_tolerance=3, y_tolerance=3, page_limit = 6):
     phrases = {}
     page_break = 0
     raw_phrases = []
@@ -87,14 +87,14 @@ def phrase_extract_v1(pdf_path, x_tolerance=3, y_tolerance=3):
                         phrases[p].append(tuple(current_bbox))
                     else:
                         phrases[p] = [tuple(current_bbox)]
-            if page_break == 6:
+            if page_break == page_limit:
                 break
             page_break += 1
 
     return phrases, raw_phrases
     
 
-def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
+def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3, page_limit = 6):
     phrases = {}
     page_break = 0
     raw_phrases = []
@@ -156,7 +156,7 @@ def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3):
                     phrases[phrase_text].append(tuple(current_bbox))
                 else:
                     phrases[phrase_text] = [tuple(current_bbox)]
-            if page_break == 6:
+            if page_break == page_limit:
                 break
             page_break += 1
 
@@ -255,7 +255,7 @@ def write_dict(path, d):
     with open(path, 'w') as json_file:
         json.dump(d, json_file)
 
-def write_texts(data_folder):
+def write_texts(data_folder, page_limit):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         print(path)
@@ -263,7 +263,7 @@ def write_texts(data_folder):
         #     continue
         text_path = get_text_path(path, '.txt')
         dict_path = get_text_path(path, '.json')
-        phrases, raw_phrases = phrase_extract_v1(path)
+        phrases, raw_phrases = phrase_extract_v1(path, page_limit)
         adjusted_phrases = []
         for phrase in raw_phrases:
             adjusted_phrase = adjust_phrase(phrase)
@@ -271,7 +271,7 @@ def write_texts(data_folder):
                 if(len(p) == 0):
                     continue
                 adjusted_phrases.append(p)
-        #write_phrase(text_path, adjusted_phrases)
+        write_phrase(text_path, adjusted_phrases)
         write_dict(dict_path, phrases)
 
         
@@ -281,6 +281,7 @@ def write_texts(data_folder):
 if __name__ == "__main__":
     root_path = get_root_path()
     data_folder = root_path + '/data/raw'
-    write_texts(data_folder)
+    page_limit = 6 #number of page for data extraction
+    write_texts(data_folder,page_limit)
 
     
