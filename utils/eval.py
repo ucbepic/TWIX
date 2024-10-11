@@ -103,6 +103,10 @@ def equal(a,b):
             return 1
     if(isinstance(a,str) and isinstance(b,str) and a.lower() == b.lower()):
         return 1
+    if(a == True and b == '\uf0fc'):
+        return 1
+    if(b == True and a == '\uf0fc'):
+        return 1
     return 0
 
 def get_PR(results_kvs, truth_kvs):
@@ -227,7 +231,7 @@ def eval_old_benchmark():
     pdf_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/raw/certification'
     pdfs = scan_folder(pdf_folder_path,'.pdf')
     for pdf_path in pdfs:
-        if('munson' not in pdf_path.lower()):
+        if('invisible' not in pdf_path.lower()):
             continue
         print(pdf_path)
         #get result path

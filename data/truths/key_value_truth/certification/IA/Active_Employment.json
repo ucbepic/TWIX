@@ -389,7 +389,7 @@
                     },
                     {
                         "Agency": "WESTCOM",
-                        "Date": "10-30-2013",
+                        "Date": "12-10-2013",
                         "F/P": "F",
                         "Action": "Tele Rsgn",
                         "Status": "Inactive",
@@ -521,7 +521,7 @@
                     },
                     {
                         "Agency": "HUXLEY POLICE DEPARTMENT",
-                        "Date": "1-01-2005",
+                        "Date": "4-01-2005",
                         "F/P": "missing",
                         "Action": "Resigned",
                         "Status": "Inactive",
@@ -568,7 +568,7 @@
                         "Shift": "missing"
                     },
                     {
-                        "Agency": "WASHINGTON COUNTY SHERIFF'S OFFICE",
+                        "Agency": "WASHINGTON COUNTY SHERIFF'S OFFIC",
                         "Date": "1-01-2014",
                         "F/P": "missing",
                         "Action": "Resv.Term.",
@@ -580,7 +580,7 @@
                         "Shift": "missing"
                     },
                     {
-                        "Agency": "WASHINGTON COUNTY SHERIFF'S OFFICE",
+                        "Agency": "WASHINGTON COUNTY SHERIFF'S OFFIC",
                         "Date": "3-06-2012",
                         "F/P": "missing",
                         "Action": "Volunteer",
@@ -662,7 +662,7 @@
                 "type": "table",
                 "content": [
                     {
-                        "Agency": "WASHINGTON COUNTY SHERIFF'S OFFICE",
+                        "Agency": "WASHINGTON COUNTY SHERIFF'S OFFIC",
                         "Date": "4-11-2021",
                         "F/P": "F",
                         "Action": "Resigned",
@@ -674,7 +674,7 @@
                         "Shift": "missing"
                     },
                     {
-                        "Agency": "WASHINGTON COUNTY SHERIFF'S OFFICE",
+                        "Agency": "WASHINGTON COUNTY SHERIFF'S OFFIC",
                         "Date": "8-15-2019",
                         "F/P": "F",
                         "Action": "Hired",

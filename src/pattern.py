@@ -957,8 +957,21 @@ def row_aligned(row1, row2, esp = 0.8):
     id1 = 1 #id in row 1
     id2 = 0 #id in row 2
     match = 0
+    #a value should not overlap with two keys
     while(id1 < len(row1) and id2 < len(row2)):
         if(is_overlap_vertically(row2[id2][1], row1[id1][1]) == 1 and is_overlap_vertically(row2[id2][1], row1[id1-1][1]) == 1):
+            return 0
+        #print(row1[id1][1][2], row2[id2][1][2])
+        if(row1[id1][1][2] < row2[id2][1][2]):
+            id1 += 1
+        else:
+            id2 += 1
+    #a key should not overlap with two values 
+    #row1: key, row2: val
+    id1 = 0
+    id2 = 1
+    while(id1 < len(row1) and id2 < len(row2)):
+        if(is_overlap_vertically(row1[id1][1], row2[id2][1]) == 1 and is_overlap_vertically(row1[id1][1], row2[id2-1][1]) == 1):
             return 0
         #print(row1[id1][1][2], row2[id2][1][2])
         if(row1[id1][1][2] < row2[id2][1][2]):
@@ -1311,18 +1324,20 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debu
         #     vals.append(val)
         # print(vals)
         # print(record_appearance)
-        #print(predict_labels)
+        
         predict_labels = filter_non_key(predict_labels, non_key_meta)
         record,keys = mix_pattern_extract(predict_labels, pv, rid, debug)
         if(rid == 1):
             keys = filter_non_key(keys, non_key_meta)
-            predict_labels = keys
-        #print(record)
+            predict_labels = list(set(keys))
+            #if(debug == 1):
+            print('The set of predicted keys:')
+            print(predict_labels)
         records.append(record)
         #print(predict_labels)
-        if(rid > 4):
+        if(rid > 0):
             break
-    write_json(records, path)
+    #write_json(records, path)
 
 def mix_pattern_extract(predict_labels, pv, rid, debug = 0):
     
@@ -1402,7 +1417,7 @@ def kv_extraction(pdf_path, out_path):
     keywords = read_file(key_path)#predicted keywords
     phrases = read_file(extracted_path)#list of phrases
     phrases_bb = read_json(bb_path)#phrases with bounding boxes
-    debug_mode = 0
+    debug_mode = 1
 
     #print(keywords)
     mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, debug_mode)
@@ -1420,7 +1435,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 3 #starting from 1
+    tested_id = 6 #starting from 1
     
 
     for pdf_path in tested_paths:
