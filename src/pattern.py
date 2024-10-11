@@ -959,11 +959,7 @@ def row_aligned(row1, row2, esp = 0.8):
     match = 0
     while(id1 < len(row1) and id2 < len(row2)):
         if(is_overlap_vertically(row2[id2][1], row1[id1][1]) == 1 and is_overlap_vertically(row2[id2][1], row1[id1-1][1]) == 1):
-            #check semantic alignment and update match 
-            a=0
-        else:
-            #update match
-            b=0
+            return 0
         #print(row1[id1][1][2], row2[id2][1][2])
         if(row1[id1][1][2] < row2[id2][1][2]):
             id1 += 1
@@ -1140,11 +1136,19 @@ def infer_undefined(row_mp, rls):
 
         elif(row_id-1>=0 and row_id+1 < len(row_mp) and rls[row_id-1] == 'kv' and rls[row_id+1] == 'kv'):
             rls[row_id] = 'kv' 
+        elif(row_id-1>=0 and row_id+1 < len(row_mp) and rls[row_id-1] == 'val' and rls[row_id+1] == 'val'):
+            #semantic check if it's a key inside a table block
+            rls[row_id] = 'val'
+            if(check_vadility(row_mp, rls, row_id) == 'val'):
+                rls[row_id] = 'val'
+            else:
+                rls[row_id] = 'undefined'
         else:
             rls[row_id] = 'undefined'
     return rls
 
-
+#def find_key()
+    
  
 def pattern_detect_by_row(pv, predict_labels, rid, debug = 0):
     #refine kv pair by using distance constraint
@@ -1316,7 +1320,7 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debu
         #print(record)
         records.append(record)
         #print(predict_labels)
-        if(rid > 5):
+        if(rid > 4):
             break
     write_json(records, path)
 
@@ -1416,7 +1420,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 1 #starting from 1
+    tested_id = 3 #starting from 1
     
 
     for pdf_path in tested_paths:

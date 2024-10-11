@@ -126,10 +126,7 @@
                         "Included On Alert": "Yes"
                     },
                     {
-                        "Information Taken From": "missing"
-                    },
-                    {
-                        "Crime/ Incident": "missing"
+                        "Information Taken From": "Crime/ Incident"
                     },
                     {
                         "Status": "Completed"
@@ -159,10 +156,10 @@
                         "Arrested For": "Not Stated"
                     },
                     {
-                        "Type Injuries": "missing"
+                        "Type Injuries": "None"
                     },
                     {
-                        "None": "missing"
+                        "Type Injuries": "missing"
                     }
                 ]
             }
@@ -190,10 +187,7 @@
                         "Agency": "CPD"
                     },
                     {
-                        "Information Taken From": "missing"
-                    },
-                    {
-                        "Crime/ Incident": "missing"
+                        "Information Taken From": "Crime/ Incident"
                     },
                     {
                         "Status": "Completed"
@@ -359,10 +353,7 @@
                         "Agency": "UPD"
                     },
                     {
-                        "Information Taken From": "missing"
-                    },
-                    {
-                        "Crime/ Incident": "missing"
+                        "Information Taken From": "Crime/ Incident"
                     },
                     {
                         "Status": "Completed"
@@ -603,10 +594,7 @@
                         "Agency": "CPD"
                     },
                     {
-                        "Information Taken From": "missing"
-                    },
-                    {
-                        "Crime/ Incident": "missing"
+                        "Information Taken From": "Crime/ Incident"
                     },
                     {
                         "Status": "Completed"
@@ -820,10 +808,7 @@
                         "Agency": "missing"
                     },
                     {
-                        "Information Taken From": "missing"
-                    },
-                    {
-                        "Crime/ Incident": "missing"
+                        "Information Taken From": "Crime/ Incident"
                     },
                     {
                         "Status": "Completed"
@@ -1070,6 +1055,172 @@
                     },
                     {
                         "Officer": "Tran, Alex"
+                    },
+                    {
+                        "Action Taken": "Firearm - Pointed At Subject"
+                    },
+                    {
+                        "Action Taken Useful": "Yes"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "CIT": "No"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Disciplinary Action": "None"
+                    },
+                    {
+                        "Included On Alert": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Case Number": "21-02471"
+                    },
+                    {
+                        "Date": "3/29/2021"
+                    },
+                    {
+                        "Time": "2046"
+                    },
+                    {
+                        "Assist": "Yes"
+                    },
+                    {
+                        "Agency": "UPD"
+                    },
+                    {
+                        "Information Taken From": "Crime/ Incident"
+                    },
+                    {
+                        "Status": "Completed"
+                    },
+                    {
+                        "Incident Reviewed By": "Bell, Rickey W."
+                    },
+                    {
+                        "Date Reviewed": "3/29/2021"
+                    },
+                    {
+                        "Drugs/Alcohol": "No"
+                    },
+                    {
+                        "Location": "1715 Melrose Village Circle"
+                    },
+                    {
+                        "City": "Urbana"
+                    },
+                    {
+                        "K-9": "No"
+                    },
+                    {
+                        "Crisis Intervention Related": "No"
+                    },
+                    {
+                        "Type Premises": "Wooded Area"
+                    },
+                    {
+                        "District": "missing"
+                    },
+                    {
+                        "Recorded On Camera": "Yes"
+                    },
+                    {
+                        "Camera": "Body Camera"
+                    },
+                    {
+                        "Type Situation": "Shooting"
+                    },
+                    {
+                        "Reason Force Used": "Officer Safety"
+                    },
+                    {
+                        "Officer Injured": "No"
+                    },
+                    {
+                        "Danger Factors": "Shooting Suspect"
+                    },
+                    {
+                        "Final Disposition": "Not Listed"
+                    },
+                    {
+                        "Verbal De-Escalation Attempted": "No"
+                    },
+                    {
+                        "Notes": "Entered on 4/13/2021 1:23:31 PM by jbclark."
+                    },
+                    {
+                        "Subject #": "1"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "No"
+                    },
+                    {
+                        "Address": "missing"
+                    },
+                    {
+                        "City": "missing"
+                    },
+                    {
+                        "Level Of Resistance": "Fleeing Suspect"
+                    },
+                    {
+                        "Subject Armed With": "Unknown"
+                    },
+                    {
+                        "Force Used": "None"
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "No"
+                    },
+                    {
+                        "Arrested For": "Not Stated"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "No"
+                    },
+                    {
+                        "Type Injuries": "missing"
+                    },
+                    {
+                        "Medical Aid": "No Notes"
+                    },
+                    {
+                        "Officer": "Leake, Daniel J."
                     },
                     {
                         "Action Taken": "Firearm - Pointed At Subject"

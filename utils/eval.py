@@ -101,6 +101,8 @@ def equal(a,b):
             return 1
         if(approx_equal(a,b) == 1):
             return 1
+    if(isinstance(a,str) and isinstance(b,str) and a.lower() == b.lower()):
+        return 1
     return 0
 
 def get_PR(results_kvs, truth_kvs):
@@ -222,9 +224,11 @@ def get_key_val_path(raw_path, approach):
     return path
 
 def eval_old_benchmark():
-    pdf_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/raw/complaints & use of force'
+    pdf_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/raw/certification'
     pdfs = scan_folder(pdf_folder_path,'.pdf')
     for pdf_path in pdfs:
+        if('munson' not in pdf_path.lower()):
+            continue
         print(pdf_path)
         #get result path
         result_path = get_key_val_path(pdf_path, '')#result path
@@ -232,8 +236,7 @@ def eval_old_benchmark():
         #get truth path
         truth_path = pdf_path.replace('raw','truths/key_value_truth').replace('.pdf','.json')
         print(truth_path)
-        if('Investigations_Redacted' not in truth_path):
-            continue
+        
         eval_one_doc(truth_path, result_path)
 
 if __name__ == "__main__":
