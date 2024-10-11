@@ -3,6 +3,14 @@ import pytesseract
 import pdfplumber
 import os 
 import json
+import boto3
+import pandas as pd
+from PIL import Image, ImageDraw
+from pdf2image import convert_from_path
+import os
+import key 
+
+
 """
 When extracting text from pdf documnet, we aim for a particular format. 
 Each sentence in the PDF should start on a new line, maintaining consistent spacing between phrases. 
@@ -237,9 +245,9 @@ def get_root_path():
     #print("Parent path:", parent_path)
     return parent_path
 
-def get_text_path(raw_path, mode):
+def get_text_path(raw_path, mode, approach = ''):
     text_path = raw_path.replace('raw','extracted')
-    text_path = text_path.replace('.pdf',mode)
+    text_path = text_path.replace('.pdf','_' + approach + mode)
     return text_path
 
 def write_phrase(path, phrases):
@@ -255,7 +263,7 @@ def write_dict(path, d):
     with open(path, 'w') as json_file:
         json.dump(d, json_file)
 
-def write_texts(data_folder, page_limit):
+def write_texts_plumber(data_folder, page_limit):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         print(path)
@@ -274,12 +282,127 @@ def write_texts(data_folder, page_limit):
         write_phrase(text_path, adjusted_phrases)
         write_dict(dict_path, phrases)
 
+def get_img(file_path):
+    return bytearray(open(file_path, 'rb').read())
+
+def get_text_from_path(file_path, client):
+    img = get_img(file_path)
+    return client.detect_document_text(
+        Document={'Bytes':img}
+    )
+
+def get_lines(image, blocks):
+    # Returns all blocks that are lines within a scanned text object.
+
+    lines = []
+    width, height = image.width, image.height
+    for block in blocks:
+        if block['BlockType'] != 'LINE':
+            continue
+        coords = []
+        for coord_map in block['Geometry']['Polygon']:
+            coords.append([coord_map['X']*width, coord_map['Y']*height])
+        coords = coords[0] + coords[2]
+        lines.append([block['Text'], coords])
+
+    return lines
+
+def get_doc_lines(doc_path, num_pages):
+    # Returns all blocks that are lines within a the scanned text objects of a PDF file path.
+
+    doc_lines = []
+    for page in range(num_pages):
+        file_path = doc_path + str(page)+'.jpg'
+        #print(file_path)
+        spec_image = Image.open(file_path)
+        text = get_text_from_path(file_path)
+        lines = get_lines(spec_image, text['Blocks'])
+        lines = [[page+1]+line for line in lines]
+        doc_lines += lines
+
+    return [[doc_line[0], doc_line[1]] + doc_line[2] for doc_line in doc_lines]
+
+def pdf_2_image(path, page_num, out_folder):
+    images = convert_from_path(path, first_page = 1, last_page = page_num)
+    size = min(page_num, len(images))
+    for i in range(size):
+        out_path = out_folder + str(i) + '.jpg'
+        images[i] = images[i].save(out_path)
+    return images
+
+def load_file_keys_aws():
+    keys = pd.read_csv('/Users/yiminglin/Documents/Codebase/credentials/textract_accessKeys.csv')
+    #load client
+    client = boto3.client('textract',
+                      region_name='us-west-1',
+                      aws_access_key_id=keys.iloc[0]['Access key ID'],
+                      aws_secret_access_key=keys.iloc[0]['Secret access key']
+                     )
+
+
+
+def create_folder(folder_path): 
+
+    # Check if the folder exists, if not, create it
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+        print(f"Folder '{folder_path}' created successfully.")
+    else:
+        print(f"Folder '{folder_path}' already exists.")
+
+def create_images_pipeline(raw_folder):
+    #create images per page in a given range for all pdfs in the specified folder 
+    paths = print_all_document_paths(raw_folder)
+    for path in paths:
+        print(path)
+        # if('releasable' not in path):
+        #     continue
+        text_path = get_text_path(path, '.txt', 'aws')
+        dict_path = get_text_path(path, '.json', 'aws')
+        image_folder_path = text_path.replace('.txt','_image/')
+
+        #print(text_path)
+        #print(dict_path)
+        print(image_folder_path)
+        number_of_pages = 15
+        create_folder(image_folder_path)
+        pdf_2_image(path,number_of_pages,image_folder_path)
+
+def phrase_extraction_aws(raw_folder):
+    paths = print_all_document_paths(raw_folder)
+    for path in paths:
+        print(path)
+        # if('releasable' not in path):
+        #     continue
+        text_path = get_text_path(path, '.txt', 'aws')
+        dict_path = get_text_path(path, '.json', 'aws')
+        image_folder_path = text_path.replace('.txt','_image/')
+
+        print(text_path)
+        print(dict_path)
+        
+        # phrases, raw_phrases = phrase_extract_v1(path, page_limit)
+        # adjusted_phrases = []
+        # for phrase in raw_phrases:
+        #     adjusted_phrase = adjust_phrase(phrase)
+        #     for p in adjusted_phrase:
+        #         if(len(p) == 0):
+        #             continue
+        #         adjusted_phrases.append(p)
+        # write_phrase(text_path, adjusted_phrases)
+        # write_dict(dict_path, phrases)
     
+    #pdf_2_image(file_path,number_of_pages,out_folder_path)
+    # doc_lines = get_doc_lines(out_folder_path, number_of_pages)
+    # doc_lines_df = pd.DataFrame(doc_lines, columns=['Page', 'Phrase', 'x1', 'y1', 'x2', 'y2'])
+    # doc_lines_df.to_csv(file_name+'.csv')
+
 
 if __name__ == "__main__":
     root_path = get_root_path()
     data_folder = root_path + '/data/raw'
     page_limit = 6 #number of page for data extraction
-    write_texts(data_folder,page_limit)
+    #write_texts_plumber(data_folder,page_limit)
+    create_images_pipeline(data_folder)
 
     
