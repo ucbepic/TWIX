@@ -966,18 +966,18 @@ def row_aligned(row1, row2, esp = 0.8):
             id1 += 1
         else:
             id2 += 1
-    #a key should not overlap with two values 
+    #a key should not overlap with two values: the reason is that some keys are seperated by a large phrase and thus the bounding box for a key might be fully accurate (larger than original) 
     #row1: key, row2: val
-    id1 = 0
-    id2 = 1
-    while(id1 < len(row1) and id2 < len(row2)):
-        if(is_overlap_vertically(row1[id1][1], row2[id2][1]) == 1 and is_overlap_vertically(row1[id1][1], row2[id2-1][1]) == 1):
-            return 0
-        #print(row1[id1][1][2], row2[id2][1][2])
-        if(row1[id1][1][2] < row2[id2][1][2]):
-            id1 += 1
-        else:
-            id2 += 1
+    # id1 = 0
+    # id2 = 1
+    # while(id1 < len(row1) and id2 < len(row2)):
+    #     if(is_overlap_vertically(row1[id1][1], row2[id2][1]) == 1 and is_overlap_vertically(row1[id1][1], row2[id2-1][1]) == 1):
+    #         return 0
+    #     #print(row1[id1][1][2], row2[id2][1][2])
+    #     if(row1[id1][1][2] < row2[id2][1][2]):
+    #         id1 += 1
+    #     else:
+    #         id2 += 1
 
     #write the percetage of keys that have the correspoinding unique value mapping
 

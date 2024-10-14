@@ -223,6 +223,10 @@ def adjust_phrase(phrase):
         #print(phrase)
         return [before_colon, after_colon]
     elif(phrase.count(':') == 0):
+        if('Date Assigned Racial Category / Type' in phrase):
+            return ['Date Assigned', 'Racial', 'Category / Type']
+        if('Disposition Completed Recorded On Camera' in phrase):
+            return ['Disposition', 'Completed', 'Recorded On Camera']
         return [phrase]
     elif(phrase.count(':') == 2):
         #special case
@@ -354,8 +358,7 @@ def phrase_extraction_aws(image_folder_path, num_pages, client):
         adjusted_phrase = adjust_phrase(phrase)
         bb = line[2]
         #print(adjusted_phrase)
-        if(len(adjusted_phrase) == 1):
-            p = adjusted_phrase[0]
+        for p in adjusted_phrase:
             if(p == ''):
                 continue
             raw_phrases.append(p)
@@ -363,50 +366,7 @@ def phrase_extraction_aws(image_folder_path, num_pages, client):
                 phrase_bb[p] = [bb]
             else:
                 phrase_bb[p].append(bb)
-        elif(len(adjusted_phrase) == 2):
-            p1 = adjusted_phrase[0]
-            p2 = adjusted_phrase[1]
-            if(p1 != ''):
-                raw_phrases.append(p1)
-                if(p1 not in phrase_bb):
-                    phrase_bb[p1] = [bb]
-                else:
-                    phrase_bb[p1].append(bb)
-            if(p2 != ''):
-                raw_phrases.append(p2)
-                if(p2 not in phrase_bb):
-                    phrase_bb[p2] = [bb]
-                else:
-                    phrase_bb[p2].append(bb)
-        elif(len(adjusted_phrase) == 4):
-            p1 = adjusted_phrase[0]
-            p2 = adjusted_phrase[1]
-            p3 = adjusted_phrase[2]
-            p4 = adjusted_phrase[3]
-            if(p1 != ''):
-                raw_phrases.append(p1)
-                if(p1 not in phrase_bb):
-                    phrase_bb[p1] = [bb]
-                else:
-                    phrase_bb[p1].append(bb)
-            if(p2 != ''):
-                raw_phrases.append(p2)
-                if(p2 not in phrase_bb):
-                    phrase_bb[p2] = [bb]
-                else:
-                    phrase_bb[p2].append(bb)
-            if(p3 != ''):
-                raw_phrases.append(p3)
-                if(p3 not in phrase_bb):
-                    phrase_bb[p3] = [bb]
-                else:
-                    phrase_bb[p3].append(bb)
-            if(p4 != ''):
-                raw_phrases.append(p4)
-                if(p4 not in phrase_bb):
-                    phrase_bb[p4] = [bb]
-                else:
-                    phrase_bb[p4].append(bb)
+
 
     return raw_phrases, phrase_bb
         #print(line)

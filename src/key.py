@@ -9,6 +9,8 @@ from model import model
 model_name = 'gpt4o'
 
 def get_relative_locations(path):
+    #get raw phrases path
+    path = get_extracted_path(path, 'aws')
     line_number = 0
     phrases = {}
     with open(path, 'r') as file:
@@ -33,9 +35,9 @@ def read_dict(file):
     return data 
 
 
-def get_extracted_path(path):
+def get_extracted_path(path, method = ''):
     path = path.replace('raw','extracted')
-    path = path.replace('.pdf','.txt')
+    path = path.replace('.pdf', '_' + method + '.txt')
     return path
 
 def get_extracted_image_path(path,page_id):
@@ -43,8 +45,8 @@ def get_extracted_image_path(path,page_id):
     path = path.replace('.pdf','_' + str(page_id) + '.jpg')
     return path
 
-def get_relative_location_path(extracted_path):
-    path = extracted_path[:-4] + '_relative_location.csv'
+def get_relative_location_path(extracted_path, method = ''):
+    path = extracted_path[:-4] + '_' + method + '_relative_location.csv'
     return path
 
 def perfect_match(v1,v2,k):
@@ -235,9 +237,9 @@ def get_keys(cluters, key_clusters):
         keys += cluters[key]
     return keys
 
-def get_result_path(raw_path):
+def get_result_path(raw_path, method = ''):
     path = raw_path.replace('data/raw','result')
-    path = path.replace('.pdf', '.txt')
+    path = path.replace('.pdf', '_' + method + '.txt')
     return path
 
 def get_key_val_path(raw_path, approach):
@@ -270,9 +272,15 @@ def get_truth_path(raw_path, meta):
     return path
 
 def key_prediction(pdf_path, result_path):
-    extracted_path = get_extracted_path(pdf_path)
-    reading_order_path = get_relative_location_path(extracted_path)
-    phrases = read_dict(reading_order_path)
+    extracted_path = get_extracted_path(pdf_path, 'aws')
+    #generate reading order vector
+    relative_locations = get_relative_locations(pdf_path)
+    reading_order_path = get_relative_location_path(extracted_path, 'aws')
+    print(reading_order_path)
+    write_dict(reading_order_path, relative_locations)
+
+    #predict keys
+    phrases = relative_locations
     mp, remap = perfect_align_clustering(phrases)
     candidate_key_clusters = candidate_key_clusters_selection(remap)
     key_clusters = clustering_group(phrases, remap, candidate_key_clusters, k=1)
@@ -297,9 +305,9 @@ if __name__ == "__main__":
     k=1
 
     for path in tested_paths:
-        id += 1
-        if(id != tested_id):
-            continue
-        #print(path)
+        print(path)
+        result_path = get_result_path(path, 'aws')
+        key_prediction(path, result_path)
+        #break
         
         

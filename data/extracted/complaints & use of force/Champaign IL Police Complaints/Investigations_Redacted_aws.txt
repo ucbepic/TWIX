@@ -5,9 +5,13 @@ Complaints By Date
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
-Disposition Completed Recorded On Camera
+Disposition
+Completed
+Recorded On Camera
 1/27/2008
 08-01
 Swenson, Jon
@@ -54,9 +58,13 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
-Disposition Completed Recorded On Camera
+Disposition
+Completed
+Recorded On Camera
 2/24/2008
 08-02
 Swan, Scott
@@ -115,9 +123,13 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
-Disposition Completed Recorded On Camera
+Disposition
+Completed
+Recorded On Camera
 3/5/2008
 08-03
 Paulus, Michael
@@ -177,9 +189,13 @@ Complaints By Date
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
-Disposition Completed Recorded On Camera
+Disposition
+Completed
+Recorded On Camera
 3/14/2008
 08-1101
 Swan, Scott
@@ -226,7 +242,9 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
 Disposition
 Completed
@@ -283,7 +301,9 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
 Disposition
 Completed
@@ -343,7 +363,9 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
 Disposition
 Completed
@@ -400,9 +422,13 @@ Complaints By Date
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
-Disposition Completed Recorded On Camera
+Disposition
+Completed
+Recorded On Camera
 3/22/2008
 08-04c
 Swenson, Jon
@@ -449,9 +475,13 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
-Disposition Completed Recorded On Camera
+Disposition
+Completed
+Recorded On Camera
 3/22/2008
 08-04d
 Swenson, Jon
@@ -497,9 +527,13 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
-Disposition Completed Recorded On Camera
+Disposition
+Completed
+Recorded On Camera
 4/10/2008
 08-1102
 Nearing, Holly
@@ -546,9 +580,13 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
-Disposition Completed Recorded On Camera
+Disposition
+Completed
+Recorded On Camera
 4/14/2008
 08-05
 Swenson, Jon
@@ -602,7 +640,9 @@ Complaints By Date
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
 Disposition
 Completed Recorded On Camera
@@ -652,7 +692,9 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
 Disposition
 Completed
@@ -709,7 +751,9 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
 Disposition
 Completed Recorded On Camera
@@ -763,7 +807,9 @@ Date
 Assigned
 Racial Category / Type
 Location Of Occurrence
-Disposition Completed Recorded On Camera
+Disposition
+Completed
+Recorded On Camera
 5/31/2008
 08-09
 Paulus, Michael
@@ -829,9 +875,13 @@ Complaints By Date
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
-Disposition Completed Recorded On Camera
+Disposition
+Completed
+Recorded On Camera
 6/7/2008
 08-10
 Yohnka, Brad
@@ -879,7 +929,9 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
 Disposition
 Completed
@@ -930,7 +982,9 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
 Disposition
 Completed
@@ -997,9 +1051,13 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
-Disposition Completed Recorded On Camera
+Disposition
+Completed
+Recorded On Camera
 7/13/2008
 08-13
 Swenson, Jon
@@ -1058,9 +1116,13 @@ Complaints By Date
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
-Disposition Completed Recorded On Camera
+Disposition
+Completed
+Recorded On Camera
 7/19/2008
 08-14
 Swan, Scott
@@ -1108,7 +1170,9 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
 Disposition
 Completed
@@ -1173,7 +1237,9 @@ No
 Date
 Number
 Investigator
-Date Assigned Racial Category / Type
+Date Assigned
+Racial
+Category / Type
 Location Of Occurrence
 Disposition
 Completed Recorded On Camera
