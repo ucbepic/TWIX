@@ -281,7 +281,7 @@ def get_root_path():
     #print("Parent path:", parent_path)
     return parent_path
 
-def get_text_path(raw_path, mode, approach = ''):
+def get_text_path(raw_path, mode, approach = 'plumber'):
     text_path = raw_path.replace('raw','extracted')
     text_path = text_path.replace('.pdf','_' + approach + mode)
     return text_path

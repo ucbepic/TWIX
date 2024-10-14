@@ -1,9 +1,10 @@
-import json
+import json,os
 import extract
 import numpy as np
 import scipy.stats
 import sys
 import networkx as nx
+import key 
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
 model_name = 'gpt4o'
@@ -263,13 +264,21 @@ def write_raw_response(result_path, content):
     with open(result_path, 'w') as file:
         file.write(content)
 
-def get_truth_path(raw_path, meta):
-    path = raw_path.replace('raw','truths/key_truth')
-    if(meta == 1):
-        path = path.replace('.pdf','_metadata.txt')
-    else:
-        path = path.replace('.pdf','.txt')
+def get_truth_path(raw_path):
+    path = raw_path.replace('raw','truths')
+    path = path.replace('.pdf','.json')
     return path
+
+def key_prediction_pipeline(data_folder):
+    paths = extract.print_all_document_paths(data_folder)
+    for path in paths:
+        result_path = get_result_path(path, 'aws')
+        truth_path = get_truth_path(path)
+        if not os.path.exists(truth_path):
+            continue
+        print(path)
+        key_prediction(path, result_path)
+        break
 
 def key_prediction(pdf_path, result_path):
     extracted_path = get_extracted_path(pdf_path, 'aws')
@@ -291,23 +300,9 @@ def key_prediction(pdf_path, result_path):
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
-    #print(root_path)
-    tested_paths = []
-    tested_paths.append(root_path + '/data/raw/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted.pdf')
-    tested_paths.append(root_path + '/data/raw/complaints & use of force/UIUC PD Use of Force/22-274.releasable.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/CT/DecertifiedOfficersRev_9622 Emilie Munson.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/IA/Active_Employment.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/MT/RptEmpRstrDetail Active.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
-
-    id = 0
-    tested_id = 6 #starting from 1
-    k=1
-
-    for path in tested_paths:
-        print(path)
-        result_path = get_result_path(path, 'aws')
-        key_prediction(path, result_path)
-        #break
+    data_folder = root_path + '/data/raw/benchmark1/'
+    
+    key_prediction_pipeline(data_folder)
+        
         
         
