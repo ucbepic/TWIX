@@ -1,0 +1,712 @@
+Grant
+Grant Project Start Date between 7/1/2013 and 6/30/2014
+Department
+A&S Dean's Office
+StatusApproved
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Awarded
+5319Ms. Melanie BentleyCommunicating STEM Research to a Broader Audience
+University of Kentucky
+$7,637
+Submitted
+1
+Approved
+1
+Pending
+0
+Declined
+0
+Total $
+$7,637
+Approved $
+$7,637
+Pending $
+$0
+Declined $
+$0
+Department
+Anthropology, Sociology, & Social Work
+StatusDeclined
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Requested
+5241Dr. Jennifer Wies
+Measuring Pathways to Food Insecurity in Appalachia
+National Science Foundation
+$157,412
+Modeling Social-Ecological and Political-Economic Influences
+Submitted
+1
+Approved
+0
+Pending
+0
+Declined
+1
+Total $
+$157,412
+Approved $
+$0
+Pending $
+$0
+Declined $
+$157,412
+Department
+Biological Sciences
+Friday, October 31, 2014
+Page 1 of 35
+StatusApproved
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Awarded
+5296Dr. Stephen RichterTemporal comparisons of genetic variation in the dusky
+Kentucky NSF EPSCoR
+$7,959
+gopher frog (Lithobates sevosus)
+5280Dr. Marcia Pierce
+Bridging the Gap
+ Appalachian Students in Biomedical
+University of Kentucky
+$206,183
+Research in Kentucky
+5314Dr. Robert FrederickWildlife Ecologist - Research Startup
+Kentucky Science and Technology Corporation
+$30,000
+5283Dr. David Brown
+Running Buffalo Clover and Deer Survey
+Blue Grass Army Depot
+$20,000
+5146Dr. Stephen RichterEnchancing Research Capacity in Appalachia
+ Research
+National Science Foundation
+$300,474
+Facilities for Lilley Cornett Woods Field Station
+5232Dr. Sherry Harrel
+Distribution, Movement and Ecology of Etheostoma sagitta
+United States Fish and Wildlife Service
+$22,000
+spilotum, the Kentucky Arrow Darter
+5300Dr. Stephen RichterEffects of interactions between Notophthalmus viridescens
+Kentucky Academy of Science
+$1,000
+and lithobates sylvaticus in a ridge-top wetland ecosystem
+5297Dr. Stephen RichterComparative Landscape Genetics of Amphibians Across a
+Kentucky NSF EPSCoR
+$4,358
+Ridge-Top Wetland Ecosystem
+5290Dr. Jarrod Thaxton
+Linking Theory and Practice to Overcome Barriers to
+Kentucky NSF EPSCoR
+$35,592
+Ecosystem Restoration
+5200Dr. Stephen RichterConservation genetics of gopher frogs in Alabama
+Alabama Division of Wildlife and Freshwater Fis
+$7,045
+5254Dr. David Brown
+Evaluation of Management Strategies for Long-Term
+Kentucky Natural Lands Trust
+$6,000
+Maintenance of Running Buffalo Clover (Trifolium
+stoloniferum) populations in Kentucky
+5189Dr. Amy Braccia
+Assessment of Hydrologic Functions in Combined Stream
+University of Louisville
+$59,732
+and Floodplain Restoration
+Friday, October 31, 2014
+Page 2 of 35
+5187Dr. Stephen RichterStatewide validation of the Kentucky Wetland Rapid
+Kentucky Division of Water
+$65,451
+Assessment Method (KY-WRAM) and Indices of Biotic
+Integrity
+5231Dr. Sherry Harrel
+Distribution, Movement and Ecology of Etheostoma sagitta
+Kentucky Department of Fish and Wildlife Resou
+$57,160
+spilotum, the Kentucky Arrow Darter
+5298Dr. David Hayes
+Molecular Analyses in Conjunction with Ongoing
+Missouri Department of Conservation
+$1,000
+Phylogenetics Research
+StatusDeclined
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Requested
+5301Dr. Gary Ritchison
+Vocal Responses of Blue Jays to Raptors
+ possible use of
+Kentucky Academy of Science
+$4,780
+referential alarm calls to convey information to conspecifics
+5179Dr. Stephen RichterDeveloping a genotyping tool for assisting the management of San Diego Zoo
+$0
+the critically endangered dusky gopher frog
+5182Dr. Stephen RichterReversing the Decline of an Eastern Grassland Indicator
+Texas Parks and Wildlife Department
+$22,008
+Species
+5302Dr. Gary Ritchison
+Provisioning Strateies of Male and Female American Kestrel
+ Kentucky Academy of Science
+$1,283
+Effects of Variation in the Intensity of Beggin by Nestlings
+5204Dr. Patrick Calie
+Dimensions: Collaborative Research: Convergent evolution
+National Science Foundation
+$40,424
+and chemotypic diversification of vertically transmitted plant-
+symbiotic fungi
+5305Dr. Stephen RichterEffects of interactions between Notophthalmus viridescens
+The Wetland Foundation
+$800
+and Lithobates sylvaticus in a ridge-top wetland system
+5310Dr. Brad Ruhfel
+Plastid Phlogenomics of Podostemaceae
+Oak Ridge Associated Universities
+$5,000
+5312Dr. Lindsay CalderoniPLA2beta a novel regulator of breast cancer tumor growth
+University of Louisville
+$112,000
+and metastasis
+5279Dr. Lindsay CalderonEnchancing Appalachian Undergraduate Education through American Heart Association
+$40,000
+Friday, October 31, 2014
+Page 3 of 35
+the Cardiovascular Summer Research Institute
+5100Dr. Patrick Calie
+Nonparametric Approaches to Estimate Phylogenetic Tree
+National Science Foundation
+$69,557
+Distributions
+StatusPending
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Requested
+5332Dr. Rebekah WaikelAn Early College Initiative to Retain Appalachian Students in Association of American College and Universitie
+$329,489
+STEM Fields
+5324Dr. Rebekah WaikelBridge Funding for Estrogen Mediated Regulation of miRNAs University of Louisville
+$69,996
+in Cardiac Remodeling
+Submitted
+27
+Approved
+15
+Pending
+2
+Declined
+10
+Total $
+$1,519,291
+Approved $
+$823,954
+Pending $
+$399,485
+Declined $
+$295,852
+Department
+Chemistry
+StatusApproved
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Awarded
+5285Dr. Tanea Reed
+The role of glutathione elevation in moderate traumatic brain Kentucky NSF EPSCoR
+$10,440
+injury
+5343Dr. Lori Wilson
+Startup Funds for Assistant Professor of Inorganic ChemistryKentucky Science and Technology Corporation
+$25,000
+5286Dr. Buchang Shi
+Towards understanding the mechanism of hydrocarbon
+Kentucky NSF EPSCoR
+$25,000
+synthesis on iron catalysts
+5365Dr. Lori Wilson
+The application of molecular beacons as a diagnostic
+Kentucky NSF EPSCoR
+$59,361
+mechanism for rapid SNP genotyping of highly degraded
+forensic samples
+Friday, October 31, 2014
+Page 4 of 35
+5307Dr. David CunninghamCoating Research
+Abbott Point-of-Care
+$25,000
+StatusDeclined
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Requested
+5320Dr. Tanea Reed
+A novel therapeutic treatment for lipid peroxidation reduction University of Louisville
+$49,981
+and gluathione elevation in moderate traumatic brain injury
+5373Dr. Lori Wilson
+The application of molecular beacons as a diagnostic
+University of Louisville
+$29,000
+mechanism for the rapid genotyping of InDels and SNPs
+5288Dr. David CunninghamCollaborative Research
+ In-situ measurements of
+National Science Foundation
+$231,244
+NanoMechanical forces in free-standing fibrous thin-film
+substrates to understand cell attachment, growth, and
+proliferation
+5161Dr. Buchang Shi
+Sugar production from low temperature pre-treated biomassKentucky Science and Technology Corporation
+$29,998
+5287Dr. Donghui Quan
+Chemical Modeling of Newly Detected Interstellar Nitro-
+University of Kentucky
+$36,856
+Prebiotic Modules
+5311Dr. Margaret NdinguriTargeting cancer cells using luteinizing hormone releasing
+University of Louisville
+$112,000
+hormone (LHRH) peptide moiety
+StatusPending
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Requested
+5328Dr. Tanea Reed
+A novel therapeutic treatment for lipid peroxidation reduction University of Louisville
+$69,919
+and gluthathione elevation in moderate traumatic brain injury.
+Submitted
+12
+Approved
+5
+Pending
+1
+Declined
+6
+Total $
+$703,799
+Approved $
+$144,801
+Pending $
+$69,919
+Declined $
+$489,079
+Friday, October 31, 2014
+Page 5 of 35
+Department
+Computer Science
+StatusDeclined
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Requested
+5158Dr. Mengkun Yang
+iPad Application for Assisting in Treatment of Children with
+WHAS Crusade for Children
+$3,046
+Autism Spectrum Disorders (ASD)
+Submitted
+1
+Approved
+0
+Pending
+0
+Declined
+1
+Total $
+$3,046
+Approved $
+$0
+Pending $
+$0
+Declined $
+$3,046
+Department
+English & Theatre
+StatusApproved
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Awarded
+5303Dr. Sally Martin
+EKU Writing Project
+Kentucky Department of Education
+$40,761
+5366Dr. Lisa Bosley
+Developmental Education Acceleration and Co-Requisite
+Council on Post-Secondary Education
+$17,704
+Models
+5255Dr. Sally Martin
+Professional Development in a High-Need School
+ Jackson
+National Writing Project
+$20,000
+County High School
+StatusDeclined
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Requested
+5275Dr. Richard Mott
+Textpeditions
+ Empowering Students to Create Map-Based, National Endowment for the Humanities
+$59,643
+Multimedia, Humanities-oriented Journeys
+Friday, October 31, 2014
+Page 6 of 35
+Department
+Submitted
+4
+Approved
+3
+Pending
+0
+Declined
+1
+Total $
+$138,108
+Approved $
+$78,465
+Pending $
+$0
+Declined $
+$59,643
+Department
+Foreign Languages & Humanities
+StatusApproved
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Awarded
+5340Dr. Abby PoffenbergerLatino Educational Advancement Program
+Kentucky Latino Educational Alliance
+$35,000
+StatusDeclined
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Requested
+5282Dr. Rachel WilliamsTournees Film Festival
+French American Cultural Exchange
+$1,800
+Submitted
+2
+Approved
+1
+Pending
+0
+Declined
+1
+Total $
+$36,800
+Approved $
+$35,000
+Pending $
+$0
+Declined $
+$1,800
+Department
+Geography & Geology
+StatusDeclined
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Requested
+5129Dr. Kelly Watson
+CHN
+ Honey bee decline, forage acess, and scaling
+University of Kentucky
+$22,995
+phenology to the pollinator across land covers in Eastern
+Kentucky
+Friday, October 31, 2014
+Page 7 of 35
+Department
+Submitted
+1
+Approved
+0
+Pending
+0
+Declined
+1
+Total $
+$22,995
+Approved $
+$0
+Pending $
+$0
+Declined $
+$22,995
+Department
+Government
+StatusApproved
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Awarded
+5294Dr. William HatcherRegional Broadband Plans and Promotion in the East Region
+ The Commonwealth Office of Technology
+$67,773
+E-Government
+Submitted
+1
+Approved
+1
+Pending
+0
+Declined
+0
+Total $
+$67,773
+Approved $
+$67,773
+Pending $
+$0
+Declined $
+$0
+Department
+Mathematics & Statistics
+StatusDeclined
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Requested
+5144Dr. Yong Wang
+Boundary Estimation of Spatial Data with an Application to
+North Dakota State University
+$41,462
+Disease Incidents
+Submitted
+1
+Approved
+0
+Pending
+0
+Declined
+1
+Total $
+$41,462
+Approved $
+$0
+Pending $
+$0
+Declined $
+$41,462
+Friday, October 31, 2014
+Page 8 of 35
+StatusDeclined
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Requested
+5195Dr. Marco Ciocca
+The Global Response of the Thermospheric Neautral Winds University of Michigan
+$15,000
+to Storm Forcing and the Resulting Effect on the Ionsphere
+5299Dr. Marco Ciocca
+EKU Observatory
+ Astrometry and Photometry of PHAs
+University of Kentucky
+$39,952
+Submitted
+2
+Approved
+0
+Pending
+0
+Declined
+2
+Total $
+$54,952
+Approved $
+$0
+Pending $
+$0
+Declined $
+$54,952
+Department
+Psychology
+StatusApproved
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Awarded
+5154Dr. Myra Beth BundyEastern Kentucky University Developmental Disabilities Clinic WHAS Crusade for Children
+$4,000
+Autism Social Groups
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Requested
+5193Dr. Jonathan S. GoreRelational Motivation in Goal Pursuit
+National Science Foundation
+$50,281
+5276Dr. Jaime Henning
+Development and Evaluation of Psych 360 - A Graduate
+American Psychological Association
+$7,697
+Student Psychology Performance Assessment Tool
+Submitted
+3
+Approved
+1
+Pending
+0
+Declined
+2
+Total $
+$61,978
+Approved $
+$4,000
+Pending $
+$0
+Declined $
+$57,978
+Friday, October 31, 2014
+Page 9 of 35
+College
+Submitted
+56
+Approved
+27
+Pending
+3
+Declined
+26
+Total $
+$2,815,253
+Approved $
+$1,161,630
+Pending $
+$469,404
+Declined $
+$1,184,219
+Department
+Applied Engineering and Technology
+StatusApproved
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Awarded
+5191Dr. William E. DavisProfessional Development for Teacher Educators in Career Office of Career and Technical Education
+$12,750
+and Technical Education
+5186Dr. William E. DavisField Based Teacher Education
+Office of Career and Technical Education
+$65,000
+Submitted
+2
+Approved
+2
+Pending
+0
+Declined
+0
+Total $
+$77,750
+Approved $
+$77,750
+Pending $
+$0
+Declined $
+$0
+Department
+CBT Dean's Office
+StatusApproved
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Awarded
+5322Dr. William E. DavisPerkins Leadership Carry Forward
+ Professional
+Office of Career and Technical Education
+$2,074
+Development for Technical Education Personnel
+Friday, October 31, 2014
+Page 10 of 35
+Department
+Submitted
+1
+Approved
+1
+Pending
+0
+Declined
+0
+Total $
+$2,074
+Approved $
+$2,074
+Pending $
+$0
+Declined $
+$0
+Department
+CEDET
+StatusApproved
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Awarded
+5068Ms. Kristel Smith
+Eastern Kentucky Region Innovation and Commercialization Kentucky Science and Technology Corporation
+$175,000
+Center
+Submitted
+1
+Approved
+1
+Pending
+0
+Declined
+0
+Total $
+$175,000
+Approved $
+$175,000
+Pending $
+$0
+Declined $
+$0
+Department
+Center for Economic Development, Entrepreneurship &
+Technology
+StatusApproved
+GrantIDDirector
+Grant Title
+Agency Name
+Amount Awarded
+5209Dr. Tamara Horn
+Apiforestation
+James River Coal
+$9,000
+5248Mr. Jason Rainey
+EKU Small Business Development Center
+University of Kentucky
+$96,000
+5173Mr. Ian Mooers
+CEDET Technical Training Program
+United States Department of Agriculture
+$45,267
+5210Dr. Tamara Horn
+Apiforestation
+ Kids and Bees Project
+Spencer Construction
+$10,000
+5252Mr. Jason Rainey
+EKU Small Business Development Center (HB 145 Funds)
+University of Kentucky
+$13,500
+Friday, October 31, 2014
+Page 11 of 35

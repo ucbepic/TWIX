@@ -1,0 +1,79 @@
+Katz Communications • Katz Media Group Inc
+125 W. 55th St., New York, New York 10019
+212-424-6528
+Cardholder Contact Information
+Cardholder Name
+Robert Kahn
+Bill To Address
+900 Circle 75 Parkway Suite 1650
+Atlanta, Georgia 30339
+Cardholder Phone
+Cardholder Email
+Customer Name
+Canal Partners
+Transaction Type
+Transaction Type
+Authorize And Capture
+Transaction Status
+Submitted
+Created Date:8/1/2018 2:53:24 PM EDT
+Authorization Date:8/1/2018 2:53:25 PM EDT
+Capture Date:8/1/2018 2:53:25 PM EDT
+Authorization Code
+228409
+AVS Address
+Matched
+AVS Zip
+Matched
+Credit Card Information
+Name On Card
+Robert Kahn
+Card Brand
+AMEX
+Card Number
+xxxx-xxxxxx-x2004
+Security Code Status
+Provided
+Security Code Response
+Matched
+Tracking Information
+Customer Ref Value
+Order Number
+Invoice Number
+Invoice Date
+Ship From Postal Code
+10019
+Shipping Company
+None
+Tracking Number
+Transaction Totals
+Product Code
+Description
+UOM Code
+CMDTY Code
+QTY
+AMT
+EXT AMT
+080118-2
+Communication Workers of
+EA
+80140000
+1.00
+$187,791.35
+$187,791.35
+America 8.2-8.15
+Sub-Total
+$187,791.35
+Sales Tax
+$0.00
+Freight Amount
+$0.00
+Freight Tax
+$0.00
+Duty Amount
+$0.00
+Total (USD) 
+$187,791.35
+This receipt is for informational use only and is not intended to serve as or replace any official tax document.
+Katz Communications uses advanced payment processing services provided by WEX Inc. www.wexinc.com.
+8/1/2018 2:53:29 PM EDT

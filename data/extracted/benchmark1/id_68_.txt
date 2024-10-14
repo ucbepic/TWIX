@@ -1,0 +1,395 @@
+Contract #27061923
+Changes as of:9/9/2020 at 11:38 AM
+Version
+Current State Version 1
+CPE
+//6267
+Flight
+9/21/20 - 9/27/20
+Station
+KBJR
+Con Type
+POLITICAL/VOTE
+Agency
+SCREEN
+Advertiser
+Tina Smith for MN
+Market
+Duluth-Superior
+Total $
+$23,350.00
+STRATEGIES ME
+Senate
+SCREEN
+Product
+Candidate
+Office
+WASHINGTON
+Total Spots
+99
+STRATEGIES MEDIA
+11150 FAIRFAX BLVD
+SUITE 505 FAIRFAX
+VA 22030
+125 West 55th St
+Agency Order #
+Service
+Nielsen
+Total CPP
+$0.00
+New York, NY 10019
+Buyer
+Carolilne Wait
+Primary Demo
+Adults 35+
+Total GRP
+Salesperson
+JENNA NUBAR
+Assistant
+JENNA NUBAR
+Traffic #
+587398
+202-872-5880
+202-872-5880
+Separation
+Comments
+Kickback Orders
+9/21 - 9/27
+Total
+Total
+A35P
+#Day/Time
+DPProgram
+Rate
+Len9/219/229/239/249/259/269/27
+Spots
+$CPP*GRP*
+Rating
+M-F
+15a-5
+30a
+EM5a News
+$60.000.0301111100
+5$300.00$0.00
+0.0
+M-F
+25
+30a-6a
+EM530a News
+$80.000.0301111100
+5$400.00$0.00
+0.0
+M-F
+36a-6
+30a
+EM6a News
+$150.000.0301111100
+5$750.00$0.00
+0.0
+M-F
+46
+30a-7a
+EM630a News
+$180.000.0301111100
+5$900.00$0.00
+0.0
+M-F
+57a-8a
+EMToday Show
+$200.000.0301111100
+5$1,000.00$0.00
+0.0
+M-F
+68a-9a
+EMToday Show
+$75.000.0301111100
+5$375.00$0.00
+0.0
+Sa
+76a-6
+30a
+EMSa 6a News
+$25.000.0300000010
+1
+$25.00$0.00
+0.0
+Sa
+86
+30a-7a
+EMSa 630a News
+$25.000.0300000010
+1
+$25.00$0.00
+0.0
+Sa
+97a-9a
+EMSat Today
+$50.000.0300000010
+1
+$50.00$0.00
+0.0
+Su
+106a-6
+30a
+EMSun 6a News
+$25.000.0300000001
+1
+$25.00$0.00
+0.0
+Su
+116
+30a-7a
+EMSu 630a News
+$25.000.0300000001
+1
+$25.00$0.00
+0.0
+Su
+127a-8a
+EMSun Today
+$50.000.0300000001
+1
+$50.00$0.00
+0.0
+M-F
+139a-10a
+DYToday II
+$100.000.0301001100
+3$300.00$0.00
+0.0
+M-F
+1410a-11a
+DYToday III
+$50.000.0300110000
+2$100.00$0.00
+0.0
+M-F
+1511a-12n
+DYThe Jason Show
+$50.000.0301101100
+4$200.00$0.00
+0.0
+M-F
+1612n-12
+30p
+DYNoon News
+$300.000.0301011100
+4$1,200.00$0.00
+0.0
+M-F
+171p-2p
+DYDays of Our Lives
+$100.000.0300100000
+1$100.00$0.00
+0.0
+M-F
+182p-2
+30p
+DYHot Bench
+$50.000.0300010000
+1
+$50.00$0.00
+0.0
+Printed on 09/10/2020 at 02
+27 PM | * Stats based on Primary Demo
+Page 1 of 2
+Contract #27061923
+Changes as of:9/9/2020 at 11:38 AM
+Version
+Current State Version 1
+CPE
+//6267
+Flight
+9/21/20 - 9/27/20
+Station
+KBJR
+Con Type
+POLITICAL/VOTE
+Agency
+SCREEN
+Advertiser
+Tina Smith for MN
+Market
+Duluth-Superior
+Total $
+$23,350.00
+STRATEGIES ME
+Senate
+SCREEN
+Product
+Candidate
+Office
+WASHINGTON
+Total Spots
+99
+STRATEGIES MEDIA
+11150 FAIRFAX BLVD
+SUITE 505 FAIRFAX
+VA 22030
+125 West 55th St
+Agency Order #
+Service
+Nielsen
+Total CPP
+$0.00
+New York, NY 10019
+Buyer
+Carolilne Wait
+Primary Demo
+Adults 35+
+Total GRP
+Salesperson
+JENNA NUBAR
+Assistant
+JENNA NUBAR
+Traffic #
+587398
+202-872-5880
+202-872-5880
+Separation
+9/21 - 9/27
+Total
+Total
+A35P
+#Day/Time
+DPProgram
+Rate
+Len9/219/229/239/249/259/269/27
+Spots
+$CPP*GRP*
+Rating
+M-F
+192
+30p-3p
+DYHot Bench
+$50.000.0301001000
+2$100.00$0.00
+0.0
+M-F
+203p-4p
+EFDr. Phil
+$100.000.0300110100
+3$300.00$0.00
+0.0
+M-F
+214p-4
+30p
+EFJudge Judy
+$150.000.0301101100
+4$600.00$0.00
+0.0
+M-F
+224
+30p-5p
+EFJudge Judy
+$200.000.0301111100
+5$1,000.00$0.00
+0.0
+M-F
+235p-5
+30p
+EN5p News
+$250.000.0301111100
+5$1,250.00$0.00
+0.0
+M-F
+246p-6
+30p
+EN6p News
+$400.000.0301111100
+5$2,000.00$0.00
+0.0
+Sa
+256p-6
+30p
+ENSat 6p
+$100.000.0300000010
+1$100.00$0.00
+0.0
+M-F
+266
+30p-7p
+PAWheel of Fortune
+$800.000.0301111100
+5$4,000.00$0.00
+0.0
+Sa
+276
+30p-7p
+PAWheel of Fortune
+$75.000.0300000010
+1
+$75.00$0.00
+0.0
+M
+289p-10p
+PRDateline
+$150.000.0301000000
+1$150.00$0.00
+0.0
+Tu
+$1,500.
+297p-9p
+PRAGT
+000.0300100000
+1$1,500.00$0.00
+0.0
+W
+$1,500.
+307p-8p
+PRAGT
+000.0300010000
+1$1,500.00$0.00
+0.0
+Th
+319p-10p
+PRLaw & Order
+ SUV
+$750.000.0300001000
+1$750.00$0.00
+0.0
+Sa
+327p-9p
+PRDateline
+$500.000.0300000010
+1$500.00$0.00
+0.0
+M-F
+3310p-10
+35p
+LN10p News
+$400.000.0301111100
+5$2,000.00$0.00
+0.0
+Sa
+3410p-10
+30p
+LNSat 10p News
+$600.000.0300000010
+1$600.00$0.00
+0.0
+Su
+3510
+30p-11p
+LNSun 1030p News
+$600.000.0300000001
+1$600.00$0.00
+0.0
+M-F
+3610:35p-11:35pLFTonight Show
+$100.000.0301101100
+4$400.00$0.00
+0.0
+M-F
+3711:35p-12:35aLFSeth Meyers
+$50.000.0300010000
+1
+$50.00$0.00
+0.0
+TOTALS
+181817181774
+99$23,350.00$0.00
+0.0
+Printed on 09/10/2020 at 02
+27 PM | * Stats based on Primary Demo
+Page 2 of 2

@@ -1,0 +1,110 @@
+Key
+New Traffic Order Form
+Date
+07/09/2020
+Station
+WHOP
+Customer Information
+Name
+One Nation
+Owner Name
+Media Financial Services
+Address
+invoices@MediaFinancial.com
+Owner Address
+invoices@MediaFinancial.com
+City, State, ZIP
+on file AL 00000
+City, State, ZIP
+on file AL 00000
+Phone
+0000000000
+Owner Phone
+0000000000
+Contact Name
+Media Financial Services -- Linley Grande
+Order Information
+Order #
+est 5419
+Cart #
+will assign
+Product Name
+x
+Co-opt Product
+x
+Promotion
+political -- contract# 4383527
+Program
+x
+Script?
+No
+Co-opt Script
+x
+Billing Type
+Standard Billing
+Category
+Agency
+Spots Total
+$1200.00
+Digital Total
+$0.00
+Total Spots
+35
+Total Money Owed
+$1200.00
+Notes
+Spots
+AM/FMRateLengthStart DateEnd DateStart TimeEnd TimeMTWThFSaSuTotal SpotsSubtotal
+FM
+40
+60
+2020-08-252020-08-3106:00:0010:00:00333330015
+$600
+FM
+30
+60
+2020-08-252020-08-3110:00:0015:00:00222220010
+$300
+FM
+30
+60
+2020-08-252020-08-3115:00:0019:00:00222220010
+$300
+Monthly Totals
+2020
+January
+$0
+February
+$0
+March
+$0
+April
+$0
+May
+$0
+June
+$0
+July
+$0
+August
+$960
+September
+$240
+October
+$0
+November
+$0
+December
+$0
+Employee Signature
+Customer Signature
+X
+X
+Printed Name
+ Traci L Mason
+Printed Name
+ Traci L Mason
+If a Customer's account is placed for collection with a third-party collection agency, the Customer agrees to pay a collection fee in the amount of the greater of $25 or 25%,
+of the amount placed for collection, and any attorney fees incurred.
+Forcht Broadcasting Inc and Radio Station(s) WHOP (the "Station(s)") do not and will not discriminate, in any way on the basis of race or ethnicity, with respect to its (their)
+advertising practices. No advertiser may use the Station(s) to discriminate

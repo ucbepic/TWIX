@@ -1,0 +1,606 @@
+Page1of2
+Property
+WMGL-FM
+WMGL-FM
+Invoice #
+AA3618454
+Order #
+1012206
+4230 Faber Place Dr., Ste 100
+Invoice Date
+09/10/23
+Alt Order #
+North Charleston, SC 29405
+Invoice MonthSeptember 2023Deal #
+Main
+ (843) 277-1216
+Invoice Period09/01/23 - 09/05/23Flight Dates09/02/23 - 09/05/23
+Billing
+Advertiser
+Moore/D/State Representative
+Product
+Senate District 42 race
+Estimate #
+Account ExecutiveCynthia Alston Bell
+Billing Address
+Sales Office
+Local-Charleston SC
+Sales Region
+Local
+Moore/D/State Representative
+Agency Code
+Attention
+ J.A. Moore
+Advertiser Code
+7752 Desoto Drive
+North Charleston, SC 29420
+Billing Calendar
+Calendar
+Billing Type
+Cash
+Special Handling
+Agency Ref
+Send Payment To
+Advertiser Ref
+WMGL-FM
+Product 1
+Cumulus Media- Charleston
+Product 2
+3635 Momentum Place
+Chicago, IL 60689-5336
+Billing Inquiries
+ cmls.ar@cumulus.com
+WO Payments Quick Pay Link
+payments.wocentral.com/find
+Quick Pay Code
+84DAWLA3XE
+Spots/
+Line Start Date End Date Description
+Start/End Time
+MTWTFSS
+LengthWeek
+Rate Type
+109/02/2309/03/23Sa-Su
+6a-10a
+-----22
+30
+4
+$20.00NM
+Weeks
+ Start Date End DateMTWTFSS
+Spots/Week
+Rate
+08/28/2309/03/23-----22
+4
+$20.00
+Spots
+ #ChDayAir DateAir TimeDescription
+Start/End TimeLengthAd-ID
+RateType
+5WMGLSa09/02/238
+59 AMSa-Su
+6a-10a
+30
+MOORE SPOT 1
+$20.00NM
+3WMGLSa09/02/239
+29 AMSa-Su
+6a-10a
+30
+MOORE SPOT 2
+$20.00NM
+2WMGLSu09/03/236
+09 AMSa-Su
+6a-10a
+30
+MOORE SPOT 1
+$20.00NM
+4WMGLSu09/03/237
+05 AMSa-Su
+6a-10a
+30
+MOORE SPOT 2
+$20.00NM
+209/02/2309/03/23Sa-Su
+10a-3p
+-----21
+30
+3
+$20.00NM
+Weeks
+ Start Date End DateMTWTFSS
+Spots/Week
+Rate
+08/28/2309/03/23-----21
+3
+$20.00
+Spots
+ #ChDayAir DateAir TimeDescription
+Start/End TimeLengthAd-ID
+RateType
+4WMGLSa09/02/232
+38 PMSa-Su
+10a-3p
+30
+MOORE SPOT 1
+$20.00NM
+5WMGLSa09/02/232
+57 PMSa-Su
+10a-3p
+30
+MOORE SPOT 2
+$20.00NM
+6WMGLSu09/03/2310
+22 AMSa-Su
+10a-3p
+30
+MOORE SPOT 1
+$20.00NM
+309/02/2309/03/23Sa-Su
+3p-7p
+-----22
+30
+4
+$20.00NM
+Weeks
+ Start Date End DateMTWTFSS
+Spots/Week
+Rate
+08/28/2309/03/23-----22
+4
+$20.00
+Spots
+ #ChDayAir DateAir TimeDescription
+Start/End TimeLengthAd-ID
+RateType
+3WMGLSa09/02/233
+37 PMSa-Su
+3p-7p
+30
+MOORE SPOT 1
+$20.00NM
+5WMGLSa09/02/233
+57 PMSa-Su
+3p-7p
+30
+MOORE SPOT 2
+$20.00NM
+4WMGLSu09/03/233
+55 PMSa-Su
+3p-7p
+30
+MOORE SPOT 2
+$20.00NM
+6WMGLSu09/03/234
+33 PMSa-Su
+3p-7p
+30
+MOORE SPOT 1
+$20.00NM
+409/04/2309/05/23M-F
+6a-10a
+MT-----
+30
+4
+$20.00NM
+Weeks
+ Start Date End DateMTWTFSS
+Spots/Week
+Rate
+09/04/2309/10/23MT-----
+4
+$20.00
+Spots
+ #ChDayAir DateAir TimeDescription
+Start/End TimeLengthAd-ID
+RateType
+3WMGLM09/04/236
+18 AMM-F
+6a-10a
+30
+MOORE SPOT 2
+$20.00NM
+Effective May 15, 2023, except where prohibited by law, we will impose a 2.0% administrative fee on all credit card payments.
+powered by WideOrbit
+Page1of5
+Property
+KCCI
+KCCI
+Invoice #
+2259004-1
+Order #
+2259004
+888 - 9th Street
+Invoice Date
+09/18/22
+Alt Order #10370918
+Des Moines, IA 50309
+Invoice MonthSeptember 2022Deal #
+Main
+ (515)247-8888
+Invoice Period08/29/22 - 09/12/22Flight Dates09/06/22 - 09/12/22
+Billing
+ (704)208-2350
+Advertiser
+House Majority
+Product
+HOUSE MAJORITY PAC ANTI NUNN
+www.kcci.com
+Estimate #
+10491
+Account ExecutiveMary Tricoli
+Billing Address
+Sales Office
+HRP -Washington DC
+Sales Region
+National
+Waterfront Strategies
+Agency Code
+9914573
+Attention
+ Accounts Payable
+Advertiser Code
+79
+3050 K Street NW
+Washington, DC 20007
+Billing Calendar
+Broadcast
+Billing Type
+Cash
+Special Handling
+Agency Ref
+Send Payment To
+Advertiser Ref
+KCCI
+Product 1
+86
+PO Box 14556
+Product 2
+Des Moines, IA 50306-3556
+Spots/
+Line Start Date End Date Description
+Start/End Time
+MTWTFSS
+LengthWeek
+Rate Type
+109/06/2209/12/22M-F News CH8 @ 6-7A6-7A
+MTWTF--
+30
+3
+$1,000.00NM
+Class of Time - Non Pre-emptible
+Weeks
+ Start Date End DateMTWTFSS
+Spots/Week
+Rate
+09/06/2209/12/22MTWTF--
+3
+$1,000.00
+Spots
+ #ChDayAir DateAir TimeDescription
+Start/End TimeLengthAd-ID
+RateType
+3KCCITu09/06/226
+29 AMM-F News CH8 @ 6-7A
+6-7A
+30
+HMP22IA03T01H
+$1,000.00NM
+1KCCIW09/07/226
+13 AMM-F News CH8 @ 6-7A
+6-7A
+30
+HMP22IA03T01H
+$1,000.00NM
+2KCCIF09/09/226
+14 AMM-F News CH8 @ 6-7A
+6-7A
+30
+HMP22IA03T01H
+$1,000.00NM
+209/06/2209/12/22The Early Show 7-8a7-8A
+MTWTF--
+30
+3
+$1,100.00NM
+Class of Time - Non Pre-emptible
+Weeks
+ Start Date End DateMTWTFSS
+Spots/Week
+Rate
+09/06/2209/12/22MTWTF--
+3
+$1,100.00
+Spots
+ #ChDayAir DateAir TimeDescription
+Start/End TimeLengthAd-ID
+RateType
+1KCCITu09/06/227
+39 AMThe Early Show 7-8a
+7-8A
+30
+HMP22IA03T01H
+$1,100.00NM
+3KCCIW09/07/227
+58 AMThe Early Show 7-8a
+7-8A
+30
+HMP22IA03T01H
+$1,100.00NM
+2KCCIM09/12/227
+25 AMThe Early Show 7-8a
+7-8A
+30
+HMP22IA03T01H
+$1,100.00NM
+309/06/2209/12/22The Early Show
+8-9A
+MTWTF--
+30
+3
+$700.00NM
+Class of Time - Non Pre-emptible
+Weeks
+ Start Date End DateMTWTFSS
+Spots/Week
+Rate
+09/06/2209/12/22MTWTF--
+3
+$700.00
+Spots
+ #ChDayAir DateAir TimeDescription
+Start/End TimeLengthAd-ID
+RateType
+1KCCITu09/06/228
+17 AMThe Early Show
+8-9A
+30
+HMP22IA03T01H
+$700.00NM
+3KCCIW09/07/228
+58 AMThe Early Show
+8-9A
+30
+HMP22IA03T01H
+$700.00NM
+2KCCIM09/12/228
+54 AMThe Early Show
+8-9A
+30
+HMP22IA03T01H
+$700.00NM
+409/10/2209/10/22News CH8 TH Morn-Sat SAT 8-9A
+-----1-
+30
+1
+$1,000.00NM
+8-9A
+Class of Time - Non Pre-emptible
+Weeks
+ Start Date End Date
+MTWTFSS
+Spots/Week
+Rate
+09/05/2209/11/22-----1-
+1
+$1,000.00
+Spots
+ #ChDayAir DateAir TimeDescription
+Start/End TimeLengthAd-ID
+RateType
+1KCCISa09/10/228
+13 AMNews CH8 TH Morn-Sat 8-9ASAT 8-9A
+30
+HMP22IA03T01H
+$1,000.00NM
+509/11/2209/11/22CBS Sunday MorningSun 8-930a
+------1
+30
+1
+$1,800.00NM
+Class of Time - Non Pre-emptible
+This invoice is subject to the Standard Terms and Conditions for Purchase of Broadcast Advertising, which can be reviewed at the following URL
+https
+//www.hearst.com/-/hearst-television-broadcast-terms-conditions
+powered by WideOrbit
+Page1of3
+Property
+WKYC
+WKYC
+Invoice #
+2097094-1
+Order #
+2097094
+1333 Lakeside Ave
+Invoice Date
+11/08/20
+Alt Order #WOC12736508
+Cleveland, OH 44114
+Invoice MonthNovember 2020
+Deal #
+Main
+ (216)344-3333
+Invoice Period10/26/20 - 11/03/20Flight Dates10/27/20 - 11/03/20
+Billing
+Advertiser
+POL/ Matt Dolan / RSCC / R / St Senate/ OH
+Product
+Dolan 10/27-11/3
+www.wkyc.com
+Estimate #
+2357
+Account ExecutiveAleesha Maewall
+Billing Address
+Sales Office
+TEGNA Sales Washington DC
+Sales Region
+National
+SRCP Media, Inc/ POL
+Agency Code
+Attention
+ Betsy Vonderheid
+Advertiser Code
+128
+201 North Union Street, Suite 200
+Alexandria, VA 22314
+Billing Calendar
+Broadcast
+Billing Type
+Cash
+Special Handling
+Agency Ref
+9989AG
+Send Payment To
+Advertiser Ref
+104584
+WKYC
+Product 1
+782
+WKYC
+Product 2
+PO BOX
+ 637386
+Cincinnati, OH 45263-7386
+Spots/
+Line Start Date End Date Description
+Start/End Time
+MTWTFSS
+LengthWeek
+Rate Type
+110/27/2011/02/20TODAY SHOW
+7-9a
+MTWTF--
+30
+10
+$800.00NM
+Weeks
+ Start Date End DateMTWTFSS
+Spots/Week
+Rate
+10/27/2011/02/20MTWTF--
+10
+$800.00
+Spots
+ #ChDayAir DateAir TimeDescription
+Start/End TimeLengthAd-ID
+RateType
+9WKYCTu10/27/207
+22 AMTODAY SHOW
+7-9a
+30
+MD20TV02H
+$800.00NM
+1WKYCTu10/27/208
+53 AMTODAY SHOW
+7-9a
+30
+MD20TV02H
+$800.00NM
+2WKYCW10/28/206
+58 AMTODAY SHOW
+7-9a
+30
+MD20TV02H
+$800.00NM
+10WKYCW10/28/208
+33 AMTODAY SHOW
+7-9a
+30
+MD20TV02H
+$800.00NM
+3WKYCTh10/29/207
+57 AMTODAY SHOW
+7-9a
+30
+MD20TV02H
+$800.00NM
+7WKYCTh10/29/208
+41 AMTODAY SHOW
+7-9a
+30
+MD20TV02H
+$800.00NM
+4WKYCF10/30/207
+58 AMTODAY SHOW
+7-9a
+30
+MD20TV02H
+$800.00NM
+8WKYCF10/30/208
+29 AMTODAY SHOW
+7-9a
+30
+MD20TV02H
+$800.00NM
+5WKYCM11/02/206
+59 AMTODAY SHOW
+7-9a
+30
+MD20TV02H
+$800.00NM
+6WKYCM11/02/208
+59 AMTODAY SHOW
+7-9a
+30
+MD20TV02H
+$800.00NM
+211/03/2011/03/20TODAY SHOW TUESDA7-9a
+-T-----
+30
+2
+$800.00NM
+Y
+Weeks
+ Start Date End DateMTWTFSS
+Spots/Week
+Rate
+11/02/2011/08/20-T-----
+2
+$800.00
+Spots
+ #ChDayAir DateAir TimeDescription
+Start/End TimeLengthAd-ID
+RateType
+2WKYCTu11/03/207
+19 AMTODAY SHOW TUESDAY
+7-9a
+30
+MD20TV02H
+$800.00NM
+1WKYCTu11/03/208
+51 AMTODAY SHOW TUESDAY
+7-9a
+30
+MD20TV02H
+$800.00NM
+310/27/2011/02/203 NEWS M-F 6PM
+6p-630p
+MTWTF--
+30
+5
+$1,500.00NM
+Weeks
+ Start Date End DateMTWTFSS
+Spots/Week
+Rate
+10/27/2011/02/20MTWTF--
+5
+$1,500.00
+Spots
+ #ChDayAir DateAir TimeDescription
+Start/End TimeLengthAd-ID
+RateType
+Standard Terms
+ If you are purchasing broadcast spot advertising, station website advertising, or OTT advertising from a TEGNA national seller or TEGNA broadcast station, the transaction is subject to the TEGNA
+Standard Advertising Terms and Conditions (“TEGNA Terms”), which are available at http
+//bit.ly/2eyrbCA, as well as on the Advertise page from the Connect menu of the Station’s website. If you are purchasing
+only OTT advertising directly from Premion and not from a local station, the transaction is subject to the Premion Standard Advertising Terms and Conditions (“Premion Terms”), which are available at
+https
+//premion.com/advertising-terms-and-conditions/.
+You will be deemed to have accepted the TEGNA Terms or Premion Terms, as applicable, upon the earliest of (i) the date the campaign contemplated by this Contract first launches, or (ii) the date on which you
+pay any amounts specified on an invoice related to this Contract. We warrant that the actual broadcast information shown on our invoice was taken from the program log. We warrant spots are posted within two
+minutes of actual airtime.
+Non-Discrimination
+ TEGNA, its stations and Premion do not discriminate in advertising contracts on the basis of race, gender or ethnicity. Any provision in any order or agreement for advertising that purports to
+discriminate on the basis of race, gender or ethnicity, even if handwritten, typed or otherwise made a part of the particular contract, is hereby rejected.
+powered by WideOrbit

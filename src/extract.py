@@ -34,7 +34,7 @@ def extract_text_from_image(image):
     return text
 
 
-def phrase_extract_pdfplumber(pdf_path, x_tolerance=3, y_tolerance=3, page_limit = 6):
+def phrase_extract_pdfplumber(pdf_path, x_tolerance=3, y_tolerance=3, page_limit = 10):
     phrases = {}
     page_break = 0
     raw_phrases = []
@@ -460,8 +460,8 @@ def phrase_extraction_pipeline_aws(raw_folder):
 
 if __name__ == "__main__":
     root_path = get_root_path()
-    data_folder = root_path + '/data/raw/complaints & use of force/'
-    page_limit = 6 #number of page for data extraction
+    data_folder = root_path + '/data/raw/benchmark1/'
+    page_limit = 20 #number of page for data extraction
     #write_texts_plumber(data_folder,page_limit)
     #phrase_extraction_pipeline_aws(data_folder)
     phrase_extraction_pipeline_pdfplumber(data_folder, page_limit)
