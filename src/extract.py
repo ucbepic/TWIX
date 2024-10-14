@@ -217,10 +217,29 @@ def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3, page_limit = 6):
 
 def adjust_phrase(phrase):
     if not is_valid_time(phrase) and phrase.count(':') == 1:
+        if('Courtesy:' in phrase):
+            return [phrase]
         before_colon, after_colon = phrase.split(':')
+        #print(phrase)
         return [before_colon, after_colon]
-    else:
+    elif(phrase.count(':') == 0):
         return [phrase]
+    elif(phrase.count(':') == 2):
+        #special case
+        if('Action' in phrase and 'Date' in phrase):
+            split_phrases = phrase.split("Action:")
+
+            # Reformatting the second phrase
+            split_phrases = [split_phrases[0].strip(), f"Action: {split_phrases[1].strip()}"]
+            ps = []
+            before_colon, after_colon = split_phrases[0].split(':')
+            ps.append(before_colon)
+            ps.append(after_colon)
+            before_colon, after_colon = split_phrases[1].split(':')
+            ps.append(before_colon)
+            ps.append(after_colon)
+            return ps
+    return [phrase]
 
 def print_all_document_paths(folder_path):
     paths = []
@@ -233,11 +252,16 @@ def print_all_document_paths(folder_path):
             if any(file.endswith(ext) for ext in document_extensions):
                 # Construct the full file path
                 file_path = os.path.join(root, file)
-                #print(file_path)
                 paths.append(file_path)
-                # print(get_text_path(file_path))
-                # print('')
     return paths
+
+def get_all_pdf_paths(folder_path):
+    pdf_paths = []
+    for root, _, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith('.pdf'):
+                pdf_paths.append(os.path.join(root, file))
+    return pdf_paths
 
 def get_root_path():
     current_path = os.path.abspath(os.path.dirname(__file__))
@@ -307,20 +331,89 @@ def get_lines(image, blocks):
 
     return lines
 
-def get_doc_lines(doc_path, num_pages):
-    # Returns all blocks that are lines within a the scanned text objects of a PDF file path.
-
+def phrase_extraction_aws(image_folder_path, num_pages, client):
+    #the first output is phrases+bounding box: phrase, list of its bounding box 
+    #the second output is the raw_phrases in reading order 
     doc_lines = []
+    raw_phrases = []
+    phrase_bb = {}
     for page in range(num_pages):
-        file_path = doc_path + str(page)+'.jpg'
+        file_path = image_folder_path + str(page)+'.jpg'
         #print(file_path)
         spec_image = Image.open(file_path)
-        text = get_text_from_path(file_path)
+        text = get_text_from_path(file_path, client)
         lines = get_lines(spec_image, text['Blocks'])
         lines = [[page+1]+line for line in lines]
         doc_lines += lines
+        #print(lines)
+        #break
+    for line in doc_lines:
+        #print(line)
+        phrase = line[1]
+        #process phrases
+        adjusted_phrase = adjust_phrase(phrase)
+        bb = line[2]
+        #print(adjusted_phrase)
+        if(len(adjusted_phrase) == 1):
+            p = adjusted_phrase[0]
+            if(p == ''):
+                continue
+            raw_phrases.append(p)
+            if(p not in phrase_bb):
+                phrase_bb[p] = [bb]
+            else:
+                phrase_bb[p].append(bb)
+        elif(len(adjusted_phrase) == 2):
+            p1 = adjusted_phrase[0]
+            p2 = adjusted_phrase[1]
+            if(p1 != ''):
+                raw_phrases.append(p1)
+                if(p1 not in phrase_bb):
+                    phrase_bb[p1] = [bb]
+                else:
+                    phrase_bb[p1].append(bb)
+            if(p2 != ''):
+                raw_phrases.append(p2)
+                if(p2 not in phrase_bb):
+                    phrase_bb[p2] = [bb]
+                else:
+                    phrase_bb[p2].append(bb)
+        elif(len(adjusted_phrase) == 4):
+            p1 = adjusted_phrase[0]
+            p2 = adjusted_phrase[1]
+            p3 = adjusted_phrase[2]
+            p4 = adjusted_phrase[3]
+            if(p1 != ''):
+                raw_phrases.append(p1)
+                if(p1 not in phrase_bb):
+                    phrase_bb[p1] = [bb]
+                else:
+                    phrase_bb[p1].append(bb)
+            if(p2 != ''):
+                raw_phrases.append(p2)
+                if(p2 not in phrase_bb):
+                    phrase_bb[p2] = [bb]
+                else:
+                    phrase_bb[p2].append(bb)
+            if(p3 != ''):
+                raw_phrases.append(p3)
+                if(p3 not in phrase_bb):
+                    phrase_bb[p3] = [bb]
+                else:
+                    phrase_bb[p3].append(bb)
+            if(p4 != ''):
+                raw_phrases.append(p4)
+                if(p4 not in phrase_bb):
+                    phrase_bb[p4] = [bb]
+                else:
+                    phrase_bb[p4].append(bb)
 
-    return [[doc_line[0], doc_line[1]] + doc_line[2] for doc_line in doc_lines]
+    return raw_phrases, phrase_bb
+        #print(line)
+
+
+    
+
 
 def pdf_2_image(path, page_num, out_folder):
     images = convert_from_path(path, first_page = 1, last_page = page_num)
@@ -338,6 +431,7 @@ def load_file_keys_aws():
                       aws_access_key_id=keys.iloc[0]['Access key ID'],
                       aws_secret_access_key=keys.iloc[0]['Secret access key']
                      )
+    return client
 
 
 
@@ -368,7 +462,9 @@ def create_images_pipeline(raw_folder):
         create_folder(image_folder_path)
         pdf_2_image(path,number_of_pages,image_folder_path)
 
-def phrase_extraction_aws(raw_folder):
+def phrase_extraction_pipeline_aws(raw_folder):
+    print(raw_folder)
+    client = load_file_keys_aws()
     paths = print_all_document_paths(raw_folder)
     for path in paths:
         print(path)
@@ -380,17 +476,13 @@ def phrase_extraction_aws(raw_folder):
 
         print(text_path)
         print(dict_path)
+        page_number = 6
         
-        # phrases, raw_phrases = phrase_extract_v1(path, page_limit)
-        # adjusted_phrases = []
-        # for phrase in raw_phrases:
-        #     adjusted_phrase = adjust_phrase(phrase)
-        #     for p in adjusted_phrase:
-        #         if(len(p) == 0):
-        #             continue
-        #         adjusted_phrases.append(p)
-        # write_phrase(text_path, adjusted_phrases)
-        # write_dict(dict_path, phrases)
+        raw_phrases, phrase_bb = phrase_extraction_aws(image_folder_path, page_number, client)
+        write_phrase(text_path, raw_phrases)
+        write_dict(dict_path, phrase_bb)
+        #break
+        
     
     #pdf_2_image(file_path,number_of_pages,out_folder_path)
     # doc_lines = get_doc_lines(out_folder_path, number_of_pages)
@@ -400,9 +492,9 @@ def phrase_extraction_aws(raw_folder):
 
 if __name__ == "__main__":
     root_path = get_root_path()
-    data_folder = root_path + '/data/raw'
+    data_folder = root_path + '/data/raw/complaints & use of force/'
     page_limit = 6 #number of page for data extraction
     #write_texts_plumber(data_folder,page_limit)
-    create_images_pipeline(data_folder)
+    phrase_extraction_pipeline_aws(data_folder)
 
     
