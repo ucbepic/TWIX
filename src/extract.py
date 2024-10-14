@@ -34,7 +34,7 @@ def extract_text_from_image(image):
     return text
 
 
-def phrase_extract_v1(pdf_path, x_tolerance=3, y_tolerance=3, page_limit = 6):
+def phrase_extract_pdfplumber(pdf_path, x_tolerance=3, y_tolerance=3, page_limit = 6):
     phrases = {}
     page_break = 0
     raw_phrases = []
@@ -291,7 +291,7 @@ def write_dict(path, d):
     with open(path, 'w') as json_file:
         json.dump(d, json_file)
 
-def write_texts_plumber(data_folder, page_limit):
+def phrase_extraction_pipeline_pdfplumber(data_folder, page_limit):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         print(path)
@@ -299,7 +299,7 @@ def write_texts_plumber(data_folder, page_limit):
         #     continue
         text_path = get_text_path(path, '.txt')
         dict_path = get_text_path(path, '.json')
-        phrases, raw_phrases = phrase_extract_v1(path, page_limit)
+        phrases, raw_phrases = phrase_extract_pdfplumber(path, page_limit)
         adjusted_phrases = []
         for phrase in raw_phrases:
             adjusted_phrase = adjust_phrase(phrase)
@@ -455,6 +455,7 @@ if __name__ == "__main__":
     data_folder = root_path + '/data/raw/complaints & use of force/'
     page_limit = 6 #number of page for data extraction
     #write_texts_plumber(data_folder,page_limit)
-    phrase_extraction_pipeline_aws(data_folder)
+    #phrase_extraction_pipeline_aws(data_folder)
+    phrase_extraction_pipeline_pdfplumber(data_folder, page_limit)
 
     
