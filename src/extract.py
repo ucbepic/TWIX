@@ -70,7 +70,7 @@ def phrase_extract_pdfplumber(pdf_path, x_tolerance=3, y_tolerance=3, page_limit
                         phrase_text = ' '.join(current_phrase)
                         raw_phrases.append(phrase_text)
                         
-                        ad_phrases = adjust_phrase(phrase_text)
+                        ad_phrases = adjust_phrase_plumber(phrase_text)
                         for p in ad_phrases:
                             if(len(p) == 0):
                                 continue
@@ -87,7 +87,7 @@ def phrase_extract_pdfplumber(pdf_path, x_tolerance=3, y_tolerance=3, page_limit
                 phrase_text = ' '.join(current_phrase)
                 raw_phrases.append(phrase_text)
 
-                ad_phrases = adjust_phrase(phrase_text)
+                ad_phrases = adjust_phrase_plumber(phrase_text)
                 for p in ad_phrases:
                     if(len(p) == 0):
                         continue
@@ -215,7 +215,15 @@ def phrase_extract(pdf_path, x_tolerance=3, y_tolerance=3, page_limit = 6):
 
     return adjusted_phrases_with_boxes, raw_phrases
 
-def adjust_phrase(phrase):
+def adjust_phrase_plumber(phrase):
+    if not is_valid_time(phrase) and phrase.count(':') == 1:
+        before_colon, after_colon = phrase.split(':')
+        return [before_colon, after_colon]
+    else:
+        return [phrase]
+    
+
+def adjust_phrase_aws(phrase):
     if not is_valid_time(phrase) and phrase.count(':') == 1:
         if('Courtesy:' in phrase):
             return [phrase]
@@ -302,7 +310,7 @@ def phrase_extraction_pipeline_pdfplumber(data_folder, page_limit):
         phrases, raw_phrases = phrase_extract_pdfplumber(path, page_limit)
         adjusted_phrases = []
         for phrase in raw_phrases:
-            adjusted_phrase = adjust_phrase(phrase)
+            adjusted_phrase = adjust_phrase_plumber(phrase)
             for p in adjusted_phrase:
                 if(len(p) == 0):
                     continue
@@ -355,7 +363,7 @@ def phrase_extraction_aws(image_folder_path, num_pages, client):
         #print(line)
         phrase = line[1]
         #process phrases
-        adjusted_phrase = adjust_phrase(phrase)
+        adjusted_phrase = adjust_phrase_aws(phrase)
         bb = line[2]
         #print(adjusted_phrase)
         for p in adjusted_phrase:
