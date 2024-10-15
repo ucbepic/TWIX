@@ -1,0 +1,14 @@
+Total
+M-F
+0.0
+Sa
+30p
+9/21 - 9/27
+A35P
+#Day/Time
+DPProgram
+Rate
+Len9/219/229/239/249/259/269/27
+Spots
+$CPP*GRP*
+Rating

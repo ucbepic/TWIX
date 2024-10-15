@@ -1,0 +1,19 @@
+START
+TOTAL
+1
+2
+$40
+$80
+TOT $200.00
+TOTAL SPOTS 5
+3
+MCLNSPT TYPDAYS
+ENDLEN
+STOPSP/DY
+RATE
+TIME
+.T.....
+..W....
+...T...
+....F..
+M......

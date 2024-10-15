@@ -11,7 +11,7 @@ model_name = 'gpt4o'
 
 def get_relative_locations(path):
     #get raw phrases path
-    path = get_extracted_path(path, 'aws')
+    path = get_extracted_path(path)
     line_number = 0
     phrases = {}
     with open(path, 'r') as file:
@@ -36,7 +36,7 @@ def read_dict(file):
     return data 
 
 
-def get_extracted_path(path, method = ''):
+def get_extracted_path(path, method = 'plumber'):
     path = path.replace('raw','extracted')
     path = path.replace('.pdf', '_' + method + '.txt')
     return path
@@ -46,7 +46,7 @@ def get_extracted_image_path(path,page_id):
     path = path.replace('.pdf','_' + str(page_id) + '.jpg')
     return path
 
-def get_relative_location_path(extracted_path, method = ''):
+def get_relative_location_path(extracted_path, method = 'plumber'):
     path = extracted_path[:-4] + '_' + method + '_relative_location.csv'
     return path
 
@@ -238,7 +238,7 @@ def get_keys(cluters, key_clusters):
         keys += cluters[key]
     return keys
 
-def get_result_path(raw_path, method = ''):
+def get_result_path(raw_path, method = 'plumber'):
     path = raw_path.replace('data/raw','result')
     path = path.replace('.pdf', '_' + method + '.txt')
     return path
@@ -272,19 +272,19 @@ def get_truth_path(raw_path):
 def key_prediction_pipeline(data_folder):
     paths = extract.print_all_document_paths(data_folder)
     for path in paths:
-        result_path = get_result_path(path, 'aws')
+        result_path = get_result_path(path)
         truth_path = get_truth_path(path)
         if not os.path.exists(truth_path):
             continue
         print(path)
         key_prediction(path, result_path)
-        break
+        #break
 
 def key_prediction(pdf_path, result_path):
-    extracted_path = get_extracted_path(pdf_path, 'aws')
+    extracted_path = get_extracted_path(pdf_path)
     #generate reading order vector
     relative_locations = get_relative_locations(pdf_path)
-    reading_order_path = get_relative_location_path(extracted_path, 'aws')
+    reading_order_path = get_relative_location_path(extracted_path)
     print(reading_order_path)
     write_dict(reading_order_path, relative_locations)
 

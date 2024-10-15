@@ -1,0 +1,38 @@
+Total Cost
+Spots
+Order Printout
+Order Status
+Start/End Dates
+C/P/E
+Agency
+Product Desc.
+Buyer Order #
+Advertiser
+Estimate Desc.
+AE
+Buyer
+Property
+Primary Demo
+Sales Region
+Comments
+List Items
+Totals
+Days
+Total
+Line
+Program
+STLen
+Time
+MONTH
+SPOTS
+COST
+11LETS MAKE A DEAL
+NM:302:00 PM-3:00 PM
+LETS MAKE A DEAL)WSAW 2Q20
+700.001
+700.00
+NEWSCHANNEL 7 AT 10)WSAW 2Q20
+Jun
+TWTFSSRate
+7
+M

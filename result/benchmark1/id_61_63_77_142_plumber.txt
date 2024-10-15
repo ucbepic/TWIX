@@ -1,0 +1,71 @@
+Date
+Invoice Total
+Mesa County Republicans
+Payment Terms
+30 Days
+Invoice Month
+Account
+Billing Type
+DETACH AND RETURN WITH PAYMENT
+Salesperson
+Flight Dates
+Description
+Est. Number
+IDB Code
+Length
+Qty
+Rate
+Total
+October
+Advertiser
+Monthly
+10/1/2020
+KNZZ-AM
+Copy Name
+ISCI
+30
+1
+15.00
+16673-1
+6/30/2020
+Elect Ray Scott
+6/19/2020
+12.00
+Lauren Boebert For Congress
+Jarrod
+9/29/2020
+KMGJ-FM
+60
+18.82
+Friend of Robert Prescott
+9/1/2020
+14.00
+Please Remit To
+Grand Junction, CO 81501
+Invoice
+920 Visa Ct.
+Grand Junction, CO 81506
+Maggie
+Vote Republican
+Station
+Spot Classification
+CM
+2253 Kingston Road
+June
+Grand Junction, CO 81507
+Chenoa
+Additonal for June Primary
+KMGJ Magic 93.1
+1360 E.Sherwood Drive
+970.254.2100
+17631-1
+Rock Chalk Media, LLC
+PO Box 2123
+Grand Junction, CO 81502
+Rock Chalk Media
+Broadcast calendar (end of period)
+3165 B 1/2 Rd
+September
+Grand Junction, CO 81503
+Bob Prescott
+Sept-Oct Buy

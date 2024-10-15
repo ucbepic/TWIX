@@ -1,0 +1,12 @@
+30
+X
+950
+950.00
+LN ORBIT
+NEWS M-F1000-1035P;SU 1000P-1100P
+WEEKEND/MORN NEWS
+5,225
+LF
+This agreement is subject to the terms and conditions indicated above.
+Margin Indicators
+A=Added Line, R=Revised Line, D=Deleted Line, M=New Makegood Activity, CM=Combined Makegood

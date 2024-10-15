@@ -1,0 +1,29 @@
+Line#
+7a-9a
+8
+30P1
+$2,000.00No
+2
+11
+30P2
+$200.00No
+12p-1p
+12
+$300.00No
+6p-630p
+$500.00No
+Order
+Spot State
+ChannelDayWeekdaysAir DateOrder Inventory DescrTipimtieosn
+Air TimeAd-ID
+LengthPriorityState ReasonMakegood IInnftoernal Rate 1Invoiced?Spot #
+WAVYW--WThF----08/29/12Hampton Roads Show11a-12p
+WAVYTh--WThF----08/30/12Hampton Roads Show11a-12p
+WAVYF--WThF----08/31/12Hampton Roads Show11a-12p
+WAVYW--WThF----08/29/12News 10 @ Noon
+WAVYTh--WThF----08/30/12News 10 @ Noon
+WAVYF--WThF----08/31/12News 10 @ Noon
+WAVYSa------Sa--09/01/12WAVY News 10 Sat 6p6p-630p
+WAVYSu--------Su09/02/12WAVY News 10 Sun 6p6p-7p
+WAVYMMT--------09/03/12Hampton Roads Show11a-12p
+WAVYTuMT--------09/04/12Hampton Roads Show11a-12p

@@ -1,0 +1,30 @@
+Page 1 of 2
+Inv #
+Invoice Date
+Advertiser
+Agency
+Period
+Salesperson:Washington DC Millennium/DC, ph:(202) 955-5342
+Product
+Brand
+Contract
+AcctType
+Terms
+CIA
+BillType
+Weekly/Irregular
+Buyer
+Coop
+No
+Estimate/HL
+Comments
+For Billing Inquires Call
+(217) 523-8855
+Line
+Type
+ScheduledTimeScheduledDaytoRunAirDate/TimeLengthProgram
+AD-ID/ISCI
+AmountRemarks
+CONTINUED
+Warranty-Wewarranttheabovebroadcastsweremadeaccordingtotheofficialstationlog.Pleasenotethatwedonotnotarizeinvoicessincethepurposeofplacinganotarysealonadocumentistoguaranty
+theauthenticityofanindividual'ssignatureandnottocertifytheaccuracyofcommercialaired.

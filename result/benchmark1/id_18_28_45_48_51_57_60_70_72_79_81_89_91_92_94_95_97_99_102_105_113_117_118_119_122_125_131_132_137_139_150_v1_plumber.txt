@@ -1,0 +1,39 @@
+Product 2
+MTWTFSS
+30
+Start Date End DateMTWTFSS
+Property
+Invoice #
+Order #
+Invoice Date
+Main
+Billing
+Advertiser
+Product
+Estimate #
+Billing Address
+Sales Office
+Sales Region
+Agency Code
+Attention
+Advertiser Code
+Billing Calendar
+Billing Type
+Cash
+Special Handling
+Agency Ref
+Send Payment To
+Advertiser Ref
+Product 1
+Spots/
+Line Start Date End Date Description
+Start/End Time
+LengthWeek
+Rate Type
+Weeks
+Spots/Week
+Rate
+Spots
+#ChDayAir DateAir TimeDescription
+Start/End TimeLengthAd-ID
+RateType

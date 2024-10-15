@@ -1,0 +1,70 @@
+-
+XXXX -
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales CoordinatorMichael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+GIMP
+Makegood PolicyApproval Required
+CPP
+CPM
+Comments
+9.14 new order. please confirm. thanks
+LineNet
+Program
+Start Stop Start Stop MTWTFSSRTGIMP Total UnitTotal Spot
+Line Comment
+DateDateTimeTime
+SpotsCost
+CostLen
