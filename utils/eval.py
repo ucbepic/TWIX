@@ -1,5 +1,5 @@
 #this script implements the evaluation metric 
-import json,os,math
+import json,os,math,csv
 import Levenshtein
 
 def read_json(file_path):
@@ -125,10 +125,11 @@ def equal(a,b):
     return 0
 
 def get_PR(results_kvs, truth_kvs):
+    #print(len(truth_kvs))
     precisions = {} #record id ->  precision 
     recalls = {} # record id -> recall
     for id, truth_kv in truth_kvs.items():
-        print(id)
+        #print(id)
         precision = 0
         recall = 0
         if id not in results_kvs:
@@ -148,7 +149,7 @@ def get_PR(results_kvs, truth_kvs):
         # print(new_truth_kv)
         # print(new_result_kv)
         
-        print('FP:')
+        #print('FP:')
         #evaluate precision
         for kv in new_result_kv:
             is_match = 0
@@ -157,12 +158,15 @@ def get_PR(results_kvs, truth_kvs):
                     precision += 1
                     is_match = 1
                     break
-            if(is_match == 0):
-                print(kv)
+            # if(is_match == 0):
+            #     print(kv)
         
-        precision /= len(new_result_kv)
+        if(len(new_result_kv) == 0):
+            precision = 0
+        else:
+            precision /= len(new_result_kv)
 
-        print('FN:')
+        #print('FN:')
         #evaluate recall
         for kv in new_truth_kv:
             is_match = 0
@@ -171,9 +175,9 @@ def get_PR(results_kvs, truth_kvs):
                     recall += 1
                     is_match = 1
                     break
-            if(is_match == 0):
-                print(kv)
-        
+            # if(is_match == 0):
+            #     print(kv)
+        #print(len(new_truth_kv))
         recall /= len(new_truth_kv)
 
         precisions[id] = precision
@@ -209,32 +213,56 @@ def get_result_path(truth_path):
     return result_path
 
 def eval_one_doc(truth_path, result_path):
-    result = read_json(result_path)
     truth = read_json(truth_path)
-
-    result_kvs = get_leaf_nodes_paris(result)
     truth_kvs = get_leaf_nodes_paris(truth)
-
+    if('llm_' not in result_path):
+        result = read_json(result_path)
+        result_kvs = get_leaf_nodes_paris(result)
+    else:
+        result_kvs = get_kv_pairs_csv(result_path)
+    #print(truth_kvs)
     avg_precision, avg_recall, precisions, recalls = get_PR(result_kvs, truth_kvs)
     print(precisions)
     print(recalls)
     print(avg_precision, avg_recall)
 
+def get_kv_pairs_csv(result_path):
+    kvs = {}
+    with open(result_path, mode='r', newline='') as file:
+        reader = csv.reader(file)
+        first_row = 0
+        # Iterate over each row in the CSV
+        for row in reader:
+            record_id = row[0]
+            if(record_id == 'Record'):
+                continue
+            #print(record_id)
+            record_id = int(record_id)
+            key = row[1].strip('"')
+            value = row[2].strip('"')
+            if(record_id not in kvs):
+                kvs[record_id] = [(key,value)]
+            else:
+                kvs[record_id].append((key,value))
+    return kvs 
+
 def eval_new_benchmark():
     result_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
-    results = scan_folder(result_folder_path)
+    results = scan_folder(result_folder_path, '.csv')
+    results = sorted(results)
     for result_path in results:
-        if('.txt' in result_path):
+        #print(result_path)
+        if('llmns_' not in result_path):
             continue
-        print(result_path)
+        
         truth_path = result_path.replace('result','data/truths')
-        truth_path = truth_path.replace('aws_','')
+        truth_path = truth_path.replace('llmns_','')
+        truth_path = truth_path.replace('csv','json')
         if not os.path.exists(truth_path):
             continue
-        if('id_14' not in truth_path):
-            continue
-
-        #print(truth_path)
+        
+        print(result_path)
+        print(truth_path)
         eval_one_doc(truth_path, result_path)
 
 def get_key_val_path(raw_path, approach):
@@ -242,26 +270,37 @@ def get_key_val_path(raw_path, approach):
     path = path.replace('.pdf', '_' + approach + '_kv.json')
     return path
 
+def get_baseline_result(raw_path, approach):
+    path = raw_path.replace('data/raw','result')
+    path = path.replace('.pdf','.csv') 
+    file_name = path.split('/')[-1]
+    file_name = approach + '_' + file_name
+    directory_path = path.rsplit('/', 1)[0]
+    new_path = directory_path + '/' + file_name
+    return new_path
+
 def eval_old_benchmark():
-    pdf_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/raw/certification'
+    pdf_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/extracted/benchmark1'
     pdfs = scan_folder(pdf_folder_path,'.pdf')
     for pdf_path in pdfs:
-        if('munson' not in pdf_path.lower()):
-            continue
+        # if('munson' not in pdf_path.lower()):
+        #     continue
         print(pdf_path)
         #get result path
-        result_path = get_key_val_path(pdf_path, '')#result path
-        print(result_path)
+        #result_path = get_key_val_path(pdf_path, '')#result path #this is for naming our own approach 
+        result_path = get_baseline_result(pdf_path, 'llm')
+        #print(result_path)
         #get truth path
         truth_path = pdf_path.replace('raw','truths/key_value_truth').replace('.pdf','.json')
-        print(truth_path)
+        #print(truth_path)
         
         eval_one_doc(truth_path, result_path)
+        
 
-def get_llm_result()
+
 
 if __name__ == "__main__":
-    eval_old_benchmark()
+    eval_new_benchmark()
 
     
 

@@ -693,10 +693,6 @@
     },
     {
         "id": 3,
-        "content": []
-    },
-    {
-        "id": 4,
         "content": [
             {
                 "type": "metadata",
@@ -1118,7 +1114,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 4,
         "content": [
             {
                 "type": "metadata",

@@ -137,6 +137,7 @@ def regulate_template(path):
     return records 
 
 def regular_full(records):
+    print(records)
     new_records = []
     for record in records:
         print(record['id'])
@@ -178,12 +179,14 @@ def scan_folder(path):
 
 if __name__ == "__main__":
     
-    #folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/benchmark1'
-    folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
+    folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/truths/benchmark1'
+    #folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/result/benchmark1'
     
     files = scan_folder(folder_path)
     for in_file in files:
         out_file = in_file.replace('txt','json')
+        if('id_116_151' not in in_file):
+            continue
         print(in_file)
         print(out_file)
         flag = 0

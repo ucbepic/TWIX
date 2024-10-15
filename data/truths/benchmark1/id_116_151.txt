@@ -87,11 +87,7 @@ Line,Line Type / Break Type (Ref #),Dates,Sec,Length,Run Times,SPW,Mo,Tu,We,Th,F
 23.0,Normal Line / SPOT,10/12/20-10/16/20,5,:30,6A-7A (PST),missing,1,1,1,1,1,missing,missing,5,$15.00,$75.00,NBC-CA
 24.0,Normal Line / SPOT,10/12/20-10/16/20,5,:30,6P-6:30P (PST),missing,1,1,1,1,1,missing,missing,5,$135.00,$675.00,NBC-CA
 25.0,Normal Line / SPOT,10/05/20-10/06/20,5,:30,9P-9:30P (PST),missing,missing,1,missing,missing,missing,missing,missing,1,$135.00,$135.00,NBC-CA
-#Record3 
-- METADATA
-- KV
-- TABLE
-#Record4
+#Record3
 - METADATA
 Contract# 828059
 Great American Media\n1010 Wisconsin Ave. NW\n"Washington, DC 20007-3603"
@@ -142,7 +138,7 @@ Line,Line Type / Break Type (Ref #),Dates,Sec,Length,Run Times,SPW,Mo,Tu,We,Th,F
 26.1,Normal Line / SPOT,10/23/12-11/02/12,5,:30,5:58A-7A (ET),5,missing,X,X,X,X,missing,missing,10,$650.00,"$6,500.00",Norfolk (WVEC) (WVEC),13 NEWS DAYBREAK,10/9/12
 27.1,Normal Line / SPOT,10/09/12-10/12/12,4,:30,6:58A-7:28P (ET),5,missing,X,X,X,X,missing,missing,5,"$1,300.00","$6,500.00",Norfolk (WVEC (WVEC)),WHEEL OF FORTUNE,10/9/12
 28.1,Normal Line / SPOT,10/23/12-11/26/12,5,:30,6:58P-7:28P (ET),4,missing,X,X,X,X,missing,missing,4,"$1,300.00","$5,200.00",Norfolk (WVEC) (WVEC),WHEEL OF FORTUNE,10/9/12
-#Record5
+#Record4
 - METADATA
 Contract# 828059
 Great American Media\n1010 Wisconsin Ave. NW\n"Washington, DC 20007-3603"
