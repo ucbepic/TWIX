@@ -258,6 +258,8 @@ def eval_old_benchmark():
         
         eval_one_doc(truth_path, result_path)
 
+def get_llm_result()
+
 if __name__ == "__main__":
     eval_old_benchmark()
 
