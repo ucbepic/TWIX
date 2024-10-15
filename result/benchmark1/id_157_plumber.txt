@@ -41,6 +41,7 @@ M T W T F S S
 Dur
 Rate
 30
+405.00
 Debit
 BCTV1203H
 Buy
@@ -50,6 +51,9 @@ Line
 Description
 Buy Line Dates
 Spots
+CBS THIS MORNING
+ENTERTAINMENT TONIGHT
+DAVID LETTERMAN
 Week Of
 Spots Per Week
 Air Date

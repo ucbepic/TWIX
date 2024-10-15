@@ -1,6 +1,17 @@
+Attention
+Advertiser Code
+Billing Calendar
+Billing Type
+Cash
+Special Handling
+Agency Ref
 Product 2
+Spots/
+Line Start Date End Date Description
+Start/End Time
+LengthWeek
+Rate Type
 MTWTFSS
-30
 Start Date End DateMTWTFSS
 Property
 Invoice #
@@ -15,21 +26,9 @@ Billing Address
 Sales Office
 Sales Region
 Agency Code
-Attention
-Advertiser Code
-Billing Calendar
-Billing Type
-Cash
-Special Handling
-Agency Ref
 Send Payment To
 Advertiser Ref
 Product 1
-Spots/
-Line Start Date End Date Description
-Start/End Time
-LengthWeek
-Rate Type
 Weeks
 Spots/Week
 Rate

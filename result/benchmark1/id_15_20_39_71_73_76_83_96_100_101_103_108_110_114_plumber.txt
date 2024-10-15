@@ -1,61 +1,12 @@
 /
-Contract Dates
-Estimate #
-Agency Ref
-Advertiser Ref
-30
-NM
-1
-KCCI
 Contract Agreement Between
 Contract / Revision
 Alt Order #
 Advertiser
 Original Date / Revision
 Product
-Print Date04/12/22
-931552
-10373344
-Chicago, IL 60680-9606
-(855) 333-2676
-POL/J Mandel/R/Sen/OH-A
-And
-Billing CycleBilling Calendar
-Cash/Trade
-Cash
-Property
-Account ExecutiveSales Office
-Special Handling
-Demographic
-Agy CodeAdvertiser Code
-Product 1/2
-Start/End
-Spots/
-*
-LineChStart DateEnd DateDescription
-Time
-TypeSpots
-Amount
 SpotChDate Range
 Description
 Start/End TimeWeekdaysLength
 Type
 Credited
-Print Date10/25/22
-2323930
-10500322
-Des Moines, IA 50309
-(515)247-8888
-Franken/D/US Senate
-888 - 9th Street
-www.kcci.com
-11/01/22 - 11/07/22
-This contract is subject to the Standard Terms and Conditions for Purchase of Broadcast Advertising, which can be reviewed at the following
-URL:https://www.hearst.com/-/hearst-television-broadcast-terms-conditions
-Notwithstanding to whom bills are rendered, advertiser, agency and service, jointly and severally, shall remain obligated to pay to station the amount of any bills rendered by station within the time specified and until
-payment in full is received by station. Payment by advertiser to agency or to service or payment by agency to service, shall not constitute payment to station. Station will not be bound by conditions, printed or
-otherwise, on contracts, insertion orders, copy instructions or any correspondence when such conflict with the above terms and conditions. Four weeks advance cancellation notice is required unless otherwise
-specified.
-Station, and its parent company, does not discriminate in the sale of advertising time, and will accept no advertising which is placed with an intent to discriminate on the basis of race or ethnicity. Advertiser hereby
-represents and warrants that it is not purchasing broadcast air time under this advertising sales contract for a discriminatory purpose, including but not limited to decisions not to place advertising on particular
-stations on the basis of race or ethnicity.

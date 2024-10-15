@@ -1,38 +1,5 @@
-Report ID
-SR201
-Univ of Wisconsin - Whitewater
-Schedule of Classes for Summer Term 2021
-Run Date
-08/12/2021
-Twelve Week
-Run Time: 11:15:26
-__S_u_b_j_e_c_t_ ___C_a_t_a_l_o_g_ _N_b_r_ __S_e_c_t_i_o_n_ __C_l_a_s_s_ _N_b_r_ ___C_o_u_r_s_e_ _T_i_t_l_e_ __________________C_o_m_p_o_n_e_n_t_ _____________________U_n_i_t_s_ _______T_o_p_i_c_s_ ________________________________
-0
-Independent Study
-1 - 6
-35
-COMM
-Lowell,William E
-Room: ARRANGED Days: SaSu
-Time: 08:00 - 17:00
-988
-DBA DISSERTATION
-1 -6
 Class Enrl Cap
 Class Enrl Tot
 Class Wait Cap
 Class Wait Tot
 Class Min Enrl
-ARTSTDIO 498
-INDEPENDENT STUDIES
-MARKETNG 493
-INTERNSHIP IN MARKETING
-Room: ARRANGED Days: F
-Time: 15:00 - 19:00
-Chennamaneni,Pavan R
-970
-DIRECTED STUDY
-_________________________________________ ___________________________________________________________________________________________________________________
-MARKETNG 493/493EX
-This is a remote course. Further information will be given before the first day of class.
-____________________________________________________________________________________ ________________________________________________________________________

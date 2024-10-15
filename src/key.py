@@ -91,8 +91,8 @@ def partial_perfect_match(v1,v2,k):#len(v1) < len(v2)
     return is_subsequence(new_v1,v2,k)
 
 def perfect_align_clustering(phrases_vec,k=1):#k is the definition of partial perfect match
-    mp = {}
-    remap = {}
+    mp = {}#phrase to cluster id
+    remap = {}#cluster id to list of phrases
     id = 0
     phrases = []
     for phrase, vec in phrases_vec.items():
@@ -123,22 +123,40 @@ def perfect_align_clustering(phrases_vec,k=1):#k is the definition of partial pe
     
     return mp, remap
 
-def result_gen_from_response(response, s):
+
+def result_gen_from_response(response, lp):
+    s = len(lp)
     lst = []
     if('|' not in response and 'no' in response.lower()):
         for i in range(s):
             lst.append(0)
         return lst
+    response = response.lower()
+    lpn = []
+    for p in lp:
+        lpn.append(p.lower())
+    #print(lpn)
     l = response.split('|')
-    for i in range(len(l)+1):
-        lst.append(1)
-    for i in range(s - (len(l) + 1)):
-        lst.append(0)
+    #print(l)
+    for p in lpn:
+        if(p.isdigit()):#rule: a key cannot be a number 
+            lst.append(0)
+            continue
+        is_match = 0
+        for pl in l:
+            if(pl.strip() == p):
+                is_match = 1
+                break
+        if(is_match == 0):
+            lst.append(0)
+        else:
+            lst.append(1)
+    #print(lst)
     return lst
 
 def candidate_key_clusters_selection(clusters):
     #clusters: cid -> [list of phrases]
-    instruction = 'The following list contains possibly keys and values extracted from a table. Return to me all the keys without explanation, and seperate each key by |. If no key is found, return NO.' 
+    instruction = 'The following list contains possibly keyword and values extracted from a table. Return to me all the keys without explanation, and seperate each keyword by |. If no key is found, return NO. Reminder: keyword will be not likely a number. ' 
     mp = {}
     cids = []
     for cid, l in clusters.items():
@@ -148,15 +166,15 @@ def candidate_key_clusters_selection(clusters):
         context = ", ".join(l)
         prompt = (instruction,context)
         response = model(model_name,prompt)
-        lst = result_gen_from_response(response, len(l))
+        lst = result_gen_from_response(response, l)
         p, w = mean_confidence_interval(lst)
-        # if(cid == 19):
-        #     print(response)
-        #     print(lst)
-        #     print(p,w)
         #important: if all 0, then confidence width is also 0, which makes other node hard dominate this one even it's the worst
         if(p == 0):
             continue
+        # print(cid, p, w)
+        # print(l)
+        # print(response)
+        # print(lst)
         mp[cid] = (p,w)
         cids.append(cid)
 
@@ -276,6 +294,8 @@ def key_prediction_pipeline(data_folder):
         truth_path = get_truth_path(path)
         if not os.path.exists(truth_path):
             continue
+        if('id_18_28_45_48_51_57_60_70_72_79_81_89_91_92_94_95_97_99_102_105_113_117_118_119_122_125_131_132_137_139_150_v1' not in truth_path):
+            continue
         print(path)
         key_prediction(path, result_path)
         #break
@@ -291,10 +311,11 @@ def key_prediction(pdf_path, result_path):
     #predict keys
     phrases = relative_locations
     mp, remap = perfect_align_clustering(phrases)
+    #print(remap)
     candidate_key_clusters = candidate_key_clusters_selection(remap)
     key_clusters = clustering_group(phrases, remap, candidate_key_clusters, k=1)
     keys = get_keys(remap, key_clusters)
-
+    print(keys)
     #write result
     write_result(result_path,keys)
 
