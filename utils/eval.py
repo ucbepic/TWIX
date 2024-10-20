@@ -215,7 +215,7 @@ def get_result_path(truth_path):
 def eval_one_doc(truth_path, result_path):
     truth = read_json(truth_path)
     truth_kvs = get_leaf_nodes_paris(truth)
-    if('llm_' not in result_path):
+    if('llmns_' not in result_path):
         result = read_json(result_path)
         result_kvs = get_leaf_nodes_paris(result)
     else:
@@ -280,7 +280,7 @@ def get_baseline_result(raw_path, approach):
     return new_path
 
 def eval_old_benchmark():
-    pdf_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/extracted/benchmark1'
+    pdf_folder_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse/data/raw/complaints & use of force'
     pdfs = scan_folder(pdf_folder_path,'.pdf')
     for pdf_path in pdfs:
         # if('munson' not in pdf_path.lower()):
@@ -288,7 +288,7 @@ def eval_old_benchmark():
         print(pdf_path)
         #get result path
         #result_path = get_key_val_path(pdf_path, '')#result path #this is for naming our own approach 
-        result_path = get_baseline_result(pdf_path, 'llm')
+        result_path = get_baseline_result(pdf_path, 'llmns')
         #print(result_path)
         #get truth path
         truth_path = pdf_path.replace('raw','truths/key_value_truth').replace('.pdf','.json')
@@ -300,7 +300,7 @@ def eval_old_benchmark():
 
 
 if __name__ == "__main__":
-    eval_new_benchmark()
+    eval_old_benchmark()
 
     
 
