@@ -36,9 +36,9 @@ def read_dict(file):
     return data 
 
 
-def get_extracted_path(path, method = 'plumber'):
+def get_extracted_path(path, method = ''):
     path = path.replace('raw','extracted')
-    path = path.replace('.pdf', '_' + method + '.txt')
+    path = path.replace('.pdf',  '.txt')
     return path
 
 def get_extracted_image_path(path,page_id):
@@ -256,9 +256,9 @@ def get_keys(cluters, key_clusters):
         keys += cluters[key]
     return keys
 
-def get_result_path(raw_path, method = 'plumber'):
+def get_result_path(raw_path, method = ''):
     path = raw_path.replace('data/raw','result')
-    path = path.replace('.pdf', '_' + method + '.txt')
+    path = path.replace('.pdf', '.txt')
     return path
 
 def get_key_val_path(raw_path, approach):

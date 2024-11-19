@@ -1326,18 +1326,137 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debu
         # print(record_appearance)
         
         predict_labels = filter_non_key(predict_labels, non_key_meta)
-        record,keys = mix_pattern_extract(predict_labels, pv, rid, debug)
-        if(rid == 1):
-            keys = filter_non_key(keys, non_key_meta)
-            predict_labels = list(set(keys))
-            #if(debug == 1):
-            print('The set of predicted keys:')
-            print(predict_labels)
-        records.append(record)
+        LP_extract(predict_labels, pv)
+        # record,keys = mix_pattern_extract(predict_labels, pv, rid, debug)
+        # if(rid == 1):
+        #     keys = filter_non_key(keys, non_key_meta)
+        #     predict_labels = list(set(keys))
+        #     #if(debug == 1):
+        #     # print('The set of predicted keys:')
+        #     # print(predict_labels)
+        # records.append(record)
         #print(predict_labels)
         if(rid > 0):
             break
     #write_json(records, path)
+
+def LP_extract(predict_keys, pv):
+    # print(predict_keys)
+    # for t in pv:
+    #     print(t)
+    #pv: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
+    #get probability per row 
+    row_mp, row_labels = get_row_probabilities(predict_keys, pv)
+
+    print_rows(row_mp, row_labels)
+    #LP formulation to learn row label assignment
+    for id1 in range(len(row_mp)):
+        for id2 in range(id1+1, len(row_mp)):
+            if(location_alignment(row_mp, id1,id2) == 1):
+                semantic_alignment(row_mp, id1,id2)
+
+    #learn template
+    #data extraction 
+
+def LP_formulation(row_mp, row_labels):
+    a=0
+
+def location_alignment(row_mp, id1, id2):
+    return row_aligned(row_mp[id1], row_mp[id2]) 
+
+def semantic_alignment(row_mp, id1, id2):
+    pairs = []
+    for cell1 in row_mp[id1]:
+        val1 = cell1[0]
+        bb1 = cell1[1]
+        for cell2 in row_mp[id2]:
+            val2 = cell2[0]
+            bb2 = cell2[1]
+            if(is_overlap_vertically(bb1,bb2) == 1):
+                pairs.append((val1,val2))
+                break
+    #print(id1, id2, pairs)
+    #construct prompts to LLMs
+    instruction = 'Given a list of phrase pairs as (phrase1, phrase 2), for each pair of phrase, if two phrases are a key-value pair, return yes. Otherwise, return no. Do not add any explanations, only return yes or no for each phrase pair.'
+    context = ", ".join(f"({repr(key)}, {repr(value)})" for key, value in pairs)
+    prompt = (instruction,context)
+    response = model(model_name,prompt)
+    # print(prompt)
+    print(id1, id2)
+    print(response) 
+    pos = response.lower().count('yes')
+    if(len(pairs) == 0):
+        return 0
+    return pos/len(pairs)
+
+def get_row_probabilities(predict_keys, pv):
+    #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record
+
+    #create row representations 
+    p_pre = pv[0][0]
+    bb_pre = pv[0][1]
+    row_id = 0
+    row_mp = {} #row_id -> a list of (phrase, bb) in the current row
+    row_mp[row_id] = []
+    row_mp[row_id].append((p_pre, bb_pre))
+    for i in range(1, len(pv)):
+        p = pv[i][0]
+        bb = pv[i][1]
+        if(is_same_row(bb_pre,bb) == 0):
+            row_id += 1
+            row_mp[row_id] = []
+        row_mp[row_id].append((p, bb))
+        p_pre = p
+        bb_pre = bb
+    
+    #print row representation
+    #print_rows(row_mp)
+
+    #for each row, compute the probability per label
+    row_labels = {} #row_id -> label, label is also a dict: label instance -> probability 
+    for row_id, row in row_mp.items():
+        row_labels[row_id] = row_label_prediction(row, predict_keys)
+        
+    #print_rows(row_mp, row_labels)
+    return row_mp, row_labels
+
+def row_label_prediction(row, predict_keys):
+    kvs = 0
+    kks = 0 
+    vvs = 0
+    
+    p_pre = row[0][0]
+    for i in range(1,len(row)):
+        p = row[i][0]
+        if(p_pre in predict_keys and p in predict_keys):
+            kks += 1
+        elif(p_pre in predict_keys and p not in predict_keys):
+                kvs += 1
+        elif(p_pre not in predict_keys and p not in predict_keys):
+            vvs += 1
+        p_pre = p
+
+    total = kvs + kks + vvs
+    label = {}
+    if(total == 0):
+        label['K'] = 0
+        label['V'] = 0
+        label['KV'] = 0
+        label['M'] = 0
+    else:
+        label['K'] = kks/total
+        label['V'] = vvs/total
+        label['KV'] = kvs/total
+        label['M'] = 0.001
+    return label
+
+def print_rows(row_mp, row_labels):
+    for row_id, lst in row_mp.items():
+            print(row_id, row_labels[row_id])
+            p_print = []
+            for (p,bb) in lst:
+                p_print.append(p)
+            print(p_print)
 
 def mix_pattern_extract(predict_labels, pv, rid, debug = 0):
     
@@ -1417,7 +1536,7 @@ def kv_extraction(pdf_path, out_path):
     keywords = read_file(key_path)#predicted keywords
     phrases = read_file(extracted_path)#list of phrases
     phrases_bb = read_json(bb_path)#phrases with bounding boxes
-    debug_mode = 1
+    debug_mode = 0
 
     #print(keywords)
     mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, debug_mode)
@@ -1435,7 +1554,7 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 6 #starting from 1
+    tested_id = 1 #starting from 1
     
 
     for pdf_path in tested_paths:

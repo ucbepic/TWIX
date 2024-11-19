@@ -123,9 +123,16 @@ def phrase_extract_pdfplumber_rules(pdf_path, x_tolerance=3, y_tolerance=3, page
                     elif (
                         ((word['top'] == prev['top'] or word['bottom'] == prev['bottom'])) 
                         and abs(word['x0'] - prev['x1']) < x_tolerance
-                    ):
+                    ):# if two words are close enough
                         # Words are on the same line and close to each other horizontally
                         current_phrase.append(word['text'])
+                        # you can first extract all the true phrases from the ground truth data we have 
+                        #and then we have a ppol which is a list containing all distinct true phrases
+                        #check logic  
+                        #if (current_phrase not in true_phrases): 
+                        #manual-rule-embeddings 
+                        #case 1: 2 years 306 days - if phrase[i] == '2' and phrase[i+1] == 'years' and phrase[i+2] == '306' 
+                        #
                         # Update bounding box for the current phrase
                         current_bbox = [
                             min(current_bbox[0], word['x0']),
