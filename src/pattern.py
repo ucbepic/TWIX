@@ -5,6 +5,7 @@ from scipy.sparse import csr_matrix
 from scipy.sparse.csgraph import min_weight_full_bipartite_matching
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
+from gurobipy import Model, GRB
 model_name = 'gpt4o'
 vision_model_name = 'gpt4vision'
 
@@ -1350,16 +1351,98 @@ def LP_extract(predict_keys, pv):
 
     print_rows(row_mp, row_labels)
     #LP formulation to learn row label assignment
+
+    #pre-compute all C-alignments 
+    Calign = {}
     for id1 in range(len(row_mp)):
         for id2 in range(id1+1, len(row_mp)):
-            if(location_alignment(row_mp, id1,id2) == 1):
-                semantic_alignment(row_mp, id1,id2)
+            # if(id1 != 6 or id2 != 7):
+            #     continue
+            c = C_alignment(row_mp, id1, id2)
+            Calign[(id1,id2)] = c
+            Calign[(id2,id1)] = c
+            if(c==1):
+                print((id1,id2))
 
+    #print(Calign)
     #learn template
     #data extraction 
 
-def LP_formulation(row_mp, row_labels):
-    a=0
+def LP_formulation(row_mp, row_labels, Calign):
+    model = Model("RT")
+
+    # create variables 
+    # for each row, create four variables 
+    vars = {} #row_id -> list of variables 
+    for row_id, row in row_mp.items():
+        var = []
+        var_K = 'yK' + str(row_id)
+        yk = model.addVar(vtype=GRB.INTEGER, name=var_K)
+        var.append(yk)
+
+        var_V = 'yV' + str(row_id)
+        yV = model.addVar(vtype=GRB.INTEGER, name=var_V)
+        var.append(yV)
+
+        var_KV = 'yKV' + str(row_id)
+        yKV = model.addVar(vtype=GRB.INTEGER, name=var_KV)
+        var.append(yKV)
+
+        var_M = 'yM' + str(row_id)
+        yM = model.addVar(vtype=GRB.INTEGER, name=var_M)
+        var.append(yM)
+
+        vars[row_id] = var
+
+    #add constraint 1: for each row, the sum of four variables is 1
+    for row_id, var in vars.items():
+        model.addConstr(var[0] + var[1] + var[2] + var[3] == 1, "SumOnePerRow")
+
+    #add constraint 2: validity of key row
+    for row_id, var in vars.items():
+        operand = 0
+        for j in range(row_id+1, len(vars)):
+            operand += (Calign[(row_id,j)]*vars[j][1])
+        model.addConstr(var[0] <= operand, "KeyValidity")
+
+    #add constraint 3: validity of value row 
+    for row_id, var in vars.items():
+        operand = 0
+        for j in range(0, row_id):
+            operand += (Calign[(row_id,j)]*vars[j][0])
+        model.addConstr(var[1] <= operand, "ValueValidity")
+
+    #add optimization function
+    prod_prob = 1
+    for row_id, var in vars.items():
+        prob = var[0]*row_labels[row_id]['K']
+        prob += var[1]*row_labels[row_id]['V']
+        prob += var[2]*row_labels[row_id]['KV']
+        prob += var[3]*row_labels[row_id]['M']
+        prod_prob *= prob
+    model.setObjective(prod_prob, GRB.MAXIMIZE)
+
+    # Optimize the model
+    model.optimize()
+
+    # get the predictions
+    row_pred_labels = {}
+    if model.status == GRB.OPTIMAL:
+        label = ''
+        for row_id, var in vars.items():
+            if(var[0].x == 1):
+                label = 'K'
+            elif(var[1].x == 1):
+                label = 'V'
+            elif(var[2].x == 1):
+                label = 'KV'
+            elif(var[3].x == 1):
+                label = 'M'
+            row_pred_labels[row_id] = label
+    
+    return row_pred_labels
+
+    
 
 def location_alignment(row_mp, id1, id2):
     return row_aligned(row_mp[id1], row_mp[id2]) 
@@ -1381,13 +1464,22 @@ def semantic_alignment(row_mp, id1, id2):
     context = ", ".join(f"({repr(key)}, {repr(value)})" for key, value in pairs)
     prompt = (instruction,context)
     response = model(model_name,prompt)
-    # print(prompt)
-    print(id1, id2)
-    print(response) 
+    #print(prompt)
+    # print(id1, id2)
+    #print(response) 
     pos = response.lower().count('yes')
     if(len(pairs) == 0):
         return 0
     return pos/len(pairs)
+
+def C_alignment(row_mp, id1, id2): #comprehensive alignment
+    if (location_alignment(row_mp, id1, id2)) == 1:
+        # score = semantic_alignment(row_mp, id1, id2)
+        # print(score)
+        # if (score > 0.5):
+        return 1
+    else:
+        return 0
 
 def get_row_probabilities(predict_keys, pv):
     #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record

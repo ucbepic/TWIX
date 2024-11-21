@@ -3,11 +3,23 @@ import extract
 import numpy as np
 import scipy.stats
 import sys
+import time 
 import networkx as nx
+from nltk.tokenize import word_tokenize
 import key 
+import tiktoken
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
 model_name = 'gpt4o'
+# available_encodings = tiktoken.list_encoding_names()
+# print("Available encodings:", available_encodings)
+
+tokenizer = tiktoken.get_encoding("cl100k_base")
+
+def token_size(text):
+    tokens = tokenizer.encode(text)
+    num_tokens = len(tokens)
+    return num_tokens
 
 def get_relative_locations(path):
     #get raw phrases path
@@ -36,9 +48,10 @@ def read_dict(file):
     return data 
 
 
-def get_extracted_path(path, method = ''):
+def get_extracted_path(path, method = 'plumber'):
     path = path.replace('raw','extracted')
-    path = path.replace('.pdf',  '.txt')
+    #path = path.replace('.pdf', '_' + method +  '.txt')
+    path = path.replace('.pdf', '.txt')
     return path
 
 def get_extracted_image_path(path,page_id):
@@ -159,6 +172,8 @@ def candidate_key_clusters_selection(clusters):
     instruction = 'The following list contains possibly keyword and values extracted from a table. Return to me all the keys without explanation, and seperate each keyword by |. If no key is found, return NO. Reminder: keyword will be not likely a number. ' 
     mp = {}
     cids = []
+    input_size = 0
+    output_size = 0
     for cid, l in clusters.items():
         
         if(len(l) <= 2):
@@ -166,6 +181,11 @@ def candidate_key_clusters_selection(clusters):
         context = ", ".join(l)
         prompt = (instruction,context)
         response = model(model_name,prompt)
+
+        input_size += token_size(instruction)
+        input_size += token_size(context)
+        output_size += token_size(response)
+
         lst = result_gen_from_response(response, l)
         p, w = mean_confidence_interval(lst)
         #important: if all 0, then confidence width is also 0, which makes other node hard dominate this one even it's the worst
@@ -197,7 +217,7 @@ def candidate_key_clusters_selection(clusters):
         if(cid not in out_degree):
             candidate_key_clusters.append(cid)
     #print(candidate_key_clusters)
-    return candidate_key_clusters 
+    return candidate_key_clusters, input_size, output_size 
 
 def mean_confidence_interval(data, confidence=0.95):
     a = 1.0 * np.array(data)
@@ -283,21 +303,26 @@ def write_raw_response(result_path, content):
         file.write(content)
 
 def get_truth_path(raw_path):
-    path = raw_path.replace('raw','truths')
-    path = path.replace('.pdf','.json')
+    path = raw_path.replace('raw','truths/key_truth')
+    path = path.replace('.pdf','.txt')
     return path
 
 def key_prediction_pipeline(data_folder):
     paths = extract.print_all_document_paths(data_folder)
+    print(paths)
     for path in paths:
         result_path = get_result_path(path)
         truth_path = get_truth_path(path)
+        print(truth_path)
         if not os.path.exists(truth_path):
             continue
-        if('id_18_28_45_48_51_57_60_70_72_79_81_89_91_92_94_95_97_99_102_105_113_117_118_119_122_125_131_132_137_139_150_v1' not in truth_path):
-            continue
+        # if('id_18_28_45_48_51_57_60_70_72_79_81_89_91_92_94_95_97_99_102_105_113_117_118_119_122_125_131_132_137_139_150_v1' not in truth_path):
+        #     continue
         print(path)
+        st = time.time()
         key_prediction(path, result_path)
+        et = time.time()
+        print(et-st)
         #break
 
 def key_prediction(pdf_path, result_path):
@@ -312,18 +337,21 @@ def key_prediction(pdf_path, result_path):
     phrases = relative_locations
     mp, remap = perfect_align_clustering(phrases)
     #print(remap)
-    candidate_key_clusters = candidate_key_clusters_selection(remap)
+    candidate_key_clusters, input_size, output_size = candidate_key_clusters_selection(remap)
     key_clusters = clustering_group(phrases, remap, candidate_key_clusters, k=1)
     keys = get_keys(remap, key_clusters)
-    print(keys)
+    #print(keys)
+    print('input and output token size:', input_size, output_size)
     #write result
-    write_result(result_path,keys)
+    #write_result(result_path,keys)
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
-    data_folder = root_path + '/data/raw/benchmark1/'
+    data_folder = root_path + '/data/extracted/complaints & use of force/'
+    
     
     key_prediction_pipeline(data_folder)
+    
         
         
         
