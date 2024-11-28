@@ -1,6 +1,8 @@
 import key,extract,json,sys,csv,math
 import numpy as np 
 import key
+import math
+import time 
 from scipy.sparse import csr_matrix
 from scipy.sparse.csgraph import min_weight_full_bipartite_matching
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
@@ -991,7 +993,6 @@ def row_aligned(row1, row2, esp = 0.8):
     #             valid = 1
     #             break
     #     if(valid == 0):
-    #         #print(p2 + ' does not overlap with any val in row1')
     #         return 0
     return 1
 
@@ -1319,7 +1320,7 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debu
     for rid, ps in phrases.items():
         record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, ps)
 
-        print(rid)
+        #print(rid)
         # vals = []
         # for (val,bb) in pv:
         #     vals.append(val)
@@ -1349,7 +1350,7 @@ def LP_extract(predict_keys, pv):
     #get probability per row 
     row_mp, row_labels = get_row_probabilities(predict_keys, pv)
 
-    print_rows(row_mp, row_labels)
+    #print_rows(row_mp, row_labels)
     #LP formulation to learn row label assignment
 
     #pre-compute all C-alignments 
@@ -1361,10 +1362,13 @@ def LP_extract(predict_keys, pv):
             c = C_alignment(row_mp, id1, id2)
             Calign[(id1,id2)] = c
             Calign[(id2,id1)] = c
-            if(c==1):
-                print((id1,id2))
+            # if(c==1):
+            #     print((id1,id2))
 
     #print(Calign)
+    row_pred_labels = LP_formulation(row_mp, row_labels, Calign)
+
+    #print(row_pred_labels)
     #learn template
     #data extraction 
 
@@ -1413,14 +1417,14 @@ def LP_formulation(row_mp, row_labels, Calign):
         model.addConstr(var[1] <= operand, "ValueValidity")
 
     #add optimization function
-    prod_prob = 1
+    log_prob = 0
     for row_id, var in vars.items():
-        prob = var[0]*row_labels[row_id]['K']
-        prob += var[1]*row_labels[row_id]['V']
-        prob += var[2]*row_labels[row_id]['KV']
-        prob += var[3]*row_labels[row_id]['M']
-        prod_prob *= prob
-    model.setObjective(prod_prob, GRB.MAXIMIZE)
+        prob = var[0]*math.log(row_labels[row_id]['K'])
+        prob += var[1]*math.log(row_labels[row_id]['V'])
+        prob += var[2]*math.log(row_labels[row_id]['KV'])
+        prob += var[3]*math.log(row_labels[row_id]['M'])
+        log_prob += prob
+    model.setObjective(log_prob, GRB.MAXIMIZE)
 
     # Optimize the model
     model.optimize()
@@ -1473,13 +1477,18 @@ def semantic_alignment(row_mp, id1, id2):
     return pos/len(pairs)
 
 def C_alignment(row_mp, id1, id2): #comprehensive alignment
-    if (location_alignment(row_mp, id1, id2)) == 1:
-        # score = semantic_alignment(row_mp, id1, id2)
-        # print(score)
-        # if (score > 0.5):
-        return 1
-    else:
-        return 0
+    #print(id1,id2)
+    l_score = location_alignment(row_mp, id1, id2)
+    return l_score
+    # print('l_score:', l_score)
+    # if (l_score == 1):
+    #     return 1
+    # s_score = semantic_alignment(row_mp, id1, id2)
+    # print('s_score:', s_score)
+    # if(s_score >= 0.5):
+    #     return 1
+    # else:
+    #     return 0
 
 def get_row_probabilities(predict_keys, pv):
     #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record
@@ -1530,16 +1539,17 @@ def row_label_prediction(row, predict_keys):
 
     total = kvs + kks + vvs
     label = {}
+    delta = 0.001
     if(total == 0):
-        label['K'] = 0
-        label['V'] = 0
-        label['KV'] = 0
-        label['M'] = 0
+        label['K'] = delta
+        label['V'] = delta
+        label['KV'] = delta
+        label['M'] = delta
     else:
-        label['K'] = kks/total
-        label['V'] = vvs/total
-        label['KV'] = kvs/total
-        label['M'] = 0.001
+        label['K'] = kks/total+delta
+        label['V'] = vvs/total+delta
+        label['KV'] = kvs/total+delta
+        label['M'] = 2*delta 
     return label
 
 def print_rows(row_mp, row_labels):
@@ -1646,13 +1656,16 @@ if __name__ == "__main__":
     tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
 
     id = 0
-    tested_id = 1 #starting from 1
+    tested_id = 3 #starting from 1x
     
 
     for pdf_path in tested_paths:
         id += 1
-        if(id != tested_id):
-            continue
+        # if(id != tested_id):
+        #     continue
         print(pdf_path)
         out_path = key.get_key_val_path(pdf_path, '')#output path
+        st = time.time()
         kv_extraction(pdf_path, out_path)
+        et=time.time()
+        print(et-st)

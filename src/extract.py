@@ -9,6 +9,7 @@ from PIL import Image, ImageDraw
 from pdf2image import convert_from_path
 import os
 import key 
+import time 
 
 
 """
@@ -377,8 +378,11 @@ def phrase_extraction_pipeline_pdfplumber(data_folder, page_limit):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         
-        if('id_10' not in path):
-            continue
+        # if('id_10' not in path):
+        #     continue
+
+        st = time.time()
+    
         print(path)
         text_path = get_text_path(path, '.txt', 'plumberv1')
         #dict_path = get_text_path(path, '.json')
@@ -390,7 +394,10 @@ def phrase_extraction_pipeline_pdfplumber(data_folder, page_limit):
                 if(len(p) == 0):
                     continue
                 adjusted_phrases.append(p)
-        write_phrase(text_path, adjusted_phrases)
+
+        et = time.time()
+        print(et-st)
+        #write_phrase(text_path, adjusted_phrases)
         #write_dict(dict_path, phrases)
 
 def get_img(file_path):
@@ -536,9 +543,11 @@ def phrase_extraction_pipeline_aws(raw_folder):
 if __name__ == "__main__":
     root_path = get_root_path()
     data_folder = root_path + '/data/raw/benchmark1/'
-    page_limit = 20 #number of page for data extraction
+    page_limit = 10 #number of page for data extraction
     #write_texts_plumber(data_folder,page_limit)
     #phrase_extraction_pipeline_aws(data_folder)
+    
     phrase_extraction_pipeline_pdfplumber(data_folder, page_limit)
+    
 
     
