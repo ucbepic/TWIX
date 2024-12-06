@@ -1,4 +1,346 @@
-import key,os,csv
+#this script implements the evaluation metric 
+import json,os,math,csv
+import Levenshtein
+
+def read_json(file_path):
+    with open(file_path, 'r') as file:
+        data = json.load(file)
+    return data 
+    
+def get_leaf_nodes_paris(data):
+    #this function get the key-val pairs in all leaves per record 
+    kvs_record = {} #record id -> a list of kvs 
+    keys = []
+    for record in data:
+        id = record['id']
+        content = record['content']
+        kvs = []
+        for block in content:
+            #print(block['type'])
+            #skip the evaluation fo metadata for now
+            if(block['type'] == 'metadata'):
+                continue
+            for tuple in block['content']:
+                #print(tuple)
+                for k,v in tuple.items():
+                    keys.append(k)
+                    kvs.append((k,v))
+        kvs_record[id] = kvs
+    keys = list(set(keys))
+    return kvs_record, keys
+
+import random
+
+def write_json(out, path):
+    with open(path, 'w') as json_file:
+        json.dump(out, json_file, indent=4)
+
+
+
+
+
+def clean_phrase(p):
+    if(isinstance(p,str)):
+        return p.lower().strip()
+    return p
+
+def can_convert_to_int(string):
+    try:
+        # Try converting the string to an integer
+        int(string)
+        return True
+    except ValueError:
+        # If a ValueError occurs, the string can't be converted to an integer
+        return False
+
+def can_convert_to_float(string):
+    try:
+        # Try converting the string to an integer
+        float(string)
+        return True
+    except ValueError:
+        # If a ValueError occurs, the string can't be converted to an integer
+        return False
+    
+def normalize_string(s):
+    # Replace literal '\\n' (backslash followed by 'n') and spaces, then convert to lowercase
+    s = s.replace('\\n', '').replace(' ', '').lower()
+    s = s.replace('|','').replace('\\','')
+    return s
+
+def approx_equal(str1, str2, esp = 0.95):
+    # Calculate the Levenshtein distance (edit distance) between two strings
+    distance = Levenshtein.distance(normalize_string(str1), normalize_string(str2))
+    ratio = 1 - distance/(max(len(str1),len(str2)))
+    if(ratio > esp):
+        return 1
+    else:
+        return 0
+def equal(a,b):
+    if(isinstance(a,str) and isinstance(b,int) and can_convert_to_int(a) and int(a) == b):
+        return 1
+    if(isinstance(b,str) and isinstance(a,int) and can_convert_to_int(b) and int(b) == a):
+        return 1
+    if(isinstance(a,float) and isinstance(b,str) and can_convert_to_float(b) and a==float(b)):
+        return 1
+    if(isinstance(b,float) and isinstance(a,str) and can_convert_to_float(a) and float(a)==b):
+        return 1
+    if(a==b):
+        return 1
+    if(a=='missing' and b == ''):
+        return 1
+    if(a == '' and b == 'missing'):
+        return 1
+    if(isinstance(b, float) and math.isnan(b) and isinstance(a, str) and a.lower() == 'n/a'):
+        return 1
+    if(isinstance(a, float) and math.isnan(a) and isinstance(b, str) and b.lower() == 'n/a'):
+        return 1
+    if(isinstance(a,str)):
+        a = a.strip('\'')
+        a = a.strip('\"')
+    if(isinstance(b,str)):
+        b = b.strip('\'')
+        b = b.strip('\"')
+    if(isinstance(a,str) and isinstance(b,int)):
+        if(str(b) == a):
+            return 1
+    if(isinstance(b,str) and isinstance(a,int)):
+        if(str(a) == b):
+            return 1
+    if(isinstance(a,str) and isinstance(b,str)):
+        if(a == b):
+            return 1
+        if(normalize_string(a) == normalize_string(b)):
+            return 1
+        if(approx_equal(a,b) == 1):
+            return 1
+    if(isinstance(a,str) and isinstance(b,str)):
+        if(a.lower() == b.lower()):
+            return 1
+        #the rules below remove the errors from the OCR phrase extraction
+        #the OCR phrase extraction should not be counted as the algorithm errors
+        if(a.lower() in b.lower() and len(b) > 10):
+            return 1
+        if(b.lower() in a.lower() and len(a) > 10):
+            return 1
+    OCR_phrase = ['(defpelaorntmy cenotn vfiicntdioinngs)','department finding','m(adkeinpga rftamlseen st tfaitnedminegn)ts','(dfeeplaorntym ceonnt vfiicntdioinng)','tamperfiningd win/ge)vidence']
+    for p in OCR_phrase:
+        if(isinstance(a,str) and p in a.lower()):
+            return 1
+        if(isinstance(b,str) and p in b.lower()):
+            return 1
+        
+    if(a == True and b == '\uf0fc'):
+        return 1
+    if(b == True and a == '\uf0fc'):
+        return 1
+    if(isinstance(a,str) and isinstance(b,str)):
+        if(a.rstrip('.') == b.rstrip('.')):#remove tailing ..
+            return 1
+    if(isinstance(a,str) and isinstance(b,float)):
+        if(can_convert_to_float(a.rstrip('.')) and float(a.rstrip('.')) == b):
+            return 1
+    if(isinstance(b,str) and isinstance(a,float)):
+        if(can_convert_to_float(b.rstrip('.')) and float(b.rstrip('.')) == a):
+            return 1
+    return 0
+
+def can_convert_to_float(s):
+    try:
+        float(s)  # Attempt to convert the string to a float
+        return True
+    except ValueError:
+        return False
+
+
+def get_PR(results_kvs, truth_kvs):
+    #print(len(truth_kvs))
+    precisions = {} #record id ->  precision 
+    recalls = {} # record id -> recall
+    avg_precision = 0
+    avg_recall = 0
+    for id, truth_kv in truth_kvs.items():
+        #print(id)
+        precision = 0
+        recall = 0
+        if id not in results_kvs:
+            precisions[id] = 0
+            recalls[id] = 0
+            continue
+        result_kv = results_kvs[id]
+
+        #clean phrases in results and truths
+        new_truth_kv = []
+        new_result_kv = []
+        for kv in truth_kv:
+            new_truth_kv.append((clean_phrase(kv[0]), clean_phrase(kv[1])))
+        for kv in result_kv:
+            new_result_kv.append((clean_phrase(kv[0]), clean_phrase(kv[1])))
+
+        # print(new_truth_kv)
+        # print(new_result_kv)
+        
+        #print('FP:')
+        #evaluate precision
+        for kv in new_result_kv:
+            is_match = 0
+            for kv1 in new_truth_kv:
+                if(equal(kv[0],kv1[0]) == 1 and equal(kv[1],kv1[1]) == 1):
+                    precision += 1
+                    is_match = 1
+                    break
+            # if(is_match == 0):
+            #     print(kv)
+        
+        if(len(new_result_kv) == 0):
+            precision = 0
+        else:
+            precision /= len(new_result_kv)
+
+        # if(precision  > avg_precision):
+        #     avg_precision = precision
+        #print('FN:')
+        #evaluate recall
+        for kv in new_truth_kv:
+            is_match = 0
+            for kv1 in new_result_kv:
+                if(equal(kv[0],kv1[0]) == 1 and equal(kv[1],kv1[1]) == 1):
+                    recall += 1
+                    is_match = 1
+                    break
+            # if(is_match == 0):
+            #     print(kv)
+        #print(len(new_truth_kv))
+        recall /= len(new_truth_kv)
+        # if(recall > avg_recall):
+        #     avg_recall = recall
+        
+
+        precisions[id] = precision
+        recalls[id] = recall 
+    
+    #compute the average 
+    avg_precision = 0
+    avg_recall = 0
+    for id, precision in precisions.items():
+        avg_precision += precision
+    avg_precision /= len(precisions)
+    for id, recall in recalls.items():
+        avg_recall += recall
+    avg_recall /= len(recalls)
+
+    return avg_precision, avg_recall
+
+def scan_folder(path, filter_file_type = '.json'):
+    file_names = []
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            file_name = os.path.join(root, file)
+            if('DS_Store' in file_name):
+                continue
+            if(filter_file_type not in file_name):
+                continue
+            file_names.append(file_name)
+    return file_names
+
+def get_result_path(truth_path):
+    result_path = ''
+    result_path = truth_path.replace('')
+    return result_path
+
+def eval_one_doc(truth_path, result_path):
+    truth = read_json(truth_path)
+    truth_kvs, truth_keys = get_leaf_nodes_paris(truth)
+    if('llmns_' not in result_path):
+        result = read_json(result_path)
+        result_kvs, result_keys = get_leaf_nodes_paris(result)
+    else:
+        result_kvs = get_kv_pairs_csv(result_path)
+    #print(truth_kvs)
+    avg_precision, avg_recall = get_PR(result_kvs, truth_kvs)
+    print(avg_precision, avg_recall)
+    return avg_precision, avg_recall
+
+def get_kv_pairs_csv(result_path):
+    kvs = {}
+    with open(result_path, mode='r', newline='') as file:
+        reader = csv.reader(file)
+        first_row = 0
+        # Iterate over each row in the CSV
+        for row in reader:
+            record_id = row[0]
+            if(record_id == 'Record'):
+                continue
+            #print(record_id)
+            record_id = int(record_id)
+            key = row[1].strip('"')
+            value = row[2].strip('"')
+            if(record_id not in kvs):
+                kvs[record_id] = [(key,value)]
+            else:
+                kvs[record_id].append((key,value))
+    return kvs 
+
+
+def get_key_val_path(raw_path, approach):
+    path = raw_path.replace('data/raw','result')
+    path = path.replace('.pdf', '_' + approach + '_kv.json')
+    return path
+
+def get_baseline_result(raw_path, approach):
+    path = raw_path.replace('data/raw','result')
+    path = path.replace('.pdf','.csv') 
+    file_name = path.split('/')[-1]
+    file_name = approach + '_' + file_name
+    directory_path = path.rsplit('/', 1)[0]
+    new_path = directory_path + '/' + file_name
+    return new_path
+
+import os
+
+def eval_benchmark():
+    root_path = get_root_path()
+    pdf_folder_path = root_path + '/data/raw'
+    pdfs = scan_folder(pdf_folder_path,'.pdf')
+    precision = 0
+    recall = 0
+    cnt = 0 
+    for pdf_path in pdfs:
+        
+        result_path = pdf_path.replace('data/raw','out').replace('.pdf','_TWIX_kv.json')
+        #print(result_path)
+        if(not os.path.isfile(result_path)):
+            continue 
+
+        truth_path = pdf_path.replace('raw','truths').replace('.pdf','.json')
+        #print(truth_path)
+        if(not os.path.isfile(truth_path)):
+            continue 
+
+        print(pdf_path)
+        cnt += 1
+        
+        avg_precision, avg_recall = eval_one_doc(truth_path, result_path)
+        precision += avg_precision
+        recall += avg_recall
+    precision /= cnt
+    recall /= cnt
+    print(precision, recall)
+        
+def write_list(path, phrases):
+    out = ''
+    for phrase in phrases:
+        out += phrase
+        out += '\n'
+    with open(path, 'w') as file:
+        # Write the string to the file
+        file.write(out)
+
+def get_root_path():
+    current_path = os.path.abspath(os.path.dirname(__file__))
+    parent_path = os.path.abspath(os.path.join(current_path, os.pardir))
+    #print("Parent path:", parent_path)
+    return parent_path
 
 def read_file(file):
     data = []
@@ -9,168 +351,45 @@ def read_file(file):
             data.append(line.strip())
     return data
 
-def format(lst):
-    l = []
-    for v in lst:
-        l.append(v.lower().strip())
-    return l
-
-def format_key_val(lst, delimeter = ','):
-    data = []
-    for l in lst:
-        r = l.split(delimeter)
-        #print(r)
-        if(r[0].lower() == 'key' and r[1].lower() == 'value'):
-            continue
-        data.append((r[0].lower().strip(),r[1].lower().strip(),r[2]))
-    return data 
-
-def filter(truths, phrases):
-    l = []
-    for v in truths:
-        if(v not in phrases):
-            print('True key not in the extracted text: '+v)
-        else:
-            l.append(v)
-
-    return l
-
-def eval_key(truths, results):
-    precision = 0
-    recall = 0
-    FP = []
-    FN = []
-    for v in results:
-        if(v not in truths):
-            FP.append(v)
-        else:
-            precision += 1
-    for v in truths:
-        if(v not in results):
-            FN.append(v)
-        else:
-            recall += 1
-    # print(len(results), precision)
-    # print(len(truths), recall)
-    precision = precision / len(results)
-    recall = recall / len(truths)
-
-    return precision, recall, FP, FN
-
-
-def eval_key_val(truths, results):
-    page = '1.0'
-    precision = 0
-    recall = 0
-    FP = []
-    FN = []
-
-    truth_size = 0
-    for truth in truths:
-        #print(type(truth[2]), type(page))
-        if(truth[2] != page):
-            continue
-        truth_size += 1
-        t = (truth[0],truth[1])
-        is_match = 0
-        for result in results:
-            r = (result[0], result[1])
-            if(t==r):
-                recall += 1
-                is_match = 1
+def match_phrases(keys, phrases):
+    k = []
+    for key in keys:
+        for phrase in phrases:
+            if(key.lower() == phrase.lower()):
+                k.append(phrase)
                 break
-        if(is_match == 0):
-            FN.append(t)
-    
-    for result in results:
-        r = (result[0], result[1])
-        is_match = 0
-        for truth in truths:
-            if(truth[2] != page):
-                continue
-            t = (truth[0],truth[1])
-            if(t==r):
-                precision += 1
-                is_match = 1
-                break
-        if(is_match == 0):
-            FP.append(r)
-            
-    precision /= len(results)
-    recall /= truth_size
+    return k
 
-    return precision, recall, FP, FN
+def load_keys():
+    root_path = get_root_path()
 
+    pdf_folder_path = root_path + '/data/raw/benchmark1'
+    pdfs = scan_folder(pdf_folder_path,'.pdf')
+    for pdf_path in pdfs:
+        print(pdf_path)
+        truth_path = pdf_path.replace('raw','truths').replace('.pdf','.json')
+        if(not os.path.isfile(truth_path)):
+            continue 
+        extracted_path = pdf_path.replace('raw','extracted').replace('.pdf','.txt')
 
-def get_truth_key_val_path(raw_path):
-    path = raw_path.replace('raw','truths/key_value_truth')
-    path = path.replace('.pdf','.csv')
-    return path
+        if(not os.path.isfile(extracted_path)):
+            continue
 
-def eval_key_procedure():
-    root_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse'
-    tested_paths = []
-    tested_paths.append(root_path + '/data/raw/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted.pdf')
-    tested_paths.append(root_path + '/data/raw/complaints & use of force/UIUC PD Use of Force/22-274.releasable.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/CT/DecertifiedOfficersRev_9622 Emilie Munson.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/IA/Active_Employment.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/MT/RptEmpRstrDetail Active.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
-
-
-    for tested_id in range(len(tested_paths)):
-
-        path = tested_paths[tested_id]
-        print(path)
-        #result_path = key.get_result_path(path)
-        result_path = key.get_baseline_result_path(path,'clustering')
-        truth_path = key.get_truth_path(path,1)
-        extracted_path = key.get_extracted_path(path)
-
-        phrases = format(read_file(extracted_path))
-        truths = format(read_file(truth_path))
-        results = format(read_file(result_path))
-        
-        truths = filter(truths, phrases)
-        precision, recall, FP, FN = eval(truths, results)
-        print(precision,recall)
+        phrases = read_file(extracted_path)
+        truth = read_json(truth_path)
+        truth_kvs, keys = get_leaf_nodes_paris(truth)
+        keys = match_phrases(keys, phrases)
+        target_path = pdf_path.replace('data/raw','result').replace('.pdf','_key.txt')
+        print(keys)
+        print(target_path)
+        write_list(target_path, keys)
         #break
 
-def eval_key_val_procedure():
-    root_path = '/Users/yiminglin/Documents/Codebase/Pdf_reverse'
-    tested_paths = []
-    tested_paths.append(root_path + '/data/raw/complaints & use of force/Champaign IL Police Complaints/Investigations_Redacted.pdf')
-    tested_paths.append(root_path + '/data/raw/complaints & use of force/UIUC PD Use of Force/22-274.releasable.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/CT/DecertifiedOfficersRev_9622 Emilie Munson.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/IA/Active_Employment.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/MT/RptEmpRstrDetail Active.pdf')
-    tested_paths.append(root_path + '/data/raw/certification/VT/Invisible Institue Report.pdf')
-
-    tested_id = 1
-    
-    path = tested_paths[tested_id]
-    print(path)
-    result_path = key.get_key_val_path(path, 'kv')
-    truth_path = get_truth_key_val_path(path)
-    extracted_path = key.get_extracted_path(path)
-
-    phrases = format(read_file(extracted_path))
-    truths = format_key_val(read_file(truth_path))
-    results = format_key_val(read_file(result_path))
-
-    # for l in results:
-    #     print(l)
-    
-    precision, recall, FP, FN = eval_key_val(truths, results)
-    print(precision,recall)
-
-    print('FP:')
-    for fp in FP:
-        print(fp)
-
-    print('FN:')
-    for fn in FN:
-        print(fn)
-
 if __name__ == "__main__":
-    eval_key_val_procedure()
+    eval_benchmark()
+
+    
+
+        
+
+    

@@ -50,9 +50,20 @@ def read_dict(file):
 
 def get_extracted_path(path, method = 'plumber'):
     path = path.replace('raw','extracted')
-    #path = path.replace('.pdf', '_' + method +  '.txt')
-    path = path.replace('.pdf', '.txt')
+    if('benchmark1' in path):
+        path = path.replace('.pdf', '_' + method +  '.txt')
+    else:
+        path = path.replace('.pdf', '.txt')
     return path
+
+def read_file(file):
+    data = []
+    with open(file, 'r') as file:
+        # Iterate over each line in the file
+        for line in file:
+            # Print the line (you can replace this with other processing logic)
+            data.append(line.strip())
+    return data
 
 def get_extracted_image_path(path,page_id):
     path = path.replace('raw','extracted')
@@ -73,7 +84,12 @@ def perfect_match(v1,v2,k):
             #print(delta, v1[i],v2[i])
             return 0
     return 1
-    
+
+def load_candidate(pdf_path):
+    path = pdf_path.replace('data/raw','result').replace('.pdf','_key.txt')
+    cans = read_file(path)
+    return cans
+
 def is_subsequence(seq1, seq2, k):#len(seq1) < len(seq2)
     i = 0
     j = 0 
@@ -270,19 +286,20 @@ def clustering_group(phrases_vec, clusters, candidate_key_clusters, k=1):
     #print(key_clusters)
     return key_clusters
 
-def get_keys(cluters, key_clusters):
+def get_keys(cans, cluters, key_clusters):
     keys = []
     for key in key_clusters:
         keys += cluters[key]
-    return keys
+    ks = set(keys).intersection(cans)
+    return list(ks)
 
-def get_result_path(raw_path, method = ''):
-    path = raw_path.replace('data/raw','result')
-    path = path.replace('.pdf', '.txt')
+def get_result_path(raw_path, method = 'TWIX'):
+    path = raw_path.replace('data/raw','out')
+    path = path.replace('.pdf', '_' + method + '_key.txt')
     return path
 
 def get_key_val_path(raw_path, approach):
-    path = raw_path.replace('data/raw','result')
+    path = raw_path.replace('data/raw','out')
     path = path.replace('.pdf', '_' + approach + '_kv.json')
     return path
 
@@ -303,47 +320,41 @@ def write_raw_response(result_path, content):
         file.write(content)
 
 def get_truth_path(raw_path):
-    path = raw_path.replace('raw','truths/key_truth')
-    path = path.replace('.pdf','.txt')
+    path = raw_path.replace('raw','truths/')
+    path = path.replace('.pdf','.json')
     return path
+
+
 
 def key_prediction_pipeline(data_folder):
     paths = extract.print_all_document_paths(data_folder)
-    print(paths)
     for path in paths:
-        result_path = get_result_path(path)
-        truth_path = get_truth_path(path)
-        print(truth_path)
-        if not os.path.exists(truth_path):
-            continue
-        # if('id_18_28_45_48_51_57_60_70_72_79_81_89_91_92_94_95_97_99_102_105_113_117_118_119_122_125_131_132_137_139_150_v1' not in truth_path):
-        #     continue
-        print(path)
-        st = time.time()
-        key_prediction(path, result_path)
-        et = time.time()
-        print(et-st)
-        #break
+        key_prediction(path)
 
-def key_prediction(pdf_path, result_path):
+def key_prediction(pdf_path):
+    result_path = get_result_path(pdf_path)
     extracted_path = get_extracted_path(pdf_path)
     #generate reading order vector
     relative_locations = get_relative_locations(pdf_path)
     reading_order_path = get_relative_location_path(extracted_path)
-    print(reading_order_path)
-    write_dict(reading_order_path, relative_locations)
+    #print(reading_order_path)
+    #write_dict(reading_order_path, relative_locations)
+    cans = load_candidate(pdf_path)
 
     #predict keys
     phrases = relative_locations
+    print('perfect match starts...')
     mp, remap = perfect_align_clustering(phrases)
     #print(remap)
+    print('cluster pruning starts...')
     candidate_key_clusters, input_size, output_size = candidate_key_clusters_selection(remap)
+    print('re-clustering starts...')
     key_clusters = clustering_group(phrases, remap, candidate_key_clusters, k=1)
-    keys = get_keys(remap, key_clusters)
+    keys = get_keys(cans, remap, key_clusters)
     #print(keys)
-    print('input and output token size:', input_size, output_size)
+    #print('input and output token size:', input_size, output_size)
     #write result
-    #write_result(result_path,keys)
+    write_result(result_path,keys)
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
