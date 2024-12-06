@@ -1,0 +1,34 @@
+CPE
+Invoice Num
+For
+Contract Dates
+Day
+Buy Line Dates
+Spots Per Week
+M/G For
+Air Date
+Total Spots
+Net Amt
+Product Desc
+Commission Amt
+Office
+Contract Num
+Linked Order
+Billing Cycle
+Debit
+Invoice Date
+Billing Period
+M T W T F S S
+Credit
+NONDISCRIMINATION POLICY
+Week Of
+Rate
+Remit To
+Material
+Gross Amt
+Account Exec
+Remarks
+Dur
+Customer Order
+Reconciliation
+Air Time

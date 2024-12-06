@@ -1,0 +1,53 @@
+Status
+Net
+GRP
+AE
+Survey
+Program
+Total Cost
+Net Total
+Product Code
+Commission
+Stop Date
+Spot Len
+S
+Est Code
+S.1
+Syscode
+Makegood Policy
+Comments
+CPP
+M
+CPM
+Total Spots
+IMP
+Office
+Agency
+T.1
+Unit Cost
+Total
+Product Name
+Phone
+Line Comment
+Primary Demo
+Sales Coordinator
+GIMP
+Stop Time
+Update Date
+Start Date
+Start Time
+Order #
+Market
+Client Code
+Affiliate Split
+Version
+Flight Dates
+System Name
+Credit Status
+T
+Advertiser
+Line
+RTG
+W
+F
+Total # of Weeks

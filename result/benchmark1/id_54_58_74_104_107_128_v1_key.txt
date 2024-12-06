@@ -1,0 +1,30 @@
+Salesperson
+Length
+Brand
+Buyer
+AD-ID / ISCI
+Program
+Send Payment To
+Coop
+Comments
+Contract Line Remarks
+Product
+Billing Inquiries Phone
+Air Date/Time
+Agency
+Remarks
+Acct Type
+Type
+Period
+Scheduled Time
+Terms
+Contract
+Bill Type
+Scheduled Day to Run
+Estimate/HL
+Acct #
+Amount
+Advertiser
+Line
+Inv #
+Invoice Date

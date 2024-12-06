@@ -1,0 +1,48 @@
+Salesperson
+Length
+Contract Line Remarks: GOOD DAY ME 1
+Buyer
+Brand
+Program
+Est/External #
+Net Total
+Line
+CO-OP/Order Type
+Contract Line Remarks: SIMPSONS-FOX
+fx
+Contract Line Remarks: BRKLYN 9-9-FOX
+Schedule Days to Run
+Air Time
+Copy/ISCI
+Comments
+Contract Line Remarks
+Product
+Agency
+Contract Line Remarks: AVG. ALL WKS
+Remarks
+Phone
+Contract Line Remarks: FAMILY GUY-FOX
+Revision
+Invoice
+Phonphe
+Type
+Scheduled
+Period
+Special Handling
+Contract Line Remarks: FOX23 NEWS-TEN<
+ph
+Terms
+Contract
+Bill Type
+Page
+Gross Total
+Inv Date
+Separation
+Remit
+Acct Types
+Amount
+Advertiser
+Demo
+Gen. Date
+Comission
+Invoice Date

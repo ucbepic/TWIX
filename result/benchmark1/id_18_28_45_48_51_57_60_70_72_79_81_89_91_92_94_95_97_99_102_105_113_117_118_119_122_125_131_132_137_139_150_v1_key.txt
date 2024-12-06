@@ -1,0 +1,50 @@
+Alt Order #
+Agency Code
+Length
+Invoice Month
+Agency Ref
+Billing Type
+Send Payment To
+Main
+Product 2
+Line
+Invoice Period
+Advertiser Ref
+Sales Office
+Day
+Air Time
+Billing Inquiries
+Billing Address
+Product
+Ad-ID
+Account Executive
+Estimate #
+Ch
+Deal #
+Billing
+Type
+Special Handling
+Product 1
+Start Date
+Property
+Order #
+Description
+Spots/Week
+Billing Calendar
+Start/End Time
+Sales Region
+Spots\n/Week
+Flight Dates
+Rate
+Quick Pay Code
+Air Date
+Spots
+#
+End Date
+Advertiser Code
+Invoice #
+MTWTFSS
+Advertiser
+WO Payments Quick Pay Link
+Invoice Date
+Weeks

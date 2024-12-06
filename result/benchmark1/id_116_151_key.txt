@@ -1,0 +1,47 @@
+Salesperson
+Length
+Dates
+Order Type
+Th
+Brand
+By Broadcast Month
+Station
+Line Type / Break Type (Ref #)
+Agency/T-Code
+Billing Type
+Buyer Name
+SPW
+Entered By
+Net Total
+Last Modified
+Commission
+Line
+Sec
+We
+missing
+Sales Office
+Comments
+CPE
+Fr
+Package Deal
+Product
+Agency
+Total
+Phone/Fax
+Sa
+Date Entered
+Entered
+Su
+Mo
+Schedule Dates
+Commission %
+Rate
+Headline #
+Tu
+Spots
+Account Types
+Run Times
+Advertiser
+Demo
+CO-OP
+Sales Tax

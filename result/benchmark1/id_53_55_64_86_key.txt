@@ -1,0 +1,20 @@
+Net Amount
+Day
+Gross Amount
+Description
+Agency Commission
+Date
+Phone#
+Station
+Invoice #
+Line #
+Bill To
+Time
+Product
+CI
+Terms
+Remit To
+Len
+Acct Exec
+Order #
+Rate

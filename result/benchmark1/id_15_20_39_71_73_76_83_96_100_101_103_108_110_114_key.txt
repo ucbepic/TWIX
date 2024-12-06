@@ -1,0 +1,35 @@
+Line
+Spots/Week
+Property
+Agy Code
+Contract Dates
+Start/End Time
+Contract / Revision
+End Date
+Description
+Start Date
+Alt Order #
+Length
+Ch
+Billing Cycle
+Week
+Product
+Original Date / Revision
+Days
+Amount
+Advertiser Ref
+Billing Calendar
+Demographic
+Sales Office
+Estimate #
+Type
+Spot
+Advertiser
+Account Executive
+Date Range
+Product 1/2
+Agency Ref
+Rate
+Advertiser Code
+Cash/Trade
+Weekdays

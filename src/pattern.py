@@ -1178,7 +1178,7 @@ def filter_non_key(lst, non_key):
         nl.append(l)
     return nl
 
-def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, reCans, path, debug = 0):
+def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debug = 0):
     phrases = record_extraction(phrases, predict_labels)
     record_appearance = {}
     for rid, ps in phrases.items():
@@ -1188,14 +1188,12 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, reCans, pa
     rid = 1
     for rid, ps in phrases.items():
         record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, ps)
-        record = ILP_extract(predict_labels, pv, rid, reCans)
+        record = ILP_extract(predict_labels, pv, rid)
         if(len(record) > 0):
             records.append(record)
-    #print(len(records))
-    records = check_kvs(rid, records, reCans)
     write_json(records, path)
 
-def ILP_extract(predict_keys, pv, rid, recan):
+def ILP_extract(predict_keys, pv, rid):
     if(rid == 1):
         row_mp, row_labels = get_row_probabilities(predict_keys, pv)
         #LP formulation to learn row label assignment
@@ -1212,12 +1210,8 @@ def ILP_extract(predict_keys, pv, rid, recan):
 
         #learn template
         blk, blk_id = template_learn(row_pred_labels)
-        record, candidate = data_extraction(rid,blk,blk_id,row_mp,predict_keys,recan)
-    else:
-        if(rid-1<len(recan)):
-            record = recan[rid-1]
-        else:
-            record = {}
+        record = data_extraction(rid,blk,blk_id,row_mp,predict_keys)
+    
     return record 
 
 def ILP_formulation(row_mp, row_labels, Calign):
@@ -1445,14 +1439,10 @@ def print_rows(row_mp, row_labels):
                 p_print.append(p)
             print(p_print)
 
-def data_extraction(rid,blk,blk_id,row_mp,predict_labels,recan):
+def data_extraction(rid,blk,blk_id,row_mp,predict_labels):
     out = []
     record = {}
     record['id'] = rid
-    if(rid-1 < len(recan)):
-        re = recan[rid-1]
-    else: 
-        re = {}
 
     for id, lst in blk.items():
         object = {}
@@ -1497,7 +1487,7 @@ def data_extraction(rid,blk,blk_id,row_mp,predict_labels,recan):
     
     record['content'] = out
 
-    return re, record 
+    return record 
 
 def mix_pattern_extract(predict_labels, pv, rid, debug = 0):
     
@@ -1570,7 +1560,7 @@ def write_string(result_path, content):
         file.write(content)
 
 def kv_extraction(pdf_path, out_path):
-    key_path = pdf_path.replace('data/raw','out').replace('.pdf','_TWIX_key.txt')
+    key_path = pdf_path.replace('data/raw','result').replace('.pdf','_TWIX_key.txt')
     extracted_path = key.get_extracted_path(pdf_path)
     
     if(not os.path.isfile(extracted_path)):
@@ -1578,7 +1568,6 @@ def kv_extraction(pdf_path, out_path):
     if(not os.path.isfile(key_path)):
         return 
     bb_path = get_bb_path(extracted_path)
-    reCans = load_cands(pdf_path)
     
     keywords = read_file(key_path)#predicted keywords
     phrases = read_file(extracted_path)#list of phrases
@@ -1587,7 +1576,7 @@ def kv_extraction(pdf_path, out_path):
 
     print('Template-based data extraction starts...')
 
-    mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, reCans, out_path, debug_mode)
+    mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, debug_mode)
 
 if __name__ == "__main__":
     #print(get_metadata())
@@ -1595,10 +1584,8 @@ if __name__ == "__main__":
     pdf_folder_path = root_path + '/data/raw'
     pdfs = scan_folder(pdf_folder_path,'.pdf')
     for pdf_path in pdfs:
-        # if('benchmark1' not in pdf_path):
-        #     continue
-        # if('id_143' in pdf_path):
-        #     continue
+        if('id_12' not in pdf_path):
+            continue
         print(pdf_path)
         out_path = key.get_key_val_path(pdf_path, 'TWIX')
         st = time.time()
@@ -1606,5 +1593,3 @@ if __name__ == "__main__":
         kv_extraction(pdf_path, out_path)
         et=time.time()
         break
-        #print(out_path)
-        #print(et-st)

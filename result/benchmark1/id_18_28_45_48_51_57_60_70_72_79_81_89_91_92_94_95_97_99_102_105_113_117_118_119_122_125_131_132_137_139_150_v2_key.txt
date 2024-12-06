@@ -1,0 +1,29 @@
+Length
+Spots/\nWeek
+Invoice Month
+Net Total
+Invoice Period
+Day
+Air Time
+Product
+Total Spots
+Ad-ID
+Estimate #
+Ch
+Type
+DUE NET 30
+Start Date
+Description
+Start/End Time
+Gross Total
+Rate
+Air Date
+Spots
+#
+End Date
+Invoice #
+MTWTFSS
+Advertiser
+Line
+Invoice Date
+Weeks

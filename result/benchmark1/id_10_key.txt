@@ -1,0 +1,12 @@
+Director
+Pending
+Grant Title
+Department Summary
+Agency Name
+Amount Awarded
+Approved
+GrantID
+Status
+Department
+Amount Requested
+Declined

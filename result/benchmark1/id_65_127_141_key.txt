@@ -1,0 +1,35 @@
+Total\nSpots
+Buyer Order #
+Start/End Dates
+Len
+Oct\n21
+Buyer
+AE
+Program
+Product Desc.
+Total Cost
+Traffic #
+Estimate Desc.
+Separation: 30
+Comments
+Days\nWTFSSMT
+Separation: 30 Population Buy Type: CPP
+Terms Of Sale
+Agency
+Time
+Primary Demo
+ST
+C/P/E
+Generated Date
+Property
+Days\nTWTFFSSM
+May\n6
+Received Date
+Traffic Order #
+Sales Region
+Jun\n7
+Rate
+Order Status
+(Program
+Advertiser
+Line

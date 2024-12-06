@@ -1,0 +1,23 @@
+Length
+AD-ID / ISCI
+Due By
+Program
+Commission
+Contract Line Remarks
+Total Spots
+Air Date/Time
+Agency
+Remarks
+Type
+Period
+Scheduled Time
+Invoice Date
+Gross Total
+Scheduled Day to Run
+Acct #
+Amount
+Advertiser
+Line
+Inv #
+Sales Tax
+NET TOTAL

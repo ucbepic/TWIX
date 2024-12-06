@@ -1,0 +1,18 @@
+Business & Economics - College - Accounting Dept - Subject
+Class Min Enrl
+Arts & Communication - College - Art & Design Department - Subject
+Room
+Class Wait Cap
+Bldg
+Arts & Communication - College - Communication Dept - Subject
+Instructor
+Class Enrl Cap
+Report ID
+Class Wait Tot
+Time
+Days
+Run Date
+Class Equivalents
+Class Enrl Tot
+Arts & Communication - College - Theatre & Dance Dept - Subject
+Arts & Communication - College - Arts & Communication College - Subject

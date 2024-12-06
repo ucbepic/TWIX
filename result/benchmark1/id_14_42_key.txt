@@ -1,0 +1,69 @@
+Daypart
+Th
+Unit\nLen
+Rev
+Submit EDI Invoice?
+Program
+Tr Ln\n#
+Gross $
+Net $
+Zones
+Purchase Order #
+Address 1
+Primary
+Total\nUnits
+Contract Type
+Updated By
+Sys\nCode
+Syscode Net $
+Avg Unit Rate
+M
+Source
+Unique\nLn #
+Start\nDate
+End\nDate
+Product
+ActiveWeeks
+Agency
+Industry
+Secondary
+Zone Status
+RepFirm
+Phone
+Sa
+Created By
+Units
+Copy Group
+AE 1
+Total Networks
+Start Date
+Syscode Units
+Order #
+Quarternary
+Division
+Su
+Traffic Order #
+Total\nAmount
+Syscode Gross $
+Created On
+Network
+Credit Hold
+Order Descrp
+Avail Tag
+Order Status
+Address 2
+Tertiary
+Tu
+Client
+AE 2
+End Date
+Priority\nCode
+Billing Schedule
+Estimate
+# of Weeks
+Parent\Line#
+Reference #
+Updated On
+W
+F
+Unit\nRate

@@ -307,7 +307,7 @@ def eval_benchmark():
     cnt = 0 
     for pdf_path in pdfs:
         
-        result_path = pdf_path.replace('data/raw','out').replace('.pdf','_TWIX_kv.json')
+        result_path = pdf_path.replace('data/raw','result').replace('.pdf','_TWIX_kv.json')
         #print(result_path)
         if(not os.path.isfile(result_path)):
             continue 

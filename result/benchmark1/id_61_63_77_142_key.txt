@@ -1,0 +1,24 @@
+Salesperson
+Account
+Spot Summary
+Est. Number
+Copy Name
+Invoice
+Description
+Total Spots
+Date
+Spot Classification
+Total
+Flight Dates
+Length
+ISCI
+Invoice Month
+IDB Code
+KNZZ-AM
+Payment Terms
+Qty
+Please Remit To
+Advertiser
+Invoice Total
+Rate
+Billing Type
