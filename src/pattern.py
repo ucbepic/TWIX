@@ -39,6 +39,28 @@ def read_json(path):
         data = json.load(file)
     return data
 
+def template_learn_input_gen(phrases, predict_labels):
+    input = []
+    cnt = {}
+    satisfied = 0
+    cnts = {}
+    #goal: ensure that input contains each predict label at least twice
+    for p in phrases:
+        input.append(p)
+        if(p in predict_labels):
+            #print(p)
+            if(p in cnt):
+                cnt[p] += 1
+            else:
+                cnt[p] = 0
+            if(cnt[p] >= 1 and p not in cnts):#ensure each key is counted once
+                cnts[p] = 1
+                satisfied += 1
+            if(satisfied == len(predict_labels)): #each predict label occurs in input at least twice
+                return input
+    print('There does not exist an input such that every predict key exists at least twice.')
+    return []
+
 def record_extraction(pss,predict_labels):
     #print(predict_labels)
     #only return the first record 
@@ -1179,38 +1201,39 @@ def filter_non_key(lst, non_key):
     return nl
 
 def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debug = 0):
-    phrases = record_extraction(phrases, predict_labels)
-    record_appearance = {}
-    for rid, ps in phrases.items():
-        for p in ps:
-            record_appearance[p] = 0
-    records = []
-    rid = 1
-    for rid, ps in phrases.items():
-        record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, ps)
-        record = ILP_extract(predict_labels, pv, rid)
-        if(len(record) > 0):
-            records.append(record)
-    write_json(records, path)
+    phrases = template_learn_input_gen(phrases, predict_labels)
+    print(phrases)
+    # record_appearance = {}
+    # for rid, ps in phrases.items():
+    #     for p in ps:
+    #         record_appearance[p] = 0
+    # records = []
+    # rid = 1
+    # for rid, ps in phrases.items():
+    #     record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, ps)
+    #     record = ILP_extract(predict_labels, pv, rid)
+    #     if(len(record) > 0):
+    #         records.append(record)
+    #     #break
+    # write_json(records, path)
 
 def ILP_extract(predict_keys, pv, rid):
-    if(rid == 1):
-        row_mp, row_labels = get_row_probabilities(predict_keys, pv)
-        #LP formulation to learn row label assignment
+    row_mp, row_labels = get_row_probabilities(predict_keys, pv)
+    #LP formulation to learn row label assignment
 
-        #pre-compute all C-alignments 
-        Calign = {}
-        for id1 in range(len(row_mp)):
-            for id2 in range(id1+1, len(row_mp)):
-                c = C_alignment(row_mp, id1, id2)
-                Calign[(id1,id2)] = c
-                Calign[(id2,id1)] = c
-        
-        row_pred_labels = ILP_formulation(row_mp, row_labels, Calign)
+    #pre-compute all C-alignments 
+    Calign = {}
+    for id1 in range(len(row_mp)):
+        for id2 in range(id1+1, len(row_mp)):
+            c = C_alignment(row_mp, id1, id2)
+            Calign[(id1,id2)] = c
+            Calign[(id2,id1)] = c
+    
+    row_pred_labels = ILP_formulation(row_mp, row_labels, Calign)
 
-        #learn template
-        blk, blk_id = template_learn(row_pred_labels)
-        record = data_extraction(rid,blk,blk_id,row_mp,predict_keys)
+    #learn template
+    blk, blk_id = template_learn(row_pred_labels)
+    record = data_extraction(rid,blk,blk_id,row_mp,predict_keys)
     
     return record 
 
@@ -1560,7 +1583,7 @@ def write_string(result_path, content):
         file.write(content)
 
 def kv_extraction(pdf_path, out_path):
-    key_path = pdf_path.replace('data/raw','result').replace('.pdf','_TWIX_key.txt')
+    key_path = pdf_path.replace('data/raw','result').replace('.pdf','_key.txt')
     extracted_path = key.get_extracted_path(pdf_path)
     
     if(not os.path.isfile(extracted_path)):
@@ -1588,8 +1611,6 @@ if __name__ == "__main__":
             continue
         print(pdf_path)
         out_path = key.get_key_val_path(pdf_path, 'TWIX')
-        st = time.time()
-        
+        #print(out_path)
         kv_extraction(pdf_path, out_path)
-        et=time.time()
         break

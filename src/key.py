@@ -294,7 +294,7 @@ def get_keys(cans, cluters, key_clusters):
     return list(ks)
 
 def get_result_path(raw_path, method = 'TWIX'):
-    path = raw_path.replace('data/raw','out')
+    path = raw_path.replace('data/raw','result')
     path = path.replace('.pdf', '_' + method + '_key.txt')
     return path
 

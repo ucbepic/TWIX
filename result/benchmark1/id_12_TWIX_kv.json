@@ -1,0 +1,237 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "07/31/2020"
+                    },
+                    {
+                        "Page": "1"
+                    },
+                    {
+                        "BarCode": "missing"
+                    },
+                    {
+                        "Gas": "missing"
+                    },
+                    {
+                        "Size": "missing"
+                    },
+                    {
+                        "CO #": "missing"
+                    },
+                    {
+                        "PO #CDLocation": "missing"
+                    },
+                    {
+                        "Demurrage": "missing"
+                    },
+                    {
+                        "Delivery Code": "01000186000250726250112021"
+                    },
+                    {
+                        "Amount Total": "29.45"
+                    },
+                    {
+                        "Amount Total": "7.56"
+                    },
+                    {
+                        "Amount Total": "8.37"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": []
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "BarCode": "2011AM4rug4so",
+                        "Gas": "missing",
+                        "Size": "missing",
+                        "CO #": "0439552",
+                        "PO #CDLocation": "MUSEUM DOCK",
+                        "Demurrage": "4.960872050030",
+                        "Delivery Code": "4.960872050030"
+                    },
+                    {
+                        "BarCode": "2025M9u6s",
+                        "Gas": "Acetylene - B",
+                        "Size": "missing",
+                        "CO #": "0478155",
+                        "PO #CDLocation": "301 Wakara Way NHMU",
+                        "Demurrage": "6.200872050030",
+                        "Delivery Code": "6.200872050030"
+                    },
+                    {
+                        "BarCode": "2027M0u3s",
+                        "Gas": "25%Co2 75%Argon",
+                        "Size": "missing",
+                        "CO #": "0435989",
+                        "PO #CDLocation": "301 WAKARA",
+                        "Demurrage": "4.960872050030",
+                        "Delivery Code": "4.960872050030"
+                    },
+                    {
+                        "BarCode": "2033M4u8s",
+                        "Gas": "Acetylene - B",
+                        "Size": "missing",
+                        "CO #": "0439552",
+                        "PO #CDLocation": "MUSEUM DOCK",
+                        "Demurrage": "4.960872050030",
+                        "Delivery Code": "4.960872050030"
+                    },
+                    {
+                        "BarCode": "3000M0u4s",
+                        "Gas": "Acetylene - B",
+                        "Size": "missing",
+                        "CO #": "0478155",
+                        "PO #CDLocation": "301 Wakara Way NHMU",
+                        "Demurrage": "8.370872050030",
+                        "Delivery Code": "8.370872050030"
+                    },
+                    {
+                        "BarCode": "8213NU7nit9dro",
+                        "Gas": "Nitrogen, UHP",
+                        "Size": "200C/Mt.A",
+                        "CO #": "0482972",
+                        "PO #CDLocation": "1483 MEB",
+                        "Demurrage": "7.560051001100",
+                        "Delivery Code": "7.560051001100"
+                    },
+                    {
+                        "BarCode": "8176HC5oe1lllieu",
+                        "Gas": "Helium - 219 CF",
+                        "Size": "200C/Mt.A",
+                        "CO #": "0466519",
+                        "PO #CDLocation": "1820 Warnock Eng",
+                        "Demurrage": "8.370062016500",
+                        "Delivery Code": "8.370062016500"
+                    },
+                    {
+                        "BarCode": "2013HC9oe3lllieu",
+                        "Gas": "Helium - UHP",
+                        "Size": "missing",
+                        "CO #": "0420393",
+                        "PO #CDLocation": "Nanofab East loading dock,",
+                        "Demurrage": "4.960062016500",
+                        "Delivery Code": "4.960062016500"
+                    },
+                    {
+                        "BarCode": "2027C2o2lle",
+                        "Gas": "Nitrogen, UHP",
+                        "Size": "missing",
+                        "CO #": "0406982",
+                        "PO #CDLocation": "EAST LOADING DOCK FOR NANOFAB",
+                        "Demurrage": "4.960062016500",
+                        "Delivery Code": "4.960062016500"
+                    },
+                    {
+                        "BarCode": "2030C3o0lle",
+                        "Gas": "Nitrogen, UHP",
+                        "Size": "missing",
+                        "CO #": "0359694",
+                        "PO #CDLocation": "2500 SMBB",
+                        "Demurrage": "4.960062016500",
+                        "Delivery Code": "4.960062016500"
+                    },
+                    {
+                        "BarCode": "2032C1o8lle",
+                        "Gas": "Helium - UHP",
+                        "Size": "missing",
+                        "CO #": "0420393",
+                        "PO #CDLocation": "Nanofab East loading dock,",
+                        "Demurrage": "4.320062016500",
+                        "Delivery Code": "4.320062016500"
+                    },
+                    {
+                        "BarCode": "2033C4o0lle",
+                        "Gas": "Air - 233 CF",
+                        "Size": "missing",
+                        "CO #": "0412743",
+                        "PO #CDLocation": "2500 SMBB",
+                        "Demurrage": "4.960062016500",
+                        "Delivery Code": "4.960062016500"
+                    },
+                    {
+                        "BarCode": "2046U3ta7h",
+                        "Gas": "Helium - UHP",
+                        "Size": "missing",
+                        "CO #": "0490127",
+                        "PO #CDLocation": "2500 SMBB Nanofab East Loading DOck",
+                        "Demurrage": "0.800151025000",
+                        "Delivery Code": "0.800151025000"
+                    },
+                    {
+                        "BarCode": "2052C7o6lle",
+                        "Gas": "Argon - UHP",
+                        "Size": "missing",
+                        "CO #": "0450549",
+                        "PO #CDLocation": "NANOFAB EAST LOADING DOCK",
+                        "Demurrage": "4.960062016500",
+                        "Delivery Code": "4.960062016500"
+                    },
+                    {
+                        "BarCode": "803894",
+                        "Gas": "missing",
+                        "Size": "missing",
+                        "CO #": "0361559",
+                        "PO #CDLocation": "missing",
+                        "Demurrage": "8.37",
+                        "Delivery Code": "missing"
+                    },
+                    {
+                        "BarCode": "8054C9o8lle",
+                        "Gas": "Tetrafluorometh",
+                        "Size": "missing",
+                        "CO #": "0276225",
+                        "PO #CDLocation": "1280 MEB",
+                        "Demurrage": "6.820062016500",
+                        "Delivery Code": "6.820062016500"
+                    },
+                    {
+                        "BarCode": "8061C3o6lle",
+                        "Gas": "Oxygen - Resear",
+                        "Size": "missing",
+                        "CO #": "0300341",
+                        "PO #CDLocation": "1280 MEB",
+                        "Demurrage": "12.400062016500",
+                        "Delivery Code": "12.400062016500"
+                    },
+                    {
+                        "BarCode": "8069C8o0lle",
+                        "Gas": "14% R14 In O2",
+                        "Size": "missing",
+                        "CO #": "0289897",
+                        "PO #CDLocation": "1280 MEB",
+                        "Demurrage": "6.820062016500",
+                        "Delivery Code": "6.820062016500"
+                    },
+                    {
+                        "BarCode": "8074C9o8lle",
+                        "Gas": "Oxygen - Resear",
+                        "Size": "missing",
+                        "CO #": "0310665",
+                        "PO #CDLocation": "1280 MEB",
+                        "Demurrage": "6.820062016500",
+                        "Delivery Code": "6.820062016500"
+                    },
+                    {
+                        "BarCode": "8080C2o2lle",
+                        "Gas": "Trifluoromethan",
+                        "Size": "missing",
+                        "CO #": "0328154",
+                        "PO #CDLocation": "1280 MEB",
+                        "Demurrage": "6.820062016500",
+                        "Delivery Code": "6.820062016500"
+                    }
+                ]
+            }
+        ]
+    }
+]

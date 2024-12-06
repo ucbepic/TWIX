@@ -306,6 +306,8 @@ def eval_benchmark():
     recall = 0
     cnt = 0 
     for pdf_path in pdfs:
+        if('id_12' not in pdf_path):
+            continue
         
         result_path = pdf_path.replace('data/raw','result').replace('.pdf','_TWIX_kv.json')
         #print(result_path)
