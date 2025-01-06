@@ -841,7 +841,7 @@ def major_overlapping_phrase(t,p1,p2):
     a=0 
 
 
-def row_aligned(row1, row2, esp = 0.8):
+def row_aligned(row1, row2):
     #check if there exist a phrase in row2 that overlapps with more than 2 phrases in row1
     
     id1 = 1 #id in row 1
@@ -1202,25 +1202,24 @@ def filter_non_key(lst, non_key):
 
 def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debug = 0):
     phrases = template_learn_input_gen(phrases, predict_labels)
-    print(phrases)
-    # record_appearance = {}
-    # for rid, ps in phrases.items():
-    #     for p in ps:
-    #         record_appearance[p] = 0
-    # records = []
-    # rid = 1
-    # for rid, ps in phrases.items():
-    #     record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, ps)
-    #     record = ILP_extract(predict_labels, pv, rid)
-    #     if(len(record) > 0):
-    #         records.append(record)
-    #     #break
+    #print(phrases)
+    record_appearance = {}
+    for p in phrases:
+        record_appearance[p] = 0
+    record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
+    
+    # print(record_appearance)
+    # print(pv)
+    #learn template based on phrases 
+    blk, blk_id = ILP_extract(predict_labels, pv)
+    
     # write_json(records, path)
 
-def ILP_extract(predict_keys, pv, rid):
+def ILP_extract(predict_keys, pv):
     row_mp, row_labels = get_row_probabilities(predict_keys, pv)
     #LP formulation to learn row label assignment
-
+    print('initial row labels and probs:')
+    print_rows(row_mp, row_labels)
     #pre-compute all C-alignments 
     Calign = {}
     for id1 in range(len(row_mp)):
@@ -1231,11 +1230,14 @@ def ILP_extract(predict_keys, pv, rid):
     
     row_pred_labels = ILP_formulation(row_mp, row_labels, Calign)
 
+    print('labels after ILP:')
+    print(row_pred_labels)
     #learn template
-    blk, blk_id = template_learn(row_pred_labels)
-    record = data_extraction(rid,blk,blk_id,row_mp,predict_keys)
-    
-    return record 
+    blk, blk_id = template_learn(row_pred_labels, row_mp)
+    #record = data_extraction(blk,blk_id,row_mp,predict_keys)
+    print(blk)
+    print(blk_id)
+    return blk, blk_id 
 
 def ILP_formulation(row_mp, row_labels, Calign):
     model = Model("RT")
@@ -1312,21 +1314,27 @@ def ILP_formulation(row_mp, row_labels, Calign):
     
     return row_pred_labels
 
-def template_learn(rls):
+def template_learn(rls, row_mp):
     blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
     blk_id = {}#store the name per block: bid-> name of block
     bid = 0
-    nearest_key_bid = 0
+    key_2_blk = {} #key row id -> blk id
     kv_bid = -1 #all kvs can be put into one block
     for id, label in rls.items():
         if(label == 'K'):
-            bid += 1
             blk[bid] = []
             blk[bid].append(id)
             blk_id[bid] = 'table'
-            nearest_key_bid = bid
-        elif(label == 'V' and nearest_key_bid > 0):
-            blk[nearest_key_bid].append(id)
+            key_2_blk[id] = bid
+            bid += 1
+        elif(label == 'V'):
+            i = id - 1
+            while(i >= 0):#find the cloest aligned key row of row with index id 
+                if(rls[i] == 'K' and C_alignment(row_mp, i, id) == 1):
+                    key_blk_id = key_2_blk[i]
+                    blk[key_blk_id].append(id)
+                    break
+                i -= 1
         elif(label == 'KV'):#start a new block for kv
             if(kv_bid == -1):
                 bid += 1
@@ -1343,9 +1351,14 @@ def template_learn(rls):
             l = blk[bid][0]
             r = blk[bid][len(blk[bid])-1]
             for i in range(l,r+1):
-                new_row.append(i)
+                if(rls[i] == 'kv'):
+                    new_row.append(i)
             blk[bid] = new_row
             #print(blk[bid])
+        #if a table block only has one row, change it to be M
+        if(name == 'table'):
+            if(len(blk[bid]) == 1):
+                blk_id[bid] = 'metadata'
     return blk, blk_id
 
 def location_alignment(row_mp, id1, id2):
@@ -1444,7 +1457,7 @@ def row_label_prediction(row, predict_keys):
         label['K'] = delta
         label['V'] = delta
         label['KV'] = delta
-        label['M'] = delta
+        label['M'] = 2*delta
     else:
         label['K'] = kks/total+delta
         label['V'] = vvs/total+delta
@@ -1583,7 +1596,7 @@ def write_string(result_path, content):
         file.write(content)
 
 def kv_extraction(pdf_path, out_path):
-    key_path = pdf_path.replace('data/raw','result').replace('.pdf','_key.txt')
+    key_path = pdf_path.replace('data/raw','result').replace('.pdf','_TWIX_key.txt')
     extracted_path = key.get_extracted_path(pdf_path)
     
     if(not os.path.isfile(extracted_path)):

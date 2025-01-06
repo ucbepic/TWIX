@@ -286,12 +286,11 @@ def clustering_group(phrases_vec, clusters, candidate_key_clusters, k=1):
     #print(key_clusters)
     return key_clusters
 
-def get_keys(cans, cluters, key_clusters):
+def get_keys(cluters, key_clusters):
     keys = []
     for key in key_clusters:
-        keys += cluters[key]
-    ks = set(keys).intersection(cans)
-    return list(ks)
+        keys += cluters[key]    
+    return keys
 
 def get_result_path(raw_path, method = 'TWIX'):
     path = raw_path.replace('data/raw','result')
@@ -329,9 +328,11 @@ def get_truth_path(raw_path):
 def key_prediction_pipeline(data_folder):
     paths = extract.print_all_document_paths(data_folder)
     for path in paths:
-        key_prediction(path)
+        if('id_12.pdf' in path):
+            key_prediction(path)
 
 def key_prediction(pdf_path):
+    print(pdf_path)
     result_path = get_result_path(pdf_path)
     extracted_path = get_extracted_path(pdf_path)
     #generate reading order vector
@@ -339,8 +340,6 @@ def key_prediction(pdf_path):
     reading_order_path = get_relative_location_path(extracted_path)
     #print(reading_order_path)
     #write_dict(reading_order_path, relative_locations)
-    cans = load_candidate(pdf_path)
-
     #predict keys
     phrases = relative_locations
     print('perfect match starts...')
@@ -350,15 +349,15 @@ def key_prediction(pdf_path):
     candidate_key_clusters, input_size, output_size = candidate_key_clusters_selection(remap)
     print('re-clustering starts...')
     key_clusters = clustering_group(phrases, remap, candidate_key_clusters, k=1)
-    keys = get_keys(cans, remap, key_clusters)
-    #print(keys)
+    keys = get_keys(remap, key_clusters)
+    print(keys)
     #print('input and output token size:', input_size, output_size)
     #write result
     write_result(result_path,keys)
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
-    data_folder = root_path + '/data/extracted/complaints & use of force/'
+    data_folder = root_path + '/data/raw'
     
     
     key_prediction_pipeline(data_folder)

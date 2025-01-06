@@ -26,6 +26,8 @@ if __name__ == "__main__":
         if not os.path.exists(truth_path):
             continue
 
+        if 
+        
         print(pdf_path)
         # result_path = key.get_result_path(pdf_path)
         # if os.path.exists(result_path):
@@ -34,5 +36,5 @@ if __name__ == "__main__":
         # #predict fields
         key.key_prediction(pdf_path)
         #predict the template and extract data
-        out_path = key.get_key_val_path(pdf_path, 'TWIX')
-        pattern.kv_extraction(pdf_path, out_path)
+        #out_path = key.get_key_val_path(pdf_path, 'TWIX')
+        #pattern.kv_extraction(pdf_path, out_path)

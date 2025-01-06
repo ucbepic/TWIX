@@ -1,11 +1,7 @@
 Demurrage
-Date
 BarCode
 Size
-Chart
 Delivery Code
 CO #
-Page
-Amount Total
 Gas
 PO #CDLocation
