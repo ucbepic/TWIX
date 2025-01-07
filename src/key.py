@@ -85,10 +85,6 @@ def perfect_match(v1,v2,k):
             return 0
     return 1
 
-def load_candidate(pdf_path):
-    path = pdf_path.replace('data/raw','result').replace('.pdf','_key.txt')
-    cans = read_file(path)
-    return cans
 
 def is_subsequence(seq1, seq2, k):#len(seq1) < len(seq2)
     i = 0
@@ -119,13 +115,13 @@ def partial_perfect_match(v1,v2,k):#len(v1) < len(v2)
             new_v1.append(v - delta)
     return is_subsequence(new_v1,v2,k)
 
-def perfect_align_clustering(phrases_vec,k=1):#k is the definition of partial perfect match
+def perfect_align_clustering(phrases_vec,k=1, least_record_number = 3):#k is the definition of partial perfect match
     mp = {}#phrase to cluster id
     remap = {}#cluster id to list of phrases
     id = 0
     phrases = []
     for phrase, vec in phrases_vec.items():
-        if(len(vec) > 1):#phrase appearing only one time is trievally perfectly align with any other one-time phrase and discard them 
+        if(len(vec) > least_record_number):#phrase appearing only one time is trievally perfectly align with any other one-time phrase and discard them 
             phrases.append(phrase)
 
     for i in range(len(phrases)):
@@ -152,8 +148,19 @@ def perfect_align_clustering(phrases_vec,k=1):#k is the definition of partial pe
     
     return mp, remap
 
+def clean_phrases(response, lp):
+    l = response.split('|')
+    lp_lower = []
+    for p in lp:
+        lp_lower.append(p.lower())
+    out = []
+    for p in l:
+        if(p.strip().lower() in lp_lower):
+            out.append(p.strip())
+    return out 
 
 def result_gen_from_response(response, lp):
+    #lp is the original list 
     s = len(lp)
     lst = []
     if('|' not in response and 'no' in response.lower()):
@@ -161,13 +168,13 @@ def result_gen_from_response(response, lp):
             lst.append(0)
         return lst
     response = response.lower()
-    lpn = []
+    lp_lower = []
     for p in lp:
-        lpn.append(p.lower())
+        lp_lower.append(p.lower())
     #print(lpn)
     l = response.split('|')
     #print(l)
-    for p in lpn:
+    for p in lp_lower:
         if(p.isdigit()):#rule: a key cannot be a number 
             lst.append(0)
             continue
@@ -183,57 +190,73 @@ def result_gen_from_response(response, lp):
     #print(lst)
     return lst
 
+def phrase_filter_LLMs(l):#l is the list of phrases in the cluster 
+    instruction = 'The following list contains possibly keyword and values extracted from a table. Return to me all the keys without explanation, and seperate each keyword by |. If no key is found, return NO. Reminder: keyword will be not likely a number. '
+
+    context = ", ".join(l)
+    prompt = (instruction,context)
+    response = model(model_name,prompt)
+    return response 
+
+
 def candidate_key_clusters_selection(clusters):
     #clusters: cid -> [list of phrases]
-    instruction = 'The following list contains possibly keyword and values extracted from a table. Return to me all the keys without explanation, and seperate each keyword by |. If no key is found, return NO. Reminder: keyword will be not likely a number. ' 
-    mp = {}
+    
     cids = []
     input_size = 0
     output_size = 0
+    out = []
+    cids = []
     for cid, l in clusters.items():
         
         if(len(l) <= 2):
             continue
-        context = ", ".join(l)
-        prompt = (instruction,context)
-        response = model(model_name,prompt)
+        response = phrase_filter_LLMs(l)
 
-        input_size += token_size(instruction)
-        input_size += token_size(context)
-        output_size += token_size(response)
-
+        fields = clean_phrases(response, l)
         lst = result_gen_from_response(response, l)
         p, w = mean_confidence_interval(lst)
-        #important: if all 0, then confidence width is also 0, which makes other node hard dominate this one even it's the worst
-        if(p == 0):
-            continue
-        # print(cid, p, w)
-        # print(l)
-        # print(response)
-        # print(lst)
-        mp[cid] = (p,w)
-        cids.append(cid)
+        #print(fields, p, w)
+        if(p > 0.5 and w < 0.5):
+            out += fields
+            cids.append(cid)
 
-    #topology order to select maximal key set 
-    out_degree = {}
-    for i in range(len(cids)):
-        ci = cids[i]
-        for j in range(i+1, len(cids)):
-            cj = cids[j]
-            if(mp[ci][0] > mp[cj][0] and mp[ci][1] < mp[cj][1]):
-                #ci dominates cj, add edge from cj to ci
-                if(cj not in out_degree):
-                    out_degree[cj] = 1
-            elif(mp[ci][0] < mp[cj][0] and mp[ci][1] > mp[cj][1]):
-                #cj dominates ci, add edge from ci to cj
-                if(ci not in out_degree):
-                    out_degree[ci] = 1
-    candidate_key_clusters = []
-    for cid in cids:
-        if(cid not in out_degree):
-            candidate_key_clusters.append(cid)
-    #print(candidate_key_clusters)
-    return candidate_key_clusters, input_size, output_size 
+    #     lst = result_gen_from_response(response, l)
+    #     p, w = mean_confidence_interval(lst)
+
+    #     print(lst)
+    #     print(p,w)
+    #     #important: if all 0, then confidence width is also 0, which makes other node hard dominate this one even it's the worst
+    #     if(p == 0):
+    #         continue
+    #     # print(cid, p, w)
+    #     # print(l)
+    #     # print(response)
+    #     # print(lst)
+    #     mp[cid] = (p,w)
+    #     cids.append(cid)
+
+    # #topology order to select maximal key set 
+    # out_degree = {}
+    # for i in range(len(cids)):
+    #     ci = cids[i]
+    #     for j in range(i+1, len(cids)):
+    #         cj = cids[j]
+    #         if(mp[ci][0] > mp[cj][0] and mp[ci][1] < mp[cj][1]):
+    #             #ci dominates cj, add edge from cj to ci
+    #             if(cj not in out_degree):
+    #                 out_degree[cj] = 1
+    #         elif(mp[ci][0] < mp[cj][0] and mp[ci][1] > mp[cj][1]):
+    #             #cj dominates ci, add edge from ci to cj
+    #             if(ci not in out_degree):
+    #                 out_degree[ci] = 1
+    # candidate_key_clusters = []
+    # for cid in cids:
+    #     if(cid not in out_degree):
+    #         candidate_key_clusters.append(cid)
+    # #print(candidate_key_clusters)
+    return out,cids
+    #return candidate_key_clusters, input_size, output_size 
 
 def mean_confidence_interval(data, confidence=0.95):
     a = 1.0 * np.array(data)
@@ -282,14 +305,17 @@ def clustering_group(phrases_vec, clusters, candidate_key_clusters, k=1):
                 break
 
     #print(candidate_key_clusters)
-    key_clusters += candidate_key_clusters
+    #key_clusters += candidate_key_clusters
     #print(key_clusters)
     return key_clusters
 
 def get_keys(cluters, key_clusters):
     keys = []
     for key in key_clusters:
-        keys += cluters[key]    
+        l = cluters[key]    
+        # response = phrase_filter_LLMs(l)
+        # fields = clean_phrases(response, l)
+        keys += l
     return keys
 
 def get_result_path(raw_path, method = 'TWIX'):
@@ -319,7 +345,7 @@ def write_raw_response(result_path, content):
         file.write(content)
 
 def get_truth_path(raw_path):
-    path = raw_path.replace('raw','truths/')
+    path = raw_path.replace('raw','truths')
     path = path.replace('.pdf','.json')
     return path
 
@@ -332,35 +358,39 @@ def key_prediction_pipeline(data_folder):
             key_prediction(path)
 
 def key_prediction(pdf_path):
-    print(pdf_path)
     result_path = get_result_path(pdf_path)
     extracted_path = get_extracted_path(pdf_path)
-    #generate reading order vector
+    #print(extracted_path)
+
+    # #generate reading order vector
     relative_locations = get_relative_locations(pdf_path)
-    reading_order_path = get_relative_location_path(extracted_path)
-    #print(reading_order_path)
-    #write_dict(reading_order_path, relative_locations)
+    #print(relative_locations)
+    # reading_order_path = get_relative_location_path(extracted_path)
+    # #print(reading_order_path)
+    # #write_dict(reading_order_path, relative_locations)
     #predict keys
     phrases = relative_locations
+
     print('perfect match starts...')
     mp, remap = perfect_align_clustering(phrases)
     #print(remap)
-    print('cluster pruning starts...')
-    candidate_key_clusters, input_size, output_size = candidate_key_clusters_selection(remap)
-    print('re-clustering starts...')
-    key_clusters = clustering_group(phrases, remap, candidate_key_clusters, k=1)
-    keys = get_keys(remap, key_clusters)
-    print(keys)
-    #print('input and output token size:', input_size, output_size)
-    #write result
-    write_result(result_path,keys)
 
-if __name__ == "__main__":
-    root_path = extract.get_root_path()
-    data_folder = root_path + '/data/raw'
+    print('cluster pruning starts...')
+    fields, cluster_ids = candidate_key_clusters_selection(remap)
+
+    # print(candidate_key_clusters)
+
+    print('re-clustering starts...')
+    added_clusters = clustering_group(phrases, remap, cluster_ids, k=1)
+    additional_fields = get_keys(remap, added_clusters)
+    # print(fields)
+    # print(additional_fields)
+    fields += additional_fields
     
-    
-    key_prediction_pipeline(data_folder)
+    #write result
+    write_result(result_path,fields)
+
+
     
         
         
