@@ -1150,14 +1150,7 @@ def pattern_detect_by_row(pv, predict_labels, rid, debug = 0):
     blk, blk_id = block_decider(rls)
     
     return blk, blk_id, row_mp
-    
-def load_cands(pdf_path):
-    if('benchmark1' in pdf_path):
-        path = pdf_path.replace('data/raw','result').replace('.pdf','.json')
-    else:
-        path = pdf_path.replace('data/raw','result').replace('.pdf','_TWIX_kv.json')
-    data = read_json(path)
-    return data
+
     
 def block_decider(rls):
     blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
@@ -1227,18 +1220,23 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debu
     # write_json(records, path)
 
 def ILP_extract(predict_keys, pv):
+    #create row representations 
+    row_mp = seperate_rows(pv)
+
+    #pre-compute all C-alignments in a batch 
+    row_align = {}
+    for id1 in range(len(row_mp)):
+        for id2 in range(id1+1, len(row_mp)):
+            c = C_alignment(row_mp, id1, id2)
+            row_align[(id1,id2)] = c
+            row_align[(id2,id1)] = c
+
     #row_mp: row_id -> a list of (phrase, bb) in the current row
-    row_mp, row_labels = get_row_probabilities(predict_keys, pv)
+    row_labels = get_row_probabilities(predict_keys, row_mp, row_align)
     #LP formulation to learn row label assignment
     #print('initial row labels and probs:')
     #print_rows(row_mp, row_labels)
-    #pre-compute all C-alignments 
-    # Calign = {}
-    # for id1 in range(len(row_mp)):
-    #     for id2 in range(id1+1, len(row_mp)):
-    #         c = C_alignment(row_mp, id1, id2)
-    #         Calign[(id1,id2)] = c
-    #         Calign[(id2,id1)] = c
+    
     
     # row_pred_labels = ILP_formulation(row_mp, row_labels, Calign)
 
@@ -1384,6 +1382,16 @@ def template_learn(rls, row_mp, predicted_keys):
 def location_alignment(row_mp, id1, id2):
     return row_aligned(row_mp[id1], row_mp[id2]) 
 
+def synthesize_kv_pairs_LLM(pairs):
+    #construct prompts to LLMs
+    instruction = 'Given a list of phrase pairs as (phrase1, phrase 2), for each pair of phrase, if two phrases are a key-value pair, return yes. Otherwise, return no. Do not add any explanations, only return yes or no for each phrase pair. Seperate each answer by using |' 
+    context = ", ".join(f"({repr(key)}, {repr(value)})" for key, value in pairs)
+    prompt = (instruction,context)
+    response = model(model_name,prompt)
+    ans = response.split('|')
+    print(ans)
+    return ans 
+
 def get_KV_scores(pairs):
     #construct prompts to LLMs
     instruction = 'Given a list of phrase pairs as (phrase1, phrase 2), for each pair of phrase, if two phrases are a key-value pair, return yes. Otherwise, return no. Do not add any explanations, only return yes or no for each phrase pair.'
@@ -1411,12 +1419,41 @@ def semantic_alignment(row_mp, id1, id2):
         return 0
     return pos/len(pairs)
 
+def get_kv_pairs_two_row(row_mp, id1, id2):
+    pairs = []
+    for cell1 in row_mp[id1]:
+        val1 = cell1[0]
+        bb1 = cell1[1]
+        for cell2 in row_mp[id2]:
+            val2 = cell2[0]
+            bb2 = cell2[1]
+            if(is_overlap_vertically(bb1,bb2) == 1):
+                pairs.append((val1,val2))
+                break
+    return pairs
+
+def construct_kv_pairs(row_mp, id1, id2):
+    l_score = location_alignment(row_mp, id1, id2)
+    if(l_score == 1):
+        return []
+        # len1 = len(row_mp[id1])
+        # len2 = len(row_mp[id2])
+        # if(len2 > len1/2):
+        #     return []
+        # else:
+        #     kvs = get_kv_pairs_two_row(row_mp, id1, id2)
+        #     return kvs
+            
+    else:
+        kvs = get_kv_pairs_two_row(row_mp, id1, id2)
+        return kvs
+
 def C_alignment(row_mp, id1, id2): #comprehensive alignment
     #print(id1,id2)
     l_score = location_alignment(row_mp, id1, id2)
     if(l_score == 1):
-        len1 = row_mp[id1]
-        len2 = row_mp[id2]
+        len1 = len(row_mp[id1])
+        len2 = len(row_mp[id2])
         if(len2 > len1/2):
             return 1
         else:
@@ -1424,18 +1461,14 @@ def C_alignment(row_mp, id1, id2): #comprehensive alignment
             if(s_score > 0.5):
                 return 1
             return 0
-    else:
-        s_score = semantic_alignment(row_mp, id1, id2)
-        if(s_score > 0.5):
-            return 1
-        return 0
+    return 0
+    # else:
+    #     s_score = semantic_alignment(row_mp, id1, id2)
+    #     if(s_score > 0.5):
+    #         return 1
+    #     return 0
 
-    
-
-def get_row_probabilities(predict_keys, pv):
-    #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record
-
-    #create row representations 
+def seperate_rows(pv):
     p_pre = pv[0][0]
     bb_pre = pv[0][1]
     row_id = 0
@@ -1451,18 +1484,31 @@ def get_row_probabilities(predict_keys, pv):
         row_mp[row_id].append((p, bb))
         p_pre = p
         bb_pre = bb
-    
-    #print row representation
-    #print_rows(row_mp)
+
+    return row_mp
+
+def get_row_probabilities(predict_keys, row_mp, row_align):
+    #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record
 
     #for each row, compute the probability per label
     row_labels = {} #row_id -> label, label is also a dict: label instance -> probability 
     for row_id, row in row_mp.items():
         row_labels[row_id] = row_label_prediction(row, predict_keys)
-        
-    labels = row_label_LLM_refine(row_mp, row_labels)
+
+    labels = row_label_LLM_refine(row_labels, row_align, row_mp)
     #print_rows(row_mp, row_labels)
-    return row_mp, labels
+
+    for row_id, lst in row_mp.items():
+        print(row_id)
+        p_print = []
+        for (p,bb) in lst:
+            p_print.append(p)
+        print(p_print)
+        print(row_labels[row_id])
+        print(labels[row_id])
+        
+
+    return labels
 
 def get_LLM_row_score(row_id, row_mp):
     #get a list of phrases in this row 
@@ -1494,33 +1540,79 @@ def get_LLM_row_score(row_id, row_mp):
 
     return field_score, value_score, kv_score
 
-def get_value_row_score():
-    #search for the cloest aligned key row
 
-
-def get_key_row_score():
-
-
-def row_label_LLM_refine(row_mp, row_labels):
+def row_label_LLM_refine(row_labels, row_align, row_mp):
     #for uncertain rows, use LLMs to adjust the weights
     labels = {}
+
+    #get initial labels 
+    row_tag = {}
     for row_id, label in row_labels.items():
-        adjust = 0
-        print(label['K'],label['V'],label['KV'])
-        if(label['K'] == label['V'] and label['K'] > label['KV']):
-            adjust = 1
-        elif(label['V'] == label['KV'] and label['V'] > label['K']):
-            adjust = 1
-        elif(label['K'] == label['KV'] and label['K'] > label['V']): 
-            adjust = 1
         
-        print(adjust)
-        if(adjust == 1):
-            field_score, value_score, kv_score = get_LLM_row_score(row_id, row_mp)
-            print(field_score, value_score, kv_score)
+        row_tag[row_id] = 'uncertain'
+        #print(label['K'],label['V'],label['KV'])
+        if(label['K'] == label['V'] and label['K'] > label['KV']):
+            row_tag[row_id] = 'uncertain'
+        elif(label['V'] == label['KV'] and label['V'] > label['K']):
+            row_tag[row_id] = 'uncertain'
+        elif(label['K'] == label['KV'] and label['K'] > label['V']): 
+            row_tag[row_id] = 'uncertain'
+        
         else:
-            labels[row_id] = label 
+            if(label['K'] > label['V'] and label['K'] > label['KV']):
+                row_tag[row_id] = 'K'
+            elif(label['V'] > label['K'] and label['V'] > label['KV']):
+                row_tag[row_id] = 'V'
+            elif(label['KV'] > label['K'] and label['KV'] > label['V']):
+                row_tag[row_id] = 'KV'
+
+    #adjust probabilities for uncertain rows
+    delta = 0.001
+    for row_id, label in row_labels.items():
+        if(row_tag[row_id] != 'uncertain'):
+            labels[row_id] = row_labels[row_id]
+            continue
+        if(label['K'] == label['V']):
+            if(check_validity_per_row('K',row_id, row_align, row_tag, row_mp) == 1):
+                label['K'] += delta
+            else:
+                label['V'] += delta
+        if(label['K'] == label['KV']):
+            if(check_validity_per_row('K',row_id, row_align, row_tag, row_mp) == 1):
+                label['K'] += delta
+            else:
+                label['KV'] += delta
+        if(label['V'] == label['KV']):
+            if(check_validity_per_row('V',row_id, row_align, row_tag, row_mp) == 1):
+                label['V'] += delta
+            else:
+                label['KV'] += delta
+        labels[row_id] = label
+
     return labels
+
+def check_validity_per_row(label, row_id, row_align, row_tag, row_mp):
+    if(label == 'K'):
+        i = row_id + 1
+        while(i < len(row_tag)):
+            if(row_tag[i] == 'K'):#apply locality 
+                return 0
+            if(row_tag[i] == 'V' and row_align[(row_id,i)] == 1):
+                if(semantic_alignment(row_mp, row_id, i) > 0.5):
+                    return 1
+                return 0
+            i += 1
+        return 0
+    if(label == 'V'):
+        i = row_id - 1
+        while(i >= 0):
+            if(row_tag[i] == 'K' and row_align[(row_id,i)] == 1):
+                if(semantic_alignment(row_mp, i, row_id) > 0.5):
+                    return 1
+                return 0
+            i -= 1
+        return 0
+
 
 def row_label_prediction(row, predict_keys):
     kvs = 0
