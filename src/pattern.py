@@ -39,13 +39,14 @@ def read_json(path):
         data = json.load(file)
     return data
 
-def template_learn_input_gen(phrases, predict_labels):
+def template_learn_input_gen(phrases, predict_labels, extra_phrase_num = 30):
     input = []
     cnt = {}
     satisfied = 0
     cnts = {}
     #goal: ensure that input contains each predict label at least twice
-    for p in phrases:
+    for i in range(len(phrases)):
+        p = phrases[i]
         input.append(p)
         if(p in predict_labels):
             #print(p)
@@ -57,6 +58,12 @@ def template_learn_input_gen(phrases, predict_labels):
                 cnts[p] = 1
                 satisfied += 1
             if(satisfied == len(predict_labels)): #each predict label occurs in input at least twice
+                c = 0
+                for j in range(i+1,len(phrases)):
+                    input.append(phrases[j])
+                    c += 1
+                    if(c > extra_phrase_num):
+                        break
                 return input
     print('There does not exist an input such that every predict key exists at least twice.')
     return []
@@ -1201,43 +1208,52 @@ def filter_non_key(lst, non_key):
     return nl
 
 def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debug = 0):
+    print('fields')
+    print(predict_labels)
     phrases = template_learn_input_gen(phrases, predict_labels)
-    #print(phrases)
+    # print('phrases')
+    # print(phrases)
     record_appearance = {}
     for p in phrases:
         record_appearance[p] = 0
     record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
     
-    # print(record_appearance)
-    # print(pv)
+    #print(record_appearance)
+    #print(pv)
     #learn template based on phrases 
-    blk, blk_id = ILP_extract(predict_labels, pv)
+    #blk, blk_id = ILP_extract(predict_labels, pv)
+    ILP_extract(predict_labels, pv)
     
     # write_json(records, path)
 
 def ILP_extract(predict_keys, pv):
+    #row_mp: row_id -> a list of (phrase, bb) in the current row
     row_mp, row_labels = get_row_probabilities(predict_keys, pv)
     #LP formulation to learn row label assignment
-    print('initial row labels and probs:')
-    print_rows(row_mp, row_labels)
+    #print('initial row labels and probs:')
+    #print_rows(row_mp, row_labels)
     #pre-compute all C-alignments 
-    Calign = {}
-    for id1 in range(len(row_mp)):
-        for id2 in range(id1+1, len(row_mp)):
-            c = C_alignment(row_mp, id1, id2)
-            Calign[(id1,id2)] = c
-            Calign[(id2,id1)] = c
+    # Calign = {}
+    # for id1 in range(len(row_mp)):
+    #     for id2 in range(id1+1, len(row_mp)):
+    #         c = C_alignment(row_mp, id1, id2)
+    #         Calign[(id1,id2)] = c
+    #         Calign[(id2,id1)] = c
     
-    row_pred_labels = ILP_formulation(row_mp, row_labels, Calign)
+    # row_pred_labels = ILP_formulation(row_mp, row_labels, Calign)
 
-    print('labels after ILP:')
-    print(row_pred_labels)
-    #learn template
-    blk, blk_id = template_learn(row_pred_labels, row_mp)
-    #record = data_extraction(blk,blk_id,row_mp,predict_keys)
-    print(blk)
-    print(blk_id)
-    return blk, blk_id 
+    # print('labels after ILP:')
+    # print(row_pred_labels)
+    # #learn template
+    # blk, blk_id = template_learn(row_pred_labels, row_mp, predict_keys)
+    # #record = data_extraction(blk,blk_id,row_mp,predict_keys)
+    # print(blk)
+    # print(blk_id)
+    # return blk, blk_id 
+
+def get_keys_from_row(predicted_keys, row_mp, row_id):
+    keys = []
+    return keys
 
 def ILP_formulation(row_mp, row_labels, Calign):
     model = Model("RT")
@@ -1314,24 +1330,28 @@ def ILP_formulation(row_mp, row_labels, Calign):
     
     return row_pred_labels
 
-def template_learn(rls, row_mp):
+def template_learn(rls, row_mp, predicted_keys):
     blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
     blk_id = {}#store the name per block: bid-> name of block
     bid = 0
-    key_2_blk = {} #key row id -> blk id
+    row_2_blk = {} #row id -> blk id
+    blk_keys = {} #blk id -> set of fields 
     kv_bid = -1 #all kvs can be put into one block
+    #only remembering the fields in the first node is good enough based on the assumption that the first node only has one instance 
+    first = 0
     for id, label in rls.items():
         if(label == 'K'):
+            keys = get_keys_from_row(predicted_keys, row_mp, id)
             blk[bid] = []
             blk[bid].append(id)
             blk_id[bid] = 'table'
-            key_2_blk[id] = bid
+            row_2_blk[id] = bid
             bid += 1
         elif(label == 'V'):
             i = id - 1
             while(i >= 0):#find the cloest aligned key row of row with index id 
                 if(rls[i] == 'K' and C_alignment(row_mp, i, id) == 1):
-                    key_blk_id = key_2_blk[i]
+                    key_blk_id = row_2_blk[i]
                     blk[key_blk_id].append(id)
                     break
                 i -= 1
@@ -1364,6 +1384,16 @@ def template_learn(rls, row_mp):
 def location_alignment(row_mp, id1, id2):
     return row_aligned(row_mp[id1], row_mp[id2]) 
 
+def get_KV_scores(pairs):
+    #construct prompts to LLMs
+    instruction = 'Given a list of phrase pairs as (phrase1, phrase 2), for each pair of phrase, if two phrases are a key-value pair, return yes. Otherwise, return no. Do not add any explanations, only return yes or no for each phrase pair.'
+    context = ", ".join(f"({repr(key)}, {repr(value)})" for key, value in pairs)
+    prompt = (instruction,context)
+    response = model(model_name,prompt)
+    pos = response.lower().count('yes')
+
+    return pos 
+
 def semantic_alignment(row_mp, id1, id2):
     pairs = []
     for cell1 in row_mp[id1]:
@@ -1375,16 +1405,8 @@ def semantic_alignment(row_mp, id1, id2):
             if(is_overlap_vertically(bb1,bb2) == 1):
                 pairs.append((val1,val2))
                 break
-    #print(id1, id2, pairs)
-    #construct prompts to LLMs
-    instruction = 'Given a list of phrase pairs as (phrase1, phrase 2), for each pair of phrase, if two phrases are a key-value pair, return yes. Otherwise, return no. Do not add any explanations, only return yes or no for each phrase pair.'
-    context = ", ".join(f"({repr(key)}, {repr(value)})" for key, value in pairs)
-    prompt = (instruction,context)
-    response = model(model_name,prompt)
-    #print(prompt)
-    # print(id1, id2)
-    #print(response) 
-    pos = response.lower().count('yes')
+    
+    pos = get_KV_scores(pairs)
     if(len(pairs) == 0):
         return 0
     return pos/len(pairs)
@@ -1392,16 +1414,23 @@ def semantic_alignment(row_mp, id1, id2):
 def C_alignment(row_mp, id1, id2): #comprehensive alignment
     #print(id1,id2)
     l_score = location_alignment(row_mp, id1, id2)
-    return l_score
-    # print('l_score:', l_score)
-    # if (l_score == 1):
-    #     return 1
-    # s_score = semantic_alignment(row_mp, id1, id2)
-    # print('s_score:', s_score)
-    # if(s_score >= 0.5):
-    #     return 1
-    # else:
-    #     return 0
+    if(l_score == 1):
+        len1 = row_mp[id1]
+        len2 = row_mp[id2]
+        if(len2 > len1/2):
+            return 1
+        else:
+            s_score = semantic_alignment(row_mp, id1, id2)
+            if(s_score > 0.5):
+                return 1
+            return 0
+    else:
+        s_score = semantic_alignment(row_mp, id1, id2)
+        if(s_score > 0.5):
+            return 1
+        return 0
+
+    
 
 def get_row_probabilities(predict_keys, pv):
     #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record
@@ -1431,8 +1460,67 @@ def get_row_probabilities(predict_keys, pv):
     for row_id, row in row_mp.items():
         row_labels[row_id] = row_label_prediction(row, predict_keys)
         
+    labels = row_label_LLM_refine(row_mp, row_labels)
     #print_rows(row_mp, row_labels)
-    return row_mp, row_labels
+    return row_mp, labels
+
+def get_LLM_row_score(row_id, row_mp):
+    #get a list of phrases in this row 
+    phrases = []
+    for item in row_mp[row_id]:
+        phrases.append(item[0])
+    
+    print(phrases)
+    #get the predicted keys in this row 
+    response = key.phrase_filter_LLMs(phrases)
+    fields = key.clean_phrases(response, phrases) 
+    print(fields)
+    field_score = len(fields)/len(phrases)
+    value_score = 1-field_score
+    #estimate KV socres, first construct KV pairs
+    kv_pairs = []#list of (key,value)
+    p_pre = phrases[0]
+    cnt = 0
+    for i in range(1,len(phrases)):
+        p = phrases[i]
+        if(p_pre in fields and p in fields):
+            cnt += 1
+            continue
+        if(p_pre in fields and p not in fields):
+            kv_pairs.append((p_pre,p))
+        p_pre = p 
+    kv_scores = get_KV_scores(kv_pairs)
+    kv_score = (kv_scores + cnt)/ (len(kv_pairs) + cnt)
+
+    return field_score, value_score, kv_score
+
+def get_value_row_score():
+    #search for the cloest aligned key row
+
+
+def get_key_row_score():
+
+
+def row_label_LLM_refine(row_mp, row_labels):
+    #for uncertain rows, use LLMs to adjust the weights
+    labels = {}
+    for row_id, label in row_labels.items():
+        adjust = 0
+        print(label['K'],label['V'],label['KV'])
+        if(label['K'] == label['V'] and label['K'] > label['KV']):
+            adjust = 1
+        elif(label['V'] == label['KV'] and label['V'] > label['K']):
+            adjust = 1
+        elif(label['K'] == label['KV'] and label['K'] > label['V']): 
+            adjust = 1
+        
+        print(adjust)
+        if(adjust == 1):
+            field_score, value_score, kv_score = get_LLM_row_score(row_id, row_mp)
+            print(field_score, value_score, kv_score)
+        else:
+            labels[row_id] = label 
+    return labels
 
 def row_label_prediction(row, predict_keys):
     kvs = 0
@@ -1451,6 +1539,7 @@ def row_label_prediction(row, predict_keys):
         p_pre = p
 
     total = kvs + kks + vvs
+    #print(kvs, kks, vvs)
     label = {}
     delta = 0.001
     if(total == 0):
@@ -1463,8 +1552,8 @@ def row_label_prediction(row, predict_keys):
         label['V'] = vvs/total+delta
         label['KV'] = kvs/total+delta
         label['M'] = 2*delta 
-    if(label['K'] == label['KV']):
-        label['KV'] += delta/2
+    # if(label['K'] == label['KV']):
+    #     label['KV'] += delta/2
     return label
 
 def print_rows(row_mp, row_labels):
@@ -1614,16 +1703,16 @@ def kv_extraction(pdf_path, out_path):
 
     mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, debug_mode)
 
-if __name__ == "__main__":
-    #print(get_metadata())
-    root_path = extract.get_root_path()
-    pdf_folder_path = root_path + '/data/raw'
-    pdfs = scan_folder(pdf_folder_path,'.pdf')
-    for pdf_path in pdfs:
-        if('id_12' not in pdf_path):
-            continue
-        print(pdf_path)
-        out_path = key.get_key_val_path(pdf_path, 'TWIX')
-        #print(out_path)
-        kv_extraction(pdf_path, out_path)
-        break
+# if __name__ == "__main__":
+#     #print(get_metadata())
+#     root_path = extract.get_root_path()
+#     pdf_folder_path = root_path + '/data/raw'
+#     pdfs = scan_folder(pdf_folder_path,'.pdf')
+#     for pdf_path in pdfs:
+#         if('id_12' not in pdf_path):
+#             continue
+#         print(pdf_path)
+#         out_path = key.get_key_val_path(pdf_path, 'TWIX')
+#         #print(out_path)
+#         kv_extraction(pdf_path, out_path)
+#         break

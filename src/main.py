@@ -17,17 +17,17 @@ def scan_folder(path, filter_file_type = '.pdf'):
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
-    pdf_folder_path = root_path + '/data/raw/certification'
+    pdf_folder_path = root_path + '/data/raw'
     print(pdf_folder_path)
     pdfs = scan_folder(pdf_folder_path,'.pdf')
     for pdf_path in pdfs:
-        # if 'Invisible Institue Report' not in pdf_path:
-        #     continue
+        if 'Investigations_Redacted' not in pdf_path:
+            continue
 
         print(pdf_path)
 
         #predict fields
-        key.key_prediction(pdf_path)
+        #key.key_prediction(pdf_path)
         #predict the template and extract data
-        #out_path = key.get_key_val_path(pdf_path, 'TWIX')
-        #pattern.kv_extraction(pdf_path, out_path)
+        out_path = key.get_key_val_path(pdf_path, 'TWIX')
+        pattern.kv_extraction(pdf_path, out_path)

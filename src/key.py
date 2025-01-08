@@ -212,7 +212,6 @@ def candidate_key_clusters_selection(clusters):
         if(len(l) <= 2):
             continue
         response = phrase_filter_LLMs(l)
-
         fields = clean_phrases(response, l)
         lst = result_gen_from_response(response, l)
         p, w = mean_confidence_interval(lst)
