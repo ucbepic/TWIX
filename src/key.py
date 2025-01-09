@@ -191,7 +191,7 @@ def result_gen_from_response(response, lp):
     return lst
 
 def phrase_filter_LLMs(l):#l is the list of phrases in the cluster 
-    instruction = 'The following list contains possibly keyword and values extracted from a table. Return to me all the keys without explanation, and seperate each keyword by |. If no key is found, return NO. Reminder: keyword will be not likely a number. '
+    instruction = 'The following list contains possibly keyword and values. Return to me all the keywords without explanation, and seperate each keyword by |. If no key is found, return NO. Reminder: keyword will be not likely a number. '
 
     context = ", ".join(l)
     prompt = (instruction,context)

@@ -1211,10 +1211,6 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debu
         record_appearance[p] = 0
     record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
     
-    #print(record_appearance)
-    #print(pv)
-    #learn template based on phrases 
-    #blk, blk_id = ILP_extract(predict_labels, pv)
     ILP_extract(predict_labels, pv)
     
     # write_json(records, path)
@@ -1235,23 +1231,88 @@ def ILP_extract(predict_keys, pv):
     row_labels = get_row_probabilities(predict_keys, row_mp, row_align)
     #LP formulation to learn row label assignment
     #print('initial row labels and probs:')
-    #print_rows(row_mp, row_labels)
+    print_rows(row_mp, row_labels)
     
-    
-    # row_pred_labels = ILP_formulation(row_mp, row_labels, Calign)
+    row_pred_labels = ILP_formulation(row_mp, row_labels, row_align)
 
-    # print('labels after ILP:')
-    # print(row_pred_labels)
-    # #learn template
-    # blk, blk_id = template_learn(row_pred_labels, row_mp, predict_keys)
+    
+    print('labels after ILP:')
+    print(row_pred_labels)
+    #seperate data blocks based on row labeling
+    blk, blk_type = block_seperation(row_pred_labels, row_mp, predict_keys, row_align)
+
+    print(blk)
+    print(blk_type)
+
+    #learn template based on the data blocks 
+    nodes = template_learn(blk, blk_type, row_mp)
+
+
+
     # #record = data_extraction(blk,blk_id,row_mp,predict_keys)
     # print(blk)
     # print(blk_id)
     # return blk, blk_id 
 
-def get_keys_from_row(predicted_keys, row_mp, row_id):
-    keys = []
-    return keys
+
+def template_learn(blk, blk_type, row_mp):
+    #blk: bid -> a list of row id
+    #blk_type: bid -> type of block 
+    #row_mp: row_id -> a list of (phrase, bb) in the current row
+    nodes = []#a list of node_instance which is a dict with node_fields, node_child, node_type
+    #node_child = -1 denote a leaf
+
+    #first pass: create all nodes using blk, based on reading order and deduplicate blk
+
+    for bid, type in blk_type.items():
+        node = {}
+        if(type == 'table'):
+            node['type'] = type
+            #get fields
+            field_row_id = blk[bid][0]
+            fields = []
+            for item in row_mp[field_row_id]:
+                fields.append(item[0])
+            node['fields'] = fields
+            node['child'] = -1 
+            node['bid'] = bid
+
+        elif(type == 'kv'):
+            node['type'] = type
+            #get all phrases in current kv block
+            phrases = []
+            for row_id in blk[bid]:
+                for item in row_mp[row_id]:
+                    phrases.append(item[0])
+            #get fields by LLMs 
+            response = key.phrase_filter_LLMs(phrases)
+            fields = key.clean_phrases(response, phrases)
+            node['fields'] = fields
+            node['child'] = -1 
+            node['bid'] = bid
+
+        #decide if current node is duplicated with the first node 
+        if(len(nodes) > 0 and nodes[0]['fields'] == fields and nodes[0]['type'] == type):
+           break 
+        
+        nodes.append(node)
+
+    #second pass: add edges 
+    for i in range(len(nodes)):
+        for j in range(i+1,len(nodes)):
+            bid_i = nodes[i]['bid']
+            bid_j = nodes[j]['bid']
+            rows_i = blk[bid_i]
+            rows_j = blk[bid_j]
+            print(rows_i,rows_j)
+            if(rows_i[-1] > rows_j[0]):#data blocks overlapping
+                nodes[i]['child'] = j
+
+    for node in nodes:
+        print(node)
+    return nodes
+
+
 
 def ILP_formulation(row_mp, row_labels, Calign):
     model = Model("RT")
@@ -1328,56 +1389,44 @@ def ILP_formulation(row_mp, row_labels, Calign):
     
     return row_pred_labels
 
-def template_learn(rls, row_mp, predicted_keys):
+def block_seperation(rls, row_mp, predicted_keys, row_align):
     blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
-    blk_id = {}#store the name per block: bid-> name of block
+    blk_type = {}#store the name per block: bid-> type of block
     bid = 0
-    row_2_blk = {} #row id -> blk id
-    blk_keys = {} #blk id -> set of fields 
-    kv_bid = -1 #all kvs can be put into one block
-    #only remembering the fields in the first node is good enough based on the assumption that the first node only has one instance 
-    first = 0
+    row_2_blk = {} #row id -> blk type
+
+    #merge consecutive kv pairs into one kv block 
+
     for id, label in rls.items():
         if(label == 'K'):
-            keys = get_keys_from_row(predicted_keys, row_mp, id)
             blk[bid] = []
             blk[bid].append(id)
-            blk_id[bid] = 'table'
+            blk_type[bid] = 'table'
             row_2_blk[id] = bid
             bid += 1
         elif(label == 'V'):
             i = id - 1
             while(i >= 0):#find the cloest aligned key row of row with index id 
-                if(rls[i] == 'K' and C_alignment(row_mp, i, id) == 1):
+                if(rls[i] == 'K' and row_align[(i, id)] == 1):
                     key_blk_id = row_2_blk[i]
                     blk[key_blk_id].append(id)
                     break
                 i -= 1
-        elif(label == 'KV'):#start a new block for kv
-            if(kv_bid == -1):
+        elif(label == 'KV'):
+            if(id - 1 >= 0 and rls[id-1] != 'kv'):
+                blk[bid] = []
+            blk[bid].append(id)
+            blk_type[bid] = 'kv'
+            if(id + 1 < len(rls) and rls[id+1] != 'kv'):#if next row is not kv, create a new block
                 bid += 1
-                kv_bid = bid
-                blk[kv_bid] = []
-            blk[kv_bid].append(id)
-            blk_id[kv_bid] = 'kv'
-    #block smooth for kv 
-    #impute all the undefined row inside the kv block to be kv 
-    for bid, name in blk_id.items():
-        if(name == 'kv'):
-            #print(blk[bid])
-            new_row = []
-            l = blk[bid][0]
-            r = blk[bid][len(blk[bid])-1]
-            for i in range(l,r+1):
-                if(rls[i] == 'kv'):
-                    new_row.append(i)
-            blk[bid] = new_row
-            #print(blk[bid])
+
+
+    for bid, name in blk_type.items():
         #if a table block only has one row, change it to be M
         if(name == 'table'):
             if(len(blk[bid]) == 1):
-                blk_id[bid] = 'metadata'
-    return blk, blk_id
+                blk_type[bid] = 'metadata'
+    return blk, blk_type
 
 def location_alignment(row_mp, id1, id2):
     return row_aligned(row_mp[id1], row_mp[id2]) 
@@ -1496,18 +1545,8 @@ def get_row_probabilities(predict_keys, row_mp, row_align):
         row_labels[row_id] = row_label_prediction(row, predict_keys)
 
     labels = row_label_LLM_refine(row_labels, row_align, row_mp)
-    #print_rows(row_mp, row_labels)
-
-    for row_id, lst in row_mp.items():
-        print(row_id)
-        p_print = []
-        for (p,bb) in lst:
-            p_print.append(p)
-        print(p_print)
-        print(row_labels[row_id])
-        print(labels[row_id])
-        
-
+    #print_rows(row_mp, labels)
+    
     return labels
 
 def get_LLM_row_score(row_id, row_mp):
@@ -1625,7 +1664,7 @@ def row_label_prediction(row, predict_keys):
         if(p_pre in predict_keys and p in predict_keys):
             kks += 1
         elif(p_pre in predict_keys and p not in predict_keys):
-                kvs += 1
+            kvs += 1
         elif(p_pre not in predict_keys and p not in predict_keys):
             vvs += 1
         p_pre = p
@@ -1644,8 +1683,6 @@ def row_label_prediction(row, predict_keys):
         label['V'] = vvs/total+delta
         label['KV'] = kvs/total+delta
         label['M'] = 2*delta 
-    # if(label['K'] == label['KV']):
-    #     label['KV'] += delta/2
     return label
 
 def print_rows(row_mp, row_labels):
