@@ -74,6 +74,57 @@ def get_bb_path(extracted_file):
     return file 
 
 
+def outlier_detect(dis, threshold = 1):
+    lst = []
+    for id, d in dis.items():
+        lst.append(d)
+    
+    mean = np.mean(lst)
+    std = np.std(lst)
+    
+    outliers = []
+    for value in lst:
+        z_score = (value - mean) / std
+        if np.abs(z_score) > threshold:
+            outliers.append(value)
+    if(len(outliers) == 0):
+        return [], 0,0,[]
+
+    cutoff = min(outliers)
+    false_pairs = []
+    for id, d in dis.items():
+        if(d >= cutoff):
+            false_pairs.append(id)
+    #print(cutoff)
+    sum = 0
+    new_lst = []
+    for val in lst:
+        if(val >= cutoff):
+            continue
+        new_lst.append(val)
+        sum += val
+    new_mean = sum/(len(lst) - len(outliers))
+    return false_pairs, cutoff, new_mean, new_lst
+
+def is_outlier(lst, d):
+    lst.append(d)
+    threshold = 1  
+    mean = np.mean(lst)
+    std = np.std(lst)
+    
+    outliers = []
+    for value in lst:
+        z_score = (value - mean) / std
+        if np.abs(z_score) > threshold:
+            outliers.append(value)
+    
+    cutoff = min(outliers)
+    #print(cutoff)
+    if(d >= cutoff):#is an outlier
+        return 1
+    return 0
+
+
 def key_val_extraction_by_first_learn(pv, predict_labels):
     #print(pv, predict_labels)
     kvs = []
@@ -108,6 +159,26 @@ def min_distance(bb1,bb2):
     y_min = min(ly)
     return max(x_min,y_min)
 
+
+def pair_oracle(left,right):
+    instruction = 'The following two phrases are extracted from a table. ' 'Is ' + right + ' a possible value for the key word ' + left + '? Return only yes or no. '
+    context = ''
+    prompt = (instruction,context)
+    response = model(model_name,prompt)
+    #print(response)
+    if('yes' in response.lower()):
+        return 1
+    return 0
+
+def key_oracle(val):
+    instruction = 'The following phrase is either a key word or value extracted from a table. ' 'If ' + val + ' a key word, return yes. If'  + val + ' is a value, return no. '
+    context = ''
+    prompt = (instruction,context)
+    response = model(model_name,prompt)
+    #print(response)
+    if('yes' in response.lower()):
+        return 1
+    return 0
     
 
 def get_bblist_per_record(record_appearance, phrases_bb, phrases):
@@ -186,6 +257,211 @@ def is_overlap_vertically(b1,b2):
         return 0
     return 1
 
+def hash_tuple(tuple):
+    p = tuple[0]
+    bb = tuple[1]
+    return (p,bb[0],bb[1],bb[2],bb[3])
+
+def find_rows(vg, key_mp, bbv):
+    #key_mp: cluster_id -> key
+    #input: a cluster dict. Cluster id -> a list of tuples. Each tuple:  (phrase, bounding box) 
+    #output: row_id -> a list of tuples. Each tuple:  (phrase, bounding box) 
+    row_id = 0
+    row_mp = {}
+    pb = []
+    re_map = {}#tuple -> key cluster_id
+    for id, tuples in vg.items():
+        if(id not in key_mp):
+            continue
+        key = key_mp[id]
+        #print(key, id)
+        for t in tuples:
+            #print(t)
+            pb.append(t)
+            re_map[hash_tuple(t)] = key
+    for t in pb:
+        pi = t[0]
+        bi = t[1]
+        is_match = 0
+        for id, tuples in row_mp.items():#scan cluster
+            for tt in tuples:
+                pj = tt[0]
+                bj = tt[1]
+                #print(bi,bj, is_aligned(bi,bj))
+                if(is_aligned(bi,bj) == 1):
+                    #print(bi,bj)
+                    is_match = 1
+                    row_mp[id].append(t)
+                    break
+            if(is_match == 1):
+                break
+        if(is_match == 0):
+            row_mp[row_id] = [t]
+            row_id += 1
+
+    # for id, lst in row_mp.items():
+    #     print(id)
+    #     for (p,bb,w) in lst:
+    #         print(p)
+
+    new_row_mp = {}
+    keys = sort_keys(key_mp, bbv)
+    row_loc = {}# x['top']-> id
+    #sort row based on keys
+    #print(len(row_mp))
+    for id, tuples in row_mp.items():
+        lst = []
+        quick_mp = {}
+        for t in tuples:
+            key = re_map[hash_tuple(t)]
+            quick_mp[key] = t
+        x_top = 0
+        for key in keys:
+            if(key in quick_mp):
+                tuple = quick_mp[key]
+                lst.append(tuple)
+                x_top = tuple[1][1]
+            else:
+                lst.append(('',[0,0,0,0]))#denote missing value 
+        row_loc[x_top] = id
+        new_row_mp[id] = lst
+
+    # for id, lst in new_row_mp.items():
+    #     print(id)
+    #     #print(lst)
+    #     for item in lst:
+    #         print(item[0])
+
+    #sort row based on bound box 
+    sorted_rows = []
+    sorted_row_loc = dict(sorted(row_loc.items()))
+    #print(sorted_row_loc)
+    for x_top, id in sorted_row_loc.items():
+        sorted_rows.append(new_row_mp[id])
+
+    return sorted_rows, keys
+
+
+
+
+def sort_val_based_on_bb_width(pv, predict_labels):
+    new_pv = []
+    for item in pv:
+        p = item[0]
+        bb = item[1]
+        width = bb[2] - bb[0]
+        new_pv.append((p,bb,width))
+    sorted_list = sorted(new_pv, key=lambda x: x[2])
+    return sorted_list
+
+def find_bb_value_group(vg):
+    #input vg (val_group): cluster_id -> a list of tuples. Each tuple: (phrase, bb)
+    #output: cluster_id -> bb of value group
+    bbv = {}
+    max = 10000
+    min = 0
+    for id, tuples in vg.items():
+        b0 = max#x0
+        b1 = max#top
+        b2 = min#x1
+        b3 = min#bottem
+        for tuple in tuples:
+            b = tuple[1]
+            if(b[0] <= b0):
+                b0 = b[0]
+            if(b[2] >= b2):
+                b2 = b[2]
+            if(b[1] <= b1):
+                b1 = b[1]
+            if(b[3] >= b3):
+                b3 = b[3]
+        bbv[id] = (b0,b1,b2,b3)
+    return bbv
+
+def identify_headers(key_mp, predict_labels, footers):
+    headers = []
+    keys = []
+    for id, key in key_mp.items():
+        keys.append(key)
+    for key in predict_labels:
+        if(key not in keys and key not in footers):
+            headers.append(key)
+    return headers
+
+def filter_key(bbv, pv, predict_labels):
+    #output: a dict. cluster_id -> key
+    vertical_dis = {}
+    key_mp = {}
+    for (phrase, b) in pv: 
+        if(phrase in predict_labels):
+            #print(phrase)
+            #find the cloest key per value group
+            for id, bb in bbv.items():
+                if(is_inclusive(b,bb) == 1):
+                    vdis = bb[1] - b[3]
+                    if(id not in key_mp):
+                        key_mp[id] = phrase
+                        vertical_dis[id] = vdis
+                    else:
+                        if(vdis <= vertical_dis[id]):#update to the closest key 
+                            key_mp[id] = phrase
+                            vertical_dis[id] = vdis
+    return key_mp
+                    
+def sort_keys(key_mp, bbv):
+    #key_mp: cluster_id -> key
+    #bbv: cluster_id -> bounding box of value group
+    keys = []
+    keys_bb = []
+    for id, key in key_mp.items():
+        bb = bbv[id]
+        keys_bb.append((key,bb[0]))
+    sorted_keys = sorted(keys_bb, key=lambda x: x[1])
+    for key in sorted_keys:
+        keys.append(key[0])
+    return keys 
+
+def find_value_group(pv, predict_labels):
+    pv = sort_val_based_on_bb_width(pv, predict_labels)
+
+    #input: a list of tuples. Each tuple:  (phrase, bounding box) 
+    #output: a cluster dict. Cluster id -> a list of tuples
+    # a tuple: (phrase, bounding box, width of bounding box)
+    mp = {}
+    id = 0
+    footer = []
+    for item in pv:
+        #print(item)
+        pi = item[0]
+        if(pi in predict_labels):#skip keys, consider values 
+            continue
+        bbi = item[1]
+        #print('***', pi,bbi)
+        is_match = 0 
+        matched_id = -1
+        for i in range(id):#scan cluster 
+            lst = mp[i]
+            for pb in lst:
+                pj = pb[0]
+                bbj = pb[1]
+                if(is_inclusive(bbi,bbj) == 1):
+                    #add to current cluster 
+                    # print(pi,pj)
+                    # print(bbi,bbj)
+                    #mp[i].append(item)
+                    matched_id = i
+                    is_match += 1
+                    break
+            if(is_match > 1):
+                break
+        if(is_match == 0):#there is no cluster matching with current item, create a new cluster
+            mp[id] = [item]
+            id += 1
+        if(is_match == 1):
+            mp[matched_id].append(item)
+        if(is_match > 1):
+            footer.append(item)
+    return mp,footer
 
 def h_distance(bb1, bb2):
     bb1_avg = (bb1[0]+bb1[2])/2
@@ -242,6 +518,56 @@ def table_extraction_top_down(row_mp, kid, vid):
     return keys, rows
 
 
+def table_extraction(predict_labels, pv, path):
+    # for item in pv:
+    #     print(item)
+    vg,footer = find_value_group(pv, predict_labels)
+    # for id, lst in vg.items():
+    #     print(id)
+    #     for item in lst:
+    #         print(item[0])
+        
+    bbv = find_bb_value_group(vg)
+    key_mp = filter_key(bbv, pv, predict_labels)
+    headers = identify_headers(key_mp, predict_labels, footer)
+    
+    rows,keys = find_rows(vg, key_mp, bbv)
+
+def table_extraction_pipeline(phrases_bb, predict_labels, phrases, path):
+    #get phrases for the first record 
+    first_record = phrases
+    record_appearance = {}
+    for p in phrases:
+        record_appearance[p] = 0
+    #get the bounding box vector of phrases for the first record  
+    record_appearance,pv = get_bb_per_record(record_appearance, phrases_bb, first_record)
+    table_extraction(predict_labels, pv, path)
+
+def print_table(keys, rows):
+    keys_out = ', '.join(keys)
+    keys_out += '\n'
+    
+    print(keys_out)
+    for row in rows:
+        row_out = ''
+        for r in row:
+            row_out += r[0] + ','
+        print(row_out[:-1])
+
+def write_table(keys, rows, path):
+    keys_out = ', '.join(keys)
+    keys_out += '\n'
+    
+    with open(path, 'w') as file:
+        file.write(keys_out)
+        #print(keys_out)
+        for row in rows:
+            row_out = ''
+            for r in row:
+                row_out += r[0] + ','
+            file.write(row_out[:-1]+'\n')
+            #print(row_out[:-1])
+
 def format_dict(dict):
     d = {}
     for k,v in dict.items():
@@ -270,6 +596,9 @@ def is_same_row(b1,b2):
         return 0
     return 1
 
+def major_overlapping_phrase(t,p1,p2):
+    #choose between p1 and p2 which is overlapping more with t
+    a=0 
 
 
 def row_aligned(row1, row2):
@@ -313,6 +642,268 @@ def row_aligned(row1, row2):
     #     if(valid == 0):
     #         return 0
     return 1
+
+def row_pattern_by_learned_pattern(lst, predicat_labels):
+    is_key = 0
+    is_val = 0
+    #print(lst, predicat_labels)
+    for (l,bb) in lst:
+        if(l in predicat_labels):
+            is_key = 1
+        else:
+            is_val = 1
+    if(is_key == 1 and is_val == 0):
+        return 'key'
+    if(is_key == 0 and is_val == 1):
+        return 'val'
+    if(is_key == 1 and is_val == 1):
+        return 'kv'
+
+def row_pattern(lst, predict_labels, new_lst, esp = 0.5):
+    kvs = 0
+    kks = 0 
+    vvs = 0
+    
+    p_pre = lst[0][0]
+    bb_pre = lst[0][1]
+    for i in range(1,len(lst)):
+        p = lst[i][0]
+        bb = lst[i][1]
+        if(p_pre in predict_labels and p in predict_labels):
+            kks += 1
+        elif(p_pre in predict_labels and p not in predict_labels):
+            #if(is_outlier(new_lst,min_distance(bb,bb_pre)) == 0):
+                kvs += 1
+                #print(p_pre,p)
+            # else:
+            #     vvs += 1
+            #print(p_pre,p)
+        elif(p_pre not in predict_labels and p not in predict_labels):
+            vvs += 1
+        p_pre = p
+        
+    size = kks + kvs + vvs
+    #print(kks, kvs, vvs)
+    if(size == 0):
+        return 'undefined'
+    
+    if(kks / size > esp):
+        return 'key'
+    
+    if(kvs / size > esp):
+        return 'kv'
+    
+    if(vvs / size > esp):
+        return 'val'
+    
+    return 'undefined'
+    
+def check_vadility(row_mp, rls, id): 
+    if(rls[id] == 'undefined'):
+        return 'undefined'
+    
+    if(rls[id] == 'key'):
+        #for a 'key' row, if the next val is not aligned with key, make it to be undefined
+        valid = 0
+        nid = id
+        while(True):
+            nid += 1
+            if(nid >= len(row_mp)):
+                break
+            if(rls[nid] == 'kv' or rls[nid] == 'key'):#mark the end of current table block
+                #print('kv or key')
+                break
+            if(rls[nid] == 'val'):
+                if(row_aligned(row_mp[id], row_mp[nid])==1):
+                    valid = 1
+                    break
+                else:
+                    valid = 0
+                    break 
+            # else:
+            #     print('key-val not aligned ***')
+        if(valid == 0):
+            return 'undefined'
+        else:
+            return 'key'
+        
+    if(rls[id] == 'val'):
+        #for a 'val' row, if there is no aligned key row above it, make it to be undefined
+        valid = 0
+        nid = id
+        while(True):
+            nid -= 1
+            if(nid < 0):
+                break
+            if(rls[nid] == 'key' and row_aligned(row_mp[nid],row_mp[id]) == 1):
+                valid = 1
+                break
+            if(rls[nid] == 'key' and row_aligned(row_mp[nid],row_mp[id]) == 0):
+                break
+            if(rls[nid] == 'kv'):
+                break
+        if(valid == 0):
+            return 'undefined'
+        else:
+            return 'val'
+    return rls[id]
+        
+def infer_undefined_LLM(lst):
+    vals = []
+    for (val,bb) in lst:
+        vals.append(val)
+    #evaluate by LLM
+    context = ', '.join(vals)
+    instruction = 'If the following list of phrases are mostly keywords, return key. If the following list of phrases are mostly values, return value. If the following list of phrases are a list of key value pairs where the key can have missing values, return kv. Do not add explanations, only return one of {key, value, kv}. '
+    prompt = (instruction,context)
+    response = model(model_name,prompt)
+    #print(response)
+    if('kv' in response):
+        return 'kv'
+    if('key' in response):
+        return 'key'
+    if('value' in response):
+        return 'val'
+    return 'undefined'
+        
+        
+
+def infer_undefined(row_mp, rls):
+    #guess the label of undefined rows based on rules 
+    #try to modify undefined to different labels and check if this trial is valid or not 
+    for row_id, lst in row_mp.items():
+        if(rls[row_id] != 'undefined'):
+            continue
+        if(len(lst) > 1):
+            #print('LLM call!', rls[row_id])
+            #print(lst)
+            label = infer_undefined_LLM(lst)
+            #print(label)
+            if(label == 'val'):
+                rls[row_id] = 'val'
+                if(check_vadility(row_mp, rls, row_id) == 'val'): #if undefined->val, it is valid
+                    continue 
+                else:
+                    rls[row_id] = 'undefined'
+            elif(label == 'key'):
+                rls[row_id] = 'key'
+                if(check_vadility(row_mp, rls, row_id) == 'key'): #if undefined->key, it is valid
+                    continue
+                else:
+                    rls[row_id] = 'undefined'
+            elif(label == 'kv'):
+                rls[row_id] = 'kv'
+            else:
+                rls[row_id] = label
+
+        elif(row_id-1>=0 and row_id+1 < len(row_mp) and rls[row_id-1] == 'kv' and rls[row_id+1] == 'kv'):
+            rls[row_id] = 'kv' 
+        elif(row_id-1>=0 and row_id+1 < len(row_mp) and rls[row_id-1] == 'val' and rls[row_id+1] == 'val'):
+            #semantic check if it's a key inside a table block
+            rls[row_id] = 'val'
+            if(check_vadility(row_mp, rls, row_id) == 'val'):
+                rls[row_id] = 'val'
+            else:
+                rls[row_id] = 'undefined'
+        else:
+            rls[row_id] = 'undefined'
+    return rls
+
+def check_kvs(rid, records, cans):
+    while(rid-1 < len(cans)):
+        records.append(cans[rid-1])
+        rid += 1
+    return records    
+ 
+def pattern_detect_by_row(pv, predict_labels, rid, debug = 0):
+    #refine kv pair by using distance constraint
+    kv = {}
+    ids = []
+    dis = {}
+    for i in range(len(pv)):
+        p = pv[i][0]
+        bbp = pv[i][1]
+        if(p in predict_labels):
+            if(i < len(pv)-1 and pv[i+1][0] not in predict_labels):#kv pair
+                pn = pv[i+1][0]
+                kv[i] = (p,pn)
+                ids.append(i)
+                ids.append(i+1)
+                bbpn = pv[i+1][1]
+                dis[i] = min_distance(bbp,bbpn)
+
+    outliers, cutoff, new_mean, new_lst = outlier_detect(dis)
+    # for i in outliers:
+    #     print(kv[i])
+
+    
+    #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record
+    p_pre = pv[0][0]
+    bb_pre = pv[0][1]
+    row_id = 0
+    row_mp = {} #row_id -> a list of (phrase, bb) in the current row
+    row_mp[row_id] = []
+    row_mp[row_id].append((p_pre, bb_pre))
+    for i in range(1, len(pv)):
+        p = pv[i][0]
+        bb = pv[i][1]
+        if(is_same_row(bb_pre,bb) == 0):
+            row_id += 1
+            row_mp[row_id] = []
+        row_mp[row_id].append((p, bb))
+        p_pre = p
+        bb_pre = bb
+
+    if(debug == 1):
+        print('first pass label prediction')
+    rls = {}
+    for row_id, lst in row_mp.items():
+        row = []
+        for l in lst:
+            row.append(l[0])
+        if(rid == 1):
+            row_label = row_pattern(lst, predict_labels, new_lst)
+        else:
+            row_label = row_pattern_by_learned_pattern(lst, predict_labels)
+        if(debug == 1):
+            print(row_id, row_label)
+            p_print = []
+            for (p,bb) in lst:
+                p_print.append(p)
+            print(p_print)
+        rls[row_id] = row_label
+        
+    #if(rid == 1): #expensive learning for the first record
+        #check the validity of the labels by using rules 
+    if(debug == 1):
+        print('second pass validation')
+    for row_id, lst in row_mp.items():
+        new_label = check_vadility(row_mp, rls, row_id)
+        if(debug == 1):
+            print(row_id)
+            p_print = []
+            for (p,bb) in lst:
+                p_print.append(p)
+            print(p_print)
+            print(rls[row_id], new_label)
+        rls[row_id] = new_label
+
+    if(debug == 1):
+        print('third pass infer undefined')
+    rls = infer_undefined(row_mp, rls)
+
+    if(debug == 1):
+        for row_id, lst in row_mp.items():
+            print(row_id, rls[row_id])
+            p_print = []
+            for (p,bb) in lst:
+                p_print.append(p)
+            print(p_print)
+        
+    blk, blk_id = block_decider(rls)
+    
+    return blk, blk_id, row_mp
+
     
 def block_decider(rls):
     blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
@@ -353,6 +944,14 @@ def block_decider(rls):
 def write_json(out, path):
     with open(path, 'w') as json_file:
         json.dump(out, json_file, indent=4)
+
+def filter_non_key(lst, non_key):
+    nl = []
+    for l in lst:
+        if(l.lower() in non_key):
+            continue
+        nl.append(l)
+    return nl
 
 def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, template_path, debug = 0):
     print('fields')
@@ -591,6 +1190,15 @@ def block_seperation(rls, row_mp, predicted_keys, row_align):
 def location_alignment(row_mp, id1, id2):
     return row_aligned(row_mp[id1], row_mp[id2]) 
 
+def synthesize_kv_pairs_LLM(pairs):
+    #construct prompts to LLMs
+    instruction = 'Given a list of phrase pairs as (phrase1, phrase 2), for each pair of phrase, if two phrases are a key-value pair, return yes. Otherwise, return no. Do not add any explanations, only return yes or no for each phrase pair. Seperate each answer by using |' 
+    context = ", ".join(f"({repr(key)}, {repr(value)})" for key, value in pairs)
+    prompt = (instruction,context)
+    response = model(model_name,prompt)
+    ans = response.split('|')
+    print(ans)
+    return ans 
 
 def get_KV_scores(pairs):
     #construct prompts to LLMs
@@ -619,6 +1227,34 @@ def semantic_alignment(row_mp, id1, id2):
         return 0
     return pos/len(pairs)
 
+def get_kv_pairs_two_row(row_mp, id1, id2):
+    pairs = []
+    for cell1 in row_mp[id1]:
+        val1 = cell1[0]
+        bb1 = cell1[1]
+        for cell2 in row_mp[id2]:
+            val2 = cell2[0]
+            bb2 = cell2[1]
+            if(is_overlap_vertically(bb1,bb2) == 1):
+                pairs.append((val1,val2))
+                break
+    return pairs
+
+def construct_kv_pairs(row_mp, id1, id2):
+    l_score = location_alignment(row_mp, id1, id2)
+    if(l_score == 1):
+        return []
+        # len1 = len(row_mp[id1])
+        # len2 = len(row_mp[id2])
+        # if(len2 > len1/2):
+        #     return []
+        # else:
+        #     kvs = get_kv_pairs_two_row(row_mp, id1, id2)
+        #     return kvs
+            
+    else:
+        kvs = get_kv_pairs_two_row(row_mp, id1, id2)
+        return kvs
 
 def C_alignment(row_mp, id1, id2): #comprehensive alignment
     #print(id1,id2)
@@ -864,6 +1500,70 @@ def data_extraction(rid,blk,blk_id,row_mp,predict_labels):
     record['content'] = out
 
     return record 
+
+def mix_pattern_extract(predict_labels, pv, rid, debug = 0):
+    
+    #pv: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
+    keys = []
+
+    blk, blk_id, row_mp = pattern_detect_by_row(pv, predict_labels, rid, debug)
+
+    # print(blk)
+    # print(blk_id)
+    
+    out = []
+    record = {}
+    record['id'] = rid
+
+    for id, lst in blk.items():
+        object = {}
+        if(blk_id[id] == 'table'):
+            #print(id)
+            object['type'] = 'table'
+            #print(blk_id[id],lst)#lst is the list of row ids belonging to the same community
+            key = [lst[0]]
+            vals = []
+            for id in range(1,len(lst)):
+                vals.append(lst[id])
+            key, rows = table_extraction_top_down(row_mp, key, vals)
+            content = []
+            
+            for row in rows:
+                kvs = {}
+                for i in range(len(key)):
+                    k = key[i]
+                    r = row[i]
+                    kvs[k] = r
+                    keys.append(k)
+                content.append(kvs)
+            #print(content)
+            object['content'] = content 
+        else:
+            object['type'] = 'kv'
+            #print(blk_id[id],lst)
+            kvs = []#kvs stores a list of tuples, where each tuple is (phrase, bb)
+            for id in lst:
+                kvs += row_mp[id]
+            if(rid == 1):
+                kv_out = key_val_extraction(kvs, predict_labels)
+            else:
+                kv_out = key_val_extraction_by_first_learn(kvs, predict_labels)
+            content = []
+            
+            for kv in kv_out:
+                kvm = {}
+                if(kv[1] == ''):
+                    kvm[kv[0]] = 'missing'
+                else:
+                    kvm[kv[0]] = kv[1]
+                keys.append(kv[0])
+                content.append(kvm)
+            object['content'] = content
+        out.append(object)
+    
+    record['content'] = out
+
+    return record,keys 
     
         
 
