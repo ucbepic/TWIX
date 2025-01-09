@@ -1200,7 +1200,7 @@ def filter_non_key(lst, non_key):
         nl.append(l)
     return nl
 
-def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debug = 0):
+def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, template_path, debug = 0):
     print('fields')
     print(predict_labels)
     phrases = template_learn_input_gen(phrases, predict_labels)
@@ -1211,11 +1211,11 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, debu
         record_appearance[p] = 0
     record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
     
-    ILP_extract(predict_labels, pv)
+    ILP_extract(predict_labels, pv, template_path)
     
     # write_json(records, path)
 
-def ILP_extract(predict_keys, pv):
+def ILP_extract(predict_keys, pv, template_path):
     #create row representations 
     row_mp = seperate_rows(pv)
 
@@ -1246,7 +1246,7 @@ def ILP_extract(predict_keys, pv):
 
     #learn template based on the data blocks 
     nodes = template_learn(blk, blk_type, row_mp)
-
+    write_template(nodes, template_path)
 
 
     # #record = data_extraction(blk,blk_id,row_mp,predict_keys)
@@ -1254,6 +1254,13 @@ def ILP_extract(predict_keys, pv):
     # print(blk_id)
     # return blk, blk_id 
 
+def write_template(nodes,path):
+    template = {}
+    for i in range(len(nodes)):
+        node = nodes[i]
+        name = 'node'+str(i)
+        template[name] = node
+    write_json(template,path)
 
 def template_learn(blk, blk_type, row_mp):
     #blk: bid -> a list of row id
@@ -1813,7 +1820,7 @@ def write_string(result_path, content):
     with open(result_path, 'w') as file:
         file.write(content)
 
-def kv_extraction(pdf_path, out_path):
+def kv_extraction(pdf_path, out_path, template_path):
     key_path = pdf_path.replace('data/raw','result').replace('.pdf','_TWIX_key.txt')
     extracted_path = key.get_extracted_path(pdf_path)
     
@@ -1830,7 +1837,7 @@ def kv_extraction(pdf_path, out_path):
 
     print('Template-based data extraction starts...')
 
-    mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, debug_mode)
+    mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, template_path, debug_mode)
 
 # if __name__ == "__main__":
 #     #print(get_metadata())
