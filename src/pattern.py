@@ -380,6 +380,9 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extrac
     complete_row_mp = create_row_representations(raw_phrases, phrases_bb)
     records = record_seperation(template, complete_row_mp)
 
+    #seperate data blocks within each record based on template 
+    blocks = block_seperation_pipeline(template, records, row_mp)
+
 def record_seperation(template, row_mp):
     row_id = 0
     boundary_fields = []
@@ -463,11 +466,10 @@ def ILP_extract(predict_keys, row_mp, template_path):
     
     row_pred_labels = ILP_formulation(row_mp, row_labels, row_align)
 
-    
     #print('labels after ILP:')
     #print(row_pred_labels)
     #seperate data blocks based on row labeling
-    blk, blk_type = block_seperation(row_pred_labels, row_mp, predict_keys, row_align)
+    blk, blk_type = block_seperation(row_pred_labels, row_align)
 
     #print(blk)
     #print(blk_type)
@@ -620,7 +622,7 @@ def ILP_formulation(row_mp, row_labels, Calign):
     
     return row_pred_labels
 
-def block_seperation(rls, row_mp, predicted_keys, row_align):
+def block_seperation(rls, row_align):
     blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
     blk_type = {}#store the name per block: bid-> type of block
     bid = 0
@@ -644,11 +646,11 @@ def block_seperation(rls, row_mp, predicted_keys, row_align):
                     break
                 i -= 1
         elif(label == 'KV'):
-            if(id - 1 >= 0 and rls[id-1] != 'kv'):
+            if(id - 1 >= 0 and rls[id-1] != 'KV'):
                 blk[bid] = []
             blk[bid].append(id)
             blk_type[bid] = 'kv'
-            if(id + 1 < len(rls) and rls[id+1] != 'kv'):#if next row is not kv, create a new block
+            if(id + 1 < len(rls) and (rls[id+1] == 'K' or rls[id+1] == 'V')):#if next row is K or V, create a new block
                 bid += 1
 
 
@@ -657,6 +659,92 @@ def block_seperation(rls, row_mp, predicted_keys, row_align):
         if(name == 'table'):
             if(len(blk[bid]) == 1):
                 blk_type[bid] = 'metadata'
+    return blk, blk_type
+
+
+def row_label_gen_template(record, row_mp, template):
+    rls = []#list of row labels per row
+    row_node_mp = {}#row_id -> node_id generates this row: only store for row with label 'K'  
+    for row_id in record:
+        row_phrases = []
+        for item in row_mp[row_id]:
+            row_phrases.append(item[0])
+        label = ''
+        for i in range(len(template)):
+            node = template[i]
+            if(visit_node(node, row_phrases) == 1):
+                if(node['type'] == 'table'):
+                    label = 'K'
+                    row_node_mp[row_id] = i
+                else:
+                    label = 'KV'
+                break
+        if(label == ''):
+            label = 'V'
+        rls.append(label)
+    return rls, row_node_mp
+            
+def row_align_gen_template(row_mp):
+    row_align = {}
+    for id1 in range(len(row_mp)):
+        for id2 in range(id1+1, len(row_mp)):
+            c = C_alignment(row_mp, id1, id2)
+            row_align[(id1,id2)] = c
+            row_align[(id2,id1)] = c
+    return row_align
+        
+
+def block_seperation_pipeline(template, records, row_mp):
+    blocks = {}
+    for i in range(len(records)):
+        record = records[i]
+        rls, row_node_mp = row_label_gen_template(record, row_mp, template)
+        row_align = row_align_gen_template(row_mp)
+        blk, blk_type = block_seperation_based_on_template(rls, row_align, template, row_node_mp)
+        blocks[i] = (blk, blk_type)
+    return blocks
+
+
+def block_seperation_based_on_template(rls, row_align, template, row_node_mp):
+    blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
+    blk_type = {}#store the name per block: bid-> type of block
+    bid = 0
+    row_2_blk = {} #row id -> blk type
+
+    #merge consecutive kv pairs into one kv block 
+
+    for id, label in rls.items():
+        if(label == 'K'):
+            blk[bid] = []
+            blk[bid].append(id)
+            blk_type[bid] = 'table'
+            row_2_blk[id] = bid
+            bid += 1
+        elif(label == 'V'):
+            i = id - 1
+            first_key = 0
+            updated = 0
+            while(i >= 0):#find the cloest aligned key row of row with index id 
+                if(rls[i] == 'K'):
+                    is_leaf = row_2_blk[i]['child']
+                    if(row_align[(i, id)] == 1):
+                        if((is_leaf == -1 and first_key == 0) or (is_leaf != -1)):  
+                            key_blk_id = row_2_blk[i]
+                            blk[key_blk_id].append(id)
+                            updated = 1
+                            break
+                    first_key = 1
+                i -= 1
+            if(updated == 0):#V row is not aligned with any candidate key row, set to be M
+                label = 'M'
+        elif(label == 'KV'):
+            if(id - 1 >= 0 and rls[id-1] != 'KV'):
+                blk[bid] = []
+            blk[bid].append(id)
+            blk_type[bid] = 'kv'
+            if(id + 1 < len(rls) and (rls[id+1] == 'K' or rls[id+1] == 'V')):#if next row is K or V, create a new block
+                bid += 1
+
     return blk, blk_type
 
 def location_alignment(row_mp, id1, id2):
