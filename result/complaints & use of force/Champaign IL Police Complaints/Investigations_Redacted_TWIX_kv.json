@@ -1,0 +1,111 @@
+[
+    {
+        "id": 0,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "1/27/2008",
+                        "Number": "08-01",
+                        "Investigator": "Swenson, Jon",
+                        "Date Assigned": "missing",
+                        "Racial": "No",
+                        "Category / Type": "FORMAL",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "SUSTAINED",
+                        "Completed": "missing",
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "1/30/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "2/7/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": "Terr, Champaign IL 61820"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.1 Courtesy",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "SUSTAINED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Griffet, David I.",
+                        "ID No.": "914",
+                        "Rank": "SERGEANT",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "SUSTAINED",
+                        "Action Taken": "COUNSELING",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "table",
+                "content": []
+            },
+            {
+                "type": "kv",
+                "content": []
+            },
+            {
+                "type": "table",
+                "content": []
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Griffet, David I.",
+                        "ID No.": "914",
+                        "Rank": "SERGEANT",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "SUSTAINED",
+                        "Action Taken": "COUNSELING",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    }
+]

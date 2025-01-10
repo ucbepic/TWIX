@@ -74,7 +74,7 @@ def get_bb_path(extracted_file):
     return file 
 
 
-def key_val_extraction_by_first_learn(pv, predict_labels):
+def key_val_extraction(pv, predict_labels):
     #print(pv, predict_labels)
     kvs = []
     i = 0
@@ -366,7 +366,7 @@ def create_row_representations(phrases, phrases_bb):
 
     return row_mp
 
-def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extraction_path, template_path, debug = 0):
+def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extraction_path, template_path):
     print('fields')
     print(predict_labels)
     #get minimal set of phrases to learn template 
@@ -384,6 +384,13 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extrac
     #seperate data blocks within each record based on template 
     print('Block Seperation starts...')
     blocks = block_seperation_pipeline(template, records, complete_row_mp)
+
+    #data extraction within each data block based on template 
+    print('Data extraction starts...')
+    extraction_objects = data_extraction(records, blocks, complete_row_mp, template)
+
+    write_json(extraction_objects, extraction_path)
+
 
 def record_seperation(template, row_mp):
     row_id = 0
@@ -698,7 +705,7 @@ def row_align_gen_template(row_mp):
         
 
 def block_seperation_pipeline(template, records, row_mp):
-    blocks = {}
+    blocks = {}#record id -> (blk, blk_type) 
     for i in range(len(records)):
         record = records[i]
         rls, row_node_mp = row_label_gen_template(record, row_mp, template)
@@ -716,7 +723,7 @@ def block_seperation_based_on_template(rls, row_align, row_node_mp, template):
     # print('row_node_mp:')
     # print(row_node_mp)
     #rls:list of row labels
-    blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
+    blk = {}#bid -> a list of row id belonging to the same block 
     blk_type = {}#store the name per block: bid-> type of block
     bid = 0
     row_2_blk = {} #row id -> blk type
@@ -990,21 +997,33 @@ def print_rows(row_mp, row_labels):
                 p_print.append(p)
             print(p_print)
 
-def data_extraction(rid,blk,blk_id,row_mp,predict_labels):
+def data_extraction_one_record(rid,rid_delta,blk,blk_type,row_mp,predict_labels): 
+    #blk: bid -> list of row ids
     out = []
     record = {}
     record['id'] = rid
 
-    for id, lst in blk.items():
+    print('blk and blk type...')
+    print(blk, blk_type)
+
+    for bid, lst in blk.items():
+        # lst is a list of relative row ids in current data block 
+        # need to modify the relative row id to global row id
+        for e in lst:
+            e += rid_delta
+        
+        print(bid, blk_type[bid], lst)
         object = {}
-        if(blk_id[id] == 'table'):
-            #print(id)
+        if(blk_type[bid] == 'table'):
             object['type'] = 'table'
             key = [lst[0]]
             vals = []
-            for id in range(1,len(lst)):
-                vals.append(lst[id])
+            for i in range(1,len(lst)):
+                vals.append(lst[i])
+            
+            print(key, vals)
             key, rows = table_extraction_top_down(row_mp, key, vals)
+            print(key, rows)
             content = []
             
             for row in rows:
@@ -1018,11 +1037,10 @@ def data_extraction(rid,blk,blk_id,row_mp,predict_labels):
             object['content'] = content 
         else:
             object['type'] = 'kv'
-            #print(blk_id[id],lst)
             kvs = []#kvs stores a list of tuples, where each tuple is (phrase, bb)
-            for id in lst:
-                kvs += row_mp[id]
-                kv_out = key_val_extraction_by_first_learn(kvs, predict_labels)
+            for i in lst:
+                kvs += row_mp[i]
+                kv_out = key_val_extraction(kvs, predict_labels)
             content = []
             
             for kv in kv_out:
@@ -1037,7 +1055,35 @@ def data_extraction(rid,blk,blk_id,row_mp,predict_labels):
     
     record['content'] = out
 
-    return record 
+    return record
+
+def data_extraction(records, blocks, row_mp, template):
+    # blocks: record id -> (blk, blk_type) 
+    # blk stores the relative id for current record, not global record id
+
+    predict_labels = []
+    out = []
+    print(blocks)
+    #get predict labels 
+    for node in template:
+        predict_labels += node['fields']
+
+    for rid in range(len(blocks)):
+        record = records[rid]
+        blk = blocks[rid][0]
+        blk_type = blocks[rid][1]
+        rid_delta = record[0]
+        print(rid, rid_delta)
+        out_record = data_extraction_one_record(rid,rid_delta,blk,blk_type,row_mp,predict_labels)
+        out.append(out_record)
+
+        if(rid >= 1):
+            break
+
+    return out
+
+
+     
 
 def write_string(result_path, content):
     with open(result_path, 'w') as file:
@@ -1056,9 +1102,8 @@ def kv_extraction(pdf_path, out_path, template_path):
     keywords = read_file(key_path)#predicted keywords
     phrases = read_file(extracted_path)#list of phrases
     phrases_bb = read_json(bb_path)#phrases with bounding boxes
-    debug_mode = 0
 
     print('Template-based data extraction starts...')
 
-    mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, template_path, debug_mode)
+    mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, template_path)
 
