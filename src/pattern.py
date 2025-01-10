@@ -377,11 +377,13 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extrac
     template = ILP_extract(predict_labels, row_mp, template_path)
     
     #seperate records based on template 
+    print("Record seperation starts...")
     complete_row_mp = create_row_representations(raw_phrases, phrases_bb)
     records = record_seperation(template, complete_row_mp)
 
     #seperate data blocks within each record based on template 
-    blocks = block_seperation_pipeline(template, records, row_mp)
+    print('Block Seperation starts...')
+    blocks = block_seperation_pipeline(template, records, complete_row_mp)
 
 def record_seperation(template, row_mp):
     row_id = 0
@@ -466,13 +468,13 @@ def ILP_extract(predict_keys, row_mp, template_path):
     
     row_pred_labels = ILP_formulation(row_mp, row_labels, row_align)
 
-    #print('labels after ILP:')
-    #print(row_pred_labels)
+    # print('labels after ILP:')
+    # print(row_pred_labels)
     #seperate data blocks based on row labeling
     blk, blk_type = block_seperation(row_pred_labels, row_align)
 
-    #print(blk)
-    #print(blk_type)
+    print(blk)
+    print(blk_type)
 
     #learn template based on the data blocks 
     nodes = template_learn(blk, blk_type, row_mp)
@@ -664,7 +666,8 @@ def block_seperation(rls, row_align):
 
 def row_label_gen_template(record, row_mp, template):
     rls = []#list of row labels per row
-    row_node_mp = {}#row_id -> node_id generates this row: only store for row with label 'K'  
+    row_node_mp = {}#row_id -> node_id generates this row: only store for row with label 'K', the row_id here should be relative row_id, starting from zero 
+    base_row_id = record[0]  
     for row_id in record:
         row_phrases = []
         for item in row_mp[row_id]:
@@ -675,7 +678,7 @@ def row_label_gen_template(record, row_mp, template):
             if(visit_node(node, row_phrases) == 1):
                 if(node['type'] == 'table'):
                     label = 'K'
-                    row_node_mp[row_id] = i
+                    row_node_mp[row_id-base_row_id] = i
                 else:
                     label = 'KV'
                 break
@@ -688,7 +691,7 @@ def row_align_gen_template(row_mp):
     row_align = {}
     for id1 in range(len(row_mp)):
         for id2 in range(id1+1, len(row_mp)):
-            c = C_alignment(row_mp, id1, id2)
+            c = C_alignment_no_LLM(row_mp, id1, id2)
             row_align[(id1,id2)] = c
             row_align[(id2,id1)] = c
     return row_align
@@ -699,13 +702,20 @@ def block_seperation_pipeline(template, records, row_mp):
     for i in range(len(records)):
         record = records[i]
         rls, row_node_mp = row_label_gen_template(record, row_mp, template)
+        print(rls)
         row_align = row_align_gen_template(row_mp)
-        blk, blk_type = block_seperation_based_on_template(rls, row_align, template, row_node_mp)
+        blk, blk_type = block_seperation_based_on_template(rls, row_align, row_node_mp, template)
+        print(blk)
+        print(blk_type)
         blocks[i] = (blk, blk_type)
+        #break
     return blocks
 
 
-def block_seperation_based_on_template(rls, row_align, template, row_node_mp):
+def block_seperation_based_on_template(rls, row_align, row_node_mp, template):
+    # print('row_node_mp:')
+    # print(row_node_mp)
+    #rls:list of row labels
     blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
     blk_type = {}#store the name per block: bid-> type of block
     bid = 0
@@ -713,7 +723,8 @@ def block_seperation_based_on_template(rls, row_align, template, row_node_mp):
 
     #merge consecutive kv pairs into one kv block 
 
-    for id, label in rls.items():
+    for id in range(len(rls)):
+        label = rls[id]
         if(label == 'K'):
             blk[bid] = []
             blk[bid].append(id)
@@ -726,7 +737,7 @@ def block_seperation_based_on_template(rls, row_align, template, row_node_mp):
             updated = 0
             while(i >= 0):#find the cloest aligned key row of row with index id 
                 if(rls[i] == 'K'):
-                    is_leaf = row_2_blk[i]['child']
+                    is_leaf = template[row_node_mp[i]]['child']
                     if(row_align[(i, id)] == 1):
                         if((is_leaf == -1 and first_key == 0) or (is_leaf != -1)):  
                             key_blk_id = row_2_blk[i]
@@ -778,6 +789,10 @@ def semantic_alignment(row_mp, id1, id2):
         return 0
     return pos/len(pairs)
 
+def C_alignment_no_LLM(row_mp, id1, id2): #comprehensive alignment
+    #print(id1,id2)
+    l_score = location_alignment(row_mp, id1, id2)
+    return l_score
 
 def C_alignment(row_mp, id1, id2): #comprehensive alignment
     #print(id1,id2)
