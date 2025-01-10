@@ -22,8 +22,7 @@
             "Complainant",
             "DOB",
             "Gender",
-            "Address",
-            "H Phone"
+            "Address"
         ],
         "child": -1,
         "bid": 1

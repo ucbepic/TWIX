@@ -114,8 +114,8 @@ def get_bblist_per_record(record_appearance, phrases_bb, phrases):
     #phrases: list of phrases 
     #phrases_bb: phrase -> bounding box of all appearances of this phrase 
     #record_appearance: phrase->the number of appearances of p so far 
-    #output: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
-    pv = []
+    #phrase_boundingbox: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
+    phrase_boundingbox = []
     appear = {}
     record = {}
     for p in phrases:
@@ -130,12 +130,12 @@ def get_bblist_per_record(record_appearance, phrases_bb, phrases):
                 appear[p] = appear[p] + 1
 
             bb = lst[appear[p]]
-            pv.append((p,bb))
+            phrase_boundingbox.append((p,bb))
     for p in phrases:
         if(p in phrases_bb):
             record_appearance[p] = record[p]
             
-    return record_appearance, pv
+    return phrase_boundingbox
 
 def get_bb_per_record(record_appearance, phrases_bb, phrases):
     #phrases: phrase -> a list of bounding box for all records 
@@ -354,28 +354,99 @@ def write_json(out, path):
     with open(path, 'w') as json_file:
         json.dump(out, json_file, indent=4)
 
-def mix_pattern_extract_pipeline(phrases_bb, predict_labels, phrases, path, template_path, debug = 0):
-    print('fields')
-    print(predict_labels)
-    phrases = template_learn_input_gen(phrases, predict_labels)
-    # print('phrases')
-    # print(phrases)
+def create_row_representations(phrases, phrases_bb):
     record_appearance = {}
     for p in phrases:
         record_appearance[p] = 0
-    record_appearance,pv = get_bblist_per_record(record_appearance, phrases_bb, phrases)
-    
-    template = ILP_extract(predict_labels, pv, template_path)
-    
-    # write_json(records, path)
+    phrase_boundingbox = get_bblist_per_record(record_appearance, phrases_bb, phrases)
 
-def record_seperation(template, pv):
-    a=0
-
-def ILP_extract(predict_keys, pv, template_path):
     #create row representations 
-    row_mp = seperate_rows(pv)
+    #row_mp: row_id -> a list of (phrase, bb) in the current row
+    row_mp = seperate_rows(phrase_boundingbox)
 
+    return row_mp
+
+def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extraction_path, template_path, debug = 0):
+    print('fields')
+    print(predict_labels)
+    #get minimal set of phrases to learn template 
+    phrases = template_learn_input_gen(raw_phrases, predict_labels)
+    # print('phrases')
+    # print(phrases)
+    row_mp = create_row_representations(phrases, phrases_bb)
+    template = ILP_extract(predict_labels, row_mp, template_path)
+    
+    #seperate records based on template 
+    complete_row_mp = create_row_representations(raw_phrases, phrases_bb)
+    records = record_seperation(template, complete_row_mp)
+
+def record_seperation(template, row_mp):
+    row_id = 0
+    boundary_fields = []
+
+    #decide boundary_fields
+    while(row_id < len(row_mp)):
+        #get phrases in current row 
+        row_phrases = []
+        for item in row_mp[row_id]:
+            row_phrases.append(item[0])
+        
+        if(visit_node(template[0], row_phrases) == 1):
+            boundary_fields = set(template[0]['fields']).intersection(row_phrases)
+            break
+        row_id += 1
+           
+    #record seperation 
+    first_record = 1
+    row_id = 0
+    records = []
+    record = []
+
+    while(row_id < len(row_mp)):
+        #get phrases in current row 
+        row_phrases = []
+        for item in row_mp[row_id]:
+            row_phrases.append(item[0])
+
+        #visit the first node twice implying a new record 
+        if(is_contained(boundary_fields, row_phrases) == 1):
+            if(first_record == 1): #this is the first record 
+                first_record = 0
+            else:#another new record 
+                records.append(record)
+                record = []
+
+        record.append(row_id)
+        row_id += 1
+    
+    records.append(record) #add last record 
+
+    for record in records:
+        print(record)
+    return records        
+         
+def is_contained(boundary_fields, phrases):
+    for p in boundary_fields:
+        if (p not in phrases):
+            return 0
+    return 1
+
+
+def visit_node(node, row):
+    fields = node['fields']
+    type = node['type']
+    if(type == 'table'):
+        for p in row:
+            if(p not in fields):
+                return 0
+        return 1
+    if(type == 'kv'):
+        for p in row: 
+            if(p in fields):
+                return 1
+        return 0 
+
+def ILP_extract(predict_keys, row_mp, template_path):
     #pre-compute all C-alignments in a batch 
     row_align = {}
     for id1 in range(len(row_mp)):
@@ -388,18 +459,18 @@ def ILP_extract(predict_keys, pv, template_path):
     row_labels = get_row_probabilities(predict_keys, row_mp, row_align)
     #LP formulation to learn row label assignment
     #print('initial row labels and probs:')
-    print_rows(row_mp, row_labels)
+    #print_rows(row_mp, row_labels)
     
     row_pred_labels = ILP_formulation(row_mp, row_labels, row_align)
 
     
-    print('labels after ILP:')
-    print(row_pred_labels)
+    #print('labels after ILP:')
+    #print(row_pred_labels)
     #seperate data blocks based on row labeling
     blk, blk_type = block_seperation(row_pred_labels, row_mp, predict_keys, row_align)
 
-    print(blk)
-    print(blk_type)
+    #print(blk)
+    #print(blk_type)
 
     #learn template based on the data blocks 
     nodes = template_learn(blk, blk_type, row_mp)
@@ -864,8 +935,6 @@ def data_extraction(rid,blk,blk_id,row_mp,predict_labels):
     record['content'] = out
 
     return record 
-    
-        
 
 def write_string(result_path, content):
     with open(result_path, 'w') as file:
@@ -890,16 +959,3 @@ def kv_extraction(pdf_path, out_path, template_path):
 
     mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, template_path, debug_mode)
 
-# if __name__ == "__main__":
-#     #print(get_metadata())
-#     root_path = extract.get_root_path()
-#     pdf_folder_path = root_path + '/data/raw'
-#     pdfs = scan_folder(pdf_folder_path,'.pdf')
-#     for pdf_path in pdfs:
-#         if('id_12' not in pdf_path):
-#             continue
-#         print(pdf_path)
-#         out_path = key.get_key_val_path(pdf_path, 'TWIX')
-#         #print(out_path)
-#         kv_extraction(pdf_path, out_path)
-#         break
