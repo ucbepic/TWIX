@@ -281,8 +281,8 @@ def row_aligned(row1, row2):
     #a value should not overlap with two keys
     while(id1 < len(row1) and id2 < len(row2)):
         if(is_overlap_vertically(row2[id2][1], row1[id1][1]) == 1 and is_overlap_vertically(row2[id2][1], row1[id1-1][1]) == 1):
+            #print(row1[id1], row1[id1-1], row2[id2])
             return 0
-        #print(row1[id1][1][2], row2[id2][1][2])
         if(row1[id1][1][2] < row2[id2][1][2]):
             id1 += 1
         else:
@@ -694,10 +694,12 @@ def row_label_gen_template(record, row_mp, template):
         rls.append(label)
     return rls, row_node_mp
             
-def row_align_gen_template(row_mp):
+def row_align_gen_template(row_mp, record):
     row_align = {}
-    for id1 in range(len(row_mp)):
-        for id2 in range(id1+1, len(row_mp)):
+    for i in range(len(record)):
+        for j in range(i+1, len(record)):
+            id1 = record[i]
+            id2 = record[j]
             c = C_alignment_no_LLM(row_mp, id1, id2)
             row_align[(id1,id2)] = c
             row_align[(id2,id1)] = c
@@ -709,17 +711,26 @@ def block_seperation_pipeline(template, records, row_mp):
     for i in range(len(records)):
         record = records[i]
         rls, row_node_mp = row_label_gen_template(record, row_mp, template)
-        print(rls)
-        row_align = row_align_gen_template(row_mp)
-        blk, blk_type = block_seperation_based_on_template(rls, row_align, row_node_mp, template)
+        print('row labels...')
+        print(i,rls)
+        print(record)
+        print(row_mp[record[0]])
+        row_align = row_align_gen_template(row_mp, record)
+        print('row align...')
+        print(row_align)
+        blk, blk_type = block_seperation_based_on_template(rls, row_align, row_node_mp, template, record)
         print(blk)
         print(blk_type)
         blocks[i] = (blk, blk_type)
-        #break
+        # if(i >= 1):
+        #     break
     return blocks
 
 
-def block_seperation_based_on_template(rls, row_align, row_node_mp, template):
+def block_seperation_based_on_template(rls, row_align, row_node_mp, template, record):
+    #row_align stores the global record id and rls stores the relative record id
+    record_delta = record[0]
+    print(record_delta)
     # print('row_node_mp:')
     # print(row_node_mp)
     #rls:list of row labels
@@ -745,7 +756,7 @@ def block_seperation_based_on_template(rls, row_align, row_node_mp, template):
             while(i >= 0):#find the cloest aligned key row of row with index id 
                 if(rls[i] == 'K'):
                     is_leaf = template[row_node_mp[i]]['child']
-                    if(row_align[(i, id)] == 1):
+                    if(row_align[(i+record_delta, id+record_delta)] == 1):
                         if((is_leaf == -1 and first_key == 0) or (is_leaf != -1)):  
                             key_blk_id = row_2_blk[i]
                             blk[key_blk_id].append(id)
@@ -1009,17 +1020,18 @@ def data_extraction_one_record(rid,rid_delta,blk,blk_type,row_mp,predict_labels)
     for bid, lst in blk.items():
         # lst is a list of relative row ids in current data block 
         # need to modify the relative row id to global row id
+        row_list = []
         for e in lst:
-            e += rid_delta
+            row_list.append(e + rid_delta)
         
-        print(bid, blk_type[bid], lst)
+        print(bid, blk_type[bid], row_list)
         object = {}
         if(blk_type[bid] == 'table'):
             object['type'] = 'table'
-            key = [lst[0]]
+            key = [row_list[0]]
             vals = []
-            for i in range(1,len(lst)):
-                vals.append(lst[i])
+            for i in range(1,len(row_list)):
+                vals.append(row_list[i])
             
             print(key, vals)
             key, rows = table_extraction_top_down(row_mp, key, vals)
@@ -1038,7 +1050,7 @@ def data_extraction_one_record(rid,rid_delta,blk,blk_type,row_mp,predict_labels)
         else:
             object['type'] = 'kv'
             kvs = []#kvs stores a list of tuples, where each tuple is (phrase, bb)
-            for i in lst:
+            for i in row_list:
                 kvs += row_mp[i]
                 kv_out = key_val_extraction(kvs, predict_labels)
             content = []
@@ -1063,7 +1075,7 @@ def data_extraction(records, blocks, row_mp, template):
 
     predict_labels = []
     out = []
-    print(blocks)
+    #print(blocks)
     #get predict labels 
     for node in template:
         predict_labels += node['fields']
@@ -1077,8 +1089,8 @@ def data_extraction(records, blocks, row_mp, template):
         out_record = data_extraction_one_record(rid,rid_delta,blk,blk_type,row_mp,predict_labels)
         out.append(out_record)
 
-        if(rid >= 1):
-            break
+        # if(rid >= 1):
+        #     break
 
     return out
 

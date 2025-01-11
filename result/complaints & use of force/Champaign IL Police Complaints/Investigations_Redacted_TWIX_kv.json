@@ -82,27 +82,1836 @@
         "content": [
             {
                 "type": "table",
-                "content": []
+                "content": [
+                    {
+                        "Date": "2/24/2008",
+                        "Number": "08-02",
+                        "Investigator": "Swan, Scott",
+                        "Date Assigned": "missing",
+                        "Racial": "No",
+                        "Category / Type": "FORMAL",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "SUSTAINED",
+                        "Completed": "missing",
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "2/27/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "3/17/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
             },
             {
                 "type": "kv",
-                "content": []
-            },
-            {
-                "type": "table",
-                "content": []
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": ", Champaign IL 61821"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
             },
             {
                 "type": "table",
                 "content": [
                     {
-                        "Name": "Griffet, David I.",
-                        "ID No.": "914",
-                        "Rank": "SERGEANT",
+                        "Type Of Complaint": "R-3B.1 Courtesy",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "NOT SUSTAINED"
+                    },
+                    {
+                        "Type Of Complaint": "R-3B.4 COURTESY",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "SUSTAINED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "EXONERATED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Petrilli, Thomas P.",
+                        "ID No.": "939",
+                        "Rank": "Senior",
                         "Division": "Field Operations",
                         "Officer Disposition": "SUSTAINED",
                         "Action Taken": "COUNSELING",
                         "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "3/10/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "4/28/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": ", Champaign IL 61821"
+                    },
+                    {
+                        "H Phone": "("
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.2 Courtesy",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "UNFOUNDED"
+                    },
+                    {
+                        "Type Of Complaint": "R-3B.2 Courtesy",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "NOT SUSTAINED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Shepard, Charles F.",
+                        "ID No.": "921RET",
+                        "Rank": "SERGEANT",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "NOT SUSTAINED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "ADMINISTRATIVE Database",
+                        "ID No.": "11/10/2020 10:49:22 AM",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "Page 1 of 74"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "3/14/2008",
+                        "Number": "08-II01",
+                        "Investigator": "Swan, Scott",
+                        "Date Assigned": "missing",
+                        "Racial": "No",
+                        "Category / Type": "FORMAL",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "SUSTAINED",
+                        "Completed": "missing",
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "3/14/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Internal",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "3/14/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": ", Champaign IL 61821"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.2 Courtesy",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "SUSTAINED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Wilberg, Richard W.",
+                        "ID No.": "799RESI",
+                        "Rank": "Senior",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "SUSTAINED",
+                        "Action Taken": "COUNSELING",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "missing",
+                        "ID No.": "G",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "3/18/2008",
+                        "Number": "08-06",
+                        "Investigator": "Gallo, Joe",
+                        "Date Assigned": "missing",
+                        "Racial": "No",
+                        "Category / Type": "FORMAL",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "SUSTAINED",
+                        "Completed": "missing",
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "4/17/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "4/23/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": ", Champaign IL 61821"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.1 Courtesy",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "NOT SUSTAINED"
+                    },
+                    {
+                        "Type Of Complaint": "R-3B.4 COURTESY",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "SUSTAINED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Kelly, Patrick M.",
+                        "ID No.": "722-Ret",
+                        "Rank": "DETECTIVE",
+                        "Division": "Operations Supp",
+                        "Officer Disposition": "SUSTAINED",
+                        "Action Taken": "COUNSELING",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "4/16/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "5/1/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": "Ct, Rantoul IL 61866"
+                    },
+                    {
+                        "H Phone": "("
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Lack, Aaron V.",
+                        "ID No.": "920",
+                        "Rank": "SERGEANT",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "MULTIPLE OFFICERS/EMPLOY",
+                        "ID No.": "missing",
+                        "Rank": "NOT STATED",
+                        "Division": "NOT ENTERED",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "4/16/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "5/1/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": ", CHICAGO IL 60644-2803"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "MULTIPLE OFFICERS/EMPLOY",
+                        "ID No.": "missing",
+                        "Rank": "NOT STATED",
+                        "Division": "NOT ENTERED",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "ADMINISTRATIVE Database",
+                        "ID No.": "11/10/2020 10:49:22 AM",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "Page 2 of 74"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "4/16/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "5/1/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": ", Champaign IL 61820"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "EXONERATED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "MULTIPLE OFFICERS/EMPLOY",
+                        "ID No.": "missing",
+                        "Rank": "NOT STATED",
+                        "Division": "NOT ENTERED",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "4/16/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "5/1/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": ", Rantoul IL 61866"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "EXONERATED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "MULTIPLE OFFICERS/EMPLOY",
+                        "ID No.": "missing",
+                        "Rank": "NOT STATED",
+                        "Division": "NOT ENTERED",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "4/10/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Internal",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "5/10/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "CPD"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "missing"
+                    },
+                    {
+                        "Address": "NOT STATED ?? UNK"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "S-6 Pursuit Policy",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "Not a complaint"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "MALONEY, J. BRIAN",
+                        "ID No.": "942",
+                        "Rank": "OFFICER",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "Not a complaint",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "4/16/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "5/14/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": ", Champaign IL 61821"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-5A3 OPERATIONS",
+                        "Description": "No Action by Employee",
+                        "Complaint Disposition": "Not a complaint"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Sumption, R. Dustin",
+                        "ID No.": "7108",
+                        "Rank": "RECRUIT OFFIC",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "PENDING",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "ADMINISTRATIVE Database",
+                        "ID No.": "11/10/2020 10:49:22 AM",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "Page 3 of 74"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "10/2/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Internal",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "4/17/2009",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": ", Loves Park IL 61130"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-1A2 CONDUCT GENERALLY",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "Inquiry"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "No Officers Entered",
+                        "ID No.": "missing",
+                        "Rank": "Not Stated",
+                        "Division": "Not Stated",
+                        "Officer Disposition": "Not a complaint",
+                        "Action Taken": "Not Stated",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "6/5/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "7/2/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": ", Champaign IL 61820"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.4 COURTESY",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "SUSTAINED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "EXONERATED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": []
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "5/26/2008",
+                        "Number": "08-07",
+                        "Investigator": "Swan, Scott",
+                        "Date Assigned": "missing",
+                        "Racial": "No",
+                        "Category / Type": "Inquiry",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "Inquiry",
+                        "Completed": "missing",
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "6/2/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "6/11/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": "Champaign IL 61821"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B COURTESY",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "Inquiry"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Olmstead, Kevin A.",
+                        "ID No.": "7901",
+                        "Rank": "RECRUIT OFFIC",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "Inquiry",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "6/5/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "10/2/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": ", Champaign IL 61821"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-5B ARREST, SEARCH AND SEIZURE",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "EXONERATED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "EXONERATED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Bowersock, Jamie",
+                        "ID No.": "705-MED",
+                        "Rank": "OFFICER",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "EXONERATED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "Mitchell, Rodney S.",
+                        "ID No.": "717RES",
+                        "Rank": "OFFICER",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "EXONERATED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "ADMINISTRATIVE Database",
+                        "ID No.": "11/10/2020 10:49:22 AM",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "Page 4 of 74"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "6/11/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "6/26/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": ", Champaign IL 61821"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "NOT SUSTAINED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Mclearin, David M.",
+                        "ID No.": "7110",
+                        "Rank": "RECRUIT OFFIC",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "NOT SUSTAINED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "7/9/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "7/31/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": ", Champaign IL 61821"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "Inquiry"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Prosser, Justin",
+                        "ID No.": "7104",
+                        "Rank": "OFFICER",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "Inquiry",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "7/11/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "10/6/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "FEMAL"
+                    },
+                    {
+                        "Address": ", Champaign IL 61820"
+                    },
+                    {
+                        "H Phone": "("
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-5C2 PERSONS IN CUSTODY",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Briggs, Mark D.",
+                        "ID No.": "785RESI",
+                        "Rank": "Senior OFFICER",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "missing",
+                        "ID No.": "G",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "missing"
+                    },
+                    {
+                        "Name": "Young, Von D.III",
+                        "ID No.": "719",
+                        "Rank": "Senior",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "7/16/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "8/28/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": ", Champaign IL 61820"
+                    },
+                    {
+                        "H Phone": "("
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.2 Courtesy",
+                        "Description": "Discourteous Conduct",
+                        "Complaint Disposition": "UNFOUNDED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Bowersock, Jamie",
+                        "ID No.": "705-MED",
+                        "Rank": "OFFICER",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "ADMINISTRATIVE Database",
+                        "ID No.": "11/10/2020 10:49:22 AM",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "Page 5 of 74"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "7/23/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "8/18/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": ", Champaign IL 61820"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3B.3 Courtesy",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Olmstead, Kevin A.",
+                        "ID No.": "7901",
+                        "Rank": "OFFICER",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "7/29/2008",
+                        "Number": "08-15",
+                        "Investigator": "Swenson, Jon",
+                        "Date Assigned": "missing",
+                        "Racial": "No",
+                        "Category / Type": "Formal",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "SUSTAINED",
+                        "Completed": "missing",
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "8/21/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "9/26/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": ", Urbana IL 61802"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-5A3 OPERATIONS",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "SUSTAINED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5B ARREST, SEARCH AND SEIZURE",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5B ARREST, SEARCH AND SEIZURE",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5B ARREST, SEARCH AND SEIZURE",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "MULTIPLE OFFICERS/EMPLOY",
+                        "ID No.": "missing",
+                        "Rank": "NOT STATED",
+                        "Division": "NOT ENTERED",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "9/2/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "10/9/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": ", Champaign IL 61821"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-5A3 OPERATIONS",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "NOT SUSTAINED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5A3 OPERATIONS",
+                        "Description": "No Action by Employee",
+                        "Complaint Disposition": "EXONERATED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5C2 PERSONS IN CUSTODY",
+                        "Description": "No Action by Employee",
+                        "Complaint Disposition": "EXONERATED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Talbott, Michael A.",
+                        "ID No.": "7105",
+                        "Rank": "OFFICER",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "EXONERATED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "ADMINISTRATIVE Database",
+                        "ID No.": "11/10/2020 10:49:22 AM",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "Page 6 of 74"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "8/18/2008",
+                        "Number": "08-II03",
+                        "Investigator": "Gallo, Joe",
+                        "Date Assigned": "missing",
+                        "Racial": "No",
+                        "Category / Type": "Formal",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "SUSTAINED",
+                        "Completed": "missing",
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "8/18/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Internal",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "8/28/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "NOT STATED"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "missing"
+                    },
+                    {
+                        "Address": "NOT STATED ?? UNK"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-4E Authorized Persons in Vehicle",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "SUSTAINED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": []
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "8/30/2008",
+                        "Number": "08-17",
+                        "Investigator": "Yohnka, Brad",
+                        "Date Assigned": "missing",
+                        "Racial": "No",
+                        "Category / Type": "Formal",
+                        "Location Of Occurrence": "Not Stated",
+                        "Disposition": "SUSTAINED",
+                        "Completed": "missing",
+                        "Recorded On Camera": "No"
+                    },
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "9/2/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Citizen",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "10/29/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": "Champaign IL 61820"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-3C PROVIDING NAME AND BADGE NUMBER",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "SUSTAINED"
+                    },
+                    {
+                        "Type Of Complaint": "R-5D Use of physical force",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Ahsell, Brian",
+                        "ID No.": "714-",
+                        "Rank": "OFFICER",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "SUSTAINED",
+                        "Action Taken": "COUNSELING",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "missing",
+                        "ID No.": "Resig",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Date": "missing",
+                        "Number": "missing",
+                        "Investigator": "missing",
+                        "Date Assigned": "9/3/2008",
+                        "Racial": "missing",
+                        "Category / Type": "Internal",
+                        "Location Of Occurrence": "missing",
+                        "Disposition": "missing",
+                        "Completed": "9/4/2008",
+                        "Recorded On Camera": "N/A"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Complainant": "missing"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "MALE"
+                    },
+                    {
+                        "Address": "Central HS, NOT STATED ?? UNK"
+                    },
+                    {
+                        "H Phone": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Type Of Complaint": "R-1A CONDUCT GENERALLY",
+                        "Description": "Wrong Action by Employee",
+                        "Complaint Disposition": "UNFOUNDED"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Name": "Thomas, Brandon J.",
+                        "ID No.": "904",
+                        "Rank": "Senior",
+                        "Division": "Field Operations",
+                        "Officer Disposition": "UNFOUNDED",
+                        "Action Taken": "NONE",
+                        "Body Cam": "No"
+                    },
+                    {
+                        "Name": "ADMINISTRATIVE Database",
+                        "ID No.": "11/10/2020 10:49:22 AM",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "Page 7 of 74"
                     }
                 ]
             }
