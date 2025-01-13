@@ -487,21 +487,19 @@ def create_folder(folder_path):
     else:
         print(f"Folder '{folder_path}' already exists.")
 
-def create_images_pipeline(raw_folder):
+def create_images_pipeline(raw_folder, number_of_pages):
     #create images per page in a given range for all pdfs in the specified folder 
     paths = print_all_document_paths(raw_folder)
     for path in paths:
         print(path)
         # if('releasable' not in path):
         #     continue
-        text_path = get_text_path(path, '.txt', 'aws')
-        dict_path = get_text_path(path, '.json', 'aws')
-        image_folder_path = text_path.replace('.txt','_image/')
+        text_path = get_text_path(path, '.txt', '')
+        image_folder_path = text_path.replace('.txt','image/')
 
         #print(text_path)
         #print(dict_path)
         print(image_folder_path)
-        number_of_pages = 15
         create_folder(image_folder_path)
         pdf_2_image(path,number_of_pages,image_folder_path)
 
@@ -535,12 +533,11 @@ def phrase_extraction_pipeline_aws(raw_folder):
 
 if __name__ == "__main__":
     root_path = get_root_path()
-    data_folder = root_path + '/data/raw/certification/'
+    data_folder = root_path + '/data/raw/certification'
     page_limit = 6 #number of page for data extraction
-    #write_texts_plumber(data_folder,page_limit)
-    #phrase_extraction_pipeline_aws(data_folder)
     
-    phrase_extraction_pipeline_pdfplumber(data_folder, page_limit)
+    create_images_pipeline(data_folder,6)
+    #phrase_extraction_pipeline_pdfplumber(data_folder, page_limit)
     
 
     
