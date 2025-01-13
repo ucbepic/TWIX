@@ -115,7 +115,7 @@ def phrase_extract_pdfplumber_rules(pdf_path, x_tolerance=3, y_tolerance=3, page
             else:
                 current_phrase = [words[0]['text']]
                 # Initialize bounding box for the current phrase
-                current_bbox = [words[0]['x0'], words[0]['top'], words[0]['x1'], words[0]['bottom']]
+                current_bbox = [words[0]['x0'], words[0]['top'], words[0]['x1'], words[0]['bottom'],page_break]
                 
                 for prev, word in zip(words, words[1:]):
                     is_header_cond = is_header(word['size'], threshold=12)  # Assuming is_header is defined elsewhere
@@ -127,19 +127,12 @@ def phrase_extract_pdfplumber_rules(pdf_path, x_tolerance=3, y_tolerance=3, page
                     ):# if two words are close enough
                         # Words are on the same line and close to each other horizontally
                         current_phrase.append(word['text'])
-                        # you can first extract all the true phrases from the ground truth data we have 
-                        #and then we have a ppol which is a list containing all distinct true phrases
-                        #check logic  
-                        #if (current_phrase not in true_phrases): 
-                        #manual-rule-embeddings 
-                        #case 1: 2 years 306 days - if phrase[i] == '2' and phrase[i+1] == 'years' and phrase[i+2] == '306' 
-                        #
                         # Update bounding box for the current phrase
                         current_bbox = [
                             min(current_bbox[0], word['x0']),
                             min(current_bbox[1], word['top']),
                             max(current_bbox[2], word['x1']),
-                            max(current_bbox[3], word['bottom'])
+                            max(current_bbox[3], word['bottom']), page_break
                         ]
                     else:
                         phrase_text = ' '.join(current_phrase)
@@ -155,7 +148,7 @@ def phrase_extract_pdfplumber_rules(pdf_path, x_tolerance=3, y_tolerance=3, page
                                 phrases[p] = [tuple(current_bbox)]
                         # Reset for the next phrase
                         current_phrase = [word['text']]
-                        current_bbox = [word['x0'], word['top'], word['x1'], word['bottom']]
+                        current_bbox = [word['x0'], word['top'], word['x1'], word['bottom'],page_break]
                 
                 # Append the last phrase and its bounding box
                 # phrases[' '.join(current_phrase)] = current_bbox
@@ -331,7 +324,7 @@ def adjust_phrase_aws(phrase):
 def print_all_document_paths(folder_path):
     paths = []
     # Define the document file extensions you want to include
-    document_extensions = ['.txt', '.pdf', '.doc', '.docx']
+    document_extensions = ['.txt', '.pdf']
 
     # Walk through the directory tree
     for root, dirs, files in os.walk(folder_path):
@@ -356,9 +349,9 @@ def get_root_path():
     #print("Parent path:", parent_path)
     return parent_path
 
-def get_text_path(raw_path, mode, approach = 'plumber'):
+def get_text_path(raw_path, mode, approach):
     text_path = raw_path.replace('raw','extracted')
-    text_path = text_path.replace('.pdf','_' + approach + mode)
+    text_path = text_path.replace('.pdf', '_' + approach + mode)
     return text_path
 
 def write_phrase(path, phrases):
@@ -378,14 +371,14 @@ def phrase_extraction_pipeline_pdfplumber(data_folder, page_limit):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         
-        # if('id_10' not in path):
+        # if('22-274.releasable' not in path):
         #     continue
 
         st = time.time()
     
         print(path)
-        text_path = get_text_path(path, '.txt', 'plumberv1')
-        #dict_path = get_text_path(path, '.json')
+        text_path = get_text_path(path, '.txt', 'plumber')
+        dict_path = get_text_path(path, '.json','plumber')
         phrases, raw_phrases = phrase_extract_pdfplumber_rules(path, page_limit)
         adjusted_phrases = []
         for phrase in raw_phrases:
@@ -397,8 +390,8 @@ def phrase_extraction_pipeline_pdfplumber(data_folder, page_limit):
 
         et = time.time()
         print(et-st)
-        #write_phrase(text_path, adjusted_phrases)
-        #write_dict(dict_path, phrases)
+        write_phrase(text_path, adjusted_phrases)
+        write_dict(dict_path, phrases)
 
 def get_img(file_path):
     return bytearray(open(file_path, 'rb').read())
@@ -542,8 +535,8 @@ def phrase_extraction_pipeline_aws(raw_folder):
 
 if __name__ == "__main__":
     root_path = get_root_path()
-    data_folder = root_path + '/data/raw/benchmark1/'
-    page_limit = 10 #number of page for data extraction
+    data_folder = root_path + '/data/raw/certification/'
+    page_limit = 6 #number of page for data extraction
     #write_texts_plumber(data_folder,page_limit)
     #phrase_extraction_pipeline_aws(data_folder)
     
