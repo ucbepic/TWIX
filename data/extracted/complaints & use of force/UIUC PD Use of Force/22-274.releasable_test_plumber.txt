@@ -61,8 +61,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 No
 Address
@@ -105,11 +104,8 @@ None
 Included On Alert
 Yes
 Narrative
-Officers from the Street Crimes Task Force executed a search warrant and subject fled from scene.
-Officers pursued on foot and Officer Snow located subject in a
-parking lot.
-Officer Snow pointed firearm at the suspect and directed him to get on the ground and suspect complied.
-Suspect was taken into custody without further
+Officers from the Street Crimes Task Force executed a search warrant and subject fled from scene. Officers pursued on foot and Officer Snow located subject in a
+parking lot. Officer Snow pointed firearm at the suspect and directed him to get on the ground and suspect complied. Suspect was taken into custody without further
 incident.
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
@@ -175,8 +171,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 No
 Address
@@ -219,10 +214,8 @@ None
 Included On Alert
 Yes
 Narrative
-Officers responded to 35 E. Green to assist CPD with a report of an armed subject.
-Sgt. Schroeder located the suspect vehicle leaving the parking lot and conducted
-a felony stop.
-Occupants of the vehilce were ordered out at gun point and were secured. Two handguns were located inside the vehicle.
+Officers responded to 35 E. Green to assist CPD with a report of an armed subject. Sgt. Schroeder located the suspect vehicle leaving the parking lot and conducted
+a felony stop. Occupants of the vehilce were ordered out at gun point and were secured. Two handguns were located inside the vehicle.
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
 3/14/2022 8:27:20 AM
@@ -287,8 +280,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 No
 Address
@@ -382,12 +374,9 @@ Included On Alert
 Yes
 Narrative
 UIPD officers responded to assist UPD attempting to locate a suspected armed subject who was involved in a home invasion, fled scene and was involved in a motor
-vehicle accident. Suspect then fled into Busey Woods.
-Officer Crane and Milinkovic started walking through the woods and located the suspect in a pile of brush.
-Officers pointed firearms at suspect, who got up and fled again on foot.
-Officer Perrine and Germany located suspect and pointed their firearms at suspect and
-ordered him to get on the ground.
-Suspect complied and was taken into custody without further incident.
+vehicle accident. Suspect then fled into Busey Woods. Officer Crane and Milinkovic started walking through the woods and located the suspect in a pile of brush.
+Officers pointed firearms at suspect, who got up and fled again on foot. Officer Perrine and Germany located suspect and pointed their firearms at suspect and
+ordered him to get on the ground. Suspect complied and was taken into custody without further incident.
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
 3/14/2022 8:27:20 AM
@@ -451,8 +440,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 Yes
 Address
@@ -525,15 +513,10 @@ None
 Included On Alert
 Yes
 Narrative
-Officers responded to Joe's Brewery to assist CPD with a fight in progress.
-UIPD officers were first to arrive on scene and found a subject actively fighting with
-security officers.
-Officer Osterholt drew his Taser and displayed a warning arc and ordered subject to the ground, but suspect was non-compliant.
-Officer Osterholt
-and Officer Hartman they grabbed suspects arms and attempted to place them behind his back, however suspect continued to resist.
-Suspect finally comlied and
-placed his arms behind his back where he was placed in handcuffs.
-Joe's Brewery staff did not want to press charges and suspect was released.
+Officers responded to Joe's Brewery to assist CPD with a fight in progress. UIPD officers were first to arrive on scene and found a subject actively fighting with
+security officers. Officer Osterholt drew his Taser and displayed a warning arc and ordered subject to the ground, but suspect was non-compliant. Officer Osterholt
+and Officer Hartman they grabbed suspects arms and attempted to place them behind his back, however suspect continued to resist. Suspect finally comlied and
+placed his arms behind his back where he was placed in handcuffs. Joe's Brewery staff did not want to press charges and suspect was released.
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
 3/14/2022 8:27:20 AM
@@ -596,8 +579,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 No
 Address
@@ -628,8 +610,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 No
 Address
@@ -718,12 +699,9 @@ None
 Included On Alert
 Yes
 Narrative
-Sgt. Schroeder stopped a vehicle for a traffic violation, when she realized the vehicle fit the description of a vehicle involved in an earlier shooting in Champaign.
-The
-suspects in that shooting were armed with an AR-15.
-Officers conducted a high-risk traffic stop and deployed handguns and long guns to direct the occupants out of
-the vehilce.
-Occupants were cooperative and were released from scene after it was determined they were not involved in the earlier shooting incident.
+Sgt. Schroeder stopped a vehicle for a traffic violation, when she realized the vehicle fit the description of a vehicle involved in an earlier shooting in Champaign. The
+suspects in that shooting were armed with an AR-15. Officers conducted a high-risk traffic stop and deployed handguns and long guns to direct the occupants out of
+the vehilce. Occupants were cooperative and were released from scene after it was determined they were not involved in the earlier shooting incident.
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
 3/14/2022 8:27:20 AM
@@ -787,8 +765,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 No
 Address
@@ -830,10 +807,8 @@ Included On Alert
 Yes
 Narrative
 Officers resonded to assist UPD with a shooting that had just occurred and the suspect had fled the scene on foot. UIPD K9 tracked one possible suspect into a
-wooded area.
-Officer Leake observed a subject walking through the woods, drew his duty weapon and pointed it at the subject while giving him verbal commands,
-which he complied.
-Juvenile suspect was transferred to custody of UPD officers.
+wooded area. Officer Leake observed a subject walking through the woods, drew his duty weapon and pointed it at the subject while giving him verbal commands,
+which he complied. Juvenile suspect was transferred to custody of UPD officers.
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
 3/14/2022 8:27:20 AM
@@ -897,8 +872,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 No
 Address
@@ -939,11 +913,8 @@ None
 Included On Alert
 Yes
 Narrative
-Street Crimes Task Force officers were involved in an arrest situation of a subject who was reported to be armed with a weapon.
-Officers located subject near 2012
-Vawter Street in Urbana.
-Officer Snow pointed his firearm at subject and ordered him to the ground, in which the subject complied.
-Subject taken into custody without
+Street Crimes Task Force officers were involved in an arrest situation of a subject who was reported to be armed with a weapon. Officers located subject near 2012
+Vawter Street in Urbana. Officer Snow pointed his firearm at subject and ordered him to the ground, in which the subject complied. Subject taken into custody without
 incident.
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
@@ -1009,8 +980,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 No
 Address
@@ -1044,8 +1014,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 No
 Address
@@ -1104,17 +1073,13 @@ None
 Included On Alert
 Yes
 Narrative
-UIPD officers assisted UPD in searching for a vehicle in which the occupants were reported to be waving firearms out of the windows of the vehicle.
-Officer Hartman
+UIPD officers assisted UPD in searching for a vehicle in which the occupants were reported to be waving firearms out of the windows of the vehicle. Officer Hartman
 located the vehicle parked at the Circle K gas station at University and Wright and conducted a high risk traffic stop.
 Officer Hartman pointed her firearm at both
-occupants of the vehicle directing them to stay in the vehicle. One of the occupants fled on foot.
-Officer Germany confronted the subject who fled on foot and pointed
+occupants of the vehicle directing them to stay in the vehicle. One of the occupants fled on foot. Officer Germany confronted the subject who fled on foot and pointed
 his firearm at the subject and directed him to stop.
-He continued to flee on foot and was taken into custody by UPD officers and a firearm was recovered.
-Officer
-Hartman and Germany, along with other officers continued the high risk traffic stop and both pointed their firearms at the driver of the vehicle.
-Driver was taken into
+He continued to flee on foot and was taken into custody by UPD officers and a firearm was recovered. Officer
+Hartman and Germany, along with other officers continued the high risk traffic stop and both pointed their firearms at the driver of the vehicle. Driver was taken into
 custody without further incident and illegal drugs were recovered within the vehicle.
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
@@ -1177,8 +1142,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 Yes
 Address
@@ -1287,25 +1251,14 @@ Yes
 Narrative
 Officer Williams responded to
 to check on the welfare of
-who was reported as "not acting right".
-Williams found the
-suspect exiting the apartment complex and he yelled "I rebuke you in the name of Jesus".
-The suspect approached another vehicle and struck the hood of the vehicle
-and broke the windshield.
-The suspect was now in the middle of the road at University and Sixth in traffic waving his hands.
-The suspect then approached Williams
-squad car and struck him in the face through the open window.
-Williams exited his squad car and deployed his Taser at the suspect, with only one probe making
-contact with the suspect.
-The suspect fell to the ground, but would not comply with commands from officers.
-Williams deployed a second set of Taser probes, which
-made contact with the suspect.
-The suspect would not comply with officers and kicked at the officers as they attempted to handcuff him.
-Williams continued to
-reenergize his Taser (a total of 4 times), until the suspect complied Sgt. Elston and Officer Jones were able to secure him in handcuffs.
-Officer Park and Cole placed
-a hobble restraint on the suspects legs.
-Suspect was transported to OSF Hospital by Pro Ambulance.
+who was reported as "not acting right". Williams found the
+suspect exiting the apartment complex and he yelled "I rebuke you in the name of Jesus". The suspect approached another vehicle and struck the hood of the vehicle
+and broke the windshield. The suspect was now in the middle of the road at University and Sixth in traffic waving his hands. The suspect then approached Williams
+squad car and struck him in the face through the open window. Williams exited his squad car and deployed his Taser at the suspect, with only one probe making
+contact with the suspect. The suspect fell to the ground, but would not comply with commands from officers. Williams deployed a second set of Taser probes, which
+made contact with the suspect. The suspect would not comply with officers and kicked at the officers as they attempted to handcuff him. Williams continued to
+reenergize his Taser (a total of 4 times), until the suspect complied Sgt. Elston and Officer Jones were able to secure him in handcuffs. Officer Park and Cole placed
+a hobble restraint on the suspects legs. Suspect was transported to OSF Hospital by Pro Ambulance.
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
 3/14/2022 8:27:20 AM
@@ -1370,8 +1323,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 No
 Address
@@ -1430,8 +1382,7 @@ None
 Included On Alert
 Yes
 Narrative
-Urbana officer called out a "shots fired" over the radio and then began a vehicle pursuit with the suspect vehicle.
-The suspect vehicle crashed in the 3600 blk of N.
+Urbana officer called out a "shots fired" over the radio and then began a vehicle pursuit with the suspect vehicle. The suspect vehicle crashed in the 3600 blk of N.
 Lincoln and the suspect was laying in a field and not moving.
 Officer Beckmand arrived on scene and blocked traffic on Lincoln Ave. while deploying his patrol rifle
 and providing cover for the officers that were approaching the suspect on foot. Officers Jones deployed a ballistic shield and approached the vehicle and suspect.
@@ -1499,8 +1450,7 @@ Gender
 Male
 Race
 HGT
-/
-WGT
+/ WGT
 Under The Influence
 No
 Address
@@ -1541,10 +1491,8 @@ None
 Included On Alert
 Yes
 Narrative
-Officer assisted Street Crimes Task Force in consent search of residence from a subject who fled from a vehicle in which a firearm was located.
-Officers observed a
-blanket covering something under a bed.
-Officer Scheel pointed firearm at subject, while blanket was removed and subject was taken into custody.
+Officer assisted Street Crimes Task Force in consent search of residence from a subject who fled from a vehicle in which a firearm was located. Officers observed a
+blanket covering something under a bed. Officer Scheel pointed firearm at subject, while blanket was removed and subject was taken into custody.
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
 3/14/2022 8:27:20 AM

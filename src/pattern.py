@@ -70,7 +70,7 @@ def template_learn_input_gen(phrases, predict_labels, extra_phrase_num = 30):
 
 
 def get_bb_path(extracted_file):
-    file = extracted_file.replace('.txt','.json')
+    file = extracted_file.replace('.txt', '.json')
     return file 
 
 
@@ -358,13 +358,15 @@ def create_row_representations(phrases, phrases_bb):
     record_appearance = {}
     for p in phrases:
         record_appearance[p] = 0
+    print(phrases, phrases_bb)
     phrase_boundingbox = get_bblist_per_record(record_appearance, phrases_bb, phrases)
 
+    print(phrase_boundingbox)
     #create row representations 
     #row_mp: row_id -> a list of (phrase, bb) in the current row
-    row_mp = seperate_rows(phrase_boundingbox)
+    row_mp,page_2_row = seperate_rows(phrase_boundingbox)
 
-    return row_mp
+    return row_mp,page_2_row
 
 
 def get_metadata(image_paths):
@@ -372,7 +374,20 @@ def get_metadata(image_paths):
     prompt = 'The given two images have common headers and footers in the top and bottem part of the image. Extract only the common raw headers and footers from the given two images. Exclude all other phrases. Do not include explanations. Seperate headers and footers by |'
     model_name = 'gpt4vision'
     response = model(model_name,prompt,image_paths)
-    print(response)
+    phrases = [phrase.strip() for phrase in response.split('|')]
+    return phrases 
+
+def check_phrase_in_headers_or_footers(headers_footers: str, given_phrase: str):
+
+    # Check if the given phrase is a substring of any phrase in the list
+    for phrase in headers_footers:
+        if given_phrase.lower() in phrase.lower():
+            return 1
+
+    return 0
+
+#def is_row_headers_or_footers(row_mp, row_id):
+    
 
 
 def is_metadata(meta, val):
@@ -408,29 +423,33 @@ def is_metadata(meta, val):
     return 0
 
 def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extraction_path, template_path):
-    print('fields')
+    print('fields...')
     print(predict_labels)
+    print('raw phrases...')
+    print(raw_phrases)
     #get minimal set of phrases to learn template 
     phrases = template_learn_input_gen(raw_phrases, predict_labels)
-    # print('phrases')
-    # print(phrases)
-    row_mp = create_row_representations(phrases, phrases_bb)
-    template = ILP_extract(predict_labels, row_mp, template_path)
+    print('phrases')
+    print(phrases)
+    # row_mp,page_2_row = create_row_representations(phrases, phrases_bb)
+    # template = ILP_extract(predict_labels, row_mp, template_path)
     
-    #seperate records based on template 
-    print("Record seperation starts...")
-    complete_row_mp = create_row_representations(raw_phrases, phrases_bb)
-    records = record_seperation(template, complete_row_mp)
+    # #seperate records based on template 
+    # print("Record seperation starts...")
+    # complete_row_mp,complete_page_2_row = create_row_representations(raw_phrases, phrases_bb)
+    # records = record_seperation(template, complete_row_mp)
 
-    #seperate data blocks within each record based on template 
-    print('Block Seperation starts...')
-    blocks = block_seperation_pipeline(template, records, complete_row_mp)
+    # print(complete_page_2_row)
 
-    #data extraction within each data block based on template 
-    print('Data extraction starts...')
-    extraction_objects = data_extraction(records, blocks, complete_row_mp, template)
+    # #seperate data blocks within each record based on template 
+    # print('Block Seperation starts...')
+    # blocks = block_seperation_pipeline(template, records, complete_row_mp)
 
-    write_json(extraction_objects, extraction_path)
+    # #data extraction within each data block based on template 
+    # print('Data extraction starts...')
+    # extraction_objects = data_extraction(records, blocks, complete_row_mp, template)
+
+    # write_json(extraction_objects, extraction_path)
 
 
 def record_seperation(template, row_mp):
@@ -877,10 +896,19 @@ def seperate_rows(pv):
     p_pre = pv[0][0]
     bb_pre = pv[0][1]
     row_id = 0
-    row_mp = {} #row_id -> a list of (phrase, bb) in the current row
+    row_mp = {} #row_id -> a list of (phrase, bb) in the current row, now the last bit in bb is the page number 
+    page_2_row = {} #page -> a list of row_id
     row_mp[row_id] = []
     row_mp[row_id].append((p_pre, bb_pre))
     for i in range(1, len(pv)):
+        #create page_2_row map
+        page_number = bb_pre[4]
+        if(page_number not in page_2_row):
+            page_2_row[page_number] = [row_id]
+        else:
+            if(row_id not in page_2_row[page_number]):
+                page_2_row[page_number].append(row_id)
+
         p = pv[i][0]
         bb = pv[i][1]
         if(is_same_row(bb_pre,bb) == 0):
@@ -890,7 +918,7 @@ def seperate_rows(pv):
         p_pre = p
         bb_pre = bb
 
-    return row_mp
+    return row_mp,page_2_row
 
 def get_row_probabilities(predict_keys, row_mp, row_align):
     #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record
@@ -1144,7 +1172,7 @@ def write_string(result_path, content):
 
 def kv_extraction(pdf_path, out_path, template_path):
     key_path = pdf_path.replace('data/raw','result').replace('.pdf','_TWIX_key.txt')
-    extracted_path = key.get_extracted_path(pdf_path)
+    extracted_path = key.get_extracted_path(pdf_path, 'plumber')
     
     if(not os.path.isfile(extracted_path)):
         return 
@@ -1156,6 +1184,7 @@ def kv_extraction(pdf_path, out_path, template_path):
     phrases = read_file(extracted_path)#list of phrases
     phrases_bb = read_json(bb_path)#phrases with bounding boxes
 
+    #print(phrases_bb)
     print('Template-based data extraction starts...')
 
     mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, template_path)

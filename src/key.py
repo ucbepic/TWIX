@@ -53,7 +53,8 @@ def get_extracted_path(path, method = 'plumber'):
     if('benchmark1' in path):
         path = path.replace('.pdf', '_' + method +  '.txt')
     else:
-        path = path.replace('.pdf', '.txt')
+        path = path.replace('.pdf', '_' + method +  '.txt')
+        #path = path.replace('.pdf', '.txt')
     return path
 
 def read_file(file):
