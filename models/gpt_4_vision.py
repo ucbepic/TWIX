@@ -15,10 +15,11 @@ def encode_image(image_path):
     with open(image_path, 'rb') as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
 
-def get_openai_output(image_path, prompt):
-    image_url = f'data:image/jpeg;base64,{encode_image(image_path)}'
+def get_openai_output(image_paths, prompt):
+    image_url_1 = f'data:image/jpeg;base64,{encode_image(image_paths[0])}'
+    image_url_2 = f'data:image/jpeg;base64,{encode_image(image_paths[1])}'
     response = client.chat.completions.create(
-        model='gpt-4-vision-preview',
+        model='gpt-4o-mini',
         messages=[
             {
                 'role': 'user',
@@ -29,18 +30,22 @@ def get_openai_output(image_path, prompt):
                     },
                     {
                         'type': 'image_url',
-                        'image_url': {'url': image_url}
+                        'image_url': {'url': image_url_1}
+                    },
+                    {
+                        'type': 'image_url',
+                        'image_url': {'url': image_url_2}
                     }
                 ],
             }
         ]
     )
     output = response.choices[0].message.content
-    #output = output.replace("```\n", "").replace("\n```", "")
 
     return output
 
-def gpt_4o_vision(image_path, prompt):
-    message_content = prompt[0] + prompt[1]
-    return get_openai_output(image_path, message_content)
+
+def gpt_4o_vision(image_paths, prompt):
+    message_content = prompt
+    return get_openai_output(image_paths, message_content)
 

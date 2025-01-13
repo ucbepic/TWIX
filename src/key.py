@@ -332,6 +332,15 @@ def get_template_path(raw_path):
     path = path.replace('.pdf', '_template.json')
     return path
 
+def get_image_path(raw_path):
+    paths = []
+    path = raw_path.replace('raw','extracted')
+    path0 = path.replace('.pdf', '_image/0.jpg')
+    paths.append(path0)
+    path1 = path.replace('.pdf', '_image/1.jpg')
+    paths.append(path1)
+    return paths
+
 def get_baseline_result_path(raw_path,baseline_name):
     path = raw_path.replace('data/raw','result')
     path = path.replace('.pdf', '_' + baseline_name + '.txt')

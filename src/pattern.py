@@ -366,6 +366,47 @@ def create_row_representations(phrases, phrases_bb):
 
     return row_mp
 
+
+def get_metadata(image_paths):
+    #prompt = 'The given two images have common headers and footers in the top and bottem part of the image. Return only the raw headers and footers. Do not return other phrases. Do not add any explanations. '
+    prompt = 'The given two images have common headers and footers in the top and bottem part of the image. Extract only the common raw headers and footers from the given two images. Exclude all other phrases. Do not include explanations. Seperate headers and footers by |'
+    model_name = 'gpt4vision'
+    response = model(model_name,prompt,image_paths)
+    print(response)
+
+
+def is_metadata(meta, val):
+    if(val not in meta):
+        return 0
+    # Initialize the list to store the indices
+    indices = []
+    start = 0
+
+    # Loop to find all occurrences of the substring
+    while True:
+        index = meta.find(val, start)
+        if index == -1:
+            break
+        indices.append(index)
+        start = index + 1
+
+    for i in indices:
+        l = i-1
+        r = i+len(val)
+        f1 = 0
+        f2 = 0
+        if(l>=0 and (meta[l] == ' ' or meta[l] == '\n' or meta[l] == ':')):
+            f1 = 1
+        if(r<len(meta) and (meta[r] == ' ' or meta[r] == '\n' or meta[r] == ':')):
+            f2 = 1
+        if(l<0):
+            f1 = 1
+        if(r == len(meta)):
+            f2 = 1
+        if(f1 == 1 and f2 == 1):
+            return 1
+    return 0
+
 def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extraction_path, template_path):
     print('fields')
     print(predict_labels)
