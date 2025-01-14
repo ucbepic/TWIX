@@ -11,7 +11,8 @@ Report
 MuckRock ORR Report - Employment
 Agency
 Date
-F/PAction
+F/P
+Action
 Status
 Assignment
 Pos/Rank
@@ -230,7 +231,8 @@ Report
 MuckRock ORR Report - Employment
 Agency
 Date
-F/PAction
+F/P
+Action
 Status
 Assignment
 Pos/Rank
@@ -452,7 +454,8 @@ Report
 MuckRock ORR Report - Employment
 Agency
 Date
-F/PAction
+F/P
+Action
 Status
 Assignment
 Pos/Rank
@@ -672,7 +675,8 @@ Report
 MuckRock ORR Report - Employment
 Agency
 Date
-F/PAction
+F/P
+Action
 Status
 Assignment
 Pos/Rank
@@ -899,7 +903,8 @@ Report
 MuckRock ORR Report - Employment
 Agency
 Date
-F/PAction
+F/P
+Action
 Status
 Assignment
 Pos/Rank
@@ -1133,7 +1138,8 @@ Report
 MuckRock ORR Report - Employment
 Agency
 Date
-F/PAction
+F/P
+Action
 Status
 Assignment
 Pos/Rank
@@ -1374,7 +1380,8 @@ Report
 MuckRock ORR Report - Employment
 Agency
 Date
-F/PAction
+F/P
+Action
 Status
 Assignment
 Pos/Rank
@@ -1628,7 +1635,8 @@ Report
 MuckRock ORR Report - Employment
 Agency
 Date
-F/PAction
+F/P
+Action
 Status
 Assignment
 Pos/Rank
@@ -1834,7 +1842,8 @@ Report
 MuckRock ORR Report - Employment
 Agency
 Date
-F/PAction
+F/P
+Action
 Status
 Assignment
 Pos/Rank
@@ -2075,7 +2084,8 @@ Report
 MuckRock ORR Report - Employment
 Agency
 Date
-F/PAction
+F/P
+Action
 Status
 Assignment
 Pos/Rank
@@ -2307,7 +2317,8 @@ Report
 MuckRock ORR Report - Employment
 Agency
 Date
-F/PAction
+F/P
+Action
 Status
 Assignment
 Pos/Rank

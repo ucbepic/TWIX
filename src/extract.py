@@ -303,6 +303,8 @@ def adjust_phrase_rules(phrase):
             return ['Date Assigned', 'Racial', 'Category / Type']
         if('Disposition Completed Recorded On Camera' in phrase):
             return ['Disposition', 'Completed', 'Recorded On Camera']
+        if('F/PAction' in phrase):
+            return ['F/P','Action']
         return [phrase]
     elif(phrase.count(':') == 2):
         #special case
@@ -371,8 +373,8 @@ def phrase_extraction_pipeline_pdfplumber(data_folder, page_limit):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         
-        # if('Investigations_Redacted' not in path):
-        #     continue
+        if('Active_Employment' not in path):
+            continue
 
         st = time.time()
     

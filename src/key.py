@@ -320,7 +320,7 @@ def get_keys(cluters, key_clusters):
 
 def get_result_path(raw_path, method = 'TWIX'):
     path = raw_path.replace('data/raw','result')
-    path = path.replace('.pdf', '_' + method + '_key.txt')
+    path = path.replace('.pdf', '_' + method + '_test_key.txt')
     return path
 
 def get_key_val_path(raw_path, approach):
