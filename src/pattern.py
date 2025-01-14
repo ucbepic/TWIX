@@ -70,7 +70,7 @@ def template_learn_input_gen(phrases, predict_labels, extra_phrase_num = 30):
 
 
 def get_bb_path(extracted_file):
-    file = extracted_file.replace('.txt', '.json')
+    file = extracted_file.replace('.txt','.json')
     return file 
 
 
@@ -358,10 +358,10 @@ def create_row_representations(phrases, phrases_bb):
     record_appearance = {}
     for p in phrases:
         record_appearance[p] = 0
-    print(phrases, phrases_bb)
+    #print(phrases_bb)
     phrase_boundingbox = get_bblist_per_record(record_appearance, phrases_bb, phrases)
 
-    print(phrase_boundingbox)
+    #print(phrase_boundingbox)
     #create row representations 
     #row_mp: row_id -> a list of (phrase, bb) in the current row
     row_mp,page_2_row = seperate_rows(phrase_boundingbox)
@@ -425,13 +425,14 @@ def is_metadata(meta, val):
 def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extraction_path, template_path):
     print('fields...')
     print(predict_labels)
-    print('raw phrases...')
-    print(raw_phrases)
+    # print('raw phrases...')
+    # print(raw_phrases)
     #get minimal set of phrases to learn template 
     phrases = template_learn_input_gen(raw_phrases, predict_labels)
-    print('phrases')
-    print(phrases)
-    # row_mp,page_2_row = create_row_representations(phrases, phrases_bb)
+    # print('phrases')
+    # print(phrases)
+    row_mp,page_2_row = create_row_representations(phrases, phrases_bb)
+    print(page_2_row)
     # template = ILP_extract(predict_labels, row_mp, template_path)
     
     # #seperate records based on template 
@@ -1180,6 +1181,7 @@ def kv_extraction(pdf_path, out_path, template_path):
         return 
     bb_path = get_bb_path(extracted_path)
     
+    print(bb_path)
     keywords = read_file(key_path)#predicted keywords
     phrases = read_file(extracted_path)#list of phrases
     phrases_bb = read_json(bb_path)#phrases with bounding boxes
