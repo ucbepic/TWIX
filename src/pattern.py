@@ -432,15 +432,15 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extrac
     # print('phrases')
     # print(phrases)
     row_mp,page_2_row = create_row_representations(phrases, phrases_bb)
-    print(page_2_row)
-    # template = ILP_extract(predict_labels, row_mp, template_path)
+    #print(page_2_row)
+    template = ILP_extract(predict_labels, row_mp, template_path)
     
-    # #seperate records based on template 
-    # print("Record seperation starts...")
-    # complete_row_mp,complete_page_2_row = create_row_representations(raw_phrases, phrases_bb)
-    # records = record_seperation(template, complete_row_mp)
+    #seperate records based on template 
+    print("Record seperation starts...")
+    complete_row_mp,complete_page_2_row = create_row_representations(raw_phrases, phrases_bb)
+    records = record_seperation(template, complete_row_mp)
 
-    # print(complete_page_2_row)
+    print(complete_page_2_row)
 
     # #seperate data blocks within each record based on template 
     # print('Block Seperation starts...')
@@ -525,14 +525,17 @@ def ILP_extract(predict_keys, row_mp, template_path):
     for id1 in range(len(row_mp)):
         for id2 in range(id1+1, len(row_mp)):
             c = C_alignment(row_mp, id1, id2)
+            if(id1==2 and id2==4):
+                print(c)
             row_align[(id1,id2)] = c
             row_align[(id2,id1)] = c
 
+    #print(row_align)
     #row_mp: row_id -> a list of (phrase, bb) in the current row
     row_labels = get_row_probabilities(predict_keys, row_mp, row_align)
     #LP formulation to learn row label assignment
-    #print('initial row labels and probs:')
-    #print_rows(row_mp, row_labels)
+    print('initial row labels and probs:')
+    print_rows(row_mp, row_labels)
     
     row_pred_labels = ILP_formulation(row_mp, row_labels, row_align)
 

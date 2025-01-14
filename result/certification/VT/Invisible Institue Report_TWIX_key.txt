@@ -6,13 +6,11 @@ Council
 Page
 Employee
 History
-Service
-Years
-Days
-Active
+Employee training
 Pos/Rank
 Level
 Class
+Date
 Action
 Assignment
 Shift

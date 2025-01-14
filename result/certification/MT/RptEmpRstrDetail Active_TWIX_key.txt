@@ -14,5 +14,4 @@ Employee Type
 Instructor
 Supervisor
 Employee
-M
 
