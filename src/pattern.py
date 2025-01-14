@@ -457,7 +457,7 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extrac
 
     #seperate data blocks within each record based on template 
     print('Block Seperation starts...')
-    blocks = block_seperation_pipeline(template, records, complete_row_mp)
+    blocks = block_seperation_pipeline(template, records, complete_row_mp, metadata)
 
     #data extraction within each data block based on template 
     print('Data extraction starts...')
@@ -747,7 +747,7 @@ def block_seperation(rls, row_align):
     return blk, blk_type
 
 
-def row_label_gen_template(record, row_mp, template):
+def row_label_gen_template(record, row_mp, template, metadata):
     rls = []#list of row labels per row
     row_node_mp = {}#row_id -> node_id generates this row: only store for row with label 'K', the row_id here should be relative row_id, starting from zero 
     base_row_id = record[0]  
@@ -755,18 +755,21 @@ def row_label_gen_template(record, row_mp, template):
         row_phrases = []
         for item in row_mp[row_id]:
             row_phrases.append(item[0])
-        label = ''
-        for i in range(len(template)):
-            node = template[i]
-            if(visit_node(node, row_phrases) == 1):
-                if(node['type'] == 'table'):
-                    label = 'K'
-                    row_node_mp[row_id-base_row_id] = i
-                else:
-                    label = 'KV'
-                break
-        if(label == ''):
-            label = 'V'
+        if(is_row_headers_or_footers(row_phrases, metadata) == 1): 
+            label = 'M'
+        else:
+            label = ''
+            for i in range(len(template)):
+                node = template[i]
+                if(visit_node(node, row_phrases) == 1):
+                    if(node['type'] == 'table'):
+                        label = 'K'
+                        row_node_mp[row_id-base_row_id] = i
+                    else:
+                        label = 'KV'
+                    break
+            if(label == ''):
+                label = 'V'
         rls.append(label)
     return rls, row_node_mp
             
@@ -782,21 +785,21 @@ def row_align_gen_template(row_mp, record):
     return row_align
         
 
-def block_seperation_pipeline(template, records, row_mp):
+def block_seperation_pipeline(template, records, row_mp, metadata):
     blocks = {}#record id -> (blk, blk_type) 
     for i in range(len(records)):
         record = records[i]
-        rls, row_node_mp = row_label_gen_template(record, row_mp, template)
-        # print('row labels...')
-        # print(i,rls)
-        # print(record)
-        # print(row_mp[record[0]])
+        rls, row_node_mp = row_label_gen_template(record, row_mp, template, metadata)
+        print('row labels...')
+        print(i,rls)
+        print(record)
+        print(row_mp[record[0]])
         row_align = row_align_gen_template(row_mp, record)
         # print('row align...')
         # print(row_align)
         blk, blk_type = block_seperation_based_on_template(rls, row_align, row_node_mp, template, record)
-        # print(blk)
-        # print(blk_type)
+        print(blk)
+        print(blk_type)
         blocks[i] = (blk, blk_type)
         # if(i >= 1):
         #     break
@@ -1118,8 +1121,8 @@ def data_extraction_one_record(rid,rid_delta,blk,blk_type,row_mp,predict_labels)
     record = {}
     record['id'] = rid
 
-    print('blk and blk type...')
-    print(blk, blk_type)
+    # print('blk and blk type...')
+    # print(blk, blk_type)
 
     for bid, lst in blk.items():
         # lst is a list of relative row ids in current data block 
@@ -1129,6 +1132,7 @@ def data_extraction_one_record(rid,rid_delta,blk,blk_type,row_mp,predict_labels)
             row_list.append(e + rid_delta)
         
         print(bid, blk_type[bid], row_list)
+
         object = {}
         if(blk_type[bid] == 'table'):
             object['type'] = 'table'
