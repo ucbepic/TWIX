@@ -25,13 +25,23 @@ def scan_folder(path, filter_file_type = '.json'):
             file_names.append(file_name)
     return file_names
 
+
+def read_string(file):
+    data = ''
+    with open(file, 'r') as file:
+        # Iterate over each line in the file
+        for line in file:
+            # Print the line (you can replace this with other processing logic)
+            data += (line.strip()) 
+    return data
+
 def read_file(file):
     data = []
     with open(file, 'r') as file:
         # Iterate over each line in the file
         for line in file:
             # Print the line (you can replace this with other processing logic)
-            data.append(line.strip())
+            data.append(line.strip()) 
     return data
 
 def read_json(path):
@@ -364,9 +374,9 @@ def create_row_representations(phrases, phrases_bb):
     #print(phrase_boundingbox)
     #create row representations 
     #row_mp: row_id -> a list of (phrase, bb) in the current row
-    row_mp,page_2_row = seperate_rows(phrase_boundingbox)
+    row_mp = seperate_rows(phrase_boundingbox)
 
-    return row_mp,page_2_row
+    return row_mp
 
 
 def get_metadata(image_paths):
@@ -374,8 +384,8 @@ def get_metadata(image_paths):
     prompt = 'The given two images have common headers and footers in the top and bottem part of the image. Extract only the common raw headers and footers from the given two images. Exclude all other phrases. Do not include explanations. Seperate headers and footers by |'
     model_name = 'gpt4vision'
     response = model(model_name,prompt,image_paths)
-    phrases = [phrase.strip() for phrase in response.split('|')]
-    return phrases 
+    #phrases = [phrase.strip() for phrase in response.split('|')]
+    return response 
 
 def check_phrase_in_headers_or_footers(headers_footers: str, given_phrase: str):
 
@@ -386,8 +396,12 @@ def check_phrase_in_headers_or_footers(headers_footers: str, given_phrase: str):
 
     return 0
 
-#def is_row_headers_or_footers(row_mp, row_id):
-    
+def is_row_headers_or_footers(row, metadata):
+    #this can be improved by row id in a page: headers and footers are close to boundary of a page: to do later   
+    for p in row:
+        if(check_phrase_in_headers_or_footers(metadata, p) == 1 and len(p) > 10):
+            return 1
+    return 0
 
 
 def is_metadata(meta, val):
@@ -422,7 +436,7 @@ def is_metadata(meta, val):
             return 1
     return 0
 
-def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extraction_path, template_path):
+def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extraction_path, template_path, metadata):
     print('fields...')
     print(predict_labels)
     # print('raw phrases...')
@@ -431,26 +445,25 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extrac
     phrases = template_learn_input_gen(raw_phrases, predict_labels)
     # print('phrases')
     # print(phrases)
-    row_mp,page_2_row = create_row_representations(phrases, phrases_bb)
+    row_mp = create_row_representations(phrases, phrases_bb)
     #print(page_2_row)
-    template = ILP_extract(predict_labels, row_mp, template_path)
+    template = ILP_extract(predict_labels, row_mp, template_path, metadata)
     
     #seperate records based on template 
     print("Record seperation starts...")
-    complete_row_mp,complete_page_2_row = create_row_representations(raw_phrases, phrases_bb)
+    complete_row_mp = create_row_representations(raw_phrases, phrases_bb)
     records = record_seperation(template, complete_row_mp)
 
-    print(complete_page_2_row)
 
-    # #seperate data blocks within each record based on template 
-    # print('Block Seperation starts...')
-    # blocks = block_seperation_pipeline(template, records, complete_row_mp)
+    #seperate data blocks within each record based on template 
+    print('Block Seperation starts...')
+    blocks = block_seperation_pipeline(template, records, complete_row_mp)
 
-    # #data extraction within each data block based on template 
-    # print('Data extraction starts...')
-    # extraction_objects = data_extraction(records, blocks, complete_row_mp, template)
+    #data extraction within each data block based on template 
+    print('Data extraction starts...')
+    extraction_objects = data_extraction(records, blocks, complete_row_mp, template)
 
-    # write_json(extraction_objects, extraction_path)
+    write_json(extraction_objects, extraction_path)
 
 
 def record_seperation(template, row_mp):
@@ -519,20 +532,19 @@ def visit_node(node, row):
                 return 1
         return 0 
 
-def ILP_extract(predict_keys, row_mp, template_path):
+def ILP_extract(predict_keys, row_mp, template_path, metadata):
     #pre-compute all C-alignments in a batch 
     row_align = {}
     for id1 in range(len(row_mp)):
         for id2 in range(id1+1, len(row_mp)):
             c = C_alignment(row_mp, id1, id2)
-            if(id1==2 and id2==4):
-                print(c)
+            
             row_align[(id1,id2)] = c
             row_align[(id2,id1)] = c
 
     #print(row_align)
     #row_mp: row_id -> a list of (phrase, bb) in the current row
-    row_labels = get_row_probabilities(predict_keys, row_mp, row_align)
+    row_labels = get_row_probabilities(predict_keys, row_mp, row_align, metadata)
     #LP formulation to learn row label assignment
     print('initial row labels and probs:')
     print_rows(row_mp, row_labels)
@@ -775,16 +787,16 @@ def block_seperation_pipeline(template, records, row_mp):
     for i in range(len(records)):
         record = records[i]
         rls, row_node_mp = row_label_gen_template(record, row_mp, template)
-        print('row labels...')
-        print(i,rls)
-        print(record)
-        print(row_mp[record[0]])
+        # print('row labels...')
+        # print(i,rls)
+        # print(record)
+        # print(row_mp[record[0]])
         row_align = row_align_gen_template(row_mp, record)
-        print('row align...')
-        print(row_align)
+        # print('row align...')
+        # print(row_align)
         blk, blk_type = block_seperation_based_on_template(rls, row_align, row_node_mp, template, record)
-        print(blk)
-        print(blk_type)
+        # print(blk)
+        # print(blk_type)
         blocks[i] = (blk, blk_type)
         # if(i >= 1):
         #     break
@@ -901,17 +913,17 @@ def seperate_rows(pv):
     bb_pre = pv[0][1]
     row_id = 0
     row_mp = {} #row_id -> a list of (phrase, bb) in the current row, now the last bit in bb is the page number 
-    page_2_row = {} #page -> a list of row_id
+    #page_2_row = {} #page -> a list of row_id
     row_mp[row_id] = []
     row_mp[row_id].append((p_pre, bb_pre))
     for i in range(1, len(pv)):
         #create page_2_row map
-        page_number = bb_pre[4]
-        if(page_number not in page_2_row):
-            page_2_row[page_number] = [row_id]
-        else:
-            if(row_id not in page_2_row[page_number]):
-                page_2_row[page_number].append(row_id)
+        #page_number = bb_pre[4]
+        # if(page_number not in page_2_row):
+        #     page_2_row[page_number] = [row_id]
+        # else:
+        #     if(row_id not in page_2_row[page_number]):
+        #         page_2_row[page_number].append(row_id)
 
         p = pv[i][0]
         bb = pv[i][1]
@@ -922,15 +934,15 @@ def seperate_rows(pv):
         p_pre = p
         bb_pre = bb
 
-    return row_mp,page_2_row
+    return row_mp
 
-def get_row_probabilities(predict_keys, row_mp, row_align):
+def get_row_probabilities(predict_keys, row_mp, row_align, metadata):
     #input: a list of tuple. Each tuple:  (phrase, bounding box) for current record
 
     #for each row, compute the probability per label
     row_labels = {} #row_id -> label, label is also a dict: label instance -> probability 
     for row_id, row in row_mp.items():
-        row_labels[row_id] = row_label_prediction(row, predict_keys)
+        row_labels[row_id] = row_label_prediction(row, predict_keys, metadata)
 
     labels = row_label_LLM_refine(row_labels, row_align, row_mp)
     #print_rows(row_mp, labels)
@@ -975,6 +987,10 @@ def row_label_LLM_refine(row_labels, row_align, row_mp):
     #get initial labels 
     row_tag = {}
     for row_id, label in row_labels.items():
+
+        if(label['M'] == 1):
+            row_tag[row_id] = 'M'
+            continue
         
         row_tag[row_id] = 'uncertain'
         #print(label['K'],label['V'],label['KV'])
@@ -996,6 +1012,8 @@ def row_label_LLM_refine(row_labels, row_align, row_mp):
     #adjust probabilities for uncertain rows
     delta = 0.001
     for row_id, label in row_labels.items():
+        if(row_id not in row_tag):
+            continue
         if(row_tag[row_id] != 'uncertain'):
             labels[row_id] = row_labels[row_id]
             continue
@@ -1041,7 +1059,21 @@ def check_validity_per_row(label, row_id, row_align, row_tag, row_mp):
         return 0
 
 
-def row_label_prediction(row, predict_keys):
+def row_label_prediction(row, predict_keys, metadata):
+
+    #check if current row is a header or footer:
+    row_phrases = []
+    label = {}
+    delta = 0.001
+    for item in row:
+        row_phrases.append(item[0])
+    if(is_row_headers_or_footers(row_phrases, metadata) == 1):
+        label['K'] = delta
+        label['V'] = delta
+        label['KV'] = delta
+        label['M'] = 1
+        return label 
+
     kvs = 0
     kks = 0 
     vvs = 0
@@ -1059,8 +1091,7 @@ def row_label_prediction(row, predict_keys):
 
     total = kvs + kks + vvs
     #print(kvs, kks, vvs)
-    label = {}
-    delta = 0.001
+    
     if(total == 0):
         label['K'] = delta
         label['V'] = delta
@@ -1174,7 +1205,19 @@ def write_string(result_path, content):
     with open(result_path, 'w') as file:
         file.write(content)
 
-def kv_extraction(pdf_path, out_path, template_path):
+def kv_extraction(pdf_path, out_path, template_path, image_paths):
+    metadata_path = key.get_metadata_path(pdf_path)
+    metadata= []
+    #print(metadata_path)
+    if(not os.path.isfile(metadata_path)):
+        out = get_metadata(image_paths)
+        metadata = [phrase.strip() for phrase in out.split('|')]
+        write_string(metadata_path, out)
+    else:
+        meta_string = read_string(metadata_path)
+        metadata = [phrase.strip() for phrase in meta_string.split('|')]
+
+    print(metadata)
     key_path = pdf_path.replace('data/raw','result').replace('.pdf','_TWIX_key.txt')
     extracted_path = key.get_extracted_path(pdf_path, 'plumber')
     
@@ -1192,5 +1235,5 @@ def kv_extraction(pdf_path, out_path, template_path):
     #print(phrases_bb)
     print('Template-based data extraction starts...')
 
-    mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, template_path)
+    mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, template_path, metadata)
 

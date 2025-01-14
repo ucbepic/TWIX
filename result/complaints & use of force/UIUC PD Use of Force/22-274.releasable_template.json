@@ -1,0 +1,120 @@
+{
+    "node0": {
+        "type": "kv",
+        "fields": [
+            "University of Illinois Police Department",
+            "Case Number",
+            "Date",
+            "Time",
+            "Assist",
+            "Agency",
+            "Information Taken From",
+            "Crime/ Incident",
+            "Status",
+            "Incident Reviewed By",
+            "Date Reviewed",
+            "Drugs/Alcohol",
+            "Location",
+            "City",
+            "K-9",
+            "Crisis Intervention Related",
+            "Type Premises",
+            "District",
+            "Recorded On Camera",
+            "Camera",
+            "Type Situation",
+            "Reason Force Used",
+            "Officer Injured",
+            "Danger Factors",
+            "Final Disposition",
+            "Verbal De-Escalation Attempted",
+            "Notes",
+            "Subject #",
+            "DOB",
+            "Gender",
+            "Race",
+            "HGT",
+            "WGT",
+            "Under The Influence",
+            "Address",
+            "Level Of Resistance",
+            "Subject Armed With",
+            "Force Used",
+            "Force Location",
+            "Arrested",
+            "Arrested For",
+            "Arrest ID",
+            "Injured",
+            "Type Injuries"
+        ],
+        "child": -1,
+        "bid": 0
+    },
+    "node1": {
+        "type": "table",
+        "fields": [
+            "No Notes"
+        ],
+        "child": 4,
+        "bid": 1
+    },
+    "node2": {
+        "type": "kv",
+        "fields": [
+            "Officer",
+            "Action Taken",
+            "Firearm - Pointed At Subject",
+            "Action Taken Useful",
+            "Camera",
+            "CIT",
+            "Type Injuries",
+            "Disciplinary Action",
+            "Included On Alert"
+        ],
+        "child": -1,
+        "bid": 2
+    },
+    "node3": {
+        "type": "kv",
+        "fields": [],
+        "child": -1,
+        "bid": 3
+    },
+    "node4": {
+        "type": "kv",
+        "fields": [
+            "Arrested",
+            "Arrested For",
+            "Arrest ID",
+            "Injured",
+            "Type Injuries",
+            "Officer",
+            "Action Taken",
+            "Action Taken Useful",
+            "Camera",
+            "CIT",
+            "Disciplinary Action",
+            "Included On Alert"
+        ],
+        "child": -1,
+        "bid": 4
+    },
+    "node5": {
+        "type": "kv",
+        "fields": [
+            "University of Illinois Police Department",
+            "Case Number",
+            "Date",
+            "Time",
+            "Assist",
+            "Agency",
+            "Information Taken From",
+            "Crime/ Incident",
+            "Status",
+            "Incident Reviewed By",
+            "Date Reviewed"
+        ],
+        "child": -1,
+        "bid": 5
+    }
+}

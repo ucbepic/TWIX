@@ -47,14 +47,18 @@ def read_dict(file):
         data = json.load(file)
     return data 
 
+def get_metadata_path(path):
+    path = path.replace('data/raw','result')
+    path = path.replace('.pdf', '_metadata.txt') 
+    return path
 
 def get_extracted_path(path, method = 'plumber'):
     path = path.replace('raw','extracted')
     if('benchmark1' in path):
         path = path.replace('.pdf', '_' + method +  '.txt')
     else:
-        path = path.replace('.pdf', '_' + method +  '.txt')
-        #path = path.replace('.pdf', '.txt')
+        #path = path.replace('.pdf', '_' + method +  '.txt')
+        path = path.replace('.pdf', '.txt')
     return path
 
 def read_file(file):

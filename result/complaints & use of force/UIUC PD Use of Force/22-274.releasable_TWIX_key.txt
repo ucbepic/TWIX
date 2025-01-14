@@ -40,6 +40,7 @@ Arrested For
 Arrest ID
 Injured
 Medical Aid
+Officer
 Action Taken
 Action Taken Useful
 CIT
@@ -51,4 +52,3 @@ Notes
 Not Stated
 None
 Type Injuries
-Officer

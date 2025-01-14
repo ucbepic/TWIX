@@ -7,10 +7,13 @@ Page
 Employee
 History
 Employee training
+Service
+Years
+Days
+Active
 Pos/Rank
 Level
 Class
-Date
 Action
 Assignment
 Shift
