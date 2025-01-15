@@ -12,6 +12,25 @@ from gurobipy import Model, GRB
 model_name = 'gpt4o'
 vision_model_name = 'gpt4vision'
 
+metadata_rows = []
+
+def add_metadata_row(row):
+    metadata_rows.append(row)
+
+def check_metadadta_row(row):
+    for meta_row in metadata_rows:
+        if(len(row) == len(meta_row)):
+            match = 1
+            for i in range(len(row)):
+                pi = row[i]
+                pj = meta_row[i]
+                if(pi.lower() != pj.lower()):
+                    match = 0
+                    break
+            if(match == 1):
+                return 1
+    return 0
+
 
 def scan_folder(path, filter_file_type = '.json'):
     file_names = []
@@ -396,23 +415,20 @@ def check_phrase_in_headers_or_footers(headers_footers: str, given_phrase: str):
 
     return 0
 
-# def is_row_headers_or_footers(row, metadata):
-#     #this can be improved by row id in a page: headers and footers are close to boundary of a page: to do later   
-#     for p in row:
-#         if(check_phrase_in_headers_or_footers(metadata, p) == 1 and len(p) >= 10):
-#             return 1
-#     return 0
 
 def is_row_headers_or_footers(row, metadata):
-    #this can be improved by row id in a page: headers and footers are close to boundary of a page: to do later   
+    #this can be improved by row id in a page: headers and footers are close to boundary of a page: to do later 
+    contained = 0
     for p in row:
-        if(check_phrase_in_headers_or_footers(metadata, p) == 1 and len(p) >= 10):
-            return is_row_headers_or_footers_LLMs(row, metadata)
+        contained += check_phrase_in_headers_or_footers(metadata, p)
+    
+    if(contained/len(row) >= 0.7):
+        return is_row_headers_or_footers_LLMs(row, metadata)
     return 0
 
 def is_row_headers_or_footers_LLMs(row, metadata):
 
-    print('call LLMs for header detection...')
+    #print('call LLMs for header detection...')
 
     instruction = 'Given the headers: ' + ','.join(metadata) + '. Decide whether the following row is a header:' + ','.join(row) + '. Return only yes or no. Do not add explanations. Note that a header row does not need to be exactly a substring of the given headers, and it is allowed to have extra phrases. It needs to be semantically a header. '  
     prompt = (instruction,'')
@@ -480,14 +496,16 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extrac
 
     template = ILP_extract(predict_labels, row_mp, template_path, metadata)
     
+    print('Metadata rows...')
+    print(metadata_rows)
     #seperate records based on template 
     print("Record seperation starts...")
     complete_row_mp = create_row_representations(raw_phrases, phrases_bb)
     records = record_seperation(template, complete_row_mp)
 
-    print('Records...')
-    for record in records:
-        print(record)
+    # print('Records...')
+    # for record in records:
+    #     print(record)
 
     #seperate data blocks within each record based on template 
     print('Block Seperation starts...')
@@ -573,12 +591,16 @@ def ILP_extract(predict_keys, row_mp, template_path, metadata):
     for id1 in range(len(row_mp)):
         for id2 in range(id1+1, len(row_mp)):
             #print(row_labels[id1])
+            if(id1 == 3):
+                c=1
             if(row_labels[id1]['K'] >= 1):#only spend resources to align with key rows to speed up execution 
                 c = C_alignment(row_mp, id1, id2)
             else:
                 c = C_alignment_no_LLM(row_mp, id1, id2)
             if(row_labels[id1]['M'] >= 1):
                 #print(id1)
+                c = 0
+            if(row_labels[id1]['V'] >= 1):
                 c = 0
 
             row_align[(id1,id2)] = c
@@ -648,11 +670,23 @@ def template_learn(blk, blk_type, row_mp):
             node['fields'] = fields
             node['child'] = -1 
             node['bid'] = bid
+        else: #metadata type
+            continue
 
         #decide if current node is duplicated with the first node 
         if(len(nodes) > 0 and nodes[0]['fields'] == fields and nodes[0]['type'] == type):
            break 
+
+        if(len(fields) == 0):#prevent from adding an empty node 
+            continue
         
+        duplicate = 0
+        for n in nodes:
+            if(n['fields'] == fields and n['type'] == type):
+                duplicate = 1
+                break
+        if(duplicate == 1):
+            continue
         nodes.append(node)
 
     #second pass: add edges 
@@ -795,21 +829,25 @@ def row_label_gen_template(record, row_mp, template, metadata):
         row_phrases = []
         for item in row_mp[row_id]:
             row_phrases.append(item[0])
-        if(is_row_headers_or_footers(row_phrases, metadata) == 1): 
+        
+        if(check_metadadta_row(row_phrases) == 1):
             label = 'M'
         else:
-            label = ''
-            for i in range(len(template)):
-                node = template[i]
-                if(visit_node(node, row_phrases) == 1):
-                    if(node['type'] == 'table'):
-                        label = 'K'
-                        row_node_mp[row_id-base_row_id] = i
-                    else:
-                        label = 'KV'
-                    break
-            if(label == ''):
-                label = 'V'
+            if(is_row_headers_or_footers(row_phrases, metadata) == 1): 
+                label = 'M'
+            else:
+                label = ''
+                for i in range(len(template)):
+                    node = template[i]
+                    if(visit_node(node, row_phrases) == 1):
+                        if(node['type'] == 'table'):
+                            label = 'K'
+                            row_node_mp[row_id-base_row_id] = i
+                        else:
+                            label = 'KV'
+                        break
+                if(label == ''):
+                    label = 'V'
         rls.append(label)
     return rls, row_node_mp
             
@@ -1118,6 +1156,7 @@ def row_label_prediction(row, predict_keys, metadata):
         label['V'] = delta
         label['KV'] = delta
         label['M'] = 1
+        add_metadata_row(row_phrases)
         return label 
 
     kvs = 0

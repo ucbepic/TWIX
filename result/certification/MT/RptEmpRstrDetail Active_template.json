@@ -1,0 +1,18 @@
+{
+    "node0": {
+        "type": "table",
+        "fields": [
+            "Name",
+            "I.D.",
+            "Sex",
+            "Birth Date",
+            "Age",
+            "Employee Type",
+            "Employee",
+            "Instructor",
+            "Supervisor"
+        ],
+        "child": -1,
+        "bid": 0
+    }
+}

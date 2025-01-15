@@ -112,123 +112,318 @@
                         "Level": "missing",
                         "Class": "Fulltime",
                         "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
-                    {
-                        "Abbas, April S.": "AURELIA POLICE DEPARTMENT",
-                        "WI6-01": "Hired"
                     },
                     {
-                        "Abbas, April S.": "CARLISLE POLICE DEPARTMENT",
-                        "WI6-01": "Resigned"
+                        "Agency": "Abbas, April S.",
+                        "Date": "missing",
+                        "F/P": "missing",
+                        "Action": "WI6-01",
+                        "Status": "missing",
+                        "Assignment": "missing",
+                        "Pos/Rank": "missing",
+                        "Level": "missing",
+                        "Class": "missing",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "CARLISLE POLICE DEPARTMENT",
-                        "WI6-01": "Hired"
+                        "Agency": "AURELIA POLICE DEPARTMENT",
+                        "Date": "1-30-2020",
+                        "F/P": "P",
+                        "Action": "Hired",
+                        "Status": "Active",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Police Off",
+                        "Level": "missing",
+                        "Class": "Partime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "BUENA VISTA COUNTY SHERIFF'S OFFICE",
-                        "WI6-01": "Resigned"
+                        "Agency": "CARLISLE POLICE DEPARTMENT",
+                        "Date": "11-20-2019",
+                        "F/P": "F",
+                        "Action": "Resigned",
+                        "Status": "Inactive",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Police Off",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "BUENA VISTA COUNTY SHERIFF'S OFFICE11-29-2010",
-                        "WI6-01": "Hired"
+                        "Agency": "CARLISLE POLICE DEPARTMENT",
+                        "Date": "8-02-2016",
+                        "F/P": "F",
+                        "Action": "Hired",
+                        "Status": "Active",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Police Off",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "LAURENS POLICE DEPARTMENT",
-                        "WI6-01": "Dismissed"
+                        "Agency": "BUENA VISTA COUNTY SHERIFF'S OFFICE",
+                        "Date": "7-28-2016",
+                        "F/P": "F",
+                        "Action": "Resigned",
+                        "Status": "Inactive",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Deputy",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "LAURENS POLICE DEPARTMENT",
-                        "WI6-01": "Hired"
+                        "Agency": "LAURENS POLICE DEPARTMENT",
+                        "Date": "11-07-2006",
+                        "F/P": "missing",
+                        "Action": "Dismissed",
+                        "Status": "Inactive",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Police Off",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "Abbey, Jeffery A.",
-                        "WI6-01": "CR21-01"
+                        "Agency": "LAURENS POLICE DEPARTMENT",
+                        "Date": "4-18-2005",
+                        "F/P": "missing",
+                        "Action": "Hired",
+                        "Status": "Active",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Police Off",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "WEST POINT POLICE DEPARTMENT",
-                        "WI6-01": "Volunteer"
+                        "Agency": "Abbey, Jeffery A.",
+                        "Date": "missing",
+                        "F/P": "missing",
+                        "Action": "CR21-01",
+                        "Status": "missing",
+                        "Assignment": "missing",
+                        "Pos/Rank": "missing",
+                        "Level": "missing",
+                        "Class": "missing",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "missing",
-                        "WI6-01": "Functions"
+                        "Agency": "WEST POINT POLICE DEPARTMENT",
+                        "Date": "6-22-2017",
+                        "F/P": "missing",
+                        "Action": "Volunteer",
+                        "Status": "Active",
+                        "Assignment": "Reserve",
+                        "Pos/Rank": "Resrv Offc",
+                        "Level": "No Super",
+                        "Class": "Temp Emp",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "FT MADISON POLICE DEPARTMENT",
-                        "WI6-01": "Resigned"
+                        "Agency": "missing",
+                        "Date": "missing",
+                        "F/P": "missing",
+                        "Action": "Functions",
+                        "Status": "Reserve",
+                        "Assignment": "missing",
+                        "Pos/Rank": "missing",
+                        "Level": "missing",
+                        "Class": "missing",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "FT MADISON POLICE DEPARTMENT",
-                        "WI6-01": "Reinstate"
+                        "Agency": "FT MADISON POLICE DEPARTMENT",
+                        "Date": "5-05-1998",
+                        "F/P": "missing",
+                        "Action": "Resigned",
+                        "Status": "Inactive",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Police Off",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "FT MADISON POLICE DEPARTMENT",
-                        "WI6-01": "Dismissed"
+                        "Agency": "FT MADISON POLICE DEPARTMENT",
+                        "Date": "3-06-1996",
+                        "F/P": "missing",
+                        "Action": "Reinstate",
+                        "Status": "Active",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Police Off",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "FT MADISON POLICE DEPARTMENT",
-                        "WI6-01": "Hired"
+                        "Agency": "FT MADISON POLICE DEPARTMENT",
+                        "Date": "1-05-1996",
+                        "F/P": "missing",
+                        "Action": "Dismissed",
+                        "Status": "Inactive",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Police Off",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "Abbott, Marissa K.",
-                        "WI6-01": "287-01"
+                        "Agency": "FT MADISON POLICE DEPARTMENT",
+                        "Date": "7-01-1991",
+                        "F/P": "missing",
+                        "Action": "Hired",
+                        "Status": "Active",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Police Off",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "CEDAR FALLS POLICE DEPARTMENT",
-                        "WI6-01": "Hired"
+                        "Agency": "Abbott, Marissa K.",
+                        "Date": "missing",
+                        "F/P": "missing",
+                        "Action": "287-01",
+                        "Status": "missing",
+                        "Assignment": "missing",
+                        "Pos/Rank": "missing",
+                        "Level": "missing",
+                        "Class": "missing",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "UNIVERSITY OF NORTHERN IOWA POLICE",
-                        "WI6-01": "Resigned"
+                        "Agency": "CEDAR FALLS POLICE DEPARTMENT",
+                        "Date": "1-02-2019",
+                        "F/P": "F",
+                        "Action": "Hired",
+                        "Status": "Active",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Police Off",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "missing",
-                        "WI6-01": "Functions"
+                        "Agency": "UNIVERSITY OF NORTHERN IOWA POLICE",
+                        "Date": "1-01-2019",
+                        "F/P": "P",
+                        "Action": "Resigned",
+                        "Status": "Inactive",
+                        "Assignment": "Telecom",
+                        "Pos/Rank": "Telecomm.",
+                        "Level": "missing",
+                        "Class": "Partime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "UNIVERSITY OF NORTHERN IOWA POLICE10-09-2017",
-                        "WI6-01": "Tele Hire"
+                        "Agency": "missing",
+                        "Date": "missing",
+                        "F/P": "missing",
+                        "Action": "Functions",
+                        "Status": "Tele PT",
+                        "Assignment": "missing",
+                        "Pos/Rank": "missing",
+                        "Level": "missing",
+                        "Class": "missing",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "missing",
-                        "WI6-01": "Functions"
+                        "Agency": "missing",
+                        "Date": "missing",
+                        "F/P": "missing",
+                        "Action": "Functions",
+                        "Status": "Tele PT",
+                        "Assignment": "missing",
+                        "Pos/Rank": "missing",
+                        "Level": "missing",
+                        "Class": "missing",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "Abel, Garrett J.",
-                        "WI6-01": "218-01"
+                        "Agency": "Abel, Garrett J.",
+                        "Date": "missing",
+                        "F/P": "missing",
+                        "Action": "218-01",
+                        "Status": "missing",
+                        "Assignment": "missing",
+                        "Pos/Rank": "missing",
+                        "Level": "missing",
+                        "Class": "missing",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "WAYNE COUNTY SHERIFF'S OFFICE",
-                        "WI6-01": "Hired"
+                        "Agency": "WAYNE COUNTY SHERIFF'S OFFICE",
+                        "Date": "1-02-2007",
+                        "F/P": "F",
+                        "Action": "Hired",
+                        "Status": "Active",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Deputy",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "Abel, Yon A.",
-                        "WI6-01": "J1997-01"
+                        "Agency": "Abel, Yon A.",
+                        "Date": "missing",
+                        "F/P": "missing",
+                        "Action": "J1997-01",
+                        "Status": "missing",
+                        "Assignment": "missing",
+                        "Pos/Rank": "missing",
+                        "Level": "missing",
+                        "Class": "missing",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "LINN COUNTY SHERIFF'S OFFICE",
-                        "WI6-01": "Promotion"
+                        "Agency": "LINN COUNTY SHERIFF'S OFFICE",
+                        "Date": "4-09-2006",
+                        "F/P": "F",
+                        "Action": "Promotion",
+                        "Status": "Active",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Sergeant",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "LINN COUNTY SHERIFF'S OFFICE",
-                        "WI6-01": "Hired"
+                        "Agency": "LINN COUNTY SHERIFF'S OFFICE",
+                        "Date": "11-25-1996",
+                        "F/P": "missing",
+                        "Action": "Hired",
+                        "Status": "Active",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Deputy",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "Abell, Samuel T.",
-                        "WI6-01": "253-01"
+                        "Agency": "Abell, Samuel T.",
+                        "Date": "missing",
+                        "F/P": "missing",
+                        "Action": "253-01",
+                        "Status": "missing",
+                        "Assignment": "missing",
+                        "Pos/Rank": "missing",
+                        "Level": "missing",
+                        "Class": "missing",
+                        "Shift": "missing"
                     },
                     {
-                        "Abbas, April S.": "JOHNSTON POLICE DEPARTMENT",
-                        "WI6-01": "Promotion"
-                    },
-                    {
-                        "Abbas, April S.": "APR 18,2023",
-                        "WI6-01": "Iowa"
+                        "Agency": "JOHNSTON POLICE DEPARTMENT",
+                        "Date": "2-27-2022",
+                        "F/P": "F",
+                        "Action": "Promotion",
+                        "Status": "Active",
+                        "Assignment": "missing",
+                        "Pos/Rank": "Sergeant",
+                        "Level": "missing",
+                        "Class": "Fulltime",
+                        "Shift": "missing"
                     }
                 ]
             }
