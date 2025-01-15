@@ -17,11 +17,11 @@ def scan_folder(path, filter_file_type = '.pdf'):
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
-    pdf_folder_path = root_path + '/data/raw/complaints & use of force'
+    pdf_folder_path = root_path + '/data/raw/certification'
     print(pdf_folder_path)
     pdfs = scan_folder(pdf_folder_path,'.pdf')
     for pdf_path in pdfs:
-        if 'Investigations_Redacted' not in pdf_path:
+        if 'Active_Employment' not in pdf_path:
             continue
 
         print(pdf_path)

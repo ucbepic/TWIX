@@ -1,0 +1,15 @@
+{
+    "node0": {
+        "type": "table",
+        "fields": [
+            "YEAR",
+            "NAME",
+            "DEPARTMENT",
+            "POST ID#",
+            "DATE",
+            "REASON"
+        ],
+        "child": -1,
+        "bid": 0
+    }
+}

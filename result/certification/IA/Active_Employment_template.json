@@ -1,0 +1,55 @@
+{
+    "node0": {
+        "type": "table",
+        "fields": [
+            "02:46PM",
+            "Employment",
+            "Report"
+        ],
+        "child": 1,
+        "bid": 0
+    },
+    "node1": {
+        "type": "table",
+        "fields": [
+            "Agency",
+            "Date",
+            "F/P",
+            "Action",
+            "Status",
+            "Assignment",
+            "Pos/Rank",
+            "Level",
+            "Class",
+            "Shift"
+        ],
+        "child": -1,
+        "bid": 1
+    },
+    "node2": {
+        "type": "table",
+        "fields": [
+            "Abbas, April S.",
+            "WI6-01"
+        ],
+        "child": 3,
+        "bid": 2
+    },
+    "node3": {
+        "type": "table",
+        "fields": [
+            "Agency",
+            "Date",
+            "F/P",
+            "Action",
+            "Status",
+            "Assignment",
+            "Pos/Rank",
+            "Level",
+            "Class",
+            "Shift"
+        ],
+        "child": -1,
+        "bid": 3
+    }
+}
