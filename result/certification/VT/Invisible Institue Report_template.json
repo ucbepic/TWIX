@@ -1,0 +1,172 @@
+{
+    "node0": {
+        "type": "table",
+        "fields": [
+            "Certification"
+        ],
+        "child": 5,
+        "bid": 0
+    },
+    "node1": {
+        "type": "kv",
+        "fields": [
+            "Law Enforcement Full-Time"
+        ],
+        "child": -1,
+        "bid": 2
+    },
+    "node2": {
+        "type": "kv",
+        "fields": [
+            "Law Enforcement Part-Time"
+        ],
+        "child": -1,
+        "bid": 3
+    },
+    "node3": {
+        "type": "kv",
+        "fields": [
+            "Employment History",
+            "VT State Police",
+            "Service",
+            "Years",
+            "Days",
+            "Date",
+            "Action",
+            "Transfer",
+            "Status",
+            "Active",
+            "Full-time",
+            "Assignment",
+            "St Albans Barracks",
+            "Pos/Rank",
+            "Sergeant",
+            "Level",
+            "Class",
+            "Level III",
+            "Shift"
+        ],
+        "child": -1,
+        "bid": 4
+    },
+    "node4": {
+        "type": "kv",
+        "fields": [
+            "Assignment",
+            "Pos/Rank",
+            "Detective Sergeant",
+            "Level",
+            "Class",
+            "Full-Time",
+            "Shift",
+            "VT State Police",
+            "Service",
+            "Years",
+            "Days"
+        ],
+        "child": -1,
+        "bid": 5
+    },
+    "node5": {
+        "type": "kv",
+        "fields": [
+            "Assignment",
+            "Pos/Rank",
+            "Sergeant",
+            "Level",
+            "Class",
+            "Full-Time",
+            "Shift",
+            "Grafton Fire & Rescue",
+            "Service",
+            "Years",
+            "Days"
+        ],
+        "child": -1,
+        "bid": 6
+    },
+    "node6": {
+        "type": "table",
+        "fields": [
+            "Level",
+            "Class"
+        ],
+        "child": 8,
+        "bid": 8
+    },
+    "node7": {
+        "type": "kv",
+        "fields": [
+            "Shift",
+            "VT State Police",
+            "Service",
+            "Years",
+            "Days"
+        ],
+        "child": -1,
+        "bid": 9
+    },
+    "node8": {
+        "type": "kv",
+        "fields": [
+            "Assignment",
+            "Pos/Rank",
+            "Trooper",
+            "Level",
+            "Class",
+            "Full-Time",
+            "Shift"
+        ],
+        "child": -1,
+        "bid": 10
+    },
+    "node9": {
+        "type": "kv",
+        "fields": [
+            "Assignment",
+            "Pos/Rank",
+            "Deputy"
+        ],
+        "child": -1,
+        "bid": 11
+    },
+    "node10": {
+        "type": "table",
+        "fields": [
+            "07:41AM",
+            "Employee",
+            "History"
+        ],
+        "child": 11,
+        "bid": 13
+    },
+    "node11": {
+        "type": "kv",
+        "fields": [
+            "Franklin County Sheriff's Department",
+            "Service",
+            "Years",
+            "Days"
+        ],
+        "child": -1,
+        "bid": 14
+    },
+    "node12": {
+        "type": "kv",
+        "fields": [
+            "Assignment",
+            "Pos/Rank",
+            "Corporal",
+            "Level",
+            "Class",
+            "Full-Time",
+            "Shift",
+            "Franklin County Sheriff's Department",
+            "Service",
+            "Years",
+            "Days"
+        ],
+        "child": -1,
+        "bid": 15
+    }
+}

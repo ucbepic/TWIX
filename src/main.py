@@ -21,7 +21,7 @@ if __name__ == "__main__":
     print(pdf_folder_path)
     pdfs = scan_folder(pdf_folder_path,'.pdf')
     for pdf_path in pdfs:
-        if 'Archived_Certifications' not in pdf_path:
+        if 'Invisible Institue Report' not in pdf_path:
             continue
 
         print(pdf_path)

@@ -1,0 +1,792 @@
+[
+    {
+        "id": 0,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "07:41AM": "Aamodt,",
+                        "Employee": "missing",
+                        "History": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Certification": "Law Enforcement Level III / Certified"
+                    },
+                    {
+                        "Certification": "7-01-2015"
+                    },
+                    {
+                        "Certification": "11-18-1994"
+                    },
+                    {
+                        "Certification": "4-04-1994"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "missing"
+                    },
+                    {
+                        "Status": "Certified"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Law Enforcement Full-Time": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Law Enforcement Part-Time": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": []
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "07:41AM": "Abell,",
+                        "Employee": "missing",
+                        "History": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Certification": "Law Enforcement Level II - spec III / Certified"
+                    },
+                    {
+                        "Certification": "7-10-2015"
+                    },
+                    {
+                        "Certification": "Law Enforcement Level II-E / Certified"
+                    },
+                    {
+                        "Certification": "6-09-2015"
+                    },
+                    {
+                        "Certification": "7-27-2007"
+                    },
+                    {
+                        "Certification": "St. Albans Police Department"
+                    },
+                    {
+                        "Certification": "Chittenden County Sheriff's Department"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "missing"
+                    },
+                    {
+                        "Status": "Certified"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Law Enforcement Part-Time": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Employment History": "Grand Isle County Sheriff's Department"
+                    },
+                    {
+                        "Service": "7"
+                    },
+                    {
+                        "Years": "230"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "1-01-2012"
+                    },
+                    {
+                        "Action": "Promotion"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Active": "Part-time"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "missing"
+                    },
+                    {
+                        "Sergeant": "missing"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Level II-S"
+                    },
+                    {
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "1-12-2010"
+                    },
+                    {
+                        "Action": "Resigned"
+                    },
+                    {
+                        "Status": "Inactive"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Patrol Officer"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Level II"
+                    },
+                    {
+                        "Shift": "Grand Isle County Sheriff's Department"
+                    },
+                    {
+                        "Service": "2"
+                    },
+                    {
+                        "Years": "184"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "7-01-2009"
+                    },
+                    {
+                        "Action": "Appointed"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Active": "missing"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "missing"
+                    },
+                    {
+                        "Deputy": "missing"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Part-Time"
+                    },
+                    {
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "07:41AM": "Acevedo,",
+                        "Employee": "missing",
+                        "History": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Certification": "Law Enforcement Level III / Certified"
+                    },
+                    {
+                        "Certification": "5-24-2019"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "missing"
+                    },
+                    {
+                        "Status": "Certified"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "07:41AM": "Adams,",
+                        "Employee": "missing",
+                        "History": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Certification": "Law Enforcement Level III / Certified"
+                    },
+                    {
+                        "Certification": "7-01-2015"
+                    },
+                    {
+                        "Certification": "7-01-2015"
+                    },
+                    {
+                        "Certification": "Vergennes Police Department"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "missing"
+                    },
+                    {
+                        "Status": "Certified"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Law Enforcement Full-Time": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Employment History": "Winooski Police Department"
+                    },
+                    {
+                        "Service": "missing"
+                    },
+                    {
+                        "Years": "86"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "5-25-2019"
+                    },
+                    {
+                        "Action": "Reduced hours"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Active": "Part-time"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Patrol Officer"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "missing"
+                    },
+                    {
+                        "Level III": "missing"
+                    },
+                    {
+                        "Shift": "VT Dept. of Liquor Control"
+                    },
+                    {
+                        "Service": "missing"
+                    },
+                    {
+                        "Years": "117"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "4-24-2019"
+                    },
+                    {
+                        "Action": "Hired"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Active": "missing"
+                    },
+                    {
+                        "Full-time": "missing"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Investigator"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "missing"
+                    },
+                    {
+                        "Level III": "missing"
+                    },
+                    {
+                        "Shift": "Winooski Police Department"
+                    },
+                    {
+                        "Service": "12"
+                    },
+                    {
+                        "Years": "307"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "7-23-2006"
+                    },
+                    {
+                        "Action": "Appointed"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Active": "missing"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Patrol Officer"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "missing"
+                    },
+                    {
+                        "Level III": "missing"
+                    },
+                    {
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "07:41AM": "Adams,",
+                        "Employee": "missing",
+                        "History": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Certification": "Law Enforcement Level III / Certified"
+                    },
+                    {
+                        "Certification": "7-01-2015"
+                    },
+                    {
+                        "Certification": "7-01-2015"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "missing"
+                    },
+                    {
+                        "Status": "Certified"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Law Enforcement Full-Time": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "07:41AM": "Adams,",
+                        "Employee": "missing",
+                        "History": "missing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": [
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Certification": "Law Enforcement Level III / Certified"
+                    },
+                    {
+                        "Certification": "7-01-2015"
+                    },
+                    {
+                        "Certification": "7-01-2015"
+                    },
+                    {
+                        "Certification": "Windsor County Sheriff's Department"
+                    },
+                    {
+                        "Certification": "Hartford Police Department"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "missing"
+                    },
+                    {
+                        "Status": "Certified"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Law Enforcement Full-Time": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Employment History": "Windsor Police Department"
+                    },
+                    {
+                        "Service": "5"
+                    },
+                    {
+                        "Years": "62"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "6-17-2014"
+                    },
+                    {
+                        "Action": "Promotion"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Active": "missing"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "missing"
+                    },
+                    {
+                        "Sergeant": "missing"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "missing"
+                    },
+                    {
+                        "Level III": "missing"
+                    },
+                    {
+                        "Shift": "Windsor Police Department"
+                    },
+                    {
+                        "Service": "2"
+                    },
+                    {
+                        "Years": "238"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "10-23-2011"
+                    },
+                    {
+                        "Action": "Appointed"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Active": "missing"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Patrol Officer"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "missing"
+                    },
+                    {
+                        "Full-Time": "missing"
+                    },
+                    {
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "10-20-2011"
+                    },
+                    {
+                        "Action": "Resigned"
+                    },
+                    {
+                        "Status": "Inactive"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "missing"
+                    },
+                    {
+                        "Deputy": "missing"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Part-Time"
+                    },
+                    {
+                        "Shift": "Windsor County Sheriff's Department"
+                    },
+                    {
+                        "Service": "missing"
+                    },
+                    {
+                        "Years": "185"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "4-19-2011"
+                    },
+                    {
+                        "Action": "Appointed"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Active": "missing"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "missing"
+                    },
+                    {
+                        "Deputy": "missing"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "missing"
+                    },
+                    {
+                        "Full-Time": "missing"
+                    },
+                    {
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "2-18-2011"
+                    },
+                    {
+                        "Action": "Resigned"
+                    },
+                    {
+                        "Status": "Inactive"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Patrol Officer"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "missing"
+                    },
+                    {
+                        "Full-Time": "missing"
+                    },
+                    {
+                        "Shift": "Hartford Police Department"
+                    },
+                    {
+                        "Service": "1"
+                    },
+                    {
+                        "Years": "85"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "11-25-2009"
+                    },
+                    {
+                        "Action": "Appointed"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Active": "missing"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Patrol Officer"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "missing"
+                    },
+                    {
+                        "Full-Time": "missing"
+                    },
+                    {
+                        "Shift": "missing"
+                    }
+                ]
+            }
+        ]
+    }
+]
