@@ -35,18 +35,6 @@
                 "type": "kv",
                 "content": [
                     {
-                        "VT State Police": "missing"
-                    },
-                    {
-                        "Service": "2"
-                    },
-                    {
-                        "Years": "306"
-                    },
-                    {
-                        "Days": "missing"
-                    },
-                    {
                         "Date": "10-16-2016"
                     },
                     {
@@ -56,38 +44,25 @@
                         "Status": "Active"
                     },
                     {
-                        "Full-time": "missing"
-                    },
-                    {
                         "Assignment": "St Albans Barracks"
                     },
                     {
                         "Pos/Rank": "Sergeant"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Level III"
+                    },
+                    {
+                        "Shift": "missing"
                     }
                 ]
             },
             {
-                "type": "table",
-                "content": []
-            },
-            {
                 "type": "kv",
                 "content": [
-                    {
-                        "Shift": "missing"
-                    },
-                    {
-                        "VT State Police": "missing"
-                    },
-                    {
-                        "Service": "3"
-                    },
-                    {
-                        "Years": "151"
-                    },
-                    {
-                        "Days": "missing"
-                    },
                     {
                         "Date": "5-19-2013"
                     },
@@ -111,19 +86,12 @@
                     },
                     {
                         "Shift": "missing"
-                    },
-                    {
-                        "VT State Police": "missing"
-                    },
-                    {
-                        "Service": "1"
-                    },
-                    {
-                        "Years": "183"
-                    },
-                    {
-                        "Days": "missing"
-                    },
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Date": "11-18-2011"
                     },
@@ -146,17 +114,13 @@
                         "Class": "Full-Time"
                     },
                     {
-                        "Shift": "Grafton Fire & Rescue"
-                    },
-                    {
-                        "Service": "11"
-                    },
-                    {
-                        "Years": "109"
-                    },
-                    {
-                        "Days": "missing"
-                    },
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Date": "5-01-2008"
                     },
@@ -171,36 +135,21 @@
                     },
                     {
                         "Pos/Rank": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
+                    },
                     {
-                        "Level": "Franklin County Sheriff's Department",
+                        "Level": "missing"
+                    },
+                    {
                         "Class": "missing"
+                    },
+                    {
+                        "Shift": "missing"
                     }
                 ]
             },
             {
                 "type": "kv",
                 "content": [
-                    {
-                        "Shift": "missing"
-                    },
-                    {
-                        "VT State Police": "missing"
-                    },
-                    {
-                        "Service": "15"
-                    },
-                    {
-                        "Years": "28"
-                    },
-                    {
-                        "Days": "missing"
-                    },
                     {
                         "Date": "10-21-1996"
                     },
@@ -244,34 +193,26 @@
                     },
                     {
                         "Pos/Rank": "Deputy"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
+                    },
                     {
-                        "Level": "Dustin",
+                        "Level": "missing"
+                    },
+                    {
                         "Class": "missing"
                     },
                     {
-                        "Level": "Certification",
-                        "Class": "missing"
+                        "Shift": "missing"
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "content": [
             {
                 "type": "kv",
                 "content": [
-                    {
-                        "Service": "2"
-                    },
-                    {
-                        "Years": "113"
-                    },
-                    {
-                        "Days": "missing"
-                    },
                     {
                         "Date": "7-01-1994"
                     },
@@ -294,17 +235,13 @@
                         "Class": "Full-Time"
                     },
                     {
-                        "Shift": "Franklin County Sheriff's Department"
-                    },
-                    {
-                        "Service": "1"
-                    },
-                    {
-                        "Years": "65"
-                    },
-                    {
-                        "Days": "missing"
-                    },
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Date": "4-27-1993"
                     },
@@ -334,7 +271,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 2,
         "content": [
             {
                 "type": "table",
@@ -362,37 +299,12 @@
                         "Expires": "missing",
                         "Probation": "missing",
                         "Cert #": "DJA1121"
-                    },
-                    {
-                        "Date": "Acevedo,",
-                        "Status": "Eric",
-                        "Certified": "missing",
-                        "Expires": "missing",
-                        "Probation": "missing",
-                        "Cert #": "missing"
-                    },
-                    {
-                        "Date": "Certification",
-                        "Status": "missing",
-                        "Certified": "missing",
-                        "Expires": "missing",
-                        "Probation": "missing",
-                        "Cert #": "missing"
                     }
                 ]
             },
             {
                 "type": "kv",
                 "content": [
-                    {
-                        "Service": "7"
-                    },
-                    {
-                        "Years": "230"
-                    },
-                    {
-                        "Days": "missing"
-                    },
                     {
                         "Date": "1-01-2012"
                     },
@@ -444,17 +356,13 @@
                         "Class": "Level II"
                     },
                     {
-                        "Shift": "Grand Isle County Sheriff's Department"
-                    },
-                    {
-                        "Service": "2"
-                    },
-                    {
-                        "Years": "184"
-                    },
-                    {
-                        "Days": "missing"
-                    },
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Date": "7-01-2009"
                     },
@@ -506,17 +414,13 @@
                         "Class": "Part-Time"
                     },
                     {
-                        "Shift": "St. Albans Police Department"
-                    },
-                    {
-                        "Service": "1"
-                    },
-                    {
-                        "Years": "272"
-                    },
-                    {
-                        "Days": "missing"
-                    },
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Date": "4-15-2008"
                     },
@@ -539,17 +443,13 @@
                         "Class": "Full-Time"
                     },
                     {
-                        "Shift": "Chittenden County Sheriff's Department"
-                    },
-                    {
-                        "Service": "1"
-                    },
-                    {
-                        "Years": "172"
-                    },
-                    {
-                        "Days": "missing"
-                    },
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Date": "1-28-2007"
                     },
@@ -579,7 +479,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "content": [
             {
                 "type": "table",
@@ -598,18 +498,6 @@
                 "type": "kv",
                 "content": [
                     {
-                        "VT State Police": "missing"
-                    },
-                    {
-                        "Service": "missing"
-                    },
-                    {
-                        "Years": "217"
-                    },
-                    {
-                        "Days": "missing"
-                    },
-                    {
                         "Date": "1-14-2019"
                     },
                     {
@@ -619,34 +507,17 @@
                         "Status": "Active"
                     },
                     {
-                        "Full-time": "missing"
-                    },
-                    {
                         "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Trooper"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
-                    {
-                        "Level": "Benjamin",
-                        "Class": "missing",
-                        "Level III": "missing"
                     },
                     {
-                        "Level": "Certification",
-                        "Class": "missing",
-                        "Level III": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Level III"
+                    },
                     {
                         "Shift": "missing"
                     }
@@ -655,7 +526,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "content": [
             {
                 "type": "table",
@@ -682,15 +553,6 @@
                 "type": "kv",
                 "content": [
                     {
-                        "Service": "missing"
-                    },
-                    {
-                        "Years": "86"
-                    },
-                    {
-                        "Days": "missing"
-                    },
-                    {
                         "Date": "5-25-2019"
                     },
                     {
@@ -704,28 +566,21 @@
                     },
                     {
                         "Pos/Rank": "Patrol Officer"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Level III"
+                    },
+                    {
+                        "Shift": "missing"
                     }
                 ]
             },
             {
-                "type": "table",
-                "content": []
-            },
-            {
                 "type": "kv",
                 "content": [
-                    {
-                        "Shift": "VT Dept. of Liquor Control"
-                    },
-                    {
-                        "Service": "missing"
-                    },
-                    {
-                        "Years": "117"
-                    },
-                    {
-                        "Days": "missing"
-                    },
                     {
                         "Date": "4-24-2019"
                     },
@@ -736,35 +591,25 @@
                         "Status": "Active"
                     },
                     {
-                        "Full-time": "missing"
-                    },
-                    {
                         "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Investigator"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Level III"
+                    },
+                    {
+                        "Shift": "missing"
                     }
                 ]
             },
             {
-                "type": "table",
-                "content": []
-            },
-            {
                 "type": "kv",
                 "content": [
-                    {
-                        "Shift": "Winooski Police Department"
-                    },
-                    {
-                        "Service": "12"
-                    },
-                    {
-                        "Years": "307"
-                    },
-                    {
-                        "Days": "missing"
-                    },
                     {
                         "Date": "7-23-2006"
                     },
@@ -779,32 +624,13 @@
                     },
                     {
                         "Pos/Rank": "Patrol Officer"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
-                    {
-                        "Level": "Vergennes Police Department",
-                        "Class": "missing",
-                        "Level III": "missing"
                     },
                     {
-                        "Level": "Jerod",
-                        "Class": "missing",
-                        "Level III": "missing"
+                        "Level": "missing"
                     },
                     {
-                        "Level": "Certification",
-                        "Class": "missing",
-                        "Level III": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
+                        "Class": "Level III"
+                    },
                     {
                         "Shift": "missing"
                     }
@@ -835,17 +661,13 @@
                         "Class": "Part-Time"
                     },
                     {
-                        "Shift": "Vergennes Police Department"
-                    },
-                    {
-                        "Service": "missing"
-                    },
-                    {
-                        "Years": "142"
-                    },
-                    {
-                        "Days": "missing"
-                    },
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Date": "11-11-2005"
                     },
@@ -875,7 +697,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "content": [
             {
                 "type": "table",
@@ -911,35 +733,25 @@
                         "Status": "Inactive"
                     },
                     {
-                        "Full-time": "missing"
-                    },
-                    {
                         "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Level III"
+                    },
+                    {
+                        "Shift": "missing"
                     }
                 ]
             },
             {
-                "type": "table",
-                "content": []
-            },
-            {
                 "type": "kv",
                 "content": [
-                    {
-                        "Shift": "Chittenden County Sheriff's Department"
-                    },
-                    {
-                        "Service": "missing"
-                    },
-                    {
-                        "Years": "206"
-                    },
-                    {
-                        "Days": "missing"
-                    },
                     {
                         "Date": "1-25-2019"
                     },
@@ -950,35 +762,25 @@
                         "Status": "Active"
                     },
                     {
-                        "Full-time": "missing"
-                    },
-                    {
                         "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Level III"
+                    },
+                    {
+                        "Shift": "missing"
                     }
                 ]
             },
             {
-                "type": "table",
-                "content": []
-            },
-            {
                 "type": "kv",
                 "content": [
-                    {
-                        "Shift": "Franklin County Sheriff's Department"
-                    },
-                    {
-                        "Service": "10"
-                    },
-                    {
-                        "Years": "180"
-                    },
-                    {
-                        "Days": "missing"
-                    },
                     {
                         "Date": "8-04-2008"
                     },
@@ -989,46 +791,25 @@
                         "Status": "Active"
                     },
                     {
-                        "Full-time": "missing"
-                    },
-                    {
                         "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
-                    {
-                        "Level": "Jonathan",
-                        "Class": "missing",
-                        "Level III": "missing"
                     },
                     {
-                        "Level": "Certification",
-                        "Class": "missing",
-                        "Level III": "missing"
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Level III"
+                    },
+                    {
+                        "Shift": "missing"
                     }
                 ]
             },
             {
                 "type": "kv",
                 "content": [
-                    {
-                        "Shift": "Franklin County Sheriff's Department"
-                    },
-                    {
-                        "Service": "missing"
-                    },
-                    {
-                        "Years": "140"
-                    },
-                    {
-                        "Days": "missing"
-                    },
                     {
                         "Date": "3-18-2008"
                     },
@@ -1058,7 +839,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "content": [
             {
                 "type": "table",
@@ -1085,15 +866,6 @@
                 "type": "kv",
                 "content": [
                     {
-                        "Service": "5"
-                    },
-                    {
-                        "Years": "62"
-                    },
-                    {
-                        "Days": "missing"
-                    },
-                    {
                         "Date": "6-17-2014"
                     },
                     {
@@ -1107,39 +879,21 @@
                     },
                     {
                         "Pos/Rank": "Sergeant"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
-                    {
-                        "Level": "Windsor County Sheriff's Department",
-                        "Class": "missing",
-                        "Level III": "missing"
                     },
                     {
-                        "Level": "Hartford Police Department",
-                        "Class": "missing",
-                        "Level III": "missing"
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Level III"
+                    },
+                    {
+                        "Shift": "missing"
                     }
                 ]
             },
             {
                 "type": "kv",
                 "content": [
-                    {
-                        "Shift": "Windsor Police Department"
-                    },
-                    {
-                        "Service": "2"
-                    },
-                    {
-                        "Years": "238"
-                    },
-                    {
-                        "Days": "missing"
-                    },
                     {
                         "Date": "10-23-2011"
                     },
@@ -1191,17 +945,13 @@
                         "Class": "Part-Time"
                     },
                     {
-                        "Shift": "Windsor County Sheriff's Department"
-                    },
-                    {
-                        "Service": "missing"
-                    },
-                    {
-                        "Years": "185"
-                    },
-                    {
-                        "Days": "missing"
-                    },
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Date": "4-19-2011"
                     },
@@ -1253,17 +1003,13 @@
                         "Class": "Full-Time"
                     },
                     {
-                        "Shift": "Hartford Police Department"
-                    },
-                    {
-                        "Service": "1"
-                    },
-                    {
-                        "Years": "85"
-                    },
-                    {
-                        "Days": "missing"
-                    },
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Date": "11-25-2009"
                     },

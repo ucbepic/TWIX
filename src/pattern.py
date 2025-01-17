@@ -300,6 +300,20 @@ def is_same_row(b1,b2):
     return 1
 
 
+def value_no_key_detector(row_mp, id1, id2):
+    row1 = row_mp[id1]
+    row2 = row_mp[id2]
+    #detect if there exist a phrase in row2 that does not overlap with any phrase in row 1
+    for p2 in row2:
+        align = 0
+        for p1 in row1:
+            if(is_overlap_vertically(p2[1],p1[1]) == 1):
+                align = 1
+                break 
+        if(align == 0):
+            return 0
+    return 1
+
 
 def row_aligned(row1, row2):
     #check if there exist a phrase in row2 that overlapps with more than 2 phrases in row1
@@ -316,31 +330,7 @@ def row_aligned(row1, row2):
             id1 += 1
         else:
             id2 += 1
-    #a key should not overlap with two values: the reason is that some keys are seperated by a large phrase and thus the bounding box for a key might be fully accurate (larger than original) 
-    #row1: key, row2: val
-    # id1 = 0
-    # id2 = 1
-    # while(id1 < len(row1) and id2 < len(row2)):
-    #     if(is_overlap_vertically(row1[id1][1], row2[id2][1]) == 1 and is_overlap_vertically(row1[id1][1], row2[id2-1][1]) == 1):
-    #         return 0
-    #     #print(row1[id1][1][2], row2[id2][1][2])
-    #     if(row1[id1][1][2] < row2[id2][1][2]):
-    #         id1 += 1
-    #     else:
-    #         id2 += 1
-
-    #write the percetage of keys that have the correspoinding unique value mapping
-
-    #check if there exist a phrase in row2 that does not overlapps with any of val in row1 - this is not robust: if there exist one phrase that violates this condition, then this row would be not correct 
     
-    # for (p2,bb2) in row2:
-    #     valid = 0
-    #     for (p1,bb1) in row1:
-    #         if(is_overlap_vertically(bb2,bb1) == 1):
-    #             valid = 1
-    #             break
-    #     if(valid == 0):
-    #         return 0
     return 1
     
 def block_decider(rls):
@@ -589,21 +579,35 @@ def ILP_extract(predict_keys, row_mp, template_path, metadata):
     #pre-compute all C-alignments  
     row_align = {}
     for id1 in range(len(row_mp)):
-        for id2 in range(id1+1, len(row_mp)):
-            #print(row_labels[id1])
-            
-            if(row_labels[id1]['K'] >= 1):#only spend resources to align with key rows to speed up execution 
-                c = C_alignment(row_mp, id1, id2)
-            else:
-                c = C_alignment_no_LLM(row_mp, id1, id2)
-            if(row_labels[id1]['M'] >= 1):
-                #print(id1)
-                c = 0
-            if(row_labels[id1]['V'] >= 1):
-                c = 0
 
-            row_align[(id1,id2)] = c
-            row_align[(id2,id1)] = c
+        if(row_labels[id1]['M'] >= 1 or row_labels[id1]['V'] >= 1):
+            c = 0
+            for id2 in range(id1+1, len(row_mp)):
+                row_align[(id1,id2)] = c
+                row_align[(id2,id1)] = c
+        else:
+            if(row_labels[id1]['K'] >= 1):
+                locality = 0
+                for id2 in range(id1+1, len(row_mp)):
+                    if(row_labels[id2]['K'] >= 1):#enforce locality
+                        c = 0
+                        locality = 1
+                    else:
+                        if(locality == 1):
+                            c = 0
+                        else:
+                            c = C_alignment(row_mp, id1, id2)
+                    row_align[(id1,id2)] = c
+                    row_align[(id2,id1)] = c
+            else:
+                for id2 in range(id1+1, len(row_mp)):
+                    c = C_alignment_no_LLM(row_mp, id1, id2)
+                    row_align[(id1,id2)] = c
+                    row_align[(id2,id1)] = c
+
+            
+
+            
 
     #print(row_align[(3,4)])
     #LP formulation to learn row label assignment
@@ -710,8 +714,8 @@ def template_learn(blk, blk_type, row_mp):
     else:
         new_node['type'] = 'kv'
         new_node['child'] = -1
-        kv_fields += node['fields']
-        kv_bids.append(node['bid'])
+        kv_fields += pre_node['fields']
+        kv_bids.append(pre_node['bid'])
     
     for i in range(1,len(nodes)):
         node = nodes[i]
