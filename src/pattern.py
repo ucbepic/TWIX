@@ -1097,7 +1097,7 @@ def headers_smooth(row_labels, row_mp, k = 3, delta = 0.001):
             row_phrases = []
             for item in row_mp[id]:
                 row_phrases.append(item[0])
-            add_metadata_row()
+            add_metadata_row(row_phrases)
     return row_labels
 
 
