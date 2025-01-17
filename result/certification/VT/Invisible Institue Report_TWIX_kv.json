@@ -32,8 +32,24 @@
                 ]
             },
             {
+                "type": "table",
+                "content": []
+            },
+            {
                 "type": "kv",
                 "content": [
+                    {
+                        "VT State Police": "missing"
+                    },
+                    {
+                        "Service": "2"
+                    },
+                    {
+                        "Years": "306"
+                    },
+                    {
+                        "Days": "missing"
+                    },
                     {
                         "Date": "10-16-2016"
                     },
@@ -44,25 +60,43 @@
                         "Status": "Active"
                     },
                     {
+                        "Full-time": "missing"
+                    },
+                    {
                         "Assignment": "St Albans Barracks"
                     },
                     {
                         "Pos/Rank": "Sergeant"
-                    },
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
                     {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
-                    {
-                        "Shift": "missing"
+                        "Level": "Franklin County Sheriff's Department",
+                        "Class": "missing"
                     }
                 ]
             },
             {
                 "type": "kv",
                 "content": [
+                    {
+                        "Shift": "missing"
+                    },
+                    {
+                        "VT State Police": "missing"
+                    },
+                    {
+                        "Service": "3"
+                    },
+                    {
+                        "Years": "151"
+                    },
+                    {
+                        "Days": "missing"
+                    },
                     {
                         "Date": "5-19-2013"
                     },
@@ -86,12 +120,19 @@
                     },
                     {
                         "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
+                    },
+                    {
+                        "VT State Police": "missing"
+                    },
+                    {
+                        "Service": "1"
+                    },
+                    {
+                        "Years": "183"
+                    },
+                    {
+                        "Days": "missing"
+                    },
                     {
                         "Date": "11-18-2011"
                     },
@@ -114,13 +155,17 @@
                         "Class": "Full-Time"
                     },
                     {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
+                        "Shift": "Grafton Fire & Rescue"
+                    },
+                    {
+                        "Service": "11"
+                    },
+                    {
+                        "Years": "109"
+                    },
+                    {
+                        "Days": "missing"
+                    },
                     {
                         "Date": "5-01-2008"
                     },
@@ -135,21 +180,40 @@
                     },
                     {
                         "Pos/Rank": "missing"
-                    },
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
                     {
-                        "Level": "missing"
-                    },
-                    {
+                        "Level": "Dustin",
                         "Class": "missing"
                     },
                     {
-                        "Shift": "missing"
+                        "Level": "Certification",
+                        "Class": "missing"
                     }
                 ]
             },
             {
                 "type": "kv",
                 "content": [
+                    {
+                        "Shift": "missing"
+                    },
+                    {
+                        "VT State Police": "missing"
+                    },
+                    {
+                        "Service": "15"
+                    },
+                    {
+                        "Years": "28"
+                    },
+                    {
+                        "Days": "missing"
+                    },
                     {
                         "Date": "10-21-1996"
                     },
@@ -173,12 +237,7 @@
                     },
                     {
                         "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
+                    },
                     {
                         "Date": "10-21-1996"
                     },
@@ -193,15 +252,6 @@
                     },
                     {
                         "Pos/Rank": "Deputy"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "missing"
-                    },
-                    {
-                        "Shift": "missing"
                     }
                 ]
             }
@@ -209,69 +259,6 @@
     },
     {
         "id": 1,
-        "content": [
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "7-01-1994"
-                    },
-                    {
-                        "Action": "Appointed"
-                    },
-                    {
-                        "Status": "Active"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Corporal"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Full-Time"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "4-27-1993"
-                    },
-                    {
-                        "Action": "Appointed"
-                    },
-                    {
-                        "Status": "Active"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Deputy"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Part-Time"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 2,
         "content": [
             {
                 "type": "table",
@@ -299,187 +286,29 @@
                         "Expires": "missing",
                         "Probation": "missing",
                         "Cert #": "DJA1121"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "1-01-2012"
                     },
                     {
-                        "Action": "Promotion"
+                        "Date": "Acevedo,",
+                        "Status": "Eric",
+                        "Certified": "missing",
+                        "Expires": "missing",
+                        "Probation": "missing",
+                        "Cert #": "missing"
                     },
                     {
-                        "Status": "Active"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Sergeant"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level II-S"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "1-12-2010"
-                    },
-                    {
-                        "Action": "Resigned"
-                    },
-                    {
-                        "Status": "Inactive"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Patrol Officer"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level II"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "7-01-2009"
-                    },
-                    {
-                        "Action": "Appointed"
-                    },
-                    {
-                        "Status": "Active"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Deputy"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Part-Time"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "7-18-2008"
-                    },
-                    {
-                        "Action": "Terminated"
-                    },
-                    {
-                        "Status": "Inactive"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Deputy"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Part-Time"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "4-15-2008"
-                    },
-                    {
-                        "Action": "Appointed"
-                    },
-                    {
-                        "Status": "Active"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Patrol Officer"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Full-Time"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "1-28-2007"
-                    },
-                    {
-                        "Action": "Appointed"
-                    },
-                    {
-                        "Status": "Active"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Deputy"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Part-Time"
-                    },
-                    {
-                        "Shift": "missing"
+                        "Date": "Certification",
+                        "Status": "missing",
+                        "Certified": "missing",
+                        "Expires": "missing",
+                        "Probation": "missing",
+                        "Cert #": "missing"
                     }
                 ]
             }
         ]
     },
     {
-        "id": 3,
+        "id": 2,
         "content": [
             {
                 "type": "table",
@@ -495,8 +324,35 @@
                 ]
             },
             {
+                "type": "table",
+                "content": [
+                    {
+                        "Level": "Benjamin",
+                        "Class": "missing",
+                        "Level III": "missing"
+                    },
+                    {
+                        "Level": "Certification",
+                        "Class": "missing",
+                        "Level III": "missing"
+                    }
+                ]
+            },
+            {
                 "type": "kv",
                 "content": [
+                    {
+                        "VT State Police": "missing"
+                    },
+                    {
+                        "Service": "missing"
+                    },
+                    {
+                        "Years": "217"
+                    },
+                    {
+                        "Days": "missing"
+                    },
                     {
                         "Date": "1-14-2019"
                     },
@@ -507,26 +363,20 @@
                         "Status": "Active"
                     },
                     {
+                        "Full-time": "missing"
+                    },
+                    {
                         "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Trooper"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
-                    {
-                        "Shift": "missing"
                     }
                 ]
             }
         ]
     },
     {
-        "id": 4,
+        "id": 3,
         "content": [
             {
                 "type": "table",
@@ -550,8 +400,21 @@
                 ]
             },
             {
+                "type": "table",
+                "content": []
+            },
+            {
                 "type": "kv",
                 "content": [
+                    {
+                        "Service": "missing"
+                    },
+                    {
+                        "Years": "86"
+                    },
+                    {
+                        "Days": "missing"
+                    },
                     {
                         "Date": "5-25-2019"
                     },
@@ -566,21 +429,28 @@
                     },
                     {
                         "Pos/Rank": "Patrol Officer"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
-                    {
-                        "Shift": "missing"
                     }
                 ]
             },
             {
+                "type": "table",
+                "content": []
+            },
+            {
                 "type": "kv",
                 "content": [
+                    {
+                        "Shift": "VT Dept. of Liquor Control"
+                    },
+                    {
+                        "Service": "missing"
+                    },
+                    {
+                        "Years": "117"
+                    },
+                    {
+                        "Days": "missing"
+                    },
                     {
                         "Date": "4-24-2019"
                     },
@@ -591,25 +461,51 @@
                         "Status": "Active"
                     },
                     {
+                        "Full-time": "missing"
+                    },
+                    {
                         "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Investigator"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Level": "Vergennes Police Department",
+                        "Class": "missing",
+                        "Level III": "missing"
                     },
                     {
-                        "Level": "missing"
+                        "Level": "Jerod",
+                        "Class": "missing",
+                        "Level III": "missing"
                     },
                     {
-                        "Class": "Level III"
-                    },
-                    {
-                        "Shift": "missing"
+                        "Level": "Certification",
+                        "Class": "missing",
+                        "Level III": "missing"
                     }
                 ]
             },
             {
                 "type": "kv",
                 "content": [
+                    {
+                        "Shift": "Winooski Police Department"
+                    },
+                    {
+                        "Service": "12"
+                    },
+                    {
+                        "Years": "307"
+                    },
+                    {
+                        "Days": "missing"
+                    },
                     {
                         "Date": "7-23-2006"
                     },
@@ -624,80 +520,13 @@
                     },
                     {
                         "Pos/Rank": "Patrol Officer"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "4-01-2006"
-                    },
-                    {
-                        "Action": "Terminated"
-                    },
-                    {
-                        "Status": "Inactive"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Patrol Officer"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Part-Time"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "11-11-2005"
-                    },
-                    {
-                        "Action": "Appointed"
-                    },
-                    {
-                        "Status": "Active"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Patrol Officer"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Part-Time"
-                    },
-                    {
-                        "Shift": "missing"
                     }
                 ]
             }
         ]
     },
     {
-        "id": 5,
+        "id": 4,
         "content": [
             {
                 "type": "table",
@@ -721,6 +550,10 @@
                 ]
             },
             {
+                "type": "table",
+                "content": []
+            },
+            {
                 "type": "kv",
                 "content": [
                     {
@@ -733,25 +566,35 @@
                         "Status": "Inactive"
                     },
                     {
+                        "Full-time": "missing"
+                    },
+                    {
                         "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
-                    {
-                        "Shift": "missing"
                     }
                 ]
             },
             {
+                "type": "table",
+                "content": []
+            },
+            {
                 "type": "kv",
                 "content": [
+                    {
+                        "Shift": "Chittenden County Sheriff's Department"
+                    },
+                    {
+                        "Service": "missing"
+                    },
+                    {
+                        "Years": "206"
+                    },
+                    {
+                        "Days": "missing"
+                    },
                     {
                         "Date": "1-25-2019"
                     },
@@ -762,25 +605,46 @@
                         "Status": "Active"
                     },
                     {
+                        "Full-time": "missing"
+                    },
+                    {
                         "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Level": "Jonathan",
+                        "Class": "missing",
+                        "Level III": "missing"
                     },
                     {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
-                    {
-                        "Shift": "missing"
+                        "Level": "Certification",
+                        "Class": "missing",
+                        "Level III": "missing"
                     }
                 ]
             },
             {
                 "type": "kv",
                 "content": [
+                    {
+                        "Shift": "Franklin County Sheriff's Department"
+                    },
+                    {
+                        "Service": "10"
+                    },
+                    {
+                        "Years": "180"
+                    },
+                    {
+                        "Days": "missing"
+                    },
                     {
                         "Date": "8-04-2008"
                     },
@@ -791,55 +655,20 @@
                         "Status": "Active"
                     },
                     {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Deputy"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "3-18-2008"
-                    },
-                    {
-                        "Action": "Appointed"
-                    },
-                    {
-                        "Status": "Active"
+                        "Full-time": "missing"
                     },
                     {
                         "Assignment": "missing"
                     },
                     {
                         "Pos/Rank": "Deputy"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Part-Time"
-                    },
-                    {
-                        "Shift": "missing"
                     }
                 ]
             }
         ]
     },
     {
-        "id": 6,
+        "id": 5,
         "content": [
             {
                 "type": "table",
@@ -863,8 +692,32 @@
                 ]
             },
             {
+                "type": "table",
+                "content": [
+                    {
+                        "Level": "Windsor County Sheriff's Department",
+                        "Class": "missing",
+                        "Level III": "missing"
+                    },
+                    {
+                        "Level": "Hartford Police Department",
+                        "Class": "missing",
+                        "Level III": "missing"
+                    }
+                ]
+            },
+            {
                 "type": "kv",
                 "content": [
+                    {
+                        "Service": "5"
+                    },
+                    {
+                        "Years": "62"
+                    },
+                    {
+                        "Days": "missing"
+                    },
                     {
                         "Date": "6-17-2014"
                     },
@@ -879,160 +732,6 @@
                     },
                     {
                         "Pos/Rank": "Sergeant"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "10-23-2011"
-                    },
-                    {
-                        "Action": "Appointed"
-                    },
-                    {
-                        "Status": "Active"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Patrol Officer"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Full-Time"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "10-20-2011"
-                    },
-                    {
-                        "Action": "Resigned"
-                    },
-                    {
-                        "Status": "Inactive"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Deputy"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Part-Time"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "4-19-2011"
-                    },
-                    {
-                        "Action": "Appointed"
-                    },
-                    {
-                        "Status": "Active"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Deputy"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Full-Time"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "2-18-2011"
-                    },
-                    {
-                        "Action": "Resigned"
-                    },
-                    {
-                        "Status": "Inactive"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Patrol Officer"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Full-Time"
-                    },
-                    {
-                        "Shift": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "kv",
-                "content": [
-                    {
-                        "Date": "11-25-2009"
-                    },
-                    {
-                        "Action": "Appointed"
-                    },
-                    {
-                        "Status": "Active"
-                    },
-                    {
-                        "Assignment": "missing"
-                    },
-                    {
-                        "Pos/Rank": "Patrol Officer"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Full-Time"
-                    },
-                    {
-                        "Shift": "missing"
                     }
                 ]
             }

@@ -1,17 +1,5 @@
 {
     "node0": {
-        "type": "kv",
-        "child": 5,
-        "fields": [
-            "Date",
-            "Status",
-            "Action"
-        ],
-        "bid": [
-            14
-        ]
-    },
-    "node1": {
         "type": "table",
         "fields": [
             "Date",
@@ -26,26 +14,26 @@
         ],
         "child": -1
     },
-    "node2": {
+    "node1": {
         "type": "kv",
         "fields": [
-            "Assignment",
-            "VT State Police",
-            "Years",
-            "Pos/Rank",
-            "Action",
-            "Days",
-            "Date",
             "Status",
             "Full-time",
-            "Service"
+            "Service",
+            "Action",
+            "Assignment",
+            "Date",
+            "Years",
+            "Days",
+            "Pos/Rank",
+            "VT State Police"
         ],
         "bid": [
             2
         ],
         "child": -1
     },
-    "node3": {
+    "node2": {
         "type": "table",
         "fields": [
             "Level",
@@ -55,26 +43,27 @@
         "bid": [
             3
         ],
-        "child": 4
+        "child": 3
     },
-    "node4": {
+    "node3": {
         "type": "kv",
         "fields": [
+            "Status",
             "Assignment",
-            "Shift",
-            "Pos/Rank",
             "Action",
-            "Class",
             "Date",
-            "Level",
-            "Status"
+            "Shift",
+            "Class",
+            "Pos/Rank",
+            "Level"
         ],
         "bid": [
+            4,
             5
         ],
         "child": -1
     },
-    "node5": {
+    "node4": {
         "type": "table",
         "fields": [
             "Level",

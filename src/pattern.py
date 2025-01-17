@@ -952,6 +952,7 @@ def block_seperation_pipeline(template, records, row_mp, metadata):
         blocks[i] = (blk, blk_type)
         # if(i >= 1):
         #     break
+
     return blocks
 
 
@@ -1002,7 +1003,33 @@ def block_seperation_based_on_template(rls, row_align, row_node_mp, template, re
             if(id + 1 < len(rls) and (rls[id+1] == 'K' or rls[id+1] == 'V')):#if next row is K or V, create a new block
                 bid += 1
 
-    return blk, blk_type
+    new_blk = {}
+    new_blk_type = {}
+    bids = []
+    new_bid = 0
+
+    if(blk_type[0] == 'table'):
+        new_blk[0] = blk[0] 
+        new_blk_type[0] = 'table'
+        new_bid += 1
+    else:
+        bids = blk[0]
+
+    for bid in range(1,len(blk)):
+        if(blk_type[bid] == 'table'):
+            new_blk[new_bid] = blk[bid]
+            new_blk_type[new_bid] = 'table'
+            new_bid += 1
+            if(blk_type[bid-1] == 'kv'):
+                new_blk[new_bid] = bids
+                new_blk_type[new_bid] = 'kv'
+                new_bid += 1
+                #reset 
+            bids = []
+        else:
+            bids += blk[bid] 
+
+    return new_blk, new_blk_type
 
 def location_alignment(row_mp, id1, id2):
     return row_aligned(row_mp[id1], row_mp[id2]) 
