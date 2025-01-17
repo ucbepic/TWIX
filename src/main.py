@@ -17,7 +17,7 @@ def scan_folder(path, filter_file_type = '.pdf'):
 
 if __name__ == "__main__":
     root_path = extract.get_root_path()
-    pdf_folder_path = root_path + '/data/raw/certification'
+    pdf_folder_path = root_path + '/data/raw'
     print(pdf_folder_path)
     pdfs = scan_folder(pdf_folder_path,'.pdf')
     for pdf_path in pdfs:
@@ -28,10 +28,12 @@ if __name__ == "__main__":
 
         #predict fields
         #key.key_prediction(pdf_path)
-        #predict the template and extract data
-        out_path = key.get_key_val_path(pdf_path, 'TWIX')
-        template_path = key.get_template_path(pdf_path)
         image_paths = key.get_image_path(pdf_path)
-        # #print(image_path)
-        pattern.kv_extraction(pdf_path, out_path, template_path, image_paths)
+        key.key_prediction(pdf_path, image_paths)
+        #predict the template and extract data
+        # out_path = key.get_key_val_path(pdf_path, 'TWIX')
+        # template_path = key.get_template_path(pdf_path)
+        
+        # # #print(image_path)
+        # pattern.kv_extraction(pdf_path, out_path, template_path, image_paths)
 

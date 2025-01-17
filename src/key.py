@@ -11,10 +11,21 @@ import tiktoken
 sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
 from model import model 
 model_name = 'gpt4o'
+vision_model_name = 'gpt4vision'
 # available_encodings = tiktoken.list_encoding_names()
 # print("Available encodings:", available_encodings)
 
 tokenizer = tiktoken.get_encoding("cl100k_base")
+
+
+def get_fields_by_LLM(image_paths):
+    #prompt = 'The given two images have common headers and footers in the top and bottem part of the image. Return only the raw headers and footers. Do not return other phrases. Do not add any explanations. '
+    prompt = 'Extract the set of keywords from the given two images. A keyword can be in the table header or in every key value pairs. Return the raw distinct keyword, seperated by |. Do not add explanations. Do not include headers or footers. Do not include other phrases like table values. ' 
+    
+    response = model(vision_model_name,prompt,image_paths)
+    fields = [phrase.strip() for phrase in response.split('|')]
+    print(fields) 
+    return fields 
 
 def token_size(text):
     tokens = tokenizer.encode(text)
@@ -204,12 +215,10 @@ def phrase_filter_LLMs(l):#l is the list of phrases in the cluster
     return response 
 
 
-def candidate_key_clusters_selection(clusters):
+def candidate_key_clusters_selection(clusters, LLM_fields):
     #clusters: cid -> [list of phrases]
     
     cids = []
-    input_size = 0
-    output_size = 0
     out = []
     cids = []
     for cid, l in clusters.items():
@@ -220,8 +229,16 @@ def candidate_key_clusters_selection(clusters):
         fields = clean_phrases(response, l)
         lst = result_gen_from_response(response, l)
         p, w = mean_confidence_interval(lst)
-        #print(fields, p, w)
-        if(p > 0.5 and w < 0.5):
+        print(cid, l)
+        print(fields, p, w)
+
+        match = 0
+        for f in fields:
+            if(f in LLM_fields):
+                match = 1
+                break
+        
+        if(match == 1 or (p > 0.5 and w < 0.5)):
             out += fields
             cids.append(cid)
 
@@ -375,9 +392,10 @@ def key_prediction_pipeline(data_folder):
         if('id_12.pdf' in path):
             key_prediction(path)
 
-def key_prediction(pdf_path):
-    result_path = get_result_path(pdf_path)
+def key_prediction(pdf_path,image_paths):
     extracted_path = get_extracted_path(pdf_path)
+    raw_phrases = read_file(extracted_path)
+    raw_phrases = set(raw_phrases)
     #print(extracted_path)
 
     # #generate reading order vector
@@ -389,24 +407,37 @@ def key_prediction(pdf_path):
     #predict keys
     phrases = relative_locations
 
+    LLM_fields = get_fields_by_LLM(image_paths)
+    #LLM_fields = set(LLM_fields).difference(raw_phrases)
+    LLM_fields = set(LLM_fields).intersection(raw_phrases)
+
+    #print(LLM_fields)
+
     print('perfect match starts...')
     mp, remap = perfect_align_clustering(phrases)
-    #print(remap)
+    print(remap)
 
     print('cluster pruning starts...')
-    fields, cluster_ids = candidate_key_clusters_selection(remap)
+    fields, cluster_ids = candidate_key_clusters_selection(remap,LLM_fields)
 
-    # print(candidate_key_clusters)
+    print(fields)
+    print(cluster_ids)
 
     print('re-clustering starts...')
     added_clusters = clustering_group(phrases, remap, cluster_ids, k=1)
     additional_fields = get_keys(remap, added_clusters)
-    # print(fields)
-    # print(additional_fields)
+    additional_fields = list(LLM_fields.intersection(set(additional_fields)))
+    print(fields)
+    print(additional_fields)
     fields += additional_fields
+
+    #add additional LLM fields back 
+    # additional_LLM_fields = list(LLM_fields.difference(set(fields)))
+    # print(additional_LLM_fields)
+    # fields += additional_LLM_fields
     
     #write result
-    write_result(result_path,fields)
+    #write_result(result_path,fields)
 
 
     
