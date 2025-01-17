@@ -1084,7 +1084,7 @@ def seperate_rows(pv):
 
     return row_mp
 
-def headers_smooth(row_labels, k = 3, delta = 0.001):
+def headers_smooth(row_labels, row_mp, k = 3, delta = 0.001):
     #for first 3 rows, if before and after are M, then its label is also M
     for id in range(1,k):
         if(row_labels[id-1]['M'] == 1 and row_labels[id+1]['M'] == 1):
@@ -1092,6 +1092,12 @@ def headers_smooth(row_labels, k = 3, delta = 0.001):
             row_labels[id]['K'] = delta
             row_labels[id]['V'] = delta
             row_labels[id]['KV'] = delta
+
+            #add this row to metadata 
+            row_phrases = []
+            for item in row_mp[id]:
+                row_phrases.append(item[0])
+            add_metadata_row()
     return row_labels
 
 
@@ -1105,7 +1111,7 @@ def get_row_probabilities(predict_keys, row_mp, metadata):
         row_labels[row_id] = row_label_prediction(row, predict_keys, metadata)
 
     #headers smooth 
-    row_labels = headers_smooth(row_labels)
+    row_labels = headers_smooth(row_labels, row_mp)
 
     labels = row_label_LLM_refine(row_labels, row_mp)
     #print_rows(row_mp, labels)
