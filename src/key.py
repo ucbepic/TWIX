@@ -437,7 +437,8 @@ def key_prediction(pdf_path,image_paths):
     # fields += additional_LLM_fields
     
     #write result
-    #write_result(result_path,fields)
+    result_path = get_result_path(pdf_path)
+    write_result(result_path,fields)
 
 
     

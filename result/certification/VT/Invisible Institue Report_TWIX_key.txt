@@ -7,13 +7,17 @@ Page
 Employee
 History
 Employee training
+Certification
+Expires
+Probation
 Service
-Years
-Days
 Active
 Pos/Rank
 Level
 Class
+Status
+Certified
 Action
+Date
 Assignment
 Shift

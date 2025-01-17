@@ -29,11 +29,11 @@ if __name__ == "__main__":
         #predict fields
         #key.key_prediction(pdf_path)
         image_paths = key.get_image_path(pdf_path)
-        key.key_prediction(pdf_path, image_paths)
+        #key.key_prediction(pdf_path, image_paths)
         #predict the template and extract data
-        # out_path = key.get_key_val_path(pdf_path, 'TWIX')
-        # template_path = key.get_template_path(pdf_path)
+        out_path = key.get_key_val_path(pdf_path, 'TWIX')
+        template_path = key.get_template_path(pdf_path)
         
-        # # #print(image_path)
-        # pattern.kv_extraction(pdf_path, out_path, template_path, image_paths)
+        # #print(image_path)
+        pattern.kv_extraction(pdf_path, out_path, template_path, image_paths)
 

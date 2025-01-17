@@ -685,24 +685,81 @@ def template_learn(blk, blk_type, row_mp):
             if(n['fields'] == fields and n['type'] == type):
                 duplicate = 1
                 break
+            if(n['type'] == type and type == 'kv' and set(fields).issubset(n['fields']) == True):
+                duplicate = 1
+                break
+
         if(duplicate == 1):
             continue
         nodes.append(node)
 
-    #second pass: add edges 
-    for i in range(len(nodes)):
-        for j in range(i+1,len(nodes)):
-            bid_i = nodes[i]['bid']
-            bid_j = nodes[j]['bid']
-            rows_i = blk[bid_i]
-            rows_j = blk[bid_j]
-            print(rows_i,rows_j)
-            if(rows_i[-1] > rows_j[0]):#data blocks overlapping
-                nodes[i]['child'] = j
+    #second pass: merge consecutive kv nodes 
+    new_nodes = []
+    pre_node = nodes[0]
+    new_node = {}
+    kv_fields = []
+    kv_bids = []
+    if(pre_node['type'] == 'table'):
+        new_node['type'] = 'table'
+        new_node['fields'] = pre_node['fields']
+        new_node['bid'] = [pre_node['bid']]
+        new_node['child'] = pre_node['child']
+        new_nodes.append(new_node)
+        new_node = {}
+    else:
+        new_node['type'] = 'kv'
+        new_node['child'] = -1
+        kv_fields += node['fields']
+        kv_bids.append(node['bid'])
+    
+    for i in range(1,len(nodes)):
+        node = nodes[i]
+        
+        if(node['type'] == 'table'):
+            if(pre_node['type'] == 'table'):
+                new_node['type'] = 'table'
+                new_node['fields'] = node['fields']
+                new_node['bid'] = [node['bid']]
+                new_node['child'] = node['child']
+                new_nodes.append(new_node)
+                new_node = {}
+            else:#end the consecutive kv nodes 
+                new_node['fields'] = list(set(kv_fields))
+                new_node['bid'] = kv_bids
+                new_node['child'] = -1
+                new_nodes.append(new_node)
+                #reset node 
+                new_node = {}
+                kv_fields = []
+                kv_bids = []
+        else:
+            new_node['type'] = 'kv'
+            kv_fields += node['fields']
+            kv_bids.append(node['bid'])
+            if(i == len(nodes)-1):#process last kv node if exist
+                new_node['fields'] = list(set(kv_fields))
+                new_node['bid'] = kv_bids
+                new_node['child'] = -1
+                new_nodes.append(new_node)
+        pre_node = node
+    
+    print(new_nodes)
 
-    for node in nodes:
+    #third pass: add edges 
+    for i in range(len(new_nodes)):
+        for j in range(i+1,len(new_nodes)):
+            #print(new_nodes[i]['bid'],new_nodes[j]['bid'])
+            bid_i = new_nodes[i]['bid'][-1]#last block 
+            bid_j = new_nodes[j]['bid'][0]#first block
+            rows_i = blk[bid_i]
+            rows_j = blk[bid_j]  
+            #print(rows_i,rows_j)
+            if(rows_i[-1] > rows_j[0]):#data blocks overlapping
+                new_nodes[i]['child'] = j
+
+    for node in new_nodes:
         print(node)
-    return nodes
+    return new_nodes
 
 
 
@@ -1158,12 +1215,12 @@ def check_validity_per_row(label, row_id, row_tag, row_mp):
         return 0
 
 
-def row_label_prediction(row, predict_keys, metadata):
-
+def row_label_prediction(row, predict_keys, metadata, delta = 0.001):
+    label = {}
     #check if current row is a header or footer:
     row_phrases = []
-    label = {}
-    delta = 0.001
+    
+    
     for item in row:
         row_phrases.append(item[0])
     if(is_row_headers_or_footers(row_phrases, metadata) == 1):
@@ -1173,6 +1230,21 @@ def row_label_prediction(row, predict_keys, metadata):
         label['M'] = 1
         add_metadata_row(row_phrases)
         return label 
+    
+    #deal with special case where a row only has a value 
+    if(len(row) == 1):
+        p = row[0][0]
+        if(p in predict_keys):
+            label['K'] = 0.5 - delta
+            label['V'] = delta
+            label['KV'] = 0.5
+            label['M'] = delta
+        else:
+            label['K'] = delta
+            label['V'] = 0.5 - delta
+            label['KV'] = delta
+            label['M'] = 0.5
+        return label
 
     kvs = 0
     kks = 0 
