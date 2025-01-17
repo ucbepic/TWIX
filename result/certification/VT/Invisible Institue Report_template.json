@@ -2,16 +2,6 @@
     "node0": {
         "type": "table",
         "fields": [
-            "Certification"
-        ],
-        "bid": [
-            0
-        ],
-        "child": 2
-    },
-    "node1": {
-        "type": "table",
-        "fields": [
             "Date",
             "Status",
             "Certified",
@@ -24,21 +14,40 @@
         ],
         "child": -1
     },
+    "node1": {
+        "type": "kv",
+        "fields": [
+            "VT State Police",
+            "Full-time",
+            "Pos/Rank",
+            "Status",
+            "Days",
+            "Date",
+            "Action",
+            "Years",
+            "Assignment",
+            "Service"
+        ],
+        "bid": [
+            2
+        ],
+        "child": -1
+    },
     "node2": {
         "type": "kv",
         "fields": [
-            "Date",
-            "Action",
-            "Shift",
-            "Level",
             "Pos/Rank",
             "Status",
-            "Class",
-            "Assignment"
+            "Date",
+            "Shift",
+            "Action",
+            "Assignment",
+            "Level",
+            "Class"
         ],
         "bid": [
-            2,
-            3
+            4,
+            5
         ],
         "child": -1
     },
@@ -50,7 +59,7 @@
             "History"
         ],
         "bid": [
-            11
+            13
         ],
         "child": -1
     }

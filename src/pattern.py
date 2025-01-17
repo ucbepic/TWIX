@@ -591,8 +591,7 @@ def ILP_extract(predict_keys, row_mp, template_path, metadata):
     for id1 in range(len(row_mp)):
         for id2 in range(id1+1, len(row_mp)):
             #print(row_labels[id1])
-            if(id1 == 3):
-                c=1
+            
             if(row_labels[id1]['K'] >= 1):#only spend resources to align with key rows to speed up execution 
                 c = C_alignment(row_mp, id1, id2)
             else:
@@ -606,7 +605,7 @@ def ILP_extract(predict_keys, row_mp, template_path, metadata):
             row_align[(id1,id2)] = c
             row_align[(id2,id1)] = c
 
-    print(row_align[(3,4)])
+    #print(row_align[(3,4)])
     #LP formulation to learn row label assignment
     print('initial row labels and probs:')
     print_row_labels(row_mp, row_labels)
@@ -693,6 +692,8 @@ def template_learn(blk, blk_type, row_mp):
             continue
         nodes.append(node)
 
+    print('nodes before merging...')
+    print(nodes)
     #second pass: merge consecutive kv nodes 
     new_nodes = []
     pre_node = nodes[0]
@@ -724,9 +725,16 @@ def template_learn(blk, blk_type, row_mp):
                 new_nodes.append(new_node)
                 new_node = {}
             else:#end the consecutive kv nodes 
+                #add previous consecutive kv blocks 
                 new_node['fields'] = list(set(kv_fields))
                 new_node['bid'] = kv_bids
                 new_node['child'] = -1
+                new_nodes.append(new_node)
+                #add current table node 
+                new_node['type'] = 'table'
+                new_node['fields'] = node['fields']
+                new_node['bid'] = [node['bid']]
+                new_node['child'] = node['child']
                 new_nodes.append(new_node)
                 #reset node 
                 new_node = {}
@@ -743,6 +751,7 @@ def template_learn(blk, blk_type, row_mp):
                 new_nodes.append(new_node)
         pre_node = node
     
+    print('nodes after merging...')
     print(new_nodes)
 
     #third pass: add edges 
@@ -757,8 +766,7 @@ def template_learn(blk, blk_type, row_mp):
             if(rows_i[-1] > rows_j[0]):#data blocks overlapping
                 new_nodes[i]['child'] = j
 
-    for node in new_nodes:
-        print(node)
+    
     return new_nodes
 
 
@@ -1235,10 +1243,10 @@ def row_label_prediction(row, predict_keys, metadata, delta = 0.001):
     if(len(row) == 1):
         p = row[0][0]
         if(p in predict_keys):
-            label['K'] = 0.5 - delta
+            label['K'] = delta
             label['V'] = delta
             label['KV'] = 0.5
-            label['M'] = delta
+            label['M'] = 0.5 - delta
         else:
             label['K'] = delta
             label['V'] = 0.5 - delta
