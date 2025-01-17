@@ -726,11 +726,13 @@ def template_learn(blk, blk_type, row_mp):
                 new_node = {}
             else:#end the consecutive kv nodes 
                 #add previous consecutive kv blocks 
+                new_node['type'] = 'kv'
                 new_node['fields'] = list(set(kv_fields))
                 new_node['bid'] = kv_bids
                 new_node['child'] = -1
                 new_nodes.append(new_node)
                 #add current table node 
+                new_node = {}
                 new_node['type'] = 'table'
                 new_node['fields'] = node['fields']
                 new_node['bid'] = [node['bid']]
@@ -1084,6 +1086,14 @@ def seperate_rows(pv):
 
     return row_mp
 
+def get_row_from_row_mp(row_mp, id):
+    row_phrases = []
+    for item in row_mp[id]:
+        row_phrases.append(item[0])
+
+    return row_phrases
+
+
 def headers_smooth(row_labels, row_mp, k = 3, delta = 0.001):
     #for first 3 rows, if before and after are M, then its label is also M
     for id in range(1,k):
@@ -1094,10 +1104,29 @@ def headers_smooth(row_labels, row_mp, k = 3, delta = 0.001):
             row_labels[id]['KV'] = delta
 
             #add this row to metadata 
-            row_phrases = []
-            for item in row_mp[id]:
-                row_phrases.append(item[0])
-            add_metadata_row(row_phrases)
+            add_metadata_row(get_row_from_row_mp(row_mp, id))
+    
+    #for all other rows, if any of them is same as pre-identified metadata row, mark it as metadata row 
+
+    for id in range(len(row_labels)):
+        label = row_labels[id]
+        if(label['M'] == 1):
+            continue
+        for meta_row in metadata_rows:
+            row = get_row_from_row_mp(row_mp, id)
+            if(len(meta_row) == len(row)):
+                match = 1
+                for i in range(len(meta_row)):
+                    if(meta_row[i] != row[i]):
+                        match = 0
+                        break
+                if(match == 1):
+                    #mark current row as metadata row 
+                    row_labels[id]['M'] = 1
+                    row_labels[id]['K'] = delta
+                    row_labels[id]['V'] = delta
+                    row_labels[id]['KV'] = delta
+
     return row_labels
 
 

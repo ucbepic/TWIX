@@ -6,21 +6,6 @@
                 "type": "table",
                 "content": [
                     {
-                        "07:41AM": "Aamodt,",
-                        "Employee": "missing",
-                        "History": "missing"
-                    },
-                    {
-                        "07:41AM": "Certification",
-                        "Employee": "missing",
-                        "History": "missing"
-                    }
-                ]
-            },
-            {
-                "type": "table",
-                "content": [
-                    {
                         "Date": "7-01-2015",
                         "Status": "Certified",
                         "Certified": "11-18-1994",
@@ -78,13 +63,16 @@
                     },
                     {
                         "Pos/Rank": "Sergeant"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": []
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Shift": "missing"
                     },
@@ -183,13 +171,21 @@
                     },
                     {
                         "Pos/Rank": "missing"
-                    },
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
                     {
-                        "Level": "missing"
-                    },
-                    {
+                        "Level": "Franklin County Sheriff's Department",
                         "Class": "missing"
-                    },
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Shift": "missing"
                     },
@@ -232,21 +228,106 @@
                 ]
             },
             {
-                "type": "table",
-                "content": []
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "10-21-1996"
+                    },
+                    {
+                        "Action": "Terminated (Not Specified)"
+                    },
+                    {
+                        "Status": "Inactive"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Deputy"
+                    }
+                ]
             },
             {
                 "type": "table",
                 "content": [
                     {
-                        "07:41AM": "Abell,",
-                        "Employee": "missing",
-                        "History": "missing"
+                        "Level": "Dustin",
+                        "Class": "missing"
                     },
                     {
-                        "07:41AM": "Certification",
-                        "Employee": "missing",
-                        "History": "missing"
+                        "Level": "Certification",
+                        "Class": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Service": "2"
+                    },
+                    {
+                        "Years": "113"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "7-01-1994"
+                    },
+                    {
+                        "Action": "Appointed"
+                    },
+                    {
+                        "Status": "Active"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Corporal"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Full-Time"
+                    },
+                    {
+                        "Shift": "Franklin County Sheriff's Department"
+                    },
+                    {
+                        "Service": "1"
+                    },
+                    {
+                        "Years": "65"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "4-27-1993"
+                    },
+                    {
+                        "Action": "Appointed"
+                    },
+                    {
+                        "Status": "Active"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Deputy"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Part-Time"
+                    },
+                    {
+                        "Shift": "missing"
                     }
                 ]
             }
@@ -281,6 +362,22 @@
                         "Expires": "missing",
                         "Probation": "missing",
                         "Cert #": "DJA1121"
+                    },
+                    {
+                        "Date": "Acevedo,",
+                        "Status": "Eric",
+                        "Certified": "missing",
+                        "Expires": "missing",
+                        "Probation": "missing",
+                        "Cert #": "missing"
+                    },
+                    {
+                        "Date": "Certification",
+                        "Status": "missing",
+                        "Certified": "missing",
+                        "Expires": "missing",
+                        "Probation": "missing",
+                        "Cert #": "missing"
                     }
                 ]
             },
@@ -385,17 +482,97 @@
                 ]
             },
             {
-                "type": "table",
+                "type": "kv",
                 "content": [
                     {
-                        "07:41AM": "Acevedo,",
-                        "Employee": "missing",
-                        "History": "missing"
+                        "Date": "7-18-2008"
                     },
                     {
-                        "07:41AM": "Certification",
-                        "Employee": "missing",
-                        "History": "missing"
+                        "Action": "Terminated"
+                    },
+                    {
+                        "Status": "Inactive"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Deputy"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Part-Time"
+                    },
+                    {
+                        "Shift": "St. Albans Police Department"
+                    },
+                    {
+                        "Service": "1"
+                    },
+                    {
+                        "Years": "272"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "4-15-2008"
+                    },
+                    {
+                        "Action": "Appointed"
+                    },
+                    {
+                        "Status": "Active"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Patrol Officer"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Full-Time"
+                    },
+                    {
+                        "Shift": "Chittenden County Sheriff's Department"
+                    },
+                    {
+                        "Service": "1"
+                    },
+                    {
+                        "Years": "172"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "1-28-2007"
+                    },
+                    {
+                        "Action": "Appointed"
+                    },
+                    {
+                        "Status": "Active"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Deputy"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Part-Time"
+                    },
+                    {
+                        "Shift": "missing"
                     }
                 ]
             }
@@ -418,17 +595,60 @@
                 ]
             },
             {
+                "type": "kv",
+                "content": [
+                    {
+                        "VT State Police": "missing"
+                    },
+                    {
+                        "Service": "missing"
+                    },
+                    {
+                        "Years": "217"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "1-14-2019"
+                    },
+                    {
+                        "Action": "Hired"
+                    },
+                    {
+                        "Status": "Active"
+                    },
+                    {
+                        "Full-time": "missing"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Trooper"
+                    }
+                ]
+            },
+            {
                 "type": "table",
                 "content": [
                     {
-                        "07:41AM": "Adams,",
-                        "Employee": "missing",
-                        "History": "missing"
+                        "Level": "Benjamin",
+                        "Class": "missing",
+                        "Level III": "missing"
                     },
                     {
-                        "07:41AM": "Certification",
-                        "Employee": "missing",
-                        "History": "missing"
+                        "Level": "Certification",
+                        "Class": "missing",
+                        "Level III": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Shift": "missing"
                     }
                 ]
             }
@@ -484,13 +704,16 @@
                     },
                     {
                         "Pos/Rank": "Patrol Officer"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": []
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Shift": "VT Dept. of Liquor Control"
                     },
@@ -520,13 +743,16 @@
                     },
                     {
                         "Pos/Rank": "Investigator"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": []
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Shift": "Winooski Police Department"
                     },
@@ -553,15 +779,6 @@
                     },
                     {
                         "Pos/Rank": "Patrol Officer"
-                    },
-                    {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
-                    {
-                        "Shift": "missing"
                     }
                 ]
             },
@@ -569,14 +786,89 @@
                 "type": "table",
                 "content": [
                     {
-                        "07:41AM": "Adams,",
-                        "Employee": "missing",
-                        "History": "missing"
+                        "Level": "Vergennes Police Department",
+                        "Class": "missing",
+                        "Level III": "missing"
                     },
                     {
-                        "07:41AM": "Certification",
-                        "Employee": "missing",
-                        "History": "missing"
+                        "Level": "Jerod",
+                        "Class": "missing",
+                        "Level III": "missing"
+                    },
+                    {
+                        "Level": "Certification",
+                        "Class": "missing",
+                        "Level III": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Shift": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "4-01-2006"
+                    },
+                    {
+                        "Action": "Terminated"
+                    },
+                    {
+                        "Status": "Inactive"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Patrol Officer"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Part-Time"
+                    },
+                    {
+                        "Shift": "Vergennes Police Department"
+                    },
+                    {
+                        "Service": "missing"
+                    },
+                    {
+                        "Years": "142"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "11-11-2005"
+                    },
+                    {
+                        "Action": "Appointed"
+                    },
+                    {
+                        "Status": "Active"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Patrol Officer"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Part-Time"
+                    },
+                    {
+                        "Shift": "missing"
                     }
                 ]
             }
@@ -607,17 +899,159 @@
                 ]
             },
             {
+                "type": "kv",
+                "content": [
+                    {
+                        "Date": "1-31-2019"
+                    },
+                    {
+                        "Action": "Resigned"
+                    },
+                    {
+                        "Status": "Inactive"
+                    },
+                    {
+                        "Full-time": "missing"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Deputy"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": []
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Shift": "Chittenden County Sheriff's Department"
+                    },
+                    {
+                        "Service": "missing"
+                    },
+                    {
+                        "Years": "206"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "1-25-2019"
+                    },
+                    {
+                        "Action": "Hired"
+                    },
+                    {
+                        "Status": "Active"
+                    },
+                    {
+                        "Full-time": "missing"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Deputy"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": []
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Shift": "Franklin County Sheriff's Department"
+                    },
+                    {
+                        "Service": "10"
+                    },
+                    {
+                        "Years": "180"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "8-04-2008"
+                    },
+                    {
+                        "Action": "Appointed"
+                    },
+                    {
+                        "Status": "Active"
+                    },
+                    {
+                        "Full-time": "missing"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Deputy"
+                    }
+                ]
+            },
+            {
                 "type": "table",
                 "content": [
                     {
-                        "07:41AM": "Adams,",
-                        "Employee": "missing",
-                        "History": "missing"
+                        "Level": "Jonathan",
+                        "Class": "missing",
+                        "Level III": "missing"
                     },
                     {
-                        "07:41AM": "Certification",
-                        "Employee": "missing",
-                        "History": "missing"
+                        "Level": "Certification",
+                        "Class": "missing",
+                        "Level III": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Shift": "Franklin County Sheriff's Department"
+                    },
+                    {
+                        "Service": "missing"
+                    },
+                    {
+                        "Years": "140"
+                    },
+                    {
+                        "Days": "missing"
+                    },
+                    {
+                        "Date": "3-18-2008"
+                    },
+                    {
+                        "Action": "Appointed"
+                    },
+                    {
+                        "Status": "Active"
+                    },
+                    {
+                        "Assignment": "missing"
+                    },
+                    {
+                        "Pos/Rank": "Deputy"
+                    },
+                    {
+                        "Level": "missing"
+                    },
+                    {
+                        "Class": "Part-Time"
+                    },
+                    {
+                        "Shift": "missing"
                     }
                 ]
             }
@@ -673,13 +1107,27 @@
                     },
                     {
                         "Pos/Rank": "Sergeant"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Level": "Windsor County Sheriff's Department",
+                        "Class": "missing",
+                        "Level III": "missing"
                     },
                     {
-                        "Level": "missing"
-                    },
-                    {
-                        "Class": "Level III"
-                    },
+                        "Level": "Hartford Police Department",
+                        "Class": "missing",
+                        "Level III": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
                     {
                         "Shift": "Windsor Police Department"
                     },
