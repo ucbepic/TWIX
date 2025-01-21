@@ -1,19 +1,14 @@
-import json,os
+import json
 import extract
 import numpy as np
 import scipy.stats
 import sys
-import time 
-import networkx as nx
-from nltk.tokenize import word_tokenize
-import key 
 import tiktoken
-sys.path.append('/Users/yiminglin/Documents/Codebase/Pdf_reverse/')
+root_path = extract.get_root_path()
+sys.path.append(root_path)
 from model import model 
 model_name = 'gpt4o'
 vision_model_name = 'gpt4vision'
-# available_encodings = tiktoken.list_encoding_names()
-# print("Available encodings:", available_encodings)
 
 tokenizer = tiktoken.get_encoding("cl100k_base")
 

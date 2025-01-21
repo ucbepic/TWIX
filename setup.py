@@ -29,6 +29,7 @@ setup(
         "tiktoken",
         "Pillow",
         "pdf2image",
-        "gurobipy"
+        "gurobipy",
+        "openai"
     ],
 )

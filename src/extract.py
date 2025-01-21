@@ -5,10 +5,9 @@ import os
 import json
 import boto3
 import pandas as pd
-from PIL import Image, ImageDraw
+from PIL import Image
 from pdf2image import convert_from_path
 import os
-import key 
 import time 
 
 
