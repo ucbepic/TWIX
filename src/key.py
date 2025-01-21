@@ -385,9 +385,10 @@ def key_prediction_pipeline(data_folder):
     paths = extract.print_all_document_paths(data_folder)
     for path in paths:
         if('id_12.pdf' in path):
-            key_prediction(path)
+            predict_field(path)
 
-def key_prediction(pdf_path,image_paths):
+def predict_field(pdf_path):
+    image_paths = get_image_path(pdf_path)
     extracted_path = get_extracted_path(pdf_path)
     raw_phrases = read_file(extracted_path)
     raw_phrases = set(raw_phrases)

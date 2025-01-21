@@ -1451,13 +1451,13 @@ def data_extraction(records, blocks, row_mp, template):
     return out
 
 
-     
-
 def write_string(result_path, content):
     with open(result_path, 'w') as file:
         file.write(content)
 
-def kv_extraction(pdf_path, out_path, template_path, image_paths):
+def extract_data(pdf_path, out_path):
+    template_path = key.get_template_path(pdf_path)
+    image_paths = key.get_image_path(pdf_path)
     metadata_path = key.get_metadata_path(pdf_path)
     metadata= []
     #print(metadata_path)

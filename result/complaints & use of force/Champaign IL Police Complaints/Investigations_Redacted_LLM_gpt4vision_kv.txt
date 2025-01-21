@@ -1,4 +1,0 @@
-Date, Number, Investigator, Date Assigned, Racial Category / Type, Location Of Occurrence, Disposition, Completed, Recorded On Camera
-1/27/2008, 08-01, Swenson, Jon, 1/30/2008, No FORMAL, Not Stated, SUSTAINED, 2/7/2008, No
-2/24/2008, 08-02, Swan, Scott, 2/27/2008, No FORMAL, Not Stated, SUSTAINED, 3/17/2008, No
-3/5/2008, 08-03, Paulus, Michael, 3/10/2008, No FORMAL, Not Stated, NOT SUSTAINED, 4/28/2008, No

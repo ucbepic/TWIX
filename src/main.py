@@ -13,28 +13,29 @@ def scan_folder(path, filter_file_type = '.pdf'):
             file_names.append(file_name)
     return file_names
     
+def transform():
+    root_path = extract.get_root_path()
+    #print(root_path)
+    pdf_folder_path = root_path + '/data/raw'
+    print(pdf_folder_path)
+    pdfs = scan_folder(pdf_folder_path,'.pdf')
+    for pdf_path in pdfs:
+        if 'Invisible Institue Report' not in pdf_path:
+            continue
+
+        print(pdf_path)
+
+        #predict fields
+        
+        key.predict_field(pdf_path)
+        #predict the template and extract data
+        out_path = key.get_key_val_path(pdf_path, 'TWIX')
+        
+        
+        # #print(image_path)
+        pattern.extract_data(pdf_path, out_path)
 
 if __name__ == "__main__":
+    transform()
     
-    root_path = extract.get_root_path()
-    print(root_path)
-    # pdf_folder_path = root_path + '/data/raw'
-    # print(pdf_folder_path)
-    # pdfs = scan_folder(pdf_folder_path,'.pdf')
-    # for pdf_path in pdfs:
-    #     if 'Invisible Institue Report' not in pdf_path:
-    #         continue
-
-    #     print(pdf_path)
-
-    #     #predict fields
-    #     #key.key_prediction(pdf_path)
-    #     image_paths = key.get_image_path(pdf_path)
-    #     #key.key_prediction(pdf_path, image_paths)
-    #     #predict the template and extract data
-    #     out_path = key.get_key_val_path(pdf_path, 'TWIX')
-    #     template_path = key.get_template_path(pdf_path)
-        
-    #     # #print(image_path)
-    #     pattern.kv_extraction(pdf_path, out_path, template_path, image_paths)
 

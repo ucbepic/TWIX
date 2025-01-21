@@ -1,7 +1,0 @@
-Demurrage
-BarCode
-Size
-Delivery Code
-CO #
-Gas
-PO #CDLocation

@@ -271,7 +271,7 @@ def write_dict(path, d):
     with open(path, 'w') as json_file:
         json.dump(d, json_file)
 
-def phrase_extraction_pipeline_pdfplumber(data_folder, page_limit):
+def extract_phrase(data_folder, page_limit = 6):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         
@@ -445,7 +445,7 @@ if __name__ == "__main__":
     page_limit = 6 #number of page for data extraction
     
     #create_images_pipeline(data_folder,6)
-    phrase_extraction_pipeline_pdfplumber(data_folder, page_limit)
+    extract_phrase(data_folder)
 
     
     
