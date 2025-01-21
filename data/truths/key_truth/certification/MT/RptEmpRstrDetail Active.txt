@@ -1,9 +1,0 @@
-Name
-I.D.
-Sex
-Birth Date
-Age
-Employee Type
-Employee
-Instructor
-Supervisor
