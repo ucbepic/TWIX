@@ -13,6 +13,7 @@ if __name__ == "__main__":
 
     #phrases = twix.extract_phrase(pdf_paths)
     #fields = twix.predict_field(pdf_paths)
-    template = twix.predict_template(pdf_paths)
+    #template = twix.predict_template(pdf_paths)
+    extraction_objects = twix.extract_data(pdf_paths)
     
 

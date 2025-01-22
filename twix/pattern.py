@@ -418,8 +418,8 @@ def is_row_headers_or_footers_LLMs(row, metadata):
     instruction = 'Given the headers: ' + ','.join(metadata) + '. Decide whether the following row is a header:' + ','.join(row) + '. Return only yes or no. Do not add explanations. Note that a header row does not need to be exactly a substring of the given headers, and it is allowed to have extra phrases. It needs to be semantically a header. '  
     prompt = (instruction,'')
     response = model(model_name,prompt)
-    print(instruction)
-    print(response)
+    # print(instruction)
+    # print(response)
     if('yes' in response.lower()):
         return 1
     return 0
@@ -464,14 +464,14 @@ def refine_sample(row_mp):
         new_mp[id] = row_mp[id]
     return new_mp
 
-def predict_template_docs(phrases_bb, predict_labels, raw_phrases, template_path, metadata):
+def predict_template_docs(phrases_bb, predict_labels, raw_phrases, metadata):
     # print('fields...')
     # print(predict_labels)
     #get minimal set of phrases to learn template 
     phrases = template_learn_input_gen(raw_phrases, predict_labels)
     row_mp = create_row_representations(phrases, phrases_bb)
     row_mp = refine_sample(row_mp)
-    template = ILP_extract(predict_labels, row_mp, template_path, metadata)
+    template = ILP_extract(predict_labels, row_mp, metadata)
     return template
 
 def extract_data_per_doc(template, phrases_bb, raw_phrases, out_path, metadata):
@@ -481,6 +481,7 @@ def extract_data_per_doc(template, phrases_bb, raw_phrases, out_path, metadata):
     #seperate records based on template 
     print("Record seperation starts...")
     complete_row_mp = create_row_representations(raw_phrases, phrases_bb)
+    #print(len(complete_row_mp))
     records = record_seperation(template, complete_row_mp)
 
     # print('Records...')
@@ -563,7 +564,7 @@ def visit_node(node, row):
                 return 1
         return 0 
 
-def ILP_extract(predict_keys, row_mp, template_path, metadata):
+def ILP_extract(predict_keys, row_mp, metadata):
     #row_mp: row_id -> a list of (phrase, bb) in the current row
     row_labels = get_row_probabilities(predict_keys, row_mp, metadata)
 
@@ -613,17 +614,18 @@ def ILP_extract(predict_keys, row_mp, template_path, metadata):
 
     #learn template based on the data blocks 
     nodes = template_learn(blk, blk_type, row_mp)
-    write_template(nodes, template_path)
+    #write_template(nodes, template_path)
 
     return nodes
 
 def write_template(nodes,path):
-    template = {}
-    for i in range(len(nodes)):
-        node = nodes[i]
-        name = 'node'+str(i)
-        template[name] = node
-    write_json(template,path)
+    with open(path, "w") as file:
+        json.dump(nodes, file, indent=4)
+
+def read_template(file_path):
+    with open(file_path, "r") as file:
+        loaded_data = json.load(file)
+    return loaded_data
 
 def template_learn(blk, blk_type, row_mp):
     #blk: bid -> a list of row id
@@ -946,7 +948,7 @@ def block_seperation_pipeline(template, records, row_mp, metadata):
 def block_seperation_based_on_template(rls, row_align, row_node_mp, template, record):
     #row_align stores the global record id and rls stores the relative record id
     record_delta = record[0]
-    print(record_delta)
+    #print(record_delta)
     # print('row_node_mp:')
     # print(row_node_mp)
     #rls:list of row labels
@@ -1171,11 +1173,11 @@ def get_LLM_row_score(row_id, row_mp):
     for item in row_mp[row_id]:
         phrases.append(item[0])
     
-    print(phrases)
+    #print(phrases)
     #get the predicted keys in this row 
     response = key.phrase_filter_LLMs(phrases)
     fields = key.clean_phrases(response, phrases) 
-    print(fields)
+    #print(fields)
     field_score = len(fields)/len(phrases)
     value_score = 1-field_score
     #estimate KV socres, first construct KV pairs
@@ -1491,22 +1493,31 @@ def predict_template(data_files, result_folder = ''):
 
     print('Template-based data extraction starts...')
 
-    template = predict_template_docs(phrases_bb, keywords, phrases, template_path, metadata)
+    template = predict_template_docs(phrases_bb, keywords, phrases, metadata)
     write_template(template, template_path)
     return template
 
-def extract_data(data_files, result_folder = ''):
-    template = predict_template(data_files, result_folder)
+def extract_data(data_files, template = [], result_folder = ''):
+    #get result folder 
+    if(len(result_folder) == 0):
+        result_folder = extract.get_result_folder_path(data_files)
+
+    if(len(template) == 0):
+        #check if template exists in local file
+        #get template path
+        template_path = key.get_template_path(result_folder)
+        if os.path.isfile(template_path):
+            template = read_template(template_path)
+        else:
+            template = predict_template(data_files, result_folder)
 
     #get metadata 
-
     #get metadata path
     metadata_path = key.get_metadata_path(result_folder)
     #get image path
     image_paths = key.get_image_path(result_folder)
 
     metadata= []
-    #print(metadata_path)
     if(not os.path.isfile(metadata_path)):
         out = get_metadata(image_paths)
         metadata = [phrase.strip() for phrase in out.split('|')]
@@ -1524,6 +1535,13 @@ def extract_data(data_files, result_folder = ''):
         out_path = key.get_extracted_result_path(result_folder, data_file)
         phrases = read_file(text_path)#list of phrases
         phrases_bb = read_json(dict_path)#phrases with bounding boxes
+
+        # print(text_path)
+        # print(dict_path)
+        # print(out_path)
+        #print(len(template), len(phrases), len(phrases_bb), len(metadata))
+        print(template)
+
         extraction_object = extract_data_per_doc(template, phrases_bb, phrases, out_path, metadata)
         extraction_objects['data_file'] = extraction_object
 

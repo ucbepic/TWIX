@@ -1,5 +1,5 @@
-{
-    "node0": {
+[
+    {
         "type": "table",
         "fields": [
             "Date",
@@ -18,21 +18,23 @@
         ],
         "child": -1
     },
-    "node1": {
-        "type": "kv",
+    {
+        "type": "table",
         "fields": [
-            "Gender",
-            "H Phone",
-            "DOB",
             "Complainant",
-            "Address"
+            "DOB",
+            "Gender",
+            "FEMAL",
+            "Address",
+            "Terr, Champaign IL 61820",
+            "H Phone"
         ],
         "bid": [
             1
         ],
-        "child": -1
+        "child": 3
     },
-    "node2": {
+    {
         "type": "table",
         "fields": [
             "Type Of Complaint",
@@ -44,7 +46,7 @@
         ],
         "child": -1
     },
-    "node3": {
+    {
         "type": "table",
         "fields": [
             "Name",
@@ -60,4 +62,4 @@
         ],
         "child": -1
     }
-}
+]
