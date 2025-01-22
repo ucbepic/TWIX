@@ -17,17 +17,13 @@ setup(
     ],
     python_requires=">=3.6",  # Minimum Python version
     install_requires=[
-        "Levenshtein",
         "pytesseract",
         "pdfplumber",
         "boto3",
         "pandas",
         "numpy",
         "scipy",
-        "networkx",
-        "nltk",
         "tiktoken",
-        "Pillow",
         "pdf2image",
         "gurobipy",
         "openai"
