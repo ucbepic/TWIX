@@ -305,8 +305,10 @@ def merge_pdf(data_files, path):
     merger.write(out_path)
     merger.close()
 
-def extract_phrase_one_doc(data_file, text_path, dict_path, page_limit):
-    phrases, raw_phrases = phrase_extract_pdfplumber_new(data_file, page_limit)
+    return out_path
+
+def extract_phrase_one_doc(pdf_path, text_path, dict_path, page_limit):
+    phrases, raw_phrases = phrase_extract_pdfplumber_new(pdf_path, page_limit)
     adjusted_phrases = []
     for phrase in raw_phrases:
         adjusted_phrase,bbx = adjust_phrase_rules(phrase, [[],[],[]])
@@ -324,18 +326,19 @@ def extract_phrase(data_files, result_path = '', page_limit = 5):
     if(len(result_path) == 0):
         result_path = get_result_folder_path(data_files)
 
+    #print(result_path)
     # Create the folder if it does not exist
     if not os.path.exists(result_path):
         os.makedirs(result_path)
 
     # merge pdfs into one
-    merged_pdf = merge_pdf(data_files, result_path)
+    merged_pdf_path = merge_pdf(data_files, result_path)
 
     text_path = result_path + 'merged_phrases.txt' 
     dict_path = result_path + 'merged_phrases_bounding_box_page_number.json' 
 
     # extract prhases for merged pdfs
-    phrases, phrases_bounding_box_page_number = extract_phrase_one_doc(merged_pdf, text_path, dict_path, page_limit)
+    phrases, phrases_bounding_box_page_number = extract_phrase_one_doc(merged_pdf_path, text_path, dict_path, page_limit)
 
     phrases_out = {}
 
@@ -345,6 +348,7 @@ def extract_phrase(data_files, result_path = '', page_limit = 5):
         file_name = get_file_name(data_file)
         text_path = result_path + file_name + '_phrases.txt'
         dict_path = result_path + file_name + '_bounding_box_page_number.json' 
+        #print(data_file)
         phrases, phrases_bounding_box_page_number = extract_phrase_one_doc(data_file, text_path, dict_path, page_limit)
         phrases_out[file_name] = (phrases, phrases_bounding_box_page_number)
 
