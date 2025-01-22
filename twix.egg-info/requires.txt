@@ -1,14 +1,10 @@
-Levenshtein
 pytesseract
 pdfplumber
 boto3
 pandas
 numpy
 scipy
-networkx
-nltk
 tiktoken
-Pillow
 pdf2image
 gurobipy
 openai

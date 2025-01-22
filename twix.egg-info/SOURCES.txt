@@ -12,17 +12,6 @@ twix.egg-info/dependency_links.txt
 twix.egg-info/requires.txt
 twix.egg-info/top_level.txt
 twix/models/__init__.py
-twix/models/ai21_model.py
-twix/models/bert_model.py
-twix/models/flan_t5_base_model.py
-twix/models/flan_t5_large_model.py
-twix/models/flan_t5_small_model.py
-twix/models/gpt_35_azure.py
-twix/models/gpt_35_long.py
-twix/models/gpt_35_model.py
-twix/models/gpt_4_azure.py
-twix/models/gpt_4_long.py
-twix/models/gpt_4_model.py
 twix/models/gpt_4_vision.py
 twix/models/gpt_4o.py
 twix/models/gpt_4o_mini.py
