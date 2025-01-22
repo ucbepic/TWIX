@@ -1,0 +1,63 @@
+{
+    "node0": {
+        "type": "table",
+        "fields": [
+            "Date",
+            "Number",
+            "Investigator",
+            "Date Assigned",
+            "Racial",
+            "Category / Type",
+            "Location Of Occurrence",
+            "Disposition",
+            "Completed",
+            "Recorded On Camera"
+        ],
+        "bid": [
+            0
+        ],
+        "child": -1
+    },
+    "node1": {
+        "type": "kv",
+        "fields": [
+            "Gender",
+            "H Phone",
+            "DOB",
+            "Complainant",
+            "Address"
+        ],
+        "bid": [
+            1
+        ],
+        "child": -1
+    },
+    "node2": {
+        "type": "table",
+        "fields": [
+            "Type Of Complaint",
+            "Description",
+            "Complaint Disposition"
+        ],
+        "bid": [
+            2
+        ],
+        "child": -1
+    },
+    "node3": {
+        "type": "table",
+        "fields": [
+            "Name",
+            "ID No.",
+            "Rank",
+            "Division",
+            "Officer Disposition",
+            "Action Taken",
+            "Body Cam"
+        ],
+        "bid": [
+            3
+        ],
+        "child": -1
+    }
+}

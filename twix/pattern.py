@@ -596,24 +596,20 @@ def ILP_extract(predict_keys, row_mp, template_path, metadata):
                     row_align[(id1,id2)] = c
                     row_align[(id2,id1)] = c
 
-            
 
-            
-
-    #print(row_align[(3,4)])
     #LP formulation to learn row label assignment
-    print('initial row labels and probs:')
-    print_row_labels(row_mp, row_labels)
+    # print('initial row labels and probs:')
+    # print_row_labels(row_mp, row_labels)
 
     row_pred_labels = ILP_formulation(row_mp, row_labels, row_align)
 
-    print('labels after ILP:')
-    print(row_pred_labels)
+    # print('labels after ILP:')
+    # print(row_pred_labels)
     #seperate data blocks based on row labeling
     blk, blk_type = block_seperation(row_pred_labels, row_align)
 
-    print(blk)
-    print(blk_type)
+    # print(blk)
+    # print(blk_type)
 
     #learn template based on the data blocks 
     nodes = template_learn(blk, blk_type, row_mp)
@@ -1067,8 +1063,8 @@ def C_alignment(row_mp, id1, id2): #comprehensive alignment
         if(len2 > len1/2):
             return 1
         else:
-            print('LLM is called...')
-            print(id1,id2)
+            # print('LLM is called...')
+            # print(id1,id2)
             s_score = semantic_alignment(row_mp, id1, id2)
             if(s_score > 0.5):
                 return 1
@@ -1453,7 +1449,7 @@ def write_string(result_path, content):
 
 def predict_template(data_files, result_folder = ''):
     #get result folder 
-    if(len(extracted_path) == 0):
+    if(len(result_folder) == 0):
         result_folder = extract.get_result_folder_path(data_files)
 
     #get template path
@@ -1476,10 +1472,10 @@ def predict_template(data_files, result_folder = ''):
         meta_string = read_string(metadata_path)
         metadata = [phrase.strip() for phrase in meta_string.split('|')]
 
-    # print('Metadata...')
-    # print(metadata)
-
     extracted_path = key.get_merged_extracted_path(result_folder)
+
+    # print(extracted_path)
+    # print(key_path)
     
     if(not os.path.isfile(extracted_path)):
         return 
@@ -1496,7 +1492,7 @@ def predict_template(data_files, result_folder = ''):
     print('Template-based data extraction starts...')
 
     template = predict_template_docs(phrases_bb, keywords, phrases, template_path, metadata)
-
+    write_template(template, template_path)
     return template
 
 def extract_data(data_files, result_folder = ''):

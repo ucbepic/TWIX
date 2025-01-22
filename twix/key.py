@@ -52,7 +52,7 @@ def read_dict(file):
     return data 
 
 def get_metadata_path(result_folder):
-    return '_metadata.txt' 
+    return result_folder + 'metadata.txt' 
 
 def get_extracted_path(path, method = 'plumber'):
     path = path.replace('raw','extracted')
@@ -339,7 +339,7 @@ def get_key_val_path(raw_path, approach):
     return path
 
 def get_template_path(result_folder):
-    return result_folder +  '_template.json'
+    return result_folder +  'template.json'
 
 def get_image_path(target_folder):
     paths = []
