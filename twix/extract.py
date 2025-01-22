@@ -297,7 +297,7 @@ def merge_pdf(data_files, path):
         merger.append(pdf)
 
     # Define the output file path
-    output_pdf = "merged_output.pdf"
+    output_pdf = "merged.pdf"
 
     out_path = path + output_pdf
 

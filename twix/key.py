@@ -28,8 +28,6 @@ def token_size(text):
     return num_tokens
 
 def get_relative_locations(path):
-    #get raw phrases path
-    path = get_extracted_path(path)
     line_number = 0
     phrases = {}
     with open(path, 'r') as file:
@@ -334,10 +332,8 @@ def get_keys(cluters, key_clusters):
         keys += l
     return keys
 
-def get_result_path(raw_path, method = 'TWIX'):
-    path = raw_path.replace('data/raw','result')
-    path = path.replace('.pdf', '_' + method + '_key.txt')
-    return path
+def get_key_path(result_folder, method = 'twix'):
+    return result_folder + '_' + method + '_key.txt'
 
 def get_key_val_path(raw_path, approach):
     path = raw_path.replace('data/raw','result')
@@ -349,13 +345,12 @@ def get_template_path(raw_path):
     path = path.replace('.pdf', '_template.json')
     return path
 
-def get_image_path(raw_path):
+def get_image_path(target_folder):
     paths = []
-    path = raw_path.replace('raw','extracted')
-    path0 = path.replace('.pdf', '_image/0.jpg')
-    paths.append(path0)
-    path1 = path.replace('.pdf', '_image/1.jpg')
-    paths.append(path1)
+    path = target_folder + '_image/0.jpg'
+    paths.append(path)
+    path = target_folder + '_image/1.jpg'
+    paths.append(path)
     return paths
 
 def get_baseline_result_path(raw_path,baseline_name):
@@ -385,20 +380,25 @@ def key_prediction_pipeline(data_folder):
         if('id_12.pdf' in path):
             predict_field(path)
 
-def predict_field(pdf_path):
-    image_paths = get_image_path(pdf_path)
-    extracted_path = get_extracted_path(pdf_path)
+def predict_field(data_files, result_folder = ''):
+    if(len(extracted_path) == 0):
+        result_folder = extract.get_result_folder_path(data_files)
+        
+    extracted_path = result_folder + 'merged_phrases.txt'
+
+    #get image path
+    image_paths = get_image_path(extract.get_result_folder_path(data_files))
+
+
     raw_phrases = read_file(extracted_path)
     raw_phrases = set(raw_phrases)
     #print(extracted_path)
 
     # #generate reading order vector
-    relative_locations = get_relative_locations(pdf_path)
-    #print(relative_locations)
-    # reading_order_path = get_relative_location_path(extracted_path)
-    # #print(reading_order_path)
-    # #write_dict(reading_order_path, relative_locations)
+    relative_locations = get_relative_locations(extracted_path)
     #predict keys
+
+    print('field prediction starts...')
     phrases = relative_locations
 
     LLM_fields = get_fields_by_LLM(image_paths)
@@ -409,20 +409,20 @@ def predict_field(pdf_path):
 
     print('perfect match starts...')
     mp, remap = perfect_align_clustering(phrases)
-    print(remap)
+    #print(remap)
 
     print('cluster pruning starts...')
     fields, cluster_ids = candidate_key_clusters_selection(remap,LLM_fields)
 
-    print(fields)
-    print(cluster_ids)
+    # print(fields)
+    # print(cluster_ids)
 
     print('re-clustering starts...')
     added_clusters = clustering_group(phrases, remap, cluster_ids, k=1)
     additional_fields = get_keys(remap, added_clusters)
     additional_fields = list(LLM_fields.intersection(set(additional_fields)))
-    print(fields)
-    print(additional_fields)
+    # print(fields)
+    # print(additional_fields)
     fields += additional_fields
 
     #add additional LLM fields back 
@@ -431,8 +431,10 @@ def predict_field(pdf_path):
     # fields += additional_LLM_fields
     
     #write result
-    result_path = get_result_path(pdf_path)
+    result_path = get_key_path(result_folder)
     write_result(result_path,fields)
+
+    return fields
 
 
     
