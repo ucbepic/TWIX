@@ -1,4 +1,4 @@
-# src/__init__.py
+# twix/__init__.py
 
 from .key import predict_field
 from .pattern import extract_data

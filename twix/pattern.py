@@ -3,7 +3,7 @@ import key
 import math
 root_path = extract.get_root_path()
 sys.path.append(root_path)
-from model import model 
+from twix.model import model 
 from gurobipy import Model, GRB
 model_name = 'gpt4o'
 vision_model_name = 'gpt4vision'
