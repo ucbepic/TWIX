@@ -19,7 +19,7 @@ def get_fields_by_LLM(image_paths):
     
     response = model(vision_model_name,prompt,image_paths)
     fields = [phrase.strip() for phrase in response.split('|')]
-    print(fields) 
+    #print(fields) 
     return fields 
 
 def token_size(text):
@@ -220,8 +220,8 @@ def candidate_key_clusters_selection(clusters, LLM_fields):
         fields = clean_phrases(response, l)
         lst = result_gen_from_response(response, l)
         p, w = mean_confidence_interval(lst)
-        print(cid, l)
-        print(fields, p, w)
+        # print(cid, l)
+        # print(fields, p, w)
 
         match = 0
         for f in fields:
@@ -390,7 +390,7 @@ def predict_field(data_files, result_folder = ''):
         
     extracted_path = get_merged_extracted_path(result_folder)
 
-    print(extracted_path)
+    #print(extracted_path)
 
     #get image path
     image_paths = get_image_path(result_folder)
