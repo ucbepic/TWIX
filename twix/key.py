@@ -331,7 +331,7 @@ def get_keys(cluters, key_clusters):
     return keys
 
 def get_key_path(result_folder, method = 'twix'):
-    return result_folder + '_' + method + '_key.txt'
+    return result_folder + method + '_key.txt'
 
 def get_key_val_path(raw_path, approach):
     path = raw_path.replace('data/raw','result')
