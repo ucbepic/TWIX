@@ -1,5 +1,5 @@
-import key,extract,json,sys,math,os
-import key
+import json,sys,math,os
+from . import key, extract 
 import math
 root_path = extract.get_root_path()
 sys.path.append(root_path)

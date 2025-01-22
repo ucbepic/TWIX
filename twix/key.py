@@ -1,5 +1,5 @@
 import json
-import extract
+from . import extract
 import numpy as np
 import scipy.stats
 import sys
@@ -378,8 +378,6 @@ def get_truth_path(raw_path):
     path = raw_path.replace('raw','truths')
     path = path.replace('.pdf','.json')
     return path
-
-
 
 def key_prediction_pipeline(data_folder):
     paths = extract.print_all_document_paths(data_folder)

@@ -1,4 +1,4 @@
-import key, pattern, extract
+from . import key, pattern, extract
 import os 
 
 def scan_folder(path, filter_file_type = '.pdf'):

@@ -3,7 +3,6 @@ import pytesseract
 import pdfplumber
 import os 
 import json
-import boto3
 import pandas as pd
 from PIL import Image
 from pdf2image import convert_from_path
@@ -374,15 +373,6 @@ def pdf_2_image(path, page_num, out_folder):
         images[i] = images[i].save(out_path)
     return images
 
-def load_file_keys_aws():
-    keys = pd.read_csv('/Users/yiminglin/Documents/Codebase/credentials/textract_accessKeys.csv')
-    #load client
-    client = boto3.client('textract',
-                      region_name='us-west-1',
-                      aws_access_key_id=keys.iloc[0]['Access key ID'],
-                      aws_secret_access_key=keys.iloc[0]['Secret access key']
-                     )
-    return client
 
 
 

@@ -1,6 +1,5 @@
 pytesseract
 pdfplumber
-boto3
 pandas
 numpy
 scipy

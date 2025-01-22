@@ -19,7 +19,6 @@ setup(
     install_requires=[
         "pytesseract",
         "pdfplumber",
-        "boto3",
         "pandas",
         "numpy",
         "scipy",
