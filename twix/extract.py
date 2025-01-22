@@ -8,6 +8,7 @@ from PIL import Image
 from pdf2image import convert_from_path
 import os
 import time 
+from PyPDF2 import PdfMerger
 
 
 def is_valid_time(time_str):
@@ -270,7 +271,90 @@ def write_dict(path, d):
     with open(path, 'w') as json_file:
         json.dump(d, json_file)
 
-def extract_phrase(data_folder, page_limit = 6):
+def get_result_folder_path(data_files):
+    # Extract file names without extensions
+    file_names = [path.split('/')[-1].split('.')[0] for path in data_files]
+
+    # Join the names with an underscore and add .txt extension
+    output_folder_name = '_'.join(file_names)
+    root_path = get_root_path()
+    path = root_path + '/tests/out/' + output_folder_name + '/'
+
+    return path
+
+def get_file_name(data_file):
+    return os.path.splitext(os.path.basename(data_file))[0]
+
+def merge_pdf(data_files, path):
+    # Sort the files alphabetically by their file names
+    pdf_files_sorted = sorted(data_files, key=lambda x: os.path.basename(x))
+
+    # Create a PdfMerger object
+    merger = PdfMerger()
+
+    # Iterate through the sorted list and append each PDF to the merger
+    for pdf in pdf_files_sorted:
+        merger.append(pdf)
+
+    # Define the output file path
+    output_pdf = "merged_output.pdf"
+
+    out_path = path + output_pdf
+
+    # Write the merged PDF to the output file
+    merger.write(out_path)
+    merger.close()
+
+def extract_phrase_one_doc(data_file, text_path, dict_path, page_limit):
+    phrases, raw_phrases = phrase_extract_pdfplumber_new(data_file, page_limit)
+    adjusted_phrases = []
+    for phrase in raw_phrases:
+        adjusted_phrase,bbx = adjust_phrase_rules(phrase, [[],[],[]])
+        for p in adjusted_phrase:
+            if(len(p) == 0):
+                continue
+            adjusted_phrases.append(p)
+    
+    write_phrase(text_path, adjusted_phrases)
+    write_dict(dict_path, phrases)
+
+    return adjusted_phrases, phrases
+
+def extract_phrase(data_files, result_path = '', page_limit = 5):
+    if(len(result_path) == 0):
+        result_path = get_result_folder_path(data_files)
+
+    # Create the folder if it does not exist
+    if not os.path.exists(result_path):
+        os.makedirs(result_path)
+
+    # merge pdfs into one
+    merged_pdf = merge_pdf(data_files, result_path)
+
+    text_path = result_path + 'merged_phrases.txt' 
+    dict_path = result_path + 'merged_phrases_bounding_box_page_number.json' 
+
+    # extract prhases for merged pdfs
+    phrases, phrases_bounding_box_page_number = extract_phrase_one_doc(merged_pdf, text_path, dict_path, page_limit)
+
+    phrases_out = {}
+
+    phrases_out['merged_data_files'] = (phrases, phrases_bounding_box_page_number)
+
+    for data_file in data_files:
+        file_name = get_file_name(data_file)
+        text_path = result_path + file_name + '_phrases.txt'
+        dict_path = result_path + file_name + '_bounding_box_page_number.json' 
+        phrases, phrases_bounding_box_page_number = extract_phrase_one_doc(data_file, text_path, dict_path, page_limit)
+        phrases_out[file_name] = (phrases, phrases_bounding_box_page_number)
+
+    return phrases_out
+
+
+
+
+
+def extract_phrase_folders(data_folder, page_limit = 6, result_path = ''):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         
