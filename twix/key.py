@@ -1,4 +1,4 @@
-import json
+import json, os
 from . import extract
 import numpy as np
 import scipy.stats
@@ -51,10 +51,8 @@ def read_dict(file):
         data = json.load(file)
     return data 
 
-def get_metadata_path(path):
-    path = path.replace('data/raw','result')
-    path = path.replace('.pdf', '_metadata.txt') 
-    return path
+def get_metadata_path(result_folder):
+    return '_metadata.txt' 
 
 def get_extracted_path(path, method = 'plumber'):
     path = path.replace('raw','extracted')
@@ -340,10 +338,8 @@ def get_key_val_path(raw_path, approach):
     path = path.replace('.pdf', '_' + approach + '_kv.json')
     return path
 
-def get_template_path(raw_path):
-    path = raw_path.replace('data/raw','result')
-    path = path.replace('.pdf', '_template.json')
-    return path
+def get_template_path(result_folder):
+    return result_folder +  '_template.json'
 
 def get_image_path(target_folder):
     paths = []
@@ -352,6 +348,9 @@ def get_image_path(target_folder):
     path = target_folder + '_image/1.jpg'
     paths.append(path)
     return paths
+
+def get_bb_path(result_folder):
+    return result_folder + 'merged_phrases_bounding_box_page_number.json'
 
 def get_baseline_result_path(raw_path,baseline_name):
     path = raw_path.replace('data/raw','result')
@@ -374,21 +373,25 @@ def get_truth_path(raw_path):
     path = path.replace('.pdf','.json')
     return path
 
-def key_prediction_pipeline(data_folder):
-    paths = extract.print_all_document_paths(data_folder)
-    for path in paths:
-        if('id_12.pdf' in path):
-            predict_field(path)
+def get_merged_extracted_path(result_folder):
+    return result_folder + 'merged_phrases.txt'
+
+def get_extracted_result_path(result_folder, data_file):#file path is the path of each individual file 
+    # Extract the directory and file name without the extension
+    file_name = extract.get_file_name(data_file)
+
+    # Construct the new file path with the desired suffix and extension
+    new_file_path = os.path.join(result_folder, f"{file_name}_extracted.json")
+    return new_file_path
 
 def predict_field(data_files, result_folder = ''):
     if(len(extracted_path) == 0):
         result_folder = extract.get_result_folder_path(data_files)
         
-    extracted_path = result_folder + 'merged_phrases.txt'
+    extracted_path = get_merged_extracted_path(result_folder)
 
     #get image path
-    image_paths = get_image_path(extract.get_result_folder_path(data_files))
-
+    image_paths = get_image_path(result_folder)
 
     raw_phrases = read_file(extracted_path)
     raw_phrases = set(raw_phrases)

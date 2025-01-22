@@ -94,9 +94,8 @@ def template_learn_input_gen(phrases, predict_labels, extra_phrase_num = 30):
     return []
 
 
-def get_bb_path(extracted_file):
-    file = extracted_file.replace('.txt','.json')
-    return file 
+def get_boundingbox_path(result_folder):
+    return result_folder + 'merged_boun'
 
 
 def key_val_extraction(pv, predict_labels):
@@ -465,25 +464,20 @@ def refine_sample(row_mp):
         new_mp[id] = row_mp[id]
     return new_mp
 
-def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extraction_path, template_path, metadata):
-    print('fields...')
-    print(predict_labels)
-    # print('raw phrases...')
-    # print(raw_phrases)
+def predict_template_docs(phrases_bb, predict_labels, raw_phrases, template_path, metadata):
+    # print('fields...')
+    # print(predict_labels)
     #get minimal set of phrases to learn template 
     phrases = template_learn_input_gen(raw_phrases, predict_labels)
-    # print('phrases')
-    # print(phrases)
     row_mp = create_row_representations(phrases, phrases_bb)
-    print(len(row_mp))
     row_mp = refine_sample(row_mp)
-    print(len(row_mp))
-    #print_row(row_mp)
-
     template = ILP_extract(predict_labels, row_mp, template_path, metadata)
+    return template
+
+def extract_data_per_doc(template, phrases_bb, raw_phrases, out_path, metadata):
     
-    print('Metadata rows...')
-    print(metadata_rows)
+    # print('Metadata rows...')
+    # print(metadata_rows)
     #seperate records based on template 
     print("Record seperation starts...")
     complete_row_mp = create_row_representations(raw_phrases, phrases_bb)
@@ -500,8 +494,9 @@ def mix_pattern_extract_pipeline(phrases_bb, predict_labels, raw_phrases, extrac
     #data extraction within each data block based on template 
     print('Data extraction starts...')
     extraction_objects = data_extraction(records, blocks, complete_row_mp, template)
+    write_json(extraction_objects, out_path)
 
-    write_json(extraction_objects, extraction_path)
+    return extraction_objects
 
 
 def record_seperation(template, row_mp):
@@ -1455,10 +1450,22 @@ def write_string(result_path, content):
     with open(result_path, 'w') as file:
         file.write(content)
 
-def extract_data(pdf_path, out_path):
-    template_path = key.get_template_path(pdf_path)
-    image_paths = key.get_image_path(pdf_path)
-    metadata_path = key.get_metadata_path(pdf_path)
+
+def predict_template(data_files, result_folder = ''):
+    #get result folder 
+    if(len(extracted_path) == 0):
+        result_folder = extract.get_result_folder_path(data_files)
+
+    #get template path
+    template_path = key.get_template_path(result_folder)
+
+    #get keyword path
+    key_path = key.get_key_path(result_folder)
+
+    metadata_path = key.get_metadata_path(result_folder)
+    #get image path
+    image_paths = key.get_image_path(result_folder)
+    
     metadata= []
     #print(metadata_path)
     if(not os.path.isfile(metadata_path)):
@@ -1469,24 +1476,59 @@ def extract_data(pdf_path, out_path):
         meta_string = read_string(metadata_path)
         metadata = [phrase.strip() for phrase in meta_string.split('|')]
 
-    print('Metadata...')
-    print(metadata)
-    key_path = pdf_path.replace('data/raw','result').replace('.pdf','_TWIX_key.txt')
-    extracted_path = key.get_extracted_path(pdf_path, 'plumber')
+    # print('Metadata...')
+    # print(metadata)
+
+    extracted_path = key.get_merged_extracted_path(result_folder)
     
     if(not os.path.isfile(extracted_path)):
         return 
     if(not os.path.isfile(key_path)):
         return 
-    bb_path = get_bb_path(extracted_path)
+    
+    bb_path = key.get_bb_path(result_folder)
     
     #print(bb_path)
     keywords = read_file(key_path)#predicted keywords
     phrases = read_file(extracted_path)#list of phrases
     phrases_bb = read_json(bb_path)#phrases with bounding boxes
 
-    #print(phrases_bb)
     print('Template-based data extraction starts...')
 
-    mix_pattern_extract_pipeline(phrases_bb, keywords, phrases, out_path, template_path, metadata)
+    template = predict_template_docs(phrases_bb, keywords, phrases, template_path, metadata)
 
+    return template
+
+def extract_data(data_files, result_folder = ''):
+    template = predict_template(data_files, result_folder)
+
+    #get metadata 
+
+    #get metadata path
+    metadata_path = key.get_metadata_path(result_folder)
+    #get image path
+    image_paths = key.get_image_path(result_folder)
+
+    metadata= []
+    #print(metadata_path)
+    if(not os.path.isfile(metadata_path)):
+        out = get_metadata(image_paths)
+        metadata = [phrase.strip() for phrase in out.split('|')]
+        write_string(metadata_path, out)
+    else:
+        meta_string = read_string(metadata_path)
+        metadata = [phrase.strip() for phrase in meta_string.split('|')]
+
+    extraction_objects = {}
+
+    for data_file in data_files:
+        file_name = extract.get_file_name(data_file)
+        text_path = result_folder + file_name + '_phrases.txt'
+        dict_path = result_folder + file_name + '_bounding_box_page_number.json' 
+        out_path = key.get_extracted_result_path(result_folder, data_file)
+        phrases = read_file(text_path)#list of phrases
+        phrases_bb = read_json(dict_path)#phrases with bounding boxes
+        extraction_object = extract_data_per_doc(template, phrases_bb, phrases, out_path, metadata)
+        extraction_objects['data_file'] = extraction_object
+
+    return extraction_objects
