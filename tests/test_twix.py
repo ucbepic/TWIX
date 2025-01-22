@@ -12,5 +12,6 @@ if __name__ == "__main__":
     pdf_paths.append(root_path + '/tests/data/Investigations_Redacted.pdf')
 
     phrases = twix.extract_phrase(pdf_paths)
+    #fields = twix.predict_field(pdf_paths)
     
 

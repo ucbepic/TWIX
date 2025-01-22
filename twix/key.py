@@ -385,10 +385,12 @@ def get_extracted_result_path(result_folder, data_file):#file path is the path o
     return new_file_path
 
 def predict_field(data_files, result_folder = ''):
-    if(len(extracted_path) == 0):
+    if(len(result_folder) == 0):
         result_folder = extract.get_result_folder_path(data_files)
         
     extracted_path = get_merged_extracted_path(result_folder)
+
+    print(extracted_path)
 
     #get image path
     image_paths = get_image_path(result_folder)

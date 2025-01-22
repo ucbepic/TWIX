@@ -3,9 +3,9 @@ setup.py
 twix/__init__.py
 twix/extract.py
 twix/key.py
-twix/main.py
 twix/model.py
 twix/pattern.py
+twix/transform.py
 twix.egg-info/PKG-INFO
 twix.egg-info/SOURCES.txt
 twix.egg-info/dependency_links.txt

@@ -9,7 +9,7 @@ from pdf2image import convert_from_path
 import os
 import time 
 from PyPDF2 import PdfMerger
-
+from . import key
 
 def is_valid_time(time_str):
     try:
@@ -352,6 +352,16 @@ def extract_phrase(data_files, result_path = '', page_limit = 5):
         phrases, phrases_bounding_box_page_number = extract_phrase_one_doc(data_file, text_path, dict_path, page_limit)
         phrases_out[file_name] = (phrases, phrases_bounding_box_page_number)
 
+    #create pdf images for first two pages of the merged document 
+
+    #get image path
+    image_foler = result_path + '_image/'
+    if not os.path.exists(image_foler):
+        # Create the folder
+        os.makedirs(image_foler)
+        
+    pdf_2_image(merged_pdf_path, 2, image_foler)
+
     return phrases_out
 
 
@@ -489,41 +499,6 @@ def create_images_pipeline(raw_folder, number_of_pages):
         create_folder(image_folder_path)
         pdf_2_image(path,number_of_pages,image_folder_path)
 
-def phrase_extraction_pipeline_aws(raw_folder):
-    print(raw_folder)
-    client = load_file_keys_aws()
-    paths = print_all_document_paths(raw_folder)
-    for path in paths:
-        print(path)
-        # if('releasable' not in path):
-        #     continue
-        text_path = get_text_path(path, '.txt', 'aws')
-        dict_path = get_text_path(path, '.json', 'aws')
-        image_folder_path = text_path.replace('.txt','_image/')
-
-        print(text_path)
-        print(dict_path)
-        page_number = 6
-        
-        raw_phrases, phrase_bb = phrase_extraction_aws(image_folder_path, page_number, client)
-        write_phrase(text_path, raw_phrases)
-        write_dict(dict_path, phrase_bb)
-        #break
-        
-    
-    #pdf_2_image(file_path,number_of_pages,out_folder_path)
-    # doc_lines = get_doc_lines(out_folder_path, number_of_pages)
-    # doc_lines_df = pd.DataFrame(doc_lines, columns=['Page', 'Phrase', 'x1', 'y1', 'x2', 'y2'])
-    # doc_lines_df.to_csv(file_name+'.csv')
-
-
-if __name__ == "__main__":
-    root_path = get_root_path()
-    data_folder = root_path + '/data/raw/certification'
-    page_limit = 6 #number of page for data extraction
-    
-    #create_images_pipeline(data_folder,6)
-    extract_phrase(data_folder)
 
     
     
