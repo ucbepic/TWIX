@@ -27,7 +27,7 @@ def extract_text_from_image(image):
     text = pytesseract.image_to_string(image)
     return text
 
-def phrase_extract_pdfplumber_new(pdf_path, x_tolerance=2, y_tolerance=2, page_limit = 10):
+def phrase_extract_pdfplumber_new(pdf_path, x_tolerance=3, y_tolerance=3, page_limit = 5):
     phrases = {}
     page_break = 0
     raw_phrases = []
@@ -359,7 +359,7 @@ def extract_phrase(data_files, result_path = '', page_limit = 5):
     if not os.path.exists(image_foler):
         # Create the folder
         os.makedirs(image_foler)
-        
+
     pdf_2_image(merged_pdf_path, 2, image_foler)
 
     return phrases_out

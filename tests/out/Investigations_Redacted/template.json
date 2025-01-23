@@ -19,20 +19,18 @@
         "child": -1
     },
     {
-        "type": "table",
+        "type": "kv",
         "fields": [
-            "Complainant",
-            "DOB",
-            "Gender",
-            "FEMAL",
             "Address",
-            "Terr, Champaign IL 61820",
-            "H Phone"
+            "Complainant",
+            "H Phone",
+            "Gender",
+            "DOB"
         ],
         "bid": [
             1
         ],
-        "child": 3
+        "child": -1
     },
     {
         "type": "table",

@@ -564,6 +564,22 @@ def visit_node(node, row):
                 return 1
         return 0 
 
+def get_max_value_of_list(row_label):
+    probs = []
+    probs.append(row_label['K'])
+    probs.append(row_label['V'])
+    probs.append(row_label['KV'])
+    probs.append(row_label['M'])
+    max_prob = max(probs)
+    if(max_prob == row_label['K']):
+        return 'K'
+    if(max_prob == row_label['V']):
+        return 'V'
+    if(max_prob == row_label['KV']):
+        return 'KV'
+    if(max_prob == row_label['M']):
+        return 'M'
+
 def ILP_extract(predict_keys, row_mp, metadata):
     #row_mp: row_id -> a list of (phrase, bb) in the current row
     row_labels = get_row_probabilities(predict_keys, row_mp, metadata)
@@ -578,7 +594,7 @@ def ILP_extract(predict_keys, row_mp, metadata):
                 row_align[(id1,id2)] = c
                 row_align[(id2,id1)] = c
         else:
-            if(row_labels[id1]['K'] >= 1):
+            if(row_labels[id1]['K'] >= 1 or get_max_value_of_list(row_labels[id1]) == 'KV'):
                 locality = 0
                 for id2 in range(id1+1, len(row_mp)):
                     if(row_labels[id2]['K'] >= 1):#enforce locality
@@ -614,7 +630,6 @@ def ILP_extract(predict_keys, row_mp, metadata):
 
     #learn template based on the data blocks 
     nodes = template_learn(blk, blk_type, row_mp)
-    #write_template(nodes, template_path)
 
     return nodes
 
@@ -1491,7 +1506,7 @@ def predict_template(data_files, result_folder = ''):
     phrases = read_file(extracted_path)#list of phrases
     phrases_bb = read_json(bb_path)#phrases with bounding boxes
 
-    print('Template-based data extraction starts...')
+    print('Template prediction starts...')
 
     template = predict_template_docs(phrases_bb, keywords, phrases, metadata)
     write_template(template, template_path)
