@@ -419,6 +419,15 @@ def check_phrase_in_headers_or_footers(headers_footers: str, given_phrase: str):
 
     return 0
 
+def is_row_headers_or_footers_no_LLMs(row, metadata):
+    #this can be improved by row id in a page: headers and footers are close to boundary of a page: to do later 
+    contained = 0
+    for p in row:
+        contained += check_phrase_in_headers_or_footers(metadata, p)
+    
+    if(contained/len(row) >= 0.7):
+        return 1
+    return 0
 
 def is_row_headers_or_footers(row, metadata):
     #this can be improved by row id in a page: headers and footers are close to boundary of a page: to do later 
@@ -931,7 +940,10 @@ def row_label_gen_template(record, row_mp, template, metadata):
         if(check_metadadta_row(row_phrases) == 1):
             label = 'M'
         else:
-            if(is_row_headers_or_footers(row_phrases, metadata) == 1): 
+            if(is_row_headers_or_footers_no_LLMs(row_phrases, metadata) == 1): 
+                # print('go LLMs...')
+                # print(row_phrases)
+                # print(metadata)
                 label = 'M'
             else:
                 label = ''
