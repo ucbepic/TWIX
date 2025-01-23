@@ -28,7 +28,7 @@ def extract_text_from_image(image):
     return text
 
 def phrase_extract_pdfplumber_new(pdf_path, x_tolerance=3, y_tolerance=3, page_limit = 5):
-    print(page_limit)
+    #print(page_limit)
     phrases = {}
     page_break = 0
     raw_phrases = []
