@@ -512,9 +512,9 @@ def extract_data_per_doc(template, phrases_bb, raw_phrases, out_path, metadata):
     #print(len(complete_row_mp))
     records = record_seperation(template, complete_row_mp)
     print('Totally ' + str(len(records)) + ' records...')
-    # print('Records...')
-    # for record in records:
-    #     print(record)
+    print('Records...')
+    for record in records:
+        print(record)
 
     #seperate data blocks within each record based on template 
     print('Block seperation starts...')
@@ -979,16 +979,16 @@ def block_seperation_pipeline(template, records, row_mp, metadata):
         print('Record ' + str(i) + '...')
         record = records[i]
         rls, row_node_mp = row_label_gen_template(record, row_mp, template, metadata)
-        # print('row labels...')
-        # print(i,rls)
-        # print(record)
+        print('row labels...')
+        print(i,rls)
+        print(record)
         #print(row_mp[record[0]])
         row_align = row_align_gen_template(row_mp, record)
         # print('row align...')
         # print(row_align)
         blk, blk_type = block_seperation_based_on_template(rls, row_align, row_node_mp, template, record)
-        # print(blk)
-        # print(blk_type)
+        print(blk)
+        print(blk_type)
         blocks[i] = (blk, blk_type)
         # if(i >= 1):
         #     break
@@ -1006,6 +1006,7 @@ def block_seperation_based_on_template(rls, row_align, row_node_mp, template, re
     blk = {}#bid -> a list of row id belonging to the same block 
     blk_type = {}#store the name per block: bid-> type of block
     bid = 0
+    blk[bid] = []
     row_2_blk = {} #row id -> blk type
 
     #merge consecutive kv pairs into one kv block 
@@ -1048,6 +1049,8 @@ def block_seperation_based_on_template(rls, row_align, row_node_mp, template, re
     bids = []
     new_bid = 0
 
+    #print(blk, blk_type)
+
     if(blk_type[0] == 'table'):
         new_blk[0] = blk[0] 
         new_blk_type[0] = 'table'
@@ -1068,6 +1071,11 @@ def block_seperation_based_on_template(rls, row_align, row_node_mp, template, re
             bids = []
         else:
             bids += blk[bid] 
+    
+    #if the last blk is also kv 
+    if(blk_type[len(blk)-1] == 'kv'):
+        new_blk[new_bid] = bids
+        new_blk_type[new_bid] = 'kv'
 
     return new_blk, new_blk_type
 
