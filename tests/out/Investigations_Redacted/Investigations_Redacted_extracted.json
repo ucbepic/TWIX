@@ -309,6 +309,15 @@
                         "Officer Disposition": "SUSTAINED",
                         "Action Taken": "COUNSELING",
                         "Body Cam": "No"
+                    },
+                    {
+                        "Name": "missing",
+                        "ID No.": "G",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "missing"
                     }
                 ]
             }
