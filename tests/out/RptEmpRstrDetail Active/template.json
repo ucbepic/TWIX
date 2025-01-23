@@ -1,0 +1,20 @@
+[
+    {
+        "type": "table",
+        "fields": [
+            "Name",
+            "I.D.",
+            "Sex",
+            "Birth Date",
+            "Age",
+            "Employee Type",
+            "Employee",
+            "Instructor",
+            "Supervisor"
+        ],
+        "bid": [
+            0
+        ],
+        "child": -1
+    }
+]

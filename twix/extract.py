@@ -28,6 +28,7 @@ def extract_text_from_image(image):
     return text
 
 def phrase_extract_pdfplumber_new(pdf_path, x_tolerance=3, y_tolerance=3, page_limit = 5):
+    print(page_limit)
     phrases = {}
     page_break = 0
     raw_phrases = []
@@ -308,7 +309,7 @@ def merge_pdf(data_files, path):
     return out_path
 
 def extract_phrase_one_doc(pdf_path, text_path, dict_path, page_limit):
-    phrases, raw_phrases = phrase_extract_pdfplumber_new(pdf_path, page_limit)
+    phrases, raw_phrases = phrase_extract_pdfplumber_new(pdf_path, page_limit = page_limit)
     adjusted_phrases = []
     for phrase in raw_phrases:
         adjusted_phrase,bbx = adjust_phrase_rules(phrase, [[],[],[]])
@@ -338,18 +339,20 @@ def extract_phrase(data_files, result_path = '', page_limit = 5):
     dict_path = result_path + 'merged_phrases_bounding_box_page_number.json' 
 
     # extract prhases for merged pdfs
+    # extract sample data for merged document 
     phrases, phrases_bounding_box_page_number = extract_phrase_one_doc(merged_pdf_path, text_path, dict_path, page_limit)
 
     phrases_out = {}
 
     phrases_out['merged_data_files'] = (phrases, phrases_bounding_box_page_number)
+    max_page_limit = 1000000
 
     for data_file in data_files:
         file_name = get_file_name(data_file)
         text_path = result_path + file_name + '_phrases.txt'
         dict_path = result_path + file_name + '_bounding_box_page_number.json' 
         #print(data_file)
-        phrases, phrases_bounding_box_page_number = extract_phrase_one_doc(data_file, text_path, dict_path, page_limit)
+        phrases, phrases_bounding_box_page_number = extract_phrase_one_doc(data_file, text_path, dict_path, max_page_limit) #extract all data for each document 
         phrases_out[file_name] = (phrases, phrases_bounding_box_page_number)
 
     #create pdf images for first two pages of the merged document 
@@ -384,7 +387,7 @@ def extract_phrase_folders(data_folder, page_limit = 6, result_path = ''):
         print(text_path)
         print(dict_path)
 
-        phrases, raw_phrases = phrase_extract_pdfplumber_new(path, page_limit)
+        phrases, raw_phrases = phrase_extract_pdfplumber_new(path, page_limit=page_limit)
         adjusted_phrases = []
         for phrase in raw_phrases:
             adjusted_phrase,bbx = adjust_phrase_rules(phrase, [[],[],[]])

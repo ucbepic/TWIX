@@ -1,4 +1,4 @@
-import json,sys,math,os
+import json,sys,math,os,csv
 from . import key, extract 
 import math
 root_path = extract.get_root_path()
@@ -12,6 +12,25 @@ metadata_rows = []
 
 def add_metadata_row(row):
     metadata_rows.append(row)
+
+def set_metadata_row(metadata_Rows):
+    global metadata_rows
+    metadata_rows = metadata_Rows
+
+def write_metadata_row(file_path):
+    with open(file_path, "w", newline="") as file:
+        writer = csv.writer(file)
+        writer.writerows(metadata_rows)
+
+def read_metadata_row(file_path):
+    with open(file_path, "r") as file:
+        reader = csv.reader(file)
+        loaded_data = [row for row in reader]
+    return loaded_data
+
+def print_metadata_row():
+    for row in metadata_rows:
+        print(row)
 
 def check_metadadta_row(row):
     for meta_row in metadata_rows:
@@ -483,13 +502,13 @@ def extract_data_per_doc(template, phrases_bb, raw_phrases, out_path, metadata):
     complete_row_mp = create_row_representations(raw_phrases, phrases_bb)
     #print(len(complete_row_mp))
     records = record_seperation(template, complete_row_mp)
-
+    print('Totally ' + str(len(records)) + ' records...')
     # print('Records...')
     # for record in records:
     #     print(record)
 
     #seperate data blocks within each record based on template 
-    print('Block Seperation starts...')
+    print('Block seperation starts...')
     blocks = block_seperation_pipeline(template, records, complete_row_mp, metadata)
 
     #data extraction within each data block based on template 
@@ -615,18 +634,18 @@ def ILP_extract(predict_keys, row_mp, metadata):
 
 
     #LP formulation to learn row label assignment
-    # print('initial row labels and probs:')
-    # print_row_labels(row_mp, row_labels)
+    print('initial row labels and probs:')
+    print_row_labels(row_mp, row_labels)
 
     row_pred_labels = ILP_formulation(row_mp, row_labels, row_align)
 
-    # print('labels after ILP:')
-    # print(row_pred_labels)
+    print('labels after ILP:')
+    print(row_pred_labels)
     #seperate data blocks based on row labeling
     blk, blk_type = block_seperation(row_pred_labels, row_align)
 
-    # print(blk)
-    # print(blk_type)
+    print(blk)
+    print(blk_type)
 
     #learn template based on the data blocks 
     nodes = template_learn(blk, blk_type, row_mp)
@@ -900,6 +919,10 @@ def row_label_gen_template(record, row_mp, template, metadata):
     rls = []#list of row labels per row
     row_node_mp = {}#row_id -> node_id generates this row: only store for row with label 'K', the row_id here should be relative row_id, starting from zero 
     base_row_id = record[0]  
+
+    # print('print metadata rows...')
+    # print_metadata_row()
+
     for row_id in record:
         row_phrases = []
         for item in row_mp[row_id]:
@@ -941,18 +964,19 @@ def row_align_gen_template(row_mp, record):
 def block_seperation_pipeline(template, records, row_mp, metadata):
     blocks = {}#record id -> (blk, blk_type) 
     for i in range(len(records)):
+        print('Record ' + str(i) + '...')
         record = records[i]
         rls, row_node_mp = row_label_gen_template(record, row_mp, template, metadata)
-        print('row labels...')
-        print(i,rls)
-        print(record)
+        # print('row labels...')
+        # print(i,rls)
+        # print(record)
         #print(row_mp[record[0]])
         row_align = row_align_gen_template(row_mp, record)
         # print('row align...')
         # print(row_align)
         blk, blk_type = block_seperation_based_on_template(rls, row_align, row_node_mp, template, record)
-        print(blk)
-        print(blk_type)
+        # print(blk)
+        # print(blk_type)
         blocks[i] = (blk, blk_type)
         # if(i >= 1):
         #     break
@@ -1510,12 +1534,28 @@ def predict_template(data_files, result_folder = ''):
 
     template = predict_template_docs(phrases_bb, keywords, phrases, metadata)
     write_template(template, template_path)
+
+    #write metadata_rows locally 
+    #print_metadata_row()
+    #get metadata row path
+    metadata_row_path = key.get_metadata_row_path(result_folder)
+    write_metadata_row(metadata_row_path)
+
     return template
 
 def extract_data(data_files, template = [], result_folder = ''):
     #get result folder 
     if(len(result_folder) == 0):
         result_folder = extract.get_result_folder_path(data_files)
+
+    metadata_row_path = key.get_metadata_row_path(result_folder)
+    metadata_Rows = read_metadata_row(metadata_row_path)
+    set_metadata_row(metadata_Rows)
+    # print('print read metadata rows...')
+    # print(metadata_Rows)
+    # print('print stored metadata rows...')
+    # print_metadata_row()
+    
 
     if(len(template) == 0):
         #check if template exists in local file
@@ -1555,7 +1595,7 @@ def extract_data(data_files, template = [], result_folder = ''):
         # print(dict_path)
         # print(out_path)
         #print(len(template), len(phrases), len(phrases_bb), len(metadata))
-        print(template)
+        #print(template)
 
         extraction_object = extract_data_per_doc(template, phrases_bb, phrases, out_path, metadata)
         extraction_objects['data_file'] = extraction_object

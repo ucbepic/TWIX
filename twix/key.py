@@ -54,6 +54,9 @@ def read_dict(file):
 def get_metadata_path(result_folder):
     return result_folder + 'metadata.txt' 
 
+def get_metadata_row_path(result_folder):
+    return result_folder + 'metadata_rows.txt' 
+
 def get_extracted_path(path, method = 'plumber'):
     path = path.replace('raw','extracted')
     if('benchmark1' in path):
