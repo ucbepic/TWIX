@@ -1,0 +1,17 @@
+[
+    {
+        "type": "table",
+        "fields": [
+            "YEAR",
+            "NAME",
+            "DEPARTMENT",
+            "POST ID#",
+            "DATE",
+            "REASON"
+        ],
+        "bid": [
+            0
+        ],
+        "child": -1
+    }
+]

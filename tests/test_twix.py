@@ -9,12 +9,12 @@ def get_root_path():
 if __name__ == "__main__":
     root_path = get_root_path()
     pdf_paths = []
-    pdf_paths.append(root_path + '/tests/data/22-274.releasable.pdf')
+    pdf_paths.append(root_path + '/tests/data/DecertifiedOfficersRev_9622 Emilie Munson.pdf')
 
     #phrases = twix.extract_phrase(pdf_paths)
     #fields = twix.predict_field(pdf_paths)
     #template = twix.predict_template(pdf_paths)
-    extraction_objects = twix.extract_data(pdf_paths)
+    #extraction_objects = twix.extract_data(pdf_paths)
 
     #fields, template, extraction_objects = twix.transform(pdf_paths)
     
