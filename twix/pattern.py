@@ -943,16 +943,16 @@ def block_seperation_pipeline(template, records, row_mp, metadata):
     for i in range(len(records)):
         record = records[i]
         rls, row_node_mp = row_label_gen_template(record, row_mp, template, metadata)
-        # print('row labels...')
-        # print(i,rls)
-        # print(record)
-        # print(row_mp[record[0]])
+        print('row labels...')
+        print(i,rls)
+        print(record)
+        #print(row_mp[record[0]])
         row_align = row_align_gen_template(row_mp, record)
         # print('row align...')
         # print(row_align)
         blk, blk_type = block_seperation_based_on_template(rls, row_align, row_node_mp, template, record)
-        # print(blk)
-        # print(blk_type)
+        print(blk)
+        print(blk_type)
         blocks[i] = (blk, blk_type)
         # if(i >= 1):
         #     break
@@ -1021,14 +1021,14 @@ def block_seperation_based_on_template(rls, row_align, row_node_mp, template, re
 
     for bid in range(1,len(blk)):
         if(blk_type[bid] == 'table'):
-            new_blk[new_bid] = blk[bid]
-            new_blk_type[new_bid] = 'table'
-            new_bid += 1
             if(blk_type[bid-1] == 'kv'):
                 new_blk[new_bid] = bids
                 new_blk_type[new_bid] = 'kv'
                 new_bid += 1
-                #reset 
+            new_blk[new_bid] = blk[bid]
+            new_blk_type[new_bid] = 'table'
+            new_bid += 1
+            #reset 
             bids = []
         else:
             bids += blk[bid] 
