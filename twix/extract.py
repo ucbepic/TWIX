@@ -323,20 +323,20 @@ def extract_phrase_one_doc(pdf_path, text_path, dict_path, page_limit):
 
     return adjusted_phrases, phrases
 
-def extract_phrase(data_files, result_path = '', page_limit = 5):
-    if(len(result_path) == 0):
-        result_path = get_result_folder_path(data_files)
+def extract_phrase(data_files, result_folder = '', page_limit = 5):
+    if(len(result_folder) == 0):
+        result_folder = get_result_folder_path(data_files)
 
-    #print(result_path)
+    #print(result_folder)
     # Create the folder if it does not exist
-    if not os.path.exists(result_path):
-        os.makedirs(result_path)
+    if not os.path.exists(result_folder):
+        os.makedirs(result_folder)
 
     # merge pdfs into one
-    merged_pdf_path = merge_pdf(data_files, result_path)
+    merged_pdf_path = merge_pdf(data_files, result_folder)
 
-    text_path = result_path + 'merged_phrases.txt' 
-    dict_path = result_path + 'merged_phrases_bounding_box_page_number.json' 
+    text_path = result_folder + 'merged_phrases.txt' 
+    dict_path = result_folder + 'merged_phrases_bounding_box_page_number.json' 
 
     # extract prhases for merged pdfs
     # extract sample data for merged document 
@@ -349,8 +349,8 @@ def extract_phrase(data_files, result_path = '', page_limit = 5):
 
     for data_file in data_files:
         file_name = get_file_name(data_file)
-        text_path = result_path + file_name + '_phrases.txt'
-        dict_path = result_path + file_name + '_bounding_box_page_number.json' 
+        text_path = result_folder + file_name + '_phrases.txt'
+        dict_path = result_folder + file_name + '_bounding_box_page_number.json' 
         #print(data_file)
         phrases, phrases_bounding_box_page_number = extract_phrase_one_doc(data_file, text_path, dict_path, max_page_limit) #extract all data for each document 
         phrases_out[file_name] = (phrases, phrases_bounding_box_page_number)
@@ -358,7 +358,7 @@ def extract_phrase(data_files, result_path = '', page_limit = 5):
     #create pdf images for first two pages of the merged document 
 
     #get image path
-    image_foler = result_path + '_image/'
+    image_foler = result_folder + '_image/'
     if not os.path.exists(image_foler):
         # Create the folder
         os.makedirs(image_foler)
@@ -371,7 +371,7 @@ def extract_phrase(data_files, result_path = '', page_limit = 5):
 
 
 
-def extract_phrase_folders(data_folder, page_limit = 6, result_path = ''):
+def extract_phrase_folders(data_folder, page_limit = 6, result_folder = ''):
     paths = print_all_document_paths(data_folder)
     for path in paths:
         
