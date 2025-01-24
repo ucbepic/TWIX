@@ -121,6 +121,10 @@ Provides an end-to-end API to directly extract data from PDFs.
 - **Parameters:**
   - `data_files` (list): Stores a list of paths to documents that are created using the same template.
   - `result_folder` (str, optional): The path to store results. If not specified, TWIX will automatically create a folder under `root/tests/out/file_name/`.
+- **Returns:**
+  - `fields` (list): A list of strings representing the predicted fields.
+  - `template` (list): The template as a list of nodes, stored locally in the result folder, naming the file as `template.json`.
+  - `extraction_object` (dict): A dictionary of extraction results, where the key is the file path, and the value is the extraction object of that file. Each extraction object is a list of data blocks containing either table blocks or key-value blocks. Results will be written locally in the result folder, naming the file as `extracted.json`.
 
 ---
 
