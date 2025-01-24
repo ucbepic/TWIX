@@ -406,7 +406,7 @@ def predict_field(data_files, result_folder = ''):
     relative_locations = get_relative_locations(extracted_path)
     #predict keys
 
-    print('field prediction starts...')
+    print('Field prediction starts...')
     phrases = relative_locations
 
     LLM_fields = get_fields_by_LLM(image_paths)

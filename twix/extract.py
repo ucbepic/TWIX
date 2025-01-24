@@ -324,6 +324,7 @@ def extract_phrase_one_doc(pdf_path, text_path, dict_path, page_limit):
     return adjusted_phrases, phrases
 
 def extract_phrase(data_files, result_folder = '', page_limit = 5):
+    print('Phrase extraction starts...')
     if(len(result_folder) == 0):
         result_folder = get_result_folder_path(data_files)
 
