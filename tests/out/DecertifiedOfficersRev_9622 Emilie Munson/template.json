@@ -12,6 +12,7 @@
         "bid": [
             0
         ],
-        "child": -1
+        "child": -1,
+        "node_id": 0
     }
 ]

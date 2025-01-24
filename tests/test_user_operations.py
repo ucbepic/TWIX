@@ -11,11 +11,15 @@ if __name__ == "__main__":
     pdf_paths = []
     pdf_paths.append(root_path + '/tests/data/DecertifiedOfficersRev_9622 Emilie Munson.pdf')
 
-    #phrases = twix.extract_phrase(pdf_paths)
-    #fields = twix.predict_field(pdf_paths)
-    template = twix.predict_template(pdf_paths)
-    #extraction_objects = twix.extract_data(pdf_paths)
+    # new_fields = ["2022"]
+    # fields = twix.add_fields(new_fields, data_files=pdf_paths)
 
-    #fields, template, extraction_objects = twix.transform(pdf_paths)
+    # deleted_fields = ["2022"]
+    # fields = twix.remove_fields(deleted_fields, data_files=pdf_paths)
+
+    #print(fields)
+
+    # twix.modify_template_node(0,'kv',["2022"], data_files=pdf_paths)
+    # twix.remove_template_node([0],data_files=pdf_paths)
     
 

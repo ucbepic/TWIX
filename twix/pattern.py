@@ -643,18 +643,18 @@ def ILP_extract(predict_keys, row_mp, metadata):
 
 
     #LP formulation to learn row label assignment
-    print('initial row labels and probs:')
-    print_row_labels(row_mp, row_labels)
+    # print('initial row labels and probs:')
+    # print_row_labels(row_mp, row_labels)
 
     row_pred_labels = ILP_formulation(row_mp, row_labels, row_align)
 
-    print('labels after ILP:')
-    print(row_pred_labels)
+    # print('labels after ILP:')
+    # print(row_pred_labels)
     #seperate data blocks based on row labeling
     blk, blk_type = block_seperation(row_pred_labels, row_align)
 
-    print(blk)
-    print(blk_type)
+    # print(blk)
+    # print(blk_type)
 
     #learn template based on the data blocks 
     nodes = template_learn(blk, blk_type, row_mp)
@@ -728,8 +728,8 @@ def template_learn(blk, blk_type, row_mp):
             continue
         nodes.append(node)
 
-    print('nodes before merging...')
-    print(nodes)
+    # print('nodes before merging...')
+    # print(nodes)
     #second pass: merge consecutive kv nodes 
     new_nodes = []
     pre_node = nodes[0]
@@ -789,8 +789,8 @@ def template_learn(blk, blk_type, row_mp):
                 new_nodes.append(new_node)
         pre_node = node
     
-    print('nodes after merging...')
-    print(new_nodes)
+    # print('nodes after merging...')
+    # print(new_nodes)
 
     #third pass: add edges 
     for i in range(len(new_nodes)):
@@ -804,6 +804,9 @@ def template_learn(blk, blk_type, row_mp):
             if(rows_i[-1] > rows_j[0]):#data blocks overlapping
                 new_nodes[i]['child'] = j
 
+    #fourth pass: add node id
+    for i in range(len(new_nodes)):
+        new_nodes[i]['node_id'] = i
     
     return new_nodes
 
