@@ -1,0 +1,232 @@
+Order
+Rev
+756294
+Alt Order #
+WOC12672243
+Product Desc
+Candidate
+Estimate
+932
+Flight Dates
+09/30/20 - 10/06/20
+Primary AE
+John Mitzel
+Sales Office
+KTVQ
+Sales Region
+NAT
+Agency Name
+FP1 Strategies LLC
+Buying Contact
+Billing Contact
+3001 Washington Blvd, 7th Floor
+Arlington, VA 22201
+Billing Type
+Cash
+Billing Calendar
+Broadcast
+Billing Cycle
+EOM/EOC
+Agency Commission
+15%
+Advertiser Name
+Daines/Republican/US Senate
+Demographic
+A35+
+Product Codes
+PL Federal Candidate
+Revenue Code 1
+DISC
+Revenue Code 2
+POL
+Revenue Code 3
+CAND
+Priority
+DEF
+New Business Thru
+Advertiser External ID
+260486
+Agency External ID
+142532
+Unit Code
+General
+Order Separation
+00:10:00
+Bill Plan
+Start Date
+End Date
+Spots
+Gross Amount
+Net Amount
+$35,120.00
+$29,852.00
+Month
+October 2020
+# Spots
+87
+Rating
+500.05
+Totals
+$35,120.00
+$29,852.00
+Account Executives
+Account Executive
+John Mitzel
+Sales Office
+N-BIL
+Sales Region
+NAT
+Start Date
+End Date
+Order %
+100%
+Ln Ch
+1
+KTVQ
+09/30/20
+10/06/20
+M-F 530-7am
+Break
+CM
+5:30 AM-7:00 AM
+22222-
+:30
+$150.00
+4.00
+M-F 530-7am
+Week
+09/30/20
+10/06/20
+22222-
+2
+KTVQ
+09/30/20
+10/06/20
+M-F CBS This Morning
+CM
+7:00 AM-9:00 AM
+22222-
+:30
+$325.00
+5.40
+Weekdays
+Spots/Week
+10
+$325.00
+5.40
+3
+KTVQ
+09/30/20
+10/03/20
+6:00 AM-8:00 AM
+22222-
+-----1-
+$140.00
+2.40
+NM
+1
+KTVQ
+09/30/20
+10/03/20
+CBS Sunday Morning
+CM
+6:00 AM-8:00 AM
+-----1-
+:30
+$140.00
+2.40
+4
+KTVQ
+09/30/20
+10/03/20
+CBS Sunday Morning
+CM
+7:00 AM-8:30 AM
+22222-
+:30
+$300.00
+5.06
+0
+$0.00
+5
+KTVQ
+09/30/20
+10/04/20
+Face The Nation
+CM
+8:30 AM-9:30 AM
+-----1-
+:30
+$200.00
+2.10
+NM
+6
+KTVQ
+09/30/20
+10/06/20
+Let's Make a Deal
+10:00 AM-11:00 AM
+111111-
+:30
+$250.00
+3.50
+1
+KTVQ
+09/30/20
+10/06/20
+M-F 10-11am
+10:00 AM-11:00 AM
+M
+W
+T
+F
+-
+:30
+$250.00
+3.50
+6
+KTVQ
+09/30/20
+10/06/20
+M-F 12pm News
+CM
+12:00 PM-12:30 PM
+111111-
+:30
+$250.00
+6.10
+7
+KTVQ
+09/30/20
+10/06/20
+M-F 2-3pm
+CM
+2:00 PM-3:00 PM
+111111-
+:30
+$50.00
+1.30
+8
+KTVQ
+09/30/20
+10/06/20
+M-F 3-4pm
+CM
+3:00 PM-4:00 PM
+111111-
+:30
+$50.00
+1.80
+9
+KTVQ
+09/30/20
+10/06/20
+M-F 4-5pm
+CM
+4:00 PM-5:00 PM
+111111-
+:30
+$100.00
+2.90
+2
+$200.00

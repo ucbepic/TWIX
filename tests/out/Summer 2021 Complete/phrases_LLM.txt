@@ -1,0 +1,54 @@
+ACINDP
+493
+01
+1070
+ARTS MGMT/MERCH INTERN
+Field Studies
+2 - 6
+Bldg: ARRANGED
+Room: ARRANGED
+Days: TBA
+Time: TBA
+Instructor: Anderson,Marshall B
+Class Enrl Cap:10
+Class Enrl Tot:0
+Class Wait Tot:0
+Class Min Enrl:0
+ARTSSTUDIO
+492
+01
+1420
+FIELD INTERNSHIP IN ART
+Field Studies
+1 - 3
+Instructor: Kim,Daniel I
+Class Enrl Cap:18
+Class Enrl Tot:4
+Class Wait Tot:0
+Class Min Enrl:0
+ARTSSTUDIO
+498
+01
+1587
+INDEPENDENT STUDIES
+Independent Study
+1 - 6
+PHOTOGRAPHY
+Instructor: Frame,Teri
+Class Enrl Cap:35
+Class Enrl Tot:1
+Class Wait Tot:0
+Class Min Enrl:0
+ARTSSTUDIO
+498
+02
+1596
+INDEPENDENT STUDIES
+Independent Study
+1 - 6
+PAINTING
+Instructor: Porcaro,Greg
+Class Enrl Cap:35
+Class Enrl Tot:2
+Class Wait Tot:0
+Class Min Enrl:0

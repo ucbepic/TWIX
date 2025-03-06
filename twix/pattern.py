@@ -338,13 +338,22 @@ def row_aligned(row1, row2):
     #a value should not overlap with two keys
     while(id1 < len(row1) and id2 < len(row2)):
         if(is_overlap_vertically(row2[id2][1], row1[id1][1]) == 1 and is_overlap_vertically(row2[id2][1], row1[id1-1][1]) == 1):
-            #print(row1[id1], row1[id1-1], row2[id2])
             return 0
         if(row1[id1][1][2] < row2[id2][1][2]):
             id1 += 1
         else:
             id2 += 1
-    
+
+    #a key should not overlap with two values 
+    id1 = 0 #id in row 1
+    id2 = 1 #id in row 2
+    while(id1 < len(row1) and id2 < len(row2)):
+        if(is_overlap_vertically(row1[id1][1], row2[id2-1][1]) == 1 and is_overlap_vertically(row1[id1][1], row2[id2][1]) == 1):
+            return 0
+        if(row1[id1][1][2] < row2[id2][1][2]):
+            id1 += 1
+        else:
+            id2 += 1
     return 1
     
 def block_decider(rls):
@@ -404,7 +413,7 @@ def create_row_representations(phrases, phrases_bb):
 
 def get_metadata(image_paths):
     #prompt = 'The given two images have common headers and footers in the top and bottem part of the image. Return only the raw headers and footers. Do not return other phrases. Do not add any explanations. '
-    prompt = 'The given two images have common headers and footers in the top and bottem part of the image. Extract only the common raw headers and footers from the given two images. Exclude all other phrases. Do not include explanations. Seperate headers and footers by |'
+    prompt = 'Extract only the common raw headers and footers from the given two images. Headers appear in the first few lines, and footers appear in the last few lines. If any phrase in a row belongs to the header or footer, the entire row should be included. Exclude all other content. Separate headers and footers with |. Do not include explanations.'
     
     response = model(vision_model_name,prompt,image_paths)
     #phrases = [phrase.strip() for phrase in response.split('|')]
@@ -512,9 +521,6 @@ def extract_data_per_doc(template, phrases_bb, raw_phrases, out_path, metadata):
     #print(len(complete_row_mp))
     records = record_seperation(template, complete_row_mp)
     print('Totally ' + str(len(records)) + ' records...')
-    # print('Records...')
-    # for record in records:
-    #     print(record)
 
     #seperate data blocks within each record based on template 
     print('Block seperation starts...')
@@ -622,7 +628,7 @@ def ILP_extract(predict_keys, row_mp, metadata):
                 row_align[(id1,id2)] = c
                 row_align[(id2,id1)] = c
         else:
-            if(row_labels[id1]['K'] >= 1 or get_max_value_of_list(row_labels[id1]) == 'KV'):
+            if(row_labels[id1]['K'] >= 1 or get_max_value_of_list(row_labels[id1]) == 'KV' or get_max_value_of_list(row_labels[id1]) == 'M'):
                 locality = 0
                 for id2 in range(id1+1, len(row_mp)):
                     if(row_labels[id2]['K'] >= 1):#enforce locality
@@ -641,20 +647,22 @@ def ILP_extract(predict_keys, row_mp, metadata):
                     row_align[(id1,id2)] = c
                     row_align[(id2,id1)] = c
 
+    print('row align of 2 and 31:', row_align[(2,31)])
+
 
     #LP formulation to learn row label assignment
-    # print('initial row labels and probs:')
-    # print_row_labels(row_mp, row_labels)
+    print('initial row labels and probs:')
+    print_row_labels(row_mp, row_labels)
 
     row_pred_labels = ILP_formulation(row_mp, row_labels, row_align)
 
-    # print('labels after ILP:')
-    # print(row_pred_labels)
+    print('labels after ILP:')
+    print(row_pred_labels)
     #seperate data blocks based on row labeling
     blk, blk_type = block_seperation(row_pred_labels, row_align)
 
-    # print(blk)
-    # print(blk_type)
+    print(blk)
+    print(blk_type)
 
     #learn template based on the data blocks 
     nodes = template_learn(blk, blk_type, row_mp)

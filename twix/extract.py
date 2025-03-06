@@ -13,6 +13,7 @@ import sys
 import csv
 import math
 import random
+import logging
 from collections import defaultdict
 current_path = os.path.abspath(os.path.dirname(__file__))
 root_path = os.path.abspath(os.path.join(current_path, os.pardir))
@@ -36,9 +37,7 @@ def extract_phrase_LLM(data_files, result_folder = ''):
 
     image_paths = get_image_path(result_folder)
 
-    #print(image_paths)
-
-    prompt = 'Extract all raw phrases from the given images. A phrase is either a keyword, a value from key-value pairs, or an entry in a table. Ensure the extracted phrases have NO duplicates . Separate each phrase with “|” and provide no additional explanations.' 
+    prompt = 'Extract all raw phrases from the given images. A phrase is either a keyword, a value from key-value pairs, or an entry in a table, or random passage, like the footer, header or the title of table. Ensure the extracted phrases have NO duplicates. Return the phrases in reading order. Make sure all keywords must be returned. Separate each phrase with “|” and provide no additional explanations.' 
     
     response = model(vision_model_name,prompt,image_paths)
     #print(response)
@@ -253,6 +252,9 @@ def get_file_name(data_file):
     return os.path.splitext(os.path.basename(data_file))[0]
 
 def merge_pdf(data_files, path):
+    # Suppress PyPDF2 logging
+    logging.getLogger("PyPDF2").setLevel(logging.ERROR)
+
     # Sort the files alphabetically by their file names
     pdf_files_sorted = sorted(data_files, key=lambda x: os.path.basename(x))
 
@@ -297,21 +299,31 @@ def extract_phrase(data_files, result_folder = '', page_limit = 5):
     # Create the folder if it does not exist
     if not os.path.exists(result_folder):
         os.makedirs(result_folder)
-
+    
     # merge pdfs into one
     merged_pdf_path = merge_pdf(data_files, result_folder)
-
+    
     text_path = result_folder + 'merged_phrases.txt' 
     dict_path = result_folder + 'merged_phrases_bounding_box_page_number.json' 
     raw_path = result_folder  + 'merged_raw_phrases_bounding_box_page_number.txt' 
-
+    
+    #get image path
+    image_foler = result_folder + '_image/'
+    if not os.path.exists(image_foler):
+        # Create the folder
+        os.makedirs(image_foler)
+    
+    pdf_2_image(merged_pdf_path, 2, image_foler)
+    
     #get ground_phrases_full
-    phrase_LLM_path = get_phrase_LLM_path(pdf_paths)
-    ground_phrases_full = extract_phrase_LLM(pdf_paths)
+    phrase_LLM_path = get_phrase_LLM_path(data_files)
+    ground_phrases_full = extract_phrase_LLM(data_files)
     write_phrase(phrase_LLM_path, ground_phrases_full)
 
     # extract prhases for merged pdfs
-    phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(merged_pdf_path, text_path, dict_path, raw_path, page_limit)
+    phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(merged_pdf_path, text_path, dict_path, raw_path, data_files, page_limit)
+
+    
 
     phrases_out = {}
 
@@ -324,32 +336,16 @@ def extract_phrase(data_files, result_folder = '', page_limit = 5):
         dict_path = result_folder + file_name + '_bounding_box_page_number.json' 
         raw_path = result_folder + file_name + '_raw_phrases_bounding_box_page_number.txt'
         #print(data_file)
-        phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(data_file, text_path, dict_path, raw_path, max_page_limit) #extract all data for each document 
+        phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(data_file, text_path, dict_path, raw_path, data_files, max_page_limit) #extract all data for each document 
         phrases_out[file_name] = (phrases, phrases_bounding_box_page_number)
 
     #clean intermediate files 
     delete_file(phrase_LLM_path)
-
-    #create pdf images for first two pages of the merged document 
-
-    #get image path
-    image_foler = result_folder + '_image/'
-    if not os.path.exists(image_foler):
-        # Create the folder
-        os.makedirs(image_foler)
-
-    pdf_2_image(merged_pdf_path, 2, image_foler)
-
     return phrases_out
-
-
 
 def extract_phrase_folders(data_folder, page_limit = 6, result_folder = ''):
     paths = print_all_document_paths(data_folder)
     for path in paths:
-        
-        # if('Active_Employment' not in path):
-        #     continue
 
         st = time.time()
     
@@ -492,6 +488,117 @@ def get_phrases_manual(words, x_thresh = 6, y_thresh=4):
 
     return phrases
 
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+
+def merge_three_phrases(phrase_a, phrase_b, phrase_c):
+    """
+    Merge three horizontally aligned phrases into one phrase with updated bounding box.
+    
+    Each input phrase dictionary is assumed to have these keys:
+        {
+            'text': str,
+            'x0': float,
+            'top': float,    # was y0
+            'x1': float,
+            'bottom': float, # was y1
+            'page': int
+        }
+
+    The merged phrase will be:
+        {
+            'text': <concatenated string of the 3 texts>,
+            'x0': <min x0 of the 3>,
+            'top': <min top of the 3>,
+            'x1': <max x1 of the 3>,
+            'bottom': <max bottom of the 3>,
+            'page': <common page>
+        }
+
+    Raises ValueError if the three phrases are not on the same page.
+    """
+    # 1) Check that all three are on the same page
+    page_nums = {phrase_a['page'], phrase_b['page'], phrase_c['page']}
+    if len(page_nums) != 1:
+        raise ValueError("All three phrases must be on the same page to merge.")
+
+    # 2) Merge text
+    merged_text = " ".join([phrase_a['text'], phrase_b['text'], phrase_c['text']])
+
+    # 3) Merge bounding box
+    min_x0 = min(phrase_a['x0'], phrase_b['x0'], phrase_c['x0'])
+    min_top = min(phrase_a['top'], phrase_b['top'], phrase_c['top'])
+    max_x1 = max(phrase_a['x1'], phrase_b['x1'], phrase_c['x1'])
+    max_bottom = max(phrase_a['bottom'], phrase_b['bottom'], phrase_c['bottom'])
+
+    # 4) Construct the merged phrase
+    merged_phrase = {
+        'text': merged_text,
+        'x0': min_x0,
+        'top': min_top,
+        'x1': max_x1,
+        'bottom': max_bottom,
+        'page': phrase_a['page']  # (all three share the same page)
+    }
+    return merged_phrase
+
+def get_phrases_dynamic_v1(words, y_thresh=4):
+    """
+    Recall that size is equal to (x1 - x0) / len(word).
+    For phrase p and word w, define a character having size (p_size + w_size) / 2.
+    Groups words into phrases based on the following rules:
+        (1) Each word in a phrase must be at most {one character} away from the next word to right in phrase. (Compare x1 to x0)
+        (2) First word in a phrase must be at most {y_thresh} away from any word in phrase. (Compare y_mid to y_mid, y_mid = (top + bottom)/2)
+    """
+    phrases = []
+    cur_phrase = words[0]#this is previous phrase 
+    phrase_y_mid = (cur_phrase['bottom'] + cur_phrase['top']) / 2
+    key_detected = False
+    is_merge = False
+    detected = False
+    i = 1
+    while i < len(words):
+        word = words[i]
+
+        if word['text'] == ':':
+            detected = True
+            if(i < len(words)-1 and is_number(words[i-1]['text']) and is_number(words[i+1]['text'])):
+                is_merge = True
+            elif(i < len(words)-1 and is_number(words[i-1]['text']) and ('am' in words[i+1]['text'].lower() or 'pm' in words[i+1]['text'].lower() )): 
+                is_merge = True
+            else:
+                key_detected = True
+            #print(words[i-1]['text'],words[i+1]['text'],is_merge, key_detected)
+            
+        if(is_merge and detected):#merge phrases 
+            new_phrase = merge_three_phrases(words[i-1], words[i], words[i+1])
+            phrases.append(new_phrase)
+            is_merge = False
+            i += 2
+            cur_phrase = words[i-1]
+        else: 
+            if(detected and key_detected):
+                key_detected = False
+                phrases.append(cur_phrase)
+                cur_phrase = word
+                phrase_y_mid = (cur_phrase['bottom'] + cur_phrase['top']) / 2
+                i += 1
+            else:
+                word_y_mid = (word['top'] + word['bottom']) / 2
+                char_size = (cur_phrase['size'] + word['size']) / 2
+                if (not key_detected) and (word['x0'] - cur_phrase['x1'] <= char_size) and (abs(phrase_y_mid - word_y_mid) < y_thresh):#merge two phrases
+                    cur_phrase['text'] += (' ' + word['text'])
+                    cur_phrase['x1'] = word['x1']
+                    cur_phrase['size'] = word['size']
+                
+            i += 1
+
+    return phrases
+
 def get_phrases_dynamic(words, y_thresh=4):
     """
     Recall that size is equal to (x1 - x0) / len(word).
@@ -504,9 +611,11 @@ def get_phrases_dynamic(words, y_thresh=4):
     cur_phrase = words[0]
     phrase_y_mid = (cur_phrase['bottom'] + cur_phrase['top']) / 2
     key_detected = False
-    for word in words[1:]:
+    for i in range(1,len(words)):
+        word = words[i]
 
         if word['text'] == ':':
+            print(words[i-1]['text'], words[i+1]['text'])
             key_detected = True
             continue
 
@@ -542,20 +651,25 @@ def get_phrases_csv(path, user_page_indices=list(range(5))):
 def write_csv(file_path,data):
     data.to_csv(file_path, index=False)
 
-def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, page_count): 
+def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, data_files, page_count): 
     user_page_indices = list(range(page_count))
-
+    print('Processing ', in_path)
+    print('Word extraction starts...')
     #1 first pass extraction 
     #get raw_phrases_bounding_box_page_number
     raw_phrases_bounding_box_page_number = get_phrases_csv(in_path, user_page_indices)
+    
     write_csv(raw_path, raw_phrases_bounding_box_page_number)
 
+    print('Learn rules for word concatation...')
     #2 learn rules
-    distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub = learn_rules(raw_path, in_path)
+    distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub = learn_rules(raw_path, data_files)
 
     #3 apply rules 
-    refined_phrases = apply_rules(raw_phrases_bounding_box_page_number, distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub)
+    raw_phases = load_extracted_words(raw_path)
+    refined_phrases = apply_rules(raw_phases, distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub)
 
+    print('Refine phases extraction based on learned rules...')
     #4 get phrase only list
     phrases_txt = [phrase for phrase in refined_phrases['text'].values.tolist() if type(phrase) == str]
 
@@ -597,6 +711,12 @@ def learn_rules(raw_phrases_with_bounding_box_path, pdf_paths):
 
     positive_pairs, negative_pairs = build_pairs_optimized(phrases, ground_phrases_full, ground_phrases_sub)
 
+    # print('positive pairs:')
+    # print(positive_pairs)
+
+    # print('negative pairs:')
+    # print(negative_pairs)
+
     #Choose a distance threshold
     max_pos_dist, min_neg_dist = find_distance_threshold(positive_pairs, negative_pairs)
 
@@ -608,7 +728,9 @@ def learn_rules(raw_phrases_with_bounding_box_path, pdf_paths):
     return df 
 
 def apply_rules(phrases, distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub):
-    if(distance_threshold > max_pos_dist): 
+    if(distance_threshold < 0):
+        merged_phrases = merge_words_if_ground_phrase(phrases, ground_phrases_full, ground_phrases_sub)
+    elif(distance_threshold > max_pos_dist): 
         merged_phrases = merge_words_with_stop_condition(phrases, distance_threshold)
     else:
         merged_phrases = merge_words_if_ground_phrase(phrases, ground_phrases_full, ground_phrases_sub)
@@ -781,7 +903,7 @@ def find_distance_threshold(positive_pairs, negative_pairs):
     among negative pairs. Return the midpoint of these two values as a threshold.
     """
     if not positive_pairs or not negative_pairs:
-        return None
+        return -1,-1
     
     # max distance among positive pairs
     max_pos_dist = max(dist for (_, _, dist) in positive_pairs)
@@ -992,8 +1114,17 @@ def merge_words_if_ground_phrase(words, ground_phrases, ground_phrases_sub):
 
     return merged_phrases
 
+
+def phrase_extraction_try(path, page_annot=True):
+    result_folder = get_result_folder_path(path)
+    merged_path = result_folder + 'merged.pdf'
+    page_count = 5
+    user_page_indices = list(range(page_count))
+    raw_phrases_bounding_box_page_number = get_phrases_csv(merged_path, user_page_indices)
+    write_csv(result_folder + 'test.csv', raw_phrases_bounding_box_page_number)
+
 if __name__ == "__main__":
     print(root_path)
     pdf_paths = []
-    pdf_paths.append(root_path + '/tests/data/id_23_29.pdf') 
-    extract_phrase(pdf_paths)
+    pdf_paths.append(root_path + '/tests/data/Investigations_Redacted_original.pdf') 
+    extract_phrase(pdf_paths) 

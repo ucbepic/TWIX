@@ -1,0 +1,11288 @@
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+1
+AEN
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$19.00
+$190.00
+30
+OOW 06/28/21-09/26/21
+2
+AEN
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$19.00
+$190.00
+30
+OOW 06/28/21-09/26/21
+3
+AEN
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$19.00
+$190.00
+30
+OOW 06/28/21-09/26/21
+4
+AEN
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$26.00
+$130.00
+30
+OOW 06/28/21-09/26/21
+5
+AEN
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$26.00
+$130.00
+30
+OOW 06/28/21-09/26/21
+6
+AEN
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$26.00
+$104.00
+30
+OOW 06/28/21-09/26/21
+7
+AEN
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$33.00
+$462.00
+30
+OOW 06/28/21-09/26/21
+8
+AEN
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$33.00
+$462.00
+30
+OOW 06/28/21-09/26/21
+9
+AEN
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$33.00
+$264.00
+30
+OOW 06/28/21-09/26/21
+10
+AMC
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$19.00
+$190.00
+30
+OOW 06/28/21-09/26/21
+11
+AMC
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$19.00
+$190.00
+30
+OOW 06/28/21-09/26/21
+12
+AMC
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$19.00
+$190.00
+30
+OOW 06/28/21-09/26/21
+13
+AMC
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$26.00
+$130.00
+30
+OOW 06/28/21-09/26/21
+14
+AMC
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$26.00
+$130.00
+30
+OOW 06/28/21-09/26/21
+15
+AMC
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$26.00
+$104.00
+30
+OOW 06/28/21-09/26/21
+16
+AMC
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$33.00
+$462.00
+30
+OOW 06/28/21-09/26/21
+17
+AMC
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$33.00
+$462.00
+30
+OOW 06/28/21-09/26/21
+18
+AMC
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$33.00
+$264.00
+30
+OOW 06/28/21-09/26/21
+19
+APL
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+20
+APL
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+21
+APL
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+Page 1 of 13
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+22
+APL
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+23
+APL
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+24
+APL
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$14.00
+$56.00
+30
+OOW 06/28/21-09/26/21
+25
+APL
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+26
+APL
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+27
+APL
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$19.00
+$152.00
+30
+OOW 06/28/21-09/26/21
+28
+BRVO
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$17.00
+$170.00
+30
+OOW 06/28/21-09/26/21
+29
+BRVO
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$17.00
+$170.00
+30
+OOW 06/28/21-09/26/21
+30
+BRVO
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$17.00
+$170.00
+30
+OOW 06/28/21-09/26/21
+31
+BRVO
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$26.00
+$130.00
+30
+OOW 06/28/21-09/26/21
+32
+BRVO
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$26.00
+$130.00
+30
+OOW 06/28/21-09/26/21
+33
+BRVO
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$26.00
+$104.00
+30
+OOW 06/28/21-09/26/21
+34
+BRVO
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$33.00
+$462.00
+30
+OOW 06/28/21-09/26/21
+35
+BRVO
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$33.00
+$462.00
+30
+OOW 06/28/21-09/26/21
+36
+BRVO
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$33.00
+$264.00
+30
+OOW 06/28/21-09/26/21
+37
+CMT
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$8.00
+$80.00
+30
+OOW 06/28/21-09/26/21
+38
+CMT
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$8.00
+$80.00
+30
+OOW 06/28/21-09/26/21
+39
+CMT
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$8.00
+$80.00
+30
+OOW 06/28/21-09/26/21
+40
+CMT
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+41
+CMT
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+42
+CMT
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$14.00
+$56.00
+30
+OOW 06/28/21-09/26/21
+Page 2 of 13
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+43
+CMT
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+44
+CMT
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+45
+CMT
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$19.00
+$152.00
+30
+OOW 06/28/21-09/26/21
+46
+DISC
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$25.00
+$250.00
+30
+OOW 06/28/21-09/26/21
+47
+DISC
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$25.00
+$250.00
+30
+OOW 06/28/21-09/26/21
+48
+DISC
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$25.00
+$250.00
+30
+OOW 06/28/21-09/26/21
+49
+DISC
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$37.00
+$148.00
+30
+OOW 06/28/21-09/26/21
+50
+DISC
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+4
+$37.00
+$148.00
+30
+OOW 06/28/21-09/26/21
+51
+DISC
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$37.00
+$148.00
+30
+OOW 06/28/21-09/26/21
+52
+DISC
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+10
+$50.00
+$500.00
+30
+OOW 06/28/21-09/26/21
+53
+DISC
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$50.00
+$500.00
+30
+OOW 06/28/21-09/26/21
+54
+DISC
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$50.00
+$400.00
+30
+OOW 06/28/21-09/26/21
+55
+ESP2
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+56
+ESP2
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+57
+ESP2
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+58
+ESP2
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+59
+ESP2
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+60
+ESP2
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$14.00
+$56.00
+30
+OOW 06/28/21-09/26/21
+61
+ESP2
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+62
+ESP2
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+63
+ESP2
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$19.00
+$152.00
+30
+OOW 06/28/21-09/26/21
+Page 3 of 13
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+64
+ESPN
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$46.00
+$460.00
+30
+OOW 06/28/21-09/26/21
+65
+ESPN
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$46.00
+$460.00
+30
+OOW 06/28/21-09/26/21
+66
+ESPN
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$46.00
+$460.00
+30
+OOW 06/28/21-09/26/21
+67
+ESPN
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$75.00
+$375.00
+30
+OOW 06/28/21-09/26/21
+68
+ESPN
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$75.00
+$375.00
+30
+OOW 06/28/21-09/26/21
+69
+ESPN
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$75.00
+$300.00
+30
+OOW 06/28/21-09/26/21
+70
+ESPN
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$96.00
+$1,344.00
+30
+OOW 06/28/21-09/26/21
+71
+ESPN
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$96.00
+$1,344.00
+30
+OOW 06/28/21-09/26/21
+72
+ESPN
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$96.00
+$768.00
+30
+OOW 06/28/21-09/26/21
+73
+FOOD
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$26.00
+$260.00
+30
+OOW 06/28/21-09/26/21
+74
+FOOD
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$26.00
+$260.00
+30
+OOW 06/28/21-09/26/21
+75
+FOOD
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$26.00
+$260.00
+30
+OOW 06/28/21-09/26/21
+76
+FOOD
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$43.00
+$215.00
+30
+OOW 06/28/21-09/26/21
+77
+FOOD
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$43.00
+$215.00
+30
+OOW 06/28/21-09/26/21
+78
+FOOD
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$43.00
+$172.00
+30
+OOW 06/28/21-09/26/21
+79
+FOOD
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$54.00
+$756.00
+30
+OOW 06/28/21-09/26/21
+80
+FOOD
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$54.00
+$756.00
+30
+OOW 06/28/21-09/26/21
+81
+FOOD
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$54.00
+$432.00
+30
+OOW 06/28/21-09/26/21
+82
+FRFM
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$17.00
+$170.00
+30
+OOW 06/28/21-09/26/21
+83
+FRFM
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$17.00
+$170.00
+30
+OOW 06/28/21-09/26/21
+84
+FRFM
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$17.00
+$170.00
+30
+OOW 06/28/21-09/26/21
+Page 4 of 13
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+85
+FRFM
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$26.00
+$130.00
+30
+OOW 06/28/21-09/26/21
+86
+FRFM
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$26.00
+$130.00
+30
+OOW 06/28/21-09/26/21
+87
+FRFM
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$26.00
+$104.00
+30
+OOW 06/28/21-09/26/21
+88
+FRFM
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$33.00
+$462.00
+30
+OOW 06/28/21-09/26/21
+89
+FRFM
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$33.00
+$462.00
+30
+OOW 06/28/21-09/26/21
+90
+FRFM
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$33.00
+$264.00
+30
+OOW 06/28/21-09/26/21
+91
+FS1
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$8.00
+$80.00
+30
+OOW 06/28/21-09/26/21
+92
+FS1
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$8.00
+$80.00
+30
+OOW 06/28/21-09/26/21
+93
+FS1
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$8.00
+$80.00
+30
+OOW 06/28/21-09/26/21
+94
+FS1
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+95
+FS1
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+96
+FS1
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$14.00
+$56.00
+30
+OOW 06/28/21-09/26/21
+97
+FS1
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+98
+FS1
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+99
+FS1
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$19.00
+$152.00
+30
+OOW 06/28/21-09/26/21
+100
+FSD
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+101
+FSD
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+102
+FSD
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+103
+FSD
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+104
+FSD
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+105
+FSD
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$14.00
+$56.00
+30
+OOW 06/28/21-09/26/21
+Page 5 of 13
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+106
+FSD
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+107
+FSD
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+108
+FSD
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$19.00
+$152.00
+30
+OOW 06/28/21-09/26/21
+109
+FX
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$15.00
+$150.00
+30
+OOW 06/28/21-09/26/21
+110
+FX
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$15.00
+$150.00
+30
+OOW 06/28/21-09/26/21
+111
+FX
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$15.00
+$150.00
+30
+OOW 06/28/21-09/26/21
+112
+FX
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$25.00
+$125.00
+30
+OOW 06/28/21-09/26/21
+113
+FX
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$25.00
+$125.00
+30
+OOW 06/28/21-09/26/21
+114
+FX
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$25.00
+$100.00
+30
+OOW 06/28/21-09/26/21
+115
+FX
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$30.00
+$420.00
+30
+OOW 06/28/21-09/26/21
+116
+FX
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$30.00
+$420.00
+30
+OOW 06/28/21-09/26/21
+117
+FX
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$30.00
+$240.00
+30
+OOW 06/28/21-09/26/21
+118
+GOLF
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$13.00
+$130.00
+30
+OOW 06/28/21-09/26/21
+119
+GOLF
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$13.00
+$130.00
+30
+OOW 06/28/21-09/26/21
+120
+GOLF
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$13.00
+$130.00
+30
+OOW 06/28/21-09/26/21
+121
+GOLF
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+122
+GOLF
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+123
+GOLF
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$14.00
+$56.00
+30
+OOW 06/28/21-09/26/21
+124
+GOLF
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+125
+GOLF
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+126
+GOLF
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$19.00
+$152.00
+30
+OOW 06/28/21-09/26/21
+Page 6 of 13
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+127
+HALL
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$25.00
+$250.00
+30
+OOW 06/28/21-09/26/21
+128
+HALL
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$25.00
+$250.00
+30
+OOW 06/28/21-09/26/21
+129
+HALL
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$25.00
+$250.00
+30
+OOW 06/28/21-09/26/21
+130
+HALL
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$43.00
+$172.00
+30
+OOW 06/28/21-09/26/21
+131
+HALL
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+4
+$43.00
+$172.00
+30
+OOW 06/28/21-09/26/21
+132
+HALL
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$43.00
+$172.00
+30
+OOW 06/28/21-09/26/21
+133
+HALL
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+10
+$54.00
+$540.00
+30
+OOW 06/28/21-09/26/21
+134
+HALL
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$54.00
+$540.00
+30
+OOW 06/28/21-09/26/21
+135
+HALL
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$54.00
+$432.00
+30
+OOW 06/28/21-09/26/21
+136
+HGTV
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$50.00
+$500.00
+30
+OOW 06/28/21-09/26/21
+137
+HGTV
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$50.00
+$500.00
+30
+OOW 06/28/21-09/26/21
+138
+HGTV
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$50.00
+$500.00
+30
+OOW 06/28/21-09/26/21
+139
+HGTV
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$75.00
+$300.00
+30
+OOW 06/28/21-09/26/21
+140
+HGTV
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+4
+$75.00
+$300.00
+30
+OOW 06/28/21-09/26/21
+141
+HGTV
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$75.00
+$300.00
+30
+OOW 06/28/21-09/26/21
+142
+HGTV
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+10
+$96.00
+$960.00
+30
+OOW 06/28/21-09/26/21
+143
+HGTV
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$96.00
+$960.00
+30
+OOW 06/28/21-09/26/21
+144
+HGTV
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$96.00
+$768.00
+30
+OOW 06/28/21-09/26/21
+145
+HIST
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$35.00
+$350.00
+30
+OOW 06/28/21-09/26/21
+146
+HIST
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$35.00
+$350.00
+30
+OOW 06/28/21-09/26/21
+147
+HIST
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$35.00
+$350.00
+30
+OOW 06/28/21-09/26/21
+Page 7 of 13
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+148
+HIST
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$56.00
+$224.00
+30
+OOW 06/28/21-09/26/21
+149
+HIST
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+4
+$56.00
+$224.00
+30
+OOW 06/28/21-09/26/21
+150
+HIST
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$56.00
+$224.00
+30
+OOW 06/28/21-09/26/21
+151
+HIST
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+10
+$70.00
+$700.00
+30
+OOW 06/28/21-09/26/21
+152
+HIST
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$70.00
+$700.00
+30
+OOW 06/28/21-09/26/21
+153
+HIST
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$70.00
+$560.00
+30
+OOW 06/28/21-09/26/21
+154
+LIF
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$19.00
+$190.00
+30
+OOW 06/28/21-09/26/21
+155
+LIF
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$19.00
+$190.00
+30
+OOW 06/28/21-09/26/21
+156
+LIF
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$19.00
+$190.00
+30
+OOW 06/28/21-09/26/21
+157
+LIF
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$23.00
+$115.00
+30
+OOW 06/28/21-09/26/21
+158
+LIF
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$23.00
+$115.00
+30
+OOW 06/28/21-09/26/21
+159
+LIF
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$23.00
+$92.00
+30
+OOW 06/28/21-09/26/21
+160
+LIF
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$29.00
+$406.00
+30
+OOW 06/28/21-09/26/21
+161
+LIF
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$29.00
+$406.00
+30
+OOW 06/28/21-09/26/21
+162
+LIF
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$29.00
+$232.00
+30
+OOW 06/28/21-09/26/21
+163
+NFLN
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$8.00
+$80.00
+30
+OOW 06/28/21-09/26/21
+164
+NFLN
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$8.00
+$80.00
+30
+OOW 06/28/21-09/26/21
+165
+NFLN
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$8.00
+$80.00
+30
+OOW 06/28/21-09/26/21
+166
+NFLN
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+167
+NFLN
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+168
+NFLN
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$14.00
+$56.00
+30
+OOW 06/28/21-09/26/21
+Page 8 of 13
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+169
+NFLN
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+170
+NFLN
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+171
+NFLN
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$19.00
+$152.00
+30
+OOW 06/28/21-09/26/21
+172
+NGC
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+173
+NGC
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+174
+NGC
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+175
+NGC
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+176
+NGC
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+177
+NGC
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$14.00
+$56.00
+30
+OOW 06/28/21-09/26/21
+178
+NGC
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+179
+NGC
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+180
+NGC
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$19.00
+$152.00
+30
+OOW 06/28/21-09/26/21
+181
+PAR
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$8.00
+$80.00
+30
+OOW 06/28/21-09/26/21
+182
+PAR
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$8.00
+$80.00
+30
+OOW 06/28/21-09/26/21
+183
+PAR
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$8.00
+$80.00
+30
+OOW 06/28/21-09/26/21
+184
+PAR
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+185
+PAR
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+186
+PAR
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$14.00
+$56.00
+30
+OOW 06/28/21-09/26/21
+187
+PAR
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+188
+PAR
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+189
+PAR
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$19.00
+$152.00
+30
+OOW 06/28/21-09/26/21
+Page 9 of 13
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+190
+TBSC
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$35.00
+$350.00
+30
+OOW 06/28/21-09/26/21
+191
+TBSC
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$35.00
+$350.00
+30
+OOW 06/28/21-09/26/21
+192
+TBSC
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$35.00
+$350.00
+30
+OOW 06/28/21-09/26/21
+193
+TBSC
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$61.00
+$305.00
+30
+OOW 06/28/21-09/26/21
+194
+TBSC
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$61.00
+$305.00
+30
+OOW 06/28/21-09/26/21
+195
+TBSC
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$61.00
+$244.00
+30
+OOW 06/28/21-09/26/21
+196
+TBSC
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$75.00
+$1,050.00
+30
+OOW 06/28/21-09/26/21
+197
+TBSC
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$75.00
+$1,050.00
+30
+OOW 06/28/21-09/26/21
+198
+TBSC
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$75.00
+$600.00
+30
+OOW 06/28/21-09/26/21
+199
+TLC
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$19.00
+$190.00
+30
+OOW 06/28/21-09/26/21
+200
+TLC
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$19.00
+$190.00
+30
+OOW 06/28/21-09/26/21
+201
+TLC
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$19.00
+$190.00
+30
+OOW 06/28/21-09/26/21
+202
+TLC
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$29.00
+$145.00
+30
+OOW 06/28/21-09/26/21
+203
+TLC
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$29.00
+$145.00
+30
+OOW 06/28/21-09/26/21
+204
+TLC
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$29.00
+$116.00
+30
+OOW 06/28/21-09/26/21
+205
+TLC
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$36.00
+$504.00
+30
+OOW 06/28/21-09/26/21
+206
+TLC
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$36.00
+$504.00
+30
+OOW 06/28/21-09/26/21
+207
+TLC
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$36.00
+$288.00
+30
+OOW 06/28/21-09/26/21
+208
+TNT
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$35.00
+$350.00
+30
+OOW 06/28/21-09/26/21
+209
+TNT
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$35.00
+$350.00
+30
+OOW 06/28/21-09/26/21
+210
+TNT
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$35.00
+$350.00
+30
+OOW 06/28/21-09/26/21
+Page 10 of 13
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+211
+TNT
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$61.00
+$305.00
+30
+OOW 06/28/21-09/26/21
+212
+TNT
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$61.00
+$305.00
+30
+OOW 06/28/21-09/26/21
+213
+TNT
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$61.00
+$244.00
+30
+OOW 06/28/21-09/26/21
+214
+TNT
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$75.00
+$1,050.00
+30
+OOW 06/28/21-09/26/21
+215
+TNT
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$75.00
+$1,050.00
+30
+OOW 06/28/21-09/26/21
+216
+TNT
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$75.00
+$600.00
+30
+OOW 06/28/21-09/26/21
+217
+TRAV
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+218
+TRAV
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+219
+TRAV
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+220
+TRAV
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+221
+TRAV
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+222
+TRAV
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$14.00
+$56.00
+30
+OOW 06/28/21-09/26/21
+223
+TRAV
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+224
+TRAV
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+225
+TRAV
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$19.00
+$152.00
+30
+OOW 06/28/21-09/26/21
+226
+TVL
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+227
+TVL
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+228
+TVL
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+229
+TVL
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+230
+TVL
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+231
+TVL
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$14.00
+$56.00
+30
+OOW 06/28/21-09/26/21
+Page 11 of 13
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+232
+TVL
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+233
+TVL
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+234
+TVL
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$19.00
+$152.00
+30
+OOW 06/28/21-09/26/21
+235
+TWC
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+236
+TWC
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+237
+TWC
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$9.00
+$90.00
+30
+OOW 06/28/21-09/26/21
+238
+TWC
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+239
+TWC
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$14.00
+$70.00
+30
+OOW 06/28/21-09/26/21
+240
+TWC
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$14.00
+$56.00
+30
+OOW 06/28/21-09/26/21
+241
+TWC
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+242
+TWC
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$19.00
+$266.00
+30
+OOW 06/28/21-09/26/21
+243
+TWC
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$19.00
+$152.00
+30
+OOW 06/28/21-09/26/21
+244
+USA
+CABLE
+9/13/21
+9/19/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$35.00
+$350.00
+30
+OOW 06/28/21-09/26/21
+245
+USA
+CABLE
+9/20/21
+9/26/21
+09
+00
+16
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+10
+$35.00
+$350.00
+30
+OOW 06/28/21-09/26/21
+246
+USA
+CABLE
+9/27/21
+10/3/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+10
+$35.00
+$350.00
+30
+OOW 06/28/21-09/26/21
+247
+USA
+CABLE
+9/13/21
+9/19/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+5
+$61.00
+$305.00
+30
+OOW 06/28/21-09/26/21
+248
+USA
+CABLE
+9/20/21
+9/26/21
+16
+00
+19
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+5
+$61.00
+$305.00
+30
+OOW 06/28/21-09/26/21
+249
+USA
+CABLE
+9/27/21
+10/3/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+4
+$61.00
+$244.00
+30
+OOW 06/28/21-09/26/21
+250
+USA
+CABLE
+9/13/21
+9/19/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+14
+$75.00
+$1,050.00
+30
+OOW 06/28/21-09/26/21
+251
+USA
+CABLE
+9/20/21
+9/26/21
+19
+00
+24
+00
+X
+X
+X
+X
+X
+X
+X
+-
+-
+14
+$75.00
+$1,050.00
+30
+OOW 06/28/21-09/26/21
+Page 12 of 13
+Ampersand Cable System Order
+Order #
+62924075
+Flight Dates
+09/13/21 - 10/03/21
+Update Date
+09/15/21
+Syscode
+0166
+Agency
+Keller Media Consulting
+Version
+1 Vs. 1
+System Name
+Spectrum/Traverse City Interconnect, MI
+Advertiser
+Small Business Association of Michigan
+Show All Lines
+Market
+Traverse City
+Total # of Weeks
+3
+Client Code
+Total
+$65,422.00
+AE
+Leah Losier
+Product Code
+Commission
+$9,813.30
+Sales Coordinator
+Michael Ryan
+Est Code
+Net Total
+$55,608.70
+Office
+Chicago
+Product Name
+add to sked 9.16-9.30
+Total Spots
+2200
+Phone
+(312) 527-5755
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+Adults 18+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+9.14 new order. please confirm. thanks
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+252
+USA
+CABLE
+9/27/21
+10/3/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+8
+$75.00
+$600.00
+30
+OOW 06/28/21-09/26/21
+Sep 2021
+Oct 2021
+Nov 2021
+Dec 2021
+Jan 2022
+Feb 2022
+Mar 2022
+Apr 2022
+May 2022
+Jun 2022
+Jul 2022
+Aug 2022
+Total
+SPOTS
+1584
+616
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2200
+AMT
+$47,728.00
+$17,694.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$65,422.00
+SYSTEM APP
+_____________________________ SALES _____________________________ ACCT
+Date Printed
+09/16/21
+62924075 | Traverse City | Spectrum/Traverse City Interconnect, MI | 0166
+|
+Page 13 of 13
+Ampersand Cable System Order
+Order #
+62911651
+Flight Dates
+08/09/21 - 08/22/21
+Update Date
+07/30/21
+Syscode
+3465
+Agency
+Dudley Media
+Version
+3 Vs. 2
+System Name
+Spectrum/South Pinellas, FL
+Advertiser
+Darden Rice PC
+Show All Lines
+Market
+Tampa-St. Petersburg
+Total # of Weeks
+2
+Client Code
+St. Pete
+Total
+$38,184.00
+AE
+Mark Ongsysia
+Product Code
+08100816
+Commission
+$5,727.60
+Sales Coordinator
+Cal Kielhold
+Est Code
+30s
+Net Total
+$32,456.40
+Office
+Washington
+Product Name
+Total Spots
+603
+Phone
+(301) 941-2620
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+Jul20 DMA Nielsen Parallel Live+3
+Primary Demo
+Adults 35+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+7.29 R1 flight dates adjusted
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+1
+BRVO
+AVG. ALL WKS<
+8/9/21
+8/15/21
+05
+00
+09
+00
+X
+X
+X
+-
+-
+3
+$13.00
+$39.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+2
+BRVO
+AVG. ALL WKS<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+1
+$13.00
+$13.00
+30
+7.26 NA -1x NCR 6/28/2021-
+9/26/2021
+3
+CNN
+NEW DAY<
+8/9/21
+8/15/21
+05
+00
+09
+00
+X
+X
+X
+-
+-
+3
+$47.00
+$141.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+4
+CNN
+NEW DAY<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+1
+$47.00
+$47.00
+30
+7.26 NA -1x NCR 6/28/2021-
+9/26/2021
+5
+ESPN
+AVG. ALL WKS<
+8/9/21
+8/15/21
+05
+00
+09
+00
+X
+X
+X
+-
+-
+3
+$27.00
+$81.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+6
+ESPN
+AVG. ALL WKS<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+1
+$27.00
+$27.00
+30
+7.26 NA -1x NCR 6/28/2021-
+9/26/2021
+7
+FXNC
+FOX AND FRIEND<
+8/9/21
+8/15/21
+05
+00
+09
+00
+X
+X
+X
+-
+-
+3
+$82.00
+$246.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+8
+FXNC
+FOX AND FRIEND<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+1
+$82.00
+$82.00
+30
+7.26 NA -1x NCR 6/28/2021-
+9/26/2021
+9
+HGTV
+AVG. ALL WKS<
+8/9/21
+8/15/21
+05
+00
+09
+00
+X
+X
+X
+-
+-
+3
+$22.00
+$66.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+10
+HGTV
+AVG. ALL WKS<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+1
+$22.00
+$22.00
+30
+7.26 NA -1x NCR 6/28/2021-
+9/26/2021
+11
+MNBC
+MORNING JOE<
+8/9/21
+8/15/21
+05
+00
+09
+00
+X
+X
+X
+-
+-
+3
+$47.00
+$141.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+12
+MNBC
+MORNING JOE<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+1
+$47.00
+$47.00
+30
+7.26 NA -1x NCR 6/28/2021-
+9/26/2021
+13
+TNT
+CHARMED<
+8/9/21
+8/15/21
+05
+00
+09
+00
+X
+X
+X
+-
+-
+3
+$20.00
+$60.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+14
+TNT
+CHARMED<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+1
+$20.00
+$20.00
+30
+7.26 NA -1x NCR 6/28/2021-
+9/26/2021
+15
+USA
+Olympics
+Summer Olympics
+8/9/21
+8/15/21
+05
+00
+09
+00
+X
+X
+X
+-
+-
+3
+$20.00
+$60.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+16
+USA
+Olympics
+Summer Olympics
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+1
+$20.00
+$20.00
+30
+7.26 NA -1x NCR 6/28/2021-
+9/26/2021
+Page 1 of 12
+Ampersand Cable System Order
+Order #
+62911651
+Flight Dates
+08/09/21 - 08/22/21
+Update Date
+07/30/21
+Syscode
+3465
+Agency
+Dudley Media
+Version
+3 Vs. 2
+System Name
+Spectrum/South Pinellas, FL
+Advertiser
+Darden Rice PC
+Show All Lines
+Market
+Tampa-St. Petersburg
+Total # of Weeks
+2
+Client Code
+St. Pete
+Total
+$38,184.00
+AE
+Mark Ongsysia
+Product Code
+08100816
+Commission
+$5,727.60
+Sales Coordinator
+Cal Kielhold
+Est Code
+30s
+Net Total
+$32,456.40
+Office
+Washington
+Product Name
+Total Spots
+603
+Phone
+(301) 941-2620
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+Jul20 DMA Nielsen Parallel Live+3
+Primary Demo
+Adults 35+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+7.29 R1 flight dates adjusted
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+17
+HALL
+AVG. ALL WKS<
+8/9/21
+8/15/21
+05
+00
+09
+00
+X
+X
+X
+-
+-
+3
+$20.00
+$60.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+18
+HALL
+AVG. ALL WKS<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+1
+$20.00
+$20.00
+30
+7.26 NA -1x NCR 6/28/2021-
+9/26/2021
+19
+TBSC
+VARIOUS
+8/9/21
+8/15/21
+05
+00
+09
+00
+X
+X
+X
+-
+-
+3
+$20.00
+$60.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+20
+TBSC
+VARIOUS
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+1
+$20.00
+$20.00
+30
+7.26 NA -1x NCR 6/28/2021-
+9/26/2021
+21
+DISC
+AVG. ALL WKS<
+8/9/21
+8/15/21
+05
+00
+09
+00
+X
+X
+X
+-
+-
+3
+$16.00
+$48.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+22
+DISC
+AVG. ALL WKS<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+1
+$16.00
+$16.00
+30
+7.26 NA -1x NCR 6/28/2021-
+9/26/2021
+23
+S1TP
+VARIOUS
+8/9/21
+8/15/21
+05
+00
+09
+00
+X
+X
+X
+-
+-
+3
+$101.00
+$303.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+24
+S1TP
+VARIOUS
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+1
+$101.00
+$101.00
+30
+7.26 NA -1x NCR 6/28/2021-
+9/26/2021
+25
+BRVO
+AVG. ALL WKS<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+4
+$13.00
+$52.00
+30
+7.29 R1 -9x NCR 6/28/2021-
+9/26/2021
+26
+BRVO
+AVG. ALL WKS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+2
+$13.00
+$26.00
+30
+NCR 6/28/2021-9/26/2021
+27
+CNN
+CNN NEWSROOM<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+4
+$38.00
+$152.00
+30
+7.29 R1 -9x NCR 6/28/2021-
+9/26/2021
+28
+CNN
+CNN NEWSROOM<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+2
+$38.00
+$76.00
+30
+NCR 6/28/2021-9/26/2021
+29
+ESPN
+AVG. ALL WKS<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+4
+$39.00
+$156.00
+30
+7.29 R1 -9x NCR 6/28/2021-
+9/26/2021
+30
+ESPN
+AVG. ALL WKS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+2
+$39.00
+$78.00
+30
+NCR 6/28/2021-9/26/2021
+31
+FXNC
+VARIOUS
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+4
+$69.00
+$276.00
+30
+7.29 R1 -9x NCR 6/28/2021-
+9/26/2021
+32
+FXNC
+VARIOUS
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+2
+$69.00
+$138.00
+30
+NCR 6/28/2021-9/26/2021
+33
+HGTV
+AVG. ALL WKS<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+4
+$47.00
+$188.00
+30
+7.29 R1 -9x NCR 6/28/2021-
+9/26/2021
+Page 2 of 12
+Ampersand Cable System Order
+Order #
+62911651
+Flight Dates
+08/09/21 - 08/22/21
+Update Date
+07/30/21
+Syscode
+3465
+Agency
+Dudley Media
+Version
+3 Vs. 2
+System Name
+Spectrum/South Pinellas, FL
+Advertiser
+Darden Rice PC
+Show All Lines
+Market
+Tampa-St. Petersburg
+Total # of Weeks
+2
+Client Code
+St. Pete
+Total
+$38,184.00
+AE
+Mark Ongsysia
+Product Code
+08100816
+Commission
+$5,727.60
+Sales Coordinator
+Cal Kielhold
+Est Code
+30s
+Net Total
+$32,456.40
+Office
+Washington
+Product Name
+Total Spots
+603
+Phone
+(301) 941-2620
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+Jul20 DMA Nielsen Parallel Live+3
+Primary Demo
+Adults 35+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+7.29 R1 flight dates adjusted
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+34
+HGTV
+AVG. ALL WKS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+2
+$47.00
+$94.00
+30
+NCR 6/28/2021-9/26/2021
+35
+MNBC
+VARIOUS
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+4
+$38.00
+$152.00
+30
+7.29 R1 -9x NCR 6/28/2021-
+9/26/2021
+36
+MNBC
+VARIOUS
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+2
+$38.00
+$76.00
+30
+NCR 6/28/2021-9/26/2021
+37
+TNT
+VARIOUS
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+4
+$27.00
+$108.00
+30
+7.29 R1 -9x NCR 6/28/2021-
+9/26/2021
+38
+TNT
+VARIOUS
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+2
+$27.00
+$54.00
+30
+NCR 6/28/2021-9/26/2021
+39
+USA
+Olympics
+Summer Olympics
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+4
+$38.00
+$152.00
+30
+7.29 R1 -9x NCR 6/28/2021-
+9/26/2021
+40
+USA
+Olympics
+Summer Olympics
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+2
+$38.00
+$76.00
+30
+NCR 6/28/2021-9/26/2021
+41
+HALL
+HALLMARK MOVIE<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+4
+$27.00
+$108.00
+30
+7.29 R1 -9x NCR 6/28/2021-
+9/26/2021
+42
+HALL
+HALLMARK MOVIE<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+2
+$27.00
+$54.00
+30
+NCR 6/28/2021-9/26/2021
+43
+TBSC
+FRIENDS<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+4
+$27.00
+$108.00
+30
+7.29 R1 -9x NCR 6/28/2021-
+9/26/2021
+44
+TBSC
+FRIENDS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+2
+$27.00
+$54.00
+30
+NCR 6/28/2021-9/26/2021
+45
+DISC
+AVG. ALL WKS<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+4
+$16.00
+$64.00
+30
+7.29 R1 -9x NCR 6/28/2021-
+9/26/2021
+46
+DISC
+AVG. ALL WKS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+2
+$16.00
+$32.00
+30
+NCR 6/28/2021-9/26/2021
+47
+S1TP
+VARIOUS
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+4
+$86.00
+$344.00
+30
+7.29 R1 -9x NCR 6/28/2021-
+9/26/2021
+48
+S1TP
+VARIOUS
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+2
+$86.00
+$172.00
+30
+NCR 6/28/2021-9/26/2021
+49
+BRVO
+AVG. ALL WKS<
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$66.00
+$198.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+50
+BRVO
+AVG. ALL WKS<
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+1
+$66.00
+$66.00
+30
+NCR 6/28/2021-9/26/2021
+51
+CNN
+SITUATION ROOM WITH
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$66.00
+$198.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+WOLF BLITZER
+9/26/2021
+Page 3 of 12
+Ampersand Cable System Order
+Order #
+62911651
+Flight Dates
+08/09/21 - 08/22/21
+Update Date
+07/30/21
+Syscode
+3465
+Agency
+Dudley Media
+Version
+3 Vs. 2
+System Name
+Spectrum/South Pinellas, FL
+Advertiser
+Darden Rice PC
+Show All Lines
+Market
+Tampa-St. Petersburg
+Total # of Weeks
+2
+Client Code
+St. Pete
+Total
+$38,184.00
+AE
+Mark Ongsysia
+Product Code
+08100816
+Commission
+$5,727.60
+Sales Coordinator
+Cal Kielhold
+Est Code
+30s
+Net Total
+$32,456.40
+Office
+Washington
+Product Name
+Total Spots
+603
+Phone
+(301) 941-2620
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+Jul20 DMA Nielsen Parallel Live+3
+Primary Demo
+Adults 35+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+7.29 R1 flight dates adjusted
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+52
+CNN
+SITUATION ROOM WITH
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+1
+$66.00
+$66.00
+30
+NCR 6/28/2021-9/26/2021
+WOLF BLITZER
+53
+ESPN
+AVG. ALL WKS<
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$118.00
+$354.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+54
+ESPN
+AVG. ALL WKS<
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+1
+$118.00
+$118.00
+30
+NCR 6/28/2021-9/26/2021
+55
+FXNC
+FIVE, THE
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$124.00
+$372.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+56
+FXNC
+FIVE, THE
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+1
+$124.00
+$124.00
+30
+NCR 6/28/2021-9/26/2021
+57
+HGTV
+AVG. ALL WKS<
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$109.00
+$327.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+58
+HGTV
+AVG. ALL WKS<
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+1
+$109.00
+$109.00
+30
+NCR 6/28/2021-9/26/2021
+59
+MNBC
+VARIOUS
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$66.00
+$198.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+60
+MNBC
+VARIOUS
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+1
+$66.00
+$66.00
+30
+NCR 6/28/2021-9/26/2021
+61
+TNT
+VARIOUS
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$91.00
+$273.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+62
+TNT
+VARIOUS
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+1
+$91.00
+$91.00
+30
+NCR 6/28/2021-9/26/2021
+63
+USA
+Olympics
+Summer Olympics
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$91.00
+$273.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+64
+USA
+Olympics
+Summer Olympics
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+1
+$91.00
+$91.00
+30
+NCR 6/28/2021-9/26/2021
+65
+HALL
+HALLMARK MOVIE<
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$66.00
+$198.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+66
+HALL
+HALLMARK MOVIE<
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+1
+$66.00
+$66.00
+30
+NCR 6/28/2021-9/26/2021
+67
+TBSC
+MLB
+Regular Season
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$91.00
+$273.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+68
+TBSC
+MLB
+Regular Season
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+1
+$91.00
+$91.00
+30
+NCR 6/28/2021-9/26/2021
+69
+DISC
+AVG. ALL WKS<
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$62.00
+$186.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+Page 4 of 12
+Ampersand Cable System Order
+Order #
+62911651
+Flight Dates
+08/09/21 - 08/22/21
+Update Date
+07/30/21
+Syscode
+3465
+Agency
+Dudley Media
+Version
+3 Vs. 2
+System Name
+Spectrum/South Pinellas, FL
+Advertiser
+Darden Rice PC
+Show All Lines
+Market
+Tampa-St. Petersburg
+Total # of Weeks
+2
+Client Code
+St. Pete
+Total
+$38,184.00
+AE
+Mark Ongsysia
+Product Code
+08100816
+Commission
+$5,727.60
+Sales Coordinator
+Cal Kielhold
+Est Code
+30s
+Net Total
+$32,456.40
+Office
+Washington
+Product Name
+Total Spots
+603
+Phone
+(301) 941-2620
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+Jul20 DMA Nielsen Parallel Live+3
+Primary Demo
+Adults 35+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+7.29 R1 flight dates adjusted
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+70
+DISC
+AVG. ALL WKS<
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+1
+$62.00
+$62.00
+30
+NCR 6/28/2021-9/26/2021
+71
+S1TP
+VARIOUS
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$86.00
+$258.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+72
+S1TP
+VARIOUS
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+1
+$86.00
+$86.00
+30
+NCR 6/28/2021-9/26/2021
+73
+BRVO
+BELOW DECK
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+6
+$82.00
+$492.00
+30
+7.29 R1 -6x NCR 6/28/2021-
+MEDITERRANEAN, FAMILY
+9/26/2021
+KARMA, MILLION DOLLAR
+LISTING NEW YORK, REAL
+HOUSEWIVES OF POTOMAC
+74
+BRVO
+BELOW DECK
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+2
+$82.00
+$164.00
+30
+NCR 6/28/2021-9/26/2021
+MEDITERRANEAN, FAMILY
+KARMA, MILLION DOLLAR
+LISTING NEW YORK, REAL
+HOUSEWIVES OF POTOMAC
+75
+CNN
+ANDERSON COOPER 360,
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+6
+$82.00
+$492.00
+30
+7.29 R1 -6x NCR 6/28/2021-
+CNN TONIGHT WITH DON
+9/26/2021
+LEMON, CUOMO PRIME
+TIME
+76
+CNN
+ANDERSON COOPER 360,
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+2
+$82.00
+$164.00
+30
+NCR 6/28/2021-9/26/2021
+CNN TONIGHT WITH DON
+LEMON, CUOMO PRIME
+TIME
+77
+ESPN
+AVG. ALL WKS
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+6
+$151.00
+$906.00
+30
+7.29 R1 -6x NCR 6/28/2021-
+9/26/2021
+78
+ESPN
+AVG. ALL WKS
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+2
+$151.00
+$302.00
+30
+NCR 6/28/2021-9/26/2021
+79
+FXNC
+HANNITY, INGRAHAM
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+6
+$151.00
+$906.00
+30
+7.29 R1 -6x NCR 6/28/2021-
+ANGLE, THE, TUCKER
+9/26/2021
+CARLSON TONIGHT
+80
+FXNC
+HANNITY, INGRAHAM
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+2
+$151.00
+$302.00
+30
+NCR 6/28/2021-9/26/2021
+ANGLE, THE, TUCKER
+CARLSON TONIGHT
+Page 5 of 12
+Ampersand Cable System Order
+Order #
+62911651
+Flight Dates
+08/09/21 - 08/22/21
+Update Date
+07/30/21
+Syscode
+3465
+Agency
+Dudley Media
+Version
+3 Vs. 2
+System Name
+Spectrum/South Pinellas, FL
+Advertiser
+Darden Rice PC
+Show All Lines
+Market
+Tampa-St. Petersburg
+Total # of Weeks
+2
+Client Code
+St. Pete
+Total
+$38,184.00
+AE
+Mark Ongsysia
+Product Code
+08100816
+Commission
+$5,727.60
+Sales Coordinator
+Cal Kielhold
+Est Code
+30s
+Net Total
+$32,456.40
+Office
+Washington
+Product Name
+Total Spots
+603
+Phone
+(301) 941-2620
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+Jul20 DMA Nielsen Parallel Live+3
+Primary Demo
+Adults 35+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+7.29 R1 flight dates adjusted
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+81
+HGTV
+HOUSE HUNTERS, HOUSE
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+6
+$137.00
+$822.00
+30
+7.29 R1 -6x NCR 6/28/2021-
+HUNTERS INTERNATIONAL,
+9/26/2021
+BATTLE ON THE BEACH,
+CELEBRITY I.O.U,
+CHRISTINA ON THE
+82
+HGTV
+HOUSE HUNTERS, HOUSE
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+2
+$137.00
+$274.00
+30
+NCR 6/28/2021-9/26/2021
+HUNTERS INTERNATIONAL,
+BATTLE ON THE BEACH,
+CELEBRITY I.O.U,
+CHRISTINA ON THE
+83
+MNBC
+THE RACHEL MADDOW
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+6
+$82.00
+$492.00
+30
+7.29 R1 -6x NCR 6/28/2021-
+SHOW
+9/26/2021
+84
+MNBC
+THE RACHEL MADDOW
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+2
+$82.00
+$164.00
+30
+NCR 6/28/2021-9/26/2021
+SHOW
+85
+TNT
+ALL ELITE WRESTLING,
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+6
+$109.00
+$654.00
+30
+7.29 R1 -6x NCR 6/28/2021-
+ANIMAL KINGDOM
+9/26/2021
+86
+TNT
+ALL ELITE WRESTLING,
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+2
+$109.00
+$218.00
+30
+NCR 6/28/2021-9/26/2021
+ANIMAL KINGDOM
+87
+USA
+Olympics
+Summer Olympics,
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+6
+$118.00
+$708.00
+30
+7.29 R1 -6x NCR 6/28/2021-
+WWE MONDAY NIGHT RAW,
+9/26/2021
+WWE NXT
+88
+USA
+Olympics
+Summer Olympics,
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+2
+$118.00
+$236.00
+30
+NCR 6/28/2021-9/26/2021
+WWE MONDAY NIGHT RAW,
+WWE NXT
+89
+HALL
+HALLMARK MOVIE<
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+6
+$82.00
+$492.00
+30
+7.29 R1 -6x NCR 6/28/2021-
+9/26/2021
+90
+HALL
+HALLMARK MOVIE<
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+2
+$82.00
+$164.00
+30
+NCR 6/28/2021-9/26/2021
+91
+TBSC
+BIG BANG THEORY, THE,
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+6
+$109.00
+$654.00
+30
+7.29 R1 -6x NCR 6/28/2021-
+AMERICAN DAD, CUBE, THE,
+9/26/2021
+FULL FRONTAL WITH
+SAMANTHA BEE, MIRACLE
+WORKERS
+Page 6 of 12
+Ampersand Cable System Order
+Order #
+62911651
+Flight Dates
+08/09/21 - 08/22/21
+Update Date
+07/30/21
+Syscode
+3465
+Agency
+Dudley Media
+Version
+3 Vs. 2
+System Name
+Spectrum/South Pinellas, FL
+Advertiser
+Darden Rice PC
+Show All Lines
+Market
+Tampa-St. Petersburg
+Total # of Weeks
+2
+Client Code
+St. Pete
+Total
+$38,184.00
+AE
+Mark Ongsysia
+Product Code
+08100816
+Commission
+$5,727.60
+Sales Coordinator
+Cal Kielhold
+Est Code
+30s
+Net Total
+$32,456.40
+Office
+Washington
+Product Name
+Total Spots
+603
+Phone
+(301) 941-2620
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+Jul20 DMA Nielsen Parallel Live+3
+Primary Demo
+Adults 35+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+7.29 R1 flight dates adjusted
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+92
+TBSC
+BIG BANG THEORY, THE,
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+2
+$109.00
+$218.00
+30
+NCR 6/28/2021-9/26/2021
+AMERICAN DAD, CUBE, THE,
+FULL FRONTAL WITH
+SAMANTHA BEE, MIRACLE
+WORKERS
+93
+DISC
+DEADLIEST CATCH,
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+6
+$82.00
+$492.00
+30
+7.29 R1 -6x NCR 6/28/2021-
+GETAWAY DRIVER, STREET
+9/26/2021
+OUTLAWS
+MEMPHIS
+94
+DISC
+DEADLIEST CATCH,
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+2
+$82.00
+$164.00
+30
+NCR 6/28/2021-9/26/2021
+GETAWAY DRIVER, STREET
+OUTLAWS
+MEMPHIS
+95
+S1TP
+VARIOUS
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+6
+$91.00
+$546.00
+30
+7.29 R1 -6x NCR 6/28/2021-
+9/26/2021
+96
+S1TP
+VARIOUS
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+2
+$91.00
+$182.00
+30
+NCR 6/28/2021-9/26/2021
+97
+BRVO
+AVG. ALL WKS<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+5
+$13.00
+$65.00
+30
+7.26 NA +5x NCR 6/28/2021-
+9/26/2021
+98
+BRVO
+AVG. ALL WKS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+1
+$13.00
+$13.00
+30
+7.26 NA +1x NCR 6/28/2021-
+9/26/2021
+99
+CNN
+CNN NEWSROOM<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+5
+$38.00
+$190.00
+30
+7.26 NA +5x NCR 6/28/2021-
+9/26/2021
+100
+CNN
+CNN NEWSROOM<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+1
+$38.00
+$38.00
+30
+7.26 NA +1x NCR 6/28/2021-
+9/26/2021
+101
+ESPN
+AVG. ALL WKS<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+5
+$39.00
+$195.00
+30
+7.26 NA +5x NCR 6/28/2021-
+9/26/2021
+102
+ESPN
+AVG. ALL WKS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+1
+$39.00
+$39.00
+30
+7.26 NA +1x NCR 6/28/2021-
+9/26/2021
+103
+FXNC
+VARIOUS
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+5
+$69.00
+$345.00
+30
+7.26 NA +5x NCR 6/28/2021-
+9/26/2021
+104
+FXNC
+VARIOUS
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+1
+$69.00
+$69.00
+30
+7.26 NA +1x NCR 6/28/2021-
+9/26/2021
+105
+HGTV
+AVG. ALL WKS<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+5
+$47.00
+$235.00
+30
+7.26 NA +5x NCR 6/28/2021-
+9/26/2021
+Page 7 of 12
+Ampersand Cable System Order
+Order #
+62911651
+Flight Dates
+08/09/21 - 08/22/21
+Update Date
+07/30/21
+Syscode
+3465
+Agency
+Dudley Media
+Version
+3 Vs. 2
+System Name
+Spectrum/South Pinellas, FL
+Advertiser
+Darden Rice PC
+Show All Lines
+Market
+Tampa-St. Petersburg
+Total # of Weeks
+2
+Client Code
+St. Pete
+Total
+$38,184.00
+AE
+Mark Ongsysia
+Product Code
+08100816
+Commission
+$5,727.60
+Sales Coordinator
+Cal Kielhold
+Est Code
+30s
+Net Total
+$32,456.40
+Office
+Washington
+Product Name
+Total Spots
+603
+Phone
+(301) 941-2620
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+Jul20 DMA Nielsen Parallel Live+3
+Primary Demo
+Adults 35+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+7.29 R1 flight dates adjusted
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+106
+HGTV
+AVG. ALL WKS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+1
+$47.00
+$47.00
+30
+7.26 NA +1x NCR 6/28/2021-
+9/26/2021
+107
+MNBC
+VARIOUS
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+5
+$38.00
+$190.00
+30
+7.26 NA +5x NCR 6/28/2021-
+9/26/2021
+108
+MNBC
+VARIOUS
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+1
+$38.00
+$38.00
+30
+7.26 NA +1x NCR 6/28/2021-
+9/26/2021
+109
+TNT
+VARIOUS
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+5
+$27.00
+$135.00
+30
+7.26 NA +5x NCR 6/28/2021-
+9/26/2021
+110
+TNT
+VARIOUS
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+1
+$27.00
+$27.00
+30
+7.26 NA +1x NCR 6/28/2021-
+9/26/2021
+111
+USA
+Olympics
+Summer Olympics
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+5
+$38.00
+$190.00
+30
+7.26 NA +5x NCR 6/28/2021-
+9/26/2021
+112
+USA
+Olympics
+Summer Olympics
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+1
+$38.00
+$38.00
+30
+7.26 NA +1x NCR 6/28/2021-
+9/26/2021
+113
+HALL
+HALLMARK MOVIE<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+5
+$27.00
+$135.00
+30
+7.26 NA +5x NCR 6/28/2021-
+9/26/2021
+114
+HALL
+HALLMARK MOVIE<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+1
+$27.00
+$27.00
+30
+7.26 NA +1x NCR 6/28/2021-
+9/26/2021
+115
+TBSC
+FRIENDS<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+5
+$27.00
+$135.00
+30
+7.26 NA +5x NCR 6/28/2021-
+9/26/2021
+116
+TBSC
+FRIENDS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+1
+$27.00
+$27.00
+30
+7.26 NA +1x NCR 6/28/2021-
+9/26/2021
+117
+DISC
+AVG. ALL WKS<
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+5
+$16.00
+$80.00
+30
+7.26 NA +5x NCR 6/28/2021-
+9/26/2021
+118
+DISC
+AVG. ALL WKS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+1
+$16.00
+$16.00
+30
+7.26 NA +1x NCR 6/28/2021-
+9/26/2021
+119
+S1TP
+VARIOUS
+8/9/21
+8/15/21
+09
+00
+16
+00
+X
+X
+X
+-
+-
+5
+$86.00
+$430.00
+30
+7.26 NA +5x NCR 6/28/2021-
+9/26/2021
+120
+S1TP
+VARIOUS
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+1
+$86.00
+$86.00
+30
+7.26 NA +1x NCR 6/28/2021-
+9/26/2021
+121
+ESP2
+AVG. ALL WKS
+8/9/21
+8/15/21
+16
+00
+19
+00
+X
+X
+X
+-
+-
+3
+$16.00
+$48.00
+30
+7.29 R1 -3x NCR 6/28/2021-
+9/26/2021
+Page 8 of 12
+Ampersand Cable System Order
+Order #
+62911651
+Flight Dates
+08/09/21 - 08/22/21
+Update Date
+07/30/21
+Syscode
+3465
+Agency
+Dudley Media
+Version
+3 Vs. 2
+System Name
+Spectrum/South Pinellas, FL
+Advertiser
+Darden Rice PC
+Show All Lines
+Market
+Tampa-St. Petersburg
+Total # of Weeks
+2
+Client Code
+St. Pete
+Total
+$38,184.00
+AE
+Mark Ongsysia
+Product Code
+08100816
+Commission
+$5,727.60
+Sales Coordinator
+Cal Kielhold
+Est Code
+30s
+Net Total
+$32,456.40
+Office
+Washington
+Product Name
+Total Spots
+603
+Phone
+(301) 941-2620
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+Jul20 DMA Nielsen Parallel Live+3
+Primary Demo
+Adults 35+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+7.29 R1 flight dates adjusted
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+122
+ESP2
+AVG. ALL WKS
+8/9/21
+8/15/21
+19
+00
+24
+00
+X
+X
+X
+-
+-
+3
+$18.00
+$54.00
+30
+7.26 R1 -3x NCR
+123
+BRVO
+AVG. ALL WKS<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+3
+$13.00
+$39.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+124
+BRVO
+AVG. ALL WKS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+9
+$13.00
+$117.00
+30
+7.29 R1 +9x NCR 6/28/2021-
+9/26/2021
+125
+BRVO
+AVG. ALL WKS<
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$66.00
+$198.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+126
+BRVO
+BELOW DECK
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$82.00
+$492.00
+30
+7.29 R1 +6x NCR 6/28/2021-
+MEDITERRANEAN, FAMILY
+9/26/2021
+KARMA, MILLION DOLLAR
+LISTING NEW YORK, REAL
+HOUSEWIVES OF POTOMAC
+127
+CNN
+NEW DAY<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+3
+$47.00
+$141.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+128
+CNN
+CNN NEWSROOM<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+9
+$38.00
+$342.00
+30
+7.29 R1 +9x NCR 6/28/2021-
+9/26/2021
+129
+CNN
+SITUATION ROOM WITH
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$66.00
+$198.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+WOLF BLITZER
+9/26/2021
+130
+CNN
+ANDERSON COOPER 360,
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$82.00
+$492.00
+30
+7.29 R1 +6x NCR 6/28/2021-
+CNN TONIGHT WITH DON
+9/26/2021
+LEMON, CUOMO PRIME
+TIME
+131
+ESPN
+AVG. ALL WKS<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+3
+$27.00
+$81.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+132
+ESPN
+AVG. ALL WKS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+9
+$39.00
+$351.00
+30
+7.29 R1 +9x NCR 6/28/2021-
+9/26/2021
+133
+ESPN
+AVG. ALL WKS<
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$118.00
+$354.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+134
+ESPN
+AVG. ALL WKS
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$151.00
+$906.00
+30
+7.29 R1 +6x NCR 6/28/2021-
+9/26/2021
+135
+FXNC
+FOX AND FRIEND<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+3
+$82.00
+$246.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+Page 9 of 12
+Ampersand Cable System Order
+Order #
+62911651
+Flight Dates
+08/09/21 - 08/22/21
+Update Date
+07/30/21
+Syscode
+3465
+Agency
+Dudley Media
+Version
+3 Vs. 2
+System Name
+Spectrum/South Pinellas, FL
+Advertiser
+Darden Rice PC
+Show All Lines
+Market
+Tampa-St. Petersburg
+Total # of Weeks
+2
+Client Code
+St. Pete
+Total
+$38,184.00
+AE
+Mark Ongsysia
+Product Code
+08100816
+Commission
+$5,727.60
+Sales Coordinator
+Cal Kielhold
+Est Code
+30s
+Net Total
+$32,456.40
+Office
+Washington
+Product Name
+Total Spots
+603
+Phone
+(301) 941-2620
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+Jul20 DMA Nielsen Parallel Live+3
+Primary Demo
+Adults 35+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+7.29 R1 flight dates adjusted
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+136
+FXNC
+VARIOUS
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+9
+$69.00
+$621.00
+30
+7.29 R1 +9x NCR 6/28/2021-
+9/26/2021
+137
+FXNC
+FIVE, THE
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$124.00
+$372.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+138
+FXNC
+HANNITY, INGRAHAM
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$151.00
+$906.00
+30
+7.29 R1 +6x NCR 6/28/2021-
+ANGLE, THE, TUCKER
+9/26/2021
+CARLSON TONIGHT
+139
+HGTV
+AVG. ALL WKS<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+3
+$22.00
+$66.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+140
+HGTV
+AVG. ALL WKS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+9
+$47.00
+$423.00
+30
+7.29 R1 +9x NCR 6/28/2021-
+9/26/2021
+141
+HGTV
+AVG. ALL WKS<
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$109.00
+$327.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+142
+HGTV
+HOUSE HUNTERS, HOUSE
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$137.00
+$822.00
+30
+7.29 R1 +6x NCR 6/28/2021-
+HUNTERS INTERNATIONAL,
+9/26/2021
+BATTLE ON THE BEACH,
+CELEBRITY I.O.U,
+CHRISTINA ON THE
+143
+MNBC
+MORNING JOE<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+3
+$47.00
+$141.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+144
+MNBC
+VARIOUS
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+9
+$38.00
+$342.00
+30
+7.29 R1 +9x NCR 6/28/2021-
+9/26/2021
+145
+MNBC
+VARIOUS
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$66.00
+$198.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+146
+MNBC
+THE RACHEL MADDOW
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$82.00
+$492.00
+30
+7.29 R1 +6x NCR 6/28/2021-
+SHOW
+9/26/2021
+147
+TNT
+CHARMED<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+3
+$20.00
+$60.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+148
+TNT
+VARIOUS
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+9
+$27.00
+$243.00
+30
+7.29 R1 +9x NCR 6/28/2021-
+9/26/2021
+149
+TNT
+VARIOUS
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$91.00
+$273.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+150
+TNT
+ALL ELITE WRESTLING,
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$109.00
+$654.00
+30
+7.29 R1 +6x NCR 6/28/2021-
+ANIMAL KINGDOM
+9/26/2021
+Page 10 of 12
+Ampersand Cable System Order
+Order #
+62911651
+Flight Dates
+08/09/21 - 08/22/21
+Update Date
+07/30/21
+Syscode
+3465
+Agency
+Dudley Media
+Version
+3 Vs. 2
+System Name
+Spectrum/South Pinellas, FL
+Advertiser
+Darden Rice PC
+Show All Lines
+Market
+Tampa-St. Petersburg
+Total # of Weeks
+2
+Client Code
+St. Pete
+Total
+$38,184.00
+AE
+Mark Ongsysia
+Product Code
+08100816
+Commission
+$5,727.60
+Sales Coordinator
+Cal Kielhold
+Est Code
+30s
+Net Total
+$32,456.40
+Office
+Washington
+Product Name
+Total Spots
+603
+Phone
+(301) 941-2620
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+Jul20 DMA Nielsen Parallel Live+3
+Primary Demo
+Adults 35+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+7.29 R1 flight dates adjusted
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+151
+USA
+Olympics
+Summer Olympics
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+3
+$20.00
+$60.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+152
+USA
+Olympics
+Summer Olympics
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+9
+$38.00
+$342.00
+30
+7.29 R1 +9x NCR 6/28/2021-
+9/26/2021
+153
+USA
+Olympics
+Summer Olympics
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$91.00
+$273.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+154
+USA
+Olympics
+Summer Olympics,
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$118.00
+$708.00
+30
+7.29 R1 +6x NCR 6/28/2021-
+WWE MONDAY NIGHT RAW,
+9/26/2021
+WWE NXT
+155
+HALL
+AVG. ALL WKS<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+3
+$20.00
+$60.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+156
+HALL
+HALLMARK MOVIE<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+9
+$27.00
+$243.00
+30
+7.29 R1 +9x NCR 6/28/2021-
+9/26/2021
+157
+HALL
+HALLMARK MOVIE<
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$66.00
+$198.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+158
+HALL
+HALLMARK MOVIE<
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$82.00
+$492.00
+30
+7.29 R1 +6x NCR 6/28/2021-
+9/26/2021
+159
+TBSC
+VARIOUS
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+3
+$20.00
+$60.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+160
+TBSC
+FRIENDS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+9
+$27.00
+$243.00
+30
+7.29 R1 +9x NCR 6/28/2021-
+9/26/2021
+161
+TBSC
+MLB
+Regular Season
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$91.00
+$273.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+162
+TBSC
+BIG BANG THEORY, THE,
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$109.00
+$654.00
+30
+7.29 R1 +6x NCR 6/28/2021-
+AMERICAN DAD, CUBE, THE,
+9/26/2021
+FULL FRONTAL WITH
+SAMANTHA BEE, MIRACLE
+WORKERS
+163
+DISC
+AVG. ALL WKS<
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+3
+$16.00
+$48.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+164
+DISC
+AVG. ALL WKS<
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+9
+$16.00
+$144.00
+30
+7.29 R1 +9x NCR 6/28/2021-
+9/26/2021
+165
+DISC
+AVG. ALL WKS<
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$62.00
+$186.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+Page 11 of 12
+Ampersand Cable System Order
+Order #
+62911651
+Flight Dates
+08/09/21 - 08/22/21
+Update Date
+07/30/21
+Syscode
+3465
+Agency
+Dudley Media
+Version
+3 Vs. 2
+System Name
+Spectrum/South Pinellas, FL
+Advertiser
+Darden Rice PC
+Show All Lines
+Market
+Tampa-St. Petersburg
+Total # of Weeks
+2
+Client Code
+St. Pete
+Total
+$38,184.00
+AE
+Mark Ongsysia
+Product Code
+08100816
+Commission
+$5,727.60
+Sales Coordinator
+Cal Kielhold
+Est Code
+30s
+Net Total
+$32,456.40
+Office
+Washington
+Product Name
+Total Spots
+603
+Phone
+(301) 941-2620
+Credit Status
+Cash in Advance
+Affiliate Split
+100.0
+Status
+Accepted
+Sold On
+Cost Per Spot
+Survey
+Jul20 DMA Nielsen Parallel Live+3
+Primary Demo
+Adults 35+
+GRP
+-
+GIMP
+-
+-
+Makegood Policy
+Approval Required
+CPP
+-
+CPM
+-
+Comments
+7.29 R1 flight dates adjusted
+Line
+Net
+Program
+Start Date
+Stop Date
+Start
+Stop Time
+M
+T
+W
+T
+F
+S
+S
+RTG
+IMP
+Total Spots
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+166
+DISC
+DEADLIEST CATCH,
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$82.00
+$492.00
+30
+7.29 R1 +6x NCR 6/28/2021-
+GETAWAY DRIVER, STREET
+9/26/2021
+OUTLAWS
+MEMPHIS
+167
+S1TP
+VARIOUS
+8/16/21
+8/22/21
+05
+00
+09
+00
+X
+X
+X
+X
+-
+-
+3
+$101.00
+$303.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+168
+S1TP
+VARIOUS
+8/16/21
+8/22/21
+09
+00
+16
+00
+X
+X
+X
+X
+-
+-
+9
+$86.00
+$774.00
+30
+7.29 R1 +9x NCR 6/28/2021-
+9/26/2021
+169
+S1TP
+VARIOUS
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$86.00
+$258.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+170
+S1TP
+VARIOUS
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$91.00
+$546.00
+30
+7.29 R1 +6x NCR 6/28/2021-
+9/26/2021
+171
+ESP2
+AVG. ALL WKS
+8/16/21
+8/22/21
+16
+00
+19
+00
+X
+X
+X
+X
+-
+-
+3
+$16.00
+$48.00
+30
+7.29 R1 +3x NCR 6/28/2021-
+9/26/2021
+172
+ESP2
+AVG. ALL WKS
+8/16/21
+8/22/21
+19
+00
+24
+00
+X
+X
+X
+X
+-
+-
+6
+$18.00
+$108.00
+30
+7.26 R1 +6x NCR
+Aug 2021
+Sep 2021
+Oct 2021
+Nov 2021
+Dec 2021
+Jan 2022
+Feb 2022
+Mar 2022
+Apr 2022
+May 2022
+Jun 2022
+Jul 2022
+Total
+SPOTS
+603
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+603
+AMT
+$38,184.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$38,184.00
+SYSTEM APP
+_____________________________ SALES _____________________________ ACCT
+Date Printed
+08/02/21
+62911651 | Tampa-St. Petersburg | Spectrum/South Pinellas, FL | 3465
+|

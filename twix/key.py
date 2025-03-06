@@ -440,6 +440,7 @@ def predict_field(data_files, result_folder = ''):
     
     #write result
     result_path = get_key_path(result_folder)
+    #print(result_path)
     write_result(result_path,fields)
 
     return fields

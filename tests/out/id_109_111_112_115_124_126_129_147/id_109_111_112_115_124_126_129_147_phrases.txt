@@ -1,0 +1,11893 @@
+Print Date
+10/08/20 11
+45
+14
+Page
+1 of
+6
+ORDER
+Orders
+Order / Rev
+756294
+Alt Order #
+WOC12672243
+Product Desc
+Candidate
+Estimate
+932
+KTVQ
+Flight Dates
+09/30/20 - 10/06/20
+Primary AE
+John Mitzel
+Original Date / Rev
+10/08/20 / 10/08/20
+Sales Office
+N-BIL
+Order Type
+GENERAL
+Sales Region
+NAT
+Agency
+Name
+FP1 Strategies LLC
+Buying Contact
+Billing Type
+Cash
+Billing Contact
+Billing Calendar
+Broadcast
+3001 Washington Blvd, 7th Floor
+Billing Cycle
+EOM/EOC
+Arlington, VA 22201
+Agency Commission
+15%
+Advertiser
+Name
+Daines/Republican/US Senate
+Demographic
+A35+
+New Business Thru
+Product Codes
+PL Federal Candidate
+Advertiser External ID
+260486
+Revenue Code 1
+DISC
+Agency External ID
+142532
+Revenue Code 2
+POL
+Unit Code
+General
+Revenue Code 3
+CAND
+Order Separation
+00
+10
+00
+Priority
+DEF
+Bill Plan
+Totals
+Start Date
+End Date
+# Spots
+Gross Amount
+Net Amount
+Month
+# Spots
+Gross Amount
+Net Amount
+Rating
+09/28/20
+10/06/20
+87
+$35,120.00
+$29,852.00
+October 2020
+87
+$35,120.00
+$29,852.00
+500.05
+Totals
+87
+$35,120.00
+$29,852.00
+500.05
+Account Executives
+Account Executive
+Sales Office
+Sales Region
+Start Date / End Date
+Order %
+John Mitzel
+N-BIL
+NAT
+Start Of Order - End Of Order
+100%
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+1
+KTVQ
+09/30/20
+10/06/20
+M-F 530-7am
+CM
+5
+30 AM-7
+00 AM 22222--
+30
+10
+$150.00P-3
+4.00 NM
+10
+$1,500.00
+M-F 530-7am
+(Program
+MONTANA-MORN-2<)210094 Index
+116. Nielsen
+4.0
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+22222--
+10
+$150.00
+4.00
+2
+KTVQ
+09/30/20
+10/06/20
+M-F CBS This Morning CM
+7
+00 AM-9
+00 AM 22222--
+30
+10
+$325.00P-2
+5.40 NM
+10
+$3,250.00
+M-F CBS This Morning
+(Program
+CBS THS MRNG-2<)210094 Index
+111. Nielsen
+5.4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+22222--
+10
+$325.00
+5.40
+3
+KTVQ
+09/30/20
+10/03/20
+Sa CBS This Morning
+CM
+6
+00 AM-8
+00 AM -----1-
+30
+1
+$140.00P-2
+2.40 NM
+0
+$0.00
+Sa CBS This Morning
+(Program
+CBS SAT MORN)210094 Index
+98. Nielsen
+2.4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+-----1-
+1
+$140.00
+2.40
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/28/20-10/04/20Sa CBS This Morning
+6
+00 AM-8
+00 AM
+------Sa--
+30
+($140.00)
+2.40
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[preempted by a candidate with higher rate and priority EA 10/01]
+4
+KTVQ
+09/30/20
+10/04/20
+CBS Sunday Morning
+CM
+7
+00 AM-8
+30 AM ------1
+30
+1
+$300.00P-2
+5.06 NM
+0
+$0.00
+CBS Sunday Morning
+(Program
+CBS SUN MORN)210094 Index
+119. Nielsen
+5.1
+Print Date
+10/08/20 11
+45
+14
+Page
+2 of
+6
+Order / Rev
+756294
+Advertiser
+Daines/Republican/US Senate
+Alt Order #
+WOC12672243
+Product Desc
+Candidate
+KTVQ
+Flight Dates
+09/30/20 - 10/06/20
+Estimate
+932
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$300.00
+5.06
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/28/20-10/04/20CBS Sunday Morning
+7
+00 AM-8
+30 AM
+--------Su
+30
+($300.00)
+5.06
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[NA at order entry for P-2 tg]
+5
+KTVQ
+09/30/20
+10/04/20
+Face The Nation
+CM
+8
+30 AM-9
+30 AM ------1
+30
+1
+$200.00P-2
+3.10 NM
+0
+$0.00
+Face The Nation
+(Program
+FACE NATN-CBS/FACE NATN2-CBS)210094 Index
+118. Nielsen
+3.1
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$200.00
+3.10
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/28/20-10/04/20Face The Nation
+8
+30 AM-9
+30 AM
+--------Su
+30
+($200.00)
+3.10
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[spots schedule are same or higher candidate spot EA 10/01]
+N 6
+KTVQ
+09/30/20
+10/06/20
+M-F 10-11am
+CM
+10
+00 AM-11
+00 AM11111--
+30
+5
+$250.00P-1
+3.50 NM
+1
+$250.00
+Let's Make a Deal
+(Program
+LETS MAKE A DEAL)210094 Index
+106. Nielsen
+3.5
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$250.00
+3.50
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/30/20-10/06/20M-F 10-11am
+10
+00 AM-11
+00 AM
+MTWThF----
+30
+($250.00)
+3.50
+NM
+See MG 16.2
+[PRE EMPT DUE TO OVERSOLD FG 9.18]
+2 KTVQ09/30/20-10/06/20M-F 10-11am
+10
+00 AM-11
+00 AM
+MTWThF----
+30
+($250.00)
+3.50
+NM
+See MG 16.2
+[PRE EMPT DUE TO OVERSOLD FG 9.18]
+4 KTVQ09/30/20-10/06/20M-F 10-11am
+10
+00 AM-11
+00 AM
+MTWThF----
+30
+($250.00)
+3.50
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[PRE EMPT DUE TO N/A FG 9.25]
+5 KTVQ09/30/20-10/06/20M-F 10-11am
+10
+00 AM-11
+00 AM
+MTWThF----
+30
+($250.00)
+3.50
+NM
+Credited
+[Credit for MGs]
+7
+KTVQ
+09/30/20
+10/06/20
+M-F 12pm News
+CM
+12
+00 PM-12
+30 PM11111--
+30
+5
+$250.00P-2
+6.10 NM
+5
+$1,250.00
+M-F 12pm News
+(12
+00 PM-12
+30 PM)
+(Program
+NOON NEWS<)210094 Index
+118. Nielsen
+6.1
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$250.00
+6.10
+N 8
+KTVQ
+09/30/20
+10/06/20
+M-F 2-3pm
+CM
+2
+00 PM-3
+00 PM 11111--
+30
+5
+$50.00P-3
+1.30 NM
+4
+$200.00
+M-F 2-3pm
+(Program
+DREW BARRYMORE)210094 Index
+113. Nielsen
+1.3
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$50.00
+1.30
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+4 KTVQ09/30/20-10/06/20M-F 2-3pm
+2
+00 PM-3
+00 PM
+MTWThF----
+30
+($50.00)
+1.30
+NM
+Credited
+[Credit for MGs]
+9
+KTVQ
+09/30/20
+10/06/20
+M-F 3-4pm
+CM
+3
+00 PM-4
+00 PM 11111--
+30
+5
+$50.00P-3
+1.80 NM
+5
+$250.00
+M-F 3-4pm
+(Program
+KELLY CLARKSON)210094 Index
+113. Nielsen
+1.8
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$50.00
+1.80
+N10 KTVQ
+09/30/20
+10/06/20
+M-F 4-5pm
+CM
+4
+00 PM-5
+00 PM 11111--
+30
+5
+$100.00P-3
+2.90 NM
+2
+$200.00
+M-F 4-5pm
+(Program
+DR. PHIL)210094 Index
+115. Nielsen
+2.9
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$100.00
+2.90
+Print Date
+10/08/20 11
+45
+14
+Page
+3 of
+6
+Order / Rev
+756294
+Advertiser
+Daines/Republican/US Senate
+Alt Order #
+WOC12672243
+Product Desc
+Candidate
+KTVQ
+Flight Dates
+09/30/20 - 10/06/20
+Estimate
+932
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$100.00
+2.90
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/30/20-10/06/20M-F 4-5pm
+4
+00 PM-5
+00 PM
+MTWThF----
+30
+($100.00)
+2.90
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[preempted by a higher rate and priority spot EA 9/29]
+4 KTVQ09/30/20-10/06/20M-F 4-5pm
+4
+00 PM-5
+00 PM
+MTWThF----
+30
+($100.00)
+2.90
+NM
+Credited
+[Credit for MGs]
+5 KTVQ09/30/20-10/06/20M-F 4-5pm
+4
+00 PM-5
+00 PM
+MTWThF----
+30
+($100.00)
+2.90
+NM
+Credited
+[Credit for MGs]
+11 KTVQ
+09/30/20
+10/06/20
+M-F 530pm News
+CM
+5
+30 PM-6
+00 PM 11111--
+30
+5
+$1,100.00P-2
+15.00 NM
+5
+$5,500.00
+M-F 530pm News
+(Program
+5.30 NEWS)210094 Index
+125. Nielsen
+15.0
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$1,100.00
+15.00
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+4 KTVQ09/30/20-10/06/20M-F 530pm News
+5
+30 PM-6
+00 PM
+MTWThF----
+30($1,100.00)15.00
+NM
+See MG 11.6
+6 KTVQ10/05/20-10/05/20EN - Local News Special
+4-430pm
+M---------
+30
+$1,100.0015.00
+NM
+MG for 11.4 10/05
+[Moved with Program due to last minute CBS NFL Game added. ]
+N12 KTVQ
+09/30/20
+10/04/20
+Su 530pm News
+CM
+5
+30 PM-6
+00 PM ------1
+30
+1
+$850.00P-2
+13.38 NM
+0
+$0.00
+Su 530pm News
+(Program
+SUN 5
+30 NEWS)210094 Index
+123. Nielsen
+13.4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$850.00
+13.38
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/28/20-10/04/20Su 530pm News
+5
+30 PM-6
+00 PM
+--------Su
+30
+($850.00)13.38
+NM
+Credited
+[Credit for MGs]
+13 KTVQ
+09/30/20
+10/06/20
+M-F 6-630pm
+CM
+6
+00 PM-6
+30 PM 11111--
+30
+5
+$600.00P-2
+11.30 NM
+4
+$2,400.00
+Jeopardy
+(Program
+JEOPARDY)210094 Index
+122. Nielsen
+11.3
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$600.00
+11.30
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+4 KTVQ09/30/20-10/06/20M-F 6-630pm
+6
+00 PM-6
+30 PM
+MTWThF----
+30
+($600.00)11.30
+NM
+See MG 14.12
+[preempted by a P1 candidate spot EA 10/02]
+N14 KTVQ
+09/30/20
+10/06/20
+M-F 630-7pm
+CM
+6
+30 PM-7
+00 PM 11111--
+30
+5
+$600.00P-2
+11.00 NM
+8
+$5,500.00
+Wheel of Fortune
+(Program
+WHEEL-FORTNE)210094 Index
+119. Nielsen
+11.0
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$600.00
+11.00
+Print Date
+10/08/20 11
+45
+14
+Page
+4 of
+6
+Order / Rev
+756294
+Advertiser
+Daines/Republican/US Senate
+Alt Order #
+WOC12672243
+Product Desc
+Candidate
+KTVQ
+Flight Dates
+09/30/20 - 10/06/20
+Estimate
+932
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$600.00
+11.00
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+3 KTVQ09/30/20-10/06/20M-F 630-7pm
+6
+30 PM-7
+00 PM
+MTWThF----
+30
+($600.00)11.00
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[preempted by a higher political candidate rate and priority EA 10/01]
+4 KTVQ09/30/20-10/06/20M-F 630-7pm
+6
+30 PM-7
+00 PM
+MTWThF----
+30
+($600.00)11.00
+NM
+See MG 14.12
+6 KTVQ09/30/20-10/06/20M-F 630-7pm
+6
+30 PM-7
+00 PM
+MTWThF----
+30($1,200.00)11.00
+NM
+See MG 14.11
+7 KTVQ09/28/20-10/04/20Sa CBS This Morning
+6
+00 AM-8
+00 AM
+------Sa--
+30
+$300.00
+2.40
+NM
+MG for 16.2,5.1,3.1,14.3,4.1,10.1,6.4
+8 KTVQ09/30/20-10/06/20M-F 4-5pm
+4
+00 PM-5
+00 PM
+MTWThF----
+30
+($500.00)
+2.90
+NM
+Credited
+[Credit for MGs]
+9 KTVQ09/28/20-10/04/20Face The Nation
+8
+30 AM-9
+30 AM
+--------Su
+30
+$400.00
+3.10
+NM
+MG for 16.2,5.1,3.1,14.3,4.1,10.1,6.4
+10 KTVQ09/28/20-10/04/20CBS Sunday Morning
+7
+00 AM-8
+30 AM
+--------Su
+30
+$600.00
+5.06
+NM
+MG for 16.2,5.1,3.1,14.3,4.1,10.1,6.4
+11 KTVQ10/05/20-10/05/20Prime Non Net 2
+930-10pm
+M---------
+30
+$1,200.0011.00
+NM
+MG for 14.6 10/05
+[Moved with Program due to last minute CBS NFL Game added. ]
+12 KTVQ09/30/20-10/06/20Monday Prime C
+9
+30 PM-10
+01 P(M9
+30 PM-10
+01 PMM--)-------
+30($1,200.00)11.00
+NM
+See MG 14.14
+13 KTVQ10/05/20-10/05/20Prime Non Net 2
+930-10pm
+M---------
+30
+$1,200.0011.00
+NM
+MG for 14.12 10/05
+[correcting inv code]
+14 KTVQ09/30/20-10/06/20Prime Non Net 2
+930-10pm
+M---------
+30($1,200.00)11.00
+NM
+Credited
+[accidentally mgd wrong spot]
+15 KTVQ
+09/30/20
+09/30/20
+Wednesday Prime A
+CM
+7
+00 PM-8
+00 PM --1----
+30
+1
+$1,200.00P-2
+8.30 NM
+1
+$1,200.00
+Wednesday Prime A
+(Program
+AMAZING RACE)210094 Index
+121. Nielsen
+8.3
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+--1----
+1
+$1,200.00
+8.30
+16 KTVQ
+09/30/20
+10/01/20
+Thursday Prime B
+CM
+8
+00 PM-9
+00 PM ---1---
+30
+1
+$1,000.00P-2
+7.80 NM
+0
+$0.00
+Thursday Prime B
+(Program
+MOM-ENC-CBS/BROKE-CBS)210094 Index
+122. Nielsen
+7.8
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+---1---
+1
+$1,000.00
+7.80
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/28/20-10/04/20Thursday Prime B
+8
+00 PM-9
+00 PM
+---Th-----
+30($1,000.00)
+7.80
+NM
+See MG 16.2
+[PRE EMPT DUE TO N/A FG 9.18]
+2 KTVQ09/28/20-10/04/20General Election Debate
+General Election Debate
+---Th-----
+30($1,500.00)
+7.80
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[General debate not schedule on this day EA 9/30]
+17 KTVQ
+09/30/20
+10/02/20
+Friday Prime B
+CM
+8
+00 PM-9
+00 PM ----1--
+30
+1
+$1,250.00P-2
+6.60 NM
+1
+$1,250.00
+Friday Prime B
+(Program
+MAGNUMPI)210094 Index
+118. Nielsen
+6.6
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+----1--
+1
+$1,250.00
+6.60
+18 KTVQ
+09/30/20
+10/02/20
+Friday Prime C
+CM
+9
+00 PM-10
+00 PM----1--
+30
+1
+$1,300.00P-2
+6.80 NM
+1
+$1,300.00
+Friday Prime C
+(Program
+BLUE BLOODS)210094 Index
+120. Nielsen
+6.8
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+----1--
+1
+$1,300.00
+6.80
+19 KTVQ
+09/30/20
+10/03/20
+Saturday Prime C
+CM
+9
+00 PM-10
+00 PM-----1-
+30
+1
+$300.00P-3
+5.50 NM
+1
+$300.00
+Saturday Prime C
+(Program
+48HOUR-ENC-CBS)210094 Index
+115. Nielsen
+5.5
+Print Date
+10/08/20 11
+45
+15
+Page
+5 of
+6
+Order / Rev
+756294
+Advertiser
+Daines/Republican/US Senate
+Alt Order #
+WOC12672243
+Product Desc
+Candidate
+KTVQ
+Flight Dates
+09/30/20 - 10/06/20
+Estimate
+932
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+-----1-
+1
+$300.00
+5.50
+20 KTVQ
+09/30/20
+10/04/20
+Sunday Prime A
+CM
+6
+00 PM-7
+00 PM ------1
+30
+1
+$3,250.00P-1
+12.10 NM
+1
+$3,250.00
+Sunday Prime A
+(Program
+60 MINUTES-CBS)210094 Index
+122. Nielsen
+12.1
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$3,250.00
+12.10
+21 KTVQ
+09/30/20
+10/04/20
+Sunday Prime B
+CM
+7
+00 PM-8
+00 PM ------1
+30
+1
+$1,000.00P-2
+7.40 NM
+1
+$1,000.00
+Sunday Prime B
+(Program
+EQUILIZER)210094 Index
+124. Nielsen
+7.4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$1,000.00
+7.40
+N22 KTVQ
+09/30/20
+10/06/20
+M-F 10pm News
+CM
+10
+00 PM-10
+30 PM11111--
+30
+5
+$575.00P-3
+10.60 NM
+4
+$2,300.00
+M-F 10pm News
+(Program
+10.00 NEWS)210094 Index
+126. Nielsen
+10.6
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$575.00
+10.60
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+5 KTVQ09/30/20-10/06/20M-F 10pm News
+10
+00 PM-10
+30 PM
+MTWThF----
+30
+($575.00)10.60
+NM
+Credited
+[Credit for MGs]
+23 KTVQ
+09/30/20
+10/03/20
+Sa 10pm News
+CM
+10
+00 PM-10
+30 PM-----1-
+30
+1
+$600.00P-2
+10.30 NM
+1
+$600.00
+Sa 10pm News
+(Program
+SAT 10 NEWS)210094 Index
+123. Nielsen
+10.3
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+-----1-
+1
+$600.00
+10.30
+24 KTVQ
+09/30/20
+10/04/20
+Su 10pm News
+CM
+10
+00 PM-10
+30 PM------1
+30
+1
+$500.00P-3
+10.30 NM
+1
+$500.00
+Su 10pm News
+(Program
+SUN 10 NEWS)210094 Index
+125. Nielsen
+10.3
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$500.00
+10.30
+25 KTVQ
+09/30/20
+10/06/20
+M-F 1035-1137pm
+CM
+10
+30 PM-11
+30 PM22222--
+30
+10
+$160.00P-2
+3.70 NM
+10
+$1,600.00
+The Late Show
+(Program
+COLBERT)210094 Index
+121. Nielsen
+3.7
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+22222--
+10
+$160.00
+3.70
+26 KTVQ
+09/30/20
+10/06/20
+M-F 1137pm-1237am
+CM
+11
+30 PM-12
+30 XM11111--
+30
+5
+$50.00P-3
+1.20 NM
+5
+$250.00
+The Late Late Show
+(Program
+LT-CORDEN-CBS<)210094 Index
+120. Nielsen
+1.2
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$50.00
+1.20
+27 KTVQ
+09/30/20
+10/03/20
+Sa 1035-1135pm
+CM
+1035-1135pm
+-----1-
+30
+1
+$50.00P-3
+4.00 NM
+1
+$50.00
+Sa 1035-1135pm
+(Program
+IN DEPTH W GB)210094 Index
+117. Nielsen
+4.0
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+-----1-
+1
+$50.00
+4.00
+28 KTVQ
+09/30/20
+10/03/20
+Sa 1135pm-1235am
+CM
+1135pm-1235am
+-----1-
+30
+1
+$30.00P-3
+1.60 NM
+1
+$30.00
+Sa 1135pm-1235am
+(Program
+NCIS
+NEW ORLNS)210094 Index
+110. Nielsen
+1.6
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+-----1-
+1
+$30.00
+1.60
+29 KTVQ
+09/30/20
+10/04/20
+Su 1035-11pm
+CM
+10
+30 PM-11
+00 PM------1
+30
+1
+$50.00P-3
+4.10 NM
+1
+$50.00
+Su 1035-1105pm
+(Program
+RACE, THE)210094 Index
+117. Nielsen
+4.1
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$50.00
+4.10
+30 KTVQ
+09/30/20
+10/04/20
+Su 1105-1205am
+CM
+11
+00 PM-12
+00 XM------1
+30
+1
+$40.00P-3
+1.69 NM
+1
+$40.00
+Su 1105pm-1205am
+(Program
+MADAM SECRETRY)210094 Index
+115. Nielsen
+1.7
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$40.00
+1.69
+Print Date
+10/08/20 11
+45
+15
+Page
+6 of
+6
+Order / Rev
+756294
+Advertiser
+Daines/Republican/US Senate
+Alt Order #
+WOC12672243
+Product Desc
+Candidate
+KTVQ
+Flight Dates
+09/30/20 - 10/06/20
+Estimate
+932
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+31 KTVQ
+09/30/20
+10/03/20
+SEC Football ROS
+CM
+1
+30 PM-5
+00 PM -----1-
+30
+1
+$200.00P-2
+1.00 NM
+1
+$200.00
+SEC Football ROS
+(Program
+SEC FOOTBALL)210094 Index
+108. Nielsen
+1.0
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+-----1-
+1
+$200.00
+1.00
+32 KTVQ
+09/30/20
+10/04/20
+NFL Reg Season ROS CM
+11
+00 AM-5
+00 PM------1
+30
+1
+$900.00P-3
+1.20 NM
+1
+$900.00
+NFL Reg Season ROS
+(Program
+NFL DOUBLEHEADER)210094 Index
+118. Nielsen
+1.2
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$900.00
+1.20
+Totals
+87
+$35,120.00
+Print Date
+10/25/16 18
+08
+16
+Page
+1 of
+5
+ORDER
+Orders
+Order / Rev
+760804
+Alt Order #
+08427876
+Product Desc
+STUART FOR IL HD-112
+Estimate
+5313
+KMOV
+Flight Dates
+10/26/16 - 11/01/16
+Primary AE
+Mica Hansen
+Original Date / Rev
+10/25/16 / 10/25/16
+Sales Office
+H-WDC
+Order Type
+GENERAL
+Sales Region
+National
+Agency
+Name
+Buying Time, LLC
+Buying Contact
+Danny Neckel
+Billing Type
+Cash
+Billing Contact
+Billing Calendar
+Broadcast
+650 Massachusetts Ave N.W., Suite 210
+Billing Cycle
+EOM/EOC
+Washington, DC 20001
+Agency Commission
+15%
+Advertiser
+Name
+Stuart for Il HD-112
+New Business Thru
+Demographic
+A35+
+Order Separation
+00
+10
+00
+Product Codes
+Political-Cand-Other
+Advertiser External ID
+Priority
+FNP
+Agency External ID
+Revenue Codes
+POL, PLC, FLT
+Unit Code
+General
+Bill Plan
+Totals
+Start Date
+End Date
+# Spots
+Gross Amount
+Net Amount
+Month
+# Spots
+Gross Amount
+Net Amount
+Rating
+09/26/16
+10/30/16
+36
+$30,000.00
+$25,500.00
+October 2016
+36
+$30,000.00
+$25,500.00
+0.00
+November 2016
+20
+$15,125.00
+$12,856.25
+0.00 10/31/16
+11/01/16
+20
+$15,125.00
+$12,856.25
+Totals
+56
+$45,125.00
+$38,356.25
+0.00
+Account Executives
+Account Executive
+Sales Office
+Sales Region
+Start Date / End Date
+Order %
+Mica Hansen
+H-WDC
+National
+Start Of Order - End Of Order
+100%
+Order Share
+Share
+Total
+KMOV
+35%
+$45,125.00
+Market
+100%
+$128,928.57
+Competitive Share
+Share
+Total
+CABLE
+0%
+$0.00
+KDNL
+12%
+$15,471.43
+KETC
+0%
+$0.00
+KPLR
+1%
+$1,289.29
+KSDK
+17%
+$21,917.86
+KTVI
+35%
+$45,125.00
+MMOV
+0%
+$0.00
+QMOV
+0%
+$0.00
+UNKWN
+0%
+$0.00
+WPXS
+0%
+$0.00
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+E 1
+KMOV
+10/31/16
+10/31/16
+M-F 9-10am
+CM
+M-F 9-10am
+1------
+30
+1
+$300.00FNP
+0.00 NM
+1
+$300.00
+Great Day St. Louis
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+1------
+1
+$300.00
+0.00
+E 2
+KMOV
+11/01/16
+11/01/16
+M-F 9-10am
+CM
+M-F 9-10am
+-1-----
+30
+1
+$300.00FNP
+0.00 NM
+1
+$300.00
+Great Day St. Louis
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Print Date
+10/25/16 18
+08
+18
+Page
+2 of
+5
+Order / Rev
+760804
+Advertiser
+Stuart for Il HD-112
+Alt Order #
+08427876
+Product Desc
+STUART FOR IL HD-112
+KMOV
+Flight Dates
+10/26/16 - 11/01/16
+Estimate
+5313
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+E 2
+KMOV
+11/01/16
+11/01/16
+M-F 9-10am
+CM
+M-F 9-10am
+-1-----
+30
+1
+$300.00FNP
+0.00 NM
+1
+$300.00
+Great Day St. Louis
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+-1-----
+1
+$300.00
+0.00
+E 3
+KMOV
+10/26/16
+10/26/16
+M-F 9-10am
+CM
+M-F 9-10am
+--1----
+30
+1
+$300.00FNP
+0.00 NM
+1
+$300.00
+Great Day St. Louis
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+--1----
+1
+$300.00
+0.00
+E 4
+KMOV
+10/27/16
+10/27/16
+M-F 9-10am
+CM
+M-F 9-10am
+---1---
+30
+1
+$300.00FNP
+0.00 NM
+1
+$300.00
+Great Day St. Louis
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+---1---
+1
+$300.00
+0.00
+E 5
+KMOV
+10/28/16
+10/28/16
+M-F 9-10am
+CM
+M-F 9-10am
+----1--
+30
+1
+$300.00FNP
+0.00 NM
+1
+$300.00
+Great Day St. Louis
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+----1--
+1
+$300.00
+0.00
+E 6
+KMOV
+11/01/16
+11/01/16
+M-F 4-430am
+CM
+M-F 4-430am
+-1-----
+30
+1
+$75.00FNP
+0.00 NM
+1
+$75.00
+News 4 @ 4a
+(4
+00 XM-4
+30 XM)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+-1-----
+1
+$75.00
+0.00
+E 7
+KMOV
+10/31/16
+10/31/16
+M-F 7-9am
+CM
+M-F 7-9am
+1------
+30
+1
+$500.00FNP
+0.00 NM
+1
+$500.00
+CBS This Morning
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+1------
+1
+$500.00
+0.00
+E 8
+KMOV
+11/01/16
+11/01/16
+M-F 7-9am
+CM
+M-F 7-9am
+-1-----
+30
+1
+$500.00FNP
+0.00 NM
+1
+$500.00
+CBS This Morning
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+-1-----
+1
+$500.00
+0.00
+E 9
+KMOV
+10/26/16
+10/26/16
+M-F 7-9am
+CM
+M-F 7-9am
+--1----
+30
+1
+$500.00FNP
+0.00 NM
+1
+$500.00
+CBS This Morning
+(7
+00 AM-9
+00 AM)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+--1----
+1
+$500.00
+0.00
+E10 KMOV
+10/27/16
+10/27/16
+M-F 7-9am
+CM
+M-F 7-9am
+---1---
+30
+1
+$500.00FNP
+0.00 NM
+1
+$500.00
+CBS This Morning
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+---1---
+1
+$500.00
+0.00
+E11 KMOV
+10/28/16
+10/28/16
+M-F 7-9am
+CM
+M-F 7-9am
+----1--
+30
+1
+$500.00FNP
+0.00 NM
+1
+$500.00
+CBS This Morning
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+----1--
+1
+$500.00
+0.00
+E12 KMOV
+10/31/16
+10/31/16
+M-F 3-4pm
+CM
+M-F 3-4pm
+1------
+30
+1
+$750.00FNP
+0.00 NM
+1
+$750.00
+Dr. Phil
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+1------
+1
+$750.00
+0.00
+E13 KMOV
+10/26/16
+10/26/16
+M-F 3-4pm
+CM
+M-F 3-4pm
+--1----
+30
+1
+$750.00FNP
+0.00 NM
+1
+$750.00
+Dr. Phil
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+--1----
+1
+$750.00
+0.00
+E14 KMOV
+10/28/16
+10/28/16
+M-F 3-4pm
+CM
+M-F 3-4pm
+----1--
+30
+1
+$750.00FNP
+0.00 NM
+1
+$750.00
+Dr. Phil
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+----1--
+1
+$750.00
+0.00
+E15 KMOV
+10/30/16
+10/30/16
+Sun 6-8am
+CM
+Sun 6-8am
+------1
+30
+1
+$350.00FNP
+0.00 NM
+1
+$350.00
+News 4 This Morning
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+------1
+1
+$350.00
+0.00
+E16 KMOV
+10/29/16
+10/29/16
+Sat 6-6
+30pm
+CM
+Sat 6-6
+30pm
+-----1-
+30
+1
+$500.00FNP
+0.00 NM
+1
+$500.00
+News 4 @ 6p
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Print Date
+10/25/16 18
+08
+19
+Page
+3 of
+5
+Order / Rev
+760804
+Advertiser
+Stuart for Il HD-112
+Alt Order #
+08427876
+Product Desc
+STUART FOR IL HD-112
+KMOV
+Flight Dates
+10/26/16 - 11/01/16
+Estimate
+5313
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+E16 KMOV
+10/29/16
+10/29/16
+Sat 6-6
+30pm
+CM
+Sat 6-6
+30pm
+-----1-
+30
+1
+$500.00FNP
+0.00 NM
+1
+$500.00
+News 4 @ 6p
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+-----1-
+1
+$500.00
+0.00
+E17 KMOV
+10/31/16
+10/31/16
+M-F 430-5am
+CM
+M-F 430-5am
+1------
+30
+1
+$300.00FNP
+0.00 NM
+1
+$300.00
+News 4 @ 430a
+(4
+30 XM-4
+59 XM)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+1------
+1
+$300.00
+0.00
+E18 KMOV
+10/27/16
+10/27/16
+M-F 430-5am
+CM
+M-F 430-5am
+---1---
+30
+1
+$300.00FNP
+0.00 NM
+1
+$300.00
+News 4 @ 430a
+(4
+30 XM-4
+59 XM)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+---1---
+1
+$300.00
+0.00
+E19 KMOV
+10/29/16
+10/29/16
+Sa Late News
+CM
+Sa Late News
+-----1-
+30
+1
+$1,500.00FNP
+0.00 NM
+1
+$1,500.00
+News 4 @ 10p Saturday
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+-----1-
+1
+$1,500.00
+0.00
+E20 KMOV
+10/31/16
+10/31/16
+M-F 5-5
+30p
+CM
+M-F 5-5
+30p
+1------
+30
+1
+$1,250.00FNP
+0.00 NM
+1
+$1,250.00
+News 4 @ 5p
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+1------
+1
+$1,250.00
+0.00
+E21 KMOV
+11/01/16
+11/01/16
+M-F 5-5
+30p
+CM
+M-F 5-5
+30p
+-1-----
+30
+1
+$1,250.00FNP
+0.00 NM
+1
+$1,250.00
+News 4 @ 5p
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+-1-----
+1
+$1,250.00
+0.00
+E22 KMOV
+10/27/16
+10/27/16
+M-F 5-5
+30p
+CM
+M-F 5-5
+30p
+---1---
+30
+1
+$1,250.00FNP
+0.00 NM
+1
+$1,250.00
+News 4 @ 5p
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+---1---
+1
+$1,250.00
+0.00
+E23 KMOV
+10/28/16
+10/28/16
+M-F 5-5
+30p
+CM
+M-F 5-5
+30p
+----1--
+30
+1
+$1,250.00FNP
+0.00 NM
+1
+$1,250.00
+News 4 @ 5p
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+----1--
+1
+$1,250.00
+0.00
+E24 KMOV
+10/31/16
+10/31/16
+M-F 6-7am
+CM
+M-F 6-7am
+1------
+30
+1
+$600.00FNP
+0.00 NM
+1
+$600.00
+News 4 @ 6a
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+1------
+1
+$600.00
+0.00
+E25 KMOV
+11/01/16
+11/01/16
+M-F 6-7am
+CM
+M-F 6-7am
+-1-----
+30
+1
+$600.00FNP
+0.00 NM
+1
+$600.00
+News 4 @ 6a
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+-1-----
+1
+$600.00
+0.00
+E26 KMOV
+10/26/16
+10/26/16
+M-F 6-7am
+CM
+M-F 6-7am
+--1----
+30
+1
+$600.00FNP
+0.00 NM
+1
+$600.00
+News 4 @ 6a
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+--1----
+1
+$600.00
+0.00
+E27 KMOV
+10/27/16
+10/27/16
+M-F 6-7am
+CM
+M-F 6-7am
+---1---
+30
+1
+$600.00FNP
+0.00 NM
+1
+$600.00
+News 4 @ 6a
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+---1---
+1
+$600.00
+0.00
+E28 KMOV
+10/28/16
+10/28/16
+M-F 6-7am
+CM
+M-F 6-7am
+----1--
+30
+1
+$600.00FNP
+0.00 NM
+1
+$600.00
+News 4 @ 6a
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+----1--
+1
+$600.00
+0.00
+E29 KMOV
+10/31/16
+10/31/16
+M-F 6-6
+30p
+CM
+M-F 6-6
+30p
+1------
+30
+1
+$1,250.00FNP
+0.00 NM
+1
+$1,250.00
+News 4 @ 6p
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+1------
+1
+$1,250.00
+0.00
+E30 KMOV
+11/01/16
+11/01/16
+M-F 6-6
+30p
+CM
+M-F 6-6
+30p
+-1-----
+30
+1
+$1,250.00FNP
+0.00 NM
+1
+$1,250.00
+News 4 @ 6p
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Print Date
+10/25/16 18
+08
+20
+Page
+4 of
+5
+Order / Rev
+760804
+Advertiser
+Stuart for Il HD-112
+Alt Order #
+08427876
+Product Desc
+STUART FOR IL HD-112
+KMOV
+Flight Dates
+10/26/16 - 11/01/16
+Estimate
+5313
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+E30 KMOV
+11/01/16
+11/01/16
+M-F 6-6
+30p
+CM
+M-F 6-6
+30p
+-1-----
+30
+1
+$1,250.00FNP
+0.00 NM
+1
+$1,250.00
+News 4 @ 6p
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+-1-----
+1
+$1,250.00
+0.00
+E31 KMOV
+10/26/16
+10/26/16
+M-F 6-6
+30p
+CM
+M-F 6-6
+30p
+--1----
+30
+1
+$1,250.00FNP
+0.00 NM
+1
+$1,250.00
+News 4 @ 6p
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+--1----
+1
+$1,250.00
+0.00
+E32 KMOV
+10/27/16
+10/27/16
+M-F 6-6
+30p
+CM
+M-F 6-6
+30p
+---1---
+30
+1
+$1,250.00FNP
+0.00 NM
+1
+$1,250.00
+News 4 @ 6p
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+---1---
+1
+$1,250.00
+0.00
+E33 KMOV
+10/28/16
+10/28/16
+M-F 6-6
+30p
+CM
+M-F 6-6
+30p
+----1--
+30
+1
+$1,250.00FNP
+0.00 NM
+1
+$1,250.00
+News 4 @ 6p
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+----1--
+1
+$1,250.00
+0.00
+E34 KMOV
+10/29/16
+10/29/16
+Sat 6-7am
+CM
+Sat 6-7am
+-----1-
+30
+1
+$500.00FNP
+0.00 NM
+1
+$500.00
+CBS This Morning Saturday
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+-----1-
+1
+$500.00
+0.00
+E35 KMOV
+10/31/16
+10/31/16
+Colbert
+CM
+M-F 10
+35p-11
+37p1m------
+30
+1
+$650.00FNP
+0.00 NM
+1
+$650.00
+Late Show with Stephen Colbert
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+1------
+1
+$650.00
+0.00
+E36 KMOV
+10/26/16
+10/26/16
+Colbert
+CM
+M-F 10
+35p-11
+37p-m-1----
+30
+1
+$650.00FNP
+0.00 NM
+1
+$650.00
+Late Show with Stephen Colbert
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+--1----
+1
+$650.00
+0.00
+E37 KMOV
+10/28/16
+10/28/16
+Colbert
+CM
+M-F 10
+35p-11
+37p-m---1--
+30
+1
+$650.00FNP
+0.00 NM
+1
+$650.00
+Late Show with Stephen Colbert
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+----1--
+1
+$650.00
+0.00
+E38 KMOV
+10/30/16
+10/30/16
+Sports Sunday
+CM
+Sports Sunday
+------1
+30
+1
+$650.00FNP
+0.00 NM
+1
+$650.00
+Sports Sunday
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+------1
+1
+$650.00
+0.00
+E39 KMOV
+10/31/16
+10/31/16
+M-F Late News
+CM
+M-F Late News
+1------
+30
+1
+$2,000.00FNP
+0.00 NM
+1
+$2,000.00
+M-F Late News
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+1------
+1
+$2,000.00
+0.00
+E40 KMOV
+10/26/16
+10/26/16
+M-F Late News
+CM
+M-F Late News
+--1----
+30
+1
+$2,000.00FNP
+0.00 NM
+1
+$2,000.00
+M-F Late News
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+--1----
+1
+$2,000.00
+0.00
+E41 KMOV
+10/28/16
+10/28/16
+M-F Late News
+CM
+M-F Late News
+----1--
+30
+1
+$2,000.00FNP
+0.00 NM
+1
+$2,000.00
+M-F Late News
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+----1--
+1
+$2,000.00
+0.00
+E42 KMOV
+10/30/16
+10/30/16
+Su Late News
+CM
+Su Late News
+------1
+30
+1
+$2,000.00FNP
+0.00 NM
+1
+$2,000.00
+News 4 @ 10p Sunday
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+------1
+1
+$2,000.00
+0.00
+E43 KMOV
+11/01/16
+11/01/16
+M-F 5-6am
+CM
+M-F 5-6am
+-1-----
+30
+1
+$500.00FNP
+0.00 NM
+1
+$500.00
+News 4 @ 5a
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+-1-----
+1
+$500.00
+0.00
+E44 KMOV
+10/26/16
+10/26/16
+M-F 5-6am
+CM
+M-F 5-6am
+--1----
+30
+1
+$500.00FNP
+0.00 NM
+1
+$500.00
+News 4 @ 5a
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Print Date
+10/25/16 18
+08
+21
+Page
+5 of
+5
+Order / Rev
+760804
+Advertiser
+Stuart for Il HD-112
+Alt Order #
+08427876
+Product Desc
+STUART FOR IL HD-112
+KMOV
+Flight Dates
+10/26/16 - 11/01/16
+Estimate
+5313
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+E44 KMOV
+10/26/16
+10/26/16
+M-F 5-6am
+CM
+M-F 5-6am
+--1----
+30
+1
+$500.00FNP
+0.00 NM
+1
+$500.00
+News 4 @ 5a
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+--1----
+1
+$500.00
+0.00
+E45 KMOV
+10/28/16
+10/28/16
+M-F 5-6am
+CM
+M-F 5-6am
+----1--
+30
+1
+$500.00FNP
+0.00 NM
+1
+$500.00
+News 4 @ 5a
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+----1--
+1
+$500.00
+0.00
+E46 KMOV
+11/01/16
+11/01/16
+M-F 12-12
+30p
+CM
+M-F 12-12
+30p
+-1-----
+30
+1
+$750.00FNP
+0.00 NM
+1
+$750.00
+News 4 @ Noon
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+-1-----
+1
+$750.00
+0.00
+E47 KMOV
+10/26/16
+10/26/16
+M-F 12-12
+30p
+CM
+M-F 12-12
+30p
+--1----
+30
+1
+$750.00FNP
+0.00 NM
+1
+$750.00
+News 4 @ Noon
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+--1----
+1
+$750.00
+0.00
+E48 KMOV
+10/28/16
+10/28/16
+M-F 12-12
+30p
+CM
+M-F 12-12
+30p
+----1--
+30
+1
+$750.00FNP
+0.00 NM
+1
+$750.00
+News 4 @ Noon
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+----1--
+1
+$750.00
+0.00
+E49 KMOV
+10/26/16
+10/26/16
+M-F 6
+30-7pm
+CM
+M-F 6
+30-7pm
+--1----
+30
+1
+$1,000.00FNP
+0.00 NM
+1
+$1,000.00
+Entertainment Tonight
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+--1----
+1
+$1,000.00
+0.00
+E50 KMOV
+10/28/16
+10/28/16
+M-F 6
+30-7pm
+CM
+M-F 6
+30-7pm
+----1--
+30
+1
+$1,000.00FNP
+0.00 NM
+1
+$1,000.00
+Entertainment Tonight
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+----1--
+1
+$1,000.00
+0.00
+E51 KMOV
+10/31/16
+10/31/16
+M-F 430-5pm
+CM
+M-F 430-5pm
+1------
+30
+1
+$850.00FNP
+0.00 NM
+1
+$850.00
+Inside Edition
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+1------
+1
+$850.00
+0.00
+E52 KMOV
+10/27/16
+10/27/16
+M-F 430-5pm
+CM
+M-F 430-5pm
+---1---
+30
+1
+$850.00FNP
+0.00 NM
+1
+$850.00
+Inside Edition
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+---1---
+1
+$850.00
+0.00
+E53 KMOV
+11/01/16
+11/01/16
+M-F 4-430pm News
+CM
+M-F 4-430pm
+-1-----
+30
+1
+$800.00FNP
+0.00 NM
+1
+$800.00
+News 4 @4pm
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+-1-----
+1
+$800.00
+0.00
+E54 KMOV
+10/26/16
+10/26/16
+M-F 4-430pm News
+CM
+M-F 4-430pm
+--1----
+30
+1
+$800.00FNP
+0.00 NM
+1
+$800.00
+News 4 @4pm
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+--1----
+1
+$800.00
+0.00
+E55 KMOV
+10/28/16
+10/28/16
+M-F 4-430pm News
+CM
+M-F 4-430pm
+----1--
+30
+1
+$800.00FNP
+0.00 NM
+1
+$800.00
+News 4 @4pm
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/24/16
+10/30/16
+----1--
+1
+$800.00
+0.00
+E56 KMOV
+10/31/16
+10/31/16
+Colbert
+CM
+M-F 10
+35p-11
+37p1m------
+30
+1
+$650.00FNP
+0.00 NM
+1
+$650.00
+Late Show with Stephen Colbert
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/31/16
+11/06/16
+1------
+1
+$650.00
+0.00
+Totals
+56
+$45,125.00
+Print Date
+09/03/20 10
+56
+32
+Page
+1 of
+10
+ORDER
+Orders
+Order / Rev
+533983
+Alt Order #
+09915492
+Product Desc
+BIDEN FOR PRESIDENT
+Estimate
+8019
+NBC
+- Yuma, AZ
+Flight Dates
+10/20/20 - 10/26/20
+Primary AE
+Jared Kelhart
+Original Date / Rev
+09/02/20 / 09/02/20
+Sales Office
+C-WA
+Order Type
+GENERAL
+Sales Region
+NAT
+Agency
+Name
+Media Buying and Analytics
+Buying Contact
+Billing Type
+Cash
+Billing Contact
+donna Crawford
+Billing Calendar
+Broadcast
+2020 Howell Mill Rd NW, Suite D-348
+Billing Cycle
+EOM/EOC
+Atlanta, GA 30318
+Agency Commission
+15%
+Advertiser
+Name
+Biden for President
+Demographic
+HH
+New Business Thru
+Product Codes
+PL01
+Advertiser External ID
+123964
+Revenue Code 1
+AGY
+Agency External ID
+119994
+Revenue Code 2
+POL
+Unit Code
+General
+Revenue Code 3
+CAND
+Order Separation
+00
+10
+00
+Priority
+P-4
+Bill Plan
+Totals
+Start Date
+End Date
+# Spots
+Gross Amount
+Net Amount
+Month
+# Spots
+Gross Amount
+Net Amount
+Rating
+09/28/20
+10/25/20
+154
+$13,315.00
+$11,317.75
+October 2020
+154
+$13,315.00
+$11,317.75
+0.00
+10/26/20
+10/26/20
+32
+$2,705.00
+$2,299.25
+November 2020
+32
+$2,705.00
+$2,299.25
+0.00
+Totals
+186
+$16,020.00
+$13,617.00
+0.00
+Account Executives
+Account Executive
+Sales Office
+Sales Region
+Start Date / End Date
+Order %
+Jared Kelhart
+Start Of Order - End Of Order
+100%
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+N 1
+NYMA
+10/25/20
+10/25/20
+NFL Sunday Pre-GameCM
+NFL PRE-GAME
+------3
+30
+3
+$100.00P-4
+0.00 NM
+3
+$300.00
+NFL Pre-Game
+(4
+00 PM-5
+15 PM)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+------3
+3
+$100.00
+0.00
+N 2
+NYMA
+10/24/20
+10/24/20
+SA 6-6
+30
+CM
+6-6
+30P
+-----2-
+30
+2
+$120.00P-4
+0.00 NM
+2
+$240.00
+Jeopardy
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-----2-
+2
+$120.00
+0.00
+N 3
+NYMA
+10/24/20
+10/24/20
+SA 6
+30-7P
+CM
+6
+30-7P
+-----2-
+30
+2
+$120.00P-4
+0.00 NM
+2
+$240.00
+Wheel of Fortune
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-----2-
+2
+$120.00
+0.00
+N 4
+NYMA
+10/24/20
+10/24/20
+SA 6a-7
+30a
+CM
+6-7
+30A
+-----1-
+30
+1
+$30.00P-4
+0.00 NM
+1
+$30.00
+Saturday Today 1.5-Hr
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-----1-
+1
+$30.00
+0.00
+N 5
+NYMA
+10/25/20
+10/25/20
+SU 8-9A
+CM
+8-9A
+------1
+30
+1
+$50.00P-4
+0.00 NM
+1
+$50.00
+Meet The Press
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+------1
+1
+$50.00
+0.00
+Print Date
+09/03/20 10
+56
+33
+Page
+2 of
+10
+Order / Rev
+533983
+Advertiser
+Biden for President
+Alt Order #
+09915492
+Product Desc
+BIDEN FOR PRESIDENT
+NBC
+- Yuma, AZ
+Flight Dates
+10/20/20 - 10/26/20
+Estimate
+8019
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+N 6
+NYMA
+10/25/20
+10/25/20
+SU 7-8A
+CM
+7-8A
+------1
+30
+1
+$40.00P-4
+0.00 NM
+1
+$40.00
+Sunday Today Show
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+------1
+1
+$40.00
+0.00
+N 7
+NYMA
+10/24/20
+10/24/20
+LF (SA)
+CM
+10
+30pm-12am
+-----1-
+30
+1
+$45.00P-4
+0.00 NM
+1
+$45.00
+Saturday Night Live
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-----1-
+1
+$45.00
+0.00
+N 8
+NYMA
+10/25/20
+10/25/20
+SU 11P-12A
+CM
+11P-12A
+------1
+30
+1
+$10.00P-4
+0.00 NM
+1
+$10.00
+Madam Secretary
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+------1
+1
+$10.00
+0.00
+N 9
+NYMA
+10/26/20
+10/26/20
+M-F 1035-1137P
+CM
+10
+35-11
+37pm
+1------
+30
+1
+$50.00P-4
+0.00 NM
+1
+$50.00
+The Tonight Show
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+1------
+1
+$50.00
+0.00
+N10 NYMA
+10/20/20
+10/20/20
+M-F 1035-1137P
+CM
+10
+35-11
+37pm
+-1-----
+30
+1
+$50.00P-4
+0.00 NM
+1
+$50.00
+The Tonight Show
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-1-----
+1
+$50.00
+0.00
+N11 NYMA
+10/26/20
+10/26/20
+M-F 12-1P
+CM
+12-1P
+1------
+30
+1
+$25.00P-4
+0.00 NM
+1
+$25.00
+Rachael Ray
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+1------
+1
+$25.00
+0.00
+N12 NYMA
+10/20/20
+10/20/20
+M-F 12-1P
+CM
+12-1P
+-1-----
+30
+1
+$25.00P-4
+0.00 NM
+1
+$25.00
+Rachael Ray
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-1-----
+1
+$25.00
+0.00
+N13 NYMA
+10/21/20
+10/21/20
+M-F 12-1P
+CM
+12-1P
+--1----
+30
+1
+$25.00P-4
+0.00 NM
+1
+$25.00
+Rachael Ray
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--1----
+1
+$25.00
+0.00
+N14 NYMA
+10/22/20
+10/22/20
+M-F 12-1P
+CM
+12-1P
+---1---
+30
+1
+$25.00P-4
+0.00 NM
+1
+$25.00
+Rachael Ray
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---1---
+1
+$25.00
+0.00
+N15 NYMA
+10/23/20
+10/23/20
+M-F 12-1P
+CM
+12-1P
+----1--
+30
+1
+$25.00P-4
+0.00 NM
+1
+$25.00
+Rachael Ray
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----1--
+1
+$25.00
+0.00
+N16 NYMA
+10/26/20
+10/26/20
+M-F 2-3P
+CM
+2-3P
+1------
+30
+1
+$20.00P-4
+0.00 NM
+1
+$20.00
+The Doctors
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+1------
+1
+$20.00
+0.00
+N17 NYMA
+10/20/20
+10/20/20
+M-F 2-3P
+CM
+2-3P
+-1-----
+30
+1
+$20.00P-4
+0.00 NM
+1
+$20.00
+The Doctors
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-1-----
+1
+$20.00
+0.00
+N18 NYMA
+10/21/20
+10/21/20
+M-F 2-3P
+CM
+2-3P
+--1----
+30
+1
+$20.00P-4
+0.00 NM
+1
+$20.00
+The Doctors
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--1----
+1
+$20.00
+0.00
+N19 NYMA
+10/22/20
+10/22/20
+M-F 2-3P
+CM
+2-3P
+---1---
+30
+1
+$20.00P-4
+0.00 NM
+1
+$20.00
+The Doctors
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---1---
+1
+$20.00
+0.00
+N20 NYMA
+10/23/20
+10/23/20
+M-F 2-3P
+CM
+2-3P
+----1--
+30
+1
+$20.00P-4
+0.00 NM
+1
+$20.00
+The Doctors
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Print Date
+09/03/20 10
+56
+33
+Page
+3 of
+10
+Order / Rev
+533983
+Advertiser
+Biden for President
+Alt Order #
+09915492
+Product Desc
+BIDEN FOR PRESIDENT
+NBC
+- Yuma, AZ
+Flight Dates
+10/20/20 - 10/26/20
+Estimate
+8019
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----1--
+1
+$20.00
+0.00
+N21 NYMA
+10/21/20
+10/21/20
+M-F 1035-1137P
+CM
+10
+35-11
+37pm
+--1----
+30
+1
+$50.00P-4
+0.00 NM
+1
+$50.00
+The Tonight Show
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--1----
+1
+$50.00
+0.00
+N22 NYMA
+10/26/20
+10/26/20
+M-F 7-9A
+CM
+7-9A
+2------
+30
+2
+$100.00P-4
+0.00 NM
+2
+$200.00
+Today Show
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+2------
+2
+$100.00
+0.00
+N23 NYMA
+10/20/20
+10/20/20
+M-F 7-9A
+CM
+7-9A
+-2-----
+30
+2
+$100.00P-4
+0.00 NM
+2
+$200.00
+Today Show
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-2-----
+2
+$100.00
+0.00
+N24 NYMA
+10/21/20
+10/21/20
+M-F 7-9A
+CM
+7-9A
+--2----
+30
+2
+$100.00P-4
+0.00 NM
+2
+$200.00
+Today Show
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--2----
+2
+$100.00
+0.00
+N25 NYMA
+10/22/20
+10/22/20
+M-F 7-9A
+CM
+7-9A
+---2---
+30
+2
+$100.00P-4
+0.00 NM
+2
+$200.00
+Today Show
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---2---
+2
+$100.00
+0.00
+N26 NYMA
+10/23/20
+10/23/20
+M-F 7-9A
+CM
+7-9A
+----2--
+30
+2
+$100.00P-4
+0.00 NM
+2
+$200.00
+Today Show
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----2--
+2
+$100.00
+0.00
+N27 NYMA
+10/26/20
+10/26/20
+M-F 6-7A
+CM
+6-7A
+2------
+30
+2
+$70.00P-4
+0.00 NM
+2
+$140.00
+NEWS 11 SUNRISE
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+2------
+2
+$70.00
+0.00
+N28 NYMA
+10/20/20
+10/20/20
+M-F 6-7A
+CM
+6-7A
+-2-----
+30
+2
+$70.00P-4
+0.00 NM
+2
+$140.00
+NEWS 11 SUNRISE
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-2-----
+2
+$70.00
+0.00
+N29 NYMA
+10/21/20
+10/21/20
+M-F 6-7A
+CM
+6-7A
+--2----
+30
+2
+$70.00P-4
+0.00 NM
+2
+$140.00
+NEWS 11 SUNRISE
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--2----
+2
+$70.00
+0.00
+N30 NYMA
+10/22/20
+10/22/20
+M-F 6-7A
+CM
+6-7A
+---2---
+30
+2
+$70.00P-4
+0.00 NM
+2
+$140.00
+NEWS 11 SUNRISE
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---2---
+2
+$70.00
+0.00
+N31 NYMA
+10/23/20
+10/23/20
+M-F 6-7A
+CM
+6-7A
+----2--
+30
+2
+$70.00P-4
+0.00 NM
+2
+$140.00
+NEWS 11 SUNRISE
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----2--
+2
+$70.00
+0.00
+N32 NYMA
+10/22/20
+10/22/20
+M-F 1035-1137P
+CM
+10
+35-11
+37pm
+---1---
+30
+1
+$50.00P-4
+0.00 NM
+1
+$50.00
+The Tonight Show
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---1---
+1
+$50.00
+0.00
+N33 NYMA
+10/26/20
+10/26/20
+M-F 530-6A
+CM
+530-6A
+2------
+30
+2
+$30.00P-4
+0.00 NM
+2
+$60.00
+Early Today
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+2------
+2
+$30.00
+0.00
+N34 NYMA
+10/20/20
+10/20/20
+M-F 530-6A
+CM
+530-6A
+-2-----
+30
+2
+$30.00P-4
+0.00 NM
+2
+$60.00
+Early Today
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-2-----
+2
+$30.00
+0.00
+N35 NYMA
+10/21/20
+10/21/20
+CM
+530-6A
+30
+2
+$30.00P-4
+0.00 NM
+2
+$60.00
+Print Date
+09/03/20 10
+56
+33
+Page
+4 of
+10
+Order / Rev
+533983
+Advertiser
+Biden for President
+Alt Order #
+09915492
+Product Desc
+BIDEN FOR PRESIDENT
+NBC
+- Yuma, AZ
+Flight Dates
+10/20/20 - 10/26/20
+Estimate
+8019
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+M-F 530-6A
+--2----
+Early Today
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--2----
+2
+$30.00
+0.00
+N36 NYMA
+10/22/20
+10/22/20
+M-F 530-6A
+CM
+530-6A
+---2---
+30
+2
+$30.00P-4
+0.00 NM
+2
+$60.00
+Early Today
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---2---
+2
+$30.00
+0.00
+N37 NYMA
+10/23/20
+10/23/20
+M-F 530-6A
+CM
+530-6A
+----2--
+30
+2
+$30.00P-4
+0.00 NM
+2
+$60.00
+Early Today
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----2--
+2
+$30.00
+0.00
+N38 NYMA
+10/23/20
+10/23/20
+M-F 1035-1137P
+CM
+10
+35-11
+37pm
+----1--
+30
+1
+$50.00P-4
+0.00 NM
+1
+$50.00
+The Tonight Show
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----1--
+1
+$50.00
+0.00
+N39 NYMA
+10/26/20
+10/26/20
+M-F 1135P-1237A
+CM
+11
+35pm-12
+35am1------
+30
+1
+$35.00P-4
+0.00 NM
+1
+$35.00
+Late Night w/Seth Meyers
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+1------
+1
+$35.00
+0.00
+N40 NYMA
+10/20/20
+10/20/20
+M-F 1135P-1237A
+CM
+11
+35pm-12
+35am-1-----
+30
+1
+$35.00P-4
+0.00 NM
+1
+$35.00
+Late Night w/Seth Meyers
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-1-----
+1
+$35.00
+0.00
+N41 NYMA
+10/21/20
+10/21/20
+M-F 1135P-1237A
+CM
+11
+35pm-12
+35am--1----
+30
+1
+$35.00P-4
+0.00 NM
+1
+$35.00
+Late Night w/Seth Meyers
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--1----
+1
+$35.00
+0.00
+N42 NYMA
+10/22/20
+10/22/20
+M-F 1135P-1237A
+CM
+11
+35pm-12
+35am---1---
+30
+1
+$35.00P-4
+0.00 NM
+1
+$35.00
+Late Night w/Seth Meyers
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---1---
+1
+$35.00
+0.00
+N43 NYMA
+10/23/20
+10/23/20
+M-F 1135P-1237A
+CM
+11
+35pm-12
+35am----1--
+30
+1
+$35.00P-4
+0.00 NM
+1
+$35.00
+Late Night w/Seth Meyers
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----1--
+1
+$35.00
+0.00
+N44 NYMA
+10/26/20
+10/26/20
+Late News (M-F)
+CM
+M-F 10P-10
+35P
+2------
+30
+2
+$120.00P-4
+0.00 NM
+2
+$240.00
+KYMA Late Ed
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+2------
+2
+$120.00
+0.00
+N45 NYMA
+10/20/20
+10/20/20
+Late News (M-F)
+CM
+M-F 10P-10
+35P
+-2-----
+30
+2
+$120.00P-4
+0.00 NM
+2
+$240.00
+KYMA Late Ed
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-2-----
+2
+$120.00
+0.00
+N46 NYMA
+10/21/20
+10/21/20
+Late News (M-F)
+CM
+M-F 10P-10
+35P
+--2----
+30
+2
+$120.00P-4
+0.00 NM
+2
+$240.00
+KYMA Late Ed
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--2----
+2
+$120.00
+0.00
+N47 NYMA
+10/22/20
+10/22/20
+Late News (M-F)
+CM
+M-F 10P-10
+35P
+---2---
+30
+2
+$120.00P-4
+0.00 NM
+2
+$240.00
+KYMA Late Ed
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---2---
+2
+$120.00
+0.00
+N48 NYMA
+10/23/20
+10/23/20
+Late News (M-F)
+CM
+M-F 10P-10
+35P
+----2--
+30
+2
+$120.00P-4
+0.00 NM
+2
+$240.00
+KYMA Late Ed
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----2--
+2
+$120.00
+0.00
+N49 NYMA
+10/25/20
+10/25/20
+Late News (SA-SU)
+CM
+10-1030P
+------2
+30
+2
+$90.00P-4
+0.00 NM
+2
+$180.00
+NEWS 11 NIGHTSIDE
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Print Date
+09/03/20 10
+56
+33
+Page
+5 of
+10
+Order / Rev
+533983
+Advertiser
+Biden for President
+Alt Order #
+09915492
+Product Desc
+BIDEN FOR PRESIDENT
+NBC
+- Yuma, AZ
+Flight Dates
+10/20/20 - 10/26/20
+Estimate
+8019
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+------2
+2
+$90.00
+0.00
+N50 NYMA
+10/24/20
+10/24/20
+LATE NEWS (M-SU)
+CM
+M-SU 10-10
+35P
+-----2-
+30
+2
+$90.00P-4
+0.00 NM
+2
+$180.00
+Late News (M-SU)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-----2-
+2
+$90.00
+0.00
+N51 NYMA
+10/20/20
+10/20/20
+TU Prime Hour 2
+CM
+8-9P
+-1-----
+30
+1
+$325.00P-4
+0.00 NM
+1
+$325.00
+NBC Prime
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-1-----
+1
+$325.00
+0.00
+N52 NYMA
+10/20/20
+10/20/20
+TU The Voice
+CM
+VOICE
+-1-----
+30
+1
+$400.00P-4
+0.00 NM
+1
+$400.00
+TU The Voice
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-1-----
+1
+$400.00
+0.00
+N53 NYMA
+10/21/20
+10/21/20
+WE Prime Hour 1
+CM
+7-8P
+--1----
+30
+1
+$350.00P-4
+0.00 NM
+1
+$350.00
+NBC Prime
+(7
+00 PM-8
+00 PM)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--1----
+1
+$350.00
+0.00
+N54 NYMA
+10/20/20
+10/20/20
+TU Prime Hour 3
+CM
+9-10P
+-1-----
+30
+1
+$350.00P-4
+0.00 NM
+1
+$350.00
+Transplant
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-1-----
+1
+$350.00
+0.00
+N55 NYMA
+10/21/20
+10/21/20
+WE Prime Hour 2
+CM
+8-9P
+--1----
+30
+1
+$350.00P-4
+0.00 NM
+1
+$350.00
+NBC Prime
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--1----
+1
+$350.00
+0.00
+N56 NYMA
+10/26/20
+10/26/20
+MO The Voice
+CM
+VOICE
+1------
+30
+1
+$400.00P-4
+0.00 NM
+1
+$400.00
+MO The Voice
+(7
+00 PM-9
+00 PM)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+1------
+1
+$400.00
+0.00
+N57 NYMA
+10/21/20
+10/21/20
+WE Prime Hour 3
+CM
+9-10P
+--1----
+30
+1
+$350.00P-4
+0.00 NM
+1
+$350.00
+NBC Prime
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--1----
+1
+$350.00
+0.00
+N58 NYMA
+10/24/20
+10/24/20
+SA Dateline
+CM
+DATELINE NBC Sa-t----1-
+30
+1
+$125.00P-4
+0.00 NM
+1
+$125.00
+DATELINE NBC Sat
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-----1-
+1
+$125.00
+0.00
+N59 NYMA
+10/26/20
+10/26/20
+MO Dateline
+CM
+Dateline
+1------
+30
+1
+$300.00P-4
+0.00 NM
+1
+$300.00
+Dateline
+(9
+00 PM-10
+00 PM)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+1------
+1
+$300.00
+0.00
+N60 NYMA
+10/23/20
+10/23/20
+FR Dateline
+CM
+DATELINE NBC Fr-i---1--
+30
+1
+$250.00P-4
+0.00 NM
+1
+$250.00
+DATELINE NBC Fri
+(8
+00 PM-10
+00 PM)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----1--
+1
+$250.00
+0.00
+N61 NYMA
+10/22/20
+10/22/20
+TH Prime Hour 2
+CM
+8-9P
+---1---
+30
+1
+$225.00P-4
+0.00 NM
+1
+$225.00
+NBC Prime
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---1---
+1
+$225.00
+0.00
+N62 NYMA
+10/23/20
+10/23/20
+FR Prime Hour 1
+CM
+7-8P
+----1--
+30
+1
+$250.00P-4
+0.00 NM
+1
+$250.00
+NBC Prime
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----1--
+1
+$250.00
+0.00
+N63 NYMA
+10/22/20
+10/22/20
+TH Prime Hour 3
+CM
+9-10P
+---1---
+30
+1
+$275.00P-4
+0.00 NM
+1
+$275.00
+NBC Prime
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---1---
+1
+$275.00
+0.00
+N64 NYMA
+10/24/20
+10/24/20
+CM
+7-8P
+30
+1
+$125.00P-4
+0.00 NM
+1
+$125.00
+Print Date
+09/03/20 10
+56
+33
+Page
+6 of
+10
+Order / Rev
+533983
+Advertiser
+Biden for President
+Alt Order #
+09915492
+Product Desc
+BIDEN FOR PRESIDENT
+NBC
+- Yuma, AZ
+Flight Dates
+10/20/20 - 10/26/20
+Estimate
+8019
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+SA Prime Hour 1
+-----1-
+NBC Prime
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-----1-
+1
+$125.00
+0.00
+N65 NYMA
+10/24/20
+10/24/20
+SA Prime Hour 3
+CM
+9-10P
+-----1-
+30
+1
+$150.00P-4
+0.00 NM
+1
+$150.00
+SNL - Prime
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-----1-
+1
+$150.00
+0.00
+N66 NYMA
+10/26/20
+10/26/20
+PA (M-F)
+CM
+6
+30-7pm
+2------
+30
+2
+$150.00P-4
+0.00 NM
+2
+$300.00
+Wheel of Fortune
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+2------
+2
+$150.00
+0.00
+N67 NYMA
+10/20/20
+10/20/20
+PA (M-F)
+CM
+6
+30-7pm
+-2-----
+30
+2
+$150.00P-4
+0.00 NM
+2
+$300.00
+Wheel of Fortune
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-2-----
+2
+$150.00
+0.00
+N68 NYMA
+10/21/20
+10/21/20
+PA (M-F)
+CM
+6
+30-7pm
+--2----
+30
+2
+$150.00P-4
+0.00 NM
+2
+$300.00
+Wheel of Fortune
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--2----
+2
+$150.00
+0.00
+N69 NYMA
+10/22/20
+10/22/20
+PA (M-F)
+CM
+6
+30-7pm
+---2---
+30
+2
+$150.00P-4
+0.00 NM
+2
+$300.00
+Wheel of Fortune
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---2---
+2
+$150.00
+0.00
+N70 NYMA
+10/23/20
+10/23/20
+PA (M-F)
+CM
+6
+30-7pm
+----2--
+30
+2
+$150.00P-4
+0.00 NM
+2
+$300.00
+Wheel of Fortune
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----2--
+2
+$150.00
+0.00
+N71 NYMA
+10/26/20
+10/26/20
+M-F 5
+30-6P
+CM
+530-6P
+1------
+30
+1
+$150.00P-4
+0.00 NM
+1
+$150.00
+NBC Nightly News
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+1------
+1
+$150.00
+0.00
+N72 NYMA
+10/20/20
+10/20/20
+M-F 5
+30-6P
+CM
+530-6P
+-1-----
+30
+1
+$150.00P-4
+0.00 NM
+1
+$150.00
+NBC Nightly News
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-1-----
+1
+$150.00
+0.00
+N73 NYMA
+10/21/20
+10/21/20
+M-F 5
+30-6P
+CM
+530-6P
+--1----
+30
+1
+$150.00P-4
+0.00 NM
+1
+$150.00
+NBC Nightly News
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--1----
+1
+$150.00
+0.00
+N74 NYMA
+10/22/20
+10/22/20
+M-F 5
+30-6P
+CM
+530-6P
+---1---
+30
+1
+$150.00P-4
+0.00 NM
+1
+$150.00
+NBC Nightly News
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---1---
+1
+$150.00
+0.00
+N75 NYMA
+10/23/20
+10/23/20
+M-F 5
+30-6P
+CM
+530-6P
+----1--
+30
+1
+$150.00P-4
+0.00 NM
+1
+$150.00
+NBC Nightly News
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----1--
+1
+$150.00
+0.00
+N76 NYMA
+10/26/20
+10/26/20
+M-F 5-530P
+CM
+5-5
+30pm
+2------
+30
+2
+$90.00P-4
+0.00 NM
+2
+$180.00
+NEWS 11 EARLY EDITION
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+2------
+2
+$90.00
+0.00
+N77 NYMA
+10/20/20
+10/20/20
+M-F 5-530P
+CM
+5-5
+30pm
+-2-----
+30
+2
+$90.00P-4
+0.00 NM
+2
+$180.00
+NEWS 11 EARLY EDITION
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-2-----
+2
+$90.00
+0.00
+N78 NYMA
+10/21/20
+10/21/20
+M-F 5-530P
+CM
+5-5
+30pm
+--2----
+30
+2
+$90.00P-4
+0.00 NM
+2
+$180.00
+NEWS 11 EARLY EDITION
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Print Date
+09/03/20 10
+56
+33
+Page
+7 of
+10
+Order / Rev
+533983
+Advertiser
+Biden for President
+Alt Order #
+09915492
+Product Desc
+BIDEN FOR PRESIDENT
+NBC
+- Yuma, AZ
+Flight Dates
+10/20/20 - 10/26/20
+Estimate
+8019
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--2----
+2
+$90.00
+0.00
+N79 NYMA
+10/22/20
+10/22/20
+M-F 5-530P
+CM
+5-5
+30pm
+---2---
+30
+2
+$90.00P-4
+0.00 NM
+2
+$180.00
+NEWS 11 EARLY EDITION
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---2---
+2
+$90.00
+0.00
+N80 NYMA
+10/23/20
+10/23/20
+M-F 5-530P
+CM
+5-5
+30pm
+----2--
+30
+2
+$90.00P-4
+0.00 NM
+2
+$180.00
+NEWS 11 EARLY EDITION
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----2--
+2
+$90.00
+0.00
+N81 NYMA
+10/26/20
+10/26/20
+M-F 6-630P
+CM
+6-6
+30pm
+2------
+30
+2
+$120.00P-4
+0.00 NM
+2
+$240.00
+NEWS 11 EVENING EDITION
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+2------
+2
+$120.00
+0.00
+N82 NYMA
+10/20/20
+10/20/20
+M-F 6-630P
+CM
+6-6
+30pm
+-2-----
+30
+2
+$120.00P-4
+0.00 NM
+2
+$240.00
+NEWS 11 EVENING EDITION
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-2-----
+2
+$120.00
+0.00
+N83 NYMA
+10/21/20
+10/21/20
+M-F 6-630P
+CM
+6-6
+30pm
+--2----
+30
+2
+$120.00P-4
+0.00 NM
+2
+$240.00
+NEWS 11 EVENING EDITION
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--2----
+2
+$120.00
+0.00
+N84 NYMA
+10/22/20
+10/22/20
+M-F 6-630P
+CM
+6-6
+30pm
+---2---
+30
+2
+$120.00P-4
+0.00 NM
+2
+$240.00
+NEWS 11 EVENING EDITION
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---2---
+2
+$120.00
+0.00
+N85 NYMA
+10/23/20
+10/23/20
+M-F 6-630P
+CM
+6-6
+30pm
+----2--
+30
+2
+$120.00P-4
+0.00 NM
+2
+$240.00
+NEWS 11 EVENING EDITION
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----2--
+2
+$120.00
+0.00
+N86 NYMA
+10/25/20
+10/25/20
+SA-SU 530-6P
+CM
+SA/SU 5
+30-6P
+------1
+30
+1
+$125.00P-4
+0.00 NM
+1
+$125.00
+SA-SU 530-6P
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+------1
+1
+$125.00
+0.00
+N87 NYMA
+10/24/20
+10/24/20
+SA-SU 530-6P
+CM
+SA/SU 5
+30-6P
+-----1-
+30
+1
+$100.00P-4
+0.00 NM
+1
+$100.00
+SA-SU 530-6P
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-----1-
+1
+$100.00
+0.00
+N88 NYMA
+10/25/20
+10/25/20
+EN (SU)
+CM
+5-530P
+------2
+30
+2
+$70.00P-4
+0.00 NM
+2
+$140.00
+NEWS 11 WEEKEND EDITION SUN
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+------2
+2
+$70.00
+0.00
+N89 NYMA
+10/24/20
+10/24/20
+EN (SA)
+CM
+5-530P
+-----2-
+30
+2
+$70.00P-4
+0.00 NM
+2
+$140.00
+NEWS 11 WEEKEND EDITION SAT
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-----2-
+2
+$70.00
+0.00
+N90 NYMA
+10/26/20
+10/26/20
+M-F 330-4P
+CM
+330-4P
+2------
+30
+2
+$25.00P-4
+0.00 NM
+2
+$50.00
+Jeopardy
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+2------
+2
+$25.00
+0.00
+N91 NYMA
+10/20/20
+10/20/20
+M-F 330-4P
+CM
+330-4P
+-2-----
+30
+2
+$25.00P-4
+0.00 NM
+2
+$50.00
+Jeopardy
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-2-----
+2
+$25.00
+0.00
+N92 NYMA
+10/21/20
+10/21/20
+M-F 330-4P
+CM
+330-4P
+--2----
+30
+2
+$25.00P-4
+0.00 NM
+2
+$50.00
+Jeopardy
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--2----
+2
+$25.00
+0.00
+N93 NYMA
+10/22/20
+10/22/20
+CM
+330-4P
+30
+2
+$25.00P-4
+0.00 NM
+2
+$50.00
+Print Date
+09/03/20 10
+56
+33
+Page
+8 of
+10
+Order / Rev
+533983
+Advertiser
+Biden for President
+Alt Order #
+09915492
+Product Desc
+BIDEN FOR PRESIDENT
+NBC
+- Yuma, AZ
+Flight Dates
+10/20/20 - 10/26/20
+Estimate
+8019
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+M-F 330-4P
+---2---
+Jeopardy
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---2---
+2
+$25.00
+0.00
+N94 NYMA
+10/23/20
+10/23/20
+M-F 330-4P
+CM
+330-4P
+----2--
+30
+2
+$25.00P-4
+0.00 NM
+2
+$50.00
+Jeopardy
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----2--
+2
+$25.00
+0.00
+N95 NYMA
+10/26/20
+10/26/20
+M-F 4-5P
+CM
+4-5P
+2------
+30
+2
+$40.00P-4
+0.00 NM
+2
+$80.00
+Dr. Phil
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+2------
+2
+$40.00
+0.00
+N96 NYMA
+10/20/20
+10/20/20
+M-F 4-5P
+CM
+4-5P
+-2-----
+30
+2
+$40.00P-4
+0.00 NM
+2
+$80.00
+Dr. Phil
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-2-----
+2
+$40.00
+0.00
+N97 NYMA
+10/21/20
+10/21/20
+M-F 4-5P
+CM
+4-5P
+--2----
+30
+2
+$40.00P-4
+0.00 NM
+2
+$80.00
+Dr. Phil
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--2----
+2
+$40.00
+0.00
+N98 NYMA
+10/22/20
+10/22/20
+M-F 4-5P
+CM
+4-5P
+---2---
+30
+2
+$40.00P-4
+0.00 NM
+2
+$80.00
+Dr. Phil
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---2---
+2
+$40.00
+0.00
+N99 NYMA
+10/23/20
+10/23/20
+M-F 4-5P
+CM
+4-5P
+----2--
+30
+2
+$40.00P-4
+0.00 NM
+2
+$80.00
+Dr. Phil
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----2--
+2
+$40.00
+0.00
+N100NYMA
+10/26/20
+10/26/20
+M-F 3-330P
+CM
+3-330P
+2------
+30
+2
+$25.00P-4
+0.00 NM
+2
+$50.00
+Inside Edition
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+2------
+2
+$25.00
+0.00
+N101NYMA
+10/20/20
+10/20/20
+M-F 3-330P
+CM
+3-330P
+-2-----
+30
+2
+$25.00P-4
+0.00 NM
+2
+$50.00
+Inside Edition
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-2-----
+2
+$25.00
+0.00
+N102NYMA
+10/21/20
+10/21/20
+M-F 3-330P
+CM
+3-330P
+--2----
+30
+2
+$25.00P-4
+0.00 NM
+2
+$50.00
+Inside Edition
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--2----
+2
+$25.00
+0.00
+N103NYMA
+10/22/20
+10/22/20
+M-F 3-330P
+CM
+3-330P
+---2---
+30
+2
+$25.00P-4
+0.00 NM
+2
+$50.00
+Inside Edition
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---2---
+2
+$25.00
+0.00
+N104NYMA
+10/23/20
+10/23/20
+M-F 3-330P
+CM
+3-330P
+----2--
+30
+2
+$25.00P-4
+0.00 NM
+2
+$50.00
+Inside Edition
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----2--
+2
+$25.00
+0.00
+N105NYMA
+10/26/20
+10/26/20
+M-F 9-10A
+CM
+9-10A
+2------
+30
+2
+$50.00P-4
+0.00 NM
+2
+$100.00
+Today Third Hour
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+2------
+2
+$50.00
+0.00
+N106NYMA
+10/20/20
+10/20/20
+M-F 9-10A
+CM
+9-10A
+-2-----
+30
+2
+$50.00P-4
+0.00 NM
+2
+$100.00
+Today Third Hour
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-2-----
+2
+$50.00
+0.00
+N107NYMA
+10/21/20
+10/21/20
+M-F 9-10A
+CM
+9-10A
+--1----
+30
+1
+$50.00P-4
+0.00 NM
+1
+$50.00
+Today Third Hour
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Print Date
+09/03/20 10
+56
+33
+Page
+9 of
+10
+Order / Rev
+533983
+Advertiser
+Biden for President
+Alt Order #
+09915492
+Product Desc
+BIDEN FOR PRESIDENT
+NBC
+- Yuma, AZ
+Flight Dates
+10/20/20 - 10/26/20
+Estimate
+8019
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--1----
+1
+$50.00
+0.00
+N108NYMA
+10/22/20
+10/22/20
+M-F 9-10A
+CM
+9-10A
+---2---
+30
+2
+$50.00P-4
+0.00 NM
+2
+$100.00
+Today Third Hour
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---2---
+2
+$50.00
+0.00
+N109NYMA
+10/23/20
+10/23/20
+M-F 9-10A
+CM
+9-10A
+----2--
+30
+2
+$50.00P-4
+0.00 NM
+2
+$100.00
+Today Third Hour
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----2--
+2
+$50.00
+0.00
+N110NYMA
+10/26/20
+10/26/20
+M-F 11A-12P
+CM
+11A-12P
+1------
+30
+1
+$25.00P-4
+0.00 NM
+1
+$25.00
+Live With Kelly and Ryan
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+1------
+1
+$25.00
+0.00
+N111NYMA
+10/20/20
+10/20/20
+M-F 11A-12P
+CM
+11A-12P
+-1-----
+30
+1
+$25.00P-4
+0.00 NM
+1
+$25.00
+Live With Kelly and Ryan
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-1-----
+1
+$25.00
+0.00
+N112NYMA
+10/21/20
+10/21/20
+M-F 11A-12P
+CM
+11A-12P
+--1----
+30
+1
+$25.00P-4
+0.00 NM
+1
+$25.00
+Live With Kelly and Ryan
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--1----
+1
+$25.00
+0.00
+N113NYMA
+10/22/20
+10/22/20
+M-F 11A-12P
+CM
+11A-12P
+---1---
+30
+1
+$25.00P-4
+0.00 NM
+1
+$25.00
+Live With Kelly and Ryan
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---1---
+1
+$25.00
+0.00
+N114NYMA
+10/23/20
+10/23/20
+M-F 11A-12P
+CM
+11A-12P
+----1--
+30
+1
+$25.00P-4
+0.00 NM
+1
+$25.00
+Live With Kelly and Ryan
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----1--
+1
+$25.00
+0.00
+N115NYMA
+10/26/20
+10/26/20
+M-F 10-11A
+CM
+10-11A
+1------
+30
+1
+$40.00P-4
+0.00 NM
+1
+$40.00
+Today Show III
+(10
+00 AM-11
+00 AM)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+1------
+1
+$40.00
+0.00
+N116NYMA
+10/20/20
+10/20/20
+M-F 10-11A
+CM
+10-11A
+-1-----
+30
+1
+$40.00P-4
+0.00 NM
+1
+$40.00
+Today Show III
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-1-----
+1
+$40.00
+0.00
+N117NYMA
+10/21/20
+10/21/20
+M-F 10-11A
+CM
+10-11A
+--1----
+30
+1
+$40.00P-4
+0.00 NM
+1
+$40.00
+Today Show III
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--1----
+1
+$40.00
+0.00
+N118NYMA
+10/22/20
+10/22/20
+M-F 10-11A
+CM
+10-11A
+---1---
+30
+1
+$40.00P-4
+0.00 NM
+1
+$40.00
+Today Show III
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---1---
+1
+$40.00
+0.00
+N119NYMA
+10/23/20
+10/23/20
+M-F 10-11A
+CM
+10-11A
+----1--
+30
+1
+$40.00P-4
+0.00 NM
+1
+$40.00
+Today Show III
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----1--
+1
+$40.00
+0.00
+N120NYMA
+10/26/20
+10/26/20
+M-F 1-2P
+CM
+1-2P
+1------
+30
+1
+$20.00P-4
+0.00 NM
+1
+$20.00
+Days of Our Lives
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/26/20
+11/01/20
+1------
+1
+$20.00
+0.00
+N121NYMA
+10/20/20
+10/20/20
+M-F 1-2P
+CM
+1-2P
+-1-----
+30
+1
+$20.00P-4
+0.00 NM
+1
+$20.00
+Days of Our Lives
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+-1-----
+1
+$20.00
+0.00
+N122NYMA
+10/21/20
+10/21/20
+CM
+1-2P
+30
+1
+$20.00P-4
+0.00 NM
+1
+$20.00
+Print Date
+09/03/20 10
+56
+34
+Page
+10of
+10
+Order / Rev
+533983
+Advertiser
+Biden for President
+Alt Order #
+09915492
+Product Desc
+BIDEN FOR PRESIDENT
+NBC
+- Yuma, AZ
+Flight Dates
+10/20/20 - 10/26/20
+Estimate
+8019
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+M-F 1-2P
+--1----
+Days of Our Lives
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+--1----
+1
+$20.00
+0.00
+N123NYMA
+10/22/20
+10/22/20
+M-F 1-2P
+CM
+1-2P
+---1---
+30
+1
+$20.00P-4
+0.00 NM
+1
+$20.00
+Days of Our Lives
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+---1---
+1
+$20.00
+0.00
+N124NYMA
+10/23/20
+10/23/20
+M-F 1-2P
+CM
+1-2P
+----1--
+30
+1
+$20.00P-4
+0.00 NM
+1
+$20.00
+Days of Our Lives
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/19/20
+10/25/20
+----1--
+1
+$20.00
+0.00
+Totals
+186
+$16,020.00
+Print Date
+08/12/20 11
+13
+06
+Page
+1 of
+6
+ORDER
+Orders
+Order / Rev
+27035656
+Alt Order #
+27035656
+Product Desc
+Biden for President
+Estimate
+7712
+WISC-TV
+Flight Dates
+08/11/20 - 08/17/20
+Primary AE
+Kelly Bryant
+Original Date / Rev
+08/10/20 / 08/10/20
+Sales Office
+KTZDC
+Order Type
+GENERAL
+Sales Region
+NAT
+Agency
+Name
+Media Buying and Analytics
+Buying Contact
+Billing Type
+Cash
+Billing Contact
+Billing Calendar
+Broadcast
+2020 Howell Mill Rd
+Billing Cycle
+EOM/EOC
+Atlanta, GA 30318
+Agency Commission
+15%
+Advertiser
+Name
+Political Various
+Demographic
+A25-54
+New Business Thru
+Product Codes
+PL Candidate,PL President
+Advertiser External ID
+Revenue Code 1
+AGY
+Agency External ID
+Revenue Code 2
+POL
+Unit Code
+General
+Revenue Code 3
+POL-CAND
+Order Separation
+00
+05
+00
+Priority
+P-2
+Bill Plan
+Totals
+Start Date
+End Date
+# Spots
+Gross Amount
+Net Amount
+Month
+# Spots
+Gross Amount
+Net Amount
+Rating
+07/27/20
+08/17/20
+51
+$45,920.00
+$39,032.00
+August 2020
+51
+$45,920.00
+$39,032.00
+0.00
+Totals
+51
+$45,920.00
+$39,032.00
+0.00
+Account Executives
+Account Executive
+Sales Office
+Sales Region
+Start Date / End Date
+Order %
+Kelly Bryant
+Start Of Order - End Of Order
+100%
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+N 1
+WISC
+08/12/20
+08/12/20
+M-F 5-6am
+CM
+5
+00 AM-5
+30 AM --W----
+1
+00
+1
+$400.00P-2
+0.00 NM
+1
+$400.00
+News 3 this Morning
+(5
+00 AM-5
+30 AM)
+NWS3 NOW-MORN2
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+--W----
+1
+$400.00
+0.00
+N 2
+WISC
+08/13/20
+08/13/20
+M-F 6-7am
+CM
+6
+30 AM-7
+00 AM ---T---
+1
+00
+1
+$800.00P-2
+0.00 NM
+1
+$800.00
+News 3 This Morning
+(6
+30 AM-7
+00 AM)
+NWS3 NOW-MORN3
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+---T---
+1
+$800.00
+0.00
+N 3
+WISC
+08/14/20
+08/14/20
+M-F 6-7am
+CM
+6
+30 AM-7
+00 AM ----F--
+1
+00
+1
+$800.00P-2
+0.00 NM
+1
+$800.00
+News 3 This Morning
+(6
+30 AM-7
+00 AM)
+NWS3 NOW-MORN3
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+----F--
+1
+$800.00
+0.00
+N 4
+WISC
+08/12/20
+08/12/20
+M-F 7-9a
+CM
+7
+00 AM-8
+00 AM --W----
+1
+00
+1
+$720.00P-2
+0.00 NM
+1
+$720.00
+M-F Early Show
+(7
+00 AM-8
+00 AM)
+CBS THIS MORNING
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+--W----
+1
+$720.00
+0.00
+N 5
+WISC
+08/13/20
+08/13/20
+M-F 7-9a
+CM
+7
+00 AM-8
+00 AM ---T---
+1
+00
+1
+$720.00P-2
+0.00 NM
+1
+$720.00
+M-F Early Show
+(7
+00 AM-8
+00 AM)
+Print Date
+08/12/20 11
+13
+06
+Page
+2 of
+6
+Order / Rev
+27035656
+Advertiser
+Political Various
+Alt Order #
+27035656
+Product Desc
+Biden for President
+WISC-TV
+Flight Dates
+08/11/20 - 08/17/20
+Estimate
+7712
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+CBS THIS MORNING
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+---T---
+1
+$720.00
+0.00
+N 6
+WISC
+08/14/20
+08/14/20
+M-F 7-9a
+CM
+7
+00 AM-8
+00 AM ----F--
+1
+00
+1
+$720.00P-2
+0.00 NM
+1
+$720.00
+M-F Early Show
+(7
+00 AM-8
+00 AM)
+CBS THIS MORNING
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+----F--
+1
+$720.00
+0.00
+N 7
+WISC
+08/17/20
+08/17/20
+M-F 7-9a
+CM
+7
+00 AM-8
+00 AM M------
+1
+00
+1
+$720.00P-2
+0.00 NM
+1
+$720.00
+M-F Early Show
+(7
+00 AM-8
+00 AM)
+CBS THIS MORNING
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/17/20
+08/23/20
+M------
+1
+$720.00
+0.00
+N 8
+WISC
+08/11/20
+08/11/20
+M-F 7-9a
+CM
+8
+00 AM-9
+00 AM -T-----
+1
+00
+1
+$600.00P-2
+0.00 NM
+1
+$600.00
+M-F Early Show
+(8
+00 AM-9
+00 AM)
+CBS THIS MORNING
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+-T-----
+1
+$600.00
+0.00
+N 9
+WISC
+08/12/20
+08/12/20
+M-F 7-9a
+CM
+8
+00 AM-9
+00 AM --W----
+1
+00
+1
+$600.00P-2
+0.00 NM
+1
+$600.00
+M-F Early Show
+(8
+00 AM-9
+00 AM)
+CBS THIS MORNING
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+--W----
+1
+$600.00
+0.00
+N10 WISC
+08/14/20
+08/14/20
+M-F 7-9a
+CM
+8
+00 AM-9
+00 AM ----F--
+1
+00
+1
+$600.00P-2
+0.00 NM
+1
+$600.00
+M-F Early Show
+(8
+00 AM-9
+00 AM)
+CBS THIS MORNING
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+----F--
+1
+$600.00
+0.00
+N11 WISC
+08/17/20
+08/17/20
+M-F 7-9a
+CM
+8
+00 AM-9
+00 AM M------
+1
+00
+1
+$600.00P-2
+0.00 NM
+1
+$600.00
+M-F Early Show
+(8
+00 AM-9
+00 AM)
+CBS THIS MORNING
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/17/20
+08/23/20
+M------
+1
+$600.00
+0.00
+N12 WISC
+08/11/20
+08/11/20
+M-F 10-11am
+CM
+10-11am
+-T-----
+1
+00
+1
+$720.00P-2
+0.00 NM
+1
+$720.00
+Price is Right
+PRICE-RT 2-CBS<
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+-T-----
+1
+$720.00
+0.00
+N13 WISC
+08/12/20
+08/12/20
+M-F 10-11am
+CM
+10-11am
+--W----
+1
+00
+1
+$720.00P-2
+0.00 NM
+1
+$720.00
+Price is Right
+PRICE-RT 2-CBS<
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+--W----
+1
+$720.00
+0.00
+N14 WISC
+08/13/20
+08/13/20
+M-F 10-11am
+CM
+10-11am
+---T---
+1
+00
+1
+$720.00P-2
+0.00 NM
+1
+$720.00
+Price is Right
+PRICE-RT 2-CBS<
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+---T---
+1
+$720.00
+0.00
+N15 WISC
+08/12/20
+08/12/20
+M-F 11-12pm
+CM
+11-12pm
+--W----
+1
+00
+1
+$760.00P-2
+0.00 NM
+1
+$760.00
+Young and the Restless
+YOUNG&RESTLESS
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+--W----
+1
+$760.00
+0.00
+N16 WISC
+08/14/20
+08/14/20
+M-F 11-12pm
+CM
+11-12pm
+----F--
+1
+00
+1
+$760.00P-2
+0.00 NM
+1
+$760.00
+Young and the Restless
+YOUNG&RESTLESS
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+----F--
+1
+$760.00
+0.00
+N17 WISC
+08/17/20
+08/17/20
+M-F 11-12pm
+CM
+11-12pm
+M------
+1
+00
+1
+$760.00P-2
+0.00 NM
+1
+$760.00
+Print Date
+08/12/20 11
+13
+07
+Page
+3 of
+6
+Order / Rev
+27035656
+Advertiser
+Political Various
+Alt Order #
+27035656
+Product Desc
+Biden for President
+WISC-TV
+Flight Dates
+08/11/20 - 08/17/20
+Estimate
+7712
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Young and the Restless
+YOUNG&RESTLESS
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/17/20
+08/23/20
+M------
+1
+$760.00
+0.00
+N18 WISC
+08/11/20
+08/11/20
+M-F 12-1230pm
+CM
+12
+15 PM-12
+30 PM-T-----
+1
+00
+1
+$920.00P-2
+0.00 NM
+1
+$920.00
+News 3 at Noon
+(12
+15 PM-12
+30 PM)
+NEWS3 NOW-NOON
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+-T-----
+1
+$920.00
+0.00
+N19 WISC
+08/12/20
+08/12/20
+M-F 12-1230pm
+CM
+12
+15 PM-12
+30 PM--W----
+1
+00
+1
+$920.00P-2
+0.00 NM
+1
+$920.00
+News 3 at Noon
+(12
+15 PM-12
+30 PM)
+NEWS3 NOW-NOON
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+--W----
+1
+$920.00
+0.00
+N20 WISC
+08/13/20
+08/13/20
+M-F 12-1230pm
+CM
+12
+15 PM-12
+30 PM---T---
+1
+00
+1
+$920.00P-2
+0.00 NM
+1
+$920.00
+News 3 at Noon
+(12
+15 PM-12
+30 PM)
+NEWS3 NOW-NOON
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+---T---
+1
+$920.00
+0.00
+N21 WISC
+08/14/20
+08/14/20
+M-F 12-1230pm
+CM
+12
+15 PM-12
+30 PM----F--
+1
+00
+1
+$920.00P-2
+0.00 NM
+1
+$920.00
+News 3 at Noon
+(12
+15 PM-12
+30 PM)
+NEWS3 NOW-NOON
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+----F--
+1
+$920.00
+0.00
+N22 WISC
+08/17/20
+08/17/20
+M-F 12-1230pm
+CM
+12
+15 PM-12
+30 PMM------
+1
+00
+1
+$920.00P-2
+0.00 NM
+1
+$920.00
+News 3 at Noon
+(12
+15 PM-12
+30 PM)
+NEWS3 NOW-NOON
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/17/20
+08/23/20
+M------
+1
+$920.00
+0.00
+N23 WISC
+08/11/20
+08/11/20
+M-F 1230-1P
+CM
+1230-1pm
+-T-----
+1
+00
+1
+$1,000.00P-2
+0.00 NM
+6
+$6,800.00
+M-F 1230-1pm
+BOLD&BEAUTIFUL
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+-T-----
+1
+$1,000.00
+0.00
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 WISC 08/10/20-08/16/20M-F 1230-1P
+1230-1pm
+-T--------
+1
+00($1,000.00)
+0.00
+NM
+See MG 23.2,23.3,23.4,23.5,23.6,23.7
+[n/a]
+2 WISC 08/12/20-08/17/20M-F 6-7am
+6
+30 AM-7
+00 AM(6
+30 AM-7
+00 AMM-)W-------
+1
+00
+$800.00
+0.00
+NM
+MG for 39.1,24.1,36.1,37.1,23.1,38.1
+[na]
+3 WISC 08/12/20-08/17/20M-F 6-7am
+6
+30 AM-7
+00 AM(6
+30 AM-7
+00 AMM-)W-------
+1
+00
+$800.00
+0.00
+NM
+MG for 39.1,24.1,36.1,37.1,23.1,38.1
+[na]
+4 WISC 08/14/20-08/14/20M-F 10-11am
+10-11am
+-----F----
+1
+00
+$720.00
+0.00
+NM
+MG for 39.1,24.1,36.1,37.1,23.1,38.1
+[na]
+5 WISC 08/10/20-08/16/20M-F 5-530pm
+5-530pm
+--WTh-----
+1
+00
+$1,440.00
+0.00
+NM
+MG for 39.1,24.1,36.1,37.1,23.1,38.1
+[na]
+6 WISC 08/10/20-08/16/20M-F 5-530pm
+5-530pm
+--WTh-----
+1
+00
+$1,440.00
+0.00
+NM
+MG for 39.1,24.1,36.1,37.1,23.1,38.1
+[na]
+7 WISC 08/10/20-08/16/20M-F 6-630p
+6-630pm
+--W-------
+1
+00
+$1,600.00
+0.00
+NM
+MG for 39.1,24.1,36.1,37.1,23.1,38.1
+[na]
+N24 WISC
+08/13/20
+08/13/20
+M-F 1230-1P
+CM
+1230-1pm
+---T---
+1
+00
+1
+$1,000.00P-2
+0.00 NM
+0
+$0.00
+M-F 1230-1pm
+BOLD&BEAUTIFUL
+Print Date
+08/12/20 11
+13
+07
+Page
+4 of
+6
+Order / Rev
+27035656
+Advertiser
+Political Various
+Alt Order #
+27035656
+Product Desc
+Biden for President
+WISC-TV
+Flight Dates
+08/11/20 - 08/17/20
+Estimate
+7712
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+---T---
+1
+$1,000.00
+0.00
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 WISC 08/10/20-08/16/20M-F 1230-1P
+1230-1pm
+---Th-----
+1
+00($1,000.00)
+0.00
+NM
+See MG 23.2,23.3,23.4,23.5,23.6,23.7
+[n/a]
+N25 WISC
+08/11/20
+08/11/20
+M-F 3-4pm
+CM
+3-4pm
+-T-----
+1
+00
+1
+$240.00P-2
+0.00 NM
+1
+$240.00
+Dr Oz
+DR. OZ
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+-T-----
+1
+$240.00
+0.00
+N26 WISC
+08/13/20
+08/13/20
+M-F 3-4pm
+CM
+3-4pm
+---T---
+1
+00
+1
+$240.00P-2
+0.00 NM
+1
+$240.00
+Dr Oz
+DR. OZ
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+---T---
+1
+$240.00
+0.00
+N27 WISC
+08/17/20
+08/17/20
+M-F 3-4pm
+CM
+3-4pm
+M------
+1
+00
+1
+$240.00P-2
+0.00 NM
+1
+$240.00
+Dr Oz
+DR. OZ
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/17/20
+08/23/20
+M------
+1
+$240.00
+0.00
+N28 WISC
+08/11/20
+08/11/20
+M-F 4-5pm
+CM
+4-5pm
+-T-----
+1
+00
+1
+$480.00P-2
+0.00 NM
+1
+$480.00
+Live at Four
+NWS3-LIVE AT 4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+-T-----
+1
+$480.00
+0.00
+N29 WISC
+08/12/20
+08/12/20
+M-F 4-5pm
+CM
+4-5pm
+--W----
+1
+00
+1
+$480.00P-2
+0.00 NM
+1
+$480.00
+Live at Four
+NWS3-LIVE AT 4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+--W----
+1
+$480.00
+0.00
+N30 WISC
+08/13/20
+08/13/20
+M-F 4-5pm
+CM
+4-5pm
+---T---
+1
+00
+1
+$480.00P-2
+0.00 NM
+1
+$480.00
+Live at Four
+NWS3-LIVE AT 4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+---T---
+1
+$480.00
+0.00
+N31 WISC
+08/14/20
+08/14/20
+M-F 4-5pm
+CM
+4-5pm
+----F--
+1
+00
+1
+$480.00P-2
+0.00 NM
+1
+$480.00
+Live at Four
+NWS3-LIVE AT 4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+----F--
+1
+$480.00
+0.00
+N32 WISC
+08/17/20
+08/17/20
+M-F 4-5pm
+CM
+4-5pm
+M------
+1
+00
+1
+$480.00P-2
+0.00 NM
+1
+$480.00
+Live at Four
+NWS3-LIVE AT 4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/17/20
+08/23/20
+M------
+1
+$480.00
+0.00
+N33 WISC
+08/11/20
+08/11/20
+M-F 5-530pm
+CM
+5
+10 PM-5
+30 PM -T-----
+1
+00
+1
+$1,440.00P-2
+0.00 NM
+1
+$1,440.00
+News 3 at Five
+(5
+10 PM-5
+30 PM)
+NWS 3 NOW AT 5
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+-T-----
+1
+$1,440.00
+0.00
+N34 WISC
+08/14/20
+08/14/20
+M-F 5-530pm
+CM
+5
+10 PM-5
+30 PM ----F--
+1
+00
+1
+$1,440.00P-2
+0.00 NM
+1
+$1,440.00
+News 3 at Five
+(5
+10 PM-5
+30 PM)
+NWS 3 NOW AT 5
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+----F--
+1
+$1,440.00
+0.00
+N35 WISC
+08/17/20
+08/17/20
+M-F 5-530pm
+CM
+5
+10 PM-5
+30 PM M------
+1
+00
+1
+$1,440.00P-2
+0.00 NM
+1
+$1,440.00
+News 3 at Five
+(5
+10 PM-5
+30 PM)
+NWS 3 NOW AT 5
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Print Date
+08/12/20 11
+13
+08
+Page
+5 of
+6
+Order / Rev
+27035656
+Advertiser
+Political Various
+Alt Order #
+27035656
+Product Desc
+Biden for President
+WISC-TV
+Flight Dates
+08/11/20 - 08/17/20
+Estimate
+7712
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/17/20
+08/23/20
+M------
+1
+$1,440.00
+0.00
+N36 WISC
+08/12/20
+08/12/20
+M-F 530-6p
+CM
+530-6pm
+--W----
+1
+00
+1
+$1,200.00P-2
+0.00 NM
+0
+$0.00
+CBS Early News
+CBS EVE NWS<
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+--W----
+1
+$1,200.00
+0.00
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 WISC 08/10/20-08/16/20M-F 530-6p
+530-6pm
+--W-------
+1
+00($1,200.00)
+0.00
+NM
+See MG 23.2,23.3,23.4,23.5,23.6,23.7
+[n/a]
+N37 WISC
+08/12/20
+08/12/20
+M-F 530-6p
+CM
+5
+30 PM-6
+00 PM --W----
+1
+00
+1
+$1,200.00P-2
+0.00 NM
+0
+$0.00
+CBS Early News
+(5
+30 PM-6
+00 PM)
+CBS EVE NWS<
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+--W----
+1
+$1,200.00
+0.00
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 WISC 08/10/20-08/16/20M-F 530-6p
+5
+30 PM-6
+00 PM(5
+30 PM-6
+00 PM--)W-------
+1
+00($1,200.00)
+0.00
+NM
+See MG 23.2,23.3,23.4,23.5,23.6,23.7
+[n/a]
+N38 WISC
+08/14/20
+08/14/20
+M-F 530-6p
+CM
+530-6pm
+----F--
+1
+00
+1
+$1,200.00P-2
+0.00 NM
+0
+$0.00
+CBS Early News
+CBS EVE NWS<
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+----F--
+1
+$1,200.00
+0.00
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 WISC 08/10/20-08/16/20M-F 530-6p
+530-6pm
+-----F----
+1
+00($1,200.00)
+0.00
+NM
+See MG 23.2,23.3,23.4,23.5,23.6,23.7
+[n/a]
+N39 WISC
+08/17/20
+08/17/20
+M-F 530-6p
+CM
+530-6pm
+M------
+1
+00
+1
+$1,200.00P-2
+0.00 NM
+0
+$0.00
+CBS Early News
+CBS EVE NWS<
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/17/20
+08/23/20
+M------
+1
+$1,200.00
+0.00
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 WISC 08/17/20-08/23/20M-F 530-6p
+530-6pm
+M---------
+1
+00($1,200.00)
+0.00
+NM
+See MG 23.2,23.3,23.4,23.5,23.6,23.7
+[n/a]
+N40 WISC
+08/11/20
+08/11/20
+M-F 6-630p
+CM
+6
+15 PM-6
+30 PM -T-----
+1
+00
+1
+$1,600.00P-2
+0.00 NM
+1
+$1,600.00
+News 3 at 6
+(6
+15 PM-6
+30 PM)
+NWS 3 NOW AT 6
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+-T-----
+1
+$1,600.00
+0.00
+N41 WISC
+08/13/20
+08/13/20
+M-F 6-630p
+CM
+6
+15 PM-6
+30 PM ---T---
+1
+00
+1
+$1,600.00P-2
+0.00 NM
+1
+$1,600.00
+News 3 at 6
+(6
+15 PM-6
+30 PM)
+NWS 3 NOW AT 6
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+---T---
+1
+$1,600.00
+0.00
+N42 WISC
+08/14/20
+08/14/20
+M-F 6-630p
+CM
+6
+15 PM-6
+30 PM ----F--
+1
+00
+1
+$1,600.00P-2
+0.00 NM
+1
+$1,600.00
+News 3 at 6
+(6
+15 PM-6
+30 PM)
+NWS 3 NOW AT 6
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+----F--
+1
+$1,600.00
+0.00
+N43 WISC
+08/17/20
+08/17/20
+M-F 6-630p
+CM
+6
+15 PM-6
+30 PM M------
+1
+00
+1
+$1,600.00P-2
+0.00 NM
+1
+$1,600.00
+News 3 at 6
+(6
+15 PM-6
+30 PM)
+NWS 3 NOW AT 6
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/17/20
+08/23/20
+M------
+1
+$1,600.00
+0.00
+N44 WISC
+08/11/20
+08/11/20
+M-F 10-1030pm
+CM
+10
+15 PM-10
+35 PM-T-----
+1
+00
+1
+$1,800.00P-2
+0.00 NM
+1
+$1,800.00
+Print Date
+08/12/20 11
+13
+08
+Page
+6 of
+6
+Order / Rev
+27035656
+Advertiser
+Political Various
+Alt Order #
+27035656
+Product Desc
+Biden for President
+WISC-TV
+Flight Dates
+08/11/20 - 08/17/20
+Estimate
+7712
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+News 3 at 10
+(10
+15 PM-10
+35 PM)
+NWS3 NOW AT 10<
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+-T-----
+1
+$1,800.00
+0.00
+N45 WISC
+08/12/20
+08/12/20
+M-F 10-1030pm
+CM
+10
+15 PM-10
+35 PM--W----
+1
+00
+1
+$1,800.00P-2
+0.00 NM
+1
+$1,800.00
+News 3 at 10
+(10
+15 PM-10
+35 PM)
+NWS3 NOW AT 10<
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+--W----
+1
+$1,800.00
+0.00
+N46 WISC
+08/13/20
+08/13/20
+M-F 10-1030pm
+CM
+10
+15 PM-10
+35 PM---T---
+1
+00
+1
+$1,800.00P-2
+0.00 NM
+1
+$1,800.00
+News 3 at 10
+(10
+15 PM-10
+35 PM)
+NWS3 NOW AT 10<
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+---T---
+1
+$1,800.00
+0.00
+N47 WISC
+08/15/20
+08/15/20
+Sa 8-9a
+CM
+8-9am
+-----S-
+1
+00
+1
+$480.00P-2
+0.00 NM
+1
+$480.00
+News 3 This Morning Sat
+NWS 3-SAT MRN2
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+-----S-
+1
+$480.00
+0.00
+N48 WISC
+08/16/20
+08/16/20
+Su 630-8a
+CM
+630-8am
+------S
+1
+00
+1
+$280.00P-2
+0.00 NM
+1
+$280.00
+News 3 This Morning Sun
+NEWS3-MORN SUN
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+------S
+1
+$280.00
+0.00
+N49 WISC
+08/16/20
+08/16/20
+Su 8-930a
+CM
+8-930am
+------S
+1
+00
+1
+$1,200.00P-2
+0.00 NM
+1
+$1,200.00
+CBS Sunday Morning
+AVG. ALL WKS
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+------S
+1
+$1,200.00
+0.00
+N50 WISC
+08/16/20
+08/16/20
+Su Face the Nation
+CM
+930-1030a
+------S
+1
+00
+1
+$600.00P-2
+0.00 NM
+1
+$600.00
+Face the Nation
+AVG. ALL WKS
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+------S
+1
+$600.00
+0.00
+N51 WISC
+08/16/20
+08/16/20
+Su 530-6pm
+CM
+5
+45 PM-6
+00 PM ------S
+1
+00
+1
+$1,000.00P-2
+0.00 NM
+1
+$1,000.00
+News 3 at 530
+(5
+45 PM-6
+00 PM)
+AVG. ALL WKS
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+08/10/20
+08/16/20
+------S
+1
+$1,000.00
+0.00
+Totals
+51
+$45,920.00
+Print Date
+08/31/20 13
+12
+47
+Page
+1 of
+2
+ORDER
+Orders
+Order / Rev
+2652006
+Alt Order #
+27054652
+Product Desc
+9/14-9/20 VA Senate 2020
+Estimate
+12749
+Norfolk WVBT
+Flight Dates
+09/14/20 - 09/20/20
+Primary AE
+Katz Washington
+Original Date / Rev
+08/31/20 / 08/31/20
+Sales Office
+K-WAS
+Order Type
+REG
+Sales Region
+Nat
+Agency
+Name
+American Media & Advocacy Group
+Buying Contact
+Billing Type
+Cash
+Billing Contact
+Billing Calendar
+Broadcast
+815 Slaters Lane
+Billing Cycle
+EOM
+Alexandria, VA 22314
+Agency Commission
+15%
+Advertiser
+Name
+POL/Daniel Gade/US Senate/VA/Rep
+Order Brand
+Demographic
+A35-64
+New Business Thru
+Product Codes
+PL11
+Advertiser External ID
+Revenue Code 1
+AGY
+Agency External ID
+IN16043/SP10305
+Revenue Code 2
+POL
+Unit Code
+General
+Revenue Code 3
+POL-CAND
+Order Separation
+00
+15
+00
+Priority
+P5
+Bill Plan
+Totals
+Start Date
+End Date
+# Spots
+Gross Amount
+Net Amount
+Month
+# Spots
+Gross Amount
+Net Amount
+Rating
+08/31/20
+09/27/20
+5
+$450.00
+$382.50
+September 2020
+5
+$450.00
+$382.50
+0.00
+Totals
+5
+$450.00
+$382.50
+0.00
+Account Executives
+Account Executive
+Sales Office
+Sales Region
+Start Date / End Date
+Order %
+Katz Washington
+Start Of Order - End Of Order
+100%
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+N 1
+WVBT
+09/14/20
+09/14/20
+WAVY News @ 7p on FOCXM43
+WAVY News @ 7pM o-n- F-O--X-43
+30
+1
+$90.00P4
+0.00 NM
+1
+$90.00
+WAVY News @ 7p on FOX43
+WAVY NWS-7PFOX
+81
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/14/20
+09/20/20
+M------
+1
+$90.00
+0.00
+N 2
+WVBT
+09/15/20
+09/15/20
+WAVY News @ 7p on FOCXM43
+WAVY News @ 7p- oTn- F-O--X-43
+30
+1
+$90.00P4
+0.00 NM
+1
+$90.00
+WAVY News @ 7p on FOX43
+WAVY NWS-7PFOX
+81
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/14/20
+09/20/20
+-T-----
+1
+$90.00
+0.00
+N 3
+WVBT
+09/16/20
+09/16/20
+WAVY News @ 7p on FOCXM43
+WAVY News @ 7p- o-nW F-O--X-43
+30
+1
+$90.00P4
+0.00 NM
+1
+$90.00
+WAVY News @ 7p on FOX43
+WAVY NWS-7PFOX
+81
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/14/20
+09/20/20
+--W----
+1
+$90.00
+0.00
+N 4
+WVBT
+09/17/20
+09/17/20
+WAVY News @ 7p on FOCXM43
+WAVY News @ 7p- o-n- FTO--X-43
+30
+1
+$90.00P4
+0.00 NM
+1
+$90.00
+WAVY News @ 7p on FOX43
+WAVY NWS-7PFOX
+81
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Print Date
+08/31/20 13
+12
+48
+Page
+2 of
+2
+Order / Rev
+2652006
+Advertiser
+POL/Daniel Gade/US Senate/VA/Rep
+Alt Order #
+27054652
+Product Desc
+9/14-9/20 VA Senate 2020
+Norfolk WVBT
+Flight Dates
+09/14/20 - 09/20/20
+Estimate
+12749
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/14/20
+09/20/20
+---T---
+1
+$90.00
+0.00
+N 5
+WVBT
+09/18/20
+09/18/20
+WAVY News @ 7p on FOCXM43
+WAVY News @ 7p- o-n- F-OF-X-43
+30
+1
+$90.00P4
+0.00 NM
+1
+$90.00
+WAVY News @ 7p on FOX43
+WAVY NWS-7PFOX
+81
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/14/20
+09/20/20
+----F--
+1
+$90.00
+0.00
+Totals
+5
+$450.00
+Print Date
+07/08/22 07
+58
+50
+Page
+1 of
+2
+ORDER
+Orders
+Order / Rev
+1044317
+Alt Order #
+WOC13706922
+Product Desc
+AZ
+Estimate
+9858
+KASW
+Flight Dates
+10/18/22 - 10/24/22
+Primary AE
+Margie MacDonald
+Original Date / Rev
+07/07/22 / 07/07/22
+Sales Office
+EWSDC
+Order Type
+GENERAL
+Sales Region
+NAT
+Agency
+Name
+Canal Partners Media - POL
+Buying Contact
+Billing Type
+Cash
+Billing Contact
+Billing Calendar
+Broadcast
+900 Circle 75 Parkway, SE
+Billing Cycle
+EOM/EOC
+Atlanta, GA 30339
+Agency Commission
+15%
+Advertiser
+Name
+Arizona Democratic Party
+Demographic
+A35+
+New Business End
+Product Codes
+State Candidate
+Advertiser External ID
+273476
+Revenue Code 1
+DISC
+Agency External ID
+103998
+Revenue Code 2
+POL
+Unit Code
+General
+Revenue Code 3
+CAND
+Order Separation
+00
+10
+00
+Priority
+P-6
+Bill Plan
+Totals
+Start Date
+End Date
+# Spots
+Gross Amount
+Net Amount
+Month
+# Spots
+Gross Amount
+Net Amount
+Rating
+09/26/22
+10/24/22
+43
+$4,250.00
+$3,612.50
+October 2022
+43
+$4,250.00
+$3,612.50
+0.00
+Totals
+43
+$4,250.00
+$3,612.50
+0.00
+Account Executives
+Account Executive
+Sales Office
+Sales Region
+Start Date / End Date
+Order %
+Margie MacDonald
+Start Of Order - End Of Order
+100%
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+N 1
+KASW
+10/18/22
+10/24/22
+M-F 5-530pm
+CM
+5
+00 PM-5
+30 PM 11111--
+30
+5
+$105.00P-6
+0.00 NM
+5
+$525.00
+FRIENDS M-F/5-530P
+(Program
+FRIENDS M-F/5-530P)
+4TH QTR 2021 ESTIMATE (sell) - ESTIMATE IS BASED ON THE ACTUAL PERFORMANCE OF FRIENDS Mo-Fr 5
+00p-5
+30p IN
+LPNov/2020LS ON KASW.
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/18/22
+10/24/22
+11111--
+5
+$105.00
+0.00
+N 2
+KASW
+10/18/22
+10/24/22
+M-F 530-6pm
+CM
+5
+30 PM-6
+00 PM 11111--
+30
+5
+$105.00P-6
+0.00 NM
+5
+$525.00
+FRIENDS M-F/530P
+(Program
+FRIENDS M-F/530P)
+4TH QTR 2021 ESTIMATE (sell) - ESTIMATE IS BASED ON THE ACTUAL PERFORMANCE OF FRIENDS B Mo-Fr 5
+30p-6
+00p
+IN LPNov/2020LS ON KASW.
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/18/22
+10/24/22
+11111--
+5
+$105.00
+0.00
+N 3
+KASW
+10/18/22
+10/24/22
+M-F 6-630pm
+CM
+6
+00 PM-6
+30 PM 22222--
+30
+10
+$140.00P-6
+0.00 NM
+10
+$1,400.00
+2.5 MEN M-F/6P
+(Program
+2.5 MEN M-F/6P)
+4TH QTR 2021 ESTIMATE (sell) - ESTIMATE IS BASED ON THE ACTUAL PERFORMANCE OF TWO & HALF MEN Mo-Fr
+6
+00p-6
+30p IN LPNov/2020LS ON KASW.
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/18/22
+10/24/22
+22222--
+10
+$140.00
+0.00
+N 4
+KASW
+10/18/22
+10/24/22
+M-F 630-7pm
+CM
+6
+30 PM-7
+00 PM 11111--
+30
+5
+$140.00P-6
+0.00 NM
+5
+$700.00
+2.5 MEN M-F/630P
+Print Date
+07/08/22 07
+58
+50
+Page
+2 of
+2
+Order / Rev
+1044317
+Advertiser
+Arizona Democratic Party
+Alt Order #
+WOC13706922
+Product Desc
+AZ
+KASW
+Flight Dates
+10/18/22 - 10/24/22
+Estimate
+9858
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+(Program
+2.5 MEN M-F/630P)
+4TH QTR 2021 ESTIMATE (sell) - ESTIMATE IS BASED ON THE ACTUAL PERFORMANCE OF TWO&HALF MEN B Mo-Fr
+6
+30p-7
+00p IN LPNov/2020LS ON KASW.
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/18/22
+10/24/22
+11111--
+5
+$140.00
+0.00
+N 5
+KASW
+10/18/22
+10/24/22
+M-F 9-930pm News
+CM
+9
+00 PM-9
+30 PM 21212--
+30
+8
+$50.00P-6
+0.00 NM
+8
+$400.00
+ABC15 NEWS ON CW61 M-F/9P
+(Program
+ABC15 NEWS ON CW61 M-F/9P)
+4TH QTR 2021 ESTIMATE (sell) - ESTIMATE IS BASED ON THE ACTUAL PERFORMANCE OF ABC15NEWS-9P Mo-Fr
+9
+00p-9
+30p IN LPNov/2020LS ON KASW.
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/18/22
+10/24/22
+21212--
+8
+$50.00
+0.00
+N 6
+KASW
+10/18/22
+10/24/22
+M-F 930-10pm
+CM
+9
+30 PM-10
+00 PM11111--
+30
+5
+$70.00P-6
+0.00 NM
+5
+$350.00
+SEINFELD M-F/930P
+(Program
+SEINFELD M-F/930P)
+4TH QTR 2021 ESTIMATE (sell) - ESTIMATE IS BASED ON THE ACTUAL PERFORMANCE OF BOB'S BURGERS Mo-Fr
+11
+00p-11
+30p IN LPNov/2020LS ON KASW.
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/18/22
+10/24/22
+11111--
+5
+$70.00
+0.00
+N 7
+KASW
+10/18/22
+10/24/22
+M-F 10-1030pm
+CM
+10
+00 PM-10
+30 PM11111--
+30
+5
+$70.00P-6
+0.00 NM
+5
+$350.00
+SEINFELD M-F/10P
+(Program
+SEINFELD M-F/10P)
+4TH QTR 2021 ESTIMATE (sell) - ESTIMATE IS BASED ON THE ACTUAL PERFORMANCE OF BOB'S BURGERS Mo-Fr
+11
+00p-11
+30p IN LPNov/2020LS ON KASW.
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/18/22
+10/24/22
+11111--
+5
+$70.00
+0.00
+*Tax 1 Note
+Tax 0.5%.
+Totals
+43
+$4,250.00
+Print Date
+06/14/22 13
+21
+39
+Page
+1 of
+4
+ORDER
+Orders
+Order / Rev
+1029811
+Alt Order #
+WOC13634676
+Product Desc
+NV 2022
+Estimate
+14380
+KTNV
+Flight Dates
+06/17/22 - 06/23/22
+Primary AE
+Gianna Elizardo
+Original Date / Rev
+06/14/22 / 06/14/22
+Sales Office
+EWSDC
+Order Type
+GENERAL
+Sales Region
+NAT
+Agency
+Name
+National Media Research Planning
+Buying Contact
+Billing Type
+Cash
+Billing Contact
+Billing Calendar
+Broadcast
+815 Slaters Lane
+Billing Cycle
+EOM/EOC
+Alexandria, VA 22314
+Agency Commission
+15%
+Advertiser
+Name
+NRSC IE
+Demographic
+A35-64
+New Business End
+Product Codes
+Non-Ballot Issue
+Advertiser External ID
+223773
+Revenue Code 1
+DISC
+Agency External ID
+115853
+Revenue Code 2
+POL
+Unit Code
+General
+Revenue Code 3
+ISS
+Order Separation
+00
+10
+00
+Priority
+P-3
+Bill Plan
+Totals
+Start Date
+End Date
+# Spots
+Gross Amount
+Net Amount
+Month
+# Spots
+Gross Amount
+Net Amount
+Rating
+05/30/22
+06/23/22
+91
+$43,015.00
+$36,562.75
+June 2022
+91
+$43,015.00
+$36,562.75
+85.05
+Totals
+91
+$43,015.00
+$36,562.75
+85.05
+Account Executives
+Account Executive
+Sales Office
+Sales Region
+Start Date / End Date
+Order %
+Gianna Elizardo
+Start Of Order - End Of Order
+100%
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+N 1
+KTNV
+06/17/22
+06/23/22
+M-F 5-6am News
+CM
+5-6am
+11111--
+30
+5
+$210.00P-3
+0.61 NM
+5
+$1,050.00
+GOOD MORNING LV 5A
+(Program
+GOOD MORNING LV 5A)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+11111--
+5
+$210.00
+0.61
+N 2
+KTNV
+06/17/22
+06/23/22
+M-F 6-7am News
+CM
+6-7am
+22222--
+30
+10
+$500.00P-3
+0.90 NM
+10
+$5,000.00
+GOOD MORNING LV M-F 6A
+(Program
+GOOD MORNING LV M-F 6A)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+22222--
+10
+$500.00
+0.90
+N 3
+KTNV
+06/17/22
+06/23/22
+M-F Good Morning AmerCicMa
+7-9am
+22222--
+30
+10
+$500.00P-3
+0.98 NM
+10
+$5,000.00
+GOOD MORNING AMERICA M-F
+(Program
+GOOD MORNING AMERICA M-F)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+22222--
+10
+$500.00
+0.98
+N 4
+KTNV
+06/17/22
+06/18/22
+Sa 6-7am News
+CM
+6-7am
+-----1-
+30
+1
+$450.00P-3
+1.25 NM
+1
+$450.00
+GOOD MORING LV SAT 6A
+(Program
+GOOD MORING LV SAT 6A)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Print Date
+06/14/22 13
+21
+39
+Page
+2 of
+4
+Order / Rev
+1029811
+Advertiser
+NRSC IE
+Alt Order #
+WOC13634676
+Product Desc
+NV 2022
+KTNV
+Flight Dates
+06/17/22 - 06/23/22
+Estimate
+14380
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+-----1-
+1
+$450.00
+1.25
+N 5
+KTNV
+06/17/22
+06/18/22
+Sa Good Morning AmericCaM
+7-9am
+-----1-
+30
+1
+$525.00P-3
+1.15 NM
+1
+$525.00
+GOOD MORNING AMERICA SAT
+(Program
+GOOD MORNING AMERICA SAT)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+-----1-
+1
+$525.00
+1.15
+N 6
+KTNV
+06/17/22
+06/19/22
+Su 5-6am News
+CM
+5-6am
+------1
+30
+1
+$195.00P-3
+0.74 NM
+1
+$195.00
+GOOD MORNING LV SUN 5A
+(Program
+GOOD MORNING LV SUN 5A)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+------1
+1
+$195.00
+0.74
+N 7
+KTNV
+06/17/22
+06/19/22
+Su 6-7am News
+CM
+6-7am
+------1
+30
+1
+$450.00P-3
+1.17 NM
+1
+$450.00
+GOOD MORNING LV SUN 6A
+(Program
+GOOD MORNING LV SUN 6A)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+------1
+1
+$450.00
+1.17
+N 8
+KTNV
+06/17/22
+06/19/22
+Su Good Morning AmericCaM
+7-8am
+------1
+30
+1
+$500.00P-3
+1.26 NM
+1
+$500.00
+GOOD MORNING AMERICA SUN
+(Program
+GOOD MORNING AMERICA SUN)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+------1
+1
+$500.00
+1.26
+N 9
+KTNV
+06/17/22
+06/23/22
+M-F 9-10am
+CM
+9-10am
+22222--
+30
+10
+$195.00P-3
+0.27 NM
+10
+$1,950.00
+MORNING BLEND
+(Program
+MORNING BLEND)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+22222--
+10
+$195.00
+0.27
+N10 KTNV
+06/17/22
+06/23/22
+M-F 11am-12pm
+CM
+11am-12pm
+11111--
+30
+5
+$355.00P-3
+0.88 NM
+5
+$1,775.00
+ACTION NEWS 11A
+(Program
+ACTION NEWS 11A)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+11111--
+5
+$355.00
+0.88
+N11 KTNV
+06/17/22
+06/23/22
+M-F 12-1pm
+CM
+12-1pm
+11111--
+30
+5
+$265.00P-3
+0.47 NM
+5
+$1,325.00
+GMA3
+(Program
+GMA3)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+11111--
+5
+$265.00
+0.47
+N12 KTNV
+06/17/22
+06/23/22
+M-F 2-3pm
+CM
+2-3pm
+11111--
+30
+5
+$195.00P-3
+0.67 NM
+5
+$975.00
+KELLY CLARKSON
+(Program
+KELLY CLARKSON)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+11111--
+5
+$195.00
+0.67
+N13 KTNV
+06/17/22
+06/23/22
+M-F 5-530pm News
+CM
+5-530pm
+11111--
+30
+5
+$750.00P-3
+1.26 NM
+5
+$3,750.00
+ACTION NEWS M-F 5P
+(Program
+ACTION NEWS M-F 5P)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+11111--
+5
+$750.00
+1.26
+N14 KTNV
+06/17/22
+06/23/22
+M-F 6-7pm News
+CM
+6-7pm
+11111--
+30
+5
+$525.00P-3
+0.85 NM
+5
+$2,625.00
+ACTION NEWS M-F 6-7P
+(Program
+ACTION NEWS M-F 6-7P)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+11111--
+5
+$525.00
+0.85
+N15 KTNV
+06/17/22
+06/18/22
+CM
+4-430pm/430-5pm/-5--5-3-0-p1m-
+30
+1
+$265.00P-3
+0.65 NM
+1
+$265.00
+Print Date
+06/14/22 13
+21
+39
+Page
+3 of
+4
+Order / Rev
+1029811
+Advertiser
+NRSC IE
+Alt Order #
+WOC13634676
+Product Desc
+NV 2022
+KTNV
+Flight Dates
+06/17/22 - 06/23/22
+Estimate
+14380
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Sa 4pm/430pm/5pm News
+ACTION NEWS SAT 5P
+(Program
+ACTION NEWS SAT 5P)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+-----1-
+1
+$265.00
+0.65
+N16 KTNV
+06/17/22
+06/18/22
+Sa 6-630pm News
+CM
+6-630pm
+-----1-
+30
+1
+$435.00P-3
+1.52 NM
+1
+$435.00
+ACTION NEWS SAT 6P
+(Program
+ACTION NEWS SAT 6P)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+-----1-
+1
+$435.00
+1.52
+N17 KTNV
+06/17/22
+06/19/22
+Su 5-530pm News
+CM
+5-530pm
+------1
+30
+1
+$420.00P-3
+2.59 NM
+1
+$420.00
+ACTION NEWS SUN 5PM
+(Program
+ACTION NEWS SUN 5PM)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+------1
+1
+$420.00
+2.59
+N18 KTNV
+06/17/22
+06/19/22
+Su 6-7pm News
+CM
+6-7pm
+------1
+30
+1
+$405.00P-3
+3.28 NM
+1
+$405.00
+ACTION NEWS SUN 6PM
+(Program
+ACTION NEWS SUN 6PM)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+------1
+1
+$405.00
+3.28
+N19 KTNV
+06/17/22
+06/23/22
+M-F 7-730pm
+CM
+7-730pm
+11111--
+30
+5
+$435.00P-3
+1.31 NM
+5
+$2,175.00
+INSIDE EDITION
+(Program
+INSIDE EDITION)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+11111--
+5
+$435.00
+1.31
+N20 KTNV
+06/17/22
+06/23/22
+M-F 730-8pm
+CM
+730-8pm
+11111--
+30
+5
+$355.00P-3
+0.51 NM
+5
+$1,775.00
+THE LIST
+(Program
+THE LIST)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+11111--
+5
+$355.00
+0.51
+N21 KTNV
+06/17/22
+06/18/22
+Sa 630-7pm
+CM
+630-7pm
+-----1-
+30
+1
+$195.00P-3
+1.22 NM
+1
+$195.00
+JUDGE JUDY
+(Program
+JUDGE JUDY)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+-----1-
+1
+$195.00
+1.22
+N22 KTNV
+06/17/22
+06/18/22
+Sa 7-730pm
+CM
+7-730pm
+-----1-
+30
+1
+$195.00P-3
+1.52 NM
+1
+$195.00
+INSIDE EDITON
+(Program
+INSIDE EDITON)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+-----1-
+1
+$195.00
+1.52
+N23 KTNV
+06/17/22
+06/21/22
+Tuesday Prime B
+CM
+9-10pm
+-1-----
+30
+1
+$1,205.00P-3
+1.40 NM
+1
+$1,205.00
+CONNERS/HOME ECONOMICS 2022
+(Program
+CONNERS/HOME ECONOMICS 2022)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+-1-----
+1
+$1,205.00
+1.40
+N24 KTNV
+06/17/22
+06/23/22
+Thursday Prime B
+CM
+9-10pm
+---1---
+30
+1
+$2,900.00P-3
+1.93 NM
+1
+$2,900.00
+WHEN NATURE CALLS 2022
+(Program
+WHEN NATURE CALLS 2022)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+---1---
+1
+$2,900.00
+1.93
+N25 KTNV
+06/17/22
+06/17/22
+Friday Prime B
+CM
+9-10pm
+----1--
+30
+1
+$1,350.00P-3
+1.99 NM
+1
+$1,350.00
+20/20 FRI 2HR
+(Program
+20/20 FRI 2HR)
+Print Date
+06/14/22 13
+21
+39
+Page
+4 of
+4
+Order / Rev
+1029811
+Advertiser
+NRSC IE
+Alt Order #
+WOC13634676
+Product Desc
+NV 2022
+KTNV
+Flight Dates
+06/17/22 - 06/23/22
+Estimate
+14380
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+----1--
+1
+$1,350.00
+1.99
+N26 KTNV
+06/17/22
+06/19/22
+Sunday Prime A
+CM
+7-8pm
+------1
+30
+1
+$1,850.00P-3
+3.56 NM
+1
+$1,850.00
+AMERICAS FUNNIEST HOME VIDS
+(Program
+AMERICAS FUNNIEST HOME VIDS)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+------1
+1
+$1,850.00
+3.56
+N27 KTNV
+06/17/22
+06/22/22
+M-F 11-1135pm News
+CM
+11-1135pm
+111----
+30
+3
+$575.00P-3
+0.94 NM
+3
+$1,725.00
+ACTION NEWS M-F 11P
+(Program
+ACTION NEWS M-F 11P)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/17/22
+06/23/22
+111----
+3
+$575.00
+0.94
+N28 KTNV
+06/17/22
+06/19/22
+Prime News
+CM
+Prime News
+-------
+30
+0
+$850.00P-3
+0.90 NM
+3
+$2,550.00
+Prime News
+(Program
+NBA NEWS FOLLOWING FINALS)
+2Q22 ESTIMATE (sell)
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+06/13/22
+06/19/22
+----111
+3
+$850.00
+0.90
+Totals
+91
+$43,015.00
+Print Date
+07/28/14 22
+06
+39
+Page
+1 of
+2
+ORDER
+Orders
+Order / Rev
+3402
+Alt Order #
+Product Desc
+Merkley for Senate 10/20-10/26/14
+Estimate
+627
+KLSR
+Flight Dates
+10/20/14 - 10/26/14
+Primary AE
+Alaina Burgess
+Original Date / Rev
+07/28/14 / 07/28/14
+Sales Office
+N-EUG
+Order Type
+GENERAL
+Sales Region
+National
+Agency
+Name
+Screen Strategies Media
+Buying Contact
+Billing Type
+Cash
+Billing Contact
+Billing Calendar
+Broadcast
+11150 Fairfax Blvd., Suite 505
+Billing Cycle
+EOM/EOC
+Fairfax, VA 22030
+Agency Commission
+15%
+Advertiser
+Name
+Merkley for Senate
+Demographic
+HH
+New Business Thru
+Product Codes
+Candidates,Political US Senate
+Order Separation
+00
+30
+00
+Priority
+P-03
+Advertiser External ID
+Revenue Codes
+AGY, NAT, POL-CAND
+Agency External ID
+Bill Plan
+Totals
+Start Date
+End Date
+# Spots
+Gross Amount
+Net Amount
+Month
+# Spots
+Gross Amount
+Net Amount
+Rating
+09/29/14
+10/26/14
+14
+$2,450.00
+$2,082.50
+October 2014
+14
+$2,450.00
+$2,082.50
+0.00
+Totals
+14
+$2,450.00
+$2,082.50
+0.00
+Account Executives
+Account Executive
+Sales Office
+Sales Region
+Start Date / End Date
+Order %
+Alaina Burgess
+N-EUG
+National
+Start Of Order - End Of Order
+100%
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+N 1
+KLSR
+10/20/14
+10/20/14
+Mon 8p-9p
+CM
+8p-9p
+1------
+30
+1
+$225.00P-04
+0.00 NM
+1
+$225.00
+Gotham
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/20/14
+10/26/14
+1------
+1
+$225.00
+0.00
+N 2
+KLSR
+10/20/14
+10/20/14
+Mon 9p-10p
+CM
+9p-10p
+1------
+30
+1
+$225.00P-04
+0.00 NM
+1
+$225.00
+Sleepy Hollow
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/20/14
+10/26/14
+1------
+1
+$225.00
+0.00
+N 3
+KLSR
+10/21/14
+10/21/14
+Tue 9p-930p
+CM
+9p-930p
+-1-----
+30
+1
+$400.00P-02
+0.00 NM
+1
+$400.00
+New Girl
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/20/14
+10/26/14
+-1-----
+1
+$400.00
+0.00
+N 4
+KLSR
+10/21/14
+10/21/14
+Tues 930p-10p
+CM
+930p-10p
+-1-----
+30
+1
+$265.00P-04
+0.00 NM
+1
+$265.00
+The Mindy Project
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/20/14
+10/26/14
+-1-----
+1
+$265.00
+0.00
+N 5
+KLSR
+10/22/14
+10/22/14
+Wed 8p-9p
+CM
+8p-9p
+--1----
+30
+1
+$200.00P-04
+0.00 NM
+1
+$200.00
+Hell's Kitchen
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/20/14
+10/26/14
+--1----
+1
+$200.00
+0.00
+N 6
+KLSR
+10/22/14
+10/22/14
+Wed 9p-10p
+CM
+9p-10p
+--1----
+30
+1
+$200.00P-04
+0.00 NM
+1
+$200.00
+Red Band Society
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/20/14
+10/26/14
+--1----
+1
+$200.00
+0.00
+Print Date
+07/28/14 22
+06
+39
+Page
+2 of
+2
+Order / Rev
+3402
+Advertiser
+Merkley for Senate
+Alt Order #
+Product Desc
+Merkley for Senate 10/20-10/26/14
+KLSR
+Flight Dates
+10/20/14 - 10/26/14
+Estimate
+627
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+N 7
+KLSR
+10/23/14
+10/23/14
+Thu 8p-9p
+CM
+8p-9p
+---1---
+30
+1
+$225.00P-04
+0.00 NM
+1
+$225.00
+Bones
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/20/14
+10/26/14
+---1---
+1
+$225.00
+0.00
+N 8
+KLSR
+10/20/14
+10/24/14
+M-F 10p-1035p Fox NewNsWN
+10p-1035p
+11111--
+30
+5
+$120.00P-02
+0.00 NM
+5
+$600.00
+M-F Fox News at 10
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/20/14
+10/26/14
+11111--
+5
+$120.00
+0.00
+N 9
+KLSR
+10/25/14
+10/25/14
+Sa-Su 10p-1030pKVAL/NNeWwNs
+10p-1030p
+-----1-
+30
+1
+$50.00P-04
+0.00 NM
+1
+$50.00
+Sa-Su KVAL News at 10
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/20/14
+10/26/14
+-----1-
+1
+$50.00
+0.00
+N10
+KLSR
+10/26/14
+10/26/14
+Sa-Su 10p-1030pKVAL/NNeWwNs
+10p-1030p
+------1
+30
+1
+$60.00P-02
+0.00 NM
+1
+$60.00
+Sa-Su KVAL News at 10
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+10/20/14
+10/26/14
+------1
+1
+$60.00
+0.00
+Totals
+14

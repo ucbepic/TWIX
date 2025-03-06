@@ -1,0 +1,16323 @@
+Report Criteria
+Complaints Occurred Between
+1/1/2008 AND 11/20/2020
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/27/2008
+08-01
+Swenson, Jon
+No
+FORMAL
+Not Stated
+SUSTAINED
+No
+1/30/2008
+Citizen
+2/7/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Terr, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.1 Courtesy
+Profanity
+Discourteous Conduct
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Griffet, David I.
+914
+SERGEANT
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/24/2008
+08-02
+Swan, Scott
+No
+FORMAL
+Not Stated
+SUSTAINED
+No
+2/27/2008
+Citizen
+3/17/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.1 Courtesy
+Profanity
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-3B.4 COURTESY
+COMMENT
+Discourteous Conduct
+SUSTAINED
+Complaint #
+3
+R-5D Use of physical force
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Petrilli, Thomas P.
+939
+Senior
+Officer
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/5/2008
+08-03
+Paulus, Michael
+No
+FORMAL
+Not Stated
+NOT SUSTAINED
+No
+3/10/2008
+Citizen
+4/28/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+UNFOUNDED
+Complaint #
+2
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Shepard, Charles F.
+921RET
+SERGEANT
+Field Operations
+NOT SUSTAINED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+22 AM
+Page 1 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/14/2008
+08-II01
+Swan, Scott
+No
+FORMAL
+Not Stated
+SUSTAINED
+No
+3/14/2008
+Internal
+3/14/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Wilberg, Richard W.
+799RESI
+Senior
+Officer
+Field Operations
+SUSTAINED
+COUNSELING
+No
+G
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/18/2008
+08-06
+Gallo, Joe
+No
+FORMAL
+Not Stated
+SUSTAINED
+No
+4/17/2008
+Citizen
+4/23/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.1 Courtesy
+Profanity
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-3B.4 COURTESY
+COMMENT
+Discourteous Conduct
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Kelly, Patrick M.
+722-Ret
+DETECTIVE
+Operations Supp
+SUSTAINED
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/22/2008
+08-04a
+Swenson, Jon
+No
+FORMAL
+Not Stated
+UNFOUNDED
+No
+4/16/2008
+Citizen
+5/1/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Ct, Rantoul IL 61866
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Lack, Aaron V.
+920
+SERGEANT
+Field Operations
+UNFOUNDED
+NONE
+No
+Officer #
+2
+MULTIPLE OFFICERS/EMPLOY
+NOT STATED
+NOT ENTERED
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/22/2008
+08-04b
+Swenson, Jon
+No
+FORMAL
+Not Stated
+UNFOUNDED
+No
+4/16/2008
+Citizen
+5/1/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, CHICAGO IL 60644-2803
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+MULTIPLE OFFICERS/EMPLOY
+NOT STATED
+NOT ENTERED
+UNFOUNDED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+22 AM
+Page 2 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/22/2008
+08-04c
+Swenson, Jon
+No
+FORMAL
+Not Stated
+EXONERATED
+No
+4/16/2008
+Citizen
+5/1/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+MULTIPLE OFFICERS/EMPLOY
+NOT STATED
+NOT ENTERED
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/22/2008
+08-04d
+Swenson, Jon
+No
+FORMAL
+Not Stated
+EXONERATED
+No
+4/16/2008
+Citizen
+5/1/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Rantoul IL 61866
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+MULTIPLE OFFICERS/EMPLOY
+NOT STATED
+NOT ENTERED
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/10/2008
+08-II02
+Nearing, Holly
+No
+FACT FINDING
+Not Stated
+Not a complaint
+No
+4/10/2008
+Internal
+5/10/2008
+N/A
+Complainant
+CPD
+DOB
+Gender
+Address
+NOT STATED ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+S-6 Pursuit Policy
+Wrong Action by Employee
+Not a complaint
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+MALONEY, J. BRIAN
+942
+OFFICER
+Field Operations
+Not a complaint
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/14/2008
+08-05
+Swenson, Jon
+No
+Inquiry
+Not Stated
+Not a complaint
+No
+4/16/2008
+Citizen
+5/14/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+No Action by Employee
+Not a complaint
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Sumption, R. Dustin
+7108
+RECRUIT OFFIC
+Field Operations
+PENDING
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+22 AM
+Page 3 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/25/2008
+09-II01
+Gallo, Joe
+No
+Inquiry
+Not Stated
+Not a complaint
+No
+10/2/2008
+Internal
+4/17/2009
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Loves Park IL 61130
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 CONDUCT GENERALLY
+Wrong Action by Employee
+Inquiry
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+No Officers Entered
+Not Stated
+Not Stated
+Not a complaint
+Not Stated
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/18/2008
+08-08
+Paulus, Michael
+No
+FORMAL
+Not Stated
+SUSTAINED
+No
+6/5/2008
+Citizen
+7/2/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.4 COURTESY
+COMMENT
+Discourteous Conduct
+SUSTAINED
+Complaint #
+2
+R-5D Use of physical force
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Bowersock, Jamie
+705-MED
+OFFICER
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/26/2008
+08-07
+Swan, Scott
+No
+Inquiry
+Not Stated
+Inquiry
+No
+6/2/2008
+Citizen
+6/11/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct
+Inquiry
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Olmstead, Kevin A.
+7901
+RECRUIT OFFIC
+Field Operations
+Inquiry
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/31/2008
+08-09
+Paulus, Michael
+No
+FORMAL
+Not Stated
+EXONERATED
+No
+6/5/2008
+Citizen
+10/2/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+EXONERATED
+Complaint #
+2
+R-5D Use of physical force
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Bowersock, Jamie
+705-MED
+OFFICER
+Field Operations
+EXONERATED
+NONE
+No
+Officer #
+2
+Mitchell, Rodney S.
+717RES
+OFFICER
+Field Operations
+EXONERATED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+22 AM
+Page 4 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/7/2008
+08-10
+Yohnka, Brad
+No
+FORMAL
+Not Stated
+NOT SUSTAINED
+No
+6/11/2008
+Citizen
+6/26/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+Wrong Action by Employee
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Mclearin, David M.
+7110
+RECRUIT OFFIC
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/29/2008
+08-11
+Paulus, Michael
+No
+Inquiry
+Not Stated
+Inquiry
+No
+7/9/2008
+Citizen
+7/31/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+Wrong Action by Employee
+Inquiry
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Prosser, Justin
+7104
+OFFICER
+Field Operations
+Inquiry
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/3/2008
+08-12
+shaffer, david
+No
+FORMAL
+Not Stated
+UNFOUNDED
+No
+7/11/2008
+Citizen
+10/6/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5C2 PERSONS IN CUSTODY
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Briggs, Mark D.
+785RESI
+Senior OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+G
+Officer #
+2
+Young, Von D.III
+719
+Senior
+Officer
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/13/2008
+08-13
+Swenson, Jon
+No
+FORMAL
+Not Stated
+UNFOUNDED
+No
+7/16/2008
+Citizen
+8/28/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Bowersock, Jamie
+705-MED
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+22 AM
+Page 5 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/19/2008
+08-14
+Swan, Scott
+No
+FORMAL
+Not Stated
+UNFOUNDED
+No
+7/23/2008
+Citizen
+8/18/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.3 Courtesy
+Conduct
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Olmstead, Kevin A.
+7901
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/29/2008
+08-15
+Swenson, Jon
+No
+Formal
+Not Stated
+SUSTAINED
+No
+8/21/2008
+Citizen
+9/26/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Urbana IL 61802
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+SUSTAINED
+Complaint #
+2
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+3
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+4
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+MULTIPLE OFFICERS/EMPLOY
+NOT STATED
+NOT ENTERED
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/17/2008
+08-16
+Paulus, Michael
+No
+Formal
+Not Stated
+EXONERATED
+No
+9/2/2008
+Citizen
+10/9/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+NOT SUSTAINED
+Complaint #
+2
+R-5A3 OPERATIONS
+No Action by Employee
+EXONERATED
+Complaint #
+3
+R-5C2 PERSONS IN CUSTODY
+No Action by Employee
+EXONERATED
+Complaint #
+4
+R-5D Use of physical force
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Talbott, Michael A.
+7105
+OFFICER
+Field Operations
+EXONERATED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+22 AM
+Page 6 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/18/2008
+08-II03
+Gallo, Joe
+No
+Formal
+Not Stated
+SUSTAINED
+No
+8/18/2008
+Internal
+8/28/2008
+N/A
+Complainant
+NOT STATED
+DOB
+Gender
+Address
+NOT STATED ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-4E Authorized Persons in Vehicle
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Morris, Robert O.
+769
+DETECTIVE
+Operations Supp
+SUSTAINED
+LETTER OF REPRIMA
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/30/2008
+08-17
+Yohnka, Brad
+No
+Formal
+Not Stated
+SUSTAINED
+No
+9/2/2008
+Citizen
+10/29/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3C PROVIDING NAME AND BADGE NUMBER
+Wrong Action by Employee
+SUSTAINED
+Complaint #
+2
+R-5D Use of physical force
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ahsell, Brian
+714-
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/3/2008
+08-II04
+I.A.D.
+No
+Inquiry
+Not Stated
+UNFOUNDED
+No
+9/3/2008
+Internal
+9/4/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Central HS, NOT STATED ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Thomas, Brandon J.
+904
+Senior
+Officer
+Field Operations
+UNFOUNDED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+22 AM
+Page 7 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/7/2008
+08-20
+Swan, Scott
+No
+Formal
+Not Stated
+SUSTAINED
+No
+9/15/2008
+Citizen
+10/8/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-3C PROVIDING NAME AND BADGE NUMBER
+Wrong Action by Employee
+SUSTAINED
+Complaint #
+3
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Epling, Nate
+765
+RECRUIT OFFIC
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Officer #
+2
+Olmstead, Kevin A.
+7901
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/13/2008
+08-18
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+10/1/2008
+Citizen
+10/2/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+1302 W Beslin, Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Clinton, Justus R.
+713-
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/13/2008
+08-19
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+9/30/2008
+Citizen
+10/30/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Thomasboro IL 61878
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Aikman, Chris
+712
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/16/2008
+08-II06
+Nearing, Holly
+No
+Inquiry
+Not Stated
+SUSTAINED
+No
+10/30/2008
+Internal
+11/5/2008
+N/A
+Complainant
+NOT STATED
+DOB
+Gender
+Address
+NOT STATED ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-7F POLITICAL UTILIZATION OF OFFICIAL POSITION
+POLICY ISSUE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Kelly, Patrick M.
+722-Ret
+DETECTIVE
+Operations Supp
+SUSTAINED
+COUNSELING
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+22 AM
+Page 8 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/29/2008
+08-II05
+Nearing, Holly
+No
+Formal
+Not Stated
+SUSTAINED
+No
+10/29/2008
+Internal
+11/7/2008
+N/A
+Complainant
+NOT STATED
+DOB
+Gender
+Address
+NOT STATED ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+POLICY ISSUE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+KRIPPEL, JACOB
+743TER
+RECRUIT OFFIC
+Field Operations
+SUSTAINED
+TERMINATION
+No
+M
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/2/2008
+08-21
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+11/4/2008
+Citizen
+12/2/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+UNFOUNDED
+Complaint #
+2
+R-5A3 OPERATIONS
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ferguson, Alison R.
+792RETI
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+R
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/29/2008
+08-II07
+Nearing, Holly
+No
+Formal
+Not Stated
+SUSTAINED
+No
+11/29/2008
+Internal
+1/6/2009
+N/A
+Complainant
+CPD
+DOB
+Gender
+Address
+NOT STATED ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+POLICY ISSUE
+SUSTAINED
+Complaint #
+2
+R-1D DEVOTING FULL TIME ATTENTION TO DUTY
+POLICY ISSUE
+NOT SUSTAINED
+Complaint #
+3
+R-4A USE OF PROPERTY GENERALLY
+POLICY ISSUE
+SUSTAINED
+Complaint #
+4
+R-4D IMPROPER USE OF VEHICLE
+POLICY ISSUE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Staples, Lisa A.
+746RESI
+DETECTIVE
+Operations Supp
+SUSTAINED
+RESIGNATION IN LIE
+No
+G
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+22 AM
+Page 9 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/6/2008
+08-22
+Yohnka, Brad
+No
+Formal
+Not Stated
+SUSTAINED
+No
+12/15/2008
+Citizen
+12/17/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+1001 Oak Creek circle, Mahomet IL 61853
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A3 POOR PERFORMANCE
+No Action by Employee
+SUSTAINED
+Complaint #
+2
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Young, Christopher C.
+701-
+Senior
+Officer
+Field Operations
+SUSTAINED
+SUSPENSION (1 DAY)
+No
+Retire
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/20/2008
+08-23
+Yohnka, Brad
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+12/20/2008
+Citizen
+1/20/2009
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+609 W. Washington, Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Aikman, Chris
+712
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Officer #
+2
+Lack, Aaron V.
+920
+SERGEANT
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/4/2009
+09-01
+WALKER, TOM
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+1/8/2009
+Citizen
+2/10/2009
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+210.5 E. HILL, Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+HAUGEN, KRISTINA
+739
+OFFICER
+PATROL
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/25/2009
+09-II02
+Paulus, Michael
+No
+Admin Review
+Not Stated
+SUSTAINED
+No
+1/25/2009
+Internal
+3/3/2009
+N/A
+Complainant
+Internal
+DOB
+Gender
+Address
+NOT STATED ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1B VIOLATING DEPT. PROCEDURES
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ward, Daniel W.
+767
+OFFICER
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+22 AM
+Page 10 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/12/2009
+09-02
+Paulus, Michael
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+2/13/2009
+Citizen
+3/23/2009
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Urbana IL 61802
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.3 Courtesy
+Conduct
+Wrong Action by Employee
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Alvis, Michael G.
+784-RET
+Senior
+Officer
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/15/2009
+09-03
+WALKER, TOM
+No
+Formal
+Not Stated
+EXONERATED
+No
+3/18/2009
+Citizen
+4/20/2009
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+IL 61822
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.1 Courtesy
+Profanity
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Aikman, Chris
+712
+OFFICER
+Field Operations
+EXONERATED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/20/2009
+09-04A
+BALTZELL, DENNIS
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+3/30/2009
+Citizen
+4/27/2009
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+NOT SUSTAINED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Olmstead, Kevin A.
+7901
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/21/2009
+09-04B
+WALKER, TOM
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+3/30/2009
+Citizen
+6/1/2009
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61821
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+HAUGEN, KRISTINA
+739
+OFFICER
+PATROL
+UNFOUNDED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+22 AM
+Page 11 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/3/2009
+09-06
+Nearing, Holly
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+4/30/2009
+Citizen
+6/21/2009
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Jones, Jennifer C.
+757RES
+Senior
+Officer
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/2/2009
+09-05
+Swan, Scott
+No
+Inquiry
+Not Stated
+Not a complaint
+No
+6/5/2009
+Citizen
+6/15/2009
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Rantoul IL 61866
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+Not a complaint
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+Not a complaint
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+MULTIPLE EMPLOYEES
+NOT STATED
+NOT ENTERED
+Not a complaint
+NONE
+No
+Officer #
+2
+MULTIPLE EMPLOYEES
+NOT STATED
+NOT ENTERED
+Not a complaint
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/8/2009
+09-07
+Yohnka, Brad
+No
+Formal
+Not Stated
+EXONERATED
+No
+6/25/2009
+Citizen
+7/22/2009
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+HOMELESS, NOT STATED ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+EXONERATED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Bloom, Erik C.
+777-
+OFFICER
+Field Operations
+EXONERATED
+NONE
+No
+RESIG
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 12 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/23/2009
+09-08
+Paulus, Michael
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+6/30/2009
+Citizen
+7/30/2009
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Talbott, Michael A.
+7105
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/5/2009
+09-09
+Swan, Scott
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+8/18/2009
+Citizen
+10/1/2009
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+STATEVILLE PRISON, NOT STATED ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Wrong Action by Employee
+NOT SUSTAINED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Krippel, Nicholas a.
+790
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/5/2009
+09-10
+WALKER, TOM
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+7/13/2009
+Citizen
+8/13/2009
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+GURNEE IL 60031
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+EXONERATED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Aikman, Chris
+712
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/5/2009
+09-11
+WALKER, TOM
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+9/10/2009
+Citizen
+10/20/2009
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+IL 61801
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Aikman, Chris
+712
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 13 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/10/2009
+09-II03
+Nearing, Holly
+No
+Formal
+Not Stated
+Not a complaint
+No
+9/10/2009
+Internal
+10/8/2009
+N/A
+Complainant
+NOT STATED
+DOB
+Gender
+Address
+NOT STATED ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1B VIOLATING DEPT. PROCEDURES
+Wrong Action by Employee
+Not a complaint
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Davis, Andre
+919
+OFFICER
+Field Operations
+Not a complaint
+LETTER OF REPRIMA
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/9/2009
+09-II04
+Nearing, Holly
+No
+Formal
+Not Stated
+SUSTAINED
+No
+10/9/2009
+Internal
+3/12/2010
+N/A
+Complainant
+INTERNAL
+DOB
+Gender
+Address
+NOT STATED ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Norbits, Daniel W.
+728MED
+Senior
+Officer
+Field Operations
+SUSTAINED
+PLACED ON ADMIN L
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/24/2009
+09-13
+Yohnka, Brad
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+11/2/2009
+Citizen
+11/25/2009
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Lack, Aaron V.
+920
+SERGEANT
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/25/2009
+09-12
+Swan, Scott
+No
+Formal
+Not Stated
+SUSTAINED
+No
+10/27/2009
+Citizen
+12/14/2009
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.1 Courtesy
+Profanity
+Wrong Action by Employee
+NOT SUSTAINED
+Complaint #
+2
+R-5A3 OPERATIONS
+No Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Mclearin, David M.
+7110
+RECRUIT OFFIC
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Officer #
+2
+Pickett, Jeff
+729
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 14 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/1/2009
+09-14
+Swan, Scott
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+11/2/2009
+Citizen
+11/20/2009
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+Wrong Action by Employee
+NOT SUSTAINED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Crane, Matthew J.
+934
+SERGEANT
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Officer #
+2
+Miller, Arthur
+7106
+RECRUIT OFFIC
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/1/2009
+09-15
+WALKER, TOM
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+12/10/2009
+Citizen
+1/20/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.3 Courtesy
+Conduct
+Wrong Action by Employee
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Atteberry, Timothy J.
+761
+Senior OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/8/2009
+09-16
+Swan, Scott
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+12/11/2009
+Citizen
+1/20/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Gallagher, Brian P.
+904ret
+SERGEANT
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/20/2009
+09-17
+Swan, Scott
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+12/22/2009
+Citizen
+2/22/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Urbana IL 61801
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 CONDUCT GENERALLY
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Mclearin, David M.
+7110
+RECRUIT OFFIC
+Field Operations
+UNFOUNDED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 15 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/8/2010
+10-01
+WALKER, TOM
+Yes
+Formal
+Not Stated
+NOT SUSTAINED
+No
+1/15/2010
+Citizen
+2/17/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Wrong Action by Employee
+NOT SUSTAINED
+Complaint #
+2
+R-5A3 OPERATIONS
+Discrimination
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Henry, Marshall
+7111
+RECRUIT OFFIC
+NOT ENTERED
+NOT SUSTAINED
+NONE
+No
+Officer #
+2
+Voges, Mason
+785
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/17/2010
+10-02
+WALKER, TOM
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+1/29/2010
+Citizen
+2/23/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+STATESVILLE CC, JOLIET ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Coon, Geoffrey A.
+930
+SERGEANT
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/12/2010
+10-II02
+Nearing, Holly
+No
+Formal
+Not Stated
+SUSTAINED
+No
+2/12/2010
+Internal
+3/31/2010
+N/A
+Complainant
+DEPARTMENT
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Killin, William
+740
+OFFICER
+Field Operations
+SUSTAINED
+SUSPENSION (1 DAY)
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/5/2010
+10-03
+Yohnka, Brad
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+3/8/2010
+Citizen
+4/27/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.4 COURTESY
+COMMENT
+Wrong Action by Employee
+NOT SUSTAINED
+Complaint #
+2
+R-5D Use of physical force
+Wrong Action by Employee
+NOT SUSTAINED
+Complaint #
+3
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Mclearin, David M.
+7110
+RECRUIT OFFIC
+Field Operations
+NOT SUSTAINED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 16 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/15/2010
+10-06
+Nearing, Holly
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+4/22/2010
+Citizen
+5/13/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Urbana IL 61802
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+reddy, ganesh k.
+771
+Senior
+Officer
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/17/2010
+10-04
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+3/24/2010
+Citizen
+4/27/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61821
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1B VIOLATING DEPT. PROCEDURES
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-2A COMMUNICATION
+TRUTHFULNESS
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Simons, Patrick
+917
+RECRUIT OFFIC
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/30/2010
+10-05
+Swenson, Jon
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+4/1/2010
+Citizen
+5/5/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 CONDUCT GENERALLY
+Wrong Action by Employee
+EXONERATED
+Complaint #
+2
+R-1B VIOLATING DEPT. PROCEDURES
+Wrong Action by Employee
+EXONERATED
+Complaint #
+3
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ferguson, Alison R.
+792RETI
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+R
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/1/2010
+11-II07
+Nearing, Holly
+No
+Formal
+Not Stated
+EXONERATED
+No
+9/11/2011
+Internal
+9/19/2011
+N/A
+Complainant
+Department
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5E Evidence
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+No Officers Entered
+Not Stated
+Not Stated
+EXONERATED
+Not Stated
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 17 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/24/2010
+10-07
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+6/2/2010
+Citizen
+6/3/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+IL 61824
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ferguson, Alison R.
+792RETI
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+R
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/23/2010
+10-08
+Swenson, Jon
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+6/24/2010
+Citizen
+7/15/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.1 Courtesy
+Profanity
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-5A3 OPERATIONS
+Wrong Action by Employee
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Petrilli, Thomas P.
+939
+Senior
+Officer
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/23/2010
+10-18
+Paulus, Michael
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+8/15/2010
+Citizen
+9/8/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ketchem, Joseph G.
+918-RET
+SERGEANT
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/30/2010
+10-09
+LAURIA-HEUGEL
+No
+Formal
+Not Stated
+SUSTAINED
+No
+7/1/2010
+Citizen
+7/8/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Henager, Robin I.
+810-
+Civilian
+Operations Supp
+SUSTAINED
+COUNSELING
+No
+Resig
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 18 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/5/2010
+10-11
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+7/20/2010
+Citizen
+8/1/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ferguson, Alison R.
+792RETI
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+R
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/10/2010
+10-12A
+Yohnka, Brad
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+7/21/2010
+Citizen
+9/6/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.1 Courtesy
+Profanity
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-5A3 OPERATIONS
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+3
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+CHAMBERS, CHRIS
+7799RES
+Not Stated
+NOT ENTERED
+UNFOUNDED
+NONE
+No
+IG
+Officer #
+2
+Friedlein, Scott A.
+913RET
+SERGEANT
+ADMINISTRATIO
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/10/2010
+10-12B
+Yohnka, Brad
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+7/21/2010
+Citizen
+9/6/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Friedlein, Scott A.
+913RET
+SERGEANT
+ADMINISTRATIO
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/12/2010
+10-10
+Swenson, Jon
+No
+Formal
+Not Stated
+EXONERATED
+No
+7/21/2010
+Citizen
+7/28/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+MULTIPLE OFFICERS/EMPLOY
+Not Stated
+NOT ENTERED
+EXONERATED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 19 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/18/2010
+10-13
+Yohnka, Brad
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+7/21/2010
+Citizen
+7/28/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ward, Daniel W.
+767
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/18/2010
+10-14
+Yohnka, Brad
+No
+Formal
+Not Stated
+SUSTAINED
+No
+7/26/2010
+Citizen
+8/4/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.4 COURTESY
+COMMENT
+Discourteous Conduct
+SUSTAINED
+Complaint #
+2
+R-5A3 OPERATIONS
+No Action by Employee
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Bloom, Erik C.
+777-
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+RESIG
+Officer #
+2
+Gallagher, Brian P.
+904ret
+SERGEANT
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/22/2010
+10-16
+WALKER, TOM
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+7/30/2010
+Citizen
+9/10/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Saginaw MI 48603
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.3 Courtesy
+Conduct
+Discourteous Conduct
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Baltzell, dennis l.
+935
+SERGEANT
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/25/2010
+10-15
+Swan, Scott
+Yes
+Formal
+Not Stated
+NOT SUSTAINED
+No
+7/27/2010
+Citizen
+7/29/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Discrimination
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Phenicie, Corey
+7113
+RECRUIT OFFIC
+Field Operations
+NOT SUSTAINED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 20 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/26/2010
+10-17
+Nearing, Holly
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+8/10/2010
+Citizen
+9/7/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 CONDUCT GENERALLY
+Discrimination
+NOT SUSTAINED
+Complaint #
+2
+R-1A2 CONDUCT GENERALLY
+Discrimination
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+CHAMBERS, CHRIS
+7799RES
+Not Stated
+NOT ENTERED
+NOT SUSTAINED
+NONE
+No
+IG
+Officer #
+2
+Griffet, David I.
+914
+SERGEANT
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/14/2010
+10-21
+Swan, Scott
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+9/28/2010
+Citizen
+10/5/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Mclearin, David M.
+7110
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/22/2010
+10-19
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+9/1/2010
+Citizen
+9/20/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Rantoul IL UNK
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Krippel, Nicholas a.
+790
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 21 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/29/2010
+10-20
+Yohnka, Brad
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+9/4/2010
+Citizen
+9/23/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61826
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5A3 OPERATIONS
+No Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+CHAMBERS, CHRIS
+7799RES
+Not Stated
+NOT ENTERED
+UNFOUNDED
+NONE
+No
+IG
+Officer #
+2
+HAUGEN, KRISTINA
+739
+OFFICER
+PATROL
+UNFOUNDED
+NONE
+No
+Officer #
+3
+Leibach, Gary J.
+726RET
+Senior
+Officer
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/11/2010
+10-II03
+Nearing, Holly
+No
+Formal
+Not Stated
+SUSTAINED
+No
+9/11/2010
+Internal
+10/27/2010
+N/A
+Complainant
+DEPARTMENT
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+Wrong Action by Employee
+SUSTAINED
+Complaint #
+2
+R-3A OBEDIENCE TO ORDERS
+Wrong Action by Employee
+SUSTAINED
+Complaint #
+3
+R-6B3-Alcohol or Controlled Substances
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Weidenburner, Jamie R.
+828TER
+Civilian
+Operations Supp
+SUSTAINED
+TERMINATION
+No
+M
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/3/2010
+10-23
+Yohnka, Brad
+No
+Formal
+Not Stated
+SUSTAINED
+No
+10/13/2010
+Citizen
+10/20/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+No Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Olmstead, Kevin A.
+7901
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Officer #
+2
+Young, Von D.III
+719
+Senior
+Officer
+Field Operations
+SUSTAINED
+COUNSELING
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 22 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/5/2010
+10-27
+SCHWEIGHART, JOHN
+No
+Formal
+Not Stated
+EXONERATED
+No
+11/2/2010
+Citizen
+2/21/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Urbana IL 61802
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1B VIOLATING DEPT. PROCEDURES
+POLICY ISSUE
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Strzesak, Mark
+711RETI
+DETECTIVE
+Field Operations
+EXONERATED
+NONE
+No
+R
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/9/2010
+10-22
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+10/11/2010
+Citizen
+10/18/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+IL 61866
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.1 Courtesy
+Profanity
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Vanantwerp, Heidi J.
+7102-
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Med
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/10/2010
+10-24
+Yohnka, Brad
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+10/14/2010
+Citizen
+12/7/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+POLICY ISSUE
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Bloom, Erik C.
+777-
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+RESIG
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/10/2010
+10-25
+Nearing, Holly
+No
+Formal
+Not Stated
+EXONERATED
+No
+10/14/2010
+Citizen
+10/20/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Griffet, David I.
+914
+SERGEANT
+Field Operations
+EXONERATED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 23 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/10/2010
+10-26
+Paulus, Michael
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+10/28/2010
+Citizen
+12/7/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5C2 PERSONS IN CUSTODY
+POLICY ISSUE
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Aikman, Chris
+712
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/10/2010
+10-29
+Swenson, Jon
+No
+Formal
+Not Stated
+EXONERATED
+No
+11/29/2010
+Citizen
+12/1/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Atteberry, Timothy J.
+761
+Senior OFFICER
+Field Operations
+EXONERATED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/20/2010
+10-28
+Swenson, Jon
+No
+Formal
+Not Stated
+SUSTAINED
+No
+11/29/2010
+Citizen
+12/6/2010
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Rogers, Brian
+909
+RECRUIT OFFIC
+Not Stated
+SUSTAINED
+LETTER OF REPRIMA
+No
+Officer #
+2
+Young, Von D.III
+719
+Senior
+Officer
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/2/2010
+10-30
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+12/8/2010
+Citizen
+12/17/2010
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+IL UNK
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.3 Courtesy
+Conduct
+Discourteous Conduct
+UNFOUNDED
+Complaint #
+2
+R-5A3 OPERATIONS
+No Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Beach, Randy D.
+731Ret
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 24 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/9/2010
+10-34
+Swan, Scott
+No
+Inquiry
+Not Stated
+Not a complaint
+No
+1/7/2011
+Citizen
+1/18/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Mahomet IL 61853
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+Wrong Action by Employee
+Not a complaint
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Frost, Thomas K.
+902RET
+SERGEANT
+Field Operations
+Not a complaint
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/10/2010
+10-33
+Paulus, Michael
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+12/28/2010
+Citizen
+1/13/2011
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Urbana IL 61801
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Talbott, Michael A.
+7105
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/11/2010
+10-31
+Paulus, Michael
+No
+Formal
+Not Stated
+SUSTAINED
+No
+12/20/2010
+Citizen
+2/1/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Urbana IL 61802
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 POOR JUDGEMENT
+Poor Judgement
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Clinton, Justus R.
+713-
+OFFICER
+Field Operations
+SUSTAINED
+TRAINING
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/19/2010
+10-32a
+Nearing, Holly
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+12/22/2010
+Citizen
+3/1/2011
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Urbana IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.4 COURTESY
+COMMENT
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-5A3 OPERATIONS
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Atteberry, Timothy J.
+761
+Senior OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 25 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/19/2010
+10-32b
+Nearing, Holly
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+12/22/2010
+Citizen
+3/1/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.4 COURTESY
+COMMENT
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-5A3 OPERATIONS
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ferguson, Alison R.
+792RETI
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+R
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/23/2011
+11-01
+Yohnka, Brad
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+1/24/2011
+Citizen
+5/14/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+UNFOUNDED
+Complaint #
+2
+R-5A3 OPERATIONS
+Wrong Action by Employee
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Bloom, Erik C.
+777-
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+RESIG
+Officer #
+2
+McALLISTER, JOHN
+7717
+Not Stated
+NOT ENTERED
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/28/2011
+11-II01
+Paulus, Michael
+No
+Formal
+Not Stated
+SUSTAINED
+No
+1/28/2011
+Internal
+1/29/2011
+N/A
+Complainant
+DEPARTMENT
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+POLICY ISSUE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+RUSH, MATT
+7114-
+RECRUIT OFFIC
+Not Stated
+SUSTAINED
+SUSPENSION (3 DAY
+No
+Resig
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 26 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/29/2011
+11-02
+Yohnka, Brad
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+2/7/2011
+Citizen
+3/15/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Krauel, Bradley J.
+910
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/28/2011
+11-03
+Swenson, Jon
+No
+Formal
+Not Stated
+EXONERATED
+No
+3/1/2011
+Citizen
+3/8/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61822
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Lieb, John A.
+908
+OFFICER
+Field Operations
+EXONERATED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/1/2011
+11-05
+Nearing, Holly
+No
+Formal
+Not Stated
+SUSTAINED
+No
+3/27/2011
+Citizen
+4/28/2011
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Harden, Marie R.
+827RET
+Civilian
+Operations Supp
+SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/7/2011
+11-04
+Swan, Scott
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+3/11/2011
+Citizen
+3/31/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Mclearin, David M.
+7110
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 27 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/18/2011
+11-II02
+Nearing, Holly
+No
+Formal
+Not Stated
+SUSTAINED
+No
+4/15/2011
+Internal
+4/22/2011
+N/A
+Complainant
+Department
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-4G3 BADGE AND CREDENTIALS
+Poor Judgement
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+JENKINS, CHRIS
+746RES
+OFFICER
+Not Entered
+SUSTAINED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/20/2011
+00-06
+Swenson, Jon
+No
+Inquiry
+Not Stated
+Not a complaint
+No
+4/1/2011
+Citizen
+4/10/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+Not a complaint
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+No Officers Entered
+Not Stated
+Not Stated
+Not a complaint
+Not Stated
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/20/2011
+11-06
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+4/1/2011
+Citizen
+4/25/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5C2 PERSONS IN CUSTODY
+No Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Lieb, John A.
+908
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Officer #
+2
+Pickett, Jeff
+729
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+23 AM
+Page 28 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/20/2011
+11-07
+KETCHEM, JOE
+No
+Inquiry
+Not Stated
+Not a complaint
+No
+4/10/2011
+Citizen
+7/20/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Ch IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1B VIOLATING DEPT. PROCEDURES
+Wrong Action by Employee
+Not a complaint
+Complaint #
+2
+R-1B VIOLATING DEPT. PROCEDURES
+Wrong Action by Employee
+Not a complaint
+Complaint #
+3
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+Not a complaint
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Aikman, Chris
+712
+OFFICER
+Field Operations
+Not a complaint
+NONE
+No
+Officer #
+2
+Coon, Geoffrey A.
+930
+SERGEANT
+Field Operations
+Not a complaint
+NONE
+No
+Officer #
+3
+OBERHEIM, CHRISTOPHER
+703
+RECRUIT OFFIC
+PATROL
+Not a complaint
+NONE
+No
+Officer #
+4
+Olmstead, Kevin A.
+7901
+OFFICER
+Field Operations
+Not a complaint
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/31/2011
+11-II05
+Swenson, Jon
+No
+Inquiry
+Not Stated
+SUSTAINED
+No
+7/1/2011
+Internal
+7/31/2011
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61822
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+No Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Griffith, Corbitt
+704RETI
+Senior
+Officer
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+R
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/6/2011
+11-II03
+Nearing, Holly
+No
+Formal
+Not Stated
+SUSTAINED
+No
+4/7/2011
+Internal
+4/12/2011
+N/A
+Complainant
+Department
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 POOR JUDGEMENT
+Poor Judgement
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Young, Christopher C.
+701-
+Senior
+Officer
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+Retire
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 29 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/24/2011
+11-08
+Swenson, Jon
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+4/27/2011
+Citizen
+7/6/2011
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Urbana IL 61801
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-5A1 PROMPT RESPONSE
+No Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Sumption, R. Dustin
+7108
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/1/2011
+11-II04
+Nearing, Holly
+No
+Formal
+Not Stated
+EXONERATED
+No
+5/1/2011
+Internal
+8/1/2011
+N/A
+Complainant
+Department
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D PHYSICAL AND DEADLY FORCE
+POLICY ISSUE
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+McALLISTER, JOHN
+7717
+Not Stated
+NOT ENTERED
+EXONERATED
+NONE
+No
+Officer #
+2
+Standifer, Shane A.
+758
+Senior
+Officer
+Field Operations
+EXONERATED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/5/2011
+11-09
+Yohnka, Brad
+No
+Formal
+Not Stated
+SUSTAINED
+No
+5/19/2011
+Citizen
+5/26/2011
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Miller, Kristy L.
+778RES
+Senior
+Officer
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/8/2011
+11-10A
+Swan, Scott
+No
+Formal
+Not Stated
+Not a complaint
+No
+5/19/2011
+Citizen
+6/1/2011
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+Not a complaint
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Thompson, Katherine
+7944
+OFFICER
+Field Operations
+Not a complaint
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 30 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/8/2011
+11-10B
+Swan, Scott
+No
+Formal
+Not Stated
+Not a complaint
+No
+5/19/2011
+Citizen
+6/1/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+Not a complaint
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Simons, Patrick
+917
+OFFICER
+Field Operations
+Not a complaint
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/5/2011
+11-11
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+6/13/2011
+Citizen
+7/7/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+DR, Champaign IL 61822
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Krauel, Bradley J.
+910
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/5/2011
+11-12
+Yohnka, Brad
+No
+Formal
+Not Stated
+SUSTAINED
+No
+7/5/2011
+Citizen
+5/1/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.1 Courtesy
+Profanity
+Discourteous Conduct
+SUSTAINED
+Complaint #
+2
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+NOT SUSTAINED
+Complaint #
+3
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ahsell, Brian
+714-
+OFFICER
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+Resig
+Officer #
+2
+Crane, Matthew J.
+934
+SERGEANT
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+Officer #
+3
+Simons, Patrick
+917
+OFFICER
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 31 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/20/2011
+11-13
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+7/18/2011
+Citizen
+8/1/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61821
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Lieb, John A.
+908
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Officer #
+2
+Prosser, Justin
+7104
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/26/2011
+11-15
+Nearing, Holly
+Yes
+Formal
+Not Stated
+NOT SUSTAINED
+No
+9/2/2011
+Citizen
+9/13/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, FLINT MI 48505
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 CONDUCT GENERALLY
+Discrimination
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Henson, Matt D.
+937
+Senior
+Officer
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/15/2011
+11-16
+Yohnka, Brad
+No
+Formal
+Not Stated
+SUSTAINED
+No
+9/14/2011
+Citizen
+10/5/2011
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61822
+H Phone
+(217)
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-2C REPORT NOT WRITTEN
+No Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Leibach, Gary J.
+726RET
+Senior
+Officer
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/21/2011
+11-14
+Paulus, Michael
+No
+Formal
+Not Stated
+SUSTAINED
+No
+8/31/2011
+Citizen
+10/10/2011
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.3 Courtesy
+Conduct
+Discourteous Conduct
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Atteberry, Timothy J.
+761
+Senior OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Officer #
+2
+McALLISTER, JOHN
+7717
+OFFICER
+NOT ENTERED
+SUSTAINED
+COUNSELING
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 32 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/4/2011
+11-18
+Yohnka, Brad
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+10/6/2011
+Citizen
+3/25/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Mclearin, David M.
+7110
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Officer #
+2
+RUSH, MATT
+7114-
+RECRUIT OFFIC
+Not Stated
+UNFOUNDED
+NONE
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/29/2011
+11-17
+WALKER, TOM
+No
+Formal
+Not Stated
+NOT SUSTAINED
+No
+10/6/2011
+Citizen
+8/15/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+HARASSMENT
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+MULTIPLE OFFICERS/EMPLOY
+Not Stated
+NOT ENTERED
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/1/2011
+11-19
+Nearing, Holly
+No
+Formal
+1511 Hedge Road
+NOT SUSTAINED
+No
+10/14/2011
+Citizen
+5/7/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+RD, Champaign IL 61822
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Mclearin, David M.
+7110
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/7/2011
+11-20
+Swenson, Jon
+Yes
+Formal
+Not Stated
+SUSTAINED
+No
+10/14/2011
+Citizen
+12/7/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, MADISON WI 53714
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1B VIOLATING DEPT. PROCEDURES
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5B ARREST, SEARCH AND SEIZURE
+POLICY ISSUE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Sumption, R. Dustin
+7108
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 33 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/13/2011
+11-21
+Paulus, Michael
+No
+Formal
+Not Stated
+SUSTAINED
+No
+10/17/2011
+Citizen
+10/17/2011
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Poor Judgement
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Aikman, Chris
+712
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/2/2011
+11-22
+Nearing, Holly
+No
+Formal
+Not Stated
+EXONERATED
+No
+12/27/2011
+Citizen
+1/17/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+EXONERATED
+Complaint #
+2
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Olmstead, Kevin A.
+7901
+OFFICER
+Field Operations
+EXONERATED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/18/2011
+11-24
+HENSON, MATT
+No
+Formal
+609 E. University
+SUSTAINED
+No
+12/27/2011
+Citizen
+3/19/2012
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+JENKINS, CHRIS
+746RES
+OFFICER
+Patrol
+SUSTAINED
+SUSPENSION - 15 DA
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/21/2011
+11-23
+Gallo, Joe
+No
+Formal
+Not Stated
+SUSTAINED
+No
+12/27/2011
+Citizen
+2/14/2012
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1B VIOLATING DEPT. PROCEDURES
+POLICY ISSUE
+SUSTAINED
+Complaint #
+2
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Dominguez, Shelly A.
+791RET
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 34 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/26/2011
+11-II06
+Yohnka, Brad
+No
+Formal
+Not Stated
+SUSTAINED
+No
+12/2/2011
+Internal
+1/31/2012
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+POLICY ISSUE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+JENKINS, CHRIS
+746RES
+OFFICER
+Not Entered
+SUSTAINED
+LETTER OF REPRIMA
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/3/2011
+11-25
+Swenson, Jon
+No
+Formal
+2000 N. Neil
+SUSTAINED
+No
+12/27/2011
+Citizen
+3/30/2012
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct
+SUSTAINED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Miller, Arthur
+7106
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/7/2012
+12-02
+Gallo, Joe
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+3/5/2012
+Citizen
+1/2/2013
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 CONDUCT GENERALLY
+HARASSMENT
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Rath, Nathan E.
+938
+DETECTIVE
+Operations Supp
+UNFOUNDED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/7/2012
+12-04
+Swenson, Jon
+No
+Formal
+PROVENA
+SUSTAINED
+No
+3/29/2012
+Citizen
+10/30/2012
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, ATWOOD IL 61913
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+JENKINS, CHRIS
+746RES
+OFFICER
+Field Operations
+SUSTAINED
+RESIGNATION IN LIE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 35 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/16/2012
+12-01
+shaffer, david
+Yes
+Formal
+Not Stated
+UNFOUNDED
+No
+3/5/2012
+Citizen
+7/30/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+(217) 356-5243
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.4 COURTESY
+COMMENT
+Discourteous Conduct
+UNFOUNDED
+Complaint #
+2
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Henry, Marshall
+7111
+OFFICER
+NOT ENTERED
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/28/2012
+12-03
+Swenson, Jon
+No
+Formal
+50 E. Bradley
+UNFOUNDED
+No
+3/12/2012
+Citizen
+4/16/2012
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Beach, Randy D.
+731Ret
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/19/2012
+12-05
+shaffer, david
+No
+Formal
+SUMMIT RIDGE/WINSTON
+UNFOUNDED
+No
+5/4/2012
+Citizen
+8/13/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61821
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.4 COURTESY
+COMMENT
+Discourteous Conduct
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Kimme, Douglas J.
+774RETI
+Senior
+Officer
+Field Operations
+UNFOUNDED
+NONE
+No
+R
+Officer #
+2
+RUSH, MATT
+7114-
+OFFICER
+Field Operations
+UNFOUNDED
+Pending
+No
+Resig
+Officer #
+3
+Young, Christopher C.
+701-
+Senior
+Officer
+Field Operations
+UNFOUNDED
+Pending
+No
+Retire
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 36 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/28/2012
+12-07
+shaffer, david
+No
+Formal
+926 W. Bradley
+NOT SUSTAINED
+No
+6/25/2012
+Citizen
+8/14/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+HARASSMENT
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Olmstead, Kevin A.
+7901
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/11/2012
+12-II01
+Swenson, Jon
+No
+Admin Review
+Champaign County Satellite Jail
+No Disposition
+No
+6/12/2012
+Internal
+9/3/2012
+N/A
+Complainant
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 POOR JUDGEMENT
+Poor Judgement
+No Disposition
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+JENKINS, CHRIS
+746RES
+OFFICER
+Field Operations
+No Disposition
+RESIGNATION IN LIE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/13/2012
+12-06
+Myers, Tod
+No
+Formal
+306 E. University
+UNFOUNDED
+No
+6/22/2012
+Citizen
+8/14/2012
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Bloom, Erik C.
+777-
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+RESIG
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/24/2012
+12-08
+Frost, Tom
+No
+Formal
+204 N. Country Fair (Texas Roadhouse)
+SUSTAINED
+No
+6/27/2012
+Citizen
+8/14/2012
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+d, Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+Discourteous Conduct; Wrong Action
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Rogers, Brian
+909
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 37 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/27/2012
+12-10
+Swenson, Jon
+Yes
+Formal
+200 N. Randolph
+UNFOUNDED
+No
+7/16/2012
+Citizen
+8/15/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Atteberry, Timothy J.
+761
+Senior OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/10/2012
+12-09
+shaffer, david
+No
+Formal
+Hedge Court
+UNFOUNDED
+No
+7/11/2012
+Citizen
+10/30/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 POOR JUDGEMENT
+No Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Olmstead, Kevin A.
+7901
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/17/2012
+12-12
+Swenson, Jon
+No
+Formal
+Charles/Randolph
+UNFOUNDED
+No
+8/16/2012
+Citizen
+1/8/2013
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+Discourteous Conduct
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Griffet, David I.
+914
+SERGEANT
+Operations Supp
+OTHER MISCONDU
+COUNSELING
+No
+Officer #
+2
+reddy, ganesh k.
+771
+Senior
+Officer
+Field Operations
+UNFOUNDED
+NONE
+No
+Officer #
+3
+Swaney, Michael D.
+794RETI
+Senior
+Officer
+PATROL
+UNFOUNDED
+Pending
+No
+R
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/4/2012
+12-11
+Swenson, Jon
+No
+Formal
+By Telephone
+UNFOUNDED
+No
+8/9/2012
+Citizen
+8/15/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.4 COURTESY
+COMMENT
+Discourteous Conduct
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Henry, Marshall
+7111
+OFFICER
+NOT ENTERED
+UNFOUNDED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 38 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/10/2012
+12-II02
+Paulus, Michael
+No
+Formal
+Champaign Police Department
+SUSTAINED
+No
+8/10/2012
+Internal
+9/17/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+82 E. University, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-2C REPORT NOT WRITTEN
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Young, Christopher C.
+701-
+Senior
+Officer
+Field Operations
+SUSTAINED
+SUSPENSION (4 DAY
+No
+Retire
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/1/2012
+12-II06
+Paulus, Michael
+No
+Formal
+59 E. Green
+SUSTAINED
+No
+9/26/2012
+Internal
+11/29/2012
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Killin, William
+740
+OFFICER
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/3/2012
+12-13
+Swenson, Jon
+No
+Formal
+616 1/2 W. Clark
+UNFOUNDED
+No
+9/17/2012
+Citizen
+10/30/2012
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Clinton, Justus R.
+713-
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/9/2012
+12-II03
+Swenson, Jon
+No
+Admin Review
+1207 Crispus
+EXONERATED
+No
+9/10/2012
+Internal
+12/3/2012
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-4H FIREARMS
+ADMINISTRATIVE REVIEW
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Lieb, John A.
+908
+OFFICER
+Field Operations
+EXONERATED
+NONE
+No
+Officer #
+2
+OBERHEIM, CHRISTOPHER
+703
+OFFICER
+PATROL
+EXONERATED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 39 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/13/2012
+12-II04
+Gallo, Joe
+No
+Informal
+101 S. Mattis
+No Disposition
+No
+9/13/2012
+Internal
+10/1/2012
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Gallagher, Brian P.
+904ret
+SERGEANT
+Field Operations
+NO DISPOSITION
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/15/2012
+12-14
+Myers, Tod
+No
+Formal
+610 Marketview
+UNFOUNDED
+No
+9/28/2012
+Citizen
+11/13/2012
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Mclearin, David M.
+7110
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Officer #
+2
+RUSH, MATT
+7114-
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/15/2012
+12-II05
+Swenson, Jon
+No
+Formal
+Out-of-County
+SUSTAINED
+No
+9/19/2012
+Internal
+11/26/2012
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Gallagher, Brian P.
+904ret
+SERGEANT
+Field Operations
+SUSTAINED
+TERMINATION
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/15/2012
+12-15
+daniels, troy
+No
+Formal
+1115 Crescent Drive (Jefferson MS)
+SUSTAINED
+No
+10/19/2012
+Citizen
+1/8/2013
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61822
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Dominguez, Shelly A.
+791RET
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 40 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/28/2012
+12-16
+Paulus, Michael
+No
+Formal
+1411 W. White
+NOT SUSTAINED
+No
+10/30/2012
+Citizen
+1/4/2013
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.1 Courtesy
+Profanity
+Poor Judgement
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+RUSH, MATT
+7114-
+OFFICER
+Field Operations
+NOT SUSTAINED
+COUNSELING
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/17/2012
+12-17
+Swenson, Jon
+No
+Formal
+John/Crescent
+SUSTAINED
+No
+12/13/2012
+Citizen
+1/9/2013
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Avenue, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1B VIOLATING DEPT. PROCEDURES
+POLICY ISSUE
+EXONERATED
+Complaint #
+2
+R-1B VIOLATING DEPT. PROCEDURES
+Poor Judgement
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Davis, Andre
+919
+OFFICER
+Field Operations
+SUSTAINED
+SUSPENSION (1 DAY)
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/17/2012
+12-II07
+Swenson, Jon
+No
+Admin Review
+700 S. CRESCENT DRIVE
+SUSTAINED
+No
+11/19/2012
+Internal
+3/6/2013
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-4H FIREARMS
+ADMINISTRATIVE REVIEW
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Davis, Andre
+919
+OFFICER
+Field Operations
+SUSTAINED
+SUSPENSION (1 DAY)
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/20/2012
+12-II08
+Swenson, Jon
+No
+Admin Review
+200 W. Columbia
+SUSTAINED
+No
+11/21/2012
+Internal
+2/13/2013
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? UNK
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-4H FIREARMS
+ADMINISTRATIVE REVIEW
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+schweighart, john w.
+908RETI
+SERGEANT
+Operations Supp
+SUSTAINED
+LETTER OF REPRIMA
+No
+R
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 41 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/18/2012
+12-18
+Swenson, Jon
+No
+Formal
+601 N. Neil
+UNFOUNDED
+No
+12/20/2012
+Citizen
+1/18/2013
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+Stop, tickets, and tow without probable cau UNFOUNDED
+Complaint #
+2
+R-1A CONDUCT GENERALLY
+Stop, tickets, and tow without probable cau UNFOUNDED
+Complaint #
+3
+R-1A CONDUCT GENERALLY
+Stop, tickets, and tow without probable cau UNFOUNDED
+Complaint #
+4
+R-3C PROVIDING NAME AND BADGE NUMBER
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ahsell, Brian
+714-
+OFFICER
+Field Operations
+UNFOUNDED
+COUNSELING
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/18/2013
+13-01
+shaffer, david
+No
+Formal
+613 Crestview
+UNFOUNDED
+No
+1/21/2013
+Citizen
+3/15/2013
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Aikman, Chris
+712
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/7/2013
+13-II01
+Swenson, Jon
+No
+Formal
+1004 W. William
+EXONERATED
+No
+2/8/2013
+Internal
+4/5/2013
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-4H FIREARMS
+ADMINISTRATIVE REVIEW
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Crane, Matthew J.
+934
+SERGEANT
+Field Operations
+EXONERATED
+Pending
+No
+Officer #
+2
+Phenicie, Corey
+7113
+OFFICER
+Field Operations
+EXONERATED
+Pending
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 42 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/28/2013
+13-II02
+Swenson, Jon
+No
+Formal
+CHAMPAIGN POLICE DEPARTMENT
+EXONERATED
+No
+4/3/2013
+Internal
+7/12/2013
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+lawrence, angela m.
+840-
+Civilian
+Operations Supp
+EXONERATED
+NONE
+No
+Resign
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/29/2013
+13-II03
+Swenson, Jon
+No
+Formal
+Not Stated
+SUSTAINED
+No
+4/29/2013
+Internal
+6/12/2013
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+82 E. University, Not Stated ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1D DEVOTING FULL TIME ATTENTION TO DUTY
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Clinton, Justus R.
+713-
+OFFICER
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/1/2013
+13-II04
+Clark, Jim
+No
+Formal
+Not Stated
+SUSTAINED
+No
+5/1/2013
+Internal
+6/19/2013
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+82 E. University, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-2C REPORT NOT WRITTEN
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Thompson, Katherine
+7944
+OFFICER
+Field Operations
+SUSTAINED
+SUSPENSION (1 DAY)
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/26/2013
+13-02
+Swenson, Jon
+No
+Formal
+700 South Sixth
+UNFOUNDED
+No
+5/30/2013
+Citizen
+7/3/2013
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Carbondale IL 62901
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Clinton, Justus R.
+713-
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+Resig
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 43 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/12/2013
+13-03
+Swenson, Jon
+No
+Formal
+Market/Bradley
+NOT SUSTAINED
+No
+6/21/2013
+Citizen
+8/20/2013
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-5A1 PROMPT RESPONSE
+Slow Response Time
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Mackey, Jed
+706RESI
+RECRUIT OFFIC
+Field Operations
+NOT SUSTAINED
+TRAINING
+No
+G
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/20/2013
+13-II05
+Swenson, Jon
+No
+Admin Review
+412 W. Vine
+EXONERATED
+No
+6/21/2013
+Internal
+7/25/2013
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-4H FIREARMS
+ADMINISTRATIVE REVIEW
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Buckley, Kurt
+907
+OFFICER
+PATROL
+EXONERATED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/7/2013
+14-II02
+Swenson, Jon
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+2/22/2014
+Internal
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-2A COMMUNICATION
+TRUTHFULNESS
+Poor Judgement
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Lieb, John A.
+908
+OFFICER
+Field Operations
+UNFOUNDED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/21/2013
+13-II07
+Swenson, Jon
+No
+Formal
+Ashmore, Illinois
+No Disposition
+No
+7/23/2013
+Internal
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+Wrong Action by Employee
+No Disposition
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Bowersock, Jamie
+705-MED
+OFFICER
+Field Operations
+No Disposition
+Pending
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+24 AM
+Page 44 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/28/2013
+13-04
+Swenson, Jon
+No
+Formal
+2505 Roland
+SUSTAINED
+No
+8/6/2013
+Citizen
+9/8/2013
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Savoy IL Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A2 PROVIDE AID
+No Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+RUSH, MATT
+7114-
+OFFICER
+Field Operations
+SUSTAINED
+SUSPENSION (2 DAY
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/9/2013
+13-05
+Swenson, Jon
+No
+Formal
+2103 Lynwood
+NOT SUSTAINED
+No
+9/3/2013
+Citizen
+9/9/2013
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+d, Champaign IL Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Wrong Action by Employee
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ferguson, Alison R.
+792RETI
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+R
+Officer #
+2
+shipley, chad w.
+772
+Senior
+Officer
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/14/2013
+13-II06
+Swenson, Jon
+No
+Formal
+1100 N. Sixth Street
+EXONERATED
+No
+8/14/2013
+Internal
+11/27/2013
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? Unk
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Coon, Geoffrey A.
+930
+SERGEANT
+Field Operations
+Pending
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/25/2013
+13-II08
+Swenson, Jon
+No
+Formal
+105 N. Market
+SUSTAINED
+No
+8/26/2013
+Internal
+9/15/2013
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-4G3 BADGE AND CREDENTIALS
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Clinton, Justus R.
+713-
+OFFICER
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+Resig
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 45 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/3/2013
+13-II09
+shaffer, david
+No
+Admin Review
+McKinley / Bloomington
+UNFOUNDED
+No
+11/25/2013
+Internal
+3/18/2014
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+82 E. University, Champaign IL Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+RUSH, MATT
+7114-
+OFFICER
+Field Operations
+UNFOUNDED
+Pending
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/18/2014
+14-II01
+Swenson, Jon
+No
+Formal
+1712 W. CLARK
+SUSTAINED
+No
+2/18/2014
+Internal
+3/19/2014
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+Not Stated ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+Poor Judgement
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Alvis, Michael G.
+784-RET
+Senior
+Officer
+Field Operations
+SUSTAINED
+SUSPENSION (4 DAY
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/16/2014
+14-01
+Swenson, Jon
+No
+Formal
+1308 Garden Hills Drive
+NOT SUSTAINED
+No
+3/20/2014
+Citizen
+5/1/2014
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Drive, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+NOT SUSTAINED
+Complaint #
+2
+R-5D Use of physical force
+Excessive Force
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Aikman, Chris
+712
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Officer #
+2
+Henry, Marshall
+7111
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Officer #
+3
+RUSH, MATT
+7114-
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+Resig
+Officer #
+4
+Schweska, Cully
+7101
+OFFICER
+PATROL
+NOT SUSTAINED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 46 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/11/2014
+14-II04
+Swenson, Jon
+No
+Formal
+421 Fairview Drive
+SUSTAINED
+No
+4/21/2014
+Internal
+8/8/2014
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+MALE
+Address
+82 E. University, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A2 PROVIDE AID
+Wrong Action by Employee
+NOT SUSTAINED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+RUSH, MATT
+7114-
+OFFICER
+Field Operations
+SUSTAINED
+SUSPENSION (3 DAY
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/12/2014
+14-II03
+Swenson, Jon
+No
+Formal
+82 E. University
+SUSTAINED
+No
+4/21/2014
+Internal
+8/8/2014
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+MALE
+Address
+82 E. University, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-2C REPORT NOT WRITTEN
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+RUSH, MATT
+7114-
+OFFICER
+Field Operations
+SUSTAINED
+SUSPENSION (1 DAY)
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/20/2014
+14-02
+LACK, AARON
+No
+Formal
+320 NORTH NEIL
+SUSTAINED
+No
+4/23/2014
+Citizen
+7/1/2014
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A2 PROVIDE AID
+Wrong Action by Employee
+SUSTAINED
+Complaint #
+2
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+3
+R-5D Use of physical force
+Excessive Force
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Hagemann, Jordan
+7119
+OFFICER
+PATROL
+SUSTAINED
+COUNSELING
+No
+Officer #
+2
+OBERHEIM, CHRISTOPHER
+703
+OFFICER
+PATROL
+SUSTAINED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 47 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/26/2014
+14-II05
+Swenson, Jon
+No
+Formal
+1600 W. University Avenue
+SUSTAINED
+No
+5/30/2014
+Internal
+8/8/2014
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+82 E. University, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+RUSH, MATT
+7114-
+OFFICER
+Field Operations
+SUSTAINED
+SUSPENSION - 30 DA
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/6/2014
+14-II06
+Gallo, Joe
+No
+Formal
+Urbana, Illinois
+No Disposition
+No
+6/6/2014
+Internal
+9/4/2014
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+82 E. University, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+Wrong Action by Employee
+No Disposition
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Vanantwerp, Heidi J.
+7102-
+OFFICER
+Field Operations
+No Disposition
+Pending
+No
+Med
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/7/2014
+14-II07
+shaffer, david
+No
+Formal
+820 Bloomington Road
+No Disposition
+No
+6/11/2014
+Internal
+9/4/2014
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+82 E. University, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+Poor Judgement
+No Disposition
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+TENNILL, CHAD
+7743-
+OFFICER
+Not Stated
+No Disposition
+Pending
+No
+Med
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/13/2014
+14-II08
+Swenson, Jon
+No
+Formal
+Not Stated
+SUSTAINED
+No
+6/13/2014
+Internal
+4/3/2015
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+82 E. University, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-2C REPORT NOT WRITTEN
+No Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+RUSH, MATT
+7114-
+OFFICER
+Field Operations
+SUSTAINED
+Pending
+No
+Resig
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 48 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/14/2014
+14-03
+Myers, Tod
+Yes
+Formal
+505 N. Ash
+UNFOUNDED
+No
+6/24/2014
+Citizen
+8/25/2014
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Lane, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 CONDUCT GENERALLY
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-1B VIOLATING DEPT. PROCEDURES
+Discrimination
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Fisher, Kaitlin M.
+7125
+RECRUIT OFFIC
+PATROL
+UNFOUNDED
+NONE
+No
+Officer #
+2
+Swenson, Jon
+927-R
+LIEUTENANT
+Prof. Standards
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/9/2014
+14-04
+Swenson, Jon
+No
+Informal
+1000 W. SPRINGFIELD
+SUSTAINED
+No
+7/14/2014
+Citizen
+8/5/2014
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3C PROVIDING NAME AND BADGE NUMBER
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Alvis, Michael G.
+784-RET
+Senior
+Officer
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/13/2014
+14-II09
+Swenson, Jon
+No
+Formal
+Not Stated
+SUSTAINED
+No
+10/6/2014
+Internal
+12/4/2014
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+82 E. University, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Coleman, Montrell
+7116-
+OFFICER
+PATROL
+SUSTAINED
+LETTER OF REPRIMA
+No
+Med
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 49 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/20/2014
+14-05
+Swenson, Jon
+No
+Formal
+124 W. White Street
+UNFOUNDED
+No
+8/25/2014
+Citizen
+9/12/2014
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Homeless, Not Stated ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 CONDUCT GENERALLY
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-1A3 POOR PERFORMANCE
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Clark, Jim
+926-RET
+LIEUTENANT
+Field Operations
+UNFOUNDED
+NONE
+No
+Officer #
+2
+COBB, ANTHONY
+954
+CHIEF
+ADMINISTRATIO
+UNFOUNDED
+NONE
+No
+Officer #
+3
+Ramseyer, Bruce H.
+936
+SERGEANT
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/19/2014
+14-06
+Swenson, Jon
+No
+Formal
+57 E. MAIN
+UNFOUNDED
+No
+9/22/2014
+Citizen
+11/24/2014
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, BLUE ISLAND IL 60406
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+Theft
+UNFOUNDED
+Complaint #
+2
+R-5D Use of physical force
+Excessive Force
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Miller, Arthur
+7106
+OFFICER
+Field Operations
+UNFOUNDED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/3/2014
+14-07
+Swenson, Jon
+No
+Formal
+45 E. University
+UNFOUNDED
+No
+10/9/2014
+Citizen
+10/20/2014
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Chicago Heights IL 60411
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Mclearin, David M.
+7110
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 50 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/1/2014
+15-II01
+RATH, NATE
+No
+Formal
+2002 Ola Drive
+UNFOUNDED
+No
+3/23/2015
+Internal
+6/29/2015
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+82 E Univeristy Ave, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Mackey, Jed
+706RESI
+RECRUIT OFFIC
+Field Operations
+UNFOUNDED
+NONE
+No
+G
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/12/2015
+15-02
+RATH, NATE
+No
+Formal
+Prospect/Marketview
+SUSTAINED
+No
+3/3/2015
+Citizen
+4/29/2015
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+Drive, Champaign IL 61822
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A2 PROVIDE AID
+Wrong Action by Employee
+SUSTAINED
+Complaint #
+2
+R-5B ARREST, SEARCH AND SEIZURE
+Stop, tickets, and tow without probable cau SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Kimme, Douglas J.
+774RETI
+Senior
+Officer
+Field Operations
+NOT A COMPLAINT
+NONE
+No
+R
+Officer #
+2
+Talbott, Michael A.
+7105
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/14/2015
+15-01
+RATH, NATE
+No
+Formal
+51 E. Main
+EXONERATED
+No
+2/20/2015
+Citizen
+4/29/2015
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+., Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+EXONERATED
+Complaint #
+2
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Buckley, Kurt
+907
+OFFICER
+PATROL
+EXONERATED
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/15/2015
+15-II02
+RATH, NATE
+No
+Formal
+1st/Hill
+NOT SUSTAINED
+No
+3/23/2015
+Internal
+5/18/2015
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+Address
+82 E University Ave, Champaign IL 61820
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Tatum, Jonathan
+746
+OFFICER
+PATROL
+Pending
+NONE
+No
+Officer #
+2
+Thompson, Katherine
+7944
+SERGEANT
+Field Operations
+Pending
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 51 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/8/2015
+15-04
+Myers, Tod
+Yes
+Formal
+State / University
+SUSTAINED
+No
+6/26/2015
+Citizen
+9/17/2015
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61822
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A3 POOR PERFORMANCE
+Wrong Action by Employee
+SUSTAINED
+Complaint #
+2
+R-3B COURTESY
+Discrimination
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Phenicie, Corey
+7113
+OFFICER
+Field Operations
+SUSTAINED
+Pending
+No
+Officer #
+2
+Thomas, Jeffrey M.
+732
+Senior
+Officer
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/13/2015
+15-03
+VOGELZANG, MARK
+No
+Formal
+Beardsley/James
+NOT SUSTAINED
+No
+6/19/2015
+Citizen
+9/9/2015
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 CONDUCT GENERALLY
+Wrong Action by Employee
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Nickell, John P.
+7121
+OFFICER
+PATROL
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/17/2015
+15-II03
+RATH, NATE
+No
+Formal
+82 E. UNIVERSITY
+SUSTAINED
+No
+6/18/2015
+Internal
+8/18/2015
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+MALE
+Address
+82 E University Ave, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+Theft
+UNFOUNDED
+Complaint #
+2
+R-4I KEYS
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Clinton, Justus R.
+713-
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/22/2015
+15-II04
+Clark, Jim
+No
+Formal
+Champaign
+SUSTAINED
+No
+6/22/2015
+Internal
+5/4/2016
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+MALE
+Address
+Champaign IL Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Gale, Jerad
+7117TER
+OFFICER
+PATROL
+SUSTAINED
+TERMINATION
+No
+M
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 52 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/4/2015
+15-II05
+RATH, NATE
+No
+Admin Review
+Not Stated
+EXONERATED
+No
+8/4/2015
+Internal
+2/17/2016
+N/A
+Complainant
+Not Stated
+DOB
+Gender
+Address
+Not Stated ?? Unk
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Oleson, Colby M.
+933-Ret
+SERGEANT
+Field Operations
+EXONERATED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/22/2015
+18-II05
+Myers, Tod
+No
+Admin Review
+Downtown
+Not a complaint
+No
+1/2/2019
+Internal
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Urbana IL 61801
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+No Officers Entered
+Not Stated
+Not Stated
+Not a complaint
+Not Stated
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/15/2015
+15-II06
+RATH, NATE
+No
+Formal
+82 E. UNIVERSITY
+SUSTAINED
+No
+9/15/2015
+Internal
+1/21/2016
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+MALE
+Address
+82 E University Ave, Champaign IL Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+Theft
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Bloom, Erik C.
+777-
+OFFICER
+Field Operations
+SUSTAINED
+RESIGNATION IN LIE
+No
+RESIG
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/13/2015
+15-II07
+RATH, NATE
+No
+Formal
+82 E. UNIVERSITY
+SUSTAINED
+No
+11/13/2015
+Internal
+2/8/2016
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+MALE
+Address
+82 E University Ave, Champaign ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-6B3-Alcohol or Controlled Substances
+Poor Judgement
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Clinton, Justus R.
+713-
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Resig
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 53 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/30/2015
+15-05
+LACK, AARON
+Yes
+Formal
+Bradley / McKinley
+UNFOUNDED
+Yes
+12/30/2015
+Citizen
+2/25/2016
+In-Dash Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Williamsport IN 47993
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 CONDUCT GENERALLY
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-3B COURTESY
+Discrimination
+UNFOUNDED
+Complaint #
+3
+R-3B COURTESY
+Discourteous Conduct
+UNFOUNDED
+Complaint #
+4
+R-5B ARREST, SEARCH AND SEIZURE
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Coleman, Montrell
+7116-
+OFFICER
+PATROL
+UNFOUNDED
+NONE
+Yes
+Med
+Officer #
+2
+Rogers, Brian
+909
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
+Yes
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/17/2015
+16-II01
+Clark, Jim
+No
+Formal
+CHAMPAIGN POLICE DEPARTMENT
+SUSTAINED
+No
+1/12/2016
+Internal
+2/22/2016
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+MALE
+Address
+82 E. University Ave., Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-2C REPORT NOT WRITTEN
+POLICY ISSUE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Thompson, Katherine
+7944
+SERGEANT
+Field Operations
+SUSTAINED
+SUSPENSION (4 DAY
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/15/2016
+16-01
+REA, ROBERT
+No
+Formal
+2006 W. Kirby
+SUSTAINED
+No
+3/7/2016
+Citizen
+4/5/2016
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.3 Courtesy
+Conduct
+Discourteous Conduct
+SUSTAINED
+Complaint #
+2
+R-5A3 OPERATIONS
+No Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Alvis, Michael G.
+784-RET
+Senior
+Officer
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Officer #
+2
+Alvis, Michael G.
+784-RET
+Senior
+Officer
+Field Operations
+SUSTAINED
+LETTER OF REPRIMA
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 54 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/23/2016
+16-II02
+Clark, Jim
+No
+Formal
+82 E. UNIVERSITY
+SUSTAINED
+No
+2/23/2016
+Internal
+4/13/2016
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+ADMINISTRATIVE REVIEW
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+RUSH, MATT
+7114-
+OFFICER
+PATROL
+SUSTAINED
+TERMINATION
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/23/2016
+16-II04
+Hood, Jason
+No
+Formal
+82 E. UNIVERSITY
+SUSTAINED
+No
+2/26/2016
+Internal
+6/9/2016
+N/A
+Complainant
+Chief Anthony Cobb
+DOB
+Gender
+MALE
+Address
+82 E. University Ave., Champaign IL 61820
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+lawrence, angela m.
+840-
+Civilian
+Operations Supp
+SUSTAINED
+Written Warning
+No
+Resign
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/24/2016
+16-II03
+Clark, Jim
+No
+Admin Review
+505 S. Chestnut
+SUSTAINED
+No
+2/24/2016
+Internal
+4/13/2016
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+MALE
+Address
+82 E. University Ave., Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+Poor Judgement
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Crane, Matthew J.
+934
+SERGEANT
+Field Operations
+SUSTAINED
+SUSPENSION (4 DAY
+No
+Officer #
+2
+RUSH, MATT
+7114-
+OFFICER
+PATROL
+SUSTAINED
+TERMINATION
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/5/2016
+16-03
+Manzana, Greg
+No
+Informal
+907 W. Marketview Drive
+EXONERATED
+Yes
+3/31/2016
+Citizen
+4/26/2016
+In-Dash Camera
+Complainant
+DOB
+Gender
+MALE
+Address
+, Rantoul IL 61866
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 POOR JUDGEMENT
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Miller, Arthur
+7106
+OFFICER
+Field Operations
+EXONERATED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 55 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/7/2016
+16-02
+HENSON, MATT
+No
+Formal
+CHAMPAIGN
+UNFOUNDED
+No
+3/8/2016
+Citizen
+5/17/2016
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+Discourteous Conduct; Wrong Action
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Morris, Robert O.
+769
+DETECTIVE
+Operations Supp
+UNFOUNDED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/7/2016
+16-05
+Clark, Jim
+No
+Formal
+82 E. UNIVERSITY
+UNFOUNDED
+No
+4/18/2016
+Citizen
+5/4/2016
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A3 CONDUCT GENERALLY
+Wrong Action by Employee
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+No Officers Entered
+Not Stated
+Not Stated
+UNFOUNDED
+Not Stated
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/9/2016
+16-04
+Clark, Jim
+No
+Formal
+1200 Blk Williamsburg, Champaign
+EXONERATED
+Yes
+4/15/2016
+Citizen
+5/17/2016
+In-Dash Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Savoy IL 61874
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 POOR JUDGEMENT
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Aikman, Chris
+712
+OFFICER
+Field Operations
+EXONERATED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/7/2016
+16-II05
+Clark, Jim
+No
+Formal
+82 E. UNIVERSITY
+SUSTAINED
+No
+Priority
+6/8/2016
+Internal
+8/26/2016
+N/A
+Complainant
+Cobb, Anthony
+DOB
+Gender
+MALE
+Address
+82 E. University Ave., Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1B VIOLATING DEPT. PROCEDURES
+POLICY ISSUE
+SUSTAINED
+Complaint #
+2
+R-1D DEVOTING FULL TIME ATTENTION TO DUTY
+ADMINISTRATIVE REVIEW
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Henager, Robin I.
+810-
+Civilian
+Operations Supp
+SUSTAINED
+RESIGNATION IN LIE
+No
+Resig
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 56 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/9/2016
+16-II06
+Myers, Tod
+No
+Formal
+Tuscola, Illinois
+SUSTAINED
+No
+9/6/2016
+Internal
+11/10/2016
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+MALE
+Address
+82 E University Ave, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+Poor Judgement
+SUSTAINED
+Complaint #
+2
+R-3A OBEDIENCE TO ORDERS
+Failed to obey order
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Hayden, Kyle
+839
+Civilian
+Operations Supp
+SUSTAINED
+SUSPENSION (7 DAY
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/23/2016
+16-06
+Myers, Tod
+Yes
+Formal
+1104 Centennial Drive
+UNFOUNDED
+Yes
+9/7/2016
+Citizen
+10/4/2016
+Camera Not Indicated
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61822
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Crane, Matthew J.
+934
+SERGEANT
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/3/2016
+16-II07
+Myers, Tod
+No
+Fact Finding
+82 E. UNIVERSITY
+SUSTAINED
+No
+10/12/2016
+Internal
+2/8/2017
+N/A
+Complainant
+Chief Anthony Cobb
+DOB
+Gender
+MALE
+Address
+82 E University, Champaign IL 61820
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Thompson, Katherine
+7944
+SERGEANT
+Field Operations
+NO DISPOSITION
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/24/2016
+16-07
+Myers, Tod
+No
+Formal
+1002 S Second # 302
+SUSTAINED
+No
+10/12/2016
+Citizen
+2/1/2017
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61820
+H Phone
+(815) 383-3638
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Coleman, Montrell
+7116-
+OFFICER
+PATROL
+Pending
+Pending
+No
+Med
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 57 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/16/2016
+16-II08
+Myers, Tod
+No
+Admin Review
+706 S Sixth
+Not a complaint
+No
+5/8/2017
+Internal
+6/6/2017
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+82 E University Ave, Champaign ?? Unk
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Frost, Thomas K.
+902RET
+SERGEANT
+Field Operations
+Not a complaint
+NONE
+No
+Officer #
+2
+Talbott, Michael A.
+7105
+OFFICER
+Field Operations
+Not a complaint
+NONE
+No
+Officer #
+3
+Wilson, Andrew
+7741
+RECRUIT OFFIC
+PATROL
+Not a complaint
+NONE
+No
+Officer #
+4
+Young, Christopher C.
+701-
+Senior
+Officer
+Field Operations
+Not a complaint
+NONE
+No
+Retire
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/21/2016
+16-08
+Myers, Tod
+No
+Formal
+Neil at I-74
+SUSTAINED
+Yes
+1/4/2017
+Citizen
+2/14/2017
+In-Dash Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A3 CONDUCT GENERALLY
+No Action by Employee
+SUSTAINED
+Complaint #
+2
+R-3B COURTESY
+Discourteous Conduct
+SUSTAINED
+Complaint #
+3
+R-5A1 PROMPT RESPONSE
+Slow Response Time
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+CARPENTER, LANCE
+7747
+RECRUIT OFFIC
+PATROL
+SUSTAINED
+COUNSELING
+No
+Officer #
+2
+Talbott, Michael A.
+7105
+OFFICER
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/20/2017
+18-II02
+Myers, Tod
+No
+Fact Finding
+Not Stated
+Not a complaint
+No
+7/26/2018
+Internal
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+82 E University, Champaign ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-7B CONFLICT OF INTEREST
+Poor Judgement
+Not a complaint
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Griffet, David I.
+914
+SERGEANT
+Operations Supp
+Not a complaint
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/8/2017
+17-02
+Myers, Tod
+No
+Formal
+211 E Green
+NOT SUSTAINED
+No
+5/4/2017
+Citizen
+5/23/2017
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+No Officers Entered
+Not Stated
+Not Stated
+NOT SUSTAINED
+Not Stated
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 58 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/20/2017
+17-01
+Myers, Tod
+No
+Formal
+1110 W Church, Urbana
+UNFOUNDED
+Yes
+5/4/2017
+Citizen
+6/15/2017
+In-Dash Camera
+Complainant
+DOB
+8
+Gender
+MALE
+Address
+Urbana IL 61801
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+No Officers Entered
+Not Stated
+Not Stated
+UNFOUNDED
+Not Stated
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/20/2017
+17-03
+Myers, Tod
+No
+Formal
+120 N Walnut, Champaign
+EXONERATED
+Yes
+5/25/2017
+Citizen
+7/10/2017
+Body Camera
+Complainant
+DOB
+1/27/1985
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+Excessive Force
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+No Officers Entered
+Not Stated
+Not Stated
+EXONERATED
+Not Stated
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/11/2017
+17-II01
+Myers, Tod
+No
+Admin Review
+304 N Fourth
+SUSTAINED
+No
+8/28/2017
+Internal
+11/17/2017
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+82 E Univeristy Ave, Champaign ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-4H FIREARMS
+accidental discharge striking another pers
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Hobson, James
+7744
+RECRUIT OFFIC
+PATROL
+SUSTAINED
+SUSPENSION- 10 DA
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/15/2017
+17-04
+LIBE, JOHN
+No
+Formal
+2113 N Prospect
+SUSTAINED
+Yes
+7/21/2017
+Citizen
+10/24/2017
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Tatum, Jonathan
+746
+OFFICER
+PATROL
+SUSTAINED
+COUNSELING
+Yes
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 59 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/30/2017
+17-II02
+Myers, Tod
+No
+Formal
+PTI Range
+SUSTAINED
+No
+10/2/2017
+Internal
+2/19/2018
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+Not Stated ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1D.4C MISSED ASSIGNMENT
+LATE FOR WORK
+SUSTAINED
+Complaint #
+2
+R-2A COMMUNICATION
+TRUTHFULNESS
+Untruthful during interview
+SUSTAINED
+Complaint #
+3
+R-6B2 ODOR OF ALCOHOL OR OTHER SUBSTANCE
+Poor Judgement
+SUSTAINED
+Complaint #
+4
+R-6B3-Alcohol or Controlled Substances
+No Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Clinton, Justus R.
+713-
+OFFICER
+Field Operations
+SUSTAINED
+RESIGNATION IN LIE
+No
+Resig
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/28/2017
+17-II03
+Myers, Tod
+No
+Admin Review
+1307 Hanover Dr. #B
+Not a complaint
+Yes
+10/28/2017
+Internal
+1/29/2018
+Body Camera
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+Not Stated ?? Unk
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Sebestik, Edward
+793
+OFFICER
+PATROL
+Pending
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/18/2017
+18-II01
+Myers, Tod
+No
+Formal
+82 E. UNIVERSITY
+SUSTAINED
+No
+1/9/2018
+Internal
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+82 E University Ave, Champaign ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-2C REPORT NOT WRITTEN
+REPORTS NOT WRITTEN
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Thompson, Katherine
+7944
+SERGEANT
+Field Operations
+SUSTAINED
+DEMOTION LETTER
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/3/2018
+18-01
+Myers, Tod
+No
+Formal
+201 E MAIN STREET, URBANA
+UNFOUNDED
+Yes
+1/16/2018
+Citizen
+3/5/2018
+Body Camera
+Complainant
+DOB
+Gender
+MALE
+Address
+, Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5D Use of physical force
+UNREASONABLE AMOUNT OF FORCE
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Briceno-Garcia, Isidro
+789
+RECRUIT OFFIC
+PATROL
+UNFOUNDED
+Pending
+Yes
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+25 AM
+Page 60 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/18/2018
+18-02
+Myers, Tod
+No
+Formal
+51 Main Street
+SUSTAINED
+Yes
+3/20/2018
+Citizen
+8/16/2018
+Body Camera
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+P-70.2.1 PRISONER RESTRAINING
+POLICY ISSUE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Monahan, David
+7745
+RECRUIT OFFIC
+PATROL
+SUSTAINED
+LETTER OF REPRIMA
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/18/2018
+18-04
+Myers, Tod
+No
+Formal
+BY TELEPHONE
+EXONERATED
+Yes
+8/25/2018
+Citizen
+10/25/2018
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+ll, Champaign IL 61820
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+P-41.11.1 Body Camera Policy
+Failed to provide notice of recording
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+No Officers Entered
+Not Stated
+Not Stated
+EXONERATED
+Not Stated
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/21/2018
+18-03
+VOGELZANG, MARK
+No
+Formal
+45 E Washington
+EXONERATED
+Yes
+7/30/2018
+Citizen
+10/25/2018
+Body Camera
+Complainant
+DOB
+Gender
+MALE
+Address
+Dr, Champaign IL 61821
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+CARPENTER, LANCE
+7747
+RECRUIT OFFIC
+PATROL
+Pending
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/30/2018
+18-II03
+Myers, Tod
+No
+Formal
+Not Stated
+Retired
+No
+7/31/2018
+Internal
+8/30/2018
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+MALE
+Address
+82 E University Ave, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+Poor Judgement
+Retired
+Complaint #
+2
+R-1D DEVOTING FULL TIME ATTENTION TO DUTY
+Poor Judgement
+Retired
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ketchem, Joseph G.
+918-RET
+SERGEANT
+Prof. Standards
+Retired
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 61 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/26/2018
+18-II04
+Myers, Tod
+No
+Formal
+108 W Washington
+SUSTAINED
+Yes
+8/28/2018
+Internal
+12/4/2018
+Body Camera
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+82 E University, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1D DEVOTING FULL TIME ATTENTION TO DUTY
+Poor Judgement
+SUSTAINED
+Complaint #
+2
+R-2C REPORT NOT WRITTEN
+FAILED TO COMPLETE A REPORT WHE
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+OBERHEIM, CHRISTOPHER
+703
+OFFICER
+PATROL
+SUSTAINED
+SUSPENSION (1 DAY)
+Yes
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/7/2018
+18-05
+Myers, Tod
+No
+Formal
+1019 Northwood Dr
+SUSTAINED
+Yes
+10/10/2018
+Citizen
+1/28/2019
+Body Camera
+Complainant
+DOB
+3/27/1994
+Gender
+MALE
+Address
+Ct, Champaign IL 61822
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1B VIOLATING DEPT. PROCEDURES
+unlawful entry into home
+SUSTAINED
+Complaint #
+2
+R-5D Use of physical force
+unnecessary force in making arrest
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Darling, Tyler
+774
+RECRUIT OFFIC
+PATROL
+SUSTAINED
+COUNSELING
+Yes
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/12/2019
+19-II01
+Ramseyer, Bruce
+No
+Formal
+PTI RANGE
+SUSTAINED
+No
+2/18/2019
+Internal
+3/18/2019
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+82 east university, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct; Wrong Action
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Olmstead, Kevin A.
+7901
+SERGEANT
+Operations Supp
+SUSTAINED
+LETTER OF REPRIMA
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/8/2019
+19-01
+Ramseyer, Bruce
+No
+Formal
+PROSPECT/DEVONSHIRE
+SUSTAINED
+Yes
+3/9/2019
+Citizen
+10/22/2019
+Body Camera
+Complainant
+DOB
+0
+Gender
+FEMAL
+Address
+Champaign IL 61822
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-2A.1 POOR REPORT
+Incomplete information
+SUSTAINED
+Complaint #
+2
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+3
+R-5A3 OPERATIONS
+Wrong Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Greear, Brian W.
+779
+OFFICER
+Field Operations
+SUSTAINED
+TRAINING
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 62 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/15/2019
+19-02
+Ramseyer, Bruce
+No
+Formal
+500 West Church
+SUSTAINED
+No
+5/9/2019
+Citizen
+1/6/2020
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+P-41.11.1 Body Camera Policy
+POLICY ISSUE
+EXONERATED
+Complaint #
+2
+R-3B COURTESY
+No Action by Employee
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Broadnax, Johnathon
+711RES
+RECRUIT OFFIC
+PATROL
+SUSTAINED
+TRAINING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/15/2019
+19-03
+Ramseyer, Bruce
+No
+Formal
+Goodwin and Hill, Urbana
+EXONERATED
+Yes
+5/16/2019
+Citizen
+3/2/2020
+Body Camera
+Complainant
+DOB
+1
+Gender
+MALE
+Address
+, CHICAGO IL 60628
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+MALONEY, J. BRIAN
+942
+SERGEANT
+Field Operations
+EXONERATED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/20/2019
+19-06
+Ramseyer, Bruce
+No
+Formal
+McKinley / Church
+SUSTAINED
+Yes
+Citizen
+5/13/2020
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+IL 61826
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+Discourteous Conduct
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Briceno-Garcia, Isidro
+789
+RECRUIT OFFIC
+PATROL
+SUSTAINED
+COUNSELING
+No
+Officer #
+2
+Kristensen, Jonathan R.
+7123
+k-9 officer
+PATROL
+NOT SUSTAINED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 63 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/6/2019
+19-04
+Ramseyer, Bruce
+No
+Formal
+70 East Washington
+SUSTAINED
+Yes
+6/6/2019
+Citizen
+1/31/2020
+Body Camera
+Complainant
+DOB
+Gender
+MALE
+Address
+homeless, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+HARASSMENT
+UNFOUNDED
+Complaint #
+2
+R-1A2 CONDUCT GENERALLY
+Wrong Action by Employee
+SUSTAINED
+Complaint #
+3
+R-3B COURTESY
+Discourteous Conduct
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+HAUGEN, KRISTINA
+739
+OFFICER
+PATROL
+SUSTAINED
+COUNSELING
+Yes
+Officer #
+2
+Watkins, Devon R.
+792
+OFFICER
+PATROL
+NOT SUSTAINED
+NONE
+Yes
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/6/2019
+19-II02
+Amanda Farthing, HR
+No
+Formal
+Not Stated
+UNFOUNDED
+No
+Internal
+5/12/2020
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Not Stated ?? Unk
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Rogers, Brian
+909
+SERGEANT
+Field Operations
+UNFOUNDED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+6/26/2019
+19-05
+Ramseyer, Bruce
+No
+Formal
+116 North First Street
+MISCONDUCT NOT
+Yes
+Citizen
+2/3/2020
+Body Camera
+Complainant
+DOB
+Gender
+MALE
+Address
+Homeless, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 CONDUCT GENERALLY
+Wrong Action by Employee
+UNFOUNDED
+Complaint #
+2
+R-3B COURTESY
+Discourteous Conduct
+MISCONDUCT NOTED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+McDonald, Philip
+781
+Senior
+Officer
+Field Operations
+MISCONDUCT NOT
+COUNSELING
+No
+Officer #
+2
+Mclearin, David M.
+7110
+OFFICER
+Field Operations
+NOT SUSTAINED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 64 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/15/2019
+19-07
+Ramseyer, Bruce
+No
+Formal
+Not Stated
+NOT SUSTAINED
+Yes
+9/17/2019
+Citizen
+8/23/2020
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Thomas, Jeffrey M.
+732
+Senior
+Officer
+Field Operations
+NOT SUSTAINED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/1/2019
+19-08
+OLMSTEAD, KEVIN
+No
+Formal
+Not Stated
+TRANSFERRED T
+No
+1/1/2002
+Citizen
+9/1/2019
+N/A
+Complainant
+DOB
+Gender
+Address
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+DEFAULT RECORD
+DEFAULT RECORD
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+DEFAULT NAME
+9X9X9X9
+SERGEANT
+PATROL
+TRANSFERRED TO
+DEFAULT RECORD
+No
+X9X
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/1/2019
+19-II03
+OLMSTEAD, KEVIN
+No
+Formal
+PARKLAND COLLEGE
+SUSTAINED
+Yes
+9/1/2019
+Internal
+8/23/2020
+Body Camera
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+82 East University Avenue, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Griffet, Danielle J.
+7755
+OFFICER
+PATROL
+SUSTAINED
+SUSPENSION (3 DAY
+Yes
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/8/2019
+19-II04
+OLMSTEAD, KEVIN
+No
+Admin Review
+2013 CYNTHIA DRIVE #108
+Pending
+Yes
+Internal
+Body Camera
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+82 East University Avenue, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1B1 FAMILIARITY WITH DEPT OPERATIONAL STAN
+Wrong Action by Employee
+Pending
+Complaint #
+2
+R-1C NEGLECT OF DUTY
+FAILED TO TAKE APPROPRIATE ACTIO
+Pending
+Complaint #
+3
+R-5A3 OPERATIONS
+FAILED TO COMPLETE A REPORT WHE
+Pending
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+OBERHEIM, CHRISTOPHER
+703
+OFFICER
+PATROL
+Pending
+Pending
+No
+Officer #
+2
+Pesavento, Kevin
+7795
+RECRUIT OFFIC
+PATROL
+Pending
+Pending
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 65 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/6/2019
+19-09
+OLMSTEAD, KEVIN
+No
+Formal
+400 EAST GREEN STREET
+UNFOUNDED
+Yes
+11/12/2019
+Citizen
+6/18/2020
+Body Camera
+Complainant
+.
+DOB
+Gender
+FEMAL
+Address
+, Savoy IL 61874
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 CONDUCT GENERALLY
+UNFOUNDED
+Complaint #
+2
+R-1A3 CONDUCT GENERALLY
+UNFOUNDED
+Complaint #
+3
+R-1A3 CONDUCT GENERALLY
+UNFOUNDED
+Complaint #
+4
+R-5B ARREST, SEARCH AND SEIZURE
+EXONERATED
+Complaint #
+5
+R-5D Use of physical force
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Atteberry, Timothy J.
+761
+Senior OFFICER
+Field Operations
+UNFOUNDED
+Pending
+No
+Officer #
+2
+Darling, Tyler
+774
+RECRUIT OFFIC
+PATROL
+UNFOUNDED
+Pending
+No
+Officer #
+3
+Epling, Nate
+765
+OFFICER
+Field Operations
+UNFOUNDED
+Pending
+No
+Officer #
+4
+Newell, Benjamin E.
+915
+SERGEANT
+INVESTIGATION
+UNFOUNDED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/21/2019
+20-09
+OLMSTEAD, KEVIN
+No
+Formal
+510 WEST UNION STREET
+SUSTAINED
+Yes
+1/14/2020
+Citizen
+10/5/2020
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Street, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A3 POOR PERFORMANCE
+MISSED ASSIGNMENT
+NOT SUSTAINED
+Complaint #
+2
+R-1B VIOLATING DEPT. PROCEDURES
+Failed to provide notice of recording
+SUSTAINED
+Complaint #
+3
+R-3B COURTESY
+Discourteous Conduct
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Eisenbart, Ashley
+7120
+OFFICER
+PATROL
+SUSTAINED
+COUNSELING
+No
+Officer #
+2
+Thomas, Jeffrey M.
+732
+Senior
+Officer
+Field Operations
+SUSTAINED
+COUNSELING
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 66 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+11/21/2019
+20-II01
+OLMSTEAD, KEVIN
+No
+Formal
+510 West Union Street
+TRANSFERRED T
+Yes
+1/15/2020
+Internal
+8/25/2020
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Street, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+P-41.11.1 Body Camera Policy
+Failed to provide notice of recording
+TRANSFERRED TO 20-09
+Complaint #
+2
+R-3B COURTESY
+Discourteous Conduct
+TRANSFERRED TO 20-09
+Complaint #
+3
+R-5A3 OPERATIONS
+FAILED TO TAKE APPROPRIATE ACTIO
+TRANSFERRED TO 20-09
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Eisenbart, Ashley
+7120
+OFFICER
+PATROL
+TRANSFERRED TO
+NONE
+No
+Officer #
+2
+Thomas, Jeffrey M.
+732
+Senior
+Officer
+Field Operations
+TRANSFERRED TO
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/10/2019
+19-II05
+OLMSTEAD, KEVIN
+Yes
+Inquiry
+620 Town Center Blvd
+EXONERATED
+Yes
+12/11/2019
+Internal
+1/23/2020
+Body Camera
+Complainant
+DOB
+9
+Gender
+FEMAL
+Address
+Savoy IL 61874
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1B VIOLATING DEPT. PROCEDURES
+Discrimination
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Massey, Austin
+768
+RECRUIT OFFIC
+PATROL
+EXONERATED
+NONE
+No
+Officer #
+2
+Wooten, Jordan G
+713
+RECRUIT OFFIC
+PATROL
+EXONERATED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+12/21/2019
+19-10
+OLMSTEAD, KEVIN
+No
+Formal
+COUNTRY FAIR DR AT SPRINGFIELD
+EXONERATED
+Yes
+12/23/2019
+Citizen
+AVE
+6/18/2020
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+A, Champaign IL 61822
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+Wrong Action by Employee
+EXONERATED
+Complaint #
+2
+R-3B COURTESY
+HARASSMENT
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Briceno-Garcia, Isidro
+789
+RECRUIT OFFIC
+PATROL
+EXONERATED
+Pending
+Yes
+Officer #
+2
+Davis, Andre
+919
+SERGEANT
+PATROL
+EXONERATED
+Pending
+No
+Officer #
+3
+Hobson, James
+7744
+RECRUIT OFFIC
+PATROL
+EXONERATED
+Pending
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 67 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/3/2020
+20-II02
+OLMSTEAD, KEVIN
+No
+Admin Review
+116 N Buchanan, Monticello, IL
+UNFOUNDED
+No
+1/29/2020
+Internal
+11/6/2020
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+82 East University Avenue, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+Poor Judgement
+UNFOUNDED
+Complaint #
+2
+R-1A1 CONDUCT GENERALLY
+Poor Judgement
+UNFOUNDED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Eisenbart, Ashley
+7120
+OFFICER
+PATROL
+UNFOUNDED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/24/2020
+20-A001
+PETRILLI, THOMAS
+No
+Inquiry
+1900 Melrose Dr
+NOT SUSTAINED
+No
+1/21/2020
+Internal
+3/31/2020
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+82 E University Ave, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1D DEVOTING FULL TIME ATTENTION TO DUTY
+Wrong Action by Employee
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Rice, Caleb
+7751
+RECRUIT OFFIC
+PATROL
+NOT SUSTAINED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+1/30/2020
+20-II07
+THOMPSON, KATHERINE
+No
+Admin Review
+826 Chickory Drive
+Pending
+Yes
+9/1/2020
+Internal
+Body Camera
+Complainant
+DOB
+4
+Gender
+MALE
+Address
+826 Chickory Drive, Champaign IL 61821
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Repp, Adam
+7705
+RECRUIT OFFIC
+Field Operations
+Pending
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/5/2020
+20-A002
+OLMSTEAD, KEVIN
+No
+Inquiry
+1510 Lincolnshire Drive
+EXONERATED
+Yes
+2/6/2020
+Internal
+2/21/2020
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 POOR JUDGEMENT
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Pesavento, Kevin
+7795
+RECRUIT OFFIC
+PATROL
+EXONERATED
+Pending
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 68 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+2/28/2020
+20-A004
+KRAUEL, BRAD
+No
+Inquiry
+306 W. Green St.
+EXONERATED
+No
+3/5/2020
+Citizen
+3/9/2020
+N/A
+Complainant
+DOB
+1
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+Discourteous Conduct; Wrong Action
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Canales, Jeremiah J.
+715
+Senior OFFICER
+INVESTIGATION
+EXONERATED
+TRAINING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/6/2020
+20-A003
+OLMSTEAD, KEVIN
+No
+Inquiry
+John/Randolph
+NOT SUSTAINED
+No
+3/7/2020
+Citizen
+5/21/2020
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-5A3 OPERATIONS
+FAILED TO TAKE APPROPRIATE ACTIO
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+No Officers Entered
+Not Stated
+Not Stated
+NOT SUSTAINED
+Not Stated
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/8/2020
+20-02
+Manzana, Greg
+No
+Formal
+800 S. Mattis Ave. Apt. D3
+SUSTAINED
+Yes
+3/18/2020
+Citizen
+8/23/2020
+Body Camera
+Complainant
+DOB
+3
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-2A COMMUNICATION
+TRUTHFULNESS
+FAILURE TO DOCUMENT EVIDENCE
+SUSTAINED
+Complaint #
+2
+R-3B COURTESY
+Discourteous Conduct
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Lebeau, Clinton
+777
+RECRUIT OFFIC
+PATROL
+SUSTAINED
+Pending
+Yes
+Officer #
+2
+Tatum, Jonathan
+746
+OFFICER
+PATROL
+SUSTAINED
+Pending
+Yes
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/11/2020
+20-01
+Manzana, Greg
+No
+Formal
+Not Stated
+Transferred to 20-II
+Yes
+Priority
+3/11/2020
+Internal
+3/27/2020
+Body Camera
+Complainant
+DOB
+Gender
+Address
+Not Stated IL Unk
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Voges, Mason
+785
+OFFICER
+Field Operations
+Transferred to 20-II0
+Pending
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 69 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/11/2020
+20-II03
+Manzana, Greg
+No
+Formal
+304 E. Hill St.
+SUSTAINED
+Yes
+3/16/2020
+Citizen
+10/28/2020
+Body Camera
+Complainant
+DOB
+Gender
+MALE
+Address
+Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct
+SUSTAINED
+Complaint #
+2
+R-5A3 OPERATIONS
+FAILED TO TAKE APPROPRIATE ACTIO
+SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Voges, Mason
+785
+OFFICER
+Field Operations
+SUSTAINED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/16/2020
+20-II04
+OLMSTEAD, KEVIN
+No
+Admin Review
+Not Stated
+NOT SUSTAINED
+No
+4/6/2020
+Internal
+8/23/2020
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+MALE
+Address
+82 East University Avenue, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+Multiple rules
+Failed to obey order
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Fisher, Kaitlin M.
+7125
+DETECTIVE
+PATROL
+NOT SUSTAINED
+NONE
+No
+Officer #
+2
+Henry, Marshall
+7111
+OFFICER
+INVESTIGATION
+NOT SUSTAINED
+NONE
+No
+Officer #
+3
+Krippel, Nicholas a.
+790
+OFFICER
+INVESTIGATION
+NOT SUSTAINED
+NONE
+No
+Officer #
+4
+Sebestik, Edward
+793
+OFFICER
+PATROL
+NOT SUSTAINED
+NONE
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/18/2020
+20-A005
+OLMSTEAD, KEVIN
+No
+Inquiry
+82 E UNIVERSITY AVE
+EXONERATED
+Yes
+3/23/2020
+Citizen
+5/14/2020
+Body Camera
+Complainant
+DOB
+Gender
+MALE
+Address
+IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+BILLINGSLEY, CALEB
+7704
+RECRUIT OFFIC
+PATROL
+EXONERATED
+Pending
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 70 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/6/2020
+20-03
+OLMSTEAD, KEVIN
+No
+Formal
+1108 N SIXTH STREET
+Pending
+Yes
+4/10/2020
+Citizen
+Body Camera
+Complainant
+DOB
+Gender
+MALE
+Address
+Street, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A CONDUCT GENERALLY
+Discourteous Conduct
+Pending
+Complaint #
+2
+R-1B1 FAMILIARITY WITH DEPT OPERATIONAL STAN
+Poor Judgement
+Pending
+Complaint #
+3
+R-3B COURTESY
+Discourteous Conduct
+Pending
+Complaint #
+4
+R-3D COMPLAINT PROCESS
+FAILED TO TAKE APPROPRIATE ACTIO
+Pending
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Buckley, Kurt
+907
+SERGEANT
+PATROL
+Pending
+Pending
+No
+Officer #
+2
+CARPENTER, LANCE
+7747
+RECRUIT OFFIC
+PATROL
+Pending
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/8/2020
+20-06
+OLMSTEAD, KEVIN
+No
+Formal
+711 West Hill Street
+NOT SUSTAINED
+Yes
+6/7/2020
+Citizen
+10/6/2020
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+reddy, ganesh k.
+771
+Senior
+Officer
+Field Operations
+NOT SUSTAINED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+4/21/2020
+20-04
+OLMSTEAD, KEVIN
+No
+Formal
+509 West Clark Street
+Pending
+Yes
+4/23/2020
+Citizen
+10/20/2020
+Body Camera
+Complainant
+DOB
+Gender
+MALE
+Address
+Street, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+Poor Judgement
+EXONERATED
+Complaint #
+2
+R-1A2 CONDUCT GENERALLY
+Poor Judgement
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Griffet, David I.
+914
+SERGEANT
+Operations Supp
+Pending
+Pending
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 71 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/24/2020
+20-II05
+OLMSTEAD, KEVIN
+No
+Admin Review
+820 BLOOMINGTON ROAD
+Pending
+Yes
+5/24/2020
+Body Camera
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+82 E University Avenue, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-5A3 OPERATIONS
+FAILED TO TAKE APPROPRIATE ACTIO
+Pending
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Briceno-Garcia, Isidro
+789
+RECRUIT OFFIC
+PATROL
+Pending
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+5/31/2020
+20-05
+OLMSTEAD, KEVIN
+No
+Formal
+2113 N PROSPECT
+EXONERATED
+Yes
+6/4/2020
+Citizen
+10/5/2020
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Danville IL 61832
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct
+UNFOUNDED
+Complaint #
+2
+R-5A3 OPERATIONS
+Discourteous Conduct; Wrong Action
+EXONERATED
+Complaint #
+3
+R-5D Use of physical force
+Excessive Force
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Lack, Aaron V.
+920
+SERGEANT
+Field Operations
+EXONERATED
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/9/2020
+20-07
+THOMPSON, KATHERINE
+No
+Formal
+910 Newcastle Drive
+Pending
+Yes
+7/13/2020
+Citizen
+Body Camera
+Complainant
+DOB
+Gender
+MALE
+Address
+2, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 POOR JUDGEMENT
+FAILED TO TAKE APPROPRIATE ACTIO
+Pending
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+McElwee, Molly J
+784
+RECRUIT OFFIC
+PATROL
+Pending
+Pending
+No
+Officer #
+2
+Nickell, John P.
+7121
+OFFICER
+PATROL
+Pending
+Pending
+No
+Officer #
+3
+Pesavento, Kevin
+7795
+OFFICER
+PATROL
+Pending
+Pending
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 72 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/14/2020
+20-08
+NEWELL, BEN
+No
+Formal
+82 E UNIVERSITY AVE
+Pending
+Yes
+7/16/2020
+Citizen
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Street, Philo IL 61864
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B COURTESY
+Discourteous Conduct
+Pending
+Complaint #
+2
+R-5A3 OPERATIONS
+FAILED TO TAKE APPROPRIATE ACTIO
+Pending
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+McDonald, Philip
+781
+Senior
+Officer
+Field Operations
+Pending
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+7/25/2020
+20-II06
+OLMSTEAD, KEVIN
+No
+Fact Finding
+Not Stated
+Pending
+No
+Internal
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+82 East University Avenue, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+Pending
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Griffet, Danielle J.
+7755
+OFFICER
+PATROL
+Pending
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+8/31/2020
+20-13
+CRANE, MATTHEW
+No
+Formal
+620 West Hill Street
+Pending
+No
+11/3/2020
+Citizen
+N/A
+Complainant
+DOB
+0
+Gender
+FEMAL
+Address
+622 West Hill Street, Champaign IL 61820
+H Phone
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Ward, Daniel W.
+767
+OFFICER
+Field Operations
+Pending
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/7/2020
+20-10
+LIBE, JOHN
+No
+Formal
+LYNN STREET AT CHARLES STREET
+Pending
+Yes
+9/14/2020
+Citizen
+Body Camera
+Complainant
+DOB
+Gender
+MALE
+Address
+Street, Champaign IL 61820
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A2 POOR JUDGEMENT
+Discourteous Conduct; Wrong Action
+Pending
+Complaint #
+2
+R-1A2 POOR JUDGEMENT
+FAILED TO TAKE APPROPRIATE ACTIO
+Pending
+Complaint #
+3
+R-3B COURTESY
+Discourteous Conduct; Wrong Action
+Pending
+Complaint #
+4
+R-5A3 OPERATIONS
+FAILURE TO DOCUMENT EVIDENCE
+Pending
+Complaint #
+5
+R-5A3 OPERATIONS
+Wrong Action by Employee
+Pending
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Broadnax, Jherion
+7756
+RECRUIT OFFIC
+PATROL
+Pending
+Pending
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+26 AM
+Page 73 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/17/2020
+20-II08
+HENSON, MATT
+No
+Admin Review
+82 E UNIVERSITY AVE
+Pending
+No
+Internal
+N/A
+Complainant
+Anthony Cobb
+DOB
+Gender
+Address
+82 E University Avenue, Champaign IL 61820
+H Phone
+(217) 351-4545
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+Pending
+Complaint #
+2
+R-3A.2 INSUBORDINATION
+Pending
+Complaint #
+3
+R-3B.1 Courtesy
+Pending
+Complaint #
+4
+R-4A USE OF PROPERTY GENERALLY
+Pending
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Henry, Marshall
+7111
+OFFICER
+INVESTIGATION
+Pending
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+9/27/2020
+20-11
+NEWELL, BEN
+No
+Formal
+Neil St at Fox Dr
+Pending
+Yes
+10/16/2020
+Citizen
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Urbana IL 61801
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-2A COMMUNICATION
+TRUTHFULNESS
+DOCUMENTED FALSE INFORMATION
+Pending
+Complaint #
+2
+R-2A.1 POOR REPORT
+INCORRECTLY DOCUMENTED INFORM
+Pending
+Complaint #
+3
+R-2A.1 POOR REPORT
+INCORRECTLY DOCUMENTED INFORM
+Pending
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Reilly, Kyle P.
+721
+RECRUIT OFFIC
+PATROL
+Pending
+Pending
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+10/10/2020
+20-12
+OLMSTEAD, KEVIN
+No
+Formal
+1612 Glen Burnie
+Pending
+Yes
+10/16/2020
+Citizen
+Body Camera
+Complainant
+DOB
+Gender
+FEMAL
+Address
+Drive, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-1A1 CONDUCT GENERALLY
+FAILED TO TAKE APPROPRIATE ACTIO
+Pending
+Complaint #
+2
+R-3B.1 Courtesy
+Discourteous Conduct
+Pending
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Kaldahl, Erik
+733
+OFFICER
+PATROL
+Pending
+Pending
+No
+269
+Different Complaints
+125
+Different Officers Involved
+48
+Different Complaint Issues
+534
+Totals Entries (Officers and Complaints Alleged)
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+27 AM

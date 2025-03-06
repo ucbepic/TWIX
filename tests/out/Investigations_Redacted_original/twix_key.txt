@@ -1,0 +1,32 @@
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+Complainant
+DOB
+Gender
+Address
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+MULTIPLE OFFICERS/EMPLOY
+NOT STATED
+NOT ENTERED
+Complaint #

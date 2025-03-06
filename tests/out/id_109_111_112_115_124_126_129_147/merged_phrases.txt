@@ -1,0 +1,1648 @@
+Print Date
+10/08/20 11
+45
+14
+Page
+1 of
+6
+ORDER
+Orders
+Order / Rev
+756294
+Alt Order #
+WOC12672243
+Product Desc
+Candidate
+Estimate
+932
+KTVQ
+Flight Dates
+09/30/20 - 10/06/20
+Primary AE
+John Mitzel
+Original Date / Rev
+10/08/20 / 10/08/20
+Sales Office
+N-BIL
+Order Type
+GENERAL
+Sales Region
+NAT
+Agency
+Name
+FP1 Strategies LLC
+Buying Contact
+Billing Type
+Cash
+Billing Contact
+Billing Calendar
+Broadcast
+3001 Washington Blvd, 7th Floor
+Billing Cycle
+EOM/EOC
+Arlington, VA 22201
+Agency Commission
+15%
+Advertiser
+Name
+Daines/Republican/US Senate
+Demographic
+A35+
+New Business Thru
+Product Codes
+PL Federal Candidate
+Advertiser External ID
+260486
+Revenue Code 1
+DISC
+Agency External ID
+142532
+Revenue Code 2
+POL
+Unit Code
+General
+Revenue Code 3
+CAND
+Order Separation
+00
+10
+00
+Priority
+DEF
+Bill Plan
+Totals
+Start Date
+End Date
+# Spots
+Gross Amount
+Net Amount
+Month
+# Spots
+Gross Amount
+Net Amount
+Rating
+09/28/20
+10/06/20
+87
+$35,120.00
+$29,852.00
+October 2020
+87
+$35,120.00
+$29,852.00
+500.05
+Totals
+87
+$35,120.00
+$29,852.00
+500.05
+Account Executives
+Account Executive
+Sales Office
+Sales Region
+Start Date / End Date
+Order %
+John Mitzel
+N-BIL
+NAT
+Start Of Order - End Of Order
+100%
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+1
+KTVQ
+09/30/20
+10/06/20
+M-F 530-7am
+CM
+5
+30 AM-7
+00 AM 22222--
+30
+10
+$150.00P-3
+4.00 NM
+10
+$1,500.00
+M-F 530-7am
+(Program
+MONTANA-MORN-2<)210094 Index
+116. Nielsen
+4.0
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+22222--
+10
+$150.00
+4.00
+2
+KTVQ
+09/30/20
+10/06/20
+M-F CBS This Morning CM
+7
+00 AM-9
+00 AM 22222--
+30
+10
+$325.00P-2
+5.40 NM
+10
+$3,250.00
+M-F CBS This Morning
+(Program
+CBS THS MRNG-2<)210094 Index
+111. Nielsen
+5.4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+22222--
+10
+$325.00
+5.40
+3
+KTVQ
+09/30/20
+10/03/20
+Sa CBS This Morning
+CM
+6
+00 AM-8
+00 AM -----1-
+30
+1
+$140.00P-2
+2.40 NM
+0
+$0.00
+Sa CBS This Morning
+(Program
+CBS SAT MORN)210094 Index
+98. Nielsen
+2.4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+-----1-
+1
+$140.00
+2.40
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/28/20-10/04/20Sa CBS This Morning
+6
+00 AM-8
+00 AM
+------Sa--
+30
+($140.00)
+2.40
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[preempted by a candidate with higher rate and priority EA 10/01]
+4
+KTVQ
+09/30/20
+10/04/20
+CBS Sunday Morning
+CM
+7
+00 AM-8
+30 AM ------1
+30
+1
+$300.00P-2
+5.06 NM
+0
+$0.00
+CBS Sunday Morning
+(Program
+CBS SUN MORN)210094 Index
+119. Nielsen
+5.1
+Print Date
+10/08/20 11
+45
+14
+Page
+2 of
+6
+Order / Rev
+756294
+Advertiser
+Daines/Republican/US Senate
+Alt Order #
+WOC12672243
+Product Desc
+Candidate
+KTVQ
+Flight Dates
+09/30/20 - 10/06/20
+Estimate
+932
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$300.00
+5.06
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/28/20-10/04/20CBS Sunday Morning
+7
+00 AM-8
+30 AM
+--------Su
+30
+($300.00)
+5.06
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[NA at order entry for P-2 tg]
+5
+KTVQ
+09/30/20
+10/04/20
+Face The Nation
+CM
+8
+30 AM-9
+30 AM ------1
+30
+1
+$200.00P-2
+3.10 NM
+0
+$0.00
+Face The Nation
+(Program
+FACE NATN-CBS/FACE NATN2-CBS)210094 Index
+118. Nielsen
+3.1
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$200.00
+3.10
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/28/20-10/04/20Face The Nation
+8
+30 AM-9
+30 AM
+--------Su
+30
+($200.00)
+3.10
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[spots schedule are same or higher candidate spot EA 10/01]
+N 6
+KTVQ
+09/30/20
+10/06/20
+M-F 10-11am
+CM
+10
+00 AM-11
+00 AM11111--
+30
+5
+$250.00P-1
+3.50 NM
+1
+$250.00
+Let's Make a Deal
+(Program
+LETS MAKE A DEAL)210094 Index
+106. Nielsen
+3.5
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$250.00
+3.50
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/30/20-10/06/20M-F 10-11am
+10
+00 AM-11
+00 AM
+MTWThF----
+30
+($250.00)
+3.50
+NM
+See MG 16.2
+[PRE EMPT DUE TO OVERSOLD FG 9.18]
+2 KTVQ09/30/20-10/06/20M-F 10-11am
+10
+00 AM-11
+00 AM
+MTWThF----
+30
+($250.00)
+3.50
+NM
+See MG 16.2
+[PRE EMPT DUE TO OVERSOLD FG 9.18]
+4 KTVQ09/30/20-10/06/20M-F 10-11am
+10
+00 AM-11
+00 AM
+MTWThF----
+30
+($250.00)
+3.50
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[PRE EMPT DUE TO N/A FG 9.25]
+5 KTVQ09/30/20-10/06/20M-F 10-11am
+10
+00 AM-11
+00 AM
+MTWThF----
+30
+($250.00)
+3.50
+NM
+Credited
+[Credit for MGs]
+7
+KTVQ
+09/30/20
+10/06/20
+M-F 12pm News
+CM
+12
+00 PM-12
+30 PM11111--
+30
+5
+$250.00P-2
+6.10 NM
+5
+$1,250.00
+M-F 12pm News
+(12
+00 PM-12
+30 PM)
+(Program
+NOON NEWS<)210094 Index
+118. Nielsen
+6.1
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$250.00
+6.10
+N 8
+KTVQ
+09/30/20
+10/06/20
+M-F 2-3pm
+CM
+2
+00 PM-3
+00 PM 11111--
+30
+5
+$50.00P-3
+1.30 NM
+4
+$200.00
+M-F 2-3pm
+(Program
+DREW BARRYMORE)210094 Index
+113. Nielsen
+1.3
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$50.00
+1.30
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+4 KTVQ09/30/20-10/06/20M-F 2-3pm
+2
+00 PM-3
+00 PM
+MTWThF----
+30
+($50.00)
+1.30
+NM
+Credited
+[Credit for MGs]
+9
+KTVQ
+09/30/20
+10/06/20
+M-F 3-4pm
+CM
+3
+00 PM-4
+00 PM 11111--
+30
+5
+$50.00P-3
+1.80 NM
+5
+$250.00
+M-F 3-4pm
+(Program
+KELLY CLARKSON)210094 Index
+113. Nielsen
+1.8
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$50.00
+1.80
+N10 KTVQ
+09/30/20
+10/06/20
+M-F 4-5pm
+CM
+4
+00 PM-5
+00 PM 11111--
+30
+5
+$100.00P-3
+2.90 NM
+2
+$200.00
+M-F 4-5pm
+(Program
+DR. PHIL)210094 Index
+115. Nielsen
+2.9
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$100.00
+2.90
+Print Date
+10/08/20 11
+45
+14
+Page
+3 of
+6
+Order / Rev
+756294
+Advertiser
+Daines/Republican/US Senate
+Alt Order #
+WOC12672243
+Product Desc
+Candidate
+KTVQ
+Flight Dates
+09/30/20 - 10/06/20
+Estimate
+932
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$100.00
+2.90
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/30/20-10/06/20M-F 4-5pm
+4
+00 PM-5
+00 PM
+MTWThF----
+30
+($100.00)
+2.90
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[preempted by a higher rate and priority spot EA 9/29]
+4 KTVQ09/30/20-10/06/20M-F 4-5pm
+4
+00 PM-5
+00 PM
+MTWThF----
+30
+($100.00)
+2.90
+NM
+Credited
+[Credit for MGs]
+5 KTVQ09/30/20-10/06/20M-F 4-5pm
+4
+00 PM-5
+00 PM
+MTWThF----
+30
+($100.00)
+2.90
+NM
+Credited
+[Credit for MGs]
+11 KTVQ
+09/30/20
+10/06/20
+M-F 530pm News
+CM
+5
+30 PM-6
+00 PM 11111--
+30
+5
+$1,100.00P-2
+15.00 NM
+5
+$5,500.00
+M-F 530pm News
+(Program
+5.30 NEWS)210094 Index
+125. Nielsen
+15.0
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$1,100.00
+15.00
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+4 KTVQ09/30/20-10/06/20M-F 530pm News
+5
+30 PM-6
+00 PM
+MTWThF----
+30($1,100.00)15.00
+NM
+See MG 11.6
+6 KTVQ10/05/20-10/05/20EN - Local News Special
+4-430pm
+M---------
+30
+$1,100.0015.00
+NM
+MG for 11.4 10/05
+[Moved with Program due to last minute CBS NFL Game added. ]
+N12 KTVQ
+09/30/20
+10/04/20
+Su 530pm News
+CM
+5
+30 PM-6
+00 PM ------1
+30
+1
+$850.00P-2
+13.38 NM
+0
+$0.00
+Su 530pm News
+(Program
+SUN 5
+30 NEWS)210094 Index
+123. Nielsen
+13.4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$850.00
+13.38
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/28/20-10/04/20Su 530pm News
+5
+30 PM-6
+00 PM
+--------Su
+30
+($850.00)13.38
+NM
+Credited
+[Credit for MGs]
+13 KTVQ
+09/30/20
+10/06/20
+M-F 6-630pm
+CM
+6
+00 PM-6
+30 PM 11111--
+30
+5
+$600.00P-2
+11.30 NM
+4
+$2,400.00
+Jeopardy
+(Program
+JEOPARDY)210094 Index
+122. Nielsen
+11.3
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$600.00
+11.30
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+4 KTVQ09/30/20-10/06/20M-F 6-630pm
+6
+00 PM-6
+30 PM
+MTWThF----
+30
+($600.00)11.30
+NM
+See MG 14.12
+[preempted by a P1 candidate spot EA 10/02]
+N14 KTVQ
+09/30/20
+10/06/20
+M-F 630-7pm
+CM
+6
+30 PM-7
+00 PM 11111--
+30
+5
+$600.00P-2
+11.00 NM
+8
+$5,500.00
+Wheel of Fortune
+(Program
+WHEEL-FORTNE)210094 Index
+119. Nielsen
+11.0
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$600.00
+11.00
+Print Date
+10/08/20 11
+45
+14
+Page
+4 of
+6
+Order / Rev
+756294
+Advertiser
+Daines/Republican/US Senate
+Alt Order #
+WOC12672243
+Product Desc
+Candidate
+KTVQ
+Flight Dates
+09/30/20 - 10/06/20
+Estimate
+932
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$600.00
+11.00
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+3 KTVQ09/30/20-10/06/20M-F 630-7pm
+6
+30 PM-7
+00 PM
+MTWThF----
+30
+($600.00)11.00
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[preempted by a higher political candidate rate and priority EA 10/01]
+4 KTVQ09/30/20-10/06/20M-F 630-7pm
+6
+30 PM-7
+00 PM
+MTWThF----
+30
+($600.00)11.00
+NM
+See MG 14.12
+6 KTVQ09/30/20-10/06/20M-F 630-7pm
+6
+30 PM-7
+00 PM
+MTWThF----
+30($1,200.00)11.00
+NM
+See MG 14.11
+7 KTVQ09/28/20-10/04/20Sa CBS This Morning
+6
+00 AM-8
+00 AM
+------Sa--
+30
+$300.00
+2.40
+NM
+MG for 16.2,5.1,3.1,14.3,4.1,10.1,6.4
+8 KTVQ09/30/20-10/06/20M-F 4-5pm
+4
+00 PM-5
+00 PM
+MTWThF----
+30
+($500.00)
+2.90
+NM
+Credited
+[Credit for MGs]
+9 KTVQ09/28/20-10/04/20Face The Nation
+8
+30 AM-9
+30 AM
+--------Su
+30
+$400.00
+3.10
+NM
+MG for 16.2,5.1,3.1,14.3,4.1,10.1,6.4
+10 KTVQ09/28/20-10/04/20CBS Sunday Morning
+7
+00 AM-8
+30 AM
+--------Su
+30
+$600.00
+5.06
+NM
+MG for 16.2,5.1,3.1,14.3,4.1,10.1,6.4
+11 KTVQ10/05/20-10/05/20Prime Non Net 2
+930-10pm
+M---------
+30
+$1,200.0011.00
+NM
+MG for 14.6 10/05
+[Moved with Program due to last minute CBS NFL Game added. ]
+12 KTVQ09/30/20-10/06/20Monday Prime C
+9
+30 PM-10
+01 P(M9
+30 PM-10
+01 PMM--)-------
+30($1,200.00)11.00
+NM
+See MG 14.14
+13 KTVQ10/05/20-10/05/20Prime Non Net 2
+930-10pm
+M---------
+30
+$1,200.0011.00
+NM
+MG for 14.12 10/05
+[correcting inv code]
+14 KTVQ09/30/20-10/06/20Prime Non Net 2
+930-10pm
+M---------
+30($1,200.00)11.00
+NM
+Credited
+[accidentally mgd wrong spot]
+15 KTVQ
+09/30/20
+09/30/20
+Wednesday Prime A
+CM
+7
+00 PM-8
+00 PM --1----
+30
+1
+$1,200.00P-2
+8.30 NM
+1
+$1,200.00
+Wednesday Prime A
+(Program
+AMAZING RACE)210094 Index
+121. Nielsen
+8.3
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+--1----
+1
+$1,200.00
+8.30
+16 KTVQ
+09/30/20
+10/01/20
+Thursday Prime B
+CM
+8
+00 PM-9
+00 PM ---1---
+30
+1
+$1,000.00P-2
+7.80 NM
+0
+$0.00
+Thursday Prime B
+(Program
+MOM-ENC-CBS/BROKE-CBS)210094 Index
+122. Nielsen
+7.8
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+---1---
+1
+$1,000.00
+7.80
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+1 KTVQ09/28/20-10/04/20Thursday Prime B
+8
+00 PM-9
+00 PM
+---Th-----
+30($1,000.00)
+7.80
+NM
+See MG 16.2
+[PRE EMPT DUE TO N/A FG 9.18]
+2 KTVQ09/28/20-10/04/20General Election Debate
+General Election Debate
+---Th-----
+30($1,500.00)
+7.80
+NM
+See MG 14.6,14.7,14.8,14.9,14.10
+[General debate not schedule on this day EA 9/30]
+17 KTVQ
+09/30/20
+10/02/20
+Friday Prime B
+CM
+8
+00 PM-9
+00 PM ----1--
+30
+1
+$1,250.00P-2
+6.60 NM
+1
+$1,250.00
+Friday Prime B
+(Program
+MAGNUMPI)210094 Index
+118. Nielsen
+6.6
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+----1--
+1
+$1,250.00
+6.60
+18 KTVQ
+09/30/20
+10/02/20
+Friday Prime C
+CM
+9
+00 PM-10
+00 PM----1--
+30
+1
+$1,300.00P-2
+6.80 NM
+1
+$1,300.00
+Friday Prime C
+(Program
+BLUE BLOODS)210094 Index
+120. Nielsen
+6.8
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+----1--
+1
+$1,300.00
+6.80
+19 KTVQ
+09/30/20
+10/03/20
+Saturday Prime C
+CM
+9
+00 PM-10
+00 PM-----1-
+30
+1
+$300.00P-3
+5.50 NM
+1
+$300.00
+Saturday Prime C
+(Program
+48HOUR-ENC-CBS)210094 Index
+115. Nielsen
+5.5
+Print Date
+10/08/20 11
+45
+15
+Page
+5 of
+6
+Order / Rev
+756294
+Advertiser
+Daines/Republican/US Senate
+Alt Order #
+WOC12672243
+Product Desc
+Candidate
+KTVQ
+Flight Dates
+09/30/20 - 10/06/20
+Estimate
+932
+Ln
+Ch
+Start
+End
+Inventory Code
+Break
+Start/End Time
+Days
+Len
+Spots
+Rate
+Pri
+RtgType Spots
+Amount
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+-----1-
+1
+$300.00
+5.50
+20 KTVQ
+09/30/20
+10/04/20
+Sunday Prime A
+CM
+6
+00 PM-7
+00 PM ------1
+30
+1
+$3,250.00P-1
+12.10 NM
+1
+$3,250.00
+Sunday Prime A
+(Program
+60 MINUTES-CBS)210094 Index
+122. Nielsen
+12.1
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$3,250.00
+12.10
+21 KTVQ
+09/30/20
+10/04/20
+Sunday Prime B
+CM
+7
+00 PM-8
+00 PM ------1
+30
+1
+$1,000.00P-2
+7.40 NM
+1
+$1,000.00
+Sunday Prime B
+(Program
+EQUILIZER)210094 Index
+124. Nielsen
+7.4
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$1,000.00
+7.40
+N22 KTVQ
+09/30/20
+10/06/20
+M-F 10pm News
+CM
+10
+00 PM-10
+30 PM11111--
+30
+5
+$575.00P-3
+10.60 NM
+4
+$2,300.00
+M-F 10pm News
+(Program
+10.00 NEWS)210094 Index
+126. Nielsen
+10.6
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$575.00
+10.60
+Spot
+ChDate Range
+Description
+Start/End Time
+Weekdays
+Length
+Rate
+Rtg
+Type
+5 KTVQ09/30/20-10/06/20M-F 10pm News
+10
+00 PM-10
+30 PM
+MTWThF----
+30
+($575.00)10.60
+NM
+Credited
+[Credit for MGs]
+23 KTVQ
+09/30/20
+10/03/20
+Sa 10pm News
+CM
+10
+00 PM-10
+30 PM-----1-
+30
+1
+$600.00P-2
+10.30 NM
+1
+$600.00
+Sa 10pm News
+(Program
+SAT 10 NEWS)210094 Index
+123. Nielsen
+10.3
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+-----1-
+1
+$600.00
+10.30
+24 KTVQ
+09/30/20
+10/04/20
+Su 10pm News
+CM
+10
+00 PM-10
+30 PM------1
+30
+1
+$500.00P-3
+10.30 NM
+1
+$500.00
+Su 10pm News
+(Program
+SUN 10 NEWS)210094 Index
+125. Nielsen
+10.3
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$500.00
+10.30
+25 KTVQ
+09/30/20
+10/06/20
+M-F 1035-1137pm
+CM
+10
+30 PM-11
+30 PM22222--
+30
+10
+$160.00P-2
+3.70 NM
+10
+$1,600.00
+The Late Show
+(Program
+COLBERT)210094 Index
+121. Nielsen
+3.7
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+22222--
+10
+$160.00
+3.70
+26 KTVQ
+09/30/20
+10/06/20
+M-F 1137pm-1237am
+CM
+11
+30 PM-12
+30 XM11111--
+30
+5
+$50.00P-3
+1.20 NM
+5
+$250.00
+The Late Late Show
+(Program
+LT-CORDEN-CBS<)210094 Index
+120. Nielsen
+1.2
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/30/20
+10/06/20
+11111--
+5
+$50.00
+1.20
+27 KTVQ
+09/30/20
+10/03/20
+Sa 1035-1135pm
+CM
+1035-1135pm
+-----1-
+30
+1
+$50.00P-3
+4.00 NM
+1
+$50.00
+Sa 1035-1135pm
+(Program
+IN DEPTH W GB)210094 Index
+117. Nielsen
+4.0
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+-----1-
+1
+$50.00
+4.00
+28 KTVQ
+09/30/20
+10/03/20
+Sa 1135pm-1235am
+CM
+1135pm-1235am
+-----1-
+30
+1
+$30.00P-3
+1.60 NM
+1
+$30.00
+Sa 1135pm-1235am
+(Program
+NCIS
+NEW ORLNS)210094 Index
+110. Nielsen
+1.6
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+-----1-
+1
+$30.00
+1.60
+29 KTVQ
+09/30/20
+10/04/20
+Su 1035-11pm
+CM
+10
+30 PM-11
+00 PM------1
+30
+1
+$50.00P-3
+4.10 NM
+1
+$50.00
+Su 1035-1105pm
+(Program
+RACE, THE)210094 Index
+117. Nielsen
+4.1
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$50.00
+4.10
+30 KTVQ
+09/30/20
+10/04/20
+Su 1105-1205am
+CM
+11
+00 PM-12
+00 XM------1
+30
+1
+$40.00P-3
+1.69 NM
+1
+$40.00
+Su 1105pm-1205am
+(Program
+MADAM SECRETRY)210094 Index
+115. Nielsen
+1.7
+Start Date
+End Date
+Weekdays
+Spots/Week
+Rate
+Rating
+Week
+09/28/20
+10/04/20
+------1
+1
+$40.00
