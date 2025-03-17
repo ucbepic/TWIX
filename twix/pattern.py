@@ -896,12 +896,13 @@ def ILP_formulation(row_mp, row_labels, Calign):
     return row_pred_labels
 
 def block_seperation(rls, row_align):
-    blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
-    blk_type = {}#store the name per block: bid-> type of block
+    #rls: row_id -> row label, the node_id is relative index, starting from 0
+    blk = {}  # bid -> a list of row id
+    blk_type = {}  # store the name per block: bid-> type of block
     bid = 0
-    row_2_blk = {} #row id -> blk type
+    row_2_blk = {}  # row id -> blk type
 
-    #merge consecutive kv pairs into one kv block 
+    # merge consecutive kv pairs into one kv block 
 
     for id, label in rls.items():
         if(label == 'K'):
@@ -912,7 +913,7 @@ def block_seperation(rls, row_align):
             bid += 1
         elif(label == 'V'):
             i = id - 1
-            while(i >= 0):#find the cloest aligned key row of row with index id 
+            while(i >= 0):  # find the cloest aligned key row of row with index id 
                 if(rls[i] == 'K' and row_align[(i, id)] == 1):
                     key_blk_id = row_2_blk[i]
                     blk[key_blk_id].append(id)
@@ -920,15 +921,20 @@ def block_seperation(rls, row_align):
                 i -= 1
         elif(label == 'KV'):
             if(id - 1 >= 0 and rls[id-1] != 'KV'):
+                # Initialize a new block if it doesn't exist
+                if bid not in blk:
+                    blk[bid] = []
+            # Initialize bid in blk if it doesn't exist
+            if bid not in blk:
                 blk[bid] = []
             blk[bid].append(id)
             blk_type[bid] = 'kv'
-            if(id + 1 < len(rls) and (rls[id+1] == 'K' or rls[id+1] == 'V')):#if next row is K or V, create a new block
+            if(id + 1 < len(rls) and (rls[id+1] == 'K' or rls[id+1] == 'V')):  # if next row is K or V, create a new block
                 bid += 1
 
 
     for bid, name in blk_type.items():
-        #if a table block only has one row, change it to be M
+        # if a table block only has one row, change it to be M
         if(name == 'table'):
             if(len(blk[bid]) == 1):
                 blk_type[bid] = 'metadata'

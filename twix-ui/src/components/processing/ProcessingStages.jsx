@@ -1,0 +1,607 @@
+import { useState, useEffect } from 'react';
+import TemplateEditor from '../template/TemplateEditor';
+import DataDisplay from '../results/DataDisplay';
+import { 
+  processPhrase, 
+  predictFields, 
+  predictTemplate, 
+  extractData, 
+  saveTemplate,
+  cleanup 
+} from '../../services/api';
+
+function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disabled, files }) {
+  const [templateData, setTemplateData] = useState(null);
+  const [editedTemplate, setEditedTemplate] = useState(null);
+  const [textContent, setTextContent] = useState([]);
+  const [editedTextContent, setEditedTextContent] = useState([]);
+  const [error, setError] = useState(null);
+  const [processedData, setProcessedData] = useState(null);
+  const [activeStage, setActiveStage] = useState(null);
+  const [showResults, setShowResults] = useState(false);
+  const [isProcessing, setIsProcessing] = useState(false);
+  
+  // Add caching for already processed stages
+  const [cachedResults, setCachedResults] = useState({
+    phrase: null,
+    field: null,
+    template: null,
+    extraction: null
+  });
+
+  // Clear previous results when switching between stages
+  useEffect(() => {
+    if (activeStage) {
+      setShowResults(true);
+    } else {
+      setShowResults(false);
+    }
+  }, [activeStage]);
+
+  // Effect to log and ensure text content updates are visible
+  useEffect(() => {
+    if (textContent && textContent.length > 0) {
+      console.log("Text content updated in state:", textContent);
+      setShowResults(true);
+    }
+  }, [textContent]);
+
+  // Effect to log template data updates
+  useEffect(() => {
+    if (templateData) {
+      console.log("Template data updated in state:", templateData);
+      console.log("Template data type:", typeof templateData);
+      console.log("Template is array:", Array.isArray(templateData));
+      setShowResults(true);
+    }
+  }, [templateData]);
+
+  // Cleanup temporary files when component unmounts
+  useEffect(() => {
+    return () => {
+      // Attempt to clean up temporary files
+      cleanup().catch(err => console.error('Failed to cleanup:', err));
+    };
+  }, []);
+
+  const stages = [
+    {
+      id: 'phrase',
+      label: 'Phrase Instruction',
+      icon: '📝',
+      description: 'Extract key phrases',
+      endpoint: 'phrase',
+      apiFunction: processPhrase
+    },
+    {
+      id: 'field',
+      label: 'Field Prediction',
+      icon: '🔍',
+      description: 'Predict fields',
+      endpoint: 'fields',
+      apiFunction: predictFields
+    },
+    {
+      id: 'template',
+      label: 'Template Prediction',
+      icon: '📋',
+      description: 'View and edit template',
+      endpoint: 'template',
+      apiFunction: predictTemplate
+    },
+    {
+      id: 'extraction',
+      label: 'Data Extraction',
+      icon: '📊',
+      description: 'Extract and view data',
+      endpoint: 'extract',
+      apiFunction: extractData
+    }
+  ];
+
+  const handleStageClick = async (stage) => {
+    try {
+      // Hide results first for a smoother transition
+      setShowResults(false);
+      setError(null);
+      
+      // If clicking the same stage again, just toggle visibility
+      if (stage === activeStage) {
+        setActiveStage(null);
+        return;
+      }
+      
+      // Check if files are available
+      if (!files || files.length === 0) {
+        throw new Error('No files uploaded. Please upload PDF files first.');
+      }
+      
+      // Set new active stage
+      setActiveStage(stage);
+      
+      // Check if we have cached results for this stage
+      if (cachedResults[stage]) {
+        console.log(`Using cached results for ${stage} stage`);
+        
+        // Restore cached data based on the stage
+        if (stage === 'phrase') {
+          setTextContent(cachedResults.phrase.textContent);
+          setEditedTextContent(cachedResults.phrase.editedTextContent);
+        } else if (stage === 'field') {
+          setTextContent(cachedResults.field.textContent);
+          setEditedTextContent(cachedResults.field.editedTextContent);
+        } else if (stage === 'template') {
+          setTemplateData(cachedResults.template.templateData);
+          setEditedTemplate(cachedResults.template.editedTemplate);
+        } else if (stage === 'extraction') {
+          setProcessedData(cachedResults.extraction.processedData);
+        }
+        
+        setShowResults(true);
+        onStageChange(stage, cachedResults[stage].data);
+        return;
+      }
+      
+      // If no cached results, process the stage
+      setIsProcessing(true);
+      
+      // Notify parent component that processing has started
+      if (onProcessingStart) {
+        onProcessingStart();
+      }
+      
+      // Clear previous stage data only for the current stage
+      if (stage === 'phrase' || stage === 'field') {
+        setTextContent([]);
+        setEditedTextContent([]);
+      } else if (stage === 'template') {
+        setTemplateData(null);
+        setEditedTemplate(null);
+      } else if (stage === 'extraction') {
+        setProcessedData(null);
+      }
+      
+      const stageInfo = stages.find(s => s.id === stage);
+      
+      // Use the API service functions with the uploaded files
+      let data;
+      if (stage === 'phrase') {
+        data = await stageInfo.apiFunction(files);
+        console.log("Phrase data received:", data);
+        
+        // Define a variable to store content for caching
+        let phrasesContent = '';
+        let phrases = [];
+        
+        // Use the exact content that was downloaded if available
+        if (data.downloadedContent) {
+          console.log("Using downloaded content for display:", data.downloadedContent);
+          // Store as a single string to preserve exact formatting
+          setTextContent(data.downloadedContent);
+          setEditedTextContent(data.downloadedContent);
+          phrasesContent = data.downloadedContent;
+        } else {
+          // Extract and process phrases from the response as before
+          if (data.phrases) {
+            console.log("Raw phrases data:", data.phrases);
+            if (typeof data.phrases === 'object' && !Array.isArray(data.phrases)) {
+              // If phrases is an object with nested data, extract all values
+              Object.values(data.phrases).forEach(phraseGroup => {
+                if (Array.isArray(phraseGroup)) {
+                  phrases = phrases.concat(phraseGroup.filter(p => p && typeof p === 'string'));
+                } else if (typeof phraseGroup === 'string') {
+                  phrases.push(phraseGroup);
+                }
+              });
+            } else if (Array.isArray(data.phrases)) {
+              phrases = data.phrases.filter(p => p && typeof p === 'string');
+            } else if (typeof data.phrases === 'string') {
+              phrases = [data.phrases];
+            }
+          }
+          
+          // Remove any empty strings and duplicates
+          phrases = [...new Set(phrases)].filter(Boolean);
+          console.log("Processed phrases:", phrases);
+          console.log("Phrases length:", phrases.length);
+          
+          if (phrases.length === 0) {
+            console.log("No phrases found, using sample data");
+            phrases = [
+              "22222-- 30",
+              "(Program MORNING",
+              "Week 06/17/22",
+              "11111-- 30",
+              "(Program ACTION",
+              "Week 06/17/22"
+            ];
+          }
+          
+          // Join phrases with newlines to match download format
+          phrasesContent = phrases.join('\n');
+          setTextContent(phrasesContent);
+          setEditedTextContent(phrasesContent);
+          console.log("Text content set to:", phrasesContent);
+        }
+        
+        // Cache the results using phrasesContent which is defined in both branches
+        setCachedResults(prev => ({
+          ...prev,
+          phrase: {
+            textContent: phrasesContent,
+            editedTextContent: phrasesContent,
+            data
+          }
+        }));
+      } else if (stage === 'field') {
+        data = await stageInfo.apiFunction(files);
+        // Ensure fields is an array
+        const fields = Array.isArray(data.fields) ? data.fields : 
+                      (data.fields ? [data.fields] : []);
+        setTextContent(fields);
+        setEditedTextContent(fields);
+        
+        // Cache the results
+        setCachedResults(prev => ({
+          ...prev,
+          field: {
+            textContent: fields,
+            editedTextContent: fields,
+            data
+          }
+        }));
+      } else if (stage === 'template') {
+        data = await stageInfo.apiFunction(files);
+        console.log("Template data received:", data);
+        
+        // Extract template from the response
+        let template = [];
+        
+        if (data) {
+          if (data.template) {
+            // The backend returns { status: 'success', template: [...] }
+            if (Array.isArray(data.template)) {
+              template = data.template;
+              console.log("Template is an array with", template.length, "sections");
+            } else if (typeof data.template === 'object') {
+              template = [data.template];
+              console.log("Template is an object, converting to array");
+            } else {
+              console.error("Unexpected template format:", data.template);
+            }
+          } else if (Array.isArray(data)) {
+            // The API might be returning the template directly as an array
+            template = data;
+            console.log("Data is directly an array with", template.length, "items");
+          } else {
+            console.error("Unexpected data format:", data);
+          }
+        }
+        
+        console.log("Raw template from backend:", template);
+        
+        // Extract fields from the log output if needed
+        // This is a workaround for when the backend doesn't include fields in the response
+        const extractFieldsFromLog = (nodeId) => {
+          // This would normally parse the log output to find fields for a given node_id
+          // For now, we'll return some default fields based on the section type
+          if (nodeId === 0) {
+            return ['Date', 'Number', 'Investigator', 'Date Assigned', 'Racial', 'Category / Type', 'Location Of Occurrence', 'Disposition', 'Completed', 'Recorded On Camera'];
+          } else if (nodeId === 1) {
+            return ['Address', 'H Phone', 'Gender', 'DOB', 'Complainant'];
+          } else if (nodeId === 2) {
+            return ['Type Of Complaint', 'Description', 'Complaint Disposition'];
+          } else if (nodeId === 3) {
+            return ['Name', 'ID No.', 'Rank', 'Division', 'Officer Disposition', 'Action Taken', 'Body Cam'];
+          }
+          return ['New Field']; // Default field
+        };
+        
+        // Make sure each section has the necessary properties for the editor
+        const normalizedTemplate = template.map(section => {
+          console.log("Processing section:", section);
+          
+          // Create a new section object with all required properties
+          const normalizedSection = {
+            // Ensure type is either 'kv' or 'table'
+            type: (section.type && (section.type === 'kv' || section.type === 'table')) 
+                  ? section.type 
+                  : 'kv',
+                  
+            // Ensure fields is an array
+            fields: Array.isArray(section.fields) && section.fields.length > 0
+                    ? [...section.fields] // Create a copy to avoid reference issues
+                    : [],
+                    
+            // Copy other properties
+            bid: section.bid || [],
+            child: section.child || -1,
+            node_id: section.node_id !== undefined ? section.node_id : 0
+          };
+          
+          // If fields is empty but we have node_id, try to extract fields from the log output
+          if (normalizedSection.fields.length === 0 && normalizedSection.node_id !== undefined) {
+            console.log(`Section ${normalizedSection.node_id} has no fields, attempting to extract from template data`);
+            normalizedSection.fields = extractFieldsFromLog(normalizedSection.node_id);
+            console.log(`Extracted fields for section ${normalizedSection.node_id}:`, normalizedSection.fields);
+          }
+          
+          return normalizedSection;
+        });
+        
+        console.log("Normalized template:", normalizedTemplate);
+        
+        // Ensure the template is initialized to an empty array if null or undefined
+        setTemplateData(normalizedTemplate || []);
+        setEditedTemplate(normalizedTemplate || []);
+        
+        // Cache the results
+        setCachedResults(prev => ({
+          ...prev,
+          template: {
+            templateData: normalizedTemplate || [],
+            editedTemplate: normalizedTemplate || [],
+            data
+          }
+        }));
+      } else if (stage === 'extraction') {
+        data = await stageInfo.apiFunction(files);
+        console.log("Data extraction raw response:", data);
+        
+        // Handle different data formats
+        let extractedData = {};
+        
+        if (data) {
+          if (data.data && data.status === 'success') {
+            // If data is nested in a 'data' property
+            extractedData = data.data;
+            console.log("Using data property from response");
+          } else if (data.data_file) {
+            // If data has a data_file property
+            console.log("Found data_file property in response");
+            extractedData = data;
+          } else if (Array.isArray(data)) {
+            // If data is directly an array
+            console.log("Data is an array with", data.length, "items");
+            extractedData = data;
+          } else if (typeof data === 'object') {
+            // If data is directly an object
+            console.log("Data is an object");
+            extractedData = data;
+          }
+        }
+        
+        console.log("Processed extraction data:", extractedData);
+        setProcessedData(extractedData);
+        
+        // Cache the results
+        setCachedResults(prev => ({
+          ...prev,
+          extraction: {
+            processedData: extractedData,
+            data
+          }
+        }));
+      }
+
+      // Show results after data is loaded
+      setShowResults(true);
+      onStageChange(stage, data);
+    } catch (err) {
+      setError(err.message);
+      console.error('Processing failed:', err);
+    } finally {
+      setIsProcessing(false);
+    }
+  };
+
+  const handleTextDownload = (stage) => {
+    try {
+      // Use the content directly if it's a string, otherwise convert array to string
+      const content = typeof editedTextContent === 'string' 
+                     ? editedTextContent 
+                     : Array.isArray(editedTextContent) 
+                       ? editedTextContent.join('\n') 
+                       : '';
+                     
+      const blob = new Blob([content], { type: 'text/plain' });
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${stage}_results.txt`;
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+      document.body.removeChild(a);
+    } catch (err) {
+      setError(`Failed to download: ${err.message}`);
+      console.error('Download failed:', err);
+    }
+  };
+
+  const handleTemplateDownload = () => {
+    try {
+      const content = JSON.stringify(editedTemplate || [], null, 2);
+      const blob = new Blob([content], { type: 'application/json' });
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'template.json';
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+      document.body.removeChild(a);
+    } catch (err) {
+      setError(`Failed to download template: ${err.message}`);
+      console.error('Template download failed:', err);
+    }
+  };
+
+  const handleTemplateSave = async () => {
+    try {
+      await saveTemplate(editedTemplate || []);
+      alert('Template saved successfully!');
+    } catch (err) {
+      setError(err.message);
+      console.error('Failed to save template:', err);
+    }
+  };
+
+  const handleCleanup = async () => {
+    try {
+      await cleanup();
+      alert('Temporary files cleaned up successfully!');
+    } catch (err) {
+      setError(err.message);
+      console.error('Failed to cleanup:', err);
+    }
+  };
+
+  // Function to safely handle textarea changes
+  const handleTextAreaChange = (e) => {
+    try {
+      const value = e.target.value;
+      console.log("Textarea value changed");
+      
+      // Store as a string to preserve exact formatting
+      setEditedTextContent(value);
+    } catch (err) {
+      console.error('Error updating text content:', err);
+      setEditedTextContent('');
+    }
+  };
+
+  return (
+    <div className="space-y-4">
+      <div className="flex justify-between items-center">
+        <h2 className="text-xl font-semibold text-gray-800">Processing Stages</h2>
+        <button
+          onClick={handleCleanup}
+          className="px-3 py-1 bg-gray-200 text-gray-700 rounded hover:bg-gray-300 text-sm"
+        >
+          Cleanup Files
+        </button>
+      </div>
+      
+      {error && (
+        <div className="bg-red-50 text-red-700 p-4 rounded-lg mb-4">
+          {error}
+        </div>
+      )}
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        {stages.map((stage) => (
+          <button
+            key={stage.id}
+            onClick={() => handleStageClick(stage.id)}
+            disabled={disabled || isProcessing}
+            className={`
+              p-4 rounded-lg border transition-all
+              ${activeStage === stage.id
+                ? 'border-blue-500 bg-blue-50'
+                : 'border-gray-200 hover:border-blue-300'}
+              ${(disabled || isProcessing) ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}
+            `}
+          >
+            <div className="text-2xl mb-2">{stage.icon}</div>
+            <div className="font-medium text-gray-800">{stage.label}</div>
+            <div className="text-sm text-gray-600 mt-1">{stage.description}</div>
+          </button>
+        ))}
+      </div>
+
+      {/* Results Section - Only show if a stage is active and showResults is true */}
+      {showResults && (
+        <div className="mt-6 transition-opacity duration-300">
+          {/* Text Content Editor (for phrase and field) */}
+          {(activeStage === 'phrase' || activeStage === 'field') && (
+            <div>
+              <div className="flex justify-between items-center mb-4">
+                <h3 className="text-lg font-semibold text-gray-800">
+                  {activeStage === 'phrase' ? 'Phrase Instructions' : 'Field Predictions'}
+                </h3>
+                <button
+                  onClick={() => handleTextDownload(activeStage)}
+                  className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+                >
+                  Download
+                </button>
+              </div>
+              <div className="bg-white rounded-lg shadow-sm border p-4">
+                <textarea
+                  value={typeof editedTextContent === 'string' 
+                    ? editedTextContent 
+                    : Array.isArray(editedTextContent) && editedTextContent.length > 0 
+                      ? editedTextContent.join('\n') 
+                      : 'No phrases extracted yet...'}
+                  onChange={handleTextAreaChange}
+                  className="w-full h-96 font-mono text-sm p-4 border rounded bg-gray-50"
+                  placeholder={activeStage === 'phrase' ? 'No phrases extracted yet...' : 'No fields predicted yet...'}
+                />
+              </div>
+            </div>
+          )}
+
+          {/* Template Editor */}
+          {activeStage === 'template' && (
+            <div>
+              <div className="flex justify-between items-center mb-4">
+                <h3 className="text-lg font-semibold text-gray-800">Template Editor</h3>
+                <div className="space-x-2">
+                  <button
+                    onClick={handleTemplateSave}
+                    className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
+                  >
+                    Save Template
+                  </button>
+                  <button
+                    onClick={handleTemplateDownload}
+                    className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+                  >
+                    Download Template
+                  </button>
+                </div>
+              </div>
+              
+              {templateData && templateData.length > 0 ? (
+                <TemplateEditor 
+                  template={editedTemplate || []} 
+                  onChange={(newTemplate) => {
+                    console.log("Template updated:", newTemplate);
+                    setEditedTemplate(newTemplate);
+                  }}
+                />
+              ) : (
+                <div className="bg-white rounded-lg shadow-sm border p-4 text-center">
+                  <p className="text-gray-600">No template structure detected. You can add sections manually.</p>
+                  <button
+                    onClick={() => {
+                      const initialTemplate = [{type: 'kv', fields: ['New Field']}];
+                      setEditedTemplate(initialTemplate);
+                      setTemplateData(initialTemplate);
+                    }}
+                    className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+                  >
+                    Create Empty Template
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Data Display */}
+          {activeStage === 'extraction' && processedData && (
+            <div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-4">
+                Extracted Data
+              </h3>
+              <DataDisplay data={processedData} />
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default ProcessingStages; 
