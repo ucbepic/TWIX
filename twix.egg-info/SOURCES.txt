@@ -6,6 +6,7 @@ twix/key.py
 twix/model.py
 twix/pattern.py
 twix/transform.py
+twix/user_apis.py
 twix.egg-info/PKG-INFO
 twix.egg-info/SOURCES.txt
 twix.egg-info/dependency_links.txt
