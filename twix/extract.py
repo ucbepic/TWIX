@@ -682,7 +682,7 @@ def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, data_file
     write_dict(dict_path, phrases_json)
 
     #clean intermediate files 
-    delete_file(raw_path)
+    #delete_file(raw_path)
     
     return phrases_txt, phrases_json
 

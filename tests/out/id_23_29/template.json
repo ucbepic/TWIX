@@ -1,0 +1,78 @@
+[
+    {
+        "type": "kv",
+        "child": -1,
+        "fields": [
+            "Product Name",
+            "Cost Per Spot",
+            "Office",
+            "Status",
+            "AE",
+            "Affiliate Split",
+            "Survey",
+            "Net Total",
+            "Est Code",
+            "Flight Dates",
+            "Update Date",
+            "CPP",
+            "Makegood Policy",
+            "Total Spots",
+            "Total # of Weeks",
+            "Agency",
+            "System Name",
+            "Advertiser",
+            "Comments",
+            "Phone",
+            "CPM",
+            "Sold On",
+            "Syscode",
+            "Version",
+            "Product Code",
+            "Credit Status",
+            "Market",
+            "Primary Demo",
+            "Commission",
+            "GRP",
+            "GIMP",
+            "Show All Lines",
+            "Ampersand Cable System Order",
+            "Sales Coordinator",
+            "Client Code"
+        ],
+        "bid": [
+            0
+        ],
+        "node_id": 0
+    },
+    {
+        "type": "table",
+        "fields": [
+            "Line",
+            "Net",
+            "Program",
+            "Start Date",
+            "Stop Date",
+            "Start Time",
+            "Stop",
+            "M",
+            "T",
+            "W",
+            "T",
+            "F",
+            "S",
+            "S",
+            "RTG",
+            "IMP",
+            "Total Spots",
+            "Unit Cost",
+            "Total Cost",
+            "Spot Len",
+            "Line Comment"
+        ],
+        "bid": [
+            1
+        ],
+        "child": -1,
+        "node_id": 1
+    }
+]

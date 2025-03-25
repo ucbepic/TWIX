@@ -1,0 +1,63 @@
+Ampersand Cable System Order
+Flight Dates
+Update Date
+Syscode
+Agency
+Version
+System Name
+Advertiser
+Show All Lines
+Market
+Total # of Weeks
+Client Code
+AE
+Product Code
+Commission
+Sales Coordinator
+Est Code
+Net Total
+Office
+Product Name
+Phone
+Credit Status
+Affiliate Split
+Status
+Sold On
+Cost Per Spot
+Survey
+DMA Nielsen Live+3 Sep20
+Primary Demo
+GRP
+GIMP
+Makegood Policy
+Approval Required
+CPP
+CPM
+Comments
+Line
+Net
+Program
+Start Date
+Stop Date
+Start Time
+Stop
+M
+W
+F
+RTG
+IMP
+Unit Cost
+Total Cost
+Spot Len
+Line Comment
+Time
+AEN
+AMC
+BRVO
+DISC
+ESPN
+FOOD
+FS1
+T
+Total Spots
+S
