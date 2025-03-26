@@ -1,0 +1,32 @@
+[
+    {
+        "type": "kv",
+        "child": -1,
+        "fields": [
+            "Page",
+            "General Stores",
+            "Cylinder Billing Report"
+        ],
+        "bid": [
+            0
+        ],
+        "node_id": 0
+    },
+    {
+        "type": "table",
+        "fields": [
+            "BarCode",
+            "Gas",
+            "Size",
+            "CO #",
+            "PO #CDLocation",
+            "Demurrage",
+            "Delivery Code"
+        ],
+        "bid": [
+            1
+        ],
+        "child": -1,
+        "node_id": 1
+    }
+]

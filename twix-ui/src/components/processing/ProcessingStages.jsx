@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import TemplateEditor from '../template/TemplateEditor';
 import DataDisplay from '../results/DataDisplay';
+import BoundingBoxTable from '../pdf/BoundingBoxTable';
 import { 
   processPhrase, 
   predictFields, 
@@ -15,6 +16,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
   const [editedTemplate, setEditedTemplate] = useState(null);
   const [textContent, setTextContent] = useState([]);
   const [editedTextContent, setEditedTextContent] = useState([]);
+  const [boundingBoxData, setBoundingBoxData] = useState([]);
   const [error, setError] = useState(null);
   const [processedData, setProcessedData] = useState(null);
   const [activeStage, setActiveStage] = useState(null);
@@ -127,6 +129,11 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
         if (stage === 'phrase') {
           setTextContent(cachedResults.phrase.textContent);
           setEditedTextContent(cachedResults.phrase.editedTextContent);
+          if (cachedResults.phrase.boundingBoxData) {
+            setBoundingBoxData(cachedResults.phrase.boundingBoxData);
+          } else {
+            setBoundingBoxData([]);
+          }
         } else if (stage === 'field') {
           setTextContent(cachedResults.field.textContent);
           setEditedTextContent(cachedResults.field.editedTextContent);
@@ -168,6 +175,14 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       if (stage === 'phrase') {
         data = await stageInfo.apiFunction(files);
         console.log("Phrase data received:", data);
+        
+        // Store bounding box data if available
+        if (data.boundingBoxData) {
+          console.log("Bounding box data received:", data.boundingBoxData);
+          setBoundingBoxData(data.boundingBoxData);
+        } else {
+          setBoundingBoxData([]);
+        }
         
         // Define a variable to store content for caching
         let phrasesContent = '';
@@ -224,12 +239,13 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
           console.log("Text content set to:", phrasesContent);
         }
         
-        // Cache the results using phrasesContent which is defined in both branches
+        // Cache the results
         setCachedResults(prev => ({
           ...prev,
           phrase: {
             textContent: phrasesContent,
             editedTextContent: phrasesContent,
+            boundingBoxData: data.boundingBoxData || [],
             data
           }
         }));
@@ -475,12 +491,33 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
     <div className="space-y-4">
       <div className="flex justify-between items-center">
         <h2 className="text-xl font-semibold text-gray-800">Processing Stages</h2>
-        <button
-          onClick={handleCleanup}
-          className="px-3 py-1 bg-gray-200 text-gray-700 rounded hover:bg-gray-300 text-sm"
-        >
-          Cleanup Files
-        </button>
+        <div className="flex items-center">
+          {isProcessing && (
+            <div className="mr-3">
+              <svg className="animate-spin h-5 w-5 text-blue-600" viewBox="0 0 24 24">
+                <circle
+                  className="opacity-25"
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  strokeWidth="4"
+                />
+                <path
+                  className="opacity-75"
+                  fill="currentColor"
+                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+                />
+              </svg>
+            </div>
+          )}
+          <button
+            onClick={handleCleanup}
+            className="px-3 py-1 bg-gray-200 text-gray-700 rounded hover:bg-gray-300 text-sm"
+          >
+            Cleanup Files
+          </button>
+        </div>
       </div>
       
       {error && (
@@ -539,6 +576,14 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
                   placeholder={activeStage === 'phrase' ? 'No phrases extracted yet...' : 'No fields predicted yet...'}
                 />
               </div>
+              
+              {/* Bounding Box Table (only for phrase stage) */}
+              {activeStage === 'phrase' && (
+                <div className="mt-8">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Phrase Bounding Boxes</h3>
+                  <BoundingBoxTable boundingBoxData={boundingBoxData} />
+                </div>
+              )}
             </div>
           )}
 

@@ -1,4 +1,46 @@
+import { useState, useEffect, useRef } from 'react';
+
 function ProcessingStatus({ status }) {
+  const [elapsedTime, setElapsedTime] = useState(0);
+  const [finalTime, setFinalTime] = useState(null);
+  const timerRef = useRef(null);
+  
+  useEffect(() => {
+    // Clear any existing timer when status changes
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
+    
+    if (status.isProcessing) {
+      // Reset timer when processing starts
+      setElapsedTime(0);
+      
+      // Set up timer to update every second
+      timerRef.current = setInterval(() => {
+        setElapsedTime(prev => prev + 1);
+      }, 1000);
+    } else if (elapsedTime > 0) {
+      // When processing stops, save the final time
+      setFinalTime(elapsedTime);
+    }
+    
+    return () => {
+      // Clean up timer when component unmounts
+      if (timerRef.current) {
+        clearInterval(timerRef.current);
+        timerRef.current = null;
+      }
+    };
+  }, [status.isProcessing]); // Removed elapsedTime from dependencies
+  
+  // Format seconds into MM:SS
+  const formatTime = (seconds) => {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+  };
+
   if (!status.isProcessing && !status.message && !status.error) {
     return null;
   }
@@ -25,10 +67,19 @@ function ProcessingStatus({ status }) {
               d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
             />
           </svg>
-          Processing...
+          <span>Processing... {formatTime(elapsedTime)}</span>
         </div>
       )}
-      {status.message && <p>{status.message}</p>}
+      {!status.isProcessing && status.message && (
+        <div className="flex items-center">
+          <p>{status.message}</p>
+          {finalTime > 0 && (
+            <span className="ml-2 text-sm bg-blue-100 px-2 py-1 rounded">
+              Time: {formatTime(finalTime)}
+            </span>
+          )}
+        </div>
+      )}
       {status.error && <p className="text-red-600">{status.error}</p>}
     </div>
   );

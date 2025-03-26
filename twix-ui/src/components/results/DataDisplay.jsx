@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 const DataDisplay = ({ data }) => {
   const [processedData, setProcessedData] = useState([]);
   const [expandedDetails, setExpandedDetails] = useState({});
+  const [originalOrder, setOriginalOrder] = useState({});
   
   useEffect(() => {
     if (!data) {
@@ -27,12 +28,35 @@ const DataDisplay = ({ data }) => {
       // Normalize the data to the expected format of array of records with id and content
       let normalizedData = [];
       
+      // Store original attribute order for each record
+      const orderMap = {};
+      
       // Case 1: If data is already an array of records with id and content
       if (Array.isArray(processedJson) && 
           processedJson.length > 0 && 
           processedJson.some(item => 'id' in item && 'content' in item)) {
         console.log("Data is already in the expected records format");
         normalizedData = processedJson;
+        
+        // Track original attribute order for each content item
+        processedJson.forEach((record, recordIdx) => {
+          if (record.content && Array.isArray(record.content)) {
+            record.content.forEach((item, itemIdx) => {
+              if (item && item.content && typeof item.content === 'object') {
+                const itemKey = `record_${recordIdx}_item_${itemIdx}`;
+                if (Array.isArray(item.content)) {
+                  // For tables, store column order
+                  if (item.content.length > 0 && typeof item.content[0] === 'object') {
+                    orderMap[itemKey] = Object.keys(item.content[0]);
+                  }
+                } else {
+                  // For key-value pairs, store key order
+                  orderMap[itemKey] = Object.keys(item.content);
+                }
+              }
+            });
+          }
+        });
       }
       // Case 2: If data is an array of objects with type and content (tables and key-value pairs)
       else if (Array.isArray(processedJson) && 
@@ -40,19 +64,73 @@ const DataDisplay = ({ data }) => {
               processedJson.some(item => 'type' in item && 'content' in item)) {
         console.log("Data is an array of type-content objects, wrapping in a record");
         normalizedData = [{ id: 0, content: processedJson }];
+        
+        // Track original attribute order
+        processedJson.forEach((item, itemIdx) => {
+          if (item && item.content && typeof item.content === 'object') {
+            const itemKey = `record_0_item_${itemIdx}`;
+            if (Array.isArray(item.content)) {
+              // For tables, store column order
+              if (item.content.length > 0 && typeof item.content[0] === 'object') {
+                orderMap[itemKey] = Object.keys(item.content[0]);
+              }
+            } else {
+              // For key-value pairs, store key order
+              orderMap[itemKey] = Object.keys(item.content);
+            }
+          }
+        });
       }
       // Case 3: If data has a data_file property that's an array
       else if (processedJson && processedJson.data_file && Array.isArray(processedJson.data_file)) {
         console.log("Found data_file array, using it");
         if (processedJson.data_file.some(item => 'id' in item && 'content' in item)) {
           normalizedData = processedJson.data_file;
+          
+          // Track original attribute order
+          processedJson.data_file.forEach((record, recordIdx) => {
+            if (record.content && Array.isArray(record.content)) {
+              record.content.forEach((item, itemIdx) => {
+                if (item && item.content && typeof item.content === 'object') {
+                  const itemKey = `record_${recordIdx}_item_${itemIdx}`;
+                  if (Array.isArray(item.content)) {
+                    // For tables, store column order
+                    if (item.content.length > 0 && typeof item.content[0] === 'object') {
+                      orderMap[itemKey] = Object.keys(item.content[0]);
+                    }
+                  } else {
+                    // For key-value pairs, store key order
+                    orderMap[itemKey] = Object.keys(item.content);
+                  }
+                }
+              });
+            }
+          });
         } else if (processedJson.data_file.some(item => 'type' in item && 'content' in item)) {
           normalizedData = [{ id: 0, content: processedJson.data_file }];
+          
+          // Track original attribute order
+          processedJson.data_file.forEach((item, itemIdx) => {
+            if (item && item.content && typeof item.content === 'object') {
+              const itemKey = `record_0_item_${itemIdx}`;
+              if (Array.isArray(item.content)) {
+                // For tables, store column order
+                if (item.content.length > 0 && typeof item.content[0] === 'object') {
+                  orderMap[itemKey] = Object.keys(item.content[0]);
+                }
+              } else {
+                // For key-value pairs, store key order
+                orderMap[itemKey] = Object.keys(item.content);
+              }
+            }
+          });
         }
       }
       
       console.log("Normalized data:", normalizedData);
+      console.log("Original attribute order:", orderMap);
       setProcessedData(normalizedData);
+      setOriginalOrder(orderMap);
       
       // Initialize expanded state for all View Details sections
       const initialExpandedState = {};
@@ -126,20 +204,25 @@ const DataDisplay = ({ data }) => {
     return String(value);
   };
 
-  const renderTable = (tableData, tableIndex) => {
+  const renderTable = (tableData, tableIndex, recordIndex) => {
     if (!Array.isArray(tableData) || tableData.length === 0) {
       return <p className="text-gray-500 italic">No table data available</p>;
     }
 
-    // Extract all unique keys from all objects in the table
-    const allKeys = new Set();
-    tableData.forEach(row => {
-      if (row && typeof row === 'object') {
-        Object.keys(row).forEach(key => allKeys.add(key));
-      }
-    });
+    // Get original column order or extract all unique keys
+    const itemKey = `record_${recordIndex}_item_${tableIndex}`;
+    let headers = originalOrder[itemKey] || [];
     
-    const headers = Array.from(allKeys);
+    // If no stored order, extract all unique keys
+    if (!headers.length) {
+      const allKeys = new Set();
+      tableData.forEach(row => {
+        if (row && typeof row === 'object') {
+          Object.keys(row).forEach(key => allKeys.add(key));
+        }
+      });
+      headers = Array.from(allKeys);
+    }
     
     return (
       <div className="overflow-x-auto border rounded-lg shadow-sm bg-white">
@@ -173,13 +256,17 @@ const DataDisplay = ({ data }) => {
     );
   };
 
-  const renderKeyValuePairs = (data) => {
+  const renderKeyValuePairs = (data, itemIndex, recordIndex) => {
     if (!data || (Array.isArray(data) && data.length === 0) || (typeof data === 'object' && Object.keys(data).length === 0)) {
       return <p className="text-gray-500 italic">No key-value data available</p>;
     }
 
+    // Get original key order if available
+    const itemKey = `record_${recordIndex}_item_${itemIndex}`;
+    const orderedKeys = originalOrder[itemKey] || [];
+    
     // If data is an array of objects with single key-value pairs, process accordingly
-    const keyValuePairs = [];
+    let keyValuePairs = [];
     
     if (Array.isArray(data)) {
       data.forEach(item => {
@@ -194,9 +281,15 @@ const DataDisplay = ({ data }) => {
         }
       });
     } else if (typeof data === 'object') {
-      Object.entries(data).forEach(([key, value]) => {
-        keyValuePairs.push({ key, value });
-      });
+      // Use original order if available, otherwise use object keys
+      if (orderedKeys.length > 0) {
+        keyValuePairs = orderedKeys.map(key => ({
+          key,
+          value: data[key]
+        }));
+      } else {
+        keyValuePairs = Object.entries(data).map(([key, value]) => ({ key, value }));
+      }
     }
 
     return (
@@ -256,7 +349,9 @@ const DataDisplay = ({ data }) => {
               </div>
             </div>
             <div className="p-4">
-              {item.type === 'table' ? renderTable(item.content, itemIndex) : renderKeyValuePairs(item.content)}
+              {item.type === 'table' 
+                ? renderTable(item.content, itemIndex, recordIndex) 
+                : renderKeyValuePairs(item.content, itemIndex, recordIndex)}
             </div>
           </div>
         </div>

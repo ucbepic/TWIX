@@ -10,7 +10,7 @@ function TemplateEditor({ template = [], onChange }) {
       console.log("Template is invalid, initializing with empty array");
       onChange([]);
     } else {
-      console.log("Template is valid with", template.length, "sections");
+      console.log("Template is valid with", template.length, "nodes");
     }
   }, [template]);
 
@@ -20,17 +20,17 @@ function TemplateEditor({ template = [], onChange }) {
       // Create an array of all section indices to expand them all
       const allSections = Array.from({ length: template.length }, (_, i) => i);
       setExpandedSections(allSections);
-      console.log("Auto-expanding all sections");
+      console.log("Auto-expanding all nodes");
     }
   }, [template]);
 
   // Log expanded sections for debugging
   useEffect(() => {
     if (expandedSections.length > 0 && template && Array.isArray(template)) {
-      console.log(`Expanded sections:`, expandedSections);
+      console.log(`Expanded nodes:`, expandedSections);
       expandedSections.forEach(sectionIndex => {
         if (template[sectionIndex]) {
-          console.log(`Fields for section ${sectionIndex}:`, template[sectionIndex].fields);
+          console.log(`Fields for node ${sectionIndex}:`, template[sectionIndex].fields);
         }
       });
     }
@@ -152,7 +152,7 @@ function TemplateEditor({ template = [], onChange }) {
         className="border-2 border-dashed border-gray-300 rounded-lg p-2 flex items-center justify-center cursor-pointer hover:bg-gray-100"
         onClick={() => addSection(0)}
       >
-        <span className="text-gray-500">+ Insert Section</span>
+        <span className="text-gray-500">+ Insert Node</span>
       </div>
 
       {template.map((section, sectionIndex) => (
@@ -168,7 +168,7 @@ function TemplateEditor({ template = [], onChange }) {
                   className="text-lg font-medium cursor-pointer"
                   onClick={() => toggleSectionExpansion(sectionIndex)}
                 >
-                  {section.type === 'table' ? '📋' : '🔑'} Section {sectionIndex + 1}
+                  {section.type === 'table' ? '📋' : '🔑'} Node {sectionIndex + 1}
                 </span>
                 <button 
                   className="text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded hover:bg-gray-200"
@@ -240,7 +240,7 @@ function TemplateEditor({ template = [], onChange }) {
             className="border-2 border-dashed border-gray-300 rounded-lg p-2 flex items-center justify-center cursor-pointer hover:bg-gray-100 my-2"
             onClick={() => addSection(sectionIndex + 1)}
           >
-            <span className="text-gray-500">+ Insert Section</span>
+            <span className="text-gray-500">+ Insert Node</span>
           </div>
         </div>
       ))}
@@ -251,7 +251,7 @@ function TemplateEditor({ template = [], onChange }) {
           className="border-2 border-dashed border-gray-300 rounded-lg p-4 flex items-center justify-center cursor-pointer hover:bg-gray-100"
           onClick={() => addSection()}
         >
-          <span className="text-gray-500">+ Add Section</span>
+          <span className="text-gray-500">+ Add Node</span>
         </div>
       )}
     </div>
