@@ -56,7 +56,7 @@ function App() {
         <div className="bg-white rounded-lg shadow-lg p-6">
           <div className="mb-8 flex justify-between items-center">
             <div>
-              <h1 className="text-3xl font-bold text-gray-800">TWIX Project</h1>
+              <h1 className="text-3xl font-bold text-gray-800">TWIX</h1>
               <p className="text-gray-600 mt-2">
                 PDF Processing and Data Extraction Tool
               </p>
