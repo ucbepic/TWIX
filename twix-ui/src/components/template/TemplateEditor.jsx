@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 function TemplateEditor({ template = [], onChange }) {
-  const [expandedSection, setExpandedSection] = useState(null);
+  const [expandedSections, setExpandedSections] = useState([]);
   
   // Validate template when it changes
   useEffect(() => {
@@ -14,22 +14,27 @@ function TemplateEditor({ template = [], onChange }) {
     }
   }, [template]);
 
-  // Auto-expand first section when template changes and has items
+  // Auto-expand all sections when template changes and has items
   useEffect(() => {
-    if (template && Array.isArray(template) && template.length > 0 && expandedSection === null) {
-      // Auto-expand the first section if no section is currently expanded
-      setExpandedSection(0);
-      console.log("Auto-expanding first section:", template[0]);
+    if (template && Array.isArray(template) && template.length > 0) {
+      // Create an array of all section indices to expand them all
+      const allSections = Array.from({ length: template.length }, (_, i) => i);
+      setExpandedSections(allSections);
+      console.log("Auto-expanding all sections");
     }
-  }, [template, expandedSection]);
+  }, [template]);
 
-  // Force re-render when a section is expanded
+  // Log expanded sections for debugging
   useEffect(() => {
-    if (expandedSection !== null && template && Array.isArray(template) && template[expandedSection]) {
-      console.log(`Section ${expandedSection} expanded:`, template[expandedSection]);
-      console.log(`Fields for expanded section:`, template[expandedSection].fields);
+    if (expandedSections.length > 0 && template && Array.isArray(template)) {
+      console.log(`Expanded sections:`, expandedSections);
+      expandedSections.forEach(sectionIndex => {
+        if (template[sectionIndex]) {
+          console.log(`Fields for section ${sectionIndex}:`, template[sectionIndex].fields);
+        }
+      });
     }
-  }, [expandedSection, template]);
+  }, [expandedSections, template]);
 
   const handleFieldChange = (sectionIndex, fieldIndex, value) => {
     if (!template || !Array.isArray(template)) return;
@@ -47,7 +52,7 @@ function TemplateEditor({ template = [], onChange }) {
     if (!template || !Array.isArray(template)) {
       const newTemplate = [{ type: 'kv', fields: ['New Field'] }];
       onChange(newTemplate);
-      setExpandedSection(0);
+      setExpandedSections([0]);
       return;
     }
     
@@ -57,8 +62,9 @@ function TemplateEditor({ template = [], onChange }) {
       fields: ['New Field'] // Default field
     });
     onChange(newTemplate);
-    // Automatically expand the newly added section
-    setExpandedSection(insertIndex);
+    
+    // Add the new section to expanded sections
+    setExpandedSections(prev => [...prev, insertIndex].sort((a, b) => a - b));
   };
 
   const deleteSection = (sectionIndex) => {
@@ -66,13 +72,12 @@ function TemplateEditor({ template = [], onChange }) {
     
     const newTemplate = template.filter((_, index) => index !== sectionIndex);
     onChange(newTemplate);
-    // If the deleted section was expanded, collapse everything
-    if (expandedSection === sectionIndex) {
-      setExpandedSection(null);
-    } else if (expandedSection > sectionIndex) {
-      // Adjust the expanded section index if it was after the deleted one
-      setExpandedSection(expandedSection - 1);
-    }
+    
+    // Remove the deleted section from expanded sections and adjust indices
+    setExpandedSections(prev => 
+      prev.filter(i => i !== sectionIndex)
+         .map(i => i > sectionIndex ? i - 1 : i)
+    );
   };
 
   const addField = (sectionIndex) => {
@@ -104,8 +109,44 @@ function TemplateEditor({ template = [], onChange }) {
     onChange(newTemplate);
   };
 
+  const toggleSectionExpansion = (sectionIndex) => {
+    setExpandedSections(prev => {
+      // If section is already expanded, remove it from the array
+      if (prev.includes(sectionIndex)) {
+        return prev.filter(i => i !== sectionIndex);
+      }
+      // Otherwise add it to the array and sort
+      return [...prev, sectionIndex].sort((a, b) => a - b);
+    });
+  };
+
+  const expandAllSections = () => {
+    const allSections = Array.from({ length: template.length }, (_, i) => i);
+    setExpandedSections(allSections);
+  };
+
+  const collapseAllSections = () => {
+    setExpandedSections([]);
+  };
+
   return (
     <div className="space-y-2">
+      {/* Controls for all sections */}
+      <div className="flex justify-end mb-4 gap-2">
+        <button 
+          className="text-blue-600 hover:text-blue-800 bg-blue-50 px-3 py-1 rounded hover:bg-blue-100"
+          onClick={expandAllSections}
+        >
+          Expand All
+        </button>
+        <button 
+          className="text-blue-600 hover:text-blue-800 bg-blue-50 px-3 py-1 rounded hover:bg-blue-100"
+          onClick={collapseAllSections}
+        >
+          Collapse All
+        </button>
+      </div>
+
       {/* Insert button at the top */}
       <div 
         className="border-2 border-dashed border-gray-300 rounded-lg p-2 flex items-center justify-center cursor-pointer hover:bg-gray-100"
@@ -119,15 +160,13 @@ function TemplateEditor({ template = [], onChange }) {
           <div className="border rounded-lg bg-white shadow-sm">
             <div 
               className={`p-4 flex items-center justify-between hover:bg-gray-50 ${
-                expandedSection === sectionIndex ? 'border-b' : ''
+                expandedSections.includes(sectionIndex) ? 'border-b' : ''
               }`}
             >
               <div className="flex items-center gap-4">
                 <span 
                   className="text-lg font-medium cursor-pointer"
-                  onClick={() => setExpandedSection(
-                    expandedSection === sectionIndex ? null : sectionIndex
-                  )}
+                  onClick={() => toggleSectionExpansion(sectionIndex)}
                 >
                   {section.type === 'table' ? '📋' : '🔑'} Section {sectionIndex + 1}
                 </span>
@@ -141,11 +180,9 @@ function TemplateEditor({ template = [], onChange }) {
               <div className="flex gap-2">
                 <button 
                   className="text-blue-600 hover:text-blue-800"
-                  onClick={() => setExpandedSection(
-                    expandedSection === sectionIndex ? null : sectionIndex
-                  )}
+                  onClick={() => toggleSectionExpansion(sectionIndex)}
                 >
-                  {expandedSection === sectionIndex ? 'Collapse' : 'Expand'}
+                  {expandedSections.includes(sectionIndex) ? 'Collapse' : 'Expand'}
                 </button>
                 <button 
                   className="text-red-600 hover:text-red-800 ml-4"
@@ -156,11 +193,8 @@ function TemplateEditor({ template = [], onChange }) {
               </div>
             </div>
 
-            {expandedSection === sectionIndex && (
+            {expandedSections.includes(sectionIndex) && (
               <div className="p-4 bg-gray-50">
-                {console.log(`Expanded section ${sectionIndex}:`, section)}
-                {console.log(`Fields for section ${sectionIndex}:`, section.fields)}
-                
                 {/* Show message if no fields */}
                 {(!section.fields || section.fields.length === 0) && (
                   <div className="text-center text-gray-500 mb-4">
