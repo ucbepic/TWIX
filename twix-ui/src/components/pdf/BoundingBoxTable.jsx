@@ -18,16 +18,23 @@ function BoundingBoxTable({ boundingBoxData }) {
 
   // Format numeric values to make them more readable
   const formatValue = (value, index) => {
-    // First column is text, return as is
-    if (index === 0) return value;
-    
-    // For numeric columns, try to format to 2 decimal places
-    const num = parseFloat(value);
-    if (!isNaN(num)) {
-      return num.toFixed(2);
+    // Text column (first column)
+    if (index === 0) {
+      // Remove any surrounding quotes (from CSV parsing)
+      const cleanText = value ? String(value).replace(/^"|"$/g, '') : '';
+      return cleanText || '(empty)';
     }
     
-    return value;
+    // For numeric columns (coordinates and page), format as numbers with 2 decimal places
+    if (value !== undefined && value !== null && value !== '') {
+      const num = parseFloat(value);
+      if (!isNaN(num)) {
+        return num.toFixed(2);
+      }
+    }
+    
+    // If the value is undefined, null, or not a number, return a meaningful default
+    return index === 5 ? '1' : '0.00'; // Default to page 1 or coordinate 0.00
   };
 
   return (
@@ -38,7 +45,9 @@ function BoundingBoxTable({ boundingBoxData }) {
             {headers.map((header, index) => (
               <th 
                 key={index} 
-                className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                className={`px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider ${
+                  index === 0 ? 'text-left' : 'text-center'
+                }`}
               >
                 {header}
               </th>
@@ -51,8 +60,12 @@ function BoundingBoxTable({ boundingBoxData }) {
               {row.map((cell, cellIndex) => (
                 <td 
                   key={cellIndex} 
-                  className={`px-6 py-4 text-sm text-gray-500 ${cellIndex === 0 ? 'max-w-xs truncate' : 'whitespace-nowrap'}`}
-                  title={cellIndex === 0 ? cell : undefined}
+                  className={`px-6 py-4 text-sm text-gray-500 ${
+                    cellIndex === 0 
+                      ? 'max-w-xs truncate whitespace-normal break-words' 
+                      : 'whitespace-nowrap text-center font-mono'
+                  }`}
+                  title={cellIndex === 0 ? String(cell || '') : undefined}
                 >
                   {formatValue(cell, cellIndex)}
                 </td>

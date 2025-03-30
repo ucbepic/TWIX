@@ -69,7 +69,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
   const stages = [
     {
       id: 'phrase',
-      label: 'Phrase Instruction',
+      label: 'Phrase Extraction',
       icon: '📝',
       description: 'Extract key phrases',
       endpoint: 'phrase',
@@ -555,7 +555,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
             <div>
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-lg font-semibold text-gray-800">
-                  {activeStage === 'phrase' ? 'Phrase Instructions' : 'Field Predictions'}
+                  {activeStage === 'phrase' ? 'Phrase Extraction Text File' : 'Field Predictions'}
                 </h3>
                 <button
                   onClick={() => handleTextDownload(activeStage)}
@@ -564,18 +564,21 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
                   Download
                 </button>
               </div>
-              <div className="bg-white rounded-lg shadow-sm border p-4">
-                <textarea
-                  value={typeof editedTextContent === 'string' 
-                    ? editedTextContent 
-                    : Array.isArray(editedTextContent) && editedTextContent.length > 0 
-                      ? editedTextContent.join('\n') 
-                      : 'No phrases extracted yet...'}
-                  onChange={handleTextAreaChange}
-                  className="w-full h-96 font-mono text-sm p-4 border rounded bg-gray-50"
-                  placeholder={activeStage === 'phrase' ? 'No phrases extracted yet...' : 'No fields predicted yet...'}
-                />
-              </div>
+              {/* Only display textarea for field prediction */}
+              {activeStage === 'field' && (
+                <div className="bg-white rounded-lg shadow-sm border p-4">
+                  <textarea
+                    value={typeof editedTextContent === 'string' 
+                      ? editedTextContent 
+                      : Array.isArray(editedTextContent) && editedTextContent.length > 0 
+                        ? editedTextContent.join('\n') 
+                        : 'No fields predicted yet...'}
+                    onChange={handleTextAreaChange}
+                    className="w-full h-96 font-mono text-sm p-4 border rounded bg-gray-50"
+                    placeholder="No fields predicted yet..."
+                  />
+                </div>
+              )}
               
               {/* Bounding Box Table (only for phrase stage) */}
               {activeStage === 'phrase' && (

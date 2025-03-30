@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { stringifyOrderedJSON, createOrderPreservingReplacer } from '../../services/api';
 
 const DataDisplay = ({ data }) => {
   const [processedData, setProcessedData] = useState([]);
@@ -31,6 +32,21 @@ const DataDisplay = ({ data }) => {
       // Store original attribute order for each record
       const orderMap = {};
       
+      // Process function to capture field order for tables
+      const captureTableFieldOrder = (item, itemIdx, recordIdx) => {
+        if (item && item.type === 'table' && item.content && Array.isArray(item.content) && item.content.length > 0) {
+          const itemKey = `record_${recordIdx}_item_${itemIdx}`;
+          // Get keys from first object - critically preserving their exact original order
+          const firstRow = item.content[0];
+          if (firstRow && typeof firstRow === 'object') {
+            // We need to preserve the exact order from the original object
+            const keys = Object.keys(firstRow);
+            orderMap[itemKey] = keys;
+            console.log(`Captured field order for ${itemKey}:`, keys);
+          }
+        }
+      };
+      
       // Case 1: If data is already an array of records with id and content
       if (Array.isArray(processedJson) && 
           processedJson.length > 0 && 
@@ -42,15 +58,17 @@ const DataDisplay = ({ data }) => {
         processedJson.forEach((record, recordIdx) => {
           if (record.content && Array.isArray(record.content)) {
             record.content.forEach((item, itemIdx) => {
-              if (item && item.content && typeof item.content === 'object') {
+              captureTableFieldOrder(item, itemIdx, recordIdx);
+              
+              // Also handle key-value pairs
+              if (item && item.type === 'kv' && item.content) {
                 const itemKey = `record_${recordIdx}_item_${itemIdx}`;
                 if (Array.isArray(item.content)) {
-                  // For tables, store column order
-                  if (item.content.length > 0 && typeof item.content[0] === 'object') {
-                    orderMap[itemKey] = Object.keys(item.content[0]);
-                  }
-                } else {
-                  // For key-value pairs, store key order
+                  // For array of kv objects, store original order
+                  const keys = item.content.map(kv => Object.keys(kv)[0]);
+                  orderMap[itemKey] = keys;
+                } else if (typeof item.content === 'object') {
+                  // For single kv object, store key order
                   orderMap[itemKey] = Object.keys(item.content);
                 }
               }
@@ -67,15 +85,17 @@ const DataDisplay = ({ data }) => {
         
         // Track original attribute order
         processedJson.forEach((item, itemIdx) => {
-          if (item && item.content && typeof item.content === 'object') {
+          captureTableFieldOrder(item, itemIdx, 0);
+          
+          // Also handle key-value pairs
+          if (item && item.type === 'kv' && item.content) {
             const itemKey = `record_0_item_${itemIdx}`;
             if (Array.isArray(item.content)) {
-              // For tables, store column order
-              if (item.content.length > 0 && typeof item.content[0] === 'object') {
-                orderMap[itemKey] = Object.keys(item.content[0]);
-              }
-            } else {
-              // For key-value pairs, store key order
+              // For array of kv objects, store original order
+              const keys = item.content.map(kv => Object.keys(kv)[0]);
+              orderMap[itemKey] = keys;
+            } else if (typeof item.content === 'object') {
+              // For single kv object, store key order
               orderMap[itemKey] = Object.keys(item.content);
             }
           }
@@ -91,15 +111,17 @@ const DataDisplay = ({ data }) => {
           processedJson.data_file.forEach((record, recordIdx) => {
             if (record.content && Array.isArray(record.content)) {
               record.content.forEach((item, itemIdx) => {
-                if (item && item.content && typeof item.content === 'object') {
+                captureTableFieldOrder(item, itemIdx, recordIdx);
+                
+                // Also handle key-value pairs
+                if (item && item.type === 'kv' && item.content) {
                   const itemKey = `record_${recordIdx}_item_${itemIdx}`;
                   if (Array.isArray(item.content)) {
-                    // For tables, store column order
-                    if (item.content.length > 0 && typeof item.content[0] === 'object') {
-                      orderMap[itemKey] = Object.keys(item.content[0]);
-                    }
-                  } else {
-                    // For key-value pairs, store key order
+                    // For array of kv objects, store original order
+                    const keys = item.content.map(kv => Object.keys(kv)[0]);
+                    orderMap[itemKey] = keys;
+                  } else if (typeof item.content === 'object') {
+                    // For single kv object, store key order
                     orderMap[itemKey] = Object.keys(item.content);
                   }
                 }
@@ -111,15 +133,17 @@ const DataDisplay = ({ data }) => {
           
           // Track original attribute order
           processedJson.data_file.forEach((item, itemIdx) => {
-            if (item && item.content && typeof item.content === 'object') {
+            captureTableFieldOrder(item, itemIdx, 0);
+            
+            // Also handle key-value pairs
+            if (item && item.type === 'kv' && item.content) {
               const itemKey = `record_0_item_${itemIdx}`;
               if (Array.isArray(item.content)) {
-                // For tables, store column order
-                if (item.content.length > 0 && typeof item.content[0] === 'object') {
-                  orderMap[itemKey] = Object.keys(item.content[0]);
-                }
-              } else {
-                // For key-value pairs, store key order
+                // For array of kv objects, store original order
+                const keys = item.content.map(kv => Object.keys(kv)[0]);
+                orderMap[itemKey] = keys;
+              } else if (typeof item.content === 'object') {
+                // For single kv object, store key order
                 orderMap[itemKey] = Object.keys(item.content);
               }
             }
@@ -211,9 +235,17 @@ const DataDisplay = ({ data }) => {
 
     // Get original column order or extract all unique keys
     const itemKey = `record_${recordIndex}_item_${tableIndex}`;
+    console.log(`Rendering table ${itemKey}, stored order:`, originalOrder[itemKey]);
     let headers = originalOrder[itemKey] || [];
     
-    // If no stored order, extract all unique keys
+    // If no stored order, try to preserve the order from the first row
+    if (!headers.length && tableData.length > 0 && typeof tableData[0] === 'object') {
+      // Use the keys from the first object in their original order
+      headers = Object.keys(tableData[0]);
+      console.log(`No stored order found, using keys from first row:`, headers);
+    }
+    
+    // If still no headers (possibly because first row was empty), extract all unique keys
     if (!headers.length) {
       const allKeys = new Set();
       tableData.forEach(row => {
@@ -222,6 +254,7 @@ const DataDisplay = ({ data }) => {
         }
       });
       headers = Array.from(allKeys);
+      console.log(`Extracted keys from all rows:`, headers);
     }
     
     return (
@@ -241,15 +274,23 @@ const DataDisplay = ({ data }) => {
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
-            {tableData.map((row, rowIndex) => (
-              <tr key={`row-${rowIndex}`} className="hover:bg-gray-50">
-                {headers.map((header, cellIndex) => (
-                  <td key={`cell-${rowIndex}-${cellIndex}`} className="px-4 py-3 whitespace-nowrap text-sm text-gray-500">
-                    {row[header] !== undefined ? renderValue(row[header]) : <span className="text-gray-400 italic">missing</span>}
+            {tableData.map((row, rowIndex) => {
+              // Ensure we use the original object to preserve property order
+              const orderedRow = {};
+              headers.forEach(header => {
+                orderedRow[header] = row[header];
+              });
+              
+              return (
+                <tr key={`row-${rowIndex}`} className="hover:bg-gray-50">
+                  {headers.map((header, cellIndex) => (
+                    <td key={`cell-${rowIndex}-${cellIndex}`} className="px-4 py-3 whitespace-nowrap text-sm text-gray-500">
+                      {row[header] !== undefined ? renderValue(row[header]) : <span className="text-gray-400 italic">missing</span>}
                     </td>
                   ))}
                 </tr>
-              ))}
+              );
+            })}
             </tbody>
           </table>
       </div>
@@ -361,8 +402,18 @@ const DataDisplay = ({ data }) => {
 
   const handleDownload = () => {
     try {
-      // Create a JSON string of the processed data
-      const jsonData = JSON.stringify(processedData, null, 2);
+      // Create a JSON string of the processed data while preserving field order
+      let jsonData;
+      
+      // Use the original attribute order to create a replacer function
+      if (Object.keys(originalOrder).length > 0) {
+        // Construct a custom replacer function that preserves field order
+        const replacer = createOrderPreservingReplacer(Object.values(originalOrder).flat());
+        jsonData = JSON.stringify(processedData, replacer, 2);
+      } else {
+        // If no specific order is tracked, use the custom stringification
+        jsonData = stringifyOrderedJSON(processedData);
+      }
       
       // Create a blob from the JSON string
       const blob = new Blob([jsonData], { type: 'application/json' });
