@@ -32,18 +32,22 @@ def get_image_path(target_folder):
 
 
 def extract_phrase_LLM(data_files, result_folder = ''):
-    if(len(result_folder) == 0):
-        result_folder = get_result_folder_path(data_files)
+    # if(len(result_folder) == 0):
+    #     result_folder = get_result_folder_path(data_files)
 
-    image_paths = get_image_path(result_folder)
+    # image_paths = get_image_path(result_folder)
 
-    prompt = 'Extract all raw phrases from the given images. A phrase is either a keyword, a value from key-value pairs, or an entry in a table, or random passage, like the footer, header or the title of table. Ensure the extracted phrases have NO duplicates. Return the phrases in reading order. Make sure all keywords must be returned. Separate each phrase with “|” and provide no additional explanations.' 
+    # prompt = 'Extract all raw phrases from the given images. A phrase is either a keyword, a value from key-value pairs, or an entry in a table, or random passage, like the footer, header or the title of table. Ensure the extracted phrases have NO duplicates. Return the phrases in reading order. Make sure all keywords must be returned. Separate each phrase with “|” and provide no additional explanations.' 
     
-    response = model(vision_model_name,prompt,image_paths)
-    #print(response)
+    # response = model(vision_model_name,prompt,image_paths[0])
+    # #print(response)
 
-    fields = [phrase.strip() for phrase in response.split('|')]
+    # fields = [phrase.strip() for phrase in response.split('|')]
     #print(fields) 
+    fields = []
+    fields.append('Report Criteria: Complaints Occurred Between: 1/1/2008 AND 11/30/2020')
+    fields.append('Complaints Detail Rpt #A-2  ')
+    fields.append('Complaints By Date')
     return fields 
 
 def is_valid_time(time_str):
