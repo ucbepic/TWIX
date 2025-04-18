@@ -2,8 +2,6 @@ import os, sys
 
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
-print(os.path.abspath(os.path.dirname(__file__)))
-
 from models.gpt_4o import gpt_4o 
 from models.gpt_4o_mini import gpt_4o_mini
 from models.gpt_4_vision import gpt_4o_vision
