@@ -40,10 +40,8 @@ def extract_phrase_LLM(data_files, result_folder = ''):
     prompt = 'Extract all raw phrases from the given images. A phrase is either a keyword, a value from key-value pairs, or an entry in a table, or random passage, like the footer, header or the title of table. Ensure the extracted phrases have NO duplicates. Return the phrases in reading order. Make sure all keywords must be returned. Separate each phrase with “|” and provide no additional explanations.' 
     
     response = model(vision_model_name,prompt,image_paths)
-    #print(response)
 
     fields = [phrase.strip() for phrase in response.split('|')]
-    #print(fields) 
     return fields 
 
 def is_valid_time(time_str):
