@@ -4,7 +4,6 @@ import Footer from './components/layout/Footer';
 import PDFUploader from './components/pdf/PDFUploader';
 import PDFList from './components/pdf/PDFList';
 import ProcessingStages from './components/processing/ProcessingStages';
-import ProcessingStatus from './components/processing/ProcessingStatus';
 import TwixApiTest from './components/TwixApiTest';
 
 function App() {
@@ -104,8 +103,6 @@ function App() {
                   files={uploadedFiles}
                 />
               </section>
-
-              <ProcessingStatus status={status} />
             </>
           )}
         </div>

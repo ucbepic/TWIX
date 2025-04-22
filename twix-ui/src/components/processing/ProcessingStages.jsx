@@ -22,6 +22,10 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
   const [activeStage, setActiveStage] = useState(null);
   const [showResults, setShowResults] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
+  const [processingCompleted, setProcessingCompleted] = useState(false);
+  const [processingTime, setProcessingTime] = useState(null);
+  const [elapsedTime, setElapsedTime] = useState(0);
+  const [timerInterval, setTimerInterval] = useState(null);
   
   // Add caching for already processed stages
   const [cachedResults, setCachedResults] = useState({
@@ -66,6 +70,38 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
     };
   }, []);
 
+  // Effect to handle the timer
+  useEffect(() => {
+    if (isProcessing) {
+      // Reset and start timer
+      setElapsedTime(0);
+      const interval = setInterval(() => {
+        setElapsedTime(prev => prev + 1);
+      }, 1000);
+      setTimerInterval(interval);
+    } else {
+      // Clear timer when processing stops
+      if (timerInterval) {
+        clearInterval(timerInterval);
+        setTimerInterval(null);
+      }
+    }
+    
+    // Cleanup interval on unmount
+    return () => {
+      if (timerInterval) {
+        clearInterval(timerInterval);
+      }
+    };
+  }, [isProcessing]);
+
+  // Format seconds to MM:SS
+  const formatTime = (seconds) => {
+    const mins = Math.floor(seconds / 60).toString().padStart(2, '0');
+    const secs = (seconds % 60).toString().padStart(2, '0');
+    return `${mins}:${secs}`;
+  };
+
   const stages = [
     {
       id: 'phrase',
@@ -106,6 +142,9 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       // Hide results first for a smoother transition
       setShowResults(false);
       setError(null);
+      setProcessingCompleted(false);
+      setProcessingTime(null);
+      setElapsedTime(0);
       
       // If clicking the same stage again, just toggle visibility
       if (stage === activeStage) {
@@ -151,6 +190,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       
       // If no cached results, process the stage
       setIsProcessing(true);
+      const startTime = Date.now();
       
       // Notify parent component that processing has started
       if (onProcessingStart) {
@@ -402,10 +442,19 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
 
       // Show results after data is loaded
       setShowResults(true);
+      setIsProcessing(false);
+      setProcessingCompleted(true);
+      const totalTime = (Date.now() - startTime) / 1000; // Convert to seconds
+      setProcessingTime(totalTime); 
+      // Also update elapsedTime to match the total time
+      setElapsedTime(Math.round(totalTime));
       onStageChange(stage, data);
     } catch (err) {
       setError(err.message);
       console.error('Processing failed:', err);
+      setIsProcessing(false);
+      setProcessingCompleted(true);
+      setProcessingTime(null);
     } finally {
       setIsProcessing(false);
     }
@@ -489,28 +538,49 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
 
   return (
     <div className="space-y-4">
+      {isProcessing && (
+        <div className="bg-blue-50 p-3 rounded-lg mb-4 flex items-center justify-between">
+          <div className="flex items-center">
+            <svg className="animate-spin h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24">
+              <circle
+                className="opacity-25"
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                strokeWidth="4"
+              />
+              <path
+                className="opacity-75"
+                fill="currentColor"
+                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+              />
+            </svg>
+            <span className="text-blue-700 font-medium">Processing...</span>
+          </div>
+          <span className="text-blue-700 font-medium">{formatTime(elapsedTime)}</span>
+        </div>
+      )}
+      
+      {processingCompleted && !isProcessing && (
+        <div className="bg-green-50 p-3 rounded-lg mb-4 flex items-center justify-between">
+          <div className="flex items-center">
+            <svg className="h-5 w-5 text-green-600 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            </svg>
+            <span className="text-green-700 font-medium">Processing completed</span>
+          </div>
+          <span className="text-green-700">
+            {processingTime 
+              ? formatTime(Math.round(processingTime))
+              : formatTime(elapsedTime)}
+          </span>
+        </div>
+      )}
+      
       <div className="flex justify-between items-center">
         <h2 className="text-xl font-semibold text-gray-800">Processing Stages</h2>
         <div className="flex items-center">
-          {isProcessing && (
-            <div className="mr-3">
-              <svg className="animate-spin h-5 w-5 text-blue-600" viewBox="0 0 24 24">
-                <circle
-                  className="opacity-25"
-                  cx="12"
-                  cy="12"
-                  r="10"
-                  stroke="currentColor"
-                  strokeWidth="4"
-                />
-                <path
-                  className="opacity-75"
-                  fill="currentColor"
-                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
-                />
-              </svg>
-            </div>
-          )}
           <button
             onClick={handleCleanup}
             className="px-3 py-1 bg-gray-200 text-gray-700 rounded hover:bg-gray-300 text-sm"
