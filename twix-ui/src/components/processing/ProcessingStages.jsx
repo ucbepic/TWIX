@@ -107,7 +107,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       id: 'phrase',
       label: 'Phrase Extraction',
       icon: '📝',
-      description: 'Extract key phrases',
+      description: 'Extract phrases',
       endpoint: 'phrase',
       apiFunction: processPhrase
     },
