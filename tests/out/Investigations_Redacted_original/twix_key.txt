@@ -1,3 +1,6 @@
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
 Date
 Number
 Investigator
@@ -26,3 +29,5 @@ Body Cam
 MULTIPLE OFFICERS/EMPLOY
 NOT STATED
 NOT ENTERED
+Complaint #
+Officer #
