@@ -2,10 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2501.06659)
 
-# Table of Content
-
 - [TWIX: Reconstructing Structured Data from Templatized Documents](#twix-reconstructing-structured-data-from-templatized-documents)
-- [Table of Content](#table-of-content)
 - [🚀 Getting Started](#-getting-started)
   - [Prerequisites](#prerequisites)
   - [Python Package](#python-package)
