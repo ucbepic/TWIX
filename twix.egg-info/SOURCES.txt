@@ -12,7 +12,6 @@ twix.egg-info/SOURCES.txt
 twix.egg-info/dependency_links.txt
 twix.egg-info/requires.txt
 twix.egg-info/top_level.txt
-twix/models/__init__.py
 twix/models/gpt_4_vision.py
 twix/models/gpt_4o.py
 twix/models/gpt_4o_mini.py

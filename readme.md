@@ -18,8 +18,6 @@ TWIX infers the underlying template and then performs data extraction, offering 
 
 
 
-
-
 # 🚀 Getting Started
 
 - Python 3.10 or later
