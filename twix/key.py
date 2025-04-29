@@ -342,26 +342,12 @@ def get_image_path(target_folder):
 def get_bb_path(result_folder):
     return result_folder + 'merged_phrases_bounding_box_page_number.json'
 
-def get_baseline_result_path(raw_path,baseline_name):
-    path = raw_path.replace('data/raw','result')
-    path = path.replace('.pdf', '_' + baseline_name + '.txt')
-    return path
-
 def write_result(result_path, keys):
     with open(result_path, 'w') as file:
         # Iterate over each value in the list
         for value in keys:
             # Write each value to a separate line
             file.write(f"{value}\n")
-
-def write_raw_response(result_path, content):
-    with open(result_path, 'w') as file:
-        file.write(content)
-
-def get_truth_path(raw_path):
-    path = raw_path.replace('raw','truths')
-    path = path.replace('.pdf','.json')
-    return path
 
 def get_merged_extracted_path(result_folder):
     return result_folder + 'merged_phrases.txt'
@@ -374,7 +360,7 @@ def get_extracted_result_path(result_folder, data_file):#file path is the path o
     new_file_path = os.path.join(result_folder, f"{file_name}_extracted.json")
     return new_file_path
 
-def predict_field(data_files, result_folder = ''):
+def predict_field(data_files, result_folder):
     if(len(result_folder) == 0):
         result_folder = extract.get_result_folder_path(data_files)
         
@@ -397,10 +383,7 @@ def predict_field(data_files, result_folder = ''):
     phrases = relative_locations
 
     LLM_fields = get_fields_by_LLM(image_paths)
-    #LLM_fields = set(LLM_fields).difference(raw_phrases)
     LLM_fields = set(LLM_fields).intersection(raw_phrases)
-
-    #print(LLM_fields)
 
     print('perfect match starts...')
     mp, remap = perfect_align_clustering(phrases)

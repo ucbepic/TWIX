@@ -112,13 +112,7 @@ def template_learn_input_gen(phrases, predict_labels, extra_phrase_num = 30):
     print('There does not exist an input such that every predict key exists at least twice.')
     return []
 
-
-def get_boundingbox_path(result_folder):
-    return result_folder + 'merged_boun'
-
-
 def key_val_extraction(pv, predict_labels):
-    #print(pv, predict_labels)
     kvs = []
     i = 0
     while i < len(pv):
@@ -139,19 +133,6 @@ def key_val_extraction(pv, predict_labels):
 
     return kvs
 
-
-def min_distance(bb1,bb2):
-    # min(current_bbox[0], word['x0']),
-    # min(current_bbox[1], word['top']),
-    # max(current_bbox[2], word['x1']),
-    # max(current_bbox[3], word['bottom'])
-    lx = [abs(bb1[0]-bb2[0]), abs(bb1[0]-bb2[2]),abs(bb1[2]-bb2[0]),abs(bb1[2]-bb2[2])]
-    ly = [abs(bb1[1]-bb2[1]), abs(bb1[1]-bb2[3]),abs(bb1[3]-bb2[1]),abs(bb1[3]-bb2[3])]
-    x_min = min(lx)
-    y_min = min(ly)
-    return max(x_min,y_min)
-
-    
 
 def get_bblist_per_record(record_appearance, phrases_bb, phrases):
     #phrases: list of phrases 
@@ -179,48 +160,6 @@ def get_bblist_per_record(record_appearance, phrases_bb, phrases):
             record_appearance[p] = record[p]
             
     return phrase_boundingbox
-
-def get_bb_per_record(record_appearance, phrases_bb, phrases):
-    #phrases: phrase -> a list of bounding box for all records 
-    #record_appearance: phrase p->the number of appearances of p so far 
-    #output: a list of tuple. Each tuple:  (phrase, bounding box) for current record 
-    pv = []
-    non_dul_phrases = list(set(phrases))#remove duplicated phrases 
-    for p in non_dul_phrases:
-        c = phrases.count(p)
-        if(p not in pv and p in phrases_bb):
-            cur = record_appearance[p]
-            lst = phrases_bb[p][cur: cur + c]
-            #create tuple instances 
-            for bb in lst:
-                pv.append((p,bb))
-            record_appearance[p] = cur + c
-    return record_appearance, pv
-
-def get_horizontal_mid(bb):
-    return (bb[0] + bb[2])/2
-
-def find_closest_value(val, lst):
-    if(len(lst) == 0):
-        return -1
-    # Use a list comprehension to calculate the absolute differences
-    closest_val = min(lst, key=lambda x: abs(x - val))
-    return closest_val
-
-def is_inclusive(b1,b2):
-    #input: b1 and b2 are bounding box of two phrases 
-    if(b1[2] < b2[0]):
-        return 0
-    if(b2[2] < b1[0]):
-        return 0
-    return 1
-
-def is_aligned(b1,b2):
-    if(b1[1] > b2[3]):
-        return 0
-    if(b1[3] < b2[1]):
-        return 0
-    return 1
 
 def is_overlap_vertically(b1,b2):
     if(b1[2] < b2[0]):
@@ -256,8 +195,6 @@ def key_val_mp(key_row, val_row):
     #print(kv_mp)
     return kv_mp
 
-
-
 def table_extraction_top_down(row_mp, kid, vid):
     key_row = row_mp[kid[0]]
     val_rows = []
@@ -284,26 +221,6 @@ def table_extraction_top_down(row_mp, kid, vid):
     #print(rows)
     return keys, rows
 
-
-def format_dict(dict):
-    d = {}
-    for k,v in dict.items():
-        d[k.lower()] = v
-    return d
-
-def write_result(results,path):
-    with open(path, 'w', newline='') as file:
-        # Write each row to the CSV file
-        for row in results:
-            key = row[0]
-            val = row[1]
-            page = 1.0
-            if(',' in val):
-                val = val.replace(',','')
-            out = key +','+val +','+str(page)
-            #print(out)
-            file.write(out + '\n')
-
 def is_same_row(b1,b2):
     #b2 should be in the right side of b1
     if(b2[0] < b1[0]):
@@ -311,21 +228,6 @@ def is_same_row(b1,b2):
     # b1 and b2 should overlap in y
     if(b1[3] < b2[1] or b1[1] > b2[3]):
         return 0
-    return 1
-
-
-def value_no_key_detector(row_mp, id1, id2):
-    row1 = row_mp[id1]
-    row2 = row_mp[id2]
-    #detect if there exist a phrase in row2 that does not overlap with any phrase in row 1
-    for p2 in row2:
-        align = 0
-        for p1 in row1:
-            if(is_overlap_vertically(p2[1],p1[1]) == 1):
-                align = 1
-                break 
-        if(align == 0):
-            return 0
     return 1
 
 
@@ -355,42 +257,7 @@ def row_aligned(row1, row2):
         else:
             id2 += 1
     return 1
-    
-def block_decider(rls):
-    blk = {}#store the community of all rows belonging to the same block: bid -> a list of row id 
-    blk_id = {}#store the name per block: bid-> name of block
-    bid = 0
-    nearest_key_bid = 0
-    kv_bid = -1 #all kvs can be put into one block
-    for id, label in rls.items():
-        if(label == 'key'):
-            bid += 1
-            blk[bid] = []
-            blk[bid].append(id)
-            blk_id[bid] = 'table'
-            nearest_key_bid = bid
-        elif(label == 'val' and nearest_key_bid > 0):
-            blk[nearest_key_bid].append(id)
-        elif(label == 'kv'):#start a new block for kv
-            if(kv_bid == -1):
-                bid += 1
-                kv_bid = bid
-                blk[kv_bid] = []
-            blk[kv_bid].append(id)
-            blk_id[kv_bid] = 'kv'
-    #block smooth for kv 
-    #impute all the undefined row inside the kv block to be kv 
-    for bid, name in blk_id.items():
-        if(name == 'kv'):
-            #print(blk[bid])
-            new_row = []
-            l = blk[bid][0]
-            r = blk[bid][len(blk[bid])-1]
-            for i in range(l,r+1):
-                new_row.append(i)
-            blk[bid] = new_row
-            #print(blk[bid])
-    return blk, blk_id
+
 
 def write_json(out, path):
     with open(path, 'w') as json_file:
@@ -1523,7 +1390,7 @@ def write_string(result_path, content):
         file.write(content)
 
 
-def predict_template(data_files, result_folder = ''):
+def predict_template(data_files, result_folder):
     #get result folder 
     if(len(result_folder) == 0):
         result_folder = extract.get_result_folder_path(data_files)
@@ -1578,7 +1445,7 @@ def predict_template(data_files, result_folder = ''):
 
     return template
 
-def extract_data(data_files, template = [], result_folder = ''):
+def extract_data(data_files, result_folder, template = []):
     #get result folder 
     if(len(result_folder) == 0):
         result_folder = extract.get_result_folder_path(data_files)
@@ -1602,7 +1469,6 @@ def extract_data(data_files, template = [], result_folder = ''):
             template = predict_template(data_files, result_folder)
 
     #get metadata 
-    #get metadata path
     metadata_path = key.get_metadata_path(result_folder)
     #get image path
     image_paths = key.get_image_path(result_folder)
@@ -1625,13 +1491,6 @@ def extract_data(data_files, template = [], result_folder = ''):
         out_path = key.get_extracted_result_path(result_folder, data_file)
         phrases = read_file(text_path)#list of phrases
         phrases_bb = read_json(dict_path)#phrases with bounding boxes
-
-        # print(text_path)
-        # print(dict_path)
-        # print(out_path)
-        #print(len(template), len(phrases), len(phrases_bb), len(metadata))
-        #print(template)
-
         extraction_object = extract_data_per_doc(template, phrases_bb, phrases, out_path, metadata)
         extraction_objects['data_file'] = extraction_object
 
