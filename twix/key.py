@@ -223,8 +223,6 @@ def candidate_key_clusters_selection(clusters, LLM_fields):
         fields = clean_phrases(response, l)
         lst = result_gen_from_response(response, l)
         p, w = mean_confidence_interval(lst)
-        # print(cid, l)
-        # print(fields, p, w)
 
         match = 0
         for f in fields:
@@ -281,11 +279,8 @@ def mean_confidence_interval(data, confidence=0.95):
     return m, h
 
 def cluster_partial_match(c1,c2,phrases_vec,k):
-    # print(c1)
-    # print(c2)
     l1 = len(phrases_vec[c1[0]])
     l2 = len(phrases_vec[c2[0]])
-    #print(l1,l2)
     nc1 = []
     nc2 = []
     if(l1 < l2):
@@ -297,9 +292,6 @@ def cluster_partial_match(c1,c2,phrases_vec,k):
     for i in range(len(nc1)):
         for j in range(len(nc2)):
             if(partial_perfect_match(phrases_vec[nc1[i]],phrases_vec[nc2[j]],k) == 1):
-                #print(nc1[i],phrases_vec[nc1[i]])
-                #print(nc2[j],phrases_vec[nc2[j]])
-                #print('')
                 return 1
     return 0
         
@@ -319,17 +311,12 @@ def clustering_group(phrases_vec, clusters, candidate_key_clusters, k=1):
                 key_clusters.append(cid)
                 break
 
-    #print(candidate_key_clusters)
-    #key_clusters += candidate_key_clusters
-    #print(key_clusters)
     return key_clusters
 
 def get_keys(cluters, key_clusters):
     keys = []
     for key in key_clusters:
         l = cluters[key]    
-        # response = phrase_filter_LLMs(l)
-        # fields = clean_phrases(response, l)
         keys += l
     return keys
 
@@ -422,15 +409,10 @@ def predict_field(data_files, result_folder = ''):
     print('cluster pruning starts...')
     fields, cluster_ids = candidate_key_clusters_selection(remap,LLM_fields)
 
-    # print(fields)
-    # print(cluster_ids)
-
     print('re-clustering starts...')
     added_clusters = clustering_group(phrases, remap, cluster_ids, k=1)
     additional_fields = get_keys(remap, added_clusters)
     additional_fields = list(LLM_fields.intersection(set(additional_fields)))
-    # print(fields)
-    # print(additional_fields)
     fields += additional_fields
 
     #add additional LLM fields back 

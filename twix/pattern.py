@@ -647,22 +647,20 @@ def ILP_extract(predict_keys, row_mp, metadata):
                     row_align[(id1,id2)] = c
                     row_align[(id2,id1)] = c
 
-    print('row align of 2 and 31:', row_align[(2,31)])
-
 
     #LP formulation to learn row label assignment
-    print('initial row labels and probs:')
-    print_row_labels(row_mp, row_labels)
+    # print('initial row labels and probs:')
+    # print_row_labels(row_mp, row_labels)
 
     row_pred_labels = ILP_formulation(row_mp, row_labels, row_align)
 
-    print('labels after ILP:')
-    print(row_pred_labels)
+    # print('labels after ILP:')
+    # print(row_pred_labels)
     #seperate data blocks based on row labeling
     blk, blk_type = block_seperation(row_pred_labels, row_align)
 
-    print(blk)
-    print(blk_type)
+    # print(blk)
+    # print(blk_type)
 
     #learn template based on the data blocks 
     nodes = template_learn(blk, blk_type, row_mp)
@@ -993,7 +991,7 @@ def row_align_gen_template(row_mp, record):
 def block_seperation_pipeline(template, records, row_mp, metadata):
     blocks = {}#record id -> (blk, blk_type) 
     for i in range(len(records)):
-        print('Record ' + str(i) + '...')
+        #print('Record ' + str(i) + '...')
         record = records[i]
         rls, row_node_mp = row_label_gen_template(record, row_mp, template, metadata)
         # print('row labels...')

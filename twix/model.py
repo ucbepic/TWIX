@@ -1,6 +1,5 @@
 import os, sys
 
-print(os.path.abspath(os.path.dirname(__file__)))
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
 from .models.gpt_4o import gpt_4o
