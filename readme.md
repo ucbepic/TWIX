@@ -26,7 +26,7 @@ TWIX infers the underlying template and then performs data extraction, offering 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yiminl18/TWIX.git
+git clone https://github.com/ucbepic/TWIX.git
 ```
 
 2. Install packages. 
