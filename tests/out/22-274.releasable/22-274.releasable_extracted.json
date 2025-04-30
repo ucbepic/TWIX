@@ -1,0 +1,1608 @@
+[
+    {
+        "id": 0,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Case Number": "34-02142"
+                    },
+                    {
+                        "Date": "1/15/2023"
+                    },
+                    {
+                        "Time": "0912"
+                    },
+                    {
+                        "Assist": "Yes"
+                    },
+                    {
+                        "Agency": "SCTF"
+                    },
+                    {
+                        "Information Taken From": "missing"
+                    },
+                    {
+                        "Crime/ Incident": "missing"
+                    },
+                    {
+                        "Status": "Completed"
+                    },
+                    {
+                        "Incident Reviewed By": "Benson, Mark T."
+                    },
+                    {
+                        "Date Reviewed": "1/15/2023"
+                    },
+                    {
+                        "Drugs/Alcohol": "No"
+                    },
+                    {
+                        "Location": "482 Maplewood Dr."
+                    },
+                    {
+                        "City": "Champaign"
+                    },
+                    {
+                        "K-9": "No"
+                    },
+                    {
+                        "Crisis Intervention Related": "No"
+                    },
+                    {
+                        "Type Premises": "Apartment"
+                    },
+                    {
+                        "District": "missing"
+                    },
+                    {
+                        "Recorded On Camera": "Yes"
+                    },
+                    {
+                        "Camera": "Body Camera"
+                    },
+                    {
+                        "Type Situation": "Search Warrant"
+                    },
+                    {
+                        "Reason Force Used": "Fled Scene"
+                    },
+                    {
+                        "Officer Injured": "No"
+                    },
+                    {
+                        "Danger Factors": "Not Listed"
+                    },
+                    {
+                        "Final Disposition": "Not Listed"
+                    },
+                    {
+                        "Verbal De-Escalation Attempted": "No"
+                    },
+                    {
+                        "Subject #": "1"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "No"
+                    },
+                    {
+                        "City": "Champaign"
+                    },
+                    {
+                        "Level Of Resistance": "Fleeing Suspect"
+                    },
+                    {
+                        "Subject Armed With": "N/A"
+                    },
+                    {
+                        "Force Used": "Fleeing"
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "Yes"
+                    },
+                    {
+                        "Arrested For": "Not Stated"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "No"
+                    },
+                    {
+                        "Type Injuries": "Medical Aid"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Case Number": "34-03261"
+                    },
+                    {
+                        "Date": "1/31/2023"
+                    },
+                    {
+                        "Time": "0621"
+                    },
+                    {
+                        "Assist": "Yes"
+                    },
+                    {
+                        "Agency": "CPD"
+                    },
+                    {
+                        "Information Taken From": "missing"
+                    },
+                    {
+                        "Crime/ Incident": "missing"
+                    },
+                    {
+                        "Status": "Completed"
+                    },
+                    {
+                        "Incident Reviewed By": "Freeman, Daniel K."
+                    },
+                    {
+                        "Date Reviewed": "2/2/2023"
+                    },
+                    {
+                        "Drugs/Alcohol": "No"
+                    },
+                    {
+                        "Location": "Flower & Third Streets"
+                    },
+                    {
+                        "City": "Champaign"
+                    },
+                    {
+                        "K-9": "No"
+                    },
+                    {
+                        "Crisis Intervention Related": "No"
+                    },
+                    {
+                        "Type Premises": "Roadway"
+                    },
+                    {
+                        "District": "missing"
+                    },
+                    {
+                        "Recorded On Camera": "Yes"
+                    },
+                    {
+                        "Camera": "Vehicle/BWC"
+                    },
+                    {
+                        "Type Situation": "Armed Subject"
+                    },
+                    {
+                        "Reason Force Used": "Officer Safety"
+                    },
+                    {
+                        "Officer Injured": "No"
+                    },
+                    {
+                        "Danger Factors": "Not Listed"
+                    },
+                    {
+                        "Final Disposition": "Not Listed"
+                    },
+                    {
+                        "Verbal De-Escalation Attempted": "No"
+                    },
+                    {
+                        "Subject #": "1"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "No"
+                    },
+                    {
+                        "City": "Mahomet"
+                    },
+                    {
+                        "Level Of Resistance": "Active Aggressive"
+                    },
+                    {
+                        "Subject Armed With": "Firearm"
+                    },
+                    {
+                        "Force Used": "None"
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "Yes"
+                    },
+                    {
+                        "Arrested For": "Not Stated"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "No"
+                    },
+                    {
+                        "Type Injuries": "Medical Aid"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Case Number": "34-05783"
+                    },
+                    {
+                        "Date": "2/5/2023"
+                    },
+                    {
+                        "Time": "1231"
+                    },
+                    {
+                        "Assist": "Yes"
+                    },
+                    {
+                        "Agency": "UPD"
+                    },
+                    {
+                        "Information Taken From": "missing"
+                    },
+                    {
+                        "Crime/ Incident": "missing"
+                    },
+                    {
+                        "Status": "Completed"
+                    },
+                    {
+                        "Incident Reviewed By": "Jenkins, Olivia S."
+                    },
+                    {
+                        "Date Reviewed": "2/6/2023"
+                    },
+                    {
+                        "Drugs/Alcohol": "No"
+                    },
+                    {
+                        "Location": "Lawson Woods"
+                    },
+                    {
+                        "City": "Urbana"
+                    },
+                    {
+                        "K-9": "No"
+                    },
+                    {
+                        "Crisis Intervention Related": "No"
+                    },
+                    {
+                        "Type Premises": "Wooded Area"
+                    },
+                    {
+                        "District": "missing"
+                    },
+                    {
+                        "Recorded On Camera": "Yes"
+                    },
+                    {
+                        "Camera": "Body Camera"
+                    },
+                    {
+                        "Type Situation": "Home Invasion"
+                    },
+                    {
+                        "Reason Force Used": "Fled Scene"
+                    },
+                    {
+                        "Officer Injured": "No"
+                    },
+                    {
+                        "Danger Factors": "Not Listed"
+                    },
+                    {
+                        "Final Disposition": "Arrested/Lodged"
+                    },
+                    {
+                        "Verbal De-Escalation Attempted": "No"
+                    },
+                    {
+                        "Subject #": "1"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "No"
+                    },
+                    {
+                        "City": "Champaign"
+                    },
+                    {
+                        "Level Of Resistance": "Fleeing Suspect"
+                    },
+                    {
+                        "Subject Armed With": "Unknown"
+                    },
+                    {
+                        "Force Used": "Fleeing"
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "Yes"
+                    },
+                    {
+                        "Arrested For": "Not Stated"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "Yes"
+                    },
+                    {
+                        "Type Injuries": "Minor"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Case Number": "34-09292"
+                    },
+                    {
+                        "Date": "3/19/2023"
+                    },
+                    {
+                        "Time": "1005"
+                    },
+                    {
+                        "Assist": "Yes"
+                    },
+                    {
+                        "Agency": "CPD"
+                    },
+                    {
+                        "Information Taken From": "missing"
+                    },
+                    {
+                        "Crime/ Incident": "missing"
+                    },
+                    {
+                        "Status": "Completed"
+                    },
+                    {
+                        "Incident Reviewed By": "Grant, Michael D."
+                    },
+                    {
+                        "Date Reviewed": "3/19/2023"
+                    },
+                    {
+                        "Drugs/Alcohol": "Yes"
+                    },
+                    {
+                        "Location": "543 S. Fifth"
+                    },
+                    {
+                        "City": "Champaign"
+                    },
+                    {
+                        "K-9": "No"
+                    },
+                    {
+                        "Crisis Intervention Related": "No"
+                    },
+                    {
+                        "Type Premises": "Bar"
+                    },
+                    {
+                        "District": "missing"
+                    },
+                    {
+                        "Recorded On Camera": "Yes"
+                    },
+                    {
+                        "Camera": "Body Camera"
+                    },
+                    {
+                        "Type Situation": "Fight"
+                    },
+                    {
+                        "Reason Force Used": "Refusing Lawful Order"
+                    },
+                    {
+                        "Officer Injured": "No"
+                    },
+                    {
+                        "Danger Factors": "Not Listed"
+                    },
+                    {
+                        "Final Disposition": "Released / No Action"
+                    },
+                    {
+                        "Verbal De-Escalation Attempted": "No"
+                    },
+                    {
+                        "Subject #": "1"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "Yes"
+                    },
+                    {
+                        "City": "missing"
+                    },
+                    {
+                        "Level Of Resistance": "Physical Resistance"
+                    },
+                    {
+                        "Subject Armed With": "Hands"
+                    },
+                    {
+                        "Force Used": "Physical Resistance"
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "No"
+                    },
+                    {
+                        "Arrested For": "Not Stated"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "No"
+                    },
+                    {
+                        "Type Injuries": "Medical Aid"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Case Number": "34-03852"
+                    },
+                    {
+                        "Date": "3/20/2023"
+                    },
+                    {
+                        "Time": "1209"
+                    },
+                    {
+                        "Assist": "No"
+                    },
+                    {
+                        "Agency": "missing"
+                    },
+                    {
+                        "Information Taken From": "missing"
+                    },
+                    {
+                        "Crime/ Incident": "missing"
+                    },
+                    {
+                        "Status": "Completed"
+                    },
+                    {
+                        "Incident Reviewed By": "Keller, Ryan B."
+                    },
+                    {
+                        "Date Reviewed": "3/21/2023"
+                    },
+                    {
+                        "Drugs/Alcohol": "No"
+                    },
+                    {
+                        "Location": "Pine and Redwood"
+                    },
+                    {
+                        "City": "Champaign"
+                    },
+                    {
+                        "K-9": "No"
+                    },
+                    {
+                        "Crisis Intervention Related": "No"
+                    },
+                    {
+                        "Type Premises": "Alley"
+                    },
+                    {
+                        "District": "missing"
+                    },
+                    {
+                        "Recorded On Camera": "Yes"
+                    },
+                    {
+                        "Camera": "Vehicle/BWC"
+                    },
+                    {
+                        "Type Situation": "Felony Stop"
+                    },
+                    {
+                        "Reason Force Used": "Officer Safety"
+                    },
+                    {
+                        "Officer Injured": "No"
+                    },
+                    {
+                        "Danger Factors": "Shooting Suspect"
+                    },
+                    {
+                        "Final Disposition": "Released / No Action"
+                    },
+                    {
+                        "Verbal De-Escalation Attempted": "No"
+                    },
+                    {
+                        "Subject #": "1"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "No"
+                    },
+                    {
+                        "City": "missing"
+                    },
+                    {
+                        "Level Of Resistance": "Cooperative"
+                    },
+                    {
+                        "Subject Armed With": "N/A"
+                    },
+                    {
+                        "Force Used": "None"
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "No"
+                    },
+                    {
+                        "Arrested For": "Not Stated"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "No"
+                    },
+                    {
+                        "Type Injuries": "Medical Aid"
+                    },
+                    {
+                        "Subject #": "2"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "No"
+                    },
+                    {
+                        "City": "missing"
+                    },
+                    {
+                        "Level Of Resistance": "Cooperative"
+                    },
+                    {
+                        "Subject Armed With": "N/A"
+                    },
+                    {
+                        "Force Used": "None"
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "No"
+                    },
+                    {
+                        "Arrested For": "Not Stated"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "No"
+                    },
+                    {
+                        "Type Injuries": "Medical Aid"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Case Number": "34-09921"
+                    },
+                    {
+                        "Date": "3/29/2023"
+                    },
+                    {
+                        "Time": "1231"
+                    },
+                    {
+                        "Assist": "Yes"
+                    },
+                    {
+                        "Agency": "UPD"
+                    },
+                    {
+                        "Information Taken From": "missing"
+                    },
+                    {
+                        "Crime/ Incident": "missing"
+                    },
+                    {
+                        "Status": "Completed"
+                    },
+                    {
+                        "Incident Reviewed By": "Owens, Matthew V."
+                    },
+                    {
+                        "Date Reviewed": "3/29/2023"
+                    },
+                    {
+                        "Drugs/Alcohol": "No"
+                    },
+                    {
+                        "Location": "2987 Sunset Dr."
+                    },
+                    {
+                        "City": "Urbana"
+                    },
+                    {
+                        "K-9": "No"
+                    },
+                    {
+                        "Crisis Intervention Related": "No"
+                    },
+                    {
+                        "Type Premises": "Wooded Area"
+                    },
+                    {
+                        "District": "missing"
+                    },
+                    {
+                        "Recorded On Camera": "Yes"
+                    },
+                    {
+                        "Camera": "Body Camera"
+                    },
+                    {
+                        "Type Situation": "Shooting"
+                    },
+                    {
+                        "Reason Force Used": "Officer Safety"
+                    },
+                    {
+                        "Officer Injured": "No"
+                    },
+                    {
+                        "Danger Factors": "Shooting Suspect"
+                    },
+                    {
+                        "Final Disposition": "Not Listed"
+                    },
+                    {
+                        "Verbal De-Escalation Attempted": "No"
+                    },
+                    {
+                        "Subject #": "1"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "No"
+                    },
+                    {
+                        "City": "missing"
+                    },
+                    {
+                        "Level Of Resistance": "Fleeing Suspect"
+                    },
+                    {
+                        "Subject Armed With": "Unknown"
+                    },
+                    {
+                        "Force Used": "None"
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "No"
+                    },
+                    {
+                        "Arrested For": "Not Stated"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "No"
+                    },
+                    {
+                        "Type Injuries": "Medical Aid"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Case Number": "34-01121"
+                    },
+                    {
+                        "Date": "4/10/2023"
+                    },
+                    {
+                        "Time": "0721"
+                    },
+                    {
+                        "Assist": "Yes"
+                    },
+                    {
+                        "Agency": "SCTF"
+                    },
+                    {
+                        "Information Taken From": "missing"
+                    },
+                    {
+                        "Crime/ Incident": "missing"
+                    },
+                    {
+                        "Status": "Completed"
+                    },
+                    {
+                        "Incident Reviewed By": "Quinn, Nathan G."
+                    },
+                    {
+                        "Date Reviewed": "4/16/2023"
+                    },
+                    {
+                        "Drugs/Alcohol": "No"
+                    },
+                    {
+                        "Location": "Cypress/May"
+                    },
+                    {
+                        "City": "Urbana"
+                    },
+                    {
+                        "K-9": "No"
+                    },
+                    {
+                        "Crisis Intervention Related": "No"
+                    },
+                    {
+                        "Type Premises": "Parking Lot"
+                    },
+                    {
+                        "District": "missing"
+                    },
+                    {
+                        "Recorded On Camera": "Yes"
+                    },
+                    {
+                        "Camera": "Body Camera"
+                    },
+                    {
+                        "Type Situation": "Arrest Warrant"
+                    },
+                    {
+                        "Reason Force Used": "Officer Safety"
+                    },
+                    {
+                        "Officer Injured": "No"
+                    },
+                    {
+                        "Danger Factors": "Not Listed"
+                    },
+                    {
+                        "Final Disposition": "Arrested/Lodged"
+                    },
+                    {
+                        "Verbal De-Escalation Attempted": "No"
+                    },
+                    {
+                        "Subject #": "1"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "No"
+                    },
+                    {
+                        "City": "missing"
+                    },
+                    {
+                        "Level Of Resistance": "Cooperative"
+                    },
+                    {
+                        "Subject Armed With": "Firearm"
+                    },
+                    {
+                        "Force Used": "None"
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "No"
+                    },
+                    {
+                        "Arrested For": "Not Stated"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "No"
+                    },
+                    {
+                        "Type Injuries": "Medical Aid"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Case Number": "34-05079"
+                    },
+                    {
+                        "Date": "6/1/2023"
+                    },
+                    {
+                        "Time": "2231"
+                    },
+                    {
+                        "Assist": "Yes"
+                    },
+                    {
+                        "Agency": "UPD"
+                    },
+                    {
+                        "Information Taken From": "missing"
+                    },
+                    {
+                        "Crime/ Incident": "missing"
+                    },
+                    {
+                        "Status": "Completed"
+                    },
+                    {
+                        "Incident Reviewed By": "Thompson, Chloe H."
+                    },
+                    {
+                        "Date Reviewed": "6/2/2023"
+                    },
+                    {
+                        "Drugs/Alcohol": "No"
+                    },
+                    {
+                        "Location": "1936 Pinecrest Ln."
+                    },
+                    {
+                        "City": "Champaign"
+                    },
+                    {
+                        "K-9": "No"
+                    },
+                    {
+                        "Crisis Intervention Related": "No"
+                    },
+                    {
+                        "Type Premises": "Parking Lot"
+                    },
+                    {
+                        "District": "missing"
+                    },
+                    {
+                        "Recorded On Camera": "Yes"
+                    },
+                    {
+                        "Camera": "Vehicle/BWC"
+                    },
+                    {
+                        "Type Situation": "Armed Subject"
+                    },
+                    {
+                        "Reason Force Used": "Officer Safety"
+                    },
+                    {
+                        "Officer Injured": "No"
+                    },
+                    {
+                        "Danger Factors": "Not Listed"
+                    },
+                    {
+                        "Final Disposition": "Arrested/Lodged"
+                    },
+                    {
+                        "Verbal De-Escalation Attempted": "No"
+                    },
+                    {
+                        "Subject #": "1"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "No"
+                    },
+                    {
+                        "City": "Champaign"
+                    },
+                    {
+                        "Level Of Resistance": "Fleeing Suspect"
+                    },
+                    {
+                        "Subject Armed With": "Firearm"
+                    },
+                    {
+                        "Force Used": "Fleeing"
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "Yes"
+                    },
+                    {
+                        "Arrested For": "Unlawful Use of Weapon"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "No"
+                    },
+                    {
+                        "Type Injuries": "Medical Aid"
+                    },
+                    {
+                        "Subject #": "2"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "No"
+                    },
+                    {
+                        "City": "Champaign"
+                    },
+                    {
+                        "Level Of Resistance": "Cooperative"
+                    },
+                    {
+                        "Subject Armed With": "N/A"
+                    },
+                    {
+                        "Force Used": "None"
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "Yes"
+                    },
+                    {
+                        "Arrested For": "Poss Controlled Substance"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "No"
+                    },
+                    {
+                        "Type Injuries": "Medical Aid"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Case Number": "34-08712"
+                    },
+                    {
+                        "Date": "6/27/2023"
+                    },
+                    {
+                        "Time": "0320"
+                    },
+                    {
+                        "Assist": "No"
+                    },
+                    {
+                        "Agency": "missing"
+                    },
+                    {
+                        "Information Taken From": "missing"
+                    },
+                    {
+                        "Crime/ Incident": "missing"
+                    },
+                    {
+                        "Status": "Completed"
+                    },
+                    {
+                        "Incident Reviewed By": "Adams, Jacob T."
+                    },
+                    {
+                        "Date Reviewed": "6/27/2023"
+                    },
+                    {
+                        "Drugs/Alcohol": "Yes"
+                    },
+                    {
+                        "Location": "missing"
+                    },
+                    {
+                        "City": "Champaign"
+                    },
+                    {
+                        "K-9": "No"
+                    },
+                    {
+                        "Crisis Intervention Related": "No"
+                    },
+                    {
+                        "Type Premises": "Parking Lot"
+                    },
+                    {
+                        "District": "missing"
+                    },
+                    {
+                        "Recorded On Camera": "Yes"
+                    },
+                    {
+                        "Camera": "Vehicle/BWC"
+                    },
+                    {
+                        "Type Situation": "Excited Delirium"
+                    },
+                    {
+                        "Reason Force Used": "Intoxicated, Fighting W/Officers"
+                    },
+                    {
+                        "Officer Injured": "No"
+                    },
+                    {
+                        "Danger Factors": "Not Listed"
+                    },
+                    {
+                        "Final Disposition": "Not Listed"
+                    },
+                    {
+                        "Verbal De-Escalation Attempted": "No"
+                    },
+                    {
+                        "Subject #": "1"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "Yes"
+                    },
+                    {
+                        "City": "missing"
+                    },
+                    {
+                        "Level Of Resistance": "Active Aggressive"
+                    },
+                    {
+                        "Subject Armed With": "Hands"
+                    },
+                    {
+                        "Force Used": "Advancing, Grabbing, Punching, Kicking, etc."
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "No"
+                    },
+                    {
+                        "Arrested For": "Not Stated"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "Yes"
+                    },
+                    {
+                        "Type Injuries": "Drug Incapacitation"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Case Number": "34-06460"
+                    },
+                    {
+                        "Date": "6/14/2023"
+                    },
+                    {
+                        "Time": "0139"
+                    },
+                    {
+                        "Assist": "Yes"
+                    },
+                    {
+                        "Agency": "UPD"
+                    },
+                    {
+                        "Information Taken From": "missing"
+                    },
+                    {
+                        "Crime/ Incident": "missing"
+                    },
+                    {
+                        "Status": "Completed"
+                    },
+                    {
+                        "Incident Reviewed By": "Flores, Ava M."
+                    },
+                    {
+                        "Date Reviewed": "6/22/2023"
+                    },
+                    {
+                        "Drugs/Alcohol": "No"
+                    },
+                    {
+                        "Location": "2154 Crestview Dr."
+                    },
+                    {
+                        "City": "Urbana"
+                    },
+                    {
+                        "K-9": "No"
+                    },
+                    {
+                        "Crisis Intervention Related": "No"
+                    },
+                    {
+                        "Type Premises": "Field"
+                    },
+                    {
+                        "District": "missing"
+                    },
+                    {
+                        "Recorded On Camera": "Yes"
+                    },
+                    {
+                        "Camera": "Vehicle/BWC"
+                    },
+                    {
+                        "Type Situation": "Shooting"
+                    },
+                    {
+                        "Reason Force Used": "Armed/Threatening"
+                    },
+                    {
+                        "Officer Injured": "No"
+                    },
+                    {
+                        "Danger Factors": "Shooting Suspect"
+                    },
+                    {
+                        "Final Disposition": "Arrested/Lodged"
+                    },
+                    {
+                        "Verbal De-Escalation Attempted": "No"
+                    },
+                    {
+                        "Subject #": "1"
+                    },
+                    {
+                        "DOB": "missing"
+                    },
+                    {
+                        "Gender": "Male"
+                    },
+                    {
+                        "Race": "missing"
+                    },
+                    {
+                        "HGT": "/"
+                    },
+                    {
+                        "WGT": "missing"
+                    },
+                    {
+                        "Under The Influence": "No"
+                    },
+                    {
+                        "City": "Urbana"
+                    },
+                    {
+                        "Level Of Resistance": "Fleeing Suspect"
+                    },
+                    {
+                        "Subject Armed With": "Firearm"
+                    },
+                    {
+                        "Force Used": "Fleeing"
+                    },
+                    {
+                        "Force Location": "Not Stated"
+                    },
+                    {
+                        "Arrested": "Yes"
+                    },
+                    {
+                        "Arrested For": "Agg. Discharge of Firearm"
+                    },
+                    {
+                        "Arrest ID": "None"
+                    },
+                    {
+                        "Injured": "No"
+                    },
+                    {
+                        "Type Injuries": "Medical Aid"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    },
+                    {
+                        "Camera": "Yes"
+                    },
+                    {
+                        "Type Injuries": "None"
+                    }
+                ]
+            }
+        ]
+    }
+]

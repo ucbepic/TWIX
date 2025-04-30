@@ -1,0 +1,53 @@
+[
+    {
+        "type": "kv",
+        "child": -1,
+        "fields": [
+            "Type Premises",
+            "Agency",
+            "Arrested For",
+            "Type Injuries",
+            "Subject #",
+            "Danger Factors",
+            "Force Used",
+            "Location",
+            "District",
+            "WGT",
+            "Status",
+            "City",
+            "Incident Reviewed By",
+            "Information Taken From",
+            "Drugs/Alcohol",
+            "Camera",
+            "Crisis Intervention Related",
+            "Date Reviewed",
+            "Case Number",
+            "Verbal De-Escalation Attempted",
+            "Recorded On Camera",
+            "Time",
+            "Race",
+            "Crime/ Incident",
+            "Type Situation",
+            "DOB",
+            "Injured",
+            "Assist",
+            "Reason Force Used",
+            "HGT",
+            "Level Of Resistance",
+            "Arrested",
+            "Date",
+            "Under The Influence",
+            "Final Disposition",
+            "Subject Armed With",
+            "Gender",
+            "Officer Injured",
+            "Force Location",
+            "Arrest ID",
+            "K-9"
+        ],
+        "bid": [
+            0
+        ],
+        "node_id": 0
+    }
+]
