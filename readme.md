@@ -45,7 +45,7 @@ If you want to use TWIX as a Python package, see detailed Python API references 
 
 1. To use TWIX to extract structured data step by step, check out [`tests/test_twix.ipynb`](tests/test_twix.ipynb).
 2. To use TWIX to extract structured data with a single API call, check out [`tests/test_twix_transform.ipynb`](tests/test_twix_transform.ipynb).
-3. To edit the inferred template with user input, check out [`tests/test_twix_users.ipynb`](tests/test_twix_users.ipynb).
+3. To edit the inferred template with user input, check out [`tests/test_twix_user_apis.ipynb`](tests/test_twix_user_apis.ipynb).
 
 # 🖥️ User Interface
 
@@ -165,8 +165,7 @@ Allows users to add fields to the predicted fields.
 
 - **Parameters:**
   - `added_fields` (list): A list of fields to add based on the predicted fields.
-  - `data_files` (list, optional): Stores a list of paths to documents that are created using the same template. At least one of `data_files` or `result_folder` must be specified.
-  - `result_folder` (str, optional): The path to store results. If not specified, TWIX will automatically create a folder under `root/tests/out/file_name/`.
+  - `result_folder` (str): The path to store results. 
 
 ---
 
@@ -176,8 +175,7 @@ Allows users to delete fields from the predicted fields.
 
 - **Parameters:**
   - `removed_fields` (list): A list of fields to delete based on the predicted fields.
-  - `data_files` (list, optional): Stores a list of paths to documents that are created using the same template. At least one of `data_files` or `result_folder` must be specified.
-  - `result_folder` (str, optional): The path to store results. If not specified, TWIX will automatically create a folder under `root/tests/out/file_name/`.
+  - `result_folder` (str): The path to store results. 
 
 ---
 
@@ -187,8 +185,7 @@ Allows users to remove nodes in the predicted template.
 
 - **Parameters:**
   - `node_ids` (list): A list of node IDs. Each node ID is an integer.
-  - `data_files` (list, optional): Stores a list of paths to documents that are created using the same template. At least one of `data_files` or `result_folder` must be specified.
-  - `result_folder` (str, optional): The path to store results. If not specified, TWIX will automatically create a folder under `root/tests/out/file_name/`.
+  - `result_folder` (str): The path to store results. 
 
 ---
 
@@ -200,8 +197,7 @@ Allows users to update nodes in the predicted template.
   - `node_id` (int): The integer node ID to update.
   - `type` (str): The type of the node to update, either `"kv"` or `"table"`.
   - `fields` (list): A list of fields (strings) to update.
-  - `data_files` (list, optional): Stores a list of paths to documents that are created using the same template. At least one of `data_files` or `result_folder` must be specified.
-  - `result_folder` (str, optional): The path to store results. If not specified, TWIX will automatically create a folder under `root/tests/out/file_name/`.
+  - `result_folder` (str): The path to store results. 
 
 
 
