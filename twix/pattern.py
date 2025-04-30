@@ -283,7 +283,7 @@ def get_metadata(image_paths):
     prompt = 'Extract only the common raw headers and footers from the given two images. Headers appear in the first few lines, and footers appear in the last few lines. If any phrase in a row belongs to the header or footer, the entire row should be included. Exclude all other content. Separate headers and footers with |. Do not include explanations.'
     
     vision_model_name = 'vision-' + model_name 
-    
+
     response = model(vision_model_name,prompt,image_paths)
 
     
@@ -1508,6 +1508,6 @@ def extract_data(data_files, result_folder, template = []):
         phrases = read_file(text_path)#list of phrases
         phrases_bb = read_json(dict_path)#phrases with bounding boxes
         extraction_object = extract_data_per_doc(template, phrases_bb, phrases, out_path, metadata)
-        extraction_objects['data_file'] = extraction_object
+        extraction_objects[file_name] = extraction_object
 
     return extraction_objects, total_cost
