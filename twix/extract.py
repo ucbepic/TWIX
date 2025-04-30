@@ -33,7 +33,7 @@ def get_image_path(target_folder):
     return paths
 
 
-def extract_phrase_LLM(data_files, result_folder = ''):
+def extract_phrase_LLM(data_files, result_folder):
     global total_cost
     if(len(result_folder) == 0):
         result_folder = get_result_folder_path(data_files)
@@ -329,13 +329,13 @@ def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o', page_to
     print('Image-based sample phrase detection starts...')
     
     #get ground_phrases_full
-    phrase_LLM_path = get_phrase_LLM_path(data_files)
-    ground_phrases_full = extract_phrase_LLM(data_files)
+    phrase_LLM_path = get_phrase_LLM_path(result_folder)
+    ground_phrases_full = extract_phrase_LLM(data_files, result_folder)
     write_phrase(phrase_LLM_path, ground_phrases_full)
 
     print('Phrase extraction for the merged file starts...')
     # extract prhases for merged pdfs
-    phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(merged_pdf_path, text_path, dict_path, raw_path, data_files, page_to_infer_fields)
+    phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(merged_pdf_path, text_path, dict_path, raw_path, result_folder, page_to_infer_fields)
 
     phrases_out = {}
 
@@ -349,7 +349,7 @@ def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o', page_to
         dict_path = result_folder + file_name + '_bounding_box_page_number.json' 
         raw_path = result_folder + file_name + '_raw_phrases_bounding_box_page_number.txt'
         #print(data_file)
-        phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(data_file, text_path, dict_path, raw_path, data_files, max_page_limit) #extract all data for each document 
+        phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(data_file, text_path, dict_path, raw_path, result_folder, max_page_limit) #extract all data for each document 
         phrases_out[file_name] = (phrases, phrases_bounding_box_page_number)
 
     #clean intermediate files 
@@ -664,7 +664,7 @@ def get_phrases_csv(path, user_page_indices=list(range(5))):
 def write_csv(file_path,data):
     data.to_csv(file_path, index=False)
 
-def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, data_files, page_count): 
+def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, result_folder, page_count): 
     user_page_indices = list(range(page_count))
     #print('Processing ', in_path)
     #print('Word extraction starts...')
@@ -676,7 +676,7 @@ def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, data_file
 
     #print('Learn rules for word concatation...')
     #2 learn rules
-    distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub = learn_rules(raw_path, data_files)
+    distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub = learn_rules(raw_path, result_folder)
 
     #3 apply rules 
     raw_phases = load_extracted_words(raw_path)
@@ -699,9 +699,8 @@ def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, data_file
     
     return phrases_txt, phrases_json
 
-def get_phrase_LLM_path(pdf_paths):
-    result_folder_path = get_result_folder_path(pdf_paths)
-    return result_folder_path + 'phrases_LLM.txt'
+def get_phrase_LLM_path(result_folder):
+    return result_folder + 'phrases_LLM.txt'
 
 def read_file(file):
     data = []
@@ -713,10 +712,10 @@ def read_file(file):
     return data
 
 
-def learn_rules(raw_phrases_with_bounding_box_path, pdf_paths):
+def learn_rules(raw_phrases_with_bounding_box_path, result_folder):
     #load raw phrases and raw phrases with LLMs 
     phrases = load_extracted_words(raw_phrases_with_bounding_box_path)
-    phrase_LLM_path = get_phrase_LLM_path(pdf_paths)
+    phrase_LLM_path = get_phrase_LLM_path(result_folder)
     ground_phrases_full = load_ground_truth_phrases(phrase_LLM_path)
     ground_phrases_full = list(set(ground_phrases_full))
     ground_phrases_sub = build_subphrase_set(ground_phrases_full)
@@ -737,8 +736,6 @@ def learn_rules(raw_phrases_with_bounding_box_path, pdf_paths):
     distance_threshold = min(min_neg_dist-delta, (max_pos_dist+min_neg_dist)/2) 
 
     return distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub
-    
-    return df 
 
 def apply_rules(phrases, distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub):
     if(distance_threshold < 0):

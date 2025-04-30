@@ -2,12 +2,10 @@
 from . import extract, key, pattern
 import os 
 
-def add_fields(added_fields, data_files = [], result_folder = ''):
-    if(len(result_folder) == 0 and len(data_files) == 0):
+def add_fields(added_fields, result_folder):
+    if(len(result_folder) == 0):
         print('Add fields fails. Please specify data_files or result_folder. ')
         return 
-    if(len(result_folder) == 0):
-        result_folder = extract.get_result_folder_path(data_files)
     
     #read predicted fields
     key_path = key.get_key_path(result_folder)
@@ -45,12 +43,10 @@ def add_fields(added_fields, data_files = [], result_folder = ''):
     return fields
 
 
-def remove_fields(removed_fields, data_files = [], result_folder = ''):
-    if(len(result_folder) == 0 and len(data_files) == 0):
+def remove_fields(removed_fields, result_folder):
+    if(len(result_folder) == 0):
         print('Remove fields fails. Please speciify data files or result folders. ')
         return 
-    if(len(result_folder) == 0):
-        result_folder = extract.get_result_folder_path(data_files)
     
     #read predicted fields
     key_path = key.get_key_path(result_folder)
@@ -97,40 +93,10 @@ def remove_fields(removed_fields, data_files = [], result_folder = ''):
 
     return new_fields
 
-def remove_template_node(node_ids, data_files = [], result_folder = ''):
-    if(len(result_folder) == 0 and len(data_files) == 0):
+def remove_template_node(node_ids, result_folder):
+    if(len(result_folder) == 0):
         print('Remove fields fails. Please speciify data files or result folders. ')
         return 
-    if(len(result_folder) == 0):
-        result_folder = extract.get_result_folder_path(data_files)
-
-    #read template 
-    template_path = key.get_template_path(result_folder)
-    if os.path.isfile(template_path):
-        template = pattern.read_template(template_path)
-    else:
-        print('Template does not exist in local directory.') 
-    
-    updated_template = []
-    for i in range(len(template)):
-        if(i not in node_ids):
-            updated_template.append(template[i])
-    
-    print('Template is updated!')
-
-    #write template to local directory
-    #get template path
-    template_path = key.get_template_path(result_folder)
-    pattern.write_template(updated_template, template_path)
-
-    return updated_template
-
-def modify_template_node(node_id, type, fields, data_files = [], result_folder = ''):
-    if(len(result_folder) == 0 and len(data_files) == 0):
-        print('Remove fields fails. Please speciify data files or result folders. ')
-        return 
-    if(len(result_folder) == 0):
-        result_folder = extract.get_result_folder_path(data_files)
 
     #read template 
     template_path = key.get_template_path(result_folder)
@@ -138,6 +104,33 @@ def modify_template_node(node_id, type, fields, data_files = [], result_folder =
         template = pattern.read_template(template_path)
     else:
         print('Template does not exist in local directory.')
+        return  
+    
+    updated_template = []
+    for i in range(len(template)):
+        if(i not in node_ids):
+            updated_template.append(template[i])
+    
+    #write template to local directory
+    #get template path
+    template_path = key.get_template_path(result_folder)
+    pattern.write_template(updated_template, template_path)
+
+    print('Template is updated!')
+    return updated_template
+
+def modify_template_node(node_id, type, fields, result_folder):
+    if(len(result_folder) == 0):
+        print('Remove fields fails. Please speciify data files or result folders. ')
+        return 
+
+    #read template 
+    template_path = key.get_template_path(result_folder)
+    if os.path.isfile(template_path):
+        template = pattern.read_template(template_path)
+    else:
+        print('Template does not exist in local directory.')
+        return 
 
     new_template = []
     for i in range(len(template)):
@@ -149,12 +142,11 @@ def modify_template_node(node_id, type, fields, data_files = [], result_folder =
             node['fields'] = fields
             new_template.append(node)
 
-    print('Template is updated!')
-
     #write template to local directory
     #get template path
     template_path = key.get_template_path(result_folder)
     pattern.write_template(new_template, template_path)
+    print('Template is updated!')
 
     return new_template
 
