@@ -112,10 +112,12 @@ Extracts phrases from PDFs by using OCR tools.
 
 - **Parameters:**
   - `data_files` (list): Stores a list of paths to documents that are created using the same template.
-  - `result_folder` (str, optional): The path to store results. If not specified, TWIX will automatically create a folder under `root/tests/out/file_name/`.
-  - `page_limit` (int, optional): Specifies how many pages to extract. By default, it extracts all pages of a document.
+  - `result_folder` (str): The path to store results. 
+  - `LLM_model_name` (str, optional): Specify the LLM model name.  
+  - `page_to_infer_fields` (int, optional): TWIX extracts all phrases from each input document by default. For field prediction, it separately creates a small document sample by specifying `page_to_infer_fields` (by default is 5), which determines how many pages are used for inferring fields. 
 - **Returns:**
-  - `list`: A list of phrases. The raw extracted phrases and their bounding box are also written in the result folder.
+  - `dict`: A dict of phrases per input document. The key in the dict stores the document name. The value corresponds to the raw extracted phrases and their bounding box, which are also written in the result folder.
+  - `cost` (float): The cost incurred during the function call. 
 
 ---
 
@@ -125,10 +127,11 @@ Predicts a list of fields from documents. Fields refer to phrases in table heade
 
 - **Parameters:**
   - `data_files` (list): Stores a list of paths to documents that are created using the same template.
-  - `result_folder` (str, optional): The path to store results. If not specified, TWIX will automatically create a folder under `root/tests/out/file_name/`.
+  - `result_folder` (str): The path to store results. 
+  - `LLM_model_name` (str, optional): Specify the LLM model name. 
 - **Returns:**
   - `list`: A list of predicted phrases. TWIX also writes the results in the local result folder, naming the file as `twix_key.txt`.
-
+  - `cost` (float): The cost incurred during the function call. 
 ---
 
 ### 3. predict_template<!-- omit in toc -->
@@ -137,10 +140,11 @@ Predicts the template from documents. A template is defined as a tree (refer to 
 
 - **Parameters:**
   - `data_files` (list): Stores a list of paths to documents that are created using the same template.
-  - `result_folder` (str, optional): The path to store results. If not specified, TWIX will automatically create a folder under `root/tests/out/file_name/`.
+  - `result_folder` (str): The path to store results. 
+  - - `LLM_model_name` (str, optional): Specify the LLM model name. 
 - **Returns:**
   - `list`: The template as a list of nodes, stored locally in the result folder, naming the file as `template.json`.
-
+  - `cost` (float): The cost incurred during the function call. 
 ---
 
 ### 4. extract_data<!-- omit in toc -->
@@ -150,10 +154,10 @@ Extracts data based on a template.
 - **Parameters:**
   - `data_files` (list): Stores a list of paths to documents that are created using the same template.
   - `template` (list, optional): The template output from `predict_template`. If not specified, TWIX will look in the local result folder to read the predicted template.
-  - `result_folder` (str, optional): The path to store results. If not specified, TWIX will automatically create a folder under `root/tests/out/file_name/`.
+  - `result_folder` (str): The path to store results. 
 - **Returns:**
   - `dict`: A dictionary of extraction results, where the key is the file path, and the value is the extraction object of that file. Each extraction object is a list of data blocks containing either table blocks or key-value blocks. Results will be written locally in the result folder, naming the file as `extracted.json`.
-
+  - `cost` (float): The cost incurred during the function call. 
 ---
 
 ### 5. transform<!-- omit in toc -->
@@ -162,12 +166,12 @@ Provides an end-to-end API to directly extract data from PDFs.
 
 - **Parameters:**
   - `data_files` (list): Stores a list of paths to documents that are created using the same template.
-  - `result_folder` (str, optional): The path to store results. If not specified, TWIX will automatically create a folder under `root/tests/out/file_name/`.
+  - `result_folder` (str): The path to store results. 
 - **Returns:**
   - `fields` (list): A list of strings representing the predicted fields.
   - `template` (list): The template as a list of nodes, stored locally in the result folder, naming the file as `template.json`.
   - `extraction_object` (dict): A dictionary of extraction results, where the key is the file path, and the value is the extraction object of that file. Each extraction object is a list of data blocks containing either table blocks or key-value blocks. Results will be written locally in the result folder, naming the file as `extracted.json`.
-
+  - `cost` (float): The cost incurred during the function call. 
 ---
 
 ### 6. add_fields<!-- omit in toc -->

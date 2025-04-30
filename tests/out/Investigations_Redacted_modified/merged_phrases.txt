@@ -1,7 +1,7 @@
 Report Criteria
 Complaints Occurred Between
-1/1/2023 AND 11/20/202(cid:23)
-Complaints Detail Rpt #A-5
+1/1/2008 AND 11/20/2020
+Complaints Detail Rpt #A-2
 Champaign Police Department
 Complaints By Date
 Date
@@ -14,38 +14,34 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-1/27/2023
-23-01
-Smith, James
+1/27/2012
+08-01
+Hayes, Olivia
 No
 FORMAL
 Not Stated
 SUSTAINED
 No
-1/30/2023
+1/30/2008
 Citizen
-2/7/2023
+2/7/2008
 N/A
 Complainant
 DOB
 Gender
 FEMAL
 Address
-Terr, Rockford IL 61020
+Terr, Champaign IL 61820
 H Phone
 Type Of Complaint
 Description
 Complaint Disposition
 Complaint #
 1
-R-(cid:24)(cid:39)
-(cid:56)se
-o(cid:73)
-(cid:83)h(cid:92)si(cid:70)a(cid:79)
-(cid:73)or(cid:70)e
+R-3B.1 Courtesy
+Profanity
 Discourteous Conduct
-(cid:49)(cid:50)(cid:55)
-S(cid:56)S(cid:55)(cid:36)(cid:44)(cid:49)(cid:40)(cid:39)
+SUSTAINED
 Name
 ID No.
 Rank
@@ -55,83 +51,9 @@ Action Taken
 Body Cam
 Officer #
 1
-(cid:58)i(cid:79)(cid:79)iams,
-(cid:48)i(cid:70)hae(cid:79)
-(cid:47).
-(cid:24)(cid:27)2
-(cid:47)(cid:44)(cid:40)(cid:56)(cid:55)(cid:40)(cid:49)(cid:36)(cid:49)(cid:55)
-Field Operations
-SUSTAINED
-(cid:49)(cid:50)(cid:49)(cid:40)
-No
-Date
-Number
-Investigator
-Date Assigned
-Racial
-Category / Type
-Location Of Occurrence
-Disposition
-Completed
-Recorded On Camera
-2/24/2023
-23-02
-Johnson, Robert
-No
-FORMAL
-Not Stated
-SUSTAINED
-No
-2/27/2023
-Citizen
-3/17/2023
-N/A
-Complainant
-DOB
-Gender
-FEMAL
-Address
-,
-S(cid:83)rin(cid:74)(cid:73)ie(cid:79)(cid:71)
-IL
-(cid:25)2(cid:26)0(cid:20)
-H Phone
-Type Of Complaint
-Description
-Complaint Disposition
-Complaint #
-1
-R(cid:16)3(cid:37)(cid:17)(cid:23)
-(cid:38)(cid:50)(cid:56)R(cid:55)(cid:40)S(cid:60)(cid:29)
-(cid:38)(cid:50)(cid:48)(cid:48)(cid:40)(cid:49)(cid:55)
-Discourteous Conduct
-SUSTAINED
-Complaint #
-2
-R-3B.4 COURTESY
-COMMENT
-Discourteous Conduct
-(cid:40)(cid:59)(cid:50)(cid:49)(cid:40)R(cid:36)(cid:55)(cid:40)(cid:39)
-Complaint #
-3
-R-3(cid:37)(cid:17)(cid:20)
-(cid:38)o(cid:88)rtes(cid:92)(cid:29)(cid:51)ro(cid:73)anit(cid:92)
-Wrong Action by Employee
-(cid:56)(cid:49)(cid:41)(cid:50)(cid:56)(cid:49)(cid:39)(cid:40)(cid:39)
-Name
-ID No.
-Rank
-Division
-Officer Disposition
-Action Taken
-Body Cam
-Officer #
-1
-(cid:37)ro(cid:90)n,
-(cid:39)a(cid:89)i(cid:71)
-(cid:51)(cid:17)
-(cid:20)0(cid:20)
-Officer
+Newton, Grace.
+914
+SERGEANT
 Field Operations
 SUSTAINED
 COUNSELING
@@ -146,99 +68,17 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-3/5/2023
-23-03
-Jones, John R(cid:17)
-(cid:60)es
+2/24/2012
+08-02
+Nguyen,Ethan
+No
 FORMAL
 Not Stated
-NOT SUSTAINED
+SUSTAINED
 No
-3/10/2023
+2/27/2008
 Citizen
-4/28/2023
-N/A
-Complainant
-DOB
-Gender
-MALE
-Address
-,
-S(cid:83)rin(cid:74)(cid:73)ie(cid:79)(cid:71)
-IL
-(cid:25)2(cid:26)0(cid:20)
-H Phone
-(
-Type Of Complaint
-Description
-Complaint Disposition
-Complaint #
-1
-R-3B.2 Courtesy
-Rude
-(cid:58)ron(cid:74)
-(cid:36)(cid:70)tion
-b(cid:92)
-(cid:40)m(cid:83)(cid:79)o(cid:92)ee
-S(cid:56)S(cid:55)(cid:36)(cid:44)(cid:49)(cid:40)(cid:39)
-Complaint #
-2
-R-3B.2 Courtesy
-Rude
-Discourteous Conduct
-NOT SUSTAINED
-Name
-ID No.
-Rank
-Division
-Officer Disposition
-Action Taken
-Body Cam
-Officer #
-1
-(cid:42)ar(cid:70)ia,
-(cid:38)hristo(cid:83)her
-(cid:48)(cid:17)
-(cid:25)(cid:26)(cid:20)RET
-Senior (cid:50)(cid:73)(cid:73)i(cid:70)er
-Field Operations
-NOT SUSTAINED
-NONE
-No
-L.E.A. Data Technologies
-ADMINISTRATIVE Database
-11/10/2024
-(cid:19)(cid:22)
-(cid:20)9
-2(cid:27)
-(cid:51)M
-Page 1 of 74
-Complaints Detail Rpt #A-5
-Champaign Police Department
-Complaints By Date
-Date
-Number
-Investigator
-Date Assigned
-Racial
-Category / Type
-Location Of Occurrence
-Disposition
-Completed
-Recorded On Camera
-3/14/2023
-23-II01
-(cid:48)i(cid:79)(cid:79)er,
-(cid:58)i(cid:79)(cid:79)iam
-J(cid:17)
-No
-FORMAL
-Not Stated
-(cid:56)(cid:49)(cid:41)(cid:50)(cid:56)(cid:49)(cid:39)(cid:40)(cid:39)
-No
-3/14/2023
-Internal
-3/14/2023
+3/17/2008
 N/A
 Complainant
 DOB
@@ -252,8 +92,144 @@ Description
 Complaint Disposition
 Complaint #
 1
-R-3B.(cid:20) Courtesy
-(cid:51)ro(cid:73)anit(cid:92)
+R-3B.1 Courtesy
+Profanity
+Discourteous Conduct
+NOT SUSTAINED
+Complaint #
+2
+R-3B.4 COURTESY
+COMMENT
+Discourteous Conduct
+SUSTAINED
+Complaint #
+3
+R-5D Use of physical force
+Wrong Action by Employee
+EXONERATED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Palmer, Henry.
+939
+Senior
+Officer
+Field Operations
+SUSTAINED
+COUNSELING
+No
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/5/2012
+08-03
+Patel, Aanya
+No
+FORMAL
+Not Stated
+NOT SUSTAINED
+No
+3/10/2008
+Citizen
+4/28/2008
+N/A
+Complainant
+DOB
+Gender
+MALE
+Address
+, Champaign IL 61821
+H Phone
+(
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+UNFOUNDED
+Complaint #
+2
+R-3B.2 Courtesy
+Rude
+Discourteous Conduct
+NOT SUSTAINED
+Name
+ID No.
+Rank
+Division
+Officer Disposition
+Action Taken
+Body Cam
+Officer #
+1
+Walters, Leah.
+921RET
+SERGEANT
+Field Operations
+NOT SUSTAINED
+NONE
+No
+L.E.A. Data Technologies
+ADMINISTRATIVE Database
+11/10/2020 10
+49
+22 AM
+Page 1 of 74
+Complaints Detail Rpt #A-2
+Champaign Police Department
+Complaints By Date
+Date
+Number
+Investigator
+Date Assigned
+Racial
+Category / Type
+Location Of Occurrence
+Disposition
+Completed
+Recorded On Camera
+3/14/2012
+08-II01
+Kim, Joon
+No
+FORMAL
+Not Stated
+SUSTAINED
+No
+3/14/2008
+Internal
+3/14/2008
+N/A
+Complainant
+DOB
+Gender
+FEMAL
+Address
+, Champaign IL 61821
+H Phone
+Type Of Complaint
+Description
+Complaint Disposition
+Complaint #
+1
+R-3B.2 Courtesy
+Rude
 Discourteous Conduct
 SUSTAINED
 Name
@@ -265,14 +241,12 @@ Action Taken
 Body Cam
 Officer #
 1
-(cid:48)artine(cid:93),
-Jose(cid:83)h
-(cid:49)(cid:17)
-3(cid:25)9RESI
+Webster, Simon.
+799RESI
 Senior
 Officer
 Field Operations
-(cid:56)(cid:49)(cid:41)(cid:50)(cid:56)(cid:49)(cid:39)(cid:40)(cid:39)
+SUSTAINED
 COUNSELING
 No
 G
@@ -286,47 +260,39 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-3/18/2023
-23-06
-(cid:39)a(cid:89)is,
-(cid:48)atthe(cid:90)
-(cid:38)(cid:17)
-(cid:60)es
+3/18/2012
+08-06
+Davies, Nora
+No
 FORMAL
 Not Stated
 SUSTAINED
 No
-4/17/2023
+4/17/2008
 Citizen
-4/23/2023
+4/23/2008
 N/A
 Complainant
 DOB
 Gender
 MALE
 Address
-,
-(cid:38)hi(cid:70)a(cid:74)o
-IL
-(cid:25)0(cid:25)(cid:23)(cid:23)
+, Champaign IL 61821
 H Phone
 Type Of Complaint
 Description
 Complaint Disposition
 Complaint #
 1
-R-3B.2 Courtesy
-R(cid:88)(cid:71)e
+R-3B.1 Courtesy
+Profanity
 Discourteous Conduct
 NOT SUSTAINED
 Complaint #
 2
 R-3B.4 COURTESY
 COMMENT
-(cid:58)ron(cid:74)
-(cid:36)(cid:70)tion
-b(cid:92)
-(cid:40)m(cid:83)(cid:79)o(cid:92)ee
+Discourteous Conduct
 SUSTAINED
 Name
 ID No.
@@ -337,11 +303,9 @@ Action Taken
 Body Cam
 Officer #
 1
-(cid:43)ernan(cid:71)e(cid:93),
-(cid:39)anie(cid:79)
-(cid:43)(cid:17)
-(cid:24)(cid:20)2-Ret
-(cid:47)(cid:44)(cid:40)(cid:56)(cid:55)(cid:40)(cid:49)(cid:36)(cid:49)(cid:55)
+Douglas, Emma.
+722-Ret
+DETECTIVE
 Operations Supp
 SUSTAINED
 COUNSELING
@@ -356,25 +320,24 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-3/22/2023
-23-04a
-Ro(cid:71)ri(cid:74)(cid:88)e(cid:93),
-(cid:36)nthon(cid:92)
+3/22/2012
+08-04a
+Singh, Arjun
 No
 FORMAL
 Not Stated
 UNFOUNDED
 No
-4/16/2023
-(cid:44)nterna(cid:79)
-5/1/2023
+4/16/2008
+Citizen
+5/1/2008
 N/A
 Complainant
 DOB
 Gender
 MALE
 Address
-Rantoul IL 61866
+Ct, Rantoul IL 61866
 H Phone
 (
 Type Of Complaint
@@ -394,10 +357,8 @@ Action Taken
 Body Cam
 Officer #
 1
-(cid:47)o(cid:83)e(cid:93),
-(cid:55)homas
-(cid:37)(cid:17)
-(cid:25)(cid:26)(cid:25)
+Douglas, Emma V.
+920
 SERGEANT
 Field Operations
 UNFOUNDED
@@ -421,37 +382,31 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-3/22/2023
-23-04b
-Ro(cid:71)ri(cid:74)(cid:88)e(cid:93),
-(cid:36)nthon(cid:92)
+3/22/2012
+08-04b
+Zhao, Leo
 No
 FORMAL
 Not Stated
-S(cid:56)S(cid:55)(cid:36)(cid:44)(cid:49)(cid:40)(cid:39)
-Yes
-4/16/2023
+UNFOUNDED
+No
+4/16/2008
 Citizen
-5/1/2023
+5/1/2008
 N/A
 Complainant
 DOB
 Gender
 FEMAL
 Address
-,
-S(cid:83)rin(cid:74)(cid:73)ie(cid:79)(cid:71)
-IL
-(cid:25)2(cid:26)0(cid:20)
+, CHICAGO IL 60644-2803
 H Phone
 Type Of Complaint
 Description
 Complaint Disposition
 Complaint #
 1
-R(cid:16)3(cid:37)(cid:17)(cid:23)
-(cid:38)(cid:50)(cid:56)R(cid:55)(cid:40)S(cid:60)(cid:29)
-(cid:38)(cid:50)(cid:48)(cid:48)(cid:40)(cid:49)(cid:55)
+R-5D Use of physical force
 Wrong Action by Employee
 UNFOUNDED
 Name
@@ -466,14 +421,16 @@ Officer #
 MULTIPLE OFFICERS/EMPLOY
 NOT STATED
 NOT ENTERED
-S(cid:56)S(cid:55)(cid:36)(cid:44)(cid:49)(cid:40)(cid:39)
+UNFOUNDED
 NONE
-(cid:60)es
+No
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
-1(cid:20)(cid:18)(cid:20)(cid:19)(cid:18)(cid:21)(cid:19)(cid:21)4(cid:3)(cid:19)(cid:22)(cid:29)(cid:20)(cid:28)(cid:29)(cid:21)(cid:27)(cid:3)(cid:51)(cid:48)
+11/10/2020 10
+49
+22 AM
 Page 2 of 74
-Complaints Detail Rpt #A-5
+Complaints Detail Rpt #A-2
 Champaign Police Department
 Complaints By Date
 Date
@@ -486,28 +443,24 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-3/22/2023
-23-04c
-Ro(cid:71)ri(cid:74)(cid:88)e(cid:93),
-(cid:36)nthon(cid:92)
+3/22/2012
+08-04c
+Park, Ben
 No
 FORMAL
 Not Stated
 EXONERATED
 No
-4/16/2023
-(cid:44)nterna(cid:79)
-5/1/2023
+4/16/2008
+Citizen
+5/1/2008
 N/A
 Complainant
 DOB
 Gender
 FEMAL
 Address
-,
-S(cid:83)rin(cid:74)(cid:73)ie(cid:79)(cid:71)
-IL
-(cid:25)2(cid:26)0(cid:20)
+, Champaign IL 61820
 H Phone
 Type Of Complaint
 Description
@@ -542,18 +495,17 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-3/22/2023
-23-04d
-Ro(cid:71)ri(cid:74)(cid:88)e(cid:93),
-(cid:36)nthon(cid:92)
+3/22/2012
+08-04d
+Tran, Mia
 No
 FORMAL
 Not Stated
 EXONERATED
-Yes
-4/16/2023
+No
+4/16/2008
 Citizen
-5/1/2023
+5/1/2008
 N/A
 Complainant
 DOB
@@ -584,7 +536,7 @@ NOT STATED
 NOT ENTERED
 UNFOUNDED
 NONE
-(cid:60)es
+No
 Date
 Number
 Investigator
@@ -595,18 +547,17 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-4/10/2023
-23-II02
-(cid:58)i(cid:79)son,
-(cid:36)n(cid:71)re(cid:90)
+4/10/2012
+08-II02
+Wang, Leo
 No
 FACT FINDING
 Not Stated
 Not a complaint
 No
-4/10/2023
+4/10/2008
 Internal
-5/10/2023
+5/10/2008
 N/A
 Complainant
 CPD
@@ -632,14 +583,12 @@ Action Taken
 Body Cam
 Officer #
 1
-(cid:55)(cid:43)(cid:50)(cid:48)(cid:36)S,
-R(cid:60)(cid:36)(cid:49)
-(cid:39)(cid:17)
-2(cid:20)(cid:25)
-(cid:39)(cid:40)(cid:55)(cid:40)(cid:38)(cid:55)(cid:44)(cid:57)(cid:40)
+Holland, Alice
+942
+OFFICER
 Field Operations
 Not a complaint
-(cid:38)(cid:50)(cid:56)(cid:49)S(cid:40)(cid:47)(cid:44)(cid:49)(cid:42)
+NONE
 No
 Date
 Number
@@ -651,40 +600,31 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-4/14/2023
-23(cid:16)05
-(cid:36)n(cid:71)erson,
-Josh(cid:88)a
+4/14/2012
+08-05
+Lim, Zoe
 No
 Inquiry
 Not Stated
-(cid:56)(cid:49)(cid:41)(cid:50)(cid:56)(cid:49)(cid:39)(cid:40)(cid:39)
+Not a complaint
 No
-4/16/2023
-(cid:44)nterna(cid:79)
-5/14/2023
+4/16/2008
+Citizen
+5/14/2008
 N/A
 Complainant
 DOB
 Gender
 FEMAL
 Address
-,
-(cid:49)orris
-(cid:38)it(cid:92),
-IL
-(cid:25)2(cid:27)(cid:25)(cid:28)
+, Champaign IL 61821
 H Phone
 Type Of Complaint
 Description
 Complaint Disposition
 Complaint #
 1
-R(cid:16)(cid:24)(cid:39)
-(cid:56)se
-o(cid:73)
-(cid:83)h(cid:92)si(cid:70)a(cid:79)
-(cid:73)or(cid:70)e
+R-5A3 OPERATIONS
 No Action by Employee
 Not a complaint
 Name
@@ -696,10 +636,8 @@ Action Taken
 Body Cam
 Officer #
 1
-(cid:55)a(cid:92)(cid:79)or,
-(cid:49)i(cid:70)ho(cid:79)as
-S(cid:17)
-(cid:26)2(cid:28)(cid:28)
+Holland, Alice
+7108
 RECRUIT OFFIC
 Field Operations
 PENDING
@@ -707,9 +645,11 @@ NONE
 No
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
-(cid:20)(cid:20)(cid:18)(cid:20)(cid:19)(cid:18)(cid:21)(cid:19)(cid:21)4(cid:3)(cid:19)(cid:22)(cid:29)(cid:20)(cid:28)(cid:29)(cid:21)(cid:27)(cid:3)(cid:51)(cid:48)
+11/10/2020 10
+49
+22 AM
 Page 3 of 74
-Complaints Detail Rpt #A-5
+Complaints Detail Rpt #A-2
 Champaign Police Department
 Complaints By Date
 Date
@@ -722,17 +662,17 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-4/25/2023
-2(cid:23)-II01
-(cid:48)oore, Jonathan
+4/25/2012
+09-II01
+Zhu, Eli
 No
 Inquiry
 Not Stated
-(cid:56)(cid:49)(cid:41)(cid:50)(cid:56)(cid:49)(cid:39)(cid:40)(cid:39)
+Not a complaint
 No
-10/2/2023
+10/2/2008
 Internal
-4/17/202(cid:23)
+4/17/2009
 N/A
 Complainant
 DOB
@@ -774,27 +714,24 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-5/18/2023
-23-08
-(cid:47)ee,
-(cid:37)en(cid:77)amin
+5/18/2012
+08-08
+Cho, Ivy
 No
 FORMAL
 Not Stated
 SUSTAINED
 No
-6/5/2023
+6/5/2008
 Citizen
-7/2/2023
+7/2/2008
 N/A
 Complainant
 DOB
 Gender
 MALE
 Address
-(cid:46)eenes
-(cid:44)(cid:47)
-(cid:25)2(cid:27)(cid:24)(cid:20)
+, Champaign IL 61820
 H Phone
 Type Of Complaint
 Description
@@ -819,9 +756,8 @@ Action Taken
 Body Cam
 Officer #
 1
-(cid:42)ran(cid:74)er,
-(cid:46)imm(cid:92)
-(cid:24)00-MED(cid:32)
+Franklin, Miles
+705-MED
 OFFICER
 Field Operations
 SUSTAINED
@@ -837,27 +773,24 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-5/26/2023
-23-07
-(cid:51)ere(cid:93),
-(cid:36)(cid:79)e(cid:91)
+5/26/2012
+08-07
+Jin, Sam
 No
 Inquiry
 Not Stated
 Inquiry
-Yes
-6/2/2023
+No
+6/2/2008
 Citizen
-6/11/2023
+6/11/2008
 N/A
 Complainant
 DOB
 Gender
 FEMAL
 Address
-S(cid:83)rin(cid:74)(cid:73)ie(cid:79)(cid:71)
-IL
-(cid:25)2(cid:26)0(cid:20)
+Champaign IL 61821
 H Phone
 Type Of Complaint
 Description
@@ -876,16 +809,13 @@ Action Taken
 Body Cam
 Officer #
 1
-(cid:51)ar(cid:78)er,
-(cid:47)an(cid:71)on
-(cid:37).
-(cid:27)(cid:27)2(cid:27)
-S(cid:40)R(cid:42)(cid:40)(cid:36)(cid:49)(cid:55)
-(cid:32)
-Field Operations(cid:32)
+Franklin, Miles.
+7901
+RECRUIT OFFIC
+Field Operations
 Inquiry
-(cid:38)(cid:50)(cid:56)(cid:49)S(cid:40)(cid:47)(cid:44)(cid:49)(cid:42)
-(cid:60)es
+NONE
+No
 Date
 Number
 Investigator
@@ -896,18 +826,17 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-5/31/2023
-23-09
-(cid:47)ee,
-(cid:37)en(cid:77)amin
+5/31/2012
+08-09
+Yu, Kai
 No
 FORMAL
 Not Stated
 EXONERATED
 No
-6/5/2023
+6/5/2008
 Citizen
-10/2/2023
+10/2/2008
 N/A
 Complainant
 DOB
@@ -926,10 +855,8 @@ Wrong Action by Employee
 EXONERATED
 Complaint #
 2
-R(cid:16)3(cid:37)
-(cid:38)(cid:50)(cid:56)R(cid:55)(cid:40)S(cid:60)
-(cid:39)is(cid:70)o(cid:88)rteo(cid:88)s
-(cid:38)on(cid:71)(cid:88)(cid:70)t
+R-5D Use of physical force
+Wrong Action by Employee
 EXONERATED
 Name
 ID No.
@@ -940,9 +867,8 @@ Action Taken
 Body Cam
 Officer #
 1
-(cid:42)ran(cid:74)er,
-(cid:46)imm(cid:92)
-70(cid:20)-MED(cid:32)
+Franklin, Miles
+705-MED
 OFFICER
 Field Operations
 EXONERATED
@@ -950,10 +876,8 @@ NONE
 No
 Officer #
 2
-(cid:48)artin,
-Sam(cid:88)e(cid:79)
-(cid:56)(cid:17)
-733RES(cid:32)
+Franklin, Miles S.
+717RES
 OFFICER
 Field Operations
 EXONERATED
@@ -961,9 +885,11 @@ NONE
 No
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
-(cid:20)(cid:20)(cid:18)(cid:20)(cid:19)(cid:18)(cid:21)(cid:19)(cid:21)4(cid:3)(cid:19)(cid:22)(cid:29)(cid:20)(cid:28)(cid:29)(cid:21)(cid:27)(cid:3)(cid:51)(cid:48)
+11/10/2020 10
+49
+22 AM
 Page 4 of 74
-Complaints Detail Rpt #A-5
+Complaints Detail Rpt #A-2
 Champaign Police Department
 Complaints By Date
 Date
@@ -976,18 +902,17 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-6/7/2023
-23-10
-Ja(cid:70)(cid:78)son,
-(cid:37)ran(cid:71)on
+6/7/2012
+08-10
+Yu, Kai
 No
 FORMAL
 Not Stated
 NOT SUSTAINED
-Yes
-6/11/2023
+No
+6/11/2008
 Citizen
-6/26/2023
+6/26/2008
 N/A
 Complainant
 DOB
@@ -1012,16 +937,14 @@ Officer Disposition
 Action Taken
 Body Cam
 Officer #
-(cid:32)1(cid:32)
-(cid:43)arris,
-(cid:47)o(cid:74)an
-(cid:46)(cid:17)
-(cid:20)(cid:20)(cid:24)(cid:26)
+1
+Wheeler, Ivy.
+7110
 RECRUIT OFFIC
 Field Operations
 NOT SUSTAINED
 NONE
-(cid:60)es
+No
 Date
 Number
 Investigator
@@ -1032,26 +955,24 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-6/29/2023
-23-11
-(cid:47)ee,
-(cid:37)en(cid:77)amin
+6/29/2012
+08-11
+Chen, Ava
 No
 Inquiry
 Not Stated
 Inquiry
 No
-7/9/2023
+7/9/2008
 Citizen
-7/31/2023
+7/31/2008
 N/A
 Complainant
 DOB
 Gender
 FEMAL
 Address
-,
-(cid:48)orrison IL 612(cid:26)0
+, Champaign IL 61821
 H Phone
 Type Of Complaint
 Description
@@ -1069,12 +990,10 @@ Officer Disposition
 Action Taken
 Body Cam
 Officer #
-(cid:32)1(cid:32)
-San(cid:70)he(cid:93),
-J(cid:88)stin
-(cid:48)(cid:17)
-3(cid:23)(cid:27)2
-S(cid:40)R(cid:42)(cid:40)(cid:36)(cid:49)(cid:55)
+1
+Stevens, Noah
+7104
+OFFICER
 Field Operations
 Inquiry
 NONE
@@ -1089,27 +1008,24 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-7/3/2023
-23-12
-(cid:90)hite,
-(cid:71)(cid:92)(cid:79)an
-(cid:60)es
+7/3/2012
+08-12
+Chen, Ava
+No
 FORMAL
 Not Stated
 UNFOUNDED
 No
-7/11/2023
+7/11/2008
 Citizen
-10/6/2023
+10/6/2008
 N/A
 Complainant
 DOB
 Gender
 FEMAL
 Address
-,
-(cid:39)ana IL
-(cid:25)(cid:20)32(cid:20)
+, Champaign IL 61820
 H Phone
 (
 Type Of Complaint
@@ -1122,13 +1038,9 @@ Wrong Action by Employee
 UNFOUNDED
 Complaint #
 2
-R(cid:16)3(cid:37)(cid:17)2
-(cid:38)o(cid:88)rtes(cid:92)(cid:29)
-R(cid:88)(cid:71)e
-(cid:39)is(cid:70)o(cid:88)rteo(cid:88)s
-(cid:38)on(cid:71)(cid:88)(cid:70)t
-(cid:49)(cid:50)(cid:55)
-S(cid:56)S(cid:55)(cid:36)(cid:44)(cid:49)(cid:40)(cid:39)
+R-5D Use of physical force
+Wrong Action by Employee
+UNFOUNDED
 Name
 ID No.
 Rank
@@ -1138,21 +1050,18 @@ Action Taken
 Body Cam
 Officer #
 1
-(cid:38)(cid:79)ar(cid:78),
-(cid:38)hristian
-J(cid:17).
-7(cid:20)(cid:28)RESI
+Wheeler, Ivy
+785RESI
 Senior OFFICER
 Field Operations
 UNFOUNDED
 NONE
 No
+G
 Officer #
 2
-Ramire(cid:93),
-(cid:46)e(cid:89)in
-(cid:59).III
-72(cid:20)
+YLambert, LillianI
+719
 Senior
 Officer
 Field Operations
@@ -1169,24 +1078,24 @@ Location Of Occurrence
 Disposition
 Completed
 Recorded On Camera
-7/13/2023
-23-13
-(cid:48)oore, Jonathan
+7/13/2012
+08-13
+Patel, Aanya
 No
 FORMAL
 Not Stated
-S(cid:56)S(cid:55)(cid:36)(cid:44)(cid:49)(cid:40)(cid:39)
+UNFOUNDED
 No
-7/16/2023
+7/16/2008
 Citizen
-8/28/2023
+8/28/2008
 N/A
 Complainant
 DOB
 Gender
 MALE
 Address
-, Champaign IL 6182(cid:20)
+, Champaign IL 61820
 H Phone
 (
 Type Of Complaint
@@ -1211,15 +1120,16 @@ Officer Disposition
 Action Taken
 Body Cam
 Officer #
-(cid:32)1(cid:32)
-(cid:42)ran(cid:74)er,
-(cid:46)imm(cid:92)
-7(cid:25)(cid:26)-MED(cid:32)
-Senior (cid:50)(cid:73)(cid:73)i(cid:70)er
-Field Operations(cid:32)
-S(cid:56)S(cid:55)(cid:36)(cid:44)(cid:49)(cid:40)(cid:39)
-(cid:38)(cid:50)(cid:56)(cid:49)S(cid:40)(cid:47)(cid:44)(cid:49)(cid:42)
+1
+Stevens, Noah
+705-MED
+OFFICER
+Field Operations
+UNFOUNDED
+NONE
 No
 L.E.A. Data Technologies
 ADMINISTRATIVE Database
-(cid:20)(cid:20)(cid:18)(cid:20)(cid:19)(cid:18)(cid:21)(cid:19)(cid:21)4(cid:3)(cid:19)(cid:22)(cid:29)(cid:20)(cid:28)(cid:29)(cid:21)(cid:27)(cid:3)(cid:51)(cid:48)
+11/10/2020 10
+49
+22 AM

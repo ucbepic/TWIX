@@ -4,7 +4,6 @@ import pdfplumber
 import os 
 import json
 import pandas as pd
-from PIL import Image
 from pdf2image import convert_from_path
 import os
 import time 
@@ -14,13 +13,16 @@ import csv
 import math
 import random
 import logging
+from . import cost 
 from collections import defaultdict
 current_path = os.path.abspath(os.path.dirname(__file__))
 root_path = os.path.abspath(os.path.join(current_path, os.pardir))
 sys.path.append(root_path)
 from twix.model import model 
 
-vision_model_name = 'gpt4vision'
+model_name = 'gpt-4o'
+vision_model_name = 'vision-' + model_name 
+total_cost = 0
 
 def get_image_path(target_folder):
     paths = []
@@ -32,14 +34,20 @@ def get_image_path(target_folder):
 
 
 def extract_phrase_LLM(data_files, result_folder = ''):
+    global total_cost
     if(len(result_folder) == 0):
         result_folder = get_result_folder_path(data_files)
 
     image_paths = get_image_path(result_folder)
 
     prompt = 'Extract all raw phrases from the given images. A phrase is either a keyword, a value from key-value pairs, or an entry in a table, or random passage, like the footer, header or the title of table. Ensure the extracted phrases have NO duplicates. Return the phrases in reading order. Make sure all keywords must be returned. Separate each phrase with “|” and provide no additional explanations.' 
+
+    vision_model_name = 'vision-' + model_name
     
+    print('vision_model_name:', vision_model_name, 'number of images:', len(image_paths))
     response = model(vision_model_name,prompt,image_paths)
+    print('Image-based sample phrase detection finishes...')
+    total_cost += cost.cost(vision_model_name, 0, cost.count_tokens(response, vision_model_name), image_num=2)
 
     fields = [phrase.strip() for phrase in response.split('|')]
     return fields 
@@ -289,8 +297,13 @@ def extract_phrase_one_doc(pdf_path, text_path, dict_path, page_limit):
 
     return adjusted_phrases, phrases
 
-def extract_phrase(data_files, result_folder, page_limit = 5):
+def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o', page_to_infer_fields = 5):
     print('Phrase extraction starts...')
+    global model_name
+    if len(LLM_model_name) > 0:
+        model_name = LLM_model_name 
+    #print('model_name:', model_name)
+
     if(len(result_folder) == 0):
         result_folder = get_result_folder_path(data_files)
 
@@ -312,22 +325,24 @@ def extract_phrase(data_files, result_folder, page_limit = 5):
         os.makedirs(image_foler)
     
     pdf_2_image(merged_pdf_path, 2, image_foler)
+
+    print('Image-based sample phrase detection starts...')
     
     #get ground_phrases_full
     phrase_LLM_path = get_phrase_LLM_path(data_files)
     ground_phrases_full = extract_phrase_LLM(data_files)
     write_phrase(phrase_LLM_path, ground_phrases_full)
 
+    print('Phrase extraction for the merged file starts...')
     # extract prhases for merged pdfs
-    phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(merged_pdf_path, text_path, dict_path, raw_path, data_files, page_limit)
-
-    
+    phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(merged_pdf_path, text_path, dict_path, raw_path, data_files, page_to_infer_fields)
 
     phrases_out = {}
 
     phrases_out['merged_data_files'] = (phrases, phrases_bounding_box_page_number)
-    max_page_limit = 1000000
+    max_page_limit = 100000000
 
+    print('Phrase extraction for individual files starts...')
     for data_file in data_files:
         file_name = get_file_name(data_file)
         text_path = result_folder + file_name + '_phrases.txt'
@@ -339,7 +354,7 @@ def extract_phrase(data_files, result_folder, page_limit = 5):
 
     #clean intermediate files 
     delete_file(phrase_LLM_path)
-    return phrases_out
+    return phrases_out, total_cost
 
 def extract_phrase_folders(data_folder, page_limit = 6, result_folder = ''):
     paths = print_all_document_paths(data_folder)
@@ -613,7 +628,7 @@ def get_phrases_dynamic(words, y_thresh=4):
         word = words[i]
 
         if word['text'] == ':':
-            print(words[i-1]['text'], words[i+1]['text'])
+            #print(words[i-1]['text'], words[i+1]['text'])
             key_detected = True
             continue
 
@@ -651,15 +666,15 @@ def write_csv(file_path,data):
 
 def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, data_files, page_count): 
     user_page_indices = list(range(page_count))
-    print('Processing ', in_path)
-    print('Word extraction starts...')
+    #print('Processing ', in_path)
+    #print('Word extraction starts...')
     #1 first pass extraction 
     #get raw_phrases_bounding_box_page_number
     raw_phrases_bounding_box_page_number = get_phrases_csv(in_path, user_page_indices)
     
     write_csv(raw_path, raw_phrases_bounding_box_page_number)
 
-    print('Learn rules for word concatation...')
+    #print('Learn rules for word concatation...')
     #2 learn rules
     distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub = learn_rules(raw_path, data_files)
 
@@ -667,7 +682,7 @@ def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, data_file
     raw_phases = load_extracted_words(raw_path)
     refined_phrases = apply_rules(raw_phases, distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub)
 
-    print('Refine phases extraction based on learned rules...')
+    #print('Refine phases extraction based on learned rules...')
     #4 get phrase only list
     phrases_txt = [phrase for phrase in refined_phrases['text'].values.tolist() if type(phrase) == str]
 

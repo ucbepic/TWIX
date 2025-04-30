@@ -45,7 +45,7 @@ def get_openai_output(image_paths, prompt):
     return output
 
 
-def gpt_4o_vision(image_paths, prompt):
+def gpt_4o_mini_vision(image_paths, prompt):
     message_content = prompt
     return get_openai_output(image_paths, message_content)
 

@@ -1,5 +1,5 @@
 import json, os
-from . import extract
+from . import extract, cost 
 import numpy as np
 import scipy.stats
 import sys
@@ -7,8 +7,9 @@ import tiktoken
 root_path = extract.get_root_path()
 sys.path.append(root_path)
 from twix.model import model 
-model_name = 'gpt4o'
+model_name = 'gpt-4o'
 vision_model_name = 'gpt4vision'
+total_cost = 0
 
 tokenizer = tiktoken.get_encoding("cl100k_base")
 
@@ -19,7 +20,10 @@ def get_fields_by_LLM(image_paths):
     
     response = model(vision_model_name,prompt,image_paths)
     fields = [phrase.strip() for phrase in response.split('|')]
-    #print(fields) 
+
+    global total_cost
+    total_cost += cost.cost(model_name, 0, cost.count_tokens(response, model_name), image_num=2)  
+
     return fields 
 
 def token_size(text):
@@ -206,6 +210,10 @@ def phrase_filter_LLMs(l):#l is the list of phrases in the cluster
     context = ", ".join(l)
     prompt = (instruction,context)
     response = model(model_name,prompt)
+
+    global total_cost
+    total_cost += cost.cost(model_name, cost.count_tokens(prompt[0] + prompt[1], model_name), cost.count_tokens(response, model_name)) 
+
     return response 
 
 
@@ -360,7 +368,11 @@ def get_extracted_result_path(result_folder, data_file):#file path is the path o
     new_file_path = os.path.join(result_folder, f"{file_name}_extracted.json")
     return new_file_path
 
-def predict_field(data_files, result_folder):
+def predict_field(data_files, result_folder, LLM_model_name = 'gpt-4o'):
+    global model_name
+    if len(LLM_model_name) > 0:
+        model_name = LLM_model_name 
+        
     if(len(result_folder) == 0):
         result_folder = extract.get_result_folder_path(data_files)
         
@@ -397,18 +409,13 @@ def predict_field(data_files, result_folder):
     additional_fields = get_keys(remap, added_clusters)
     additional_fields = list(LLM_fields.intersection(set(additional_fields)))
     fields += additional_fields
-
-    #add additional LLM fields back 
-    # additional_LLM_fields = list(LLM_fields.difference(set(fields)))
-    # print(additional_LLM_fields)
-    # fields += additional_LLM_fields
     
     #write result
     result_path = get_key_path(result_folder)
     #print(result_path)
     write_result(result_path,fields)
 
-    return fields
+    return fields, total_cost
 
 
     

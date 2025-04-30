@@ -1,13 +1,13 @@
 import json,sys,math,os,csv
-from . import key, extract 
+from . import key, extract, cost 
 import math
 root_path = extract.get_root_path()
 sys.path.append(root_path)
 from twix.model import model 
 from gurobipy import Model, GRB
-model_name = 'gpt4o'
-vision_model_name = 'gpt4vision'
-
+model_name = 'gpt-4o'
+vision_model_name = 'vision-' + model_name 
+total_cost = 0
 metadata_rows = []
 
 def add_metadata_row(row):
@@ -282,7 +282,14 @@ def get_metadata(image_paths):
     #prompt = 'The given two images have common headers and footers in the top and bottem part of the image. Return only the raw headers and footers. Do not return other phrases. Do not add any explanations. '
     prompt = 'Extract only the common raw headers and footers from the given two images. Headers appear in the first few lines, and footers appear in the last few lines. If any phrase in a row belongs to the header or footer, the entire row should be included. Exclude all other content. Separate headers and footers with |. Do not include explanations.'
     
+    vision_model_name = 'vision-' + model_name 
+    
     response = model(vision_model_name,prompt,image_paths)
+
+    
+
+    global total_cost 
+    total_cost += cost.cost(vision_model_name, 0, cost.count_tokens(response, vision_model_name), image_num=2)
     #phrases = [phrase.strip() for phrase in response.split('|')]
     return response 
 
@@ -322,8 +329,9 @@ def is_row_headers_or_footers_LLMs(row, metadata):
     instruction = 'Given the headers: ' + ','.join(metadata) + '. Decide whether the following row is a header:' + ','.join(row) + '. Return only yes or no. Do not add explanations. Note that a header row does not need to be exactly a substring of the given headers, and it is allowed to have extra phrases. It needs to be semantically a header. '  
     prompt = (instruction,'')
     response = model(model_name,prompt)
-    # print(instruction)
-    # print(response)
+    global total_cost
+
+    total_cost += cost.cost(model_name, cost.count_tokens(prompt[0] + prompt[1], model_name), cost.count_tokens(response, model_name))
     if('yes' in response.lower()):
         return 1
     return 0
@@ -973,6 +981,9 @@ def get_KV_scores(pairs):
     response = model(model_name,prompt)
     pos = response.lower().count('yes')
 
+    global total_cost
+    total_cost += cost.cost(model_name, cost.count_tokens(prompt[0] + prompt[1], model_name), cost.count_tokens(response, model_name)) 
+
     return pos 
 
 def semantic_alignment(row_mp, id1, id2):
@@ -1390,7 +1401,11 @@ def write_string(result_path, content):
         file.write(content)
 
 
-def predict_template(data_files, result_folder):
+def predict_template(data_files, result_folder, LLM_model_name = 'gpt-4o'):
+    global model_name
+    if len(LLM_model_name) > 0:
+        model_name = LLM_model_name 
+
     #get result folder 
     if(len(result_folder) == 0):
         result_folder = extract.get_result_folder_path(data_files)
@@ -1443,9 +1458,11 @@ def predict_template(data_files, result_folder):
     metadata_row_path = key.get_metadata_row_path(result_folder)
     write_metadata_row(metadata_row_path)
 
-    return template
+    return template, total_cost
 
 def extract_data(data_files, result_folder, template = []):
+    global total_cost
+    total_cost = 0
     #get result folder 
     if(len(result_folder) == 0):
         result_folder = extract.get_result_folder_path(data_files)
@@ -1458,7 +1475,6 @@ def extract_data(data_files, result_folder, template = []):
     # print('print stored metadata rows...')
     # print_metadata_row()
     
-
     if(len(template) == 0):
         #check if template exists in local file
         #get template path
@@ -1494,4 +1510,4 @@ def extract_data(data_files, result_folder, template = []):
         extraction_object = extract_data_per_doc(template, phrases_bb, phrases, out_path, metadata)
         extraction_objects['data_file'] = extraction_object
 
-    return extraction_objects
+    return extraction_objects, total_cost
