@@ -173,17 +173,26 @@ def h_distance(bb1, bb2):
     bb1_avg = (bb1[0]+bb1[2])/2
     bb2_avg = (bb2[0]+bb2[2])/2 
     return abs(bb1_avg - bb2_avg)
+    
 
 def key_val_mp(key_row, val_row):
-    kv_mp = {}
+    # taking a key row and val_row as input, assign each val to its aligned key
+    #kv_mp = {}
+    kv_mp_bounding_box = {}
+    kv_id_mp = {}
+    #key_val for non-missing vals maps storing their ids
     #print(val_row)
     #for each key, search its cloest and overlapping value 
-    for item in key_row:
+    v_id = {} #store the ids of values that are assigned to their keys 
+    for key_id in range(len(key_row)):
+        item = key_row[key_id] 
         key = item[0]
         keyb = item[1]
         hd = 10000000
         t_val = 'missing'
-        for item in val_row:
+        vid = -1
+        for val_id in range(len(val_row)):
+            item = val_row[val_id]
             val = item[0]
             valb = item[1]
             if(is_overlap_vertically(keyb, valb) == 0):
@@ -191,35 +200,153 @@ def key_val_mp(key_row, val_row):
             if(h_distance(keyb,valb) < hd):
                 hd = h_distance(keyb, valb)
                 t_val = val
-        kv_mp[key] = t_val
-    #print(kv_mp)
-    return kv_mp
+                vid = val_id
+        #kv_mp[key] = t_val
+        v_id[vid] = 1
+        if t_val != 'missing':
+            kv_id_mp[key_id] = vid 
+            kv_mp_bounding_box[key] = val_row[vid]
+        else:
+            kv_mp_bounding_box[key] = (t_val, [])
+    
+    #post processing for missing values 
+    for key_id in range(len(key_row)):
+        item = key_row[key_id] 
+        key = item[0]
+        keyb = item[1]
+        if kv_mp_bounding_box[key][0] == 'missing':
+            val, row_id, val_bb = find_closest_val(key_row, key_id, val_row, kv_id_mp, v_id)
+            if val != 'missing':
+                #kv_mp[key] = val 
+                kv_mp_bounding_box[key] = val_bb
+                v_id[row_id] = 1
+            else:
+                kv_mp_bounding_box[key] = (val, [])
+
+    return kv_mp_bounding_box, v_id
+
+def find_closest_val(key_row, key_id, val_row, kv_id_mp, v_id):
+    #key_val for non-missing vals maps storing their ids 
+    l = -2
+    r = -2
+    if key_id > 0:
+        if key_id-1 in kv_id_mp: #left key not missing
+            l = kv_id_mp[key_id-1]
+    else:
+        l = -1
+    if key_id < len(key_row)-1:
+        if key_id+1 in kv_id_mp: # right key not missing 
+            r = kv_id_mp[key_id+1]
+    else:
+        r = len(val_row)
+
+    if l != -2 and r != -2: # if both left and right key not mising 
+        #find the cloest unassigned value to current key in the range of [l+1, r-1] 
+        hd = 10000000
+        target_val_id = -1
+        for id in range(l+1, r):
+            if id in v_id:
+                continue
+            keyb = key_row[key_id][1]
+            valb = val_row[id][1]
+            if(h_distance(keyb, valb) < hd):
+                hd = h_distance(keyb, valb)
+                target_val_id = id 
+        if target_val_id != -1:
+            return val_row[target_val_id][0], target_val_id, val_row[target_val_id]
+    return 'missing', -1, (-1,-1) 
+
+def key_val_mp_post(kvs_bb, vals_assigned, val_rows, col_boundary):
+    for row_id in range(len(kvs_bb)):
+        kv_bb = kvs_bb[row_id]
+        val_assigned = vals_assigned[row_id]
+        val_row = val_rows[row_id]
+        #scan kv each row 
+        for key, val in kv_bb.items():
+            if key not in col_boundary:
+                continue
+            l = col_boundary[key][0]
+            r = col_boundary[key][1]
+            if l > r:
+                continue
+            if val[0] == 'missing': 
+                for i in range(len(val_row)):
+                    if i in val_assigned:
+                        continue
+                    x0 = val_row[i][1][0]
+                    x1 = val_row[i][1][2]
+                    if l <= x0 and x0 <= r and l <= x1 and x1 <= r:
+                        kv_bb[key] = val_row[i]
+    return kvs_bb 
 
 def table_extraction_top_down(row_mp, kid, vid):
     key_row = row_mp[kid[0]]
     val_rows = []
     kvs = []
+    kvs_bb = []
     rows = []# list of list 
     keys = []
+    vals_assigned = []
     for (key,bb) in key_row:
         keys.append(key)
     #print(key_row)
     for id in vid:
-        #print(id)
         val_rows.append(row_mp[id])
         #print(row_mp[id])
     for val_row in val_rows:
-        kv = key_val_mp(key_row, val_row)
+        kv_bb,val_assigned = key_val_mp(key_row, val_row)
         #print(kv)
-        kvs.append(kv)
+        #kvs.append(kv)
+        kvs_bb.append(kv_bb)
+        vals_assigned.append(val_assigned)
+    
+    # post processing for non-compliant docs 
+    col_boundary = post_processing_non_complaint(kvs_bb)
+    #print(col_boundary)
+
+    kvs_bb = key_val_mp_post(kvs_bb, vals_assigned, val_rows, col_boundary)
+
     #clean the tabular format
-    for kv in kvs:
+    for kv in kvs_bb:
         row = []
         for (key,bb) in key_row:
-            row.append(kv[key])
+            row.append(kv[key][0])
         rows.append(row)
-    #print(rows)
+
+    # print(keys)
+    # for row in rows:
+    #     print(row)
     return keys, rows
+
+def post_processing_non_complaint(kvs_bb):
+    col_mp = {} #key to its vals, where each val is a tuple: (val, [bb])
+    col_boundary = {}
+    for kv_bb in kvs_bb:
+        for key, val in kv_bb.items():
+            if val[0] == 'missing':
+                continue
+            if key in col_mp:
+                col_mp[key].append(val)
+            else:
+                col_mp[key] = [val] 
+    #find bounding box of col 
+    for key, vals in col_mp.items():
+        l,r = find_col_bb(vals) 
+        col_boundary[key] = (l,r)
+    return col_boundary 
+
+def find_col_bb(vals):
+    #bb: [x0,y0,x1,y1]
+    l = 100000
+    r = -1
+    for val in vals:
+        x0 = val[1][0]
+        x1 = val[1][2]
+        if x0 < l:
+            l = x0
+        if x1 > r:
+            r = x1 
+    return l,r 
 
 def is_same_row(b1,b2):
     #b2 should be in the right side of b1
@@ -1329,7 +1456,6 @@ def data_extraction_one_record(rid,rid_delta,blk,blk_type,row_mp,predict_labels)
             for i in range(1,len(row_list)):
                 vals.append(row_list[i])
             
-            #print(key, vals)
             key, rows = table_extraction_top_down(row_mp, key, vals)
             #print(key, rows)
             content = []
@@ -1360,6 +1486,8 @@ def data_extraction_one_record(rid,rid_delta,blk,blk_type,row_mp,predict_labels)
                 content.append(kvm)
             object['content'] = content
         out.append(object)
+
+        #break 
     
     record['content'] = out
 
@@ -1385,8 +1513,7 @@ def data_extraction(records, blocks, row_mp, template):
         out_record = data_extraction_one_record(rid,rid_delta,blk,blk_type,row_mp,predict_labels)
         out.append(out_record)
 
-        # if(rid >= 1):
-        #     break
+        #break
 
     return out
 
@@ -1521,7 +1648,7 @@ def extract_data(data_files, result_folder, template = []):
 
 if __name__ == "__main__":
     pdf_paths = []
-    pdf_paths.append(root_path + '/tests/data/2137535.pdf') 
-    file_name = '2137535'
+    pdf_paths.append(root_path + '/tests/data/22-274.releasable.pdf') 
+    file_name = '22-274.releasable'
     result_path = root_path + '/tests/out/' + file_name + '/' 
-    extraction_objects, cost = predict_template(pdf_paths, result_path, LLM_model_name= 'gpt-4o-mini') 
+    extraction_objects, cost = extract_data(pdf_paths, result_path) 
