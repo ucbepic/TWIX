@@ -100,6 +100,7 @@ Extracts phrases from PDFs by using OCR tools.
   - `result_folder` (str): The path to store results. 
   - `LLM_model_name` (str, optional): Specify the LLM model name.  
   - `page_to_infer_fields` (int, optional): TWIX extracts all phrases from each input document by default. For field prediction, it separately creates a small document sample by specifying `page_to_infer_fields` (by default is 5), which determines how many pages are used for inferring fields. 
+  - `vision_feature` (boolean, optional): If set to True, TWIX uses a vision-based LLM to extract phrases from the first two pages of the document and learn rules to merge words into phrases. Defaults to False.
 - **Returns:**
   - `dict`: A dict of phrases per input document. The key in the dict stores the document name. The value corresponds to the raw extracted phrases and their bounding box, which are also written in the result folder.
   - `cost` (float): The cost incurred during the function call. 
@@ -126,7 +127,7 @@ Predicts the template from documents. A template is defined as a tree (refer to 
 - **Parameters:**
   - `data_files` (list): Stores a list of paths to documents that are created using the same template.
   - `result_folder` (str): The path to store results. 
-  - - `LLM_model_name` (str, optional): Specify the LLM model name. 
+  - `LLM_model_name` (str, optional): Specify the LLM model name. 
 - **Returns:**
   - `list`: The template as a list of nodes, stored locally in the result folder, naming the file as `template.json`.
   - `cost` (float): The cost incurred during the function call. 
@@ -152,6 +153,8 @@ Provides an end-to-end API to directly extract data from PDFs.
 - **Parameters:**
   - `data_files` (list): Stores a list of paths to documents that are created using the same template.
   - `result_folder` (str): The path to store results. 
+  - `LLM_model_name` (str): Specify the LLM model name. 
+  - `vision_feature` (boolean, optional): If set to True, TWIX uses a vision-based LLM to extract phrases from the first two pages of the document and learn rules to merge words into phrases. Defaults to False.
 - **Returns:**
   - `fields` (list): A list of strings representing the predicted fields.
   - `template` (list): The template as a list of nodes, stored locally in the result folder, naming the file as `template.json`.
