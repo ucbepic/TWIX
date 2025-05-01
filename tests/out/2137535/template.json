@@ -1,0 +1,16 @@
+[
+    {
+        "type": "table",
+        "fields": [
+            "Cardholder",
+            "Vendor Name",
+            "Purchase Date",
+            "Amount"
+        ],
+        "bid": [
+            0
+        ],
+        "child": -1,
+        "node_id": 0
+    }
+]
