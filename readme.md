@@ -46,6 +46,7 @@ If you want to use TWIX as a Python package, see detailed Python API references 
 1. To use TWIX to extract structured data step by step, check out [`tests/test_twix.ipynb`](tests/test_twix.ipynb).
 2. To use TWIX to extract structured data with a single API call, check out [`tests/test_twix_transform.ipynb`](tests/test_twix_transform.ipynb).
 3. To edit the inferred template with user input, check out [`tests/test_twix_user_apis.ipynb`](tests/test_twix_user_apis.ipynb).
+4. To see how TWIX performs in large datasets, check out [`tests/test_twix_large.ipynb`](tests/test_twix_large.ipynb). In this example, after inferring the template with a cost of approximately $0.001, TWIX extracts all data from a 1,292-page document in about 4 seconds with zero additional cost. 
 
 # 🖥️ User Interface
 
