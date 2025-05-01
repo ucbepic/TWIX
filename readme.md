@@ -1,6 +1,7 @@
 # TWIX: Reconstructing Structured Data from Templatized Documents <!-- omit in toc -->
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2501.06659)
+[![Blog](https://img.shields.io/badge/Documentation-docs-green)](https://data-people-group.github.io/blogs/2025/04/30/twix/)
 
 - [🚀 Getting Started](#-getting-started)
 - [📦 Python Package](#-python-package)
