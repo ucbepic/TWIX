@@ -348,7 +348,7 @@ def get_image_path(target_folder):
     return paths
 
 def get_bb_path(result_folder):
-    return result_folder + 'merged_phrases_bounding_box_page_number.json'
+    return result_folder + 'merged_raw_phrases_bounding_box_page_number.txt'
 
 def write_result(result_path, keys):
     with open(result_path, 'w') as file:

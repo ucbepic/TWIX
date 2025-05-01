@@ -297,7 +297,7 @@ def extract_phrase_one_doc(pdf_path, text_path, dict_path, page_limit):
 
     return adjusted_phrases, phrases
 
-def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o', page_to_infer_fields = 5):
+def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o', page_to_infer_fields = 5, vision_feature = False):
     print('Phrase extraction starts...')
     global model_name
     if len(LLM_model_name) > 0:
@@ -326,16 +326,18 @@ def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o', page_to
     
     pdf_2_image(merged_pdf_path, 2, image_foler)
 
-    print('Image-based sample phrase detection starts...')
+    
     
     #get ground_phrases_full
-    phrase_LLM_path = get_phrase_LLM_path(result_folder)
-    ground_phrases_full = extract_phrase_LLM(data_files, result_folder)
-    write_phrase(phrase_LLM_path, ground_phrases_full)
+    if vision_feature: 
+        print('Image-based sample phrase detection starts...')
+        phrase_LLM_path = get_phrase_LLM_path(result_folder)
+        ground_phrases_full = extract_phrase_LLM(data_files, result_folder)
+        write_phrase(phrase_LLM_path, ground_phrases_full)
 
     print('Phrase extraction for the merged file starts...')
     # extract prhases for merged pdfs
-    phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(merged_pdf_path, text_path, dict_path, raw_path, result_folder, page_to_infer_fields)
+    phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(merged_pdf_path, text_path, dict_path, raw_path, result_folder, page_to_infer_fields, vision_feature)
 
     phrases_out = {}
 
@@ -349,11 +351,12 @@ def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o', page_to
         dict_path = result_folder + file_name + '_bounding_box_page_number.json' 
         raw_path = result_folder + file_name + '_raw_phrases_bounding_box_page_number.txt'
         #print(data_file)
-        phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(data_file, text_path, dict_path, raw_path, result_folder, max_page_limit) #extract all data for each document 
+        phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(data_file, text_path, dict_path, raw_path, result_folder, max_page_limit, vision_feature) #extract all data for each document 
         phrases_out[file_name] = (phrases, phrases_bounding_box_page_number)
 
     #clean intermediate files 
-    delete_file(phrase_LLM_path)
+    if vision_feature:
+        delete_file(phrase_LLM_path)
     return phrases_out, total_cost
 
 def extract_phrase_folders(data_folder, page_limit = 6, result_folder = ''):
@@ -652,6 +655,7 @@ def get_phrases_csv(path, user_page_indices=list(range(5))):
     page_indices = min([user_page_indices, actual_page_indices], key=len)
 
     words = extract_words(path, page_indices)
+    #print('Words extraction completes...')
     phrases = get_phrases_dynamic(words)
 
     phrases_list = []
@@ -664,23 +668,28 @@ def get_phrases_csv(path, user_page_indices=list(range(5))):
 def write_csv(file_path,data):
     data.to_csv(file_path, index=False)
 
-def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, result_folder, page_count): 
+def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, result_folder, page_count, vision_feature): 
     user_page_indices = list(range(page_count))
     #print('Processing ', in_path)
     #print('Word extraction starts...')
     #1 first pass extraction 
     #get raw_phrases_bounding_box_page_number
     raw_phrases_bounding_box_page_number = get_phrases_csv(in_path, user_page_indices)
-    
+    #print('Raw phrase extraction completes...')
     write_csv(raw_path, raw_phrases_bounding_box_page_number)
 
     #print('Learn rules for word concatation...')
     #2 learn rules
-    distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub = learn_rules(raw_path, result_folder)
+    if vision_feature:
+        distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub = learn_rules(raw_path, result_folder)
 
     #3 apply rules 
     raw_phases = load_extracted_words(raw_path)
-    refined_phrases = apply_rules(raw_phases, distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub)
+    refined_phrases = raw_phases
+    if vision_feature:
+        refined_phrases = apply_rules(raw_phases, distance_threshold, max_pos_dist, ground_phrases_full, ground_phrases_sub)
+    else: 
+        refined_phrases = pd.DataFrame(raw_phases, columns=['text','x0','y0','x1','y1','page'])
 
     #print('Refine phases extraction based on learned rules...')
     #4 get phrase only list

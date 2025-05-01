@@ -83,15 +83,15 @@ def read_json(path):
         data = json.load(file)
     return data
 
-def template_learn_input_gen(phrases, predict_labels, extra_phrase_num = 30):
+def template_learn_input_gen(phrases_bb, predict_labels, extra_phrase_num = 30):
     input = []
     cnt = {}
     satisfied = 0
     cnts = {}
     #goal: ensure that input contains each predict label at least twice
-    for i in range(len(phrases)):
-        p = phrases[i]
-        input.append(p)
+    for i in range(len(phrases_bb)):
+        p = phrases_bb[i][0]
+        input.append(phrases_bb[i])
         if(p in predict_labels):
             #print(p)
             if(p in cnt):
@@ -103,8 +103,8 @@ def template_learn_input_gen(phrases, predict_labels, extra_phrase_num = 30):
                 satisfied += 1
             if(satisfied == len(predict_labels)): #each predict label occurs in input at least twice
                 c = 0
-                for j in range(i+1,len(phrases)):
-                    input.append(phrases[j])
+                for j in range(i+1,len(phrases_bb)):
+                    input.append(phrases_bb[j])
                     c += 1
                     if(c > extra_phrase_num):
                         break
@@ -263,19 +263,21 @@ def write_json(out, path):
     with open(path, 'w') as json_file:
         json.dump(out, json_file, indent=4)
 
-def create_row_representations(phrases, phrases_bb):
-    record_appearance = {}
-    for p in phrases:
-        record_appearance[p] = 0
-    #print(phrases_bb)
-    phrase_boundingbox = get_bblist_per_record(record_appearance, phrases_bb, phrases)
+# def create_row_representations(phrases_bb):
+#     # record_appearance = {}
+#     # for p in phrases:
+#     #     record_appearance[p] = 0
 
-    #print(phrase_boundingbox)
-    #create row representations 
-    #row_mp: row_id -> a list of (phrase, bb) in the current row
-    row_mp = seperate_rows(phrase_boundingbox)
+#     #phrase_boundingbox: a list of tuple. Each tuple:  (phrase, bounding box)
+#     #phrase_boundingbox = csv_2_tuple_list(phrases_bb)
+#     #phrase_boundingbox = get_bblist_per_record(record_appearance, phrases_bb, phrases)
 
-    return row_mp
+#     #print(phrase_boundingbox)
+#     #create row representations 
+#     #row_mp: row_id -> a list of (phrase, bb) in the current row
+#     row_mp = seperate_rows(phrases_bb)
+
+#     return row_mp
 
 
 def get_metadata(image_paths):
@@ -380,19 +382,19 @@ def predict_template_docs(phrases_bb, predict_labels, raw_phrases, metadata):
     # print('fields...')
     # print(predict_labels)
     #get minimal set of phrases to learn template 
-    phrases = template_learn_input_gen(raw_phrases, predict_labels)
-    row_mp = create_row_representations(phrases, phrases_bb)
+    sample_phrases_bb = template_learn_input_gen(phrases_bb, predict_labels)
+    row_mp = seperate_rows(sample_phrases_bb)
     row_mp = refine_sample(row_mp)
     template = ILP_extract(predict_labels, row_mp, metadata)
     return template
 
-def extract_data_per_doc(template, phrases_bb, raw_phrases, out_path, metadata):
+def extract_data_per_doc(template, phrases_bb, out_path, metadata):
     
     # print('Metadata rows...')
     # print(metadata_rows)
     #seperate records based on template 
     print("Record seperation starts...")
-    complete_row_mp = create_row_representations(raw_phrases, phrases_bb)
+    complete_row_mp = seperate_rows(phrases_bb)
     #print(len(complete_row_mp))
     records = record_seperation(template, complete_row_mp)
     print('Totally ' + str(len(records)) + ' records...')
@@ -1038,15 +1040,8 @@ def seperate_rows(pv):
     #page_2_row = {} #page -> a list of row_id
     row_mp[row_id] = []
     row_mp[row_id].append((p_pre, bb_pre))
-    for i in range(1, len(pv)):
-        #create page_2_row map
-        #page_number = bb_pre[4]
-        # if(page_number not in page_2_row):
-        #     page_2_row[page_number] = [row_id]
-        # else:
-        #     if(row_id not in page_2_row[page_number]):
-        #         page_2_row[page_number].append(row_id)
 
+    for i in range(1, len(pv)):
         p = pv[i][0]
         bb = pv[i][1]
         if(is_same_row(bb_pre,bb) == 0):
@@ -1445,7 +1440,14 @@ def predict_template(data_files, result_folder, LLM_model_name = 'gpt-4o'):
     #print(bb_path)
     keywords = read_file(key_path)#predicted keywords
     phrases = read_file(extracted_path)#list of phrases
-    phrases_bb = read_json(bb_path)#phrases with bounding boxes
+    phrases_bb = csv_2_tuple_list(bb_path)#phrases with bounding boxes
+
+    # i = 0
+    # for p in phrases_bb:
+    #     print(p[0],p[1],p[2])
+    #     i+=1
+    #     if i > 10:
+    #         break 
 
     print('Template prediction starts...')
 
@@ -1460,6 +1462,18 @@ def predict_template(data_files, result_folder, LLM_model_name = 'gpt-4o'):
 
     return template, total_cost
 
+def csv_2_tuple_list(path):
+    # transfor a given csv to a list of tuples. Each tuple: (phrase, bounding box), where bounding box is [x0,y0,x1,y1]
+    tuples = []
+    with open(path, newline='', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            bb = [float(row['x0']), float(row['y0']), float(row['x1']), float(row['y1'])]
+            page = row['page']
+            tuple = (row['text'], bb, page) 
+            tuples.append(tuple)
+    return tuples 
+
 def extract_data(data_files, result_folder, template = []):
     global total_cost
     total_cost = 0
@@ -1470,14 +1484,9 @@ def extract_data(data_files, result_folder, template = []):
     metadata_row_path = key.get_metadata_row_path(result_folder)
     metadata_Rows = read_metadata_row(metadata_row_path)
     set_metadata_row(metadata_Rows)
-    # print('print read metadata rows...')
-    # print(metadata_Rows)
-    # print('print stored metadata rows...')
-    # print_metadata_row()
     
     if(len(template) == 0):
         #check if template exists in local file
-        #get template path
         template_path = key.get_template_path(result_folder)
         if os.path.isfile(template_path):
             template = read_template(template_path)
@@ -1502,12 +1511,17 @@ def extract_data(data_files, result_folder, template = []):
 
     for data_file in data_files:
         file_name = extract.get_file_name(data_file)
-        text_path = result_folder + file_name + '_phrases.txt'
-        dict_path = result_folder + file_name + '_bounding_box_page_number.json' 
+        phrase_path = result_folder + file_name + '_raw_phrases_bounding_box_page_number.txt'  
         out_path = key.get_extracted_result_path(result_folder, data_file)
-        phrases = read_file(text_path)#list of phrases
-        phrases_bb = read_json(dict_path)#phrases with bounding boxes
-        extraction_object = extract_data_per_doc(template, phrases_bb, phrases, out_path, metadata)
+        phrases_bb = csv_2_tuple_list(phrase_path)#phrases with bounding boxes
+        extraction_object = extract_data_per_doc(template, phrases_bb, out_path, metadata)
         extraction_objects[file_name] = extraction_object
 
     return extraction_objects, total_cost
+
+if __name__ == "__main__":
+    pdf_paths = []
+    pdf_paths.append(root_path + '/tests/data/2137535.pdf') 
+    file_name = '2137535'
+    result_path = root_path + '/tests/out/' + file_name + '/' 
+    extraction_objects, cost = predict_template(pdf_paths, result_path, LLM_model_name= 'gpt-4o-mini') 
