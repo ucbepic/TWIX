@@ -135,7 +135,7 @@ Predicts a list of fields from documents. Fields refer to phrases in table heade
   - `result_folder` (str): The path to store results. 
   - `LLM_model_name` (str, optional): Specify the LLM model name. 
 - **Returns:**
-  - `list`: A list of predicted phrases. TWIX also writes the results in the local result folder, naming the file as `twix_key.txt`.
+  - `list`: A list of predicted fields. TWIX also writes the results in the local result folder, naming the file as `twix_key.txt`.
   - `cost` (float): The cost incurred during the function call. 
 ---
 
@@ -161,7 +161,7 @@ Extracts data based on a template.
   - `template` (list, optional): The template output from `predict_template`. If not specified, TWIX will look in the local result folder to read the predicted template.
   - `result_folder` (str): The path to store results. 
 - **Returns:**
-  - `dict`: A dictionary of extraction results, where the key is the file path, and the value is the extraction object of that file. Each extraction object is a list of data blocks containing either table blocks or key-value blocks. Results will be written locally in the result folder, naming the file as `extracted.json`.
+  - `dict`: A dictionary of extraction results, where the key is the file name, and the value is the extraction object of that file. Each extraction object is a list of data blocks containing either table blocks or key-value blocks. Results will be written locally in the result folder, naming the file as `extracted.json`.
   - `cost` (float): The cost incurred during the function call. 
 ---
 
