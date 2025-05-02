@@ -46,9 +46,92 @@ const DataDisplay = ({ data }) => {
           }
         }
       };
+
+      // Helper function to recursively find and extract all array data that follows our expected format
+      const extractDataArrays = (obj, depth = 0) => {
+        // Base case: if we hit a null or primitive value, return empty array
+        if (obj === null || typeof obj !== 'object') {
+          return [];
+        }
+        
+        // First, let's check if this object itself follows our expected format with id and content
+        if (Array.isArray(obj) && obj.length > 0 && obj.some(item => 'id' in item && 'content' in item)) {
+          // Check if the content contains items with type: "table" or type: "kv"
+          const hasTypeContentStructure = obj.some(item => 
+            item.content && Array.isArray(item.content) && 
+            item.content.some(contentItem => 
+              contentItem && typeof contentItem === 'object' && 
+              (contentItem.type === 'table' || contentItem.type === 'kv')
+            )
+          );
+          
+          if (hasTypeContentStructure) {
+            return obj;
+          }
+        }
+        
+        // Check if this is an array of objects with type and content (tables and key-value pairs)
+        if (Array.isArray(obj) && obj.length > 0 && 
+            obj.some(item => 'type' in item && 'content' in item) &&
+            obj.some(item => item.type === 'table' || item.type === 'kv')) {
+          return [{ id: 0, content: obj }];
+        }
+        
+        // Recursive case: check all properties (if object) or elements (if array)
+        let results = [];
+        
+        if (Array.isArray(obj)) {
+          // For arrays, search each element
+          for (let i = 0; i < obj.length; i++) {
+            const found = extractDataArrays(obj[i], depth + 1);
+            if (found.length > 0) {
+              results = results.concat(found);
+            }
+          }
+        } else {
+          // For objects, search each property
+          for (const key in obj) {
+            const found = extractDataArrays(obj[key], depth + 1);
+            if (found.length > 0) {
+              results = results.concat(found);
+            }
+          }
+        }
+        
+        return results;
+      };
       
-      // Case 1: If data is already an array of records with id and content
-      if (Array.isArray(processedJson) && 
+      // Start search from the processed JSON
+      const extractedArrays = extractDataArrays(processedJson);
+      
+      if (extractedArrays.length > 0) {
+        console.log("Found extractable data arrays:", extractedArrays);
+        normalizedData = extractedArrays;
+        
+        // Track original attribute order for the items we found
+        normalizedData.forEach((record, recordIdx) => {
+          if (record.content && Array.isArray(record.content)) {
+            record.content.forEach((item, itemIdx) => {
+              captureTableFieldOrder(item, itemIdx, recordIdx);
+              
+              // Also handle key-value pairs
+              if (item && item.type === 'kv' && item.content) {
+                const itemKey = `record_${recordIdx}_item_${itemIdx}`;
+                if (Array.isArray(item.content)) {
+                  // For array of kv objects, store original order
+                  const keys = item.content.map(kv => Object.keys(kv)[0]);
+                  orderMap[itemKey] = keys;
+                } else if (typeof item.content === 'object') {
+                  // For single kv object, store key order
+                  orderMap[itemKey] = Object.keys(item.content);
+                }
+              }
+            });
+          }
+        });
+      }
+      // Case 1: If data is already an array of records with id and content (old code kept for backward compatibility)
+      else if (Array.isArray(processedJson) && 
           processedJson.length > 0 && 
           processedJson.some(item => 'id' in item && 'content' in item)) {
         console.log("Data is already in the expected records format");
@@ -149,6 +232,40 @@ const DataDisplay = ({ data }) => {
             }
           });
         }
+      }
+      // Case 4: If data has a Investigations_Redacted_modified property that's an array
+      else if (processedJson && processedJson.Investigations_Redacted_modified && Array.isArray(processedJson.Investigations_Redacted_modified)) {
+        console.log("Found Investigations_Redacted_modified array, using it");
+        
+        // Map the data to the expected format - creating records with id and content
+        normalizedData = processedJson.Investigations_Redacted_modified.map((item, index) => {
+          // Extract content if it exists, otherwise use the whole item
+          const content = item.content || [item];
+          return {
+            id: index,
+            content: Array.isArray(content) ? content : [content]
+          };
+        });
+        
+        // Track original attribute order
+        processedJson.Investigations_Redacted_modified.forEach((item, recordIdx) => {
+          if (item.content && Array.isArray(item.content)) {
+            item.content.forEach((contentItem, itemIdx) => {
+              captureTableFieldOrder(contentItem, itemIdx, recordIdx);
+              
+              // Also handle key-value pairs
+              if (contentItem && contentItem.type === 'kv' && contentItem.content) {
+                const itemKey = `record_${recordIdx}_item_${itemIdx}`;
+                if (Array.isArray(contentItem.content)) {
+                  const keys = contentItem.content.map(kv => Object.keys(kv)[0]);
+                  orderMap[itemKey] = keys;
+                } else if (typeof contentItem.content === 'object') {
+                  orderMap[itemKey] = Object.keys(contentItem.content);
+                }
+              }
+            });
+          }
+        });
       }
       
       console.log("Normalized data:", normalizedData);
