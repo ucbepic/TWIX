@@ -282,10 +282,33 @@ def extract_data():
             pdf_paths.append(file_path)
         
         result_folder = twix.extract.get_result_folder_path(pdf_paths)
+        logger.info(f"Using result folder: {result_folder}")
+        
+        # Log the paths of all files being processed
+        logger.info("Processing the following files for data extraction:")
+        for i, path in enumerate(pdf_paths):
+            logger.info(f"File {i+1}: {path}")
 
         # Use twix to extract data
         logger.info(f"Extracting data from {len(pdf_paths)} PDFs")
         data, cost = twix.extract_data(pdf_paths, result_folder)
+        
+        # Log where the extracted data is being saved
+        extracted_data_path = os.path.join(result_folder, 'extracted_data.json')
+        logger.info(f"Extracted data will be saved to: {extracted_data_path}")
+        
+        # Ensure the results folder exists
+        os.makedirs(RESULT_FOLDER, exist_ok=True)
+        
+        # Save a copy of the extracted data to the results folder for easier access
+        try:
+            result_json_path = os.path.join(RESULT_FOLDER, 'extracted_data.json')
+            with open(result_json_path, 'w') as f:
+                json.dump(data, f, indent=2)
+            logger.info(f"Copied extracted data to: {result_json_path}")
+        except Exception as save_err:
+            logger.warning(f"Failed to save extracted data to results folder: {str(save_err)}")
+        
         logger.info(f"Extracted data successfully")
         
         # Create a custom response that preserves the field order
