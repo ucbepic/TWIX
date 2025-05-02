@@ -797,15 +797,6 @@
                         "Officer Disposition": "PENDING",
                         "Action Taken": "NONE",
                         "Body Cam": "No"
-                    },
-                    {
-                        "Name": "ADMINISTRATIVE Database",
-                        "ID No.": "22 AM",
-                        "Rank": "missing",
-                        "Division": "missing",
-                        "Officer Disposition": "missing",
-                        "Action Taken": "missing",
-                        "Body Cam": "Page 3 of 74"
                     }
                 ]
             }
@@ -1103,15 +1094,6 @@
                         "Officer Disposition": "EXONERATED",
                         "Action Taken": "NONE",
                         "Body Cam": "No"
-                    },
-                    {
-                        "Name": "ADMINISTRATIVE Database",
-                        "ID No.": "22 AM",
-                        "Rank": "missing",
-                        "Division": "missing",
-                        "Officer Disposition": "missing",
-                        "Action Taken": "missing",
-                        "Body Cam": "Page 4 of 74"
                     }
                 ]
             }
@@ -1407,15 +1389,6 @@
                         "Officer Disposition": "UNFOUNDED",
                         "Action Taken": "NONE",
                         "Body Cam": "No"
-                    },
-                    {
-                        "Name": "ADMINISTRATIVE Database",
-                        "ID No.": "22 AM",
-                        "Rank": "missing",
-                        "Division": "missing",
-                        "Officer Disposition": "missing",
-                        "Action Taken": "missing",
-                        "Body Cam": "Page 5 of 74"
                     }
                 ]
             }
@@ -1656,15 +1629,6 @@
                         "Officer Disposition": "EXONERATED",
                         "Action Taken": "NONE",
                         "Body Cam": "No"
-                    },
-                    {
-                        "Name": "ADMINISTRATIVE Database",
-                        "ID No.": "22 AM",
-                        "Rank": "missing",
-                        "Division": "missing",
-                        "Officer Disposition": "missing",
-                        "Action Taken": "missing",
-                        "Body Cam": "Page 6 of 74"
                     }
                 ]
             }
@@ -1891,15 +1855,6 @@
                         "Officer Disposition": "UNFOUNDED",
                         "Action Taken": "NONE",
                         "Body Cam": "No"
-                    },
-                    {
-                        "Name": "ADMINISTRATIVE Database",
-                        "ID No.": "22 AM",
-                        "Rank": "missing",
-                        "Division": "missing",
-                        "Officer Disposition": "missing",
-                        "Action Taken": "missing",
-                        "Body Cam": "Page 7 of 74"
                     }
                 ]
             }
@@ -2216,15 +2171,6 @@
                         "Officer Disposition": "SUSTAINED",
                         "Action Taken": "COUNSELING",
                         "Body Cam": "No"
-                    },
-                    {
-                        "Name": "ADMINISTRATIVE Database",
-                        "ID No.": "22 AM",
-                        "Rank": "missing",
-                        "Division": "missing",
-                        "Officer Disposition": "missing",
-                        "Action Taken": "missing",
-                        "Body Cam": "Page 8 of 74"
                     }
                 ]
             }
@@ -2458,17 +2404,7 @@
             },
             {
                 "type": "table",
-                "content": [
-                    {
-                        "Name": "ADMINISTRATIVE Database",
-                        "ID No.": "22 AM",
-                        "Rank": "missing",
-                        "Division": "missing",
-                        "Officer Disposition": "missing",
-                        "Action Taken": "missing",
-                        "Body Cam": "Page 9 of 74"
-                    }
-                ]
+                "content": []
             }
         ]
     },
@@ -2760,17 +2696,7 @@
             },
             {
                 "type": "table",
-                "content": [
-                    {
-                        "Name": "ADMINISTRATIVE Database",
-                        "ID No.": "22 AM",
-                        "Rank": "missing",
-                        "Division": "missing",
-                        "Officer Disposition": "missing",
-                        "Action Taken": "missing",
-                        "Body Cam": "Page 10 of 74"
-                    }
-                ]
+                "content": []
             }
         ]
     },
@@ -3043,15 +2969,6 @@
                         "Officer Disposition": "UNFOUNDED",
                         "Action Taken": "NONE",
                         "Body Cam": "No"
-                    },
-                    {
-                        "Name": "ADMINISTRATIVE Database",
-                        "ID No.": "22 AM",
-                        "Rank": "missing",
-                        "Division": "missing",
-                        "Officer Disposition": "missing",
-                        "Action Taken": "missing",
-                        "Body Cam": "Page 11 of 74"
                     }
                 ]
             }
@@ -5203,6 +5120,15 @@
                         "Body Cam": "No"
                     },
                     {
+                        "Name": "missing",
+                        "ID No.": "IG",
+                        "Rank": "missing",
+                        "Division": "missing",
+                        "Officer Disposition": "missing",
+                        "Action Taken": "missing",
+                        "Body Cam": "missing"
+                    },
+                    {
                         "Name": "Tran, Mia.",
                         "ID No.": "913RET",
                         "Rank": "SERGEANT",
@@ -5650,15 +5576,6 @@
                         "Officer Disposition": "NOT SUSTAINED",
                         "Action Taken": "NONE",
                         "Body Cam": "No"
-                    },
-                    {
-                        "Name": "ADMINISTRATIVE Database",
-                        "ID No.": "23 AM",
-                        "Rank": "missing",
-                        "Division": "missing",
-                        "Officer Disposition": "missing",
-                        "Action Taken": "missing",
-                        "Body Cam": "missing"
                     }
                 ]
             }
