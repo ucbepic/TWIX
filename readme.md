@@ -6,7 +6,7 @@
 - [🚀 Getting Started](#-getting-started)
 - [📦 Python Package](#-python-package)
 - [🖥️ User Interface](#️-user-interface)
-- [Contribution to TWIX](#contribution-to-twix)
+- [🤝 Contribution to TWIX](#-contribution-to-twix)
 - [📚 TWIX API Reference](#-twix-api-reference)
 
 
@@ -68,8 +68,7 @@ If you want to use TWIX in our user interfaces:
 [Watch the TWIX Demo](docs/assets/video/Twix_Demo.mp4)
 ![TWIX Figure](docs/assets/image/UI.png)
 
-
-# Contribution to TWIX
+# 🤝 Contribution to TWIX
 
 Several components in TWIX can potentially be replaced and improved by the community.
 
