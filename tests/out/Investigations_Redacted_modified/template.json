@@ -22,11 +22,11 @@
     {
         "type": "kv",
         "fields": [
+            "DOB",
             "H Phone",
             "Gender",
-            "Complainant",
-            "DOB",
-            "Address"
+            "Address",
+            "Complainant"
         ],
         "bid": [
             1

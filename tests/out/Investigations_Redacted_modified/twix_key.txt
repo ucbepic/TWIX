@@ -1,4 +1,5 @@
 Date
+Number
 Investigator
 Date Assigned
 Racial
@@ -16,8 +17,12 @@ Type Of Complaint
 Description
 Complaint Disposition
 Name
+ID No.
 Rank
 Division
 Officer Disposition
 Action Taken
 Body Cam
+MULTIPLE OFFICERS/EMPLOY
+NOT STATED
+NOT ENTERED
