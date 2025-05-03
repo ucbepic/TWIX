@@ -45,7 +45,6 @@ def process_phrase():
         pdf_paths = []
         for file in files:
             file_path = os.path.join(UPLOAD_FOLDER, file.filename)
-            logger.info(f"Saving file to {file_path}")
             file.save(file_path)
             pdf_paths.append(file_path)
 
@@ -54,9 +53,7 @@ def process_phrase():
         os.makedirs(os.path.dirname(result_folder), exist_ok=True)
         
         # Use twix to extract phrases
-        logger.info(f"Extracting phrases from {len(pdf_paths)} PDFs")
         phrases, cost = twix.extract_phrase(pdf_paths, result_folder)
-        logger.info(f"Extracted {len(phrases)} phrases")
         
         
         # Define paths for the bounding box files
@@ -648,5 +645,4 @@ def read_file():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    logger.info("Starting Flask server on port 3001")
     app.run(debug=True, port=3001) 

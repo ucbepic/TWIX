@@ -558,14 +558,6 @@ const DataDisplay = ({ data }) => {
     }
   };
 
-  if (!processedData || processedData.length === 0) {
-    return (
-      <div className="p-4 border border-yellow-300 bg-yellow-50 rounded-md">
-        <p className="text-yellow-700">No data available to display</p>
-      </div>
-    );
-  }
-
   return (
     <div className="space-y-4">
       <div className="flex justify-between items-center mb-6">
