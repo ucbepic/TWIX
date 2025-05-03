@@ -705,17 +705,17 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
           {/* Text Content Editor (for phrase and field) */}
           {(activeStage === 'phrase' || activeStage === 'field') && (
             <div>
-              <div className="flex justify-between items-center mb-4">
-                <h3 className="text-lg font-semibold text-gray-800">
-                  {activeStage === 'phrase' ? 'Phrase Extraction Text File' : 'Field Predictions'}
-                </h3>
-                <button
-                  onClick={() => handleTextDownload(activeStage)}
-                  className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-                >
-                  Download
-                </button>
-              </div>
+              {/* Move Download button up here for phrase stage */}
+              {activeStage === 'phrase' && (
+                <div className="flex justify-end mb-4">
+                  <button
+                    onClick={() => handleTextDownload(activeStage)}
+                    className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+                  >
+                    Download Phrases
+                  </button>
+                </div>
+              )}
               {/* Only display textarea for field prediction */}
               {activeStage === 'field' && (
                 <div className="bg-white rounded-lg shadow-sm border p-4">
