@@ -740,6 +740,8 @@ def template_learn(blk, blk_type, row_mp):
 
     # print('nodes before merging...')
     # print(nodes)
+    if len(nodes) ==0 :
+        return []
     #second pass: merge consecutive kv nodes 
     new_nodes = []
     pre_node = nodes[0]
