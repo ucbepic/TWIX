@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import TemplateEditor from '../template/TemplateEditor';
 import DataDisplay from '../results/DataDisplay';
 import BoundingBoxTable from '../pdf/BoundingBoxTable';
+import Cost from './Cost';
 import { 
   processPhrase, 
   predictFields, 
@@ -26,6 +27,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
   const [processingTime, setProcessingTime] = useState(null);
   const [elapsedTime, setElapsedTime] = useState(0);
   const [timerInterval, setTimerInterval] = useState(null);
+  const [stageCost, setStageCost] = useState(null);
   
   // Add caching for already processed stages
   const [cachedResults, setCachedResults] = useState({
@@ -145,6 +147,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       setProcessingCompleted(false);
       setProcessingTime(null);
       setElapsedTime(0);
+      setStageCost(null);
       
       // If clicking the same stage again, just toggle visibility
       if (stage === activeStage) {
@@ -173,14 +176,26 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
           } else {
             setBoundingBoxData([]);
           }
+          if (cachedResults.phrase.cost) {
+            setStageCost(cachedResults.phrase.cost);
+          }
         } else if (stage === 'field') {
           setTextContent(cachedResults.field.textContent);
           setEditedTextContent(cachedResults.field.editedTextContent);
+          if (cachedResults.field.cost) {
+            setStageCost(cachedResults.field.cost);
+          }
         } else if (stage === 'template') {
           setTemplateData(cachedResults.template.templateData);
           setEditedTemplate(cachedResults.template.editedTemplate);
+          if (cachedResults.template.cost) {
+            setStageCost(cachedResults.template.cost);
+          }
         } else if (stage === 'extraction') {
           setProcessedData(cachedResults.extraction.processedData);
+          if (cachedResults.extraction.cost) {
+            setStageCost(cachedResults.extraction.cost);
+          }
         }
         
         setShowResults(true);
@@ -215,6 +230,11 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       if (stage === 'phrase') {
         data = await stageInfo.apiFunction(files);
         console.log("Phrase data received:", data);
+        
+        // Store cost information if available
+        if (data.cost !== undefined) {
+          setStageCost(data.cost);
+        }
         
         // Store bounding box data if available
         if (data.boundingBoxData) {
@@ -279,14 +299,15 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
           console.log("Text content set to:", phrasesContent);
         }
         
-        // Cache the results
+        // Cache the results including cost
         setCachedResults(prev => ({
           ...prev,
           phrase: {
-            textContent: phrasesContent,
-            editedTextContent: phrasesContent,
+            data,
+            textContent: phrasesContent || phrases,
+            editedTextContent: phrasesContent || phrases,
             boundingBoxData: data.boundingBoxData || [],
-            data
+            cost: data.cost
           }
         }));
       } else if (stage === 'field') {
@@ -297,18 +318,29 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
         setTextContent(fields);
         setEditedTextContent(fields);
         
-        // Cache the results
+        // Store cost information if available
+        if (data.cost !== undefined) {
+          setStageCost(data.cost);
+        }
+        
+        // Cache the results including cost
         setCachedResults(prev => ({
           ...prev,
           field: {
+            data,
             textContent: fields,
             editedTextContent: fields,
-            data
+            cost: data.cost
           }
         }));
       } else if (stage === 'template') {
         data = await stageInfo.apiFunction(files);
         console.log("Template data received:", data);
+        
+        // Store cost information if available
+        if (data.cost !== undefined) {
+          setStageCost(data.cost);
+        }
         
         // Extract template from the response
         let template = [];
@@ -391,18 +423,24 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
         setTemplateData(normalizedTemplate || []);
         setEditedTemplate(normalizedTemplate || []);
         
-        // Cache the results
+        // Cache the results including cost
         setCachedResults(prev => ({
           ...prev,
           template: {
+            data,
             templateData: normalizedTemplate || [],
             editedTemplate: normalizedTemplate || [],
-            data
+            cost: data.cost
           }
         }));
       } else if (stage === 'extraction') {
         data = await stageInfo.apiFunction(files);
         console.log("Data extraction raw response:", data);
+        
+        // Store cost information if available
+        if (data.cost !== undefined) {
+          setStageCost(data.cost);
+        }
         
         // Handle different data formats
         let extractedData = {};
@@ -430,12 +468,13 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
         console.log("Processed extraction data:", extractedData);
         setProcessedData(extractedData);
         
-        // Cache the results
+        // Cache the results including cost
         setCachedResults(prev => ({
           ...prev,
           extraction: {
+            data,
             processedData: extractedData,
-            data
+            cost: data.cost
           }
         }));
       }
@@ -619,7 +658,12 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
 
       {/* Results Section - Only show if a stage is active and showResults is true */}
       {showResults && (
-        <div className="mt-6 transition-opacity duration-300">
+        <div className="bg-white p-6 rounded-lg shadow-sm mt-4 border">
+          {/* Results Title with Cost */}
+          <div className="flex justify-between items-center mb-4">
+            {stageCost !== null && <Cost cost={stageCost} />}
+          </div>
+          
           {/* Text Content Editor (for phrase and field) */}
           {(activeStage === 'phrase' || activeStage === 'field') && (
             <div>
@@ -710,10 +754,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
           {/* Data Display */}
           {activeStage === 'extraction' && processedData && (
             <div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-4">
-                Extracted Data
-              </h3>
-              <DataDisplay data={processedData} />
+              <DataDisplay data={{data: processedData, cost: stageCost}} />
             </div>
           )}
         </div>

@@ -24,9 +24,15 @@ function App() {
       console.log("Extraction data in App.js:", data);
       // Handle different data formats
       if (data && data.data) {
-        setProcessedData(data.data);
+        setProcessedData({
+          data: data.data,
+          cost: data.cost
+        });
       } else if (data) {
-        setProcessedData(data);
+        setProcessedData({
+          data: data,
+          cost: data.cost
+        });
       } else {
         setProcessedData({});
       }

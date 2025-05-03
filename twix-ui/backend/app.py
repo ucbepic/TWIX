@@ -54,46 +54,7 @@ def process_phrase():
         bb_path = os.path.join(result_folder, 'merged_phrases_bounding_box_page_number.json')
         bb_txt_path = os.path.join(os.path.dirname(result_folder), 'merged_raw_phrases_bounding_box_page_number.txt')
         
-        # If the bounding box file doesn't exist, create a placeholder
-        if not os.path.exists(bb_txt_path):
-            
-            # Create the TXT version (CSV format) which is what's actually used
-            with open(bb_txt_path, 'w') as f:
-                # Write header
-                f.write("text,x0,y0,x1,y1,page\n")
-                
-                # Generate data in the format of the sample file
-                for i, phrase in enumerate(phrases):
-                    # Create realistic coordinates similar to the sample data
-                    x0 = 40 + (i % 5) * 10
-                    y0 = 30 + (i // 5) * 20
-                    x1 = x0 + 100
-                    y1 = y0 + 10
-                    page = 1
-                    
-                    # Escape any commas in the phrase text
-                    safe_phrase = phrase.replace('"', '""')
-                    if ',' in safe_phrase:
-                        safe_phrase = f'"{safe_phrase}"'
-                    
-                    f.write(f"{safe_phrase},{x0},{y0},{x1},{y1},{page}\n")
-            
-            
-            # Also create a copy with the original expected name
-            try:
-                shutil.copy(bb_txt_path, bb_path)
-            except Exception as e:
-                print('Failed to copy TXT to JSON location: ', e)
-            
-            # Also create a nested directory for tests output
-            test_out_dir = os.path.join(BASE_DIR, 'tests', 'out', 'resulting_phrases')
-            os.makedirs(test_out_dir, exist_ok=True)
-            
-            test_bb_path = os.path.join(test_out_dir, 'merged_raw_phrases_bounding_box_page_number.txt')
-            try:
-                shutil.copy(bb_txt_path, test_bb_path)
-            except Exception as e:
-                print('Failed to copy TXT to JSON location: ', e)
+        
         
         # Copy the bounding box file to additional locations for better discoverability
         try:
@@ -176,7 +137,8 @@ def process_phrase():
         
         return jsonify({
             'status': 'success',
-            'phrases': phrases
+            'phrases': phrases,
+            'cost': cost   
         })
     except Exception as e:
         return jsonify({'error': str(e)}), 500
@@ -204,7 +166,8 @@ def predict_fields():
         
         return jsonify({
             'status': 'success',
-            'fields': fields
+            'fields': fields,
+            'cost': cost
         })
     except Exception as e:
         return jsonify({'error': str(e)}), 500
@@ -231,7 +194,8 @@ def predict_template():
         
         return jsonify({
             'status': 'success',
-            'template': template
+            'template': template,
+            'cost': cost
         })
     except Exception as e:
         return jsonify({'error': str(e)}), 500
@@ -295,7 +259,8 @@ def extract_data():
         # Create a response that preserves the order
         response = {
             'status': 'success',
-            'data': ordered_data
+            'data': ordered_data,
+            'cost': cost
         }
         
         # Return the response with preserved order

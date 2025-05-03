@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { stringifyOrderedJSON, createOrderPreservingReplacer } from '../../services/api';
+import Cost from '../processing/Cost';
 
 const DataDisplay = ({ data }) => {
   const [processedData, setProcessedData] = useState([]);
@@ -15,11 +16,17 @@ const DataDisplay = ({ data }) => {
     try {
       console.log("Raw data received:", data);
       
+      // Extract actual data from object if necessary
+      let actualData = data;
+      if (data.data) {
+        actualData = data.data;
+      }
+      
       // Parse string data
-      let processedJson = data;
-      if (typeof data === 'string') {
+      let processedJson = actualData;
+      if (typeof actualData === 'string') {
         try {
-          processedJson = JSON.parse(data);
+          processedJson = JSON.parse(actualData);
           console.log("Parsed string data into:", processedJson);
         } catch (e) {
           console.error("Failed to parse data string:", e);
@@ -519,42 +526,33 @@ const DataDisplay = ({ data }) => {
 
   const handleDownload = () => {
     try {
-      // Create a JSON string of the processed data while preserving field order
-      let jsonData;
-      
-      // Use the original attribute order to create a replacer function
-      if (Object.keys(originalOrder).length > 0) {
-        // Construct a custom replacer function that preserves field order
-        const replacer = createOrderPreservingReplacer(Object.values(originalOrder).flat());
-        jsonData = JSON.stringify(processedData, replacer, 2);
-      } else {
-        // If no specific order is tracked, use the custom stringification
-        jsonData = stringifyOrderedJSON(processedData);
+      // Ensure we have data to download
+      if (!processedData || processedData.length === 0) {
+        console.error("No data to download");
+        return;
       }
       
-      // Create a blob from the JSON string
-      const blob = new Blob([jsonData], { type: 'application/json' });
+      // Extract and format the data for download
+      const dataToDownload = processedData.map(record => {
+        return record.content;
+      });
       
-      // Create a URL for the blob
+      // Create a JSON blob with the downloaded data
+      const blob = new Blob([JSON.stringify(dataToDownload, null, 2)], { type: 'application/json' });
       const url = URL.createObjectURL(blob);
       
-      // Create a link element
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = 'extracted_data.json';
+      // Create and trigger download link
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'extracted_data.json';
+      document.body.appendChild(a);
+      a.click();
       
-      // Append the link to the body
-      document.body.appendChild(link);
-      
-      // Click the link to trigger the download
-      link.click();
-      
-      // Clean up
-      document.body.removeChild(link);
+      // Cleanup
       URL.revokeObjectURL(url);
-    } catch (error) {
-      console.error('Error downloading data:', error);
-      alert('Failed to download data. Please try again.');
+      document.body.removeChild(a);
+    } catch (e) {
+      console.error("Failed to download data:", e);
     }
   };
 
@@ -562,15 +560,20 @@ const DataDisplay = ({ data }) => {
     <div className="space-y-4">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-xl font-bold">Extracted Data</h2>
-        <button
-          onClick={handleDownload}
-          className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 flex items-center"
-        >
-          <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-          </svg>
-          Download JSON
-        </button>
+        <div className="flex items-center space-x-4">
+          {data && data.cost !== undefined && (
+            <Cost cost={data.cost} />
+          )}
+          <button
+            onClick={handleDownload}
+            className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 flex items-center"
+          >
+            <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+            </svg>
+            Download JSON
+          </button>
+        </div>
       </div>
       
       {processedData.map((record, recordIndex) => {
@@ -611,7 +614,7 @@ const DataDisplay = ({ data }) => {
                   {JSON.stringify(record, null, 2)}
                 </pre>
               </div>
-                  </div>
+            </div>
             
             {Array.isArray(record.content) ? (
               renderContent(record.content, recordIndex)
@@ -621,7 +624,7 @@ const DataDisplay = ({ data }) => {
                 <pre className="mt-2 text-xs bg-gray-100 p-2 rounded overflow-auto max-h-20">
                   {typeof record.content === 'object' ? JSON.stringify(record.content, null, 2) : String(record.content)}
                 </pre>
-                </div>
+              </div>
             )}
           </div>
         );
