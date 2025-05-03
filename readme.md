@@ -65,6 +65,9 @@ If you want to use TWIX in our user interfaces:
    ```bash
    python3 app.py
    ```
+
+In our user interface, you can view the **cumulative cost incurred so far**. You can **edit the template** by updating the fields for each node, as well as **add or delete nodes** before starting data extraction. The outputs generated in this step can be **downloaded as local files**. 
+
 [Watch the TWIX Demo](docs/assets/video/Twix_Demo.mp4)
 ![TWIX Figure](docs/assets/image/UI.png)
 
