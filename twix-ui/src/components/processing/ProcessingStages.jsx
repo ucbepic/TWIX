@@ -15,8 +15,8 @@ import {
 function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disabled, files }) {
   const [templateData, setTemplateData] = useState(null);
   const [editedTemplate, setEditedTemplate] = useState(null);
-  const [textContent, setTextContent] = useState([]);
-  const [editedTextContent, setEditedTextContent] = useState([]);
+  const [textContent, setTextContent] = useState('');
+  const [editedTextContent, setEditedTextContent] = useState('');
   const [boundingBoxData, setBoundingBoxData] = useState([]);
   const [error, setError] = useState(null);
   const [processedData, setProcessedData] = useState(null);
@@ -27,7 +27,8 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
   const [processingTime, setProcessingTime] = useState(null);
   const [elapsedTime, setElapsedTime] = useState(0);
   const [timerInterval, setTimerInterval] = useState(null);
-  const [stageCost, setStageCost] = useState(null);
+  const [stageIndividualCosts, setStageIndividualCosts] = useState({ phrase: null, field: null, template: null, extraction: null });
+  const [totalCumulativeCost, setTotalCumulativeCost] = useState(0);
   
   // Add caching for already processed stages
   const [cachedResults, setCachedResults] = useState({
@@ -71,6 +72,18 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       cleanup().catch(err => console.error('Failed to cleanup:', err));
     };
   }, []);
+
+  // Effect to calculate total cumulative cost whenever individual costs change
+  useEffect(() => {
+    let sum = 0;
+    stages.forEach(stageInfo => {
+      const cost = stageIndividualCosts[stageInfo.id];
+      if (typeof cost === 'number') {
+        sum += cost;
+      }
+    });
+    setTotalCumulativeCost(sum);
+  }, [stageIndividualCosts]);
 
   // Effect to handle the timer
   useEffect(() => {
@@ -147,7 +160,6 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       setProcessingCompleted(false);
       setProcessingTime(null);
       setElapsedTime(0);
-      setStageCost(null);
       
       // If clicking the same stage again, just toggle visibility
       if (stage === activeStage) {
@@ -167,35 +179,27 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       if (cachedResults[stage]) {
         console.log(`Using cached results for ${stage} stage`);
         
+        // Restore individual cost for this stage from cache
+        const cachedIndividualCost = cachedResults[stage].cost;
+        if (typeof cachedIndividualCost === 'number') {
+          setStageIndividualCosts(prev => ({ ...prev, [stage]: cachedIndividualCost }));
+        }
+        
         // Restore cached data based on the stage
         if (stage === 'phrase') {
           setTextContent(cachedResults.phrase.textContent);
           setEditedTextContent(cachedResults.phrase.editedTextContent);
           if (cachedResults.phrase.boundingBoxData) {
             setBoundingBoxData(cachedResults.phrase.boundingBoxData);
-          } else {
-            setBoundingBoxData([]);
-          }
-          if (cachedResults.phrase.cost) {
-            setStageCost(cachedResults.phrase.cost);
           }
         } else if (stage === 'field') {
           setTextContent(cachedResults.field.textContent);
           setEditedTextContent(cachedResults.field.editedTextContent);
-          if (cachedResults.field.cost) {
-            setStageCost(cachedResults.field.cost);
-          }
         } else if (stage === 'template') {
           setTemplateData(cachedResults.template.templateData);
           setEditedTemplate(cachedResults.template.editedTemplate);
-          if (cachedResults.template.cost) {
-            setStageCost(cachedResults.template.cost);
-          }
         } else if (stage === 'extraction') {
           setProcessedData(cachedResults.extraction.processedData);
-          if (cachedResults.extraction.cost) {
-            setStageCost(cachedResults.extraction.cost);
-          }
         }
         
         setShowResults(true);
@@ -214,8 +218,8 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       
       // Clear previous stage data only for the current stage
       if (stage === 'phrase' || stage === 'field') {
-        setTextContent([]);
-        setEditedTextContent([]);
+        setTextContent('');
+        setEditedTextContent('');
       } else if (stage === 'template') {
         setTemplateData(null);
         setEditedTemplate(null);
@@ -231,10 +235,13 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
         data = await stageInfo.apiFunction(files);
         console.log("Phrase data received:", data);
         
-        // Store cost information if available
+        let currentStageCost = 0;
+        // Get individual cost for this stage run
         if (data.cost !== undefined) {
-          setStageCost(data.cost);
+          currentStageCost = Number(data.cost) || 0;
         }
+        // Update the state with the individual cost
+        setStageIndividualCosts(prev => ({ ...prev, phrase: currentStageCost }));
         
         // Store bounding box data if available
         if (data.boundingBoxData) {
@@ -307,7 +314,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
             textContent: phrasesContent || phrases,
             editedTextContent: phrasesContent || phrases,
             boundingBoxData: data.boundingBoxData || [],
-            cost: data.cost
+            cost: currentStageCost
           }
         }));
       } else if (stage === 'field') {
@@ -318,10 +325,13 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
         setTextContent(fields);
         setEditedTextContent(fields);
         
-        // Store cost information if available
+        let currentStageCost = 0;
+        // Get individual cost for this stage run
         if (data.cost !== undefined) {
-          setStageCost(data.cost);
+          currentStageCost = Number(data.cost) || 0;
         }
+        // Update the state with the individual cost
+        setStageIndividualCosts(prev => ({ ...prev, field: currentStageCost }));
         
         // Cache the results including cost
         setCachedResults(prev => ({
@@ -330,17 +340,20 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
             data,
             textContent: fields,
             editedTextContent: fields,
-            cost: data.cost
+            cost: currentStageCost
           }
         }));
       } else if (stage === 'template') {
         data = await stageInfo.apiFunction(files);
         console.log("Template data received:", data);
         
-        // Store cost information if available
+        let currentStageCost = 0;
+        // Get individual cost for this stage run
         if (data.cost !== undefined) {
-          setStageCost(data.cost);
+          currentStageCost = Number(data.cost) || 0;
         }
+        // Update the state with the individual cost
+        setStageIndividualCosts(prev => ({ ...prev, template: currentStageCost }));
         
         // Extract template from the response
         let template = [];
@@ -430,17 +443,20 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
             data,
             templateData: normalizedTemplate || [],
             editedTemplate: normalizedTemplate || [],
-            cost: data.cost
+            cost: currentStageCost
           }
         }));
       } else if (stage === 'extraction') {
         data = await stageInfo.apiFunction(files);
         console.log("Data extraction raw response:", data);
         
-        // Store cost information if available
+        let currentStageCost = 0;
+        // Get individual cost for this stage run
         if (data.cost !== undefined) {
-          setStageCost(data.cost);
+          currentStageCost = Number(data.cost) || 0;
         }
+        // Update the state with the individual cost
+        setStageIndividualCosts(prev => ({ ...prev, extraction: currentStageCost }));
         
         // Handle different data formats
         let extractedData = {};
@@ -474,7 +490,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
           extraction: {
             data,
             processedData: extractedData,
-            cost: data.cost
+            cost: currentStageCost
           }
         }));
       }
@@ -659,10 +675,32 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       {/* Results Section - Only show if a stage is active and showResults is true */}
       {showResults && (
         <div className="bg-white p-6 rounded-lg shadow-sm mt-4 border">
-          {/* Results Title with Cost */}
-          <div className="flex justify-between items-center mb-4">
-            {stageCost !== null && <Cost cost={stageCost} />}
-          </div>
+          {/* Calculate Cumulative Cost up to the active stage */}
+          {(() => {
+            let cumulativeUpToActive = 0;
+            const activeStageIndex = stages.findIndex(s => s.id === activeStage);
+            if (activeStageIndex !== -1) {
+              for (let i = 0; i <= activeStageIndex; i++) {
+                const stageId = stages[i].id;
+                const cost = stageIndividualCosts[stageId];
+                if (typeof cost === 'number') {
+                  cumulativeUpToActive += cost;
+                }
+              }
+            }
+            
+            return (
+              <div className="flex justify-between items-center mb-4">
+                <h3 className="text-lg font-semibold text-gray-800">
+                  {stages.find(s => s.id === activeStage)?.label} Results
+                </h3>
+                {/* Render cost only if the current stage completed */}
+                {typeof stageIndividualCosts[activeStage] === 'number' && 
+                  <Cost cost={cumulativeUpToActive} />
+                }
+              </div>
+            );
+          })()}
           
           {/* Text Content Editor (for phrase and field) */}
           {(activeStage === 'phrase' || activeStage === 'field') && (
@@ -725,7 +763,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
                 </div>
               </div>
               
-              {templateData && templateData.length > 0 ? (
+              {templateData !== null ? (
                 <TemplateEditor 
                   template={editedTemplate || []} 
                   onChange={(newTemplate) => {
@@ -754,7 +792,8 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
           {/* Data Display */}
           {activeStage === 'extraction' && processedData && (
             <div>
-              <DataDisplay data={{data: processedData, cost: stageCost}} />
+              {/* Pass the final total cumulative cost */}
+              <DataDisplay data={processedData} cost={totalCumulativeCost} />
             </div>
           )}
         </div>

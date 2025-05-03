@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { stringifyOrderedJSON, createOrderPreservingReplacer } from '../../services/api';
 import Cost from '../processing/Cost';
 
-const DataDisplay = ({ data }) => {
+const DataDisplay = ({ data, cost }) => {
   const [processedData, setProcessedData] = useState([]);
   const [expandedDetails, setExpandedDetails] = useState({});
   const [originalOrder, setOriginalOrder] = useState({});
@@ -561,9 +561,6 @@ const DataDisplay = ({ data }) => {
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-xl font-bold">Extracted Data</h2>
         <div className="flex items-center space-x-4">
-          {data && data.cost !== undefined && (
-            <Cost cost={data.cost} />
-          )}
           <button
             onClick={handleDownload}
             className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 flex items-center"
