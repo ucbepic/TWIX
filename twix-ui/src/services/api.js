@@ -366,17 +366,7 @@ async function fetchBoundingBoxFile() {
     // Build potential paths where the bounding box file might be
     // Prioritize the TXT file format which has the correct data
     const possiblePaths = [
-      'tests/out/Investigations_Redacted_original/merged_raw_phrases_bounding_box_page_number.txt',
-      'out/Investigations_Redacted_original/merged_raw_phrases_bounding_box_page_number.txt',
-      'results/merged_raw_phrases_bounding_box_page_number.txt',
-      'out/merged_raw_phrases_bounding_box_page_number.txt',
-      'uploads/merged_raw_phrases_bounding_box_page_number.txt',
-      // Fallback to JSON formats only if TXT isn't found
-      'tests/out/Investigations_Redacted_original/merged_raw_phrases_bounding_box_page_number.json',
-      'out/Investigations_Redacted_original/merged_raw_phrases_bounding_box_page_number.json',
-      'results/merged_raw_phrases_bounding_box_page_number.json',
-      'out/merged_raw_phrases_bounding_box_page_number.json',
-      'uploads/merged_raw_phrases_bounding_box_page_number.json'
+      'results/merged_raw_phrases_bounding_box_page_number.txt'
     ];
     
     // Try each possible path with each endpoint until one works

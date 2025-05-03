@@ -5,13 +5,7 @@ import os
 import sys
 import tempfile
 import shutil
-import logging
 from collections import OrderedDict
-
-# Configure logging
-logging.basicConfig(level=logging.INFO, 
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
 
 # Add the parent directory to sys.path to import twix
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
@@ -36,7 +30,6 @@ def process_phrase():
     try:
         # Get uploaded files
         files = request.files.getlist('pdfs')
-        logger.info(f"Received {len(files)} files for phrase processing")
         
         if not files or len(files) == 0:
             return jsonify({'error': 'No files uploaded'}), 400
@@ -54,6 +47,7 @@ def process_phrase():
         
         # Use twix to extract phrases
         phrases, cost = twix.extract_phrase(pdf_paths, result_folder)
+        print(cost)
         
         
         # Define paths for the bounding box files
@@ -62,7 +56,6 @@ def process_phrase():
         
         # If the bounding box file doesn't exist, create a placeholder
         if not os.path.exists(bb_txt_path):
-            logger.warning(f"Bounding box file not found at {bb_txt_path}, creating placeholder")
             
             # Create the TXT version (CSV format) which is what's actually used
             with open(bb_txt_path, 'w') as f:
@@ -85,31 +78,28 @@ def process_phrase():
                     
                     f.write(f"{safe_phrase},{x0},{y0},{x1},{y1},{page}\n")
             
-            logger.info(f"Created placeholder bounding box file at {bb_txt_path}")
             
             # Also create a copy with the original expected name
             try:
                 shutil.copy(bb_txt_path, bb_path)
-                logger.info(f"Copied TXT to JSON location at {bb_path}")
             except Exception as e:
-                logger.warning(f"Failed to copy TXT to JSON location: {e}")
+                print('Failed to copy TXT to JSON location: ', e)
             
             # Also create a nested directory for tests output
-            test_out_dir = os.path.join(BASE_DIR, 'tests', 'out', 'Investigations_Redacted_original')
+            test_out_dir = os.path.join(BASE_DIR, 'tests', 'out', 'resulting_phrases')
             os.makedirs(test_out_dir, exist_ok=True)
             
             test_bb_path = os.path.join(test_out_dir, 'merged_raw_phrases_bounding_box_page_number.txt')
             try:
                 shutil.copy(bb_txt_path, test_bb_path)
-                logger.info(f"Copied bounding box file to tests directory at {test_bb_path}")
             except Exception as e:
-                logger.warning(f"Failed to copy to tests directory: {e}")
+                print('Failed to copy TXT to JSON location: ', e)
         
         # Copy the bounding box file to additional locations for better discoverability
         try:
             source_path = bb_txt_path if os.path.exists(bb_txt_path) else bb_path
             
-            for dest_dir in ['results', 'out/Investigations_Redacted_original', 'tests/out/Investigations_Redacted_original']:
+            for dest_dir in ['results']:
                 dest_path = os.path.join(BASE_DIR, dest_dir)
                 os.makedirs(dest_path, exist_ok=True)
                 
@@ -120,7 +110,6 @@ def process_phrase():
                 if os.path.exists(source_path):
                     # Copy TXT file as-is
                     shutil.copy(source_path, txt_dest)
-                    logger.info(f"Copied bounding box file to {txt_dest}")
                     
                     # Convert to proper JSON format when needed
                     if source_path.endswith('.txt'):
@@ -175,23 +164,21 @@ def process_phrase():
                                 with open(json_dest, 'w') as f:
                                     json.dump(json_data, f, indent=2)
                                 
-                                logger.info(f"Converted and saved as JSON to: {json_dest}")
+                    
                             else:
-                                logger.warning(f"CSV data was empty, no JSON created")
+                                print('CSV data was empty, no JSON created')
                         except Exception as e:
-                            logger.error(f"Failed to convert CSV to JSON: {e}")
                             # If conversion fails, just copy the file as-is
                             shutil.copy(source_path, json_dest)
-                            logger.warning(f"Copied txt file to json location without conversion: {json_dest}")
+                    
         except Exception as copy_err:
-            logger.warning(f"Failed to copy bounding box file: {str(copy_err)}")
+            print('Failed to copy bounding box file: ', copy_err)
         
         return jsonify({
             'status': 'success',
             'phrases': phrases
         })
     except Exception as e:
-        logger.error(f"Error in process_phrase: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 @app.route('/process/fields', methods=['POST'])
@@ -199,7 +186,6 @@ def predict_fields():
     try:
         # Get uploaded files
         files = request.files.getlist('pdfs')
-        logger.info(f"Received {len(files)} files for field prediction")
         
         if not files or len(files) == 0:
             return jsonify({'error': 'No files uploaded'}), 400
@@ -208,23 +194,19 @@ def predict_fields():
         pdf_paths = []
         for file in files:
             file_path = os.path.join(UPLOAD_FOLDER, file.filename)
-            logger.info(f"Saving file to {file_path}")
             file.save(file_path)
             pdf_paths.append(file_path)
         
         result_folder = twix.extract.get_result_folder_path(pdf_paths)
         
         # Use twix to predict fields
-        logger.info(f"Predicting fields from {len(pdf_paths)} PDFs")
         fields, cost = twix.predict_field(pdf_paths, result_folder)
-        logger.info(f"Predicted {len(fields)} fields")
         
         return jsonify({
             'status': 'success',
             'fields': fields
         })
     except Exception as e:
-        logger.error(f"Error in predict_fields: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 @app.route('/process/template', methods=['POST'])
@@ -232,7 +214,6 @@ def predict_template():
     try:
         # Get uploaded files
         files = request.files.getlist('pdfs')
-        logger.info(f"Received {len(files)} files for template prediction")
         
         if not files or len(files) == 0:
             return jsonify({'error': 'No files uploaded'}), 400
@@ -241,23 +222,18 @@ def predict_template():
         pdf_paths = []
         for file in files:
             file_path = os.path.join(UPLOAD_FOLDER, file.filename)
-            logger.info(f"Saving file to {file_path}")
             file.save(file_path)
             pdf_paths.append(file_path)
         
         result_folder = twix.extract.get_result_folder_path(pdf_paths)
-
         # Use twix to predict template
-        logger.info(f"Predicting template from {len(pdf_paths)} PDFs")
         template, cost = twix.predict_template(pdf_paths, result_folder)
-        logger.info(f"Predicted template with {len(template)} nodes")
         
         return jsonify({
             'status': 'success',
             'template': template
         })
     except Exception as e:
-        logger.error(f"Error in predict_template: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 @app.route('/process/extract', methods=['POST'])
@@ -265,7 +241,6 @@ def extract_data():
     try:
         # Get uploaded files
         files = request.files.getlist('pdfs')
-        logger.info(f"Received {len(files)} files for data extraction")
         
         if not files or len(files) == 0:
             return jsonify({'error': 'No files uploaded'}), 400
@@ -274,25 +249,17 @@ def extract_data():
         pdf_paths = []
         for file in files:
             file_path = os.path.join(UPLOAD_FOLDER, file.filename)
-            logger.info(f"Saving file to {file_path}")
             file.save(file_path)
             pdf_paths.append(file_path)
         
         result_folder = twix.extract.get_result_folder_path(pdf_paths)
-        logger.info(f"Using result folder: {result_folder}")
         
-        # Log the paths of all files being processed
-        logger.info("Processing the following files for data extraction:")
-        for i, path in enumerate(pdf_paths):
-            logger.info(f"File {i+1}: {path}")
 
         # Use twix to extract data
-        logger.info(f"Extracting data from {len(pdf_paths)} PDFs")
         data, cost = twix.extract_data(pdf_paths, result_folder)
         
         # Log where the extracted data is being saved
         extracted_data_path = os.path.join(result_folder, 'extracted_data.json')
-        logger.info(f"Extracted data will be saved to: {extracted_data_path}")
         
         # Ensure the results folder exists
         os.makedirs(RESULT_FOLDER, exist_ok=True)
@@ -302,11 +269,9 @@ def extract_data():
             result_json_path = os.path.join(RESULT_FOLDER, 'extracted_data.json')
             with open(result_json_path, 'w') as f:
                 json.dump(data, f, indent=2)
-            logger.info(f"Copied extracted data to: {result_json_path}")
         except Exception as save_err:
-            logger.warning(f"Failed to save extracted data to results folder: {str(save_err)}")
+            print('Failed to save extracted data to results folder: ', save_err)
         
-        logger.info(f"Extracted data successfully")
         
         # Create a custom response that preserves the field order
         def preserve_order(data):
@@ -336,7 +301,6 @@ def extract_data():
         # Return the response with preserved order
         return json.dumps(response, sort_keys=False), 200, {'Content-Type': 'application/json'}
     except Exception as e:
-        logger.error(f"Error in extract_data: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 @app.route('/save/template', methods=['POST'])
@@ -346,7 +310,7 @@ def save_template():
             return jsonify({'error': 'Request must be JSON'}), 400
         
         template_data = request.json
-        logger.info(f"Saving template with {len(template_data)} nodes")
+        
         
         # Get the result folder for the most recent upload
         result_folder = RESULT_FOLDER
@@ -354,14 +318,12 @@ def save_template():
         # Use twix to save the template
         template_path = os.path.join(result_folder, 'template.json')
         twix.pattern.write_template(template_data, template_path)
-        logger.info(f"Template saved to {template_path}")
         
         return jsonify({
             'status': 'success',
             'message': 'Template saved successfully'
         })
     except Exception as e:
-        logger.error(f"Error in save_template: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 # New endpoints using twix user_apis
@@ -374,7 +336,6 @@ def api_add_fields():
         
         data = request.json
         added_fields = data.get('fields', [])
-        logger.info(f"Adding {len(added_fields)} fields")
         
         # Get the most recent PDF files processed
         pdf_paths = []
@@ -382,13 +343,11 @@ def api_add_fields():
             if filename.lower().endswith('.pdf'):
                 pdf_paths.append(os.path.join(UPLOAD_FOLDER, filename))
         
-        logger.info(f"Found {len(pdf_paths)} PDF files in upload folder")
 
         result_folder = twix.extract.get_result_folder_path(pdf_paths)
         
         # Use twix.add_fields with the PDF paths
         updated_fields = twix.add_fields(added_fields, result_folder)
-        logger.info(f"Updated fields, now have {len(updated_fields)} fields")
         
         return jsonify({
             'status': 'success',
@@ -396,7 +355,6 @@ def api_add_fields():
             'message': 'Fields added successfully'
         })
     except Exception as e:
-        logger.error(f"Error in api_add_fields: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 @app.route('/api/remove_fields', methods=['POST'])
@@ -407,7 +365,6 @@ def api_remove_fields():
         
         data = request.json
         removed_fields = data.get('fields', [])
-        logger.info(f"Removing {len(removed_fields)} fields")
         
         # Get the most recent PDF files processed
         pdf_paths = []
@@ -415,13 +372,11 @@ def api_remove_fields():
             if filename.lower().endswith('.pdf'):
                 pdf_paths.append(os.path.join(UPLOAD_FOLDER, filename))
         
-        logger.info(f"Found {len(pdf_paths)} PDF files in upload folder")
 
         result_folder = twix.extract.get_result_folder_path(pdf_paths)
         
         # Use twix.remove_fields with the PDF paths
         updated_fields = twix.remove_fields(removed_fields, result_folder)
-        logger.info(f"Updated fields, now have {len(updated_fields)} fields")
         
         return jsonify({
             'status': 'success',
@@ -429,7 +384,6 @@ def api_remove_fields():
             'message': 'Fields removed successfully'
         })
     except Exception as e:
-        logger.error(f"Error in api_remove_fields: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 @app.route('/api/remove_template_node', methods=['POST'])
@@ -440,7 +394,6 @@ def api_remove_template_node():
         
         data = request.json
         node_ids = data.get('node_ids', [])
-        logger.info(f"Removing template nodes: {node_ids}")
         
         # Get the most recent PDF files processed
         pdf_paths = []
@@ -448,13 +401,12 @@ def api_remove_template_node():
             if filename.lower().endswith('.pdf'):
                 pdf_paths.append(os.path.join(UPLOAD_FOLDER, filename))
         
-        logger.info(f"Found {len(pdf_paths)} PDF files in upload folder")
 
         result_folder = twix.extract.get_result_folder_path(pdf_paths)
         
         # Use twix.remove_template_node with the PDF paths
         updated_template = twix.remove_template_node(node_ids, result_folder)
-        logger.info(f"Updated template, now have {len(updated_template)} nodes")
+        
         
         return jsonify({
             'status': 'success',
@@ -462,7 +414,6 @@ def api_remove_template_node():
             'message': 'Template nodes removed successfully'
         })
     except Exception as e:
-        logger.error(f"Error in api_remove_template_node: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 @app.route('/api/modify_template_node', methods=['POST'])
@@ -476,7 +427,6 @@ def api_modify_template_node():
         node_type = data.get('type')
         fields = data.get('fields', [])
         
-        logger.info(f"Modifying template node {node_id} to type {node_type} with {len(fields)} fields")
         
         if node_id is None or node_type is None:
             return jsonify({'error': 'node_id and type are required'}), 400
@@ -487,13 +437,11 @@ def api_modify_template_node():
             if filename.lower().endswith('.pdf'):
                 pdf_paths.append(os.path.join(UPLOAD_FOLDER, filename))
         
-        logger.info(f"Found {len(pdf_paths)} PDF files in upload folder")
 
         result_folder = twix.extract.get_result_folder_path(pdf_paths)
         
         # Use twix.modify_template_node with the PDF paths
         updated_template = twix.modify_template_node(node_id, node_type, fields, result_folder)
-        logger.info(f"Updated template, now have {len(updated_template)} nodes")
         
         return jsonify({
             'status': 'success',
@@ -501,7 +449,6 @@ def api_modify_template_node():
             'message': 'Template node modified successfully'
         })
     except Exception as e:
-        logger.error(f"Error in api_modify_template_node: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 # Cleanup route to remove temporary files
@@ -516,14 +463,13 @@ def cleanup():
                 os.unlink(file_path)
                 count += 1
         
-        logger.info(f"Cleaned up {count} files from upload folder")
+      
         
         return jsonify({
             'status': 'success',
             'message': f'Cleaned up {count} temporary files successfully'
         })
     except Exception as e:
-        logger.error(f"Error in cleanup: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 # Add routes to serve bounding box files and other file reading functions
@@ -536,10 +482,8 @@ def get_bounding_box():
         
         # Make sure the path is relative to project directory
         file_path = os.path.join(BASE_DIR, path)
-        logger.info(f"Attempting to read bounding box file from {file_path}")
         
         if not os.path.exists(file_path):
-            logger.warning(f"File not found: {file_path}")
             return jsonify({'error': f'File not found: {path}'}), 404
         
         # Read the file content
@@ -554,12 +498,11 @@ def get_bounding_box():
                 return jsonify(data)
             except json.JSONDecodeError:
                 # If JSON parsing fails, return as plain text
-                logger.warning(f"Failed to parse {file_path} as JSON, returning as text")
+                print('Failed to parse {file_path} as JSON, returning as text')
         
         # For non-JSON or parsing failures, return as text/plain
         return Response(content, mimetype='text/plain')
     except Exception as e:
-        logger.error(f"Error reading bounding box file: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 @app.route('/files', methods=['GET'])
@@ -571,10 +514,8 @@ def get_file():
         
         # Make sure the path is relative to project directory
         file_path = os.path.join(BASE_DIR, path)
-        logger.info(f"Attempting to read file from {file_path}")
         
         if not os.path.exists(file_path):
-            logger.warning(f"File not found: {file_path}")
             return jsonify({'error': f'File not found: {path}'}), 404
         
         # Read the file content
@@ -589,12 +530,11 @@ def get_file():
                 return jsonify(data)
             except json.JSONDecodeError:
                 # If JSON parsing fails, return as plain text
-                logger.warning(f"Failed to parse {file_path} as JSON, returning as text")
+                print('Failed to parse {file_path} as JSON, returning as text')
         
         # For non-JSON or parsing failures, return as text/plain
         return Response(content, mimetype='text/plain')
     except Exception as e:
-        logger.error(f"Error reading file: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 @app.route('/file/read', methods=['POST', 'OPTIONS'])
@@ -618,10 +558,8 @@ def read_file():
         
         # Make sure the path is relative to project directory
         file_path = os.path.join(BASE_DIR, path)
-        logger.info(f"Attempting to read file from {file_path}")
         
         if not os.path.exists(file_path):
-            logger.warning(f"File not found: {file_path}")
             return jsonify({'error': f'File not found: {path}'}), 404
         
         # Read the file content
@@ -636,12 +574,11 @@ def read_file():
                 return jsonify(data)
             except json.JSONDecodeError:
                 # If JSON parsing fails, return as plain text
-                logger.warning(f"Failed to parse {file_path} as JSON, returning as text")
+                print('Failed to parse {file_path} as JSON, returning as text')
         
         # For non-JSON or parsing failures, return as text/plain
         return Response(content, mimetype='text/plain')
     except Exception as e:
-        logger.error(f"Error reading file: {str(e)}", exc_info=True)
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':

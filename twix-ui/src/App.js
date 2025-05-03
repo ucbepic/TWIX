@@ -60,12 +60,6 @@ function App() {
                 PDF Processing and Data Extraction Tool
               </p>
             </div>
-            <button
-              onClick={() => setShowApiTest(!showApiTest)}
-              className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700"
-            >
-              {showApiTest ? 'Hide API Test' : 'Show API Test'}
-            </button>
           </div>
 
           {showApiTest ? (
