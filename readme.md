@@ -6,6 +6,7 @@
 - [🚀 Getting Started](#-getting-started)
 - [📦 Python Package](#-python-package)
 - [🖥️ User Interface](#️-user-interface)
+- [🤝 Contribution to TWIX](#-contribution-to-twix)
 - [📚 TWIX API Reference](#-twix-api-reference)
 
 
@@ -67,6 +68,22 @@ If you want to use TWIX in our user interfaces:
 [Watch the TWIX Demo](docs/assets/video/Twix_Demo.mp4)
 ![TWIX Figure](docs/assets/image/UI.png)
 
+# 🤝 Contribution to TWIX
+
+Several components in TWIX can potentially be replaced and improved by the community.
+
+1. **Using a custom LLM model:**  
+   To integrate your own LLM, create a wrapper function for your API that accepts a `prompt` and returns a `response`. The `prompt` should be a tuple of (`instruction`, `context`). For an example implementation, see how we wrap OpenAI's LLM in `twix/models`.  
+   Next, add an entry point in `twix/model.py` to expose your LLM interface to TWIX.
+
+2. **Using a custom OCR tool for phrase extraction:**  
+   To integrate another OCR tool, ensure that its output is cleaned and formatted as a table. See `tests/out/Investigations_Redacted_modified/Investigations_Redacted_modified_raw_phrases_bounding_box_page_number.txt` for an example. The table should have the following header: `text,x0,y0,x1,y1,page`, where `text` is the extracted phrase, `x0,y0,x1,y1` represent the bounding box coordinates, and `page` indicates the page number.
+
+3. **Using a custom field prediction approach:**  
+   To integrate a custom field prediction method, ensure its output is cleaned and formatted as a list of strings, where each string represents an inferred field. See `tests/out/Investigations_Redacted_modified/twix_key.txt` for an example.
+
+We’re excited to chat with you and hear your feedback on new datasets and use cases! Feel free to reach out to `yiminglin@berkeley.edu` to share your thoughts.
+
 # 📚 TWIX API Reference
 
 This document provides an overview of the available APIs in the TWIX Python package. Each API is described with its functionality, parameters, and return values.
@@ -118,7 +135,7 @@ Predicts a list of fields from documents. Fields refer to phrases in table heade
   - `result_folder` (str): The path to store results. 
   - `LLM_model_name` (str, optional): Specify the LLM model name. 
 - **Returns:**
-  - `list`: A list of predicted phrases. TWIX also writes the results in the local result folder, naming the file as `twix_key.txt`.
+  - `list`: A list of predicted fields. TWIX also writes the results in the local result folder, naming the file as `twix_key.txt`.
   - `cost` (float): The cost incurred during the function call. 
 ---
 
@@ -144,7 +161,7 @@ Extracts data based on a template.
   - `template` (list, optional): The template output from `predict_template`. If not specified, TWIX will look in the local result folder to read the predicted template.
   - `result_folder` (str): The path to store results. 
 - **Returns:**
-  - `dict`: A dictionary of extraction results, where the key is the file path, and the value is the extraction object of that file. Each extraction object is a list of data blocks containing either table blocks or key-value blocks. Results will be written locally in the result folder, naming the file as `extracted.json`.
+  - `dict`: A dictionary of extraction results, where the key is the file name, and the value is the extraction object of that file. Each extraction object is a list of data blocks containing either table blocks or key-value blocks. Results will be written locally in the result folder, naming the file as `extracted.json`.
   - `cost` (float): The cost incurred during the function call. 
 ---
 
