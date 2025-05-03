@@ -297,7 +297,7 @@ def extract_phrase_one_doc(pdf_path, text_path, dict_path, page_limit):
 
     return adjusted_phrases, phrases
 
-def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o', page_to_infer_fields = 5, vision_feature = False):
+def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o-mini', page_to_infer_fields = 5, vision_feature = False):
     print('Phrase extraction starts...')
     global model_name
     if len(LLM_model_name) > 0:
@@ -343,6 +343,7 @@ def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o', page_to
 
     phrases_out['merged_data_files'] = (phrases, phrases_bounding_box_page_number)
     max_page_limit = 100000000
+    #max_page_limit = 5
 
     print('Phrase extraction for individual files starts...')
     for data_file in data_files:
@@ -670,7 +671,6 @@ def write_csv(file_path,data):
 
 def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, result_folder, page_count, vision_feature): 
     user_page_indices = list(range(page_count))
-    #print('Processing ', in_path)
     #print('Word extraction starts...')
     #1 first pass extraction 
     #get raw_phrases_bounding_box_page_number

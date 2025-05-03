@@ -368,7 +368,7 @@ def get_extracted_result_path(result_folder, data_file):#file path is the path o
     new_file_path = os.path.join(result_folder, f"{file_name}_extracted.json")
     return new_file_path
 
-def predict_field(data_files, result_folder, LLM_model_name = 'gpt-4o'):
+def predict_field(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
     global model_name
     if len(LLM_model_name) > 0:
         model_name = LLM_model_name 

@@ -1523,7 +1523,7 @@ def write_string(result_path, content):
         file.write(content)
 
 
-def predict_template(data_files, result_folder, LLM_model_name = 'gpt-4o'):
+def predict_template(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
     global model_name
     if len(LLM_model_name) > 0:
         model_name = LLM_model_name 
