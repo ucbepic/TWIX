@@ -626,10 +626,6 @@ const DataDisplay = ({ data, cost }) => {
           </div>
         );
       })}
-      
-      <div className="mt-4 p-4 bg-blue-50 text-blue-700 rounded-md">
-        <p>extraction processing completed</p>
-      </div>
     </div>
   );
 };
