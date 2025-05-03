@@ -60,7 +60,7 @@ If you want to use TWIX in our user interfaces:
    npm start
    ```
 
-2. Start the backend server. In the `/twix-ui/backend/` directory, run:
+2. Start the backend server in a new terminal. Navigate to the `/twix-ui/backend/`, run: 
 
    ```bash
    python3 app.py
