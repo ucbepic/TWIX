@@ -325,8 +325,6 @@ def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o-mini', pa
         os.makedirs(image_foler)
     
     pdf_2_image(merged_pdf_path, 2, image_foler)
-
-    
     
     #get ground_phrases_full
     if vision_feature: 
@@ -342,8 +340,8 @@ def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o-mini', pa
     phrases_out = {}
 
     phrases_out['merged_data_files'] = (phrases, phrases_bounding_box_page_number)
-    max_page_limit = 100000000
-    #max_page_limit = 5
+    #max_page_limit = 100000000
+    max_page_limit = 5
 
     print('Phrase extraction for individual files starts...')
     for data_file in data_files:
@@ -351,7 +349,6 @@ def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o-mini', pa
         text_path = result_folder + file_name + '_phrases.txt'
         dict_path = result_folder + file_name + '_bounding_box_page_number.json' 
         raw_path = result_folder + file_name + '_raw_phrases_bounding_box_page_number.txt'
-        #print(data_file)
         phrases, phrases_bounding_box_page_number = extract_phrase_one_doc_v1(data_file, text_path, dict_path, raw_path, result_folder, max_page_limit, vision_feature) #extract all data for each document 
         phrases_out[file_name] = (phrases, phrases_bounding_box_page_number)
 
@@ -691,6 +688,9 @@ def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, result_fo
     else: 
         refined_phrases = pd.DataFrame(raw_phases, columns=['text','x0','y0','x1','y1','page'])
 
+    if vision_feature:
+        write_csv(raw_path, refined_phrases)
+
     #print('Refine phases extraction based on learned rules...')
     #4 get phrase only list
     phrases_txt = [phrase for phrase in refined_phrases['text'].values.tolist() if type(phrase) == str]
@@ -702,9 +702,6 @@ def extract_phrase_one_doc_v1(in_path, text_path, dict_path, raw_path, result_fo
 
     write_phrase(text_path, phrases_txt)
     write_dict(dict_path, phrases_json)
-
-    #clean intermediate files 
-    #delete_file(raw_path)
     
     return phrases_txt, phrases_json
 
@@ -1143,7 +1140,9 @@ def phrase_extraction_try(path, page_annot=True):
     write_csv(result_folder + 'test.csv', raw_phrases_bounding_box_page_number)
 
 if __name__ == "__main__":
-    print(root_path)
     pdf_paths = []
-    pdf_paths.append(root_path + '/tests/data/Investigations_Redacted_original.pdf') 
-    extract_phrase(pdf_paths) 
+    file_name = '2972_2972574'
+    file_path = '/tests/data/' + file_name + '.pdf'
+    pdf_paths.append(root_path + file_path) 
+    result_path = root_path + '/tests/out/' + file_name + 'test/' 
+    extract_phrase(pdf_paths, result_path, vision_feature=True)  
