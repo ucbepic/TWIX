@@ -8,7 +8,7 @@ root_path = extract.get_root_path()
 sys.path.append(root_path)
 from twix.model import model 
 model_name = 'gpt-4o'
-vision_model_name = 'gpt4vision'
+vision_model_name = 'vision-' + model_name 
 total_cost = 0
 
 tokenizer = tiktoken.get_encoding("cl100k_base")
@@ -19,6 +19,8 @@ def get_fields_by_LLM(image_paths):
     prompt = 'Extract the set of keywords from the given two images. A keyword can be in the table header or in every key value pairs. Return the raw distinct keyword, seperated by |. Do not add explanations. Do not include headers or footers. Do not include other phrases like table values. ' 
     
     response = model(vision_model_name,prompt,image_paths)
+
+    #print('response:', response) 
     fields = [phrase.strip() for phrase in response.split('|')]
 
     global total_cost
@@ -232,16 +234,28 @@ def candidate_key_clusters_selection(clusters, LLM_fields):
         lst = result_gen_from_response(response, l)
         p, w = mean_confidence_interval(lst)
 
+        #debug
+        # print(l)
+        # print(fields)
+        #print('probability, confidence:', p,w)
+
         match = 0
         for f in fields:
             if(f in LLM_fields):
                 match = 1
                 break
-        
-        if(match == 1 or (p > 0.5 and w < 0.5)):
-            out += fields
-            cids.append(cid)
 
+        if len(clusters) == 1: 
+            if(match == 1 or p > 0.5):
+                out += fields
+                cids.append(cid)
+        else:
+            if(match == 1 or (p > 0.5 and w < 0.5)):
+                if(match == 1 or p > 0.5):
+                    out += fields
+                    cids.append(cid)
+
+    return out,cids 
     #     lst = result_gen_from_response(response, l)
     #     p, w = mean_confidence_interval(lst)
 
@@ -276,7 +290,7 @@ def candidate_key_clusters_selection(clusters, LLM_fields):
     #     if(cid not in out_degree):
     #         candidate_key_clusters.append(cid)
     # #print(candidate_key_clusters)
-    return out,cids
+    
     #return candidate_key_clusters, input_size, output_size 
 
 def mean_confidence_interval(data, confidence=0.95):
@@ -395,11 +409,15 @@ def predict_field(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
     phrases = relative_locations
 
     LLM_fields = get_fields_by_LLM(image_paths)
+    #debug
+    #print('LLM_field:', LLM_fields)
     LLM_fields = set(LLM_fields).intersection(raw_phrases)
 
     print('perfect match starts...')
     mp, remap = perfect_align_clustering(phrases)
-    #print(remap)
+
+    #debug 
+    #print('remap:', remap)
 
     print('cluster pruning starts...')
     fields, cluster_ids = candidate_key_clusters_selection(remap,LLM_fields)
@@ -410,6 +428,9 @@ def predict_field(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
     additional_fields = list(LLM_fields.intersection(set(additional_fields)))
     fields += additional_fields
     
+    #debug
+    #print(fields) 
+
     #write result
     result_path = get_key_path(result_folder)
     #print(result_path)
@@ -417,6 +438,13 @@ def predict_field(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
 
     return fields, total_cost
 
+if __name__ == "__main__":
+    pdf_paths = []
+    file_name = '2715_2715234'
+    file_path = '/tests/data/' + file_name + '.pdf'
+    pdf_paths.append(root_path + file_path) 
+    result_path = root_path + '/tests/out/' + file_name + '/' 
+    predict_field(pdf_paths, result_path) 
 
     
         
