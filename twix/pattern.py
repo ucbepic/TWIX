@@ -88,6 +88,7 @@ def template_learn_input_gen(phrases_bb, predict_labels, extra_phrase_num = 30):
     cnt = {}
     satisfied = 0
     cnts = {}
+    #print('predicted labels:', predict_labels) 
     #goal: ensure that input contains each predict label at least twice
     for i in range(len(phrases_bb)):
         p = phrases_bb[i][0]
@@ -110,7 +111,16 @@ def template_learn_input_gen(phrases_bb, predict_labels, extra_phrase_num = 30):
                         break
                 return input
     print('There does not exist an input such that every predict key exists at least twice.')
-    return []
+    return get_first_page_from_doc(phrases_bb)
+
+def get_first_page_from_doc(phrases_bb):
+    input = []
+    for i in range(len(phrases_bb)):
+        page = phrases_bb[i][5]
+        #print('phrase, page:', phrases_bb[i][0], page)
+        if page < 2: 
+            input.append(phrases_bb[i])
+    return input
 
 def key_val_extraction(pv, predict_labels):
     kvs = []
@@ -181,7 +191,6 @@ def key_val_mp(key_row, val_row):
     kv_mp_bounding_box = {}
     kv_id_mp = {}
     #key_val for non-missing vals maps storing their ids
-    #print(val_row)
     #for each key, search its cloest and overlapping value 
     v_id = {} #store the ids of values that are assigned to their keys 
     for key_id in range(len(key_row)):
@@ -349,9 +358,9 @@ def find_col_bb(vals):
     return l,r 
 
 def is_same_row(b1,b2):
-    #b2 should be in the right side of b1
-    if(b2[0] < b1[0]):
-        return 0
+    #Removed: b2 should be in the right side of b1
+    # if(b2[0] < b1[0]):
+    #     return 0
     # b1 and b2 should overlap in y
     if(b1[3] < b2[1] or b1[1] > b2[3]):
         return 0
@@ -389,23 +398,6 @@ def row_aligned(row1, row2):
 def write_json(out, path):
     with open(path, 'w') as json_file:
         json.dump(out, json_file, indent=4)
-
-# def create_row_representations(phrases_bb):
-#     # record_appearance = {}
-#     # for p in phrases:
-#     #     record_appearance[p] = 0
-
-#     #phrase_boundingbox: a list of tuple. Each tuple:  (phrase, bounding box)
-#     #phrase_boundingbox = csv_2_tuple_list(phrases_bb)
-#     #phrase_boundingbox = get_bblist_per_record(record_appearance, phrases_bb, phrases)
-
-#     #print(phrase_boundingbox)
-#     #create row representations 
-#     #row_mp: row_id -> a list of (phrase, bb) in the current row
-#     row_mp = seperate_rows(phrases_bb)
-
-#     return row_mp
-
 
 def get_metadata(image_paths):
     #prompt = 'The given two images have common headers and footers in the top and bottem part of the image. Return only the raw headers and footers. Do not return other phrases. Do not add any explanations. '
@@ -506,10 +498,11 @@ def refine_sample(row_mp):
     return new_mp
 
 def predict_template_docs(phrases_bb, predict_labels, raw_phrases, metadata):
-    # print('fields...')
-    # print(predict_labels)
     #get minimal set of phrases to learn template 
     sample_phrases_bb = template_learn_input_gen(phrases_bb, predict_labels)
+    if len(sample_phrases_bb) == 0:
+        print('The input document is empty.') 
+        return []
     row_mp = seperate_rows(sample_phrases_bb)
     row_mp = refine_sample(row_mp)
     template = ILP_extract(predict_labels, row_mp, metadata)
@@ -962,9 +955,6 @@ def row_label_gen_template(record, row_mp, template, metadata):
             label = 'M'
         else:
             if(is_row_headers_or_footers_no_LLMs(row_phrases, metadata) == 1): 
-                # print('go LLMs...')
-                # print(row_phrases)
-                # print(metadata)
                 label = 'M'
             else:
                 label = ''
@@ -1155,11 +1145,6 @@ def C_alignment(row_mp, id1, id2): #comprehensive alignment
                 return 1
             return 0
     return 0
-    # else:
-    #     s_score = semantic_alignment(row_mp, id1, id2)
-    #     if(s_score > 0.5):
-    #         return 1
-    #     return 0
 
 def seperate_rows(pv):
     p_pre = pv[0][0]
@@ -1571,13 +1556,6 @@ def predict_template(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
     phrases = read_file(extracted_path)#list of phrases
     phrases_bb = csv_2_tuple_list(bb_path)#phrases with bounding boxes
 
-    # i = 0
-    # for p in phrases_bb:
-    #     print(p[0],p[1],p[2])
-    #     i+=1
-    #     if i > 10:
-    #         break 
-
     print('Template prediction starts...')
 
     template = predict_template_docs(phrases_bb, keywords, phrases, metadata)
@@ -1650,7 +1628,9 @@ def extract_data(data_files, result_folder, template = []):
 
 if __name__ == "__main__":
     pdf_paths = []
-    pdf_paths.append(root_path + '/tests/data/22-274.releasable.pdf') 
-    file_name = '22-274.releasable'
-    result_path = root_path + '/tests/out/' + file_name + '/' 
-    extraction_objects, cost = extract_data(pdf_paths, result_path) 
+    file_name = '2972_2972574'
+    file_path = '/tests/data/' + file_name + '.pdf'
+    pdf_paths.append(root_path + file_path) 
+    result_path = root_path + '/tests/out/' + file_name + 'test/' 
+    predict_template(pdf_paths, result_path) 
+    #extract_data(pdf_paths, result_path)
