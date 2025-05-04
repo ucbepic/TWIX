@@ -6,7 +6,9 @@
 - [🚀 Getting Started](#-getting-started)
 - [📦 Python Package](#-python-package)
 - [🖥️ User Interface](#️-user-interface)
-- [🤝 Contribution to TWIX](#-contribution-to-twix)
+- [🤝 Usage Guidance \& Contribution to TWIX](#-usage-guidance--contribution-to-twix)
+  - [Usage Guidance](#usage-guidance)
+  - [Contribution to TWIX](#contribution-to-twix)
 - [📚 TWIX API Reference](#-twix-api-reference)
 
 
@@ -71,7 +73,21 @@ In our user interface, you can view the **cumulative cost incurred so far**. You
 [Watch the TWIX Demo](docs/assets/video/Twix_Demo.mp4)
 ![TWIX Figure](docs/assets/image/UI.png)
 
-# 🤝 Contribution to TWIX
+# 🤝 Usage Guidance & Contribution to TWIX
+
+## Usage Guidance 
+
+1. **Applicable Documents**  
+TWIX is currently optimized for documents generated from the same template. To infer the underlying template, TWIX requires at least two records (or two pages) created with that template. Sample documents are available in the `tests/data` directory. We are actively working on extending TWIX to support structured data extraction from a single-record (single-page) PDF. Updates will be announced in the repository once this feature is released. 
+
+2. **Phrase Patterns in Documents**  
+TWIX uses a free OCR (Optical Character Recognition) tool, PdfPlumber, to extract phrases from documents. TWIX further infers fields and templates based on the extracted phrases. PdfPlumber performs well for extracting individual words; however, in cases where a phrase—such as a table column name or a table cell—spans multiple lines, PdfPlumber fails to recognize the entire phrase and instead returns fragmented words.  
+
+To address this, TWIX develops a feature powered by vision-based LLMs that first extracts true phrases by using semantic knowledge and vision information from the document and then learns rules for combining words correctly. These learned rules are applied in downstream phrase extraction. You can enable this feature by setting `vision_feature = True` in `twix.extract_phrase` (it is disabled by default).  
+
+We are actively working on improving the rule-learning function for phrase extraction. Additionally, we are exploring alternative OCR tools that can better handle multi-line phrase extraction. If you're interested in contributing to the phrase extraction component, feel free to reach out!
+
+## Contribution to TWIX
 
 Several components in TWIX can potentially be replaced and improved by the community.
 
