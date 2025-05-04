@@ -6,9 +6,10 @@
 - [🚀 Getting Started](#-getting-started)
 - [📦 Python Package](#-python-package)
 - [🖥️ User Interface](#️-user-interface)
-- [🤝 Usage Guidance \& Contribution to TWIX](#-usage-guidance--contribution-to-twix)
+- [🤝 Usage Guidance \& Contribution Guidance](#-usage-guidance--contribution-guidance)
   - [Usage Guidance](#usage-guidance)
-  - [Contribution to TWIX](#contribution-to-twix)
+  - [Contributing to TWIX](#contributing-to-twix)
+  - [Contributing Guidance](#contributing-guidance)
 - [📚 TWIX API Reference](#-twix-api-reference)
 
 
@@ -73,7 +74,7 @@ In our user interface, you can view the **cumulative cost incurred so far**. You
 [Watch the TWIX Demo](docs/assets/video/Twix_Demo.mp4)
 ![TWIX Figure](docs/assets/image/UI.png)
 
-# 🤝 Usage Guidance & Contribution to TWIX
+# 🤝 Usage Guidance & Contribution Guidance
 
 ## Usage Guidance 
 
@@ -83,7 +84,7 @@ TWIX is currently optimized for documents generated from the same template. To i
 2. **Phrase Patterns in Documents**  
 TWIX uses a free OCR (Optical Character Recognition) tool, PdfPlumber, to extract phrases from documents. TWIX further infers fields and templates based on the extracted phrases. PdfPlumber performs well for extracting individual words; however, in cases where a phrase—such as a table column name or a table cell—spans multiple lines, PdfPlumber fails to recognize the entire phrase and instead returns fragmented words. To address this, TWIX develops a feature powered by vision-based LLMs that first extracts true phrases by using semantic knowledge and vision information from a small document sample, and then learns rules for combining words correctly. These learned rules are applied in downstream phrase extraction. You can enable this feature by setting `vision_feature = True` in `twix.extract_phrase` (it is disabled by default). We are actively working on improving the rule-learning function for phrase extraction. Additionally, we are exploring alternative OCR tools that can better handle multi-line phrase extraction. If you're interested in contributing to the phrase extraction component, feel free to reach out!
 
-## Contribution to TWIX
+## Contributing to TWIX
 
 Several components in TWIX can potentially be replaced and improved by the community.
 
@@ -97,7 +98,19 @@ Several components in TWIX can potentially be replaced and improved by the commu
 3. **Using a custom field prediction approach:**  
    To integrate a custom field prediction method, ensure its output is cleaned and formatted as a list of strings, where each string represents an inferred field. See `tests/out/Investigations_Redacted_modified/twix_key.txt` for an example.
 
-We’re excited to chat with you and hear your feedback on new datasets and use cases! Feel free to reach out to `yiminglin@berkeley.edu` to share your thoughts.
+We’re excited to chat with you and hear your feedback on new datasets and use cases! Feel free to reach out to `yiminglin@berkeley.edu` to share your thoughts. 
+
+## Contributing Guidance
+
+We welcome contributions! Please follow these guidelines:
+1. Fork the repository and create a new feature branch.
+2. Follow the coding style used in the codebase.
+3. Write tests and update documentation if applicable.
+4. Commit with clear messages and open a pull request.
+5. Be responsive to code review feedback.
+
+Feel free to reach out by opening an issue or emailing us if you'd like to discuss bigger changes or new features.
+
 
 # 📚 TWIX API Reference
 
