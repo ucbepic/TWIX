@@ -256,42 +256,6 @@ def candidate_key_clusters_selection(clusters, LLM_fields):
                     cids.append(cid)
 
     return out,cids 
-    #     lst = result_gen_from_response(response, l)
-    #     p, w = mean_confidence_interval(lst)
-
-    #     print(lst)
-    #     print(p,w)
-    #     #important: if all 0, then confidence width is also 0, which makes other node hard dominate this one even it's the worst
-    #     if(p == 0):
-    #         continue
-    #     # print(cid, p, w)
-    #     # print(l)
-    #     # print(response)
-    #     # print(lst)
-    #     mp[cid] = (p,w)
-    #     cids.append(cid)
-
-    # #topology order to select maximal key set 
-    # out_degree = {}
-    # for i in range(len(cids)):
-    #     ci = cids[i]
-    #     for j in range(i+1, len(cids)):
-    #         cj = cids[j]
-    #         if(mp[ci][0] > mp[cj][0] and mp[ci][1] < mp[cj][1]):
-    #             #ci dominates cj, add edge from cj to ci
-    #             if(cj not in out_degree):
-    #                 out_degree[cj] = 1
-    #         elif(mp[ci][0] < mp[cj][0] and mp[ci][1] > mp[cj][1]):
-    #             #cj dominates ci, add edge from ci to cj
-    #             if(ci not in out_degree):
-    #                 out_degree[ci] = 1
-    # candidate_key_clusters = []
-    # for cid in cids:
-    #     if(cid not in out_degree):
-    #         candidate_key_clusters.append(cid)
-    # #print(candidate_key_clusters)
-    
-    #return candidate_key_clusters, input_size, output_size 
 
 def mean_confidence_interval(data, confidence=0.95):
     a = 1.0 * np.array(data)
@@ -440,10 +404,10 @@ def predict_field(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
 
 if __name__ == "__main__":
     pdf_paths = []
-    file_name = '2715_2715234'
+    file_name = '2972_2972574'
     file_path = '/tests/data/' + file_name + '.pdf'
     pdf_paths.append(root_path + file_path) 
-    result_path = root_path + '/tests/out/' + file_name + '/' 
+    result_path = root_path + '/tests/out/' + file_name + 'test/' 
     predict_field(pdf_paths, result_path) 
 
     
