@@ -340,8 +340,8 @@ def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o-mini', pa
     phrases_out = {}
 
     phrases_out['merged_data_files'] = (phrases, phrases_bounding_box_page_number)
-    #max_page_limit = 100000000
-    max_page_limit = 5
+    max_page_limit = 100000000
+    #max_page_limit = 5
 
     print('Phrase extraction for individual files starts...')
     for data_file in data_files:
