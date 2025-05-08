@@ -346,6 +346,12 @@ def get_extracted_result_path(result_folder, data_file):#file path is the path o
     new_file_path = os.path.join(result_folder, f"{file_name}_extracted.json")
     return new_file_path
 
+def get_page_number(raw_phrases_bb):
+    pages = []
+    for pb in raw_phrases_bb:
+        pages.append(pb['page'])
+    return len(set(pages))
+
 def predict_field(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
     global model_name
     if len(LLM_model_name) > 0:
@@ -355,11 +361,13 @@ def predict_field(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
         result_folder = extract.get_result_folder_path(data_files)
         
     extracted_path = get_merged_extracted_path(result_folder)
-
-    #print(extracted_path)
+    raw_path = result_folder  + 'merged_raw_phrases_bounding_box_page_number.txt' 
+    raw_phrases_bb = extract.load_extracted_words(raw_path)
+    page_number = get_page_number(raw_phrases_bb)
 
     #get image path
     image_paths = get_image_path(result_folder)
+    LLM_fields = get_fields_by_LLM(image_paths)
 
     raw_phrases = read_file(extracted_path)
     raw_phrases = set(raw_phrases)
@@ -371,30 +379,26 @@ def predict_field(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
 
     print('Field prediction starts...')
     phrases = relative_locations
-
-    LLM_fields = get_fields_by_LLM(image_paths)
-    #debug
-    #print('LLM_field:', LLM_fields)
     LLM_fields = set(LLM_fields).intersection(raw_phrases)
 
-    print('perfect match starts...')
-    mp, remap = perfect_align_clustering(phrases)
+    if page_number == 1:
+        # if the document only has one page, there is no common location pattern can be learned, directly return LLM-predicted phrases
+        fields = list(LLM_fields)
+    else:
+        # if there are multiple pages, TWIX starts learning the location pattern 
 
-    #debug 
-    #print('remap:', remap)
+        print('perfect match starts...')
+        mp, remap = perfect_align_clustering(phrases)
 
-    print('cluster pruning starts...')
-    fields, cluster_ids = candidate_key_clusters_selection(remap,LLM_fields)
+        print('cluster pruning starts...')
+        fields, cluster_ids = candidate_key_clusters_selection(remap,LLM_fields)
 
-    print('re-clustering starts...')
-    added_clusters = clustering_group(phrases, remap, cluster_ids, k=1)
-    additional_fields = get_keys(remap, added_clusters)
-    additional_fields = list(LLM_fields.intersection(set(additional_fields)))
-    fields += additional_fields
+        print('re-clustering starts...')
+        added_clusters = clustering_group(phrases, remap, cluster_ids, k=1)
+        additional_fields = get_keys(remap, added_clusters)
+        additional_fields = list(LLM_fields.intersection(set(additional_fields)))
+        fields += additional_fields
     
-    #debug
-    #print(fields) 
-
     #write result
     result_path = get_key_path(result_folder)
     #print(result_path)
