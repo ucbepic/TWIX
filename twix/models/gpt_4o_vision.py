@@ -17,7 +17,7 @@ def encode_image(image_path):
 
 def get_openai_output(image_paths, prompt):
     image_url_1 = f'data:image/jpeg;base64,{encode_image(image_paths[0])}'
-    image_url_2 = f'data:image/jpeg;base64,{encode_image(image_paths[1])}'
+    # image_url_2 = f'data:image/jpeg;base64,{encode_image(image_paths[1])}'
     response = client.chat.completions.create(
         model='gpt-4o',
         messages=[
@@ -31,11 +31,12 @@ def get_openai_output(image_paths, prompt):
                     {
                         'type': 'image_url',
                         'image_url': {'url': image_url_1}
-                    },
-                    {
-                        'type': 'image_url',
-                        'image_url': {'url': image_url_2}
                     }
+                    # ,
+                    # {
+                    #     'type': 'image_url',
+                    #     'image_url': {'url': image_url_2}
+                    # }
                 ],
             }
         ]
