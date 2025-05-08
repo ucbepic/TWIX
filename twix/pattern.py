@@ -1,7 +1,6 @@
 import json,sys,math,os,csv
 from . import key, extract, cost 
 import math
-from multidict import MultiDict
 root_path = extract.get_root_path()
 sys.path.append(root_path)
 from twix.model import model 
