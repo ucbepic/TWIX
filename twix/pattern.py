@@ -1,6 +1,7 @@
 import json,sys,math,os,csv
 from . import key, extract, cost 
 import math
+from multidict import MultiDict
 root_path = extract.get_root_path()
 sys.path.append(root_path)
 from twix.model import model 
@@ -110,15 +111,15 @@ def template_learn_input_gen(phrases_bb, predict_labels, extra_phrase_num = 30):
                     if(c > extra_phrase_num):
                         break
                 return input
-    print('There does not exist an input such that every predict key exists at least twice.')
+    #print('There does not exist an input such that every predict key exists at least twice.')
     return get_first_page_from_doc(phrases_bb)
 
 def get_first_page_from_doc(phrases_bb):
     input = []
     for i in range(len(phrases_bb)):
-        page = phrases_bb[i][5]
+        page = phrases_bb[i][2]
         #print('phrase, page:', phrases_bb[i][0], page)
-        if page < 2: 
+        if int(page) < 2: 
             input.append(phrases_bb[i])
     return input
 
@@ -210,27 +211,26 @@ def key_val_mp(key_row, val_row):
                 hd = h_distance(keyb, valb)
                 t_val = val
                 vid = val_id
-        #kv_mp[key] = t_val
         v_id[vid] = 1
         if t_val != 'missing':
             kv_id_mp[key_id] = vid 
-            kv_mp_bounding_box[key] = val_row[vid]
+            kv_mp_bounding_box[key_id] = val_row[vid]
         else:
-            kv_mp_bounding_box[key] = (t_val, [])
+            kv_mp_bounding_box[key_id] = (t_val, [])
     
     #post processing for missing values 
     for key_id in range(len(key_row)):
         item = key_row[key_id] 
         key = item[0]
         keyb = item[1]
-        if kv_mp_bounding_box[key][0] == 'missing':
+        if kv_mp_bounding_box[key_id][0] == 'missing':
             val, row_id, val_bb = find_closest_val(key_row, key_id, val_row, kv_id_mp, v_id)
             if val != 'missing':
                 #kv_mp[key] = val 
-                kv_mp_bounding_box[key] = val_bb
+                kv_mp_bounding_box[key_id] = val_bb
                 v_id[row_id] = 1
             else:
-                kv_mp_bounding_box[key] = (val, [])
+                kv_mp_bounding_box[key_id] = (val, [])
 
     return kv_mp_bounding_box, v_id
 
@@ -270,12 +270,12 @@ def key_val_mp_post(kvs_bb, vals_assigned, val_rows, col_boundary):
         kv_bb = kvs_bb[row_id]
         val_assigned = vals_assigned[row_id]
         val_row = val_rows[row_id]
-        #scan kv each row 
-        for key, val in kv_bb.items():
-            if key not in col_boundary:
+        #scan each column, and each row 
+        for key_id, val in kv_bb.items():
+            if key_id not in col_boundary:
                 continue
-            l = col_boundary[key][0]
-            r = col_boundary[key][1]
+            l = col_boundary[key_id][0]
+            r = col_boundary[key_id][1]
             if l > r:
                 continue
             if val[0] == 'missing': 
@@ -285,20 +285,19 @@ def key_val_mp_post(kvs_bb, vals_assigned, val_rows, col_boundary):
                     x0 = val_row[i][1][0]
                     x1 = val_row[i][1][2]
                     if l <= x0 and x0 <= r and l <= x1 and x1 <= r:
-                        kv_bb[key] = val_row[i]
+                        kv_bb[key_id] = val_row[i]
     return kvs_bb 
 
 def table_extraction_top_down(row_mp, kid, vid):
     key_row = row_mp[kid[0]]
     val_rows = []
-    kvs = []
     kvs_bb = []
     rows = []# list of list 
     keys = []
     vals_assigned = []
     for (key,bb) in key_row:
         keys.append(key)
-    #print(key_row)
+    #print(keys)
     for id in vid:
         val_rows.append(row_mp[id])
         #print(row_mp[id])
@@ -317,9 +316,10 @@ def table_extraction_top_down(row_mp, kid, vid):
 
     #clean the tabular format
     for kv in kvs_bb:
+        #print(kv)
         row = []
-        for (key,bb) in key_row:
-            row.append(kv[key][0])
+        for key_id in range(len(key_row)):
+            row.append(kv[key_id][0])
         rows.append(row)
 
     # print(keys)
@@ -328,20 +328,20 @@ def table_extraction_top_down(row_mp, kid, vid):
     return keys, rows
 
 def post_processing_non_complaint(kvs_bb):
-    col_mp = {} #key to its vals, where each val is a tuple: (val, [bb])
+    col_mp = {} #key_id to its vals, where each val is a tuple: (val, [bb])
     col_boundary = {}
     for kv_bb in kvs_bb:
-        for key, val in kv_bb.items():
+        for key_id, val in kv_bb.items():
             if val[0] == 'missing':
                 continue
-            if key in col_mp:
-                col_mp[key].append(val)
+            if key_id in col_mp:
+                col_mp[key_id].append(val)
             else:
-                col_mp[key] = [val] 
+                col_mp[key_id] = [val] 
     #find bounding box of col 
-    for key, vals in col_mp.items():
+    for key_id, vals in col_mp.items():
         l,r = find_col_bb(vals) 
-        col_boundary[key] = (l,r)
+        col_boundary[key_id] = (l,r)
     return col_boundary 
 
 def find_col_bb(vals):
@@ -392,6 +392,41 @@ def row_aligned(row1, row2):
             id1 += 1
         else:
             id2 += 1
+
+    #most values (at least half) should have their keys 
+    #identify the header bounding box range in x
+    left = 100000
+    right = 0
+    for id1 in range(len(row1)):
+        bb = row1[id1][1]
+        x0 = bb[0]
+        x1 = bb[2]
+        if x0 < left:
+            left = x0
+        if x1 > right:
+            right = x1
+
+    cnt = 0
+    for id2 in range(len(row2)):
+        bb = row2[id2][1]
+        if bb[0] > right or bb[2] < left:
+            cnt += 1 
+
+    if cnt/len(row2) > 0.5:
+        # print('not aligned: ')
+        # print('left, right', left, right)
+        # row1_val = []
+        # for r1 in row1:
+        #     row1_val.append(r1[0])
+        # print(row1_val)
+        # row2_val = []
+        # for r2 in row2:
+        #     row2_val.append(r2[0])
+        # print(row2_val)
+
+        # print(cnt, len(row2))
+        return 0
+    
     return 1
 
 
@@ -506,13 +541,15 @@ def predict_template_docs(phrases_bb, predict_labels, raw_phrases, metadata):
     return template
 
 def extract_data_per_doc(template, phrases_bb, out_path, metadata):
-    
     # print('Metadata rows...')
     # print(metadata_rows)
+
     #seperate records based on template 
     print("Record seperation starts...")
     complete_row_mp = seperate_rows(phrases_bb)
-    #print(len(complete_row_mp))
+    # print('row representations:')
+    # print_row(complete_row_mp)
+
     records = record_seperation(template, complete_row_mp)
     print('Totally ' + str(len(records)) + ' records...')
 
@@ -640,7 +677,6 @@ def ILP_extract(predict_keys, row_mp, metadata):
                     c = C_alignment_no_LLM(row_mp, id1, id2)
                     row_align[(id1,id2)] = c
                     row_align[(id2,id1)] = c
-
 
     #LP formulation to learn row label assignment
     # print('initial row labels and probs:')
@@ -1135,8 +1171,6 @@ def C_alignment(row_mp, id1, id2): #comprehensive alignment
         if(len2 > len1/2):
             return 1
         else:
-            # print('LLM is called...')
-            # print(id1,id2)
             s_score = semantic_alignment(row_mp, id1, id2)
             if(s_score > 0.5):
                 return 1
@@ -1537,9 +1571,6 @@ def predict_template(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
         metadata = [phrase.strip() for phrase in meta_string.split('|')]
 
     extracted_path = key.get_merged_extracted_path(result_folder)
-
-    # print(extracted_path)
-    # print(key_path)
     
     if(not os.path.isfile(extracted_path)):
         return 
@@ -1625,9 +1656,9 @@ def extract_data(data_files, result_folder, template = []):
 
 if __name__ == "__main__":
     pdf_paths = []
-    file_name = '2972_2972574'
+    file_name = 'Investigations_Redacted_modified'
     file_path = '/tests/data/' + file_name + '.pdf'
     pdf_paths.append(root_path + file_path) 
-    result_path = root_path + '/tests/out/' + file_name + 'test/' 
+    result_path = root_path + '/tests/out/' + file_name + '/' 
     predict_template(pdf_paths, result_path) 
-    #extract_data(pdf_paths, result_path)
+    
