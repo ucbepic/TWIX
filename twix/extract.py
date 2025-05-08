@@ -1033,18 +1033,13 @@ def merge_words_if_ground_phrase(words, ground_phrases, ground_phrases_sub):
     return merged_phrases
 
 
-def phrase_extraction_try(path, page_annot=True):
-    result_folder = get_result_folder_path(path)
-    merged_path = result_folder + 'merged.pdf'
-    page_count = 5
-    user_page_indices = list(range(page_count))
-    raw_phrases_bounding_box_page_number = get_phrases_csv(merged_path, user_page_indices)
-    write_csv(result_folder + 'test.csv', raw_phrases_bounding_box_page_number)
-
 if __name__ == "__main__":
-    pdf_paths = []
-    file_name = '2972_2972574'
-    file_path = '/tests/data/' + file_name + '.pdf'
-    pdf_paths.append(root_path + file_path) 
-    result_path = root_path + '/tests/out/' + file_name + 'test/' 
-    extract_phrase(pdf_paths, result_path, vision_feature=True)  
+    # pdf_paths = []
+    # file_name = '2972_2972574'
+    # file_path = '/tests/data/' + file_name + '.pdf'
+    # pdf_paths.append(root_path + file_path) 
+    # result_path = root_path + '/tests/out/' + file_name + 'test/' 
+    # extract_phrase(pdf_paths, result_path, vision_feature=True)  
+    words = extract_words('/Users/yiminglin/Documents/Codebase/Pdf_reverse/tests/data/test1.png', list(range(1)))
+    for word in words:
+        print(words)
