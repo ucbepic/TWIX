@@ -16,7 +16,7 @@ tokenizer = tiktoken.get_encoding("cl100k_base")
 
 def get_fields_by_LLM(image_paths):
     #prompt = 'The given two images have common headers and footers in the top and bottem part of the image. Return only the raw headers and footers. Do not return other phrases. Do not add any explanations. '
-    prompt = 'Extract the set of keywords from the given two images. A keyword can be in the table header or in every key value pairs. Return the raw distinct keyword, seperated by |. Do not add explanations. Do not include headers or footers. Do not include other phrases like table values. ' 
+    prompt = 'Extract the set of keywords from the given image. A keyword can be in the table header or in every key value pairs. Return the raw distinct keyword, seperated by |. Do not add explanations. Do not include headers or footers. Do not include other phrases like table values. ' 
     
     response = model(vision_model_name,prompt,image_paths)
 
@@ -24,7 +24,7 @@ def get_fields_by_LLM(image_paths):
     fields = [phrase.strip() for phrase in response.split('|')]
 
     global total_cost
-    total_cost += cost.cost(model_name, 0, cost.count_tokens(response, model_name), image_num=2)  
+    total_cost += cost.cost(model_name, 0, cost.count_tokens(response, model_name), image_num=1)  
 
     return fields 
 
@@ -321,8 +321,8 @@ def get_image_path(target_folder):
     paths = []
     path = target_folder + '_image/0.jpg'
     paths.append(path)
-    path = target_folder + '_image/1.jpg'
-    paths.append(path)
+    # path = target_folder + '_image/1.jpg'
+    # paths.append(path)
     return paths
 
 def get_bb_path(result_folder):

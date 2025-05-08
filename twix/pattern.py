@@ -400,18 +400,15 @@ def write_json(out, path):
         json.dump(out, json_file, indent=4)
 
 def get_metadata(image_paths):
-    #prompt = 'The given two images have common headers and footers in the top and bottem part of the image. Return only the raw headers and footers. Do not return other phrases. Do not add any explanations. '
-    prompt = 'Extract only the common raw headers and footers from the given two images. Headers appear in the first few lines, and footers appear in the last few lines. If any phrase in a row belongs to the header or footer, the entire row should be included. Exclude all other content. Separate headers and footers with |. Do not include explanations.'
+    #prompt = 'Extract only the common raw headers and footers from the given two images. Headers appear in the first few lines, and footers appear in the last few lines. If any phrase in a row belongs to the header or footer, the entire row should be included. Exclude all other content. Separate headers and footers with |. Do not include explanations.'
+
+    prompt = 'Extract only the raw headers and footers from the given image. Headers appear in the first few lines, and footers appear in the last few lines. If any phrase in a row belongs to the header or footer, the entire row should be included. Exclude all other content. Separate headers and footers with |. Do not include explanations.'
     
     vision_model_name = 'vision-' + model_name 
-
     response = model(vision_model_name,prompt,image_paths)
 
-    
-
     global total_cost 
-    total_cost += cost.cost(vision_model_name, 0, cost.count_tokens(response, vision_model_name), image_num=2)
-    #phrases = [phrase.strip() for phrase in response.split('|')]
+    total_cost += cost.cost(vision_model_name, 0, cost.count_tokens(response, vision_model_name), image_num=1)
     return response 
 
 def check_phrase_in_headers_or_footers(headers_footers: str, given_phrase: str):

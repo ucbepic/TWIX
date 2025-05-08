@@ -28,8 +28,8 @@ def get_image_path(target_folder):
     paths = []
     path = target_folder + '_image/0.jpg'
     paths.append(path)
-    path = target_folder + '_image/1.jpg'
-    paths.append(path)
+    # path = target_folder + '_image/1.jpg'
+    # paths.append(path)
     return paths
 
 
@@ -40,14 +40,14 @@ def extract_phrase_LLM(data_files, result_folder):
 
     image_paths = get_image_path(result_folder)
 
-    prompt = 'Extract all raw phrases from the given images. A phrase is either a keyword, a value from key-value pairs, or an entry in a table, or random passage, like the footer, header or the title of table. Ensure the extracted phrases have NO duplicates. Return the phrases in reading order. Make sure all keywords must be returned. Separate each phrase with “|” and provide no additional explanations.' 
+    prompt = 'Extract all raw phrases from the given image. A phrase is either a keyword, a value from key-value pairs, or an entry in a table, or random passage, like the footer, header or the title of table. Ensure the extracted phrases have NO duplicates. Return the phrases in reading order. Make sure all keywords must be returned. Separate each phrase with “|” and provide no additional explanations.' 
 
     vision_model_name = 'vision-' + model_name
     
     print('vision_model_name:', vision_model_name, 'number of images:', len(image_paths))
     response = model(vision_model_name,prompt,image_paths)
     print('Image-based sample phrase detection finishes...')
-    total_cost += cost.cost(vision_model_name, 0, cost.count_tokens(response, vision_model_name), image_num=2)
+    total_cost += cost.cost(vision_model_name, 0, cost.count_tokens(response, vision_model_name), image_num=1)
 
     fields = [phrase.strip() for phrase in response.split('|')]
     return fields 
@@ -324,7 +324,7 @@ def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o-mini', pa
         # Create the folder
         os.makedirs(image_foler)
     
-    pdf_2_image(merged_pdf_path, 2, image_foler)
+    pdf_2_image(merged_pdf_path, 1, image_foler)
     
     #get ground_phrases_full
     if vision_feature: 
@@ -417,34 +417,6 @@ def pdf_2_image(path, page_num, out_folder):
         out_path = out_folder + str(i) + '.jpg'
         images[i] = images[i].save(out_path)
     return images
-
-def create_folder(folder_path): 
-
-    # Check if the folder exists, if not, create it
-    if not os.path.exists(folder_path):
-        os.makedirs(folder_path)
-        print(f"Folder '{folder_path}' created successfully.")
-    else:
-        print(f"Folder '{folder_path}' already exists.")
-
-def create_images_pipeline(raw_folder, number_of_pages):
-    #create images per page in a given range for all pdfs in the specified folder 
-    paths = print_all_document_paths(raw_folder)
-    for path in paths:
-        print(path)
-        # if('releasable' not in path):
-        #     continue
-        text_path = get_text_path(path, '.txt', '')
-        image_folder_path = text_path.replace('.txt','image/')
-
-        #print(text_path)
-        #print(dict_path)
-        print(image_folder_path)
-        create_folder(image_folder_path)
-        pdf_2_image(path,number_of_pages,image_folder_path)
-
-
-### Version 2 of phrase extraction 
     
 def get_pdf(path):
     return pdfplumber.open(path)
@@ -461,17 +433,6 @@ def extract_words(path, page_indices=list(range(5)), page_annot=True):
                 word['size'] = (word['x1']-word['x0'])/len(word['text'])
         words.extend(page_words)
     return words
-
-def display_words(path, page_index=0):
-    page = get_pdf(path).pages[page_index]
-    #display(page.to_image().draw_rects(page.extract_words())) # viewable in Jupyter Notebook.
-
-#extract_words(file_path)
-#display_words(file_path)
-
-#
-### F2: Obtain phrases.
-# Here I implement two methods, dynamic seems more effective.
 
 def get_phrases_manual(words, x_thresh = 6, y_thresh=4):
     """
@@ -559,59 +520,6 @@ def merge_three_phrases(phrase_a, phrase_b, phrase_c):
         'page': phrase_a['page']  # (all three share the same page)
     }
     return merged_phrase
-
-def get_phrases_dynamic_v1(words, y_thresh=4):
-    """
-    Recall that size is equal to (x1 - x0) / len(word).
-    For phrase p and word w, define a character having size (p_size + w_size) / 2.
-    Groups words into phrases based on the following rules:
-        (1) Each word in a phrase must be at most {one character} away from the next word to right in phrase. (Compare x1 to x0)
-        (2) First word in a phrase must be at most {y_thresh} away from any word in phrase. (Compare y_mid to y_mid, y_mid = (top + bottom)/2)
-    """
-    phrases = []
-    cur_phrase = words[0]#this is previous phrase 
-    phrase_y_mid = (cur_phrase['bottom'] + cur_phrase['top']) / 2
-    key_detected = False
-    is_merge = False
-    detected = False
-    i = 1
-    while i < len(words):
-        word = words[i]
-
-        if word['text'] == ':':
-            detected = True
-            if(i < len(words)-1 and is_number(words[i-1]['text']) and is_number(words[i+1]['text'])):
-                is_merge = True
-            elif(i < len(words)-1 and is_number(words[i-1]['text']) and ('am' in words[i+1]['text'].lower() or 'pm' in words[i+1]['text'].lower() )): 
-                is_merge = True
-            else:
-                key_detected = True
-            #print(words[i-1]['text'],words[i+1]['text'],is_merge, key_detected)
-            
-        if(is_merge and detected):#merge phrases 
-            new_phrase = merge_three_phrases(words[i-1], words[i], words[i+1])
-            phrases.append(new_phrase)
-            is_merge = False
-            i += 2
-            cur_phrase = words[i-1]
-        else: 
-            if(detected and key_detected):
-                key_detected = False
-                phrases.append(cur_phrase)
-                cur_phrase = word
-                phrase_y_mid = (cur_phrase['bottom'] + cur_phrase['top']) / 2
-                i += 1
-            else:
-                word_y_mid = (word['top'] + word['bottom']) / 2
-                char_size = (cur_phrase['size'] + word['size']) / 2
-                if (not key_detected) and (word['x0'] - cur_phrase['x1'] <= char_size) and (abs(phrase_y_mid - word_y_mid) < y_thresh):#merge two phrases
-                    cur_phrase['text'] += (' ' + word['text'])
-                    cur_phrase['x1'] = word['x1']
-                    cur_phrase['size'] = word['size']
-                
-            i += 1
-
-    return phrases
 
 def get_phrases_dynamic(words, y_thresh=4):
     """
@@ -728,12 +636,6 @@ def learn_rules(raw_phrases_with_bounding_box_path, result_folder):
 
 
     positive_pairs, negative_pairs = build_pairs_optimized(phrases, ground_phrases_full, ground_phrases_sub)
-
-    # print('positive pairs:')
-    # print(positive_pairs)
-
-    # print('negative pairs:')
-    # print(negative_pairs)
 
     #Choose a distance threshold
     max_pos_dist, min_neg_dist = find_distance_threshold(positive_pairs, negative_pairs)
