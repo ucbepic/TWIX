@@ -297,13 +297,18 @@ def table_extraction_top_down(row_mp, kid, vid):
     for (key,bb) in key_row:
         keys.append(key)
     #print(keys)
+    #print('size of vid:', len(vid))
     for id in vid:
         val_rows.append(row_mp[id])
-        #print(row_mp[id])
+        #print(id, row_mp[id])
+    i = 0
+    
     for val_row in val_rows:
+        #print(i)
+        #print('val row:', val_row)
         kv_bb,val_assigned = key_val_mp(key_row, val_row)
-        #print(kv)
-        #kvs.append(kv)
+        #print(kv_bb)
+        i += 1
         kvs_bb.append(kv_bb)
         vals_assigned.append(val_assigned)
     
@@ -1177,23 +1182,26 @@ def C_alignment(row_mp, id1, id2): #comprehensive alignment
     return 0
 
 def seperate_rows(pv):
-    p_pre = pv[0][0]
-    bb_pre = pv[0][1]
+    p = pv[0][0]
+    bb = pv[0][1]
     row_id = 0
     row_mp = {} #row_id -> a list of (phrase, bb) in the current row, now the last bit in bb is the page number 
     #page_2_row = {} #page -> a list of row_id
     row_mp[row_id] = []
-    row_mp[row_id].append((p_pre, bb_pre))
+    row_mp[row_id].append((p, bb))
 
     for i in range(1, len(pv)):
         p = pv[i][0]
         bb = pv[i][1]
-        if(is_same_row(bb_pre,bb) == 0):
+        is_overlap = 1
+        for val in row_mp[row_id]:
+            if(is_same_row(val[1],bb) == 0):
+                is_overlap = 0
+                break 
+        if is_overlap == 0:
             row_id += 1
             row_mp[row_id] = []
         row_mp[row_id].append((p, bb))
-        p_pre = p
-        bb_pre = bb
 
     return row_mp
 
@@ -1474,7 +1482,6 @@ def data_extraction_one_record(rid,rid_delta,blk,blk_type,row_mp,predict_labels)
                 vals.append(row_list[i])
             
             key, rows = table_extraction_top_down(row_mp, key, vals)
-            #print(key, rows)
             content = []
             
             for row in rows:
@@ -1659,5 +1666,5 @@ if __name__ == "__main__":
     file_path = '/tests/data/' + file_name + '.pdf'
     pdf_paths.append(root_path + file_path) 
     result_path = root_path + '/tests/out/' + file_name + '/' 
-    predict_template(pdf_paths, result_path) 
+    extract_data(pdf_paths, result_path) 
     
