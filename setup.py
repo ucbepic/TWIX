@@ -25,6 +25,8 @@ setup(
         "tiktoken",
         "pdf2image",
         "gurobipy",
-        "openai"
+        "openai",
+        "flask-cors",
+        "PyPDF2"
     ],
 )
