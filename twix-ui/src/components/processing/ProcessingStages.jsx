@@ -29,6 +29,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
   const [timerInterval, setTimerInterval] = useState(null);
   const [stageIndividualCosts, setStageIndividualCosts] = useState({ phrase: null, field: null, template: null, extraction: null });
   const [totalCumulativeCost, setTotalCumulativeCost] = useState(0);
+  const [visionFeatureEnabled, setVisionFeatureEnabled] = useState(false);
   
   // Add caching for already processed stages
   const [cachedResults, setCachedResults] = useState({
@@ -232,7 +233,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       // Use the API service functions with the uploaded files
       let data;
       if (stage === 'phrase') {
-        data = await stageInfo.apiFunction(files);
+        data = await stageInfo.apiFunction(files, { visionFeature: visionFeatureEnabled });
         console.log("Phrase data received:", data);
         
         let currentStageCost = 0;
@@ -591,6 +592,12 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
     }
   };
 
+  // Function to toggle vision feature
+  const handleVisionFeatureToggle = () => {
+    setVisionFeatureEnabled(prev => !prev);
+    console.log("Vision feature toggled:", !visionFeatureEnabled);
+  };
+
   return (
     <div className="space-y-4">
       {isProcessing && (
@@ -653,22 +660,42 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {stages.map((stage) => (
-          <button
-            key={stage.id}
-            onClick={() => handleStageClick(stage.id)}
-            disabled={disabled || isProcessing}
-            className={`
-              p-4 rounded-lg border transition-all
-              ${activeStage === stage.id
-                ? 'border-blue-500 bg-blue-50'
-                : 'border-gray-200 hover:border-blue-300'}
-              ${(disabled || isProcessing) ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}
-            `}
-          >
-            <div className="text-2xl mb-2">{stage.icon}</div>
-            <div className="font-medium text-gray-800">{stage.label}</div>
-            <div className="text-sm text-gray-600 mt-1">{stage.description}</div>
-          </button>
+          <div key={stage.id} className="relative">
+            <button
+              onClick={() => handleStageClick(stage.id)}
+              disabled={disabled || isProcessing}
+              className={`
+          p-4 rounded-lg border transition-all w-full
+          ${activeStage === stage.id
+                  ? 'border-blue-500 bg-blue-50'
+                  : 'border-gray-200 hover:border-blue-300'}
+          ${(disabled || isProcessing) ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}
+        `}
+            >
+              <div className="text-2xl mb-2">{stage.icon}</div>
+              <div className="font-medium text-gray-800">{stage.label}</div>
+              <div className="text-sm text-gray-600 mt-1">{stage.description}</div>
+            </button>
+
+            {/* Vision Feature Toggle (only for phrase stage and when files are present) */}
+            {stage.id === 'phrase' && files && files.length > 0 && (
+              <div className="mt-2 flex items-center justify-center p-2 bg-gray-50 rounded-lg border border-gray-200">
+                <div className="mr-2 text-sm font-medium text-gray-700">Vision Feature</div>
+                <label className="relative inline-flex items-center cursor-pointer">
+                  <input
+                    type="checkbox"
+                    className="sr-only peer"
+                    checked={visionFeatureEnabled}
+                    onChange={handleVisionFeatureToggle}
+                  />
+                  <div className="w-10 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-blue-600"></div>
+                </label>
+                <span className="ml-2 text-xs text-gray-600">
+                  {visionFeatureEnabled ? 'Enabled' : 'Disabled'}
+                </span>
+              </div>
+            )}
+          </div>
         ))}
       </div>
 
@@ -733,12 +760,14 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
               )}
               
               {/* Bounding Box Table (only for phrase stage) */}
+              
               {activeStage === 'phrase' && (
                 <div className="mt-8">
                   <h3 className="text-lg font-semibold text-gray-800 mb-4">Phrase Bounding Boxes</h3>
                   <BoundingBoxTable boundingBoxData={boundingBoxData} />
                 </div>
               )}
+
             </div>
           )}
 

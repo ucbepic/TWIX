@@ -33,7 +33,10 @@ def process_phrase():
         
         if not files or len(files) == 0:
             return jsonify({'error': 'No files uploaded'}), 400
-        
+
+        # Get visionFeature flag from the form
+        vision_feature_flag = request.form.get('visionFeature', 'false').lower() == 'true'
+
         # Save uploaded files to temporary directory
         pdf_paths = []
         for file in files:
@@ -45,8 +48,8 @@ def process_phrase():
         result_folder = twix.extract.get_result_folder_path(pdf_paths)
         os.makedirs(os.path.dirname(result_folder), exist_ok=True)
         
-        # Use twix to extract phrases
-        phrases, cost = twix.extract_phrase(pdf_paths, result_folder)
+        # Use twix to extract phrases, pass in visionFeature flag
+        phrases, cost = twix.extract_phrase(pdf_paths, result_folder, vision_feature=vision_feature_flag)
         print(cost)
         
         

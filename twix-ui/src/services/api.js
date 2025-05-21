@@ -1,16 +1,22 @@
 const API_BASE_URL = 'http://127.0.0.1:3001';
 
 // Define all functions without export keyword
-async function processPhrase(files) {
+async function processPhrase(files, options = {}) {
   const formData = new FormData();
   files.forEach((file) => {
     formData.append('pdfs', file);
   });
 
+  // Add visionFeature flag
+  if (options.visionFeature !== undefined) {
+    formData.append('visionFeature', options.visionFeature);
+  }
+
   const response = await fetch(`${API_BASE_URL}/process/phrase`, {
     method: 'POST',
     body: formData,
   });
+
 
   if (!response.ok) {
     const error = await response.json();
@@ -113,6 +119,10 @@ async function processPhrase(files) {
     boundingBoxData: boundingBoxData
   };
   
+  //console.log('Raw response:', response.substring(0, 200)); // Check first 200 chars
+  console.log('Response type:', typeof response);
+  console.log('Response length:', response.length);
+
   // Use the ordered stringify and parse to ensure order is preserved through all transformations
   const orderedString = stringifyOrderedJSON(result);
   return JSON.parse(orderedString);
