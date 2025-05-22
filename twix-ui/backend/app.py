@@ -36,6 +36,7 @@ def process_phrase():
 
         # Get visionFeature flag from the form
         vision_feature_flag = request.form.get('visionFeature', 'false').lower() == 'true'
+        model_name = request.form.get('model', 'gpt-4o')
 
         # Save uploaded files to temporary directory
         pdf_paths = []
@@ -49,7 +50,7 @@ def process_phrase():
         os.makedirs(os.path.dirname(result_folder), exist_ok=True)
         
         # Use twix to extract phrases, pass in visionFeature flag
-        phrases, cost = twix.extract_phrase(pdf_paths, result_folder, vision_feature=vision_feature_flag)
+        phrases, cost = twix.extract_phrase(pdf_paths, result_folder, LLM_model_name=model_name, vision_feature=vision_feature_flag)
         print(cost)
         
         

@@ -80,9 +80,10 @@ Agency Name
 Amount Awarded
 5296
 Dr. Stephen Richter
-Temporal comparisons of genetic variation in the dusky gopher frog (Lithobates sevosus)
+Temporal comparisons of genetic variation in the dusky
 Kentucky NSF EPSCoR
 $7,959
+gopher frog (Lithobates sevosus)
 5280
 Dr. Marcia Pierce
 Bridging the Gap
@@ -109,24 +110,28 @@ $300,474
 Facilities for Lilley Cornett Woods Field Station
 5232
 Dr. Sherry Harrel
-Distribution, Movement and Ecology of Etheostoma sagitta spilotum, the Kentucky Arrow Darter
+Distribution, Movement and Ecology of Etheostoma sagitta
 United States Fish and Wildlife Service
 $22,000
+spilotum, the Kentucky Arrow Darter
 5300
 Dr. Stephen Richter
-Effects of interactions between Notophthalmus viridescens and lithobates sylvaticus in a ridge-top wetland ecosystem
+Effects of interactions between Notophthalmus viridescens
 Kentucky Academy of Science
 $1,000
+and lithobates sylvaticus in a ridge-top wetland ecosystem
 5297
 Dr. Stephen Richter
-Comparative Landscape Genetics of Amphibians Across a Ridge-Top Wetland Ecosystem
+Comparative Landscape Genetics of Amphibians Across a
 Kentucky NSF EPSCoR
 $4,358
+Ridge-Top Wetland Ecosystem
 5290
 Dr. Jarrod Thaxton
-Linking Theory and Practice to Overcome Barriers to Ecosystem Restoration
+Linking Theory and Practice to Overcome Barriers to
 Kentucky NSF EPSCoR
 $35,592
+Ecosystem Restoration
 5200
 Dr. Stephen Richter
 Conservation genetics of gopher frogs in Alabama
@@ -134,14 +139,17 @@ Alabama Division of Wildlife and Freshwater Fis
 $7,045
 5254
 Dr. David Brown
-Evaluation of Management Strategies for Long-Term Maintenance of Running Buffalo Clover (Trifolium stoloniferum) populations in Kentucky
+Evaluation of Management Strategies for Long-Term
 Kentucky Natural Lands Trust
 $6,000
+Maintenance of Running Buffalo Clover (Trifolium
+stoloniferum) populations in Kentucky
 5189
 Dr. Amy Braccia
-Assessment of Hydrologic Functions in Combined Stream and Floodplain Restoration
+Assessment of Hydrologic Functions in Combined Stream
 University of Louisville
 $59,732
+and Floodplain Restoration
 Friday, October 31, 2014
 Page 2 of 35
 5187
@@ -153,9 +161,10 @@ Assessment Method (KY-WRAM) and Indices of Biotic
 Integrity
 5231
 Dr. Sherry Harrel
-Distribution, Movement and Ecology of Etheostoma sagitta spilotum, the Kentucky Arrow Darter
+Distribution, Movement and Ecology of Etheostoma sagitta
 Kentucky Department of Fish and Wildlife Resou
 $57,160
+spilotum, the Kentucky Arrow Darter
 5298
 Dr. David Hayes
 Molecular Analyses in Conjunction with Ongoing

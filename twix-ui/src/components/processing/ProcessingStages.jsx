@@ -30,6 +30,8 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
   const [stageIndividualCosts, setStageIndividualCosts] = useState({ phrase: null, field: null, template: null, extraction: null });
   const [totalCumulativeCost, setTotalCumulativeCost] = useState(0);
   const [visionFeatureEnabled, setVisionFeatureEnabled] = useState(false);
+  const [selectedModel, setSelectedModel] = useState('gpt-4o');
+
   
   // Add caching for already processed stages
   const [cachedResults, setCachedResults] = useState({
@@ -38,6 +40,10 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
     template: null,
     extraction: null
   });
+
+  //model options for dropdown, can be extended
+  const modelOptions = ['gpt-4o', 'gpt-4o-mini'];
+
 
   // Clear previous results when switching between stages
   useEffect(() => {
@@ -233,7 +239,10 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       // Use the API service functions with the uploaded files
       let data;
       if (stage === 'phrase') {
-        data = await stageInfo.apiFunction(files, { visionFeature: visionFeatureEnabled });
+        data = await stageInfo.apiFunction(files, {
+          visionFeature: visionFeatureEnabled,
+          model: selectedModel
+        });
         console.log("Phrase data received:", data);
         
         let currentStageCost = 0;
@@ -677,22 +686,43 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
               <div className="text-sm text-gray-600 mt-1">{stage.description}</div>
             </button>
 
-            {/* Vision Feature Toggle (only for phrase stage and when files are present) */}
+            {/* Vision toggle and model selector (only for 'phrase' stage and when files are present) */}
             {stage.id === 'phrase' && files && files.length > 0 && (
-              <div className="mt-2 flex items-center justify-center p-2 bg-gray-50 rounded-lg border border-gray-200">
-                <div className="mr-2 text-sm font-medium text-gray-700">Vision Feature</div>
-                <label className="relative inline-flex items-center cursor-pointer">
-                  <input
-                    type="checkbox"
-                    className="sr-only peer"
-                    checked={visionFeatureEnabled}
-                    onChange={handleVisionFeatureToggle}
-                  />
-                  <div className="w-10 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-blue-600"></div>
-                </label>
-                <span className="ml-2 text-xs text-gray-600">
-                  {visionFeatureEnabled ? 'Enabled' : 'Disabled'}
-                </span>
+              <div className="mt-2 p-4 bg-gray-50 rounded-lg border border-gray-200 flex flex-col gap-4 items-center">
+                {/* Vision Feature Toggle */}
+                <div className="flex items-center">
+                  <div className="mr-3 text-sm font-medium text-gray-700">Vision Feature</div>
+                  <label className="relative inline-flex items-center cursor-pointer">
+                    <input
+                      type="checkbox"
+                      className="sr-only peer"
+                      checked={visionFeatureEnabled}
+                      onChange={handleVisionFeatureToggle}
+                    />
+                    <div className="w-10 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-blue-600"></div>
+                  </label>
+                  <span className="ml-3 text-xs text-gray-600">
+                    {visionFeatureEnabled ? 'Enabled' : 'Disabled'}
+                  </span>
+                </div>
+                {/* Model Dropdown */}
+                <div className="flex items-center gap-3">
+                  <label htmlFor="modelSelect" className="text-sm font-medium text-gray-700 whitespace-nowrap">
+                    Select Model
+                  </label>
+                  <select
+                    id="modelSelect"
+                    value={selectedModel}
+                    onChange={(e) => setSelectedModel(e.target.value)}
+                    className="px-3 py-2 border border-gray-300 rounded-md text-sm bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200 hover:border-gray-400"
+                  >
+                    {modelOptions.map((model) => (
+                      <option key={model} value={model}>
+                        {model}
+                      </option>
+                    ))}
+                  </select>
+                </div>
               </div>
             )}
           </div>

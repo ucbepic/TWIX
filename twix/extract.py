@@ -299,10 +299,11 @@ def extract_phrase_one_doc(pdf_path, text_path, dict_path, page_limit):
 
 def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o-mini', page_to_infer_fields = 5, vision_feature = False):
     print('Phrase extraction starts...')
+    print("Running twix.extract_phrase with visionFeature:", vision_feature)
     global model_name
     if len(LLM_model_name) > 0:
         model_name = LLM_model_name 
-    #print('model_name:', model_name)
+    print('model_name:', model_name)
 
     if(len(result_folder) == 0):
         result_folder = get_result_folder_path(data_files)
