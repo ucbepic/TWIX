@@ -572,60 +572,74 @@ const DataDisplay = ({ data, cost }) => {
           </button>
         </div>
       </div>
-      
-      {processedData.map((record, recordIndex) => {
-        if (!record || typeof record !== 'object' || !('content' in record)) {
-          return (
-            <div key={`invalid-record-${recordIndex}`} className="p-4 border border-yellow-300 bg-yellow-50 rounded-md mb-4">
-              <p className="text-yellow-700">Invalid record format at index {recordIndex}</p>
-              <pre className="mt-2 text-xs bg-gray-100 p-2 rounded overflow-auto max-h-20">
-                {typeof record === 'object' ? JSON.stringify(record, null, 2) : String(record)}
-              </pre>
-            </div>
-          );
-        }
-        
-        const recordKey = `record_${recordIndex}`;
-        const isExpanded = expandedDetails[recordKey] || false;
-        
+
+      {(() => {
+        const totalRecords = processedData.length;
+        const displayCount = Math.min(20, totalRecords);
+        const limitedData = processedData.slice(0, 20);
+
         return (
-          <div key={`record-${recordIndex}`} className="mb-10 pb-6 border-b border-gray-200">
-            <div className="flex justify-between items-center mb-4">
-              <h3 className="text-lg font-semibold text-gray-800">
-                Record: {record.id !== undefined ? record.id : recordIndex}
-              </h3>
-              <button 
-                onClick={() => toggleDetails(recordKey)}
-                className="text-blue-600 hover:text-blue-800 text-sm flex items-center"
-              >
-                {isExpanded ? 'Hide Details' : 'View Details'}
-                <svg className={`ml-1 h-4 w-4 transform ${isExpanded ? 'rotate-180' : ''}`} fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-              </button>
-            </div>
-            
-            <div className={`transition-all duration-300 mb-6 ${isExpanded ? 'opacity-100 block' : 'opacity-0 hidden'}`}>
-              <div className="bg-gray-100 rounded p-3">
-                <pre className="whitespace-pre-wrap text-xs overflow-auto max-h-60">
-                  {JSON.stringify(record, null, 2)}
-                </pre>
-              </div>
-            </div>
-            
-            {Array.isArray(record.content) ? (
-              renderContent(record.content, recordIndex)
-            ) : (
-              <div className="p-4 border border-yellow-300 bg-yellow-50 rounded-md mb-4">
-                <p className="text-yellow-700">Content is not an array</p>
-                <pre className="mt-2 text-xs bg-gray-100 p-2 rounded overflow-auto max-h-20">
-                  {typeof record.content === 'object' ? JSON.stringify(record.content, null, 2) : String(record.content)}
-                </pre>
-              </div>
-            )}
-          </div>
+          <>
+            <p className="text-sm text-gray-600 mb-4">
+              Showing {displayCount} of {totalRecords} extracted objects
+            </p>
+
+            {limitedData.map((record, recordIndex) => {
+              if (!record || typeof record !== 'object' || !('content' in record)) {
+                return (
+                  <div key={`invalid-record-${recordIndex}`} className="p-4 border border-yellow-300 bg-yellow-50 rounded-md mb-4">
+                    <p className="text-yellow-700">Invalid record format at index {recordIndex}</p>
+                    <pre className="mt-2 text-xs bg-gray-100 p-2 rounded overflow-auto max-h-20">
+                      {typeof record === 'object' ? JSON.stringify(record, null, 2) : String(record)}
+                    </pre>
+                  </div>
+                );
+              }
+
+              const recordKey = `record_${recordIndex}`;
+              const isExpanded = expandedDetails[recordKey] || false;
+
+              return (
+                <div key={`record-${recordIndex}`} className="mb-10 pb-6 border-b border-gray-200">
+                  <div className="flex justify-between items-center mb-4">
+                    <h3 className="text-lg font-semibold text-gray-800">
+                      Record: {record.id !== undefined ? record.id : recordIndex}
+                    </h3>
+                    <button
+                      onClick={() => toggleDetails(recordKey)}
+                      className="text-blue-600 hover:text-blue-800 text-sm flex items-center"
+                    >
+                      {isExpanded ? 'Hide Details' : 'View Details'}
+                      <svg className={`ml-1 h-4 w-4 transform ${isExpanded ? 'rotate-180' : ''}`} fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    </button>
+                  </div>
+
+                  <div className={`transition-all duration-300 mb-6 ${isExpanded ? 'opacity-100 block' : 'opacity-0 hidden'}`}>
+                    <div className="bg-gray-100 rounded p-3">
+                      <pre className="whitespace-pre-wrap text-xs overflow-auto max-h-60">
+                        {JSON.stringify(record, null, 2)}
+                      </pre>
+                    </div>
+                  </div>
+
+                  {Array.isArray(record.content) ? (
+                    renderContent(record.content, recordIndex)
+                  ) : (
+                    <div className="p-4 border border-yellow-300 bg-yellow-50 rounded-md mb-4">
+                      <p className="text-yellow-700">Content is not an array</p>
+                      <pre className="mt-2 text-xs bg-gray-100 p-2 rounded overflow-auto max-h-20">
+                        {typeof record.content === 'object' ? JSON.stringify(record.content, null, 2) : String(record.content)}
+                      </pre>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </>
         );
-      })}
+      })()}
     </div>
   );
 };
