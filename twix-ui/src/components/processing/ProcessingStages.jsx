@@ -31,7 +31,6 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
   const [totalCumulativeCost, setTotalCumulativeCost] = useState(0);
   const [visionFeatureEnabled, setVisionFeatureEnabled] = useState(false);
   const [selectedModel, setSelectedModel] = useState('gpt-4o');
-
   
   // Add caching for already processed stages
   const [cachedResults, setCachedResults] = useState({
@@ -43,7 +42,6 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
 
   //model options for dropdown, can be extended
   const modelOptions = ['gpt-4o', 'gpt-4o-mini'];
-
 
   // Clear previous results when switching between stages
   useEffect(() => {
@@ -790,18 +788,27 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
               )}
               
               {/* Bounding Box Table (only for phrase stage) */}
-              
               {activeStage === 'phrase' && (
                 <div className="mt-8">
                   <h3 className="text-lg font-semibold text-gray-800 mb-4">Phrase Bounding Boxes</h3>
-                  <BoundingBoxTable boundingBoxData={boundingBoxData} />
+                  {(() => {
+                    const totalPhrases = boundingBoxData.length;
+                    const cappedBoundingBoxData = boundingBoxData.slice(0, 250);
+                    const displayCount = Math.min(250, totalPhrases);
+                    return (
+                      <>
+                        <p className="text-sm text-gray-600 mb-2">
+                          Showing {displayCount} of {totalPhrases} phrases
+                        </p>
+                        <BoundingBoxTable boundingBoxData={cappedBoundingBoxData} />
+                      </>
+                    );
+                  })()}
                 </div>
               )}
 
-            </div>
-          )}
-
-          {/* Template Editor */}
+              </div>
+              )}
           {activeStage === 'template' && (
             <div>
               <div className="flex justify-between items-center mb-4">

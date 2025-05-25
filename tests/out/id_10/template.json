@@ -1,0 +1,70 @@
+[
+    {
+        "type": "kv",
+        "child": -1,
+        "fields": [
+            "Status",
+            "Approved"
+        ],
+        "bid": [
+            0
+        ],
+        "node_id": 0
+    },
+    {
+        "type": "table",
+        "fields": [
+            "GrantID",
+            "Director",
+            "Grant Title",
+            "Agency Name",
+            "Amount Awarded"
+        ],
+        "bid": [
+            1
+        ],
+        "child": -1,
+        "node_id": 1
+    },
+    {
+        "type": "table",
+        "fields": [
+            "GrantID",
+            "Director",
+            "Grant Title",
+            "Agency Name",
+            "Amount Requested"
+        ],
+        "bid": [
+            2
+        ],
+        "child": -1,
+        "node_id": 2
+    },
+    {
+        "type": "table",
+        "fields": [
+            "Modeling Social-Ecological and Political-Economic Influences"
+        ],
+        "bid": [
+            3
+        ],
+        "child": 4,
+        "node_id": 3
+    },
+    {
+        "type": "kv",
+        "fields": [
+            "Submitted",
+            "Declined",
+            "Pending",
+            "Status",
+            "Approved"
+        ],
+        "bid": [
+            4
+        ],
+        "child": -1,
+        "node_id": 4
+    }
+]

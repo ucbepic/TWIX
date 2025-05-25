@@ -587,34 +587,18 @@ function parseBoundingBoxData(textContent, isCsvFormat = false) {
 
 // Add a utility function to serialize JSON while preserving key order
 export function stringifyOrderedJSON(obj) {
-  // If it's not an object or is null, just use regular stringify
-  if (typeof obj !== 'object' || obj === null) {
-    return JSON.stringify(obj);
+  if (obj === null || typeof obj !== 'object') {
+    return JSON.stringify(obj);  // safely escapes strings
   }
-  
-  // Handle arrays - preserve order in each element
   if (Array.isArray(obj)) {
-    return '[' + 
-      obj.map(item => stringifyOrderedJSON(item)).join(',') + 
-      ']';
+    return `[${obj.map(stringifyOrderedJSON).join(',')}]`;
   }
-  
-  // For objects, get all keys and stringify in order
-  const allKeys = Object.keys(obj);
-  
-  // Build object string with keys in original order
-  let result = '{';
-  result += allKeys.map(key => {
-    const value = obj[key];
-    // Recursively stringify the value
-    const valueStr = stringifyOrderedJSON(value);
-    // Return the key-value pair
-    return `"${key}":${valueStr}`;
-  }).join(',');
-  result += '}';
-  
-  return result;
+  const entries = Object.keys(obj).map(key =>
+    `${JSON.stringify(key)}:${stringifyOrderedJSON(obj[key])}`
+  );
+  return `{${entries.join(',')}}`;
 }
+
 
 // Add a custom replacer function for JSON.stringify
 export function createOrderPreservingReplacer(keyOrder) {

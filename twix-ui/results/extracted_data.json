@@ -1,0 +1,2292 @@
+{
+  "22-274.releasable": [
+    {
+      "id": 0,
+      "content": [
+        {
+          "type": "kv",
+          "content": [
+            {
+              "University of Illinois Police Department": "Page 1 of 27"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "content": [
+            {
+              "Use Of Force Full Details": "No Notes"
+            }
+          ]
+        },
+        {
+          "type": "kv",
+          "content": [
+            {
+              "Case Number": "34-02142"
+            },
+            {
+              "Date": "1/15/2023"
+            },
+            {
+              "Time": "0912"
+            },
+            {
+              "Assist": "Yes"
+            },
+            {
+              "Agency": "SCTF"
+            },
+            {
+              "Information Taken From": "Crime/ Incident"
+            },
+            {
+              "Status": "Completed"
+            },
+            {
+              "Incident Reviewed By": "Benson, Mark T."
+            },
+            {
+              "Date Reviewed": "1/15/2023"
+            },
+            {
+              "Drugs/Alcohol": "No"
+            },
+            {
+              "Location": "482 Maplewood Dr."
+            },
+            {
+              "City": "Champaign"
+            },
+            {
+              "K-9": "No"
+            },
+            {
+              "Crisis Intervention Related": "No"
+            },
+            {
+              "Type Premises": "Apartment"
+            },
+            {
+              "District": "missing"
+            },
+            {
+              "Recorded On Camera": "Yes"
+            },
+            {
+              "Camera": "Body Camera"
+            },
+            {
+              "Type Situation": "Search Warrant"
+            },
+            {
+              "Reason Force Used": "Fled Scene"
+            },
+            {
+              "Officer Injured": "No"
+            },
+            {
+              "Danger Factors": "Not Listed"
+            },
+            {
+              "Final Disposition": "Not Listed"
+            },
+            {
+              "Verbal De-Escalation Attempted": "No"
+            },
+            {
+              "Notes": "Entered on 4/6/2023 10"
+            },
+            {
+              "Subject #": "1"
+            },
+            {
+              "DOB": "missing"
+            },
+            {
+              "Gender": "Male"
+            },
+            {
+              "Race": "missing"
+            },
+            {
+              "HGT": "/"
+            },
+            {
+              "WGT": "missing"
+            },
+            {
+              "Under The Influence": "No"
+            },
+            {
+              "Address": "482 Maplewood Dr."
+            },
+            {
+              "City": "Champaign"
+            },
+            {
+              "Level Of Resistance": "Fleeing Suspect"
+            },
+            {
+              "Subject Armed With": "N/A"
+            },
+            {
+              "Force Used": "Fleeing"
+            },
+            {
+              "Force Location": "Not Stated"
+            },
+            {
+              "Arrested": "Yes"
+            },
+            {
+              "Arrested For": "Not Stated"
+            },
+            {
+              "Arrest ID": "None"
+            },
+            {
+              "Injured": "No"
+            },
+            {
+              "Type Injuries": "Medical Aid"
+            },
+            {
+              "Officer": "Ellis, Samantha J."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "content": [
+        {
+          "type": "kv",
+          "content": [
+            {
+              "University of Illinois Police Department": "Page 2 of 27"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "content": [
+            {
+              "Use Of Force Full Details": "No Notes"
+            },
+            {
+              "Use Of Force Full Details": "Occupants of the vehilce were ordered out at gun point and were secured. Two handguns were located inside the vehicle."
+            }
+          ]
+        },
+        {
+          "type": "kv",
+          "content": [
+            {
+              "Case Number": "34-03261"
+            },
+            {
+              "Date": "1/31/2023"
+            },
+            {
+              "Time": "0621"
+            },
+            {
+              "Assist": "Yes"
+            },
+            {
+              "Agency": "CPD"
+            },
+            {
+              "Information Taken From": "Crime/ Incident"
+            },
+            {
+              "Status": "Completed"
+            },
+            {
+              "Incident Reviewed By": "Freeman, Daniel K."
+            },
+            {
+              "Date Reviewed": "2/2/2023"
+            },
+            {
+              "Drugs/Alcohol": "No"
+            },
+            {
+              "Location": "Flower & Third Streets"
+            },
+            {
+              "City": "Champaign"
+            },
+            {
+              "K-9": "No"
+            },
+            {
+              "Crisis Intervention Related": "No"
+            },
+            {
+              "Type Premises": "Roadway"
+            },
+            {
+              "District": "missing"
+            },
+            {
+              "Recorded On Camera": "Yes"
+            },
+            {
+              "Camera": "Vehicle/BWC"
+            },
+            {
+              "Type Situation": "Armed Subject"
+            },
+            {
+              "Reason Force Used": "Officer Safety"
+            },
+            {
+              "Officer Injured": "No"
+            },
+            {
+              "Danger Factors": "Not Listed"
+            },
+            {
+              "Final Disposition": "Not Listed"
+            },
+            {
+              "Verbal De-Escalation Attempted": "No"
+            },
+            {
+              "Notes": "Entered on 4/6/2023 10"
+            },
+            {
+              "Subject #": "1"
+            },
+            {
+              "DOB": "missing"
+            },
+            {
+              "Gender": "Male"
+            },
+            {
+              "Race": "missing"
+            },
+            {
+              "HGT": "/"
+            },
+            {
+              "WGT": "missing"
+            },
+            {
+              "Under The Influence": "No"
+            },
+            {
+              "Address": "11298 Crestview Ln."
+            },
+            {
+              "City": "Mahomet"
+            },
+            {
+              "Level Of Resistance": "Active Aggressive"
+            },
+            {
+              "Subject Armed With": "Firearm"
+            },
+            {
+              "Force Used": "None"
+            },
+            {
+              "Force Location": "Not Stated"
+            },
+            {
+              "Arrested": "Yes"
+            },
+            {
+              "Arrested For": "Not Stated"
+            },
+            {
+              "Arrest ID": "None"
+            },
+            {
+              "Injured": "No"
+            },
+            {
+              "Type Injuries": "Medical Aid"
+            },
+            {
+              "Officer": "Harrison, Tyler M."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "content": [
+        {
+          "type": "kv",
+          "content": [
+            {
+              "University of Illinois Police Department": "Page 3 of 27"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "content": [
+            {
+              "Use Of Force Full Details": "UIPD officers responded to assist UPD attempting to locate a suspected armed subject who was involved in a home invasion, fled scene and was involved in a motor"
+            },
+            {
+              "Use Of Force Full Details": "Suspect complied and was taken into custody without further incident."
+            }
+          ]
+        },
+        {
+          "type": "kv",
+          "content": [
+            {
+              "Case Number": "34-05783"
+            },
+            {
+              "Date": "2/5/2023"
+            },
+            {
+              "Time": "1231"
+            },
+            {
+              "Assist": "Yes"
+            },
+            {
+              "Agency": "UPD"
+            },
+            {
+              "Information Taken From": "Crime/ Incident"
+            },
+            {
+              "Status": "Completed"
+            },
+            {
+              "Incident Reviewed By": "Jenkins, Olivia S."
+            },
+            {
+              "Date Reviewed": "2/6/2023"
+            },
+            {
+              "Drugs/Alcohol": "No"
+            },
+            {
+              "Location": "Lawson Woods"
+            },
+            {
+              "City": "Urbana"
+            },
+            {
+              "K-9": "No"
+            },
+            {
+              "Crisis Intervention Related": "No"
+            },
+            {
+              "Type Premises": "Wooded Area"
+            },
+            {
+              "District": "missing"
+            },
+            {
+              "Recorded On Camera": "Yes"
+            },
+            {
+              "Camera": "Body Camera"
+            },
+            {
+              "Type Situation": "Home Invasion"
+            },
+            {
+              "Reason Force Used": "Fled Scene"
+            },
+            {
+              "Officer Injured": "No"
+            },
+            {
+              "Danger Factors": "Not Listed"
+            },
+            {
+              "Final Disposition": "Arrested/Lodged"
+            },
+            {
+              "Verbal De-Escalation Attempted": "No"
+            },
+            {
+              "Notes": "Entered on 4/6/2023 10"
+            },
+            {
+              "Subject #": "1"
+            },
+            {
+              "DOB": "missing"
+            },
+            {
+              "Gender": "Male"
+            },
+            {
+              "Race": "missing"
+            },
+            {
+              "HGT": "/"
+            },
+            {
+              "WGT": "missing"
+            },
+            {
+              "Under The Influence": "No"
+            },
+            {
+              "Address": "4501 Elm Apt. M204"
+            },
+            {
+              "City": "Champaign"
+            },
+            {
+              "Level Of Resistance": "Fleeing Suspect"
+            },
+            {
+              "Subject Armed With": "Unknown"
+            },
+            {
+              "Force Used": "Fleeing"
+            },
+            {
+              "Force Location": "Not Stated"
+            },
+            {
+              "Arrested": "Yes"
+            },
+            {
+              "Arrested For": "Not Stated"
+            },
+            {
+              "Arrest ID": "None"
+            },
+            {
+              "Injured": "Yes"
+            },
+            {
+              "Type Injuries": "Minor"
+            },
+            {
+              "Notes": "Suspect had a facial injury as a result of running through the woods."
+            },
+            {
+              "Officer": "Mitchell, Sophia"
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "Carter, Benjamin L."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "Douglas, Hannah M."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "Foster, Lauren K."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "content": [
+        {
+          "type": "kv",
+          "content": [
+            {
+              "University of Illinois Police Department": "Page 4 of 27"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "content": [
+            {
+              "Use Of Force Full Details": "No Notes"
+            },
+            {
+              "Use Of Force Full Details": "Officer Ingram they grabbed suspects arms and attempted to place them behind his back, however suspect continued to resist."
+            }
+          ]
+        },
+        {
+          "type": "kv",
+          "content": [
+            {
+              "Case Number": "34-09292"
+            },
+            {
+              "Date": "3/19/2023"
+            },
+            {
+              "Time": "1005"
+            },
+            {
+              "Assist": "Yes"
+            },
+            {
+              "Agency": "CPD"
+            },
+            {
+              "Information Taken From": "Crime/ Incident"
+            },
+            {
+              "Status": "Completed"
+            },
+            {
+              "Incident Reviewed By": "Grant, Michael D."
+            },
+            {
+              "Date Reviewed": "3/19/2023"
+            },
+            {
+              "Drugs/Alcohol": "Yes"
+            },
+            {
+              "Location": "543 S. Fifth"
+            },
+            {
+              "City": "Champaign"
+            },
+            {
+              "K-9": "No"
+            },
+            {
+              "Crisis Intervention Related": "No"
+            },
+            {
+              "Type Premises": "Bar"
+            },
+            {
+              "District": "missing"
+            },
+            {
+              "Recorded On Camera": "Yes"
+            },
+            {
+              "Camera": "Body Camera"
+            },
+            {
+              "Type Situation": "Fight"
+            },
+            {
+              "Reason Force Used": "Refusing Lawful Order"
+            },
+            {
+              "Officer Injured": "No"
+            },
+            {
+              "Danger Factors": "Not Listed"
+            },
+            {
+              "Final Disposition": "Released / No Action"
+            },
+            {
+              "Verbal De-Escalation Attempted": "No"
+            },
+            {
+              "Notes": "Entered on 4/6/2023 10"
+            },
+            {
+              "Subject #": "1"
+            },
+            {
+              "DOB": "missing"
+            },
+            {
+              "Gender": "Male"
+            },
+            {
+              "Race": "missing"
+            },
+            {
+              "HGT": "/"
+            },
+            {
+              "WGT": "missing"
+            },
+            {
+              "Under The Influence": "Yes"
+            },
+            {
+              "Address": "missing"
+            },
+            {
+              "City": "missing"
+            },
+            {
+              "Level Of Resistance": "Physical Resistance"
+            },
+            {
+              "Subject Armed With": "Hands"
+            },
+            {
+              "Force Used": "Physical Resistance"
+            },
+            {
+              "Force Location": "Not Stated"
+            },
+            {
+              "Arrested": "No"
+            },
+            {
+              "Arrested For": "Not Stated"
+            },
+            {
+              "Arrest ID": "None"
+            },
+            {
+              "Injured": "No"
+            },
+            {
+              "Type Injuries": "Medical Aid"
+            },
+            {
+              "Officer": "Hayes, Victoria R."
+            },
+            {
+              "Action Taken": "EH Control - Physical Restraint"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "Ingram, Jonathan S."
+            },
+            {
+              "Action Taken": "EH Control - Physical Restraint"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "No"
+            },
+            {
+              "Officer": "James, Olivia P."
+            },
+            {
+              "Action Taken": "Taser - Warning Arc"
+            },
+            {
+              "Action Taken Useful": "No"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "content": [
+        {
+          "type": "kv",
+          "content": [
+            {
+              "University of Illinois Police Department": "Page 5 of 27"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "content": [
+            {
+              "Use Of Force Full Details": "No Notes"
+            },
+            {
+              "Use Of Force Full Details": "No Notes"
+            },
+            {
+              "Use Of Force Full Details": "Occupants were cooperative and were released from scene after it was determined they were not involved in the earlier shooting incident."
+            }
+          ]
+        },
+        {
+          "type": "kv",
+          "content": [
+            {
+              "Case Number": "34-03852"
+            },
+            {
+              "Date": "3/20/2023"
+            },
+            {
+              "Time": "1209"
+            },
+            {
+              "Assist": "No"
+            },
+            {
+              "Agency": "missing"
+            },
+            {
+              "Information Taken From": "Crime/ Incident"
+            },
+            {
+              "Status": "Completed"
+            },
+            {
+              "Incident Reviewed By": "Keller, Ryan B."
+            },
+            {
+              "Date Reviewed": "3/21/2023"
+            },
+            {
+              "Drugs/Alcohol": "No"
+            },
+            {
+              "Location": "Pine and Redwood"
+            },
+            {
+              "City": "Champaign"
+            },
+            {
+              "K-9": "No"
+            },
+            {
+              "Crisis Intervention Related": "No"
+            },
+            {
+              "Type Premises": "Alley"
+            },
+            {
+              "District": "missing"
+            },
+            {
+              "Recorded On Camera": "Yes"
+            },
+            {
+              "Camera": "Vehicle/BWC"
+            },
+            {
+              "Type Situation": "Felony Stop"
+            },
+            {
+              "Reason Force Used": "Officer Safety"
+            },
+            {
+              "Officer Injured": "No"
+            },
+            {
+              "Danger Factors": "Shooting Suspect"
+            },
+            {
+              "Final Disposition": "Released / No Action"
+            },
+            {
+              "Verbal De-Escalation Attempted": "No"
+            },
+            {
+              "Notes": "Entered on 4/13/2023 1"
+            },
+            {
+              "Subject #": "1"
+            },
+            {
+              "DOB": "missing"
+            },
+            {
+              "Gender": "Male"
+            },
+            {
+              "Race": "missing"
+            },
+            {
+              "HGT": "/"
+            },
+            {
+              "WGT": "missing"
+            },
+            {
+              "Under The Influence": "No"
+            },
+            {
+              "Address": "missing"
+            },
+            {
+              "City": "missing"
+            },
+            {
+              "Level Of Resistance": "Cooperative"
+            },
+            {
+              "Subject Armed With": "N/A"
+            },
+            {
+              "Force Used": "None"
+            },
+            {
+              "Force Location": "Not Stated"
+            },
+            {
+              "Arrested": "No"
+            },
+            {
+              "Arrested For": "Not Stated"
+            },
+            {
+              "Arrest ID": "None"
+            },
+            {
+              "Injured": "No"
+            },
+            {
+              "Type Injuries": "Medical Aid"
+            },
+            {
+              "Subject #": "2"
+            },
+            {
+              "DOB": "missing"
+            },
+            {
+              "Gender": "Male"
+            },
+            {
+              "Race": "missing"
+            },
+            {
+              "HGT": "/"
+            },
+            {
+              "WGT": "missing"
+            },
+            {
+              "Under The Influence": "No"
+            },
+            {
+              "Address": "missing"
+            },
+            {
+              "City": "missing"
+            },
+            {
+              "Level Of Resistance": "Cooperative"
+            },
+            {
+              "Subject Armed With": "N/A"
+            },
+            {
+              "Force Used": "None"
+            },
+            {
+              "Force Location": "Not Stated"
+            },
+            {
+              "Arrested": "No"
+            },
+            {
+              "Arrested For": "Not Stated"
+            },
+            {
+              "Arrest ID": "None"
+            },
+            {
+              "Injured": "No"
+            },
+            {
+              "Type Injuries": "Medical Aid"
+            },
+            {
+              "Officer": "Lewis, Sophia N."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "Morris, Ethan T."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "Morris, Ethan T."
+            },
+            {
+              "Action Taken": "Not Indicated"
+            },
+            {
+              "Action Taken Useful": "No"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "No"
+            },
+            {
+              "Officer": "Nelson, Abigail C."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "content": [
+        {
+          "type": "kv",
+          "content": [
+            {
+              "University of Illinois Police Department": "Page 6 of 27"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "content": [
+            {
+              "Use Of Force Full Details": "No Notes"
+            },
+            {
+              "Use Of Force Full Details": "Officers resonded to assist UPD with a shooting that had just occurred and the suspect had fled the scene on foot. UIPD K9 tracked one possible suspect into a"
+            },
+            {
+              "Use Of Force Full Details": "Officer Patterson observed a subject walking through the woods, drew his duty weapon and pointed it at the subject while giving him verbal"
+            },
+            {
+              "Use Of Force Full Details": "Juvenile suspect was transferred to custody of UPD officers."
+            }
+          ]
+        },
+        {
+          "type": "kv",
+          "content": [
+            {
+              "Case Number": "34-09921"
+            },
+            {
+              "Date": "3/29/2023"
+            },
+            {
+              "Time": "1231"
+            },
+            {
+              "Assist": "Yes"
+            },
+            {
+              "Agency": "UPD"
+            },
+            {
+              "Information Taken From": "Crime/ Incident"
+            },
+            {
+              "Status": "Completed"
+            },
+            {
+              "Incident Reviewed By": "Owens, Matthew V."
+            },
+            {
+              "Date Reviewed": "3/29/2023"
+            },
+            {
+              "Drugs/Alcohol": "No"
+            },
+            {
+              "Location": "2987 Sunset Dr."
+            },
+            {
+              "City": "Urbana"
+            },
+            {
+              "K-9": "No"
+            },
+            {
+              "Crisis Intervention Related": "No"
+            },
+            {
+              "Type Premises": "Wooded Area"
+            },
+            {
+              "District": "missing"
+            },
+            {
+              "Recorded On Camera": "Yes"
+            },
+            {
+              "Camera": "Body Camera"
+            },
+            {
+              "Type Situation": "Shooting"
+            },
+            {
+              "Reason Force Used": "Officer Safety"
+            },
+            {
+              "Officer Injured": "No"
+            },
+            {
+              "Danger Factors": "Shooting Suspect"
+            },
+            {
+              "Final Disposition": "Not Listed"
+            },
+            {
+              "Verbal De-Escalation Attempted": "No"
+            },
+            {
+              "Notes": "Entered on 4/13/2023 1"
+            },
+            {
+              "Subject #": "1"
+            },
+            {
+              "DOB": "missing"
+            },
+            {
+              "Gender": "Male"
+            },
+            {
+              "Race": "missing"
+            },
+            {
+              "HGT": "/"
+            },
+            {
+              "WGT": "missing"
+            },
+            {
+              "Under The Influence": "No"
+            },
+            {
+              "Address": "missing"
+            },
+            {
+              "City": "missing"
+            },
+            {
+              "Level Of Resistance": "Fleeing Suspect"
+            },
+            {
+              "Subject Armed With": "Unknown"
+            },
+            {
+              "Force Used": "None"
+            },
+            {
+              "Force Location": "Not Stated"
+            },
+            {
+              "Arrested": "No"
+            },
+            {
+              "Arrested For": "Not Stated"
+            },
+            {
+              "Arrest ID": "None"
+            },
+            {
+              "Injured": "No"
+            },
+            {
+              "Type Injuries": "Medical Aid"
+            },
+            {
+              "Officer": "Patterson, Emma J."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "content": [
+        {
+          "type": "kv",
+          "content": [
+            {
+              "University of Illinois Police Department": "Page 7 of 27"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "content": [
+            {
+              "Use Of Force Full Details": "No Notes"
+            }
+          ]
+        },
+        {
+          "type": "kv",
+          "content": [
+            {
+              "Case Number": "34-01121"
+            },
+            {
+              "Date": "4/10/2023"
+            },
+            {
+              "Time": "0721"
+            },
+            {
+              "Assist": "Yes"
+            },
+            {
+              "Agency": "SCTF"
+            },
+            {
+              "Information Taken From": "Crime/ Incident"
+            },
+            {
+              "Status": "Completed"
+            },
+            {
+              "Incident Reviewed By": "Quinn, Nathan G."
+            },
+            {
+              "Date Reviewed": "4/16/2023"
+            },
+            {
+              "Drugs/Alcohol": "No"
+            },
+            {
+              "Location": "Cypress/May"
+            },
+            {
+              "City": "Urbana"
+            },
+            {
+              "K-9": "No"
+            },
+            {
+              "Crisis Intervention Related": "No"
+            },
+            {
+              "Type Premises": "Parking Lot"
+            },
+            {
+              "District": "missing"
+            },
+            {
+              "Recorded On Camera": "Yes"
+            },
+            {
+              "Camera": "Body Camera"
+            },
+            {
+              "Type Situation": "Arrest Warrant"
+            },
+            {
+              "Reason Force Used": "Officer Safety"
+            },
+            {
+              "Officer Injured": "No"
+            },
+            {
+              "Danger Factors": "Not Listed"
+            },
+            {
+              "Final Disposition": "Arrested/Lodged"
+            },
+            {
+              "Verbal De-Escalation Attempted": "No"
+            },
+            {
+              "Notes": "Entered on 6/30/2023 7"
+            },
+            {
+              "Subject #": "1"
+            },
+            {
+              "DOB": "missing"
+            },
+            {
+              "Gender": "Male"
+            },
+            {
+              "Race": "missing"
+            },
+            {
+              "HGT": "/"
+            },
+            {
+              "WGT": "missing"
+            },
+            {
+              "Under The Influence": "No"
+            },
+            {
+              "Address": "missing"
+            },
+            {
+              "City": "missing"
+            },
+            {
+              "Level Of Resistance": "Cooperative"
+            },
+            {
+              "Subject Armed With": "Firearm"
+            },
+            {
+              "Force Used": "None"
+            },
+            {
+              "Force Location": "Not Stated"
+            },
+            {
+              "Arrested": "No"
+            },
+            {
+              "Arrested For": "Not Stated"
+            },
+            {
+              "Arrest ID": "None"
+            },
+            {
+              "Injured": "No"
+            },
+            {
+              "Type Injuries": "Medical Aid"
+            },
+            {
+              "Officer": "Roberts, Lily A."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "content": [
+        {
+          "type": "kv",
+          "content": [
+            {
+              "University of Illinois Police Department": "Page 8 of 27"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "content": [
+            {
+              "Use Of Force Full Details": "No Notes"
+            },
+            {
+              "Use Of Force Full Details": "No Notes"
+            },
+            {
+              "Use Of Force Full Details": "located the vehicle parked at the Circle K gas station at University and Wright and conducted a high risk traffic stop."
+            },
+            {
+              "Use Of Force Full Details": "Hartman and Germany, along with other officers continued the high risk traffic stop and both pointed their firearms at the driver of the vehicle."
+            },
+            {
+              "Use Of Force Full Details": "custody without further incident and illegal drugs were recovered within the vehicle."
+            }
+          ]
+        },
+        {
+          "type": "kv",
+          "content": [
+            {
+              "Case Number": "34-05079"
+            },
+            {
+              "Date": "6/1/2023"
+            },
+            {
+              "Time": "2231"
+            },
+            {
+              "Assist": "Yes"
+            },
+            {
+              "Agency": "UPD"
+            },
+            {
+              "Information Taken From": "Crime/ Incident"
+            },
+            {
+              "Status": "Completed"
+            },
+            {
+              "Incident Reviewed By": "Thompson, Chloe H."
+            },
+            {
+              "Date Reviewed": "6/2/2023"
+            },
+            {
+              "Drugs/Alcohol": "No"
+            },
+            {
+              "Location": "1936 Pinecrest Ln."
+            },
+            {
+              "City": "Champaign"
+            },
+            {
+              "K-9": "No"
+            },
+            {
+              "Crisis Intervention Related": "No"
+            },
+            {
+              "Type Premises": "Parking Lot"
+            },
+            {
+              "District": "missing"
+            },
+            {
+              "Recorded On Camera": "Yes"
+            },
+            {
+              "Camera": "Vehicle/BWC"
+            },
+            {
+              "Type Situation": "Armed Subject"
+            },
+            {
+              "Reason Force Used": "Officer Safety"
+            },
+            {
+              "Officer Injured": "No"
+            },
+            {
+              "Danger Factors": "Not Listed"
+            },
+            {
+              "Final Disposition": "Arrested/Lodged"
+            },
+            {
+              "Verbal De-Escalation Attempted": "No"
+            },
+            {
+              "Notes": "Entered on 6/30/2023 7"
+            },
+            {
+              "Subject #": "1"
+            },
+            {
+              "DOB": "missing"
+            },
+            {
+              "Gender": "Male"
+            },
+            {
+              "Race": "missing"
+            },
+            {
+              "HGT": "/"
+            },
+            {
+              "WGT": "missing"
+            },
+            {
+              "Under The Influence": "No"
+            },
+            {
+              "Address": "7504 Oakwood Dr."
+            },
+            {
+              "City": "Champaign"
+            },
+            {
+              "Level Of Resistance": "Fleeing Suspect"
+            },
+            {
+              "Subject Armed With": "Firearm"
+            },
+            {
+              "Force Used": "Fleeing"
+            },
+            {
+              "Force Location": "Not Stated"
+            },
+            {
+              "Arrested": "Yes"
+            },
+            {
+              "Arrested For": "Unlawful Use of Weapon"
+            },
+            {
+              "Arrest ID": "None"
+            },
+            {
+              "Injured": "No"
+            },
+            {
+              "Type Injuries": "Medical Aid"
+            },
+            {
+              "Subject #": "2"
+            },
+            {
+              "DOB": "missing"
+            },
+            {
+              "Gender": "Male"
+            },
+            {
+              "Race": "missing"
+            },
+            {
+              "HGT": "/"
+            },
+            {
+              "WGT": "missing"
+            },
+            {
+              "Under The Influence": "No"
+            },
+            {
+              "Address": "38 Sunset Blvd."
+            },
+            {
+              "City": "Champaign"
+            },
+            {
+              "Level Of Resistance": "Cooperative"
+            },
+            {
+              "Subject Armed With": "N/A"
+            },
+            {
+              "Force Used": "None"
+            },
+            {
+              "Force Location": "Not Stated"
+            },
+            {
+              "Arrested": "Yes"
+            },
+            {
+              "Arrested For": "Poss Controlled Substance"
+            },
+            {
+              "Arrest ID": "None"
+            },
+            {
+              "Injured": "No"
+            },
+            {
+              "Type Injuries": "Medical Aid"
+            },
+            {
+              "Officer": "Wallace, Daniel P."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "Young, Sarah L."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "missing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "content": [
+        {
+          "type": "kv",
+          "content": [
+            {
+              "University of Illinois Police Department": "Page 9 of 27"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "content": [
+            {
+              "Use Of Force Full Details": "No Notes"
+            },
+            {
+              "Use Of Force Full Details": "of 4 times), until the suspect complied Sgt. Adams and Officer Edwards were able to secure him in handcuffs."
+            },
+            {
+              "Use Of Force Full Details": "Suspect was transported to OSF Hospital by Pro Ambulance."
+            }
+          ]
+        },
+        {
+          "type": "kv",
+          "content": [
+            {
+              "Case Number": "34-08712"
+            },
+            {
+              "Date": "6/27/2023"
+            },
+            {
+              "Time": "0320"
+            },
+            {
+              "Assist": "No"
+            },
+            {
+              "Agency": "missing"
+            },
+            {
+              "Information Taken From": "Crime/ Incident"
+            },
+            {
+              "Status": "Completed"
+            },
+            {
+              "Incident Reviewed By": "Adams, Jacob T."
+            },
+            {
+              "Date Reviewed": "6/27/2023"
+            },
+            {
+              "Drugs/Alcohol": "Yes"
+            },
+            {
+              "Location": "missing"
+            },
+            {
+              "City": "Champaign"
+            },
+            {
+              "K-9": "No"
+            },
+            {
+              "Crisis Intervention Related": "No"
+            },
+            {
+              "Type Premises": "Parking Lot"
+            },
+            {
+              "District": "missing"
+            },
+            {
+              "Recorded On Camera": "Yes"
+            },
+            {
+              "Camera": "Vehicle/BWC"
+            },
+            {
+              "Type Situation": "Excited Delirium"
+            },
+            {
+              "Reason Force Used": "Intoxicated, Fighting W/Officers"
+            },
+            {
+              "Officer Injured": "No"
+            },
+            {
+              "Danger Factors": "Not Listed"
+            },
+            {
+              "Final Disposition": "Not Listed"
+            },
+            {
+              "Verbal De-Escalation Attempted": "No"
+            },
+            {
+              "Notes": "Entered on 7/20/2023 7"
+            },
+            {
+              "Subject #": "1"
+            },
+            {
+              "DOB": "missing"
+            },
+            {
+              "Gender": "Male"
+            },
+            {
+              "Race": "missing"
+            },
+            {
+              "HGT": "/"
+            },
+            {
+              "WGT": "missing"
+            },
+            {
+              "Under The Influence": "Yes"
+            },
+            {
+              "Address": "missing"
+            },
+            {
+              "City": "missing"
+            },
+            {
+              "Level Of Resistance": "Active Aggressive"
+            },
+            {
+              "Subject Armed With": "Hands"
+            },
+            {
+              "Force Used": "Advancing, Grabbing, Punching, Kicking, etc."
+            },
+            {
+              "Force Location": "Not Stated"
+            },
+            {
+              "Arrested": "No"
+            },
+            {
+              "Arrested For": "Not Stated"
+            },
+            {
+              "Arrest ID": "None"
+            },
+            {
+              "Injured": "Yes"
+            },
+            {
+              "Type Injuries": "Drug Incapacitation"
+            },
+            {
+              "Officer": "Carter, Noah"
+            },
+            {
+              "Action Taken": "Hobble Restraint Used"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "Adams, Jacob T."
+            },
+            {
+              "Action Taken": "Ground Control - Arm Control"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "Edwards, William S.."
+            },
+            {
+              "Action Taken": "Ground Control - Arm Control"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "Diaz, Olivia K."
+            },
+            {
+              "Action Taken": "Hobble Restraint Used"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "Garcia, Mason H."
+            },
+            {
+              "Action Taken": "Taser - Probes Deployed - 1 Hit/2 Cycles"
+            },
+            {
+              "Action Taken Useful": "No"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "content": [
+        {
+          "type": "kv",
+          "content": [
+            {
+              "University of Illinois Police Department": "Page 10 of 27"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "content": [
+            {
+              "Use Of Force Full Details": "No Notes"
+            },
+            {
+              "Use Of Force Full Details": "and providing cover for the officers that were approaching the suspect on foot. Officers Jonas deployed a ballistic shield and approached the vehicle and suspect."
+            },
+            {
+              "Use Of Force Full Details": "Officer Jonas had his handgun pointed at the suspect while he was taken into custody by other officers."
+            }
+          ]
+        },
+        {
+          "type": "kv",
+          "content": [
+            {
+              "Case Number": "34-06460"
+            },
+            {
+              "Date": "6/14/2023"
+            },
+            {
+              "Time": "0139"
+            },
+            {
+              "Assist": "Yes"
+            },
+            {
+              "Agency": "UPD"
+            },
+            {
+              "Information Taken From": "Crime/ Incident"
+            },
+            {
+              "Status": "Completed"
+            },
+            {
+              "Incident Reviewed By": "Flores, Ava M."
+            },
+            {
+              "Date Reviewed": "6/22/2023"
+            },
+            {
+              "Drugs/Alcohol": "No"
+            },
+            {
+              "Location": "2154 Crestview Dr."
+            },
+            {
+              "City": "Urbana"
+            },
+            {
+              "K-9": "No"
+            },
+            {
+              "Crisis Intervention Related": "No"
+            },
+            {
+              "Type Premises": "Field"
+            },
+            {
+              "District": "missing"
+            },
+            {
+              "Recorded On Camera": "Yes"
+            },
+            {
+              "Camera": "Vehicle/BWC"
+            },
+            {
+              "Type Situation": "Shooting"
+            },
+            {
+              "Reason Force Used": "Armed/Threatening"
+            },
+            {
+              "Officer Injured": "No"
+            },
+            {
+              "Danger Factors": "Shooting Suspect"
+            },
+            {
+              "Final Disposition": "Arrested/Lodged"
+            },
+            {
+              "Verbal De-Escalation Attempted": "No"
+            },
+            {
+              "Notes": "Entered on 7/20/2023 7"
+            },
+            {
+              "Subject #": "1"
+            },
+            {
+              "DOB": "missing"
+            },
+            {
+              "Gender": "Male"
+            },
+            {
+              "Race": "missing"
+            },
+            {
+              "HGT": "/"
+            },
+            {
+              "WGT": "missing"
+            },
+            {
+              "Under The Influence": "No"
+            },
+            {
+              "Address": "433 Beaver St."
+            },
+            {
+              "City": "Urbana"
+            },
+            {
+              "Level Of Resistance": "Fleeing Suspect"
+            },
+            {
+              "Subject Armed With": "Firearm"
+            },
+            {
+              "Force Used": "Fleeing"
+            },
+            {
+              "Force Location": "Not Stated"
+            },
+            {
+              "Arrested": "Yes"
+            },
+            {
+              "Arrested For": "Agg. Discharge of Firearm"
+            },
+            {
+              "Arrest ID": "None"
+            },
+            {
+              "Injured": "No"
+            },
+            {
+              "Type Injuries": "Medical Aid"
+            },
+            {
+              "Officer": "King, Langston D."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            },
+            {
+              "Officer": "Jonas, Kevin R."
+            },
+            {
+              "Action Taken": "Firearm - Pointed At Subject"
+            },
+            {
+              "Action Taken Useful": "Yes"
+            },
+            {
+              "Camera": "Yes"
+            },
+            {
+              "CIT": "No"
+            },
+            {
+              "Type Injuries": "None"
+            },
+            {
+              "Disciplinary Action": "None"
+            },
+            {
+              "Included On Alert": "Yes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
