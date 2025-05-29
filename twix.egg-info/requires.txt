@@ -7,3 +7,5 @@ tiktoken
 pdf2image
 gurobipy
 openai
+flask-cors
+PyPDF2

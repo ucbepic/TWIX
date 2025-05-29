@@ -1,0 +1,4348 @@
+[
+    {
+        "id": 0,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5319",
+                        "Director": "Ms. Melanie Bentley",
+                        "Grant Title": "Communicating STEM Research to a Broader Audience",
+                        "Agency Name": "University of Kentucky",
+                        "Amount Awarded": "$7,637"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5241",
+                        "Director": "Dr. Jennifer Wies",
+                        "Grant Title": "Measuring Pathways to Food Insecurity in Appalachia",
+                        "Agency Name": "National Science Foundation",
+                        "Amount Requested": "$157,412"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "Modeling Social-Ecological and Political-Economic Influences": "Biological Sciences"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "0"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5296",
+                        "Director": "Dr. Stephen Richter",
+                        "Grant Title": "Temporal comparisons of genetic variation in the dusky",
+                        "Agency Name": "Kentucky NSF EPSCoR",
+                        "Amount Awarded": "$7,959"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "gopher frog (Lithobates sevosus)",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5280",
+                        "Director": "Dr. Marcia Pierce",
+                        "Grant Title": "Bridging the Gap",
+                        "Agency Name": "University of Kentucky",
+                        "Amount Awarded": "$206,183"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Research in Kentucky",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5314",
+                        "Director": "Dr. Robert Frederick",
+                        "Grant Title": "Wildlife Ecologist - Research Startup",
+                        "Agency Name": "Kentucky Science and Technology Corporation",
+                        "Amount Awarded": "$30,000"
+                    },
+                    {
+                        "GrantID": "5283",
+                        "Director": "Dr. David Brown",
+                        "Grant Title": "Running Buffalo Clover and Deer Survey",
+                        "Agency Name": "Blue Grass Army Depot",
+                        "Amount Awarded": "$20,000"
+                    },
+                    {
+                        "GrantID": "5146",
+                        "Director": "Dr. Stephen Richter",
+                        "Grant Title": "Enchancing Research Capacity in Appalachia",
+                        "Agency Name": "National Science Foundation",
+                        "Amount Awarded": "$300,474"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Facilities for Lilley Cornett Woods Field Station",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5232",
+                        "Director": "Dr. Sherry Harrel",
+                        "Grant Title": "Distribution, Movement and Ecology of Etheostoma sagitta",
+                        "Agency Name": "United States Fish and Wildlife Service",
+                        "Amount Awarded": "$22,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "spilotum, the Kentucky Arrow Darter",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5300",
+                        "Director": "Dr. Stephen Richter",
+                        "Grant Title": "Effects of interactions between Notophthalmus viridescens",
+                        "Agency Name": "Kentucky Academy of Science",
+                        "Amount Awarded": "$1,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "and lithobates sylvaticus in a ridge-top wetland ecosystem",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5297",
+                        "Director": "Dr. Stephen Richter",
+                        "Grant Title": "Comparative Landscape Genetics of Amphibians Across a",
+                        "Agency Name": "Kentucky NSF EPSCoR",
+                        "Amount Awarded": "$4,358"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Ridge-Top Wetland Ecosystem",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5290",
+                        "Director": "Dr. Jarrod Thaxton",
+                        "Grant Title": "Linking Theory and Practice to Overcome Barriers to",
+                        "Agency Name": "Kentucky NSF EPSCoR",
+                        "Amount Awarded": "$35,592"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Ecosystem Restoration",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5200",
+                        "Director": "Dr. Stephen Richter",
+                        "Grant Title": "Conservation genetics of gopher frogs in Alabama",
+                        "Agency Name": "Alabama Division of Wildlife and Freshwater Fis",
+                        "Amount Awarded": "$7,045"
+                    },
+                    {
+                        "GrantID": "5254",
+                        "Director": "Dr. David Brown",
+                        "Grant Title": "Evaluation of Management Strategies for Long-Term",
+                        "Agency Name": "Kentucky Natural Lands Trust",
+                        "Amount Awarded": "$6,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Maintenance of Running Buffalo Clover (Trifolium",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "stoloniferum) populations in Kentucky",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5189",
+                        "Director": "Dr. Amy Braccia",
+                        "Grant Title": "Assessment of Hydrologic Functions in Combined Stream",
+                        "Agency Name": "University of Louisville",
+                        "Amount Awarded": "$59,732"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "and Floodplain Restoration",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5187",
+                        "Director": "Dr. Stephen Richter",
+                        "Grant Title": "Statewide validation of the Kentucky Wetland Rapid",
+                        "Agency Name": "Kentucky Division of Water",
+                        "Amount Awarded": "$65,451"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Assessment Method (KY-WRAM) and Indices of Biotic",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Integrity",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5231",
+                        "Director": "Dr. Sherry Harrel",
+                        "Grant Title": "Distribution, Movement and Ecology of Etheostoma sagitta",
+                        "Agency Name": "Kentucky Department of Fish and Wildlife Resou",
+                        "Amount Awarded": "$57,160"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "spilotum, the Kentucky Arrow Darter",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5298",
+                        "Director": "Dr. David Hayes",
+                        "Grant Title": "Molecular Analyses in Conjunction with Ongoing",
+                        "Agency Name": "Missouri Department of Conservation",
+                        "Amount Awarded": "$1,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Phylogenetics Research",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5301",
+                        "Director": "Dr. Gary Ritchison",
+                        "Grant Title": "Vocal Responses of Blue Jays to Raptors",
+                        "Agency Name": "Kentucky Academy of Science",
+                        "Amount Requested": "$4,780"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "referential alarm calls to convey information to conspecifics",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5179",
+                        "Director": "Dr. Stephen Richter",
+                        "Grant Title": "Developing a genotyping tool for assisting the management of",
+                        "Agency Name": "San Diego Zoo",
+                        "Amount Requested": "$0"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "the critically endangered dusky gopher frog",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5182",
+                        "Director": "Dr. Stephen Richter",
+                        "Grant Title": "Reversing the Decline of an Eastern Grassland Indicator",
+                        "Agency Name": "Texas Parks and Wildlife Department",
+                        "Amount Requested": "$22,008"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Species",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5302",
+                        "Director": "Dr. Gary Ritchison",
+                        "Grant Title": "Provisioning Strateies of Male and Female American Kestrel",
+                        "Agency Name": "Kentucky Academy of Science",
+                        "Amount Requested": "$1,283"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Effects of Variation in the Intensity of Beggin by Nestlings",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "and chemotypic diversification of vertically transmitted plant-",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "symbiotic fungi",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5305",
+                        "Director": "Dr. Stephen Richter",
+                        "Grant Title": "Effects of interactions between Notophthalmus viridescens",
+                        "Agency Name": "The Wetland Foundation",
+                        "Amount Requested": "$800"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "and Lithobates sylvaticus in a ridge-top wetland system",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5310",
+                        "Director": "Dr. Brad Ruhfel",
+                        "Grant Title": "Plastid Phlogenomics of Podostemaceae",
+                        "Agency Name": "Oak Ridge Associated Universities",
+                        "Amount Requested": "$5,000"
+                    },
+                    {
+                        "GrantID": "5312",
+                        "Director": "Dr. Lindsay Calderon",
+                        "Grant Title": "iPLA2beta a novel regulator of breast cancer tumor growth",
+                        "Agency Name": "University of Louisville",
+                        "Amount Requested": "$112,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "and metastasis",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5279",
+                        "Director": "Dr. Lindsay Calderon",
+                        "Grant Title": "Enchancing Appalachian Undergraduate Education through",
+                        "Agency Name": "American Heart Association",
+                        "Amount Requested": "$40,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "the Cardiovascular Summer Research Institute",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5100",
+                        "Director": "Dr. Patrick Calie",
+                        "Grant Title": "Nonparametric Approaches to Estimate Phylogenetic Tree",
+                        "Agency Name": "National Science Foundation",
+                        "Amount Requested": "$69,557"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Distributions",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Pending": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5332",
+                        "Director": "Dr. Rebekah Waikel",
+                        "Grant Title": "An Early College Initiative to Retain Appalachian Students in",
+                        "Agency Name": "Association of American College and Universitie",
+                        "Amount Requested": "$329,489"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "STEM Fields",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5324",
+                        "Director": "Dr. Rebekah Waikel",
+                        "Grant Title": "Bridge Funding for Estrogen Mediated Regulation of miRNAs",
+                        "Agency Name": "University of Louisville",
+                        "Amount Requested": "$69,996"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "in Cardiac Remodeling",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "27"
+                    },
+                    {
+                        "Approved": "15"
+                    },
+                    {
+                        "Pending": "2"
+                    },
+                    {
+                        "Declined": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5285",
+                        "Director": "Dr. Tanea Reed",
+                        "Grant Title": "The role of glutathione elevation in moderate traumatic brain",
+                        "Agency Name": "Kentucky NSF EPSCoR",
+                        "Amount Awarded": "$10,440"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "injury",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5343",
+                        "Director": "Dr. Lori Wilson",
+                        "Grant Title": "Startup Funds for Assistant Professor of Inorganic Chemistry",
+                        "Agency Name": "Kentucky Science and Technology Corporation",
+                        "Amount Awarded": "$25,000"
+                    },
+                    {
+                        "GrantID": "5286",
+                        "Director": "Dr. Buchang Shi",
+                        "Grant Title": "Towards understanding the mechanism of hydrocarbon",
+                        "Agency Name": "Kentucky NSF EPSCoR",
+                        "Amount Awarded": "$25,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "synthesis on iron catalysts",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5365",
+                        "Director": "Dr. Lori Wilson",
+                        "Grant Title": "The application of molecular beacons as a diagnostic",
+                        "Agency Name": "Kentucky NSF EPSCoR",
+                        "Amount Awarded": "$59,361"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "mechanism for rapid SNP genotyping of highly degraded",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "forensic samples",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5307",
+                        "Director": "Dr. David Cunningham",
+                        "Grant Title": "Coating Research",
+                        "Agency Name": "Abbott Point-of-Care",
+                        "Amount Awarded": "$25,000"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5320",
+                        "Director": "Dr. Tanea Reed",
+                        "Grant Title": "A novel therapeutic treatment for lipid peroxidation reduction",
+                        "Agency Name": "University of Louisville",
+                        "Amount Requested": "$49,981"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "and gluathione elevation in moderate traumatic brain injury",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5373",
+                        "Director": "Dr. Lori Wilson",
+                        "Grant Title": "The application of molecular beacons as a diagnostic",
+                        "Agency Name": "University of Louisville",
+                        "Amount Requested": "$29,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "mechanism for the rapid genotyping of InDels and SNPs",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5288",
+                        "Director": "Dr. David Cunningham",
+                        "Grant Title": "Collaborative Research",
+                        "Agency Name": "National Science Foundation",
+                        "Amount Requested": "$231,244"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "NanoMechanical forces in free-standing fibrous thin-film",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "substrates to understand cell attachment, growth, and",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "proliferation",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5161",
+                        "Director": "Dr. Buchang Shi",
+                        "Grant Title": "Sugar production from low temperature pre-treated biomass",
+                        "Agency Name": "Kentucky Science and Technology Corporation",
+                        "Amount Requested": "$29,998"
+                    },
+                    {
+                        "GrantID": "5287",
+                        "Director": "Dr. Donghui Quan",
+                        "Grant Title": "Chemical Modeling of Newly Detected Interstellar Nitro-",
+                        "Agency Name": "University of Kentucky",
+                        "Amount Requested": "$36,856"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Prebiotic Modules",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5311",
+                        "Director": "Dr. Margaret Ndinguri",
+                        "Grant Title": "Targeting cancer cells using luteinizing hormone releasing",
+                        "Agency Name": "University of Louisville",
+                        "Amount Requested": "$112,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "hormone (LHRH) peptide moiety",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Pending": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5328",
+                        "Director": "Dr. Tanea Reed",
+                        "Grant Title": "A novel therapeutic treatment for lipid peroxidation reduction",
+                        "Agency Name": "University of Louisville",
+                        "Amount Requested": "$69,919"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "and gluthathione elevation in moderate traumatic brain injury.",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "12"
+                    },
+                    {
+                        "Approved": "5"
+                    },
+                    {
+                        "Pending": "1"
+                    },
+                    {
+                        "Declined": "6"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5158",
+                        "Director": "Dr. Mengkun Yang",
+                        "Grant Title": "iPad Application for Assisting in Treatment of Children with",
+                        "Agency Name": "WHAS Crusade for Children",
+                        "Amount Requested": "$3,046"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Autism Spectrum Disorders (ASD)",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "0"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5303",
+                        "Director": "Dr. Sally Martin",
+                        "Grant Title": "EKU Writing Project",
+                        "Agency Name": "Kentucky Department of Education",
+                        "Amount Awarded": "$40,761"
+                    },
+                    {
+                        "GrantID": "5366",
+                        "Director": "Dr. Lisa Bosley",
+                        "Grant Title": "Developmental Education Acceleration and Co-Requisite",
+                        "Agency Name": "Council on Post-Secondary Education",
+                        "Amount Awarded": "$17,704"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Models",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5255",
+                        "Director": "Dr. Sally Martin",
+                        "Grant Title": "Professional Development in a High-Need School",
+                        "Agency Name": "National Writing Project",
+                        "Amount Awarded": "$20,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "County High School",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5275",
+                        "Director": "Dr. Richard Mott",
+                        "Grant Title": "Textpeditions",
+                        "Agency Name": "National Endowment for the Humanities",
+                        "Amount Requested": "$59,643"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Multimedia, Humanities-oriented Journeys",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "4"
+                    },
+                    {
+                        "Approved": "3"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5340",
+                        "Director": "Dr. Abby Poffenberger",
+                        "Grant Title": "Latino Educational Advancement Program",
+                        "Agency Name": "Kentucky Latino Educational Alliance",
+                        "Amount Awarded": "$35,000"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5282",
+                        "Director": "Dr. Rachel Williams",
+                        "Grant Title": "Tournees Film Festival",
+                        "Agency Name": "French American Cultural Exchange",
+                        "Amount Requested": "$1,800"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "1"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "phenology to the pollinator across land covers in Eastern",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Kentucky",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "0"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5294",
+                        "Director": "Dr. William Hatcher",
+                        "Grant Title": "Regional Broadband Plans and Promotion in the East Region",
+                        "Agency Name": "The Commonwealth Office of Technology",
+                        "Amount Awarded": "$67,773"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "E-Government",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5144",
+                        "Director": "Dr. Yong Wang",
+                        "Grant Title": "Boundary Estimation of Spatial Data with an Application to",
+                        "Agency Name": "North Dakota State University",
+                        "Amount Requested": "$41,462"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Disease Incidents",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "0"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "1"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5195",
+                        "Director": "Dr. Marco Ciocca",
+                        "Grant Title": "The Global Response of the Thermospheric Neautral Winds",
+                        "Agency Name": "University of Michigan",
+                        "Amount Requested": "$15,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "to Storm Forcing and the Resulting Effect on the Ionsphere",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5299",
+                        "Director": "Dr. Marco Ciocca",
+                        "Grant Title": "EKU Observatory",
+                        "Agency Name": "University of Kentucky",
+                        "Amount Requested": "$39,952"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "0"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5154",
+                        "Director": "Dr. Myra Beth Bundy",
+                        "Grant Title": "Eastern Kentucky University Developmental Disabilities Clinic",
+                        "Agency Name": "WHAS Crusade for Children",
+                        "Amount Awarded": "$4,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Autism Social Groups",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5193",
+                        "Director": "Dr. Jonathan S. Gore",
+                        "Grant Title": "Relational Motivation in Goal Pursuit",
+                        "Agency Name": "National Science Foundation",
+                        "Amount Requested": "$50,281"
+                    },
+                    {
+                        "GrantID": "5276",
+                        "Director": "Dr. Jaime Henning",
+                        "Grant Title": "Development and Evaluation of Psych 360 - A Graduate",
+                        "Agency Name": "American Psychological Association",
+                        "Amount Requested": "$7,697"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Student Psychology Performance Assessment Tool",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "3"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "2"
+                    },
+                    {
+                        "Submitted": "56"
+                    },
+                    {
+                        "Approved": "27"
+                    },
+                    {
+                        "Pending": "3"
+                    },
+                    {
+                        "Declined": "26"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5191",
+                        "Director": "Dr. William E. Davis",
+                        "Grant Title": "Professional Development for Teacher Educators in Career",
+                        "Agency Name": "Office of Career and Technical Education",
+                        "Amount Awarded": "$12,750"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "and Technical Education",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5186",
+                        "Director": "Dr. William E. Davis",
+                        "Grant Title": "Field Based Teacher Education",
+                        "Agency Name": "Office of Career and Technical Education",
+                        "Amount Awarded": "$65,000"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "2"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5322",
+                        "Director": "Dr. William E. Davis",
+                        "Grant Title": "Perkins Leadership Carry Forward",
+                        "Agency Name": "Office of Career and Technical Education",
+                        "Amount Awarded": "$2,074"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Development for Technical Education Personnel",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5068",
+                        "Director": "Ms. Kristel Smith",
+                        "Grant Title": "Eastern Kentucky Region Innovation and Commercialization",
+                        "Agency Name": "Kentucky Science and Technology Corporation",
+                        "Amount Awarded": "$175,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Center",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Technology",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5209",
+                        "Director": "Dr. Tamara Horn",
+                        "Grant Title": "Apiforestation",
+                        "Agency Name": "James River Coal",
+                        "Amount Awarded": "$9,000"
+                    },
+                    {
+                        "GrantID": "5248",
+                        "Director": "Mr. Jason Rainey",
+                        "Grant Title": "EKU Small Business Development Center",
+                        "Agency Name": "University of Kentucky",
+                        "Amount Awarded": "$96,000"
+                    },
+                    {
+                        "GrantID": "5173",
+                        "Director": "Mr. Ian Mooers",
+                        "Grant Title": "CEDET Technical Training Program",
+                        "Agency Name": "United States Department of Agriculture",
+                        "Amount Awarded": "$45,267"
+                    },
+                    {
+                        "GrantID": "5210",
+                        "Director": "Dr. Tamara Horn",
+                        "Grant Title": "Apiforestation",
+                        "Agency Name": "Spencer Construction",
+                        "Amount Awarded": "$10,000"
+                    },
+                    {
+                        "GrantID": "5252",
+                        "Director": "Mr. Jason Rainey",
+                        "Grant Title": "EKU Small Business Development Center (HB 145 Funds)",
+                        "Agency Name": "University of Kentucky",
+                        "Amount Awarded": "$13,500"
+                    },
+                    {
+                        "GrantID": "5395",
+                        "Director": "Mr. Ian Mooers",
+                        "Grant Title": "2014 Idea State U Competition",
+                        "Agency Name": "Kentucky Science and Technology Corporation",
+                        "Amount Awarded": "$1,500"
+                    },
+                    {
+                        "GrantID": "5201",
+                        "Director": "Mr. Ian Mooers",
+                        "Grant Title": "Apiforestation",
+                        "Agency Name": "Arch Coal, Inc.",
+                        "Amount Awarded": "$15,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Research",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5156",
+                        "Director": "Mr. Ian Mooers",
+                        "Grant Title": "Real Estate Education Grant",
+                        "Agency Name": "Kentucky Real Estate Commission",
+                        "Amount Awarded": "$16,000"
+                    },
+                    {
+                        "GrantID": "5208",
+                        "Director": "Mr. Ian Mooers",
+                        "Grant Title": "Apiforestation",
+                        "Agency Name": "TECO Coal Services",
+                        "Amount Awarded": "$20,000"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5270",
+                        "Director": "Dr. Tamara Horn",
+                        "Grant Title": "Creating Pollinator-Friendly Campus Criteria",
+                        "Agency Name": "Kentucky Division of Forestry",
+                        "Amount Requested": "$10,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Phenology to the Pollinators Across Land Covers in Eastern",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "KY",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "11"
+                    },
+                    {
+                        "Approved": "9"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5225",
+                        "Director": "Dr. William E. Davis",
+                        "Grant Title": "Perkins Grant, FY 2014",
+                        "Agency Name": "Office of Career and Technical Education",
+                        "Amount Awarded": "$20,582"
+                    },
+                    {
+                        "GrantID": "5221",
+                        "Director": "Dr. William E. Davis",
+                        "Grant Title": "Perkins Grant, FY 2014",
+                        "Agency Name": "Office of Career and Technical Education",
+                        "Amount Awarded": "$2,546"
+                    },
+                    {
+                        "GrantID": "5222",
+                        "Director": "Dr. William E. Davis",
+                        "Grant Title": "Perkins Grant, FY 2014",
+                        "Agency Name": "Office of Career and Technical Education",
+                        "Amount Awarded": "$1,000"
+                    },
+                    {
+                        "GrantID": "5224",
+                        "Director": "Dr. William E. Davis",
+                        "Grant Title": "Perkins Grant, FY 2014",
+                        "Agency Name": "Office of Career and Technical Education",
+                        "Amount Awarded": "$4,000"
+                    },
+                    {
+                        "GrantID": "5226",
+                        "Director": "Dr. William E. Davis",
+                        "Grant Title": "Perkins Grant, FY 2014",
+                        "Agency Name": "Office of Career and Technical Education",
+                        "Amount Awarded": "$6,210"
+                    },
+                    {
+                        "GrantID": "5227",
+                        "Director": "Dr. William E. Davis",
+                        "Grant Title": "Perkins Grant, FY 2014",
+                        "Agency Name": "Office of Career and Technical Education",
+                        "Amount Awarded": "$14,251"
+                    },
+                    {
+                        "GrantID": "5223",
+                        "Director": "Dr. William E. Davis",
+                        "Grant Title": "Perkins Grant, FY 2014",
+                        "Agency Name": "Office of Career and Technical Education",
+                        "Amount Awarded": "$5,000"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "7"
+                    },
+                    {
+                        "Approved": "7"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    },
+                    {
+                        "Submitted": "22"
+                    },
+                    {
+                        "Approved": "20"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5251",
+                        "Director": "Paula Jones",
+                        "Grant Title": "Adult Education Services in Madison, Clay, and Garrard",
+                        "Agency Name": "Kentucky Adult Education",
+                        "Amount Awarded": "$799,394"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Counties",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "and Sign Language Interpreters",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5259",
+                        "Director": "Ms. Tricia Davis",
+                        "Grant Title": "Deafblind Equipment Distribution Program",
+                        "Agency Name": "Federal Communications Commission",
+                        "Amount Awarded": "$144,451"
+                    },
+                    {
+                        "GrantID": "5039",
+                        "Director": "Dr. Laurence Hayes",
+                        "Grant Title": "Office of Vocational Rehabilitation/American Sign Language",
+                        "Agency Name": "Kentucky Office of Vocational Rehabilitation",
+                        "Amount Awarded": "$104,113"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Interpreter Education Inititiave",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Accessibility Project, FY 2014",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5233",
+                        "Director": "Dr. Laurence Hayes",
+                        "Grant Title": "ITP P-12 Educational Interpreter In-Service 2013-2014",
+                        "Agency Name": "Kentucky Department of Education",
+                        "Amount Awarded": "$527,532"
+                    },
+                    {
+                        "GrantID": "5040",
+                        "Director": "Dr. Laurence Hayes",
+                        "Grant Title": "Office of Vocational Rehabilitation/American Sign Language",
+                        "Agency Name": "Kentucky Office of Vocational Rehabilitation",
+                        "Amount Awarded": "$23,837"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Interpreter Education Inititiave",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5041",
+                        "Director": "Dr. Laurence Hayes",
+                        "Grant Title": "Office of Vocational Rehabilitation/American Sign Language",
+                        "Agency Name": "Kentucky Office of Vocational Rehabilitation",
+                        "Amount Awarded": "$351,059"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Interpreter Education Inititiave",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "EKU Richmond Interpreter Training Program, FY 2014",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5042",
+                        "Director": "Dr. Laurence Hayes",
+                        "Grant Title": "Office of Vocational Rehabilitation/American Sign Language",
+                        "Agency Name": "Kentucky Office of Vocational Rehabilitation",
+                        "Amount Awarded": "$363,137"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Interpreter Education Inititiave",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Interpreting Services, FY 2013",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "7"
+                    },
+                    {
+                        "Approved": "7"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5246",
+                        "Director": "Ms. Krista Althauser",
+                        "Grant Title": "Kentucky Center for Mathematics - Regional Coordinator",
+                        "Agency Name": "Northern Kentucky University",
+                        "Amount Awarded": "$70,777"
+                    },
+                    {
+                        "GrantID": "5389",
+                        "Director": "Dr. Delinda Dent",
+                        "Grant Title": "Kentucky Reading Project - Cadre 16",
+                        "Agency Name": "Collaborative Center for Literacy Development",
+                        "Amount Awarded": "$61,795"
+                    },
+                    {
+                        "GrantID": "5190",
+                        "Director": "Mr. Billy Bennett",
+                        "Grant Title": "Opening Environmental Education to all Students",
+                        "Agency Name": "Morehead State University",
+                        "Amount Awarded": "$17,500"
+                    },
+                    {
+                        "GrantID": "5369",
+                        "Director": "Dr. Diana Porter",
+                        "Grant Title": "Adolescent Literacy Project (ALP) FY15",
+                        "Agency Name": "Collaborative Center for Literacy Development",
+                        "Amount Awarded": "$52,560"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5277",
+                        "Director": "Dr. Melinda Wilder",
+                        "Grant Title": "Implementing Next Generation Science Standards through",
+                        "Agency Name": "Kentucky Department of Education",
+                        "Amount Requested": "$75,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Research-Based Instructional Units for Middle School",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5159",
+                        "Director": "Dr. Melinda Wilder",
+                        "Grant Title": "Kentucky Sustainable Energy Education Development",
+                        "Agency Name": "United States Department of Agriculture",
+                        "Amount Requested": "$25,000"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "6"
+                    },
+                    {
+                        "Approved": "4"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5281",
+                        "Director": "Dr. Norman Powell",
+                        "Grant Title": "Call Me Mister Academic Leadership Academy 2014",
+                        "Agency Name": "Georgetown College",
+                        "Amount Awarded": "$15,000"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5004",
+                        "Director": "Dr. Aaron Thompson",
+                        "Grant Title": "Senior Vice President, Academic Affairs for the Council",
+                        "Agency Name": "Council on Post-Secondary Education",
+                        "Amount Awarded": "$312,222"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5257",
+                        "Director": "Dr. Teresa Wallace",
+                        "Grant Title": "Developing Effective School Leaders for Turnaround Schools",
+                        "Agency Name": "U.S. Department of Education",
+                        "Amount Requested": "$3,682,794"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "4976",
+                        "Director": "Dr. Ronnie Nolan",
+                        "Grant Title": "Kentucky Educational Collaborative for State Agency",
+                        "Agency Name": "Kentucky Department of Juvenile Justice",
+                        "Amount Awarded": "$571,119"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Children (KECSAC), FY 2014",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5306",
+                        "Director": "Mr. Michael Hay",
+                        "Grant Title": "Strategies, Opportunities, and Services to Out of School",
+                        "Agency Name": "Kentucky Department of Education",
+                        "Amount Awarded": "$20,568"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Youth (SOSOSY) Consortium Incentive Grant",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5247",
+                        "Director": "Mr. Michael Hay",
+                        "Grant Title": "Southeastern KY Migrant Education Program Administrative",
+                        "Agency Name": "Kentucky Department of Education",
+                        "Amount Awarded": "$485,355"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Center",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "2"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5207",
+                        "Director": "Dr. Kim Naugle",
+                        "Grant Title": "Center for Learning Excellence - FY 2014",
+                        "Agency Name": "Kentucky Department of Education",
+                        "Amount Awarded": "$95,360"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5197",
+                        "Director": "Peggy Petrilli",
+                        "Grant Title": "Kentucky Teacher Internship Program",
+                        "Agency Name": "Education Professional Standards Board",
+                        "Amount Awarded": "$69,432"
+                    },
+                    {
+                        "GrantID": "5295",
+                        "Director": "Peggy Petrilli",
+                        "Grant Title": "Kentucky Teacher Internship Program - Technology Interns",
+                        "Agency Name": "Education Professional Standards Board",
+                        "Amount Awarded": "$4,010"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "2"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    },
+                    {
+                        "Submitted": "23"
+                    },
+                    {
+                        "Approved": "20"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5309",
+                        "Director": "Dr. Susan Fister",
+                        "Grant Title": "Bluegrass Community Health Center",
+                        "Agency Name": "Health Resources and Services Administration",
+                        "Amount Awarded": "$2,001,882"
+                    },
+                    {
+                        "GrantID": "5264",
+                        "Director": "Dr. Susan Fister",
+                        "Grant Title": "Family Planning",
+                        "Agency Name": "Lexington-Fayette County Health Department",
+                        "Amount Awarded": "$48,360"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "2"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5304",
+                        "Director": "Dr. Jason Marion",
+                        "Grant Title": "Investigating Harmful Cyanobacteria Blooms and Cyanotoxin",
+                        "Agency Name": "Kentucky Academy of Science",
+                        "Amount Requested": "$4,800"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Formation in Central Kentucky Lakes",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Pending": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "4943",
+                        "Director": "Dr. Carolyn Harvey",
+                        "Grant Title": "Kentucky-Appalachian Public Health Training Center",
+                        "Agency Name": "University of Kentucky Research Foundation",
+                        "Amount Requested": "$15,987"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "0"
+                    },
+                    {
+                        "Pending": "1"
+                    },
+                    {
+                        "Declined": "1"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Pending": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5308",
+                        "Director": "Dr Helyne Frederick",
+                        "Grant Title": "Understanding Sexual Risk behavior and Substance Use",
+                        "Agency Name": "Social Security Administration",
+                        "Amount Requested": "$3,940"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "among Grenadian Youth",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "0"
+                    },
+                    {
+                        "Pending": "1"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5237",
+                        "Director": "Dr. Susan Fister",
+                        "Grant Title": "Outreach and Enrollment Assistance Project",
+                        "Agency Name": "Health Resources and Services Administration",
+                        "Amount Awarded": "$121,018"
+                    },
+                    {
+                        "GrantID": "5236",
+                        "Director": "Dr. Judy Short",
+                        "Grant Title": "Eastern Kentucky University Parternship with Lake",
+                        "Agency Name": "Lake Cumberland Regional Hospital, LLC",
+                        "Amount Awarded": "$77,832"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Cumberland Regional Hospital",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "2"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Employment",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5101",
+                        "Director": "Dr. Colleen Schneck",
+                        "Grant Title": "Relationship of Student Outcomes to School Based",
+                        "Agency Name": "U. S. Department of Education",
+                        "Amount Requested": "$1,104,501"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Occupational Therapy Services",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5274",
+                        "Director": "Dr. Ryan Sharp",
+                        "Grant Title": "Understanding use patterns and environmental awareness of",
+                        "Agency Name": "Daniel Boone National Forest",
+                        "Amount Awarded": "$3,127"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "wilderness visitors to the Red River Gorge, Daniel Boone",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "National Forest",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5262",
+                        "Director": "Dr. Jon McChesney",
+                        "Grant Title": "Graduate Assistant - Special Populations, City of Richmond",
+                        "Agency Name": "City of Richmond",
+                        "Amount Awarded": "$15,000"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "2"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    },
+                    {
+                        "Submitted": "11"
+                    },
+                    {
+                        "Approved": "7"
+                    },
+                    {
+                        "Pending": "2"
+                    },
+                    {
+                        "Declined": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5145",
+                        "Director": "Ms. Susan Cornelius",
+                        "Grant Title": "Telework Readiness Program",
+                        "Agency Name": "Eastern Kentucky Concentrated Employment Pr",
+                        "Amount Awarded": "$33,806"
+                    },
+                    {
+                        "GrantID": "5206",
+                        "Director": "Ms. Susan Cornelius",
+                        "Grant Title": "21st Century Community Learning Centers",
+                        "Agency Name": "Kentucky Department of Education",
+                        "Amount Awarded": "$340,977"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "2"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5234",
+                        "Director": "Mr. Jon Akers",
+                        "Grant Title": "Kentucky Center for Instructional Discipline",
+                        "Agency Name": "Kentucky Department of Education",
+                        "Amount Awarded": "$719,496"
+                    },
+                    {
+                        "GrantID": "5009",
+                        "Director": "Mr. Jon Akers",
+                        "Grant Title": "Kentucky Center for School Safety - FY 2014",
+                        "Agency Name": "Kentucky Department of Education",
+                        "Amount Awarded": "$830,930"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "2"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5245",
+                        "Director": "Mr. Willard Drake",
+                        "Grant Title": "Susan Harwood Training Grant",
+                        "Agency Name": "Occupational Safety and Health Administration",
+                        "Amount Awarded": "$49,854"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Injury and Illness Prevention Programs (I2P2) Targeting",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Small Businesses and New Businesses in Appalachia",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5345",
+                        "Director": "Dr. Scott Rockwell",
+                        "Grant Title": "Hazard of storing ammonium nitrate next to small arms",
+                        "Agency Name": "Federal Emergency Management Agency (FEM",
+                        "Amount Requested": "$428,634"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "ammunition during residential structure fires",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "0"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5323",
+                        "Director": "Dr. James Pharr",
+                        "Grant Title": "NIST Summer Undergraduate Research Fellowship",
+                        "Agency Name": "National Institute of Standards and Technology",
+                        "Amount Awarded": "$8,735"
+                    },
+                    {
+                        "GrantID": "4984",
+                        "Director": "Dr. Terry Kline",
+                        "Grant Title": "Kentucky State Traffic School Program - FY 2014",
+                        "Agency Name": "Kentucky Transportation Cabinet",
+                        "Amount Awarded": "$596,433"
+                    },
+                    {
+                        "GrantID": "5171",
+                        "Director": "Dr. Terry Kline",
+                        "Grant Title": "Kentucky Motorcycle Rider Education Project",
+                        "Agency Name": "Kentucky Justice and Public Safety Cabinet",
+                        "Amount Awarded": "$1,109,040"
+                    },
+                    {
+                        "GrantID": "4982",
+                        "Director": "Dr. Terry Kline",
+                        "Grant Title": "Kentucky Graduated Licensing Classroom Program - FY 2014",
+                        "Agency Name": "Kentucky Transportation Cabinet",
+                        "Amount Awarded": "$787,119"
+                    },
+                    {
+                        "GrantID": "4898",
+                        "Director": "Dr. Scotty Dunlap",
+                        "Grant Title": "NIOSH Education Research Center",
+                        "Agency Name": "University of Kentucky",
+                        "Amount Awarded": "$87,260"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5136",
+                        "Director": "Dr. Scott Rockwell",
+                        "Grant Title": "Enhancing Undergraduate Fire Protection Engineering Tech",
+                        "Agency Name": "National Science Foundation",
+                        "Amount Requested": "$218,145"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Laboratory Practices through Incorporation of a Remote",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Delivery System",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5163",
+                        "Director": "Mr. Greg Gorbett",
+                        "Grant Title": "Wrongful Conviction Review Program",
+                        "Agency Name": "Monterey College of Law",
+                        "Amount Requested": "$38,635"
+                    },
+                    {
+                        "GrantID": "5292",
+                        "Director": "Dr. Daniel Miller",
+                        "Grant Title": "First Responder Equipment Project Grant",
+                        "Agency Name": "Kentucky Office of Homeland Security",
+                        "Amount Requested": "$66,951"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "8"
+                    },
+                    {
+                        "Approved": "5"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "3"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5150",
+                        "Director": "Dr. Betsy Matthews",
+                        "Grant Title": "Collaborative Research",
+                        "Agency Name": "National Science Foundation",
+                        "Amount Requested": "$178,968"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Urban and Rural Settings",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    },
+                    {
+                        "GrantID": "5203",
+                        "Director": "Dr. Betsy Matthews",
+                        "Grant Title": "Kentucky Department of Corrections Smart Probation Project",
+                        "Agency Name": "Kentucky Department of Corrections",
+                        "Amount Requested": "$112,628"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "0"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5229",
+                        "Director": "Ms. Lynn Dee Sowders",
+                        "Grant Title": "Juvenile Justice Training Center - Cost Center",
+                        "Agency Name": "Kentucky Department of Juvenile Justice",
+                        "Amount Awarded": "$250,000"
+                    },
+                    {
+                        "GrantID": "5235",
+                        "Director": "Ms. Kathy Autrey",
+                        "Grant Title": "University Training Consortium Professional Development",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$22,615,503"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "and Training - FY 2014",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5212",
+                        "Director": "Dr. Elizabeth Wachtel",
+                        "Grant Title": "Mental Health and Substance Abuse Initiative, FY 2014",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$384,809"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "and Facility Coordination",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5011",
+                        "Director": "Mr. Hal Fink",
+                        "Grant Title": "Kentucky Department of Corrections Training and Technical",
+                        "Agency Name": "Kentucky Department of Corrections",
+                        "Amount Awarded": "$91,434"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Assistance Project, FY 2014",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5211",
+                        "Director": "Dr. Elizabeth Wachtel",
+                        "Grant Title": "Mental Health and Substance Abuse Initiative, FY 2014",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$235,520"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Training, Technical Assistance, and Program Support",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5213",
+                        "Director": "Dr. Elizabeth Wachtel",
+                        "Grant Title": "Mental Health and Substance Abuse Initiative, FY 2014",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$442,765"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "SEED",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5194",
+                        "Director": "Ms. Crystal Barger",
+                        "Grant Title": "University Training Consortium - Child Support",
+                        "Agency Name": "Kentucky Cabinet for Health and Family Service",
+                        "Amount Awarded": "$146,198"
+                    },
+                    {
+                        "GrantID": "5238",
+                        "Director": "Ms. Crystal Barger",
+                        "Grant Title": "University Training Consortium - Child Support Cost Center",
+                        "Agency Name": "Kentucky Cabinet for Health and Family Service",
+                        "Amount Awarded": "$54,000"
+                    },
+                    {
+                        "GrantID": "5330",
+                        "Director": "Dr. Elizabeth Wachtel",
+                        "Grant Title": "Mental Health and Substance Abuse Initiative, FY 2014",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$320,203"
+                    },
+                    {
+                        "GrantID": "5228",
+                        "Director": "Ms. Lynn Dee Sowders",
+                        "Grant Title": "Juvenile Justice Training Center",
+                        "Agency Name": "Kentucky Department of Juvenile Justice",
+                        "Amount Awarded": "$365,085"
+                    },
+                    {
+                        "GrantID": "5230",
+                        "Director": "Ms. Kathy Autrey",
+                        "Grant Title": "University Training Consortium Professional Development",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$1,258,200"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "and Training Cost Centers",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5013",
+                        "Director": "Mr. Hal Fink",
+                        "Grant Title": "Kentucky Department of Corrections Correctional Educational",
+                        "Agency Name": "Kentucky Department of Corrections",
+                        "Amount Awarded": "$800,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Program, FY 2014",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5219",
+                        "Director": "Dr. Elizabeth Wachtel",
+                        "Grant Title": "Mental Health and Substance Abuse Initiative, FY 2014",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$84,017"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Kentucky Adolescent Treatment, Enhancement, and",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Dissemination",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5325",
+                        "Director": "Dr. Elizabeth Wachtel",
+                        "Grant Title": "DBHDID- Policy Advisor",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$52,066"
+                    },
+                    {
+                        "GrantID": "5249",
+                        "Director": "Ms. Crystal Barger",
+                        "Grant Title": "Kentucky Health Benefit Exchange",
+                        "Agency Name": "Office of Kentucky Health Benefit Exchange",
+                        "Amount Awarded": "$332,196"
+                    },
+                    {
+                        "GrantID": "5064",
+                        "Director": "Dr. Elizabeth Wachtel",
+                        "Grant Title": "DBHDID EKU Acting Director, FY 2014",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$0"
+                    },
+                    {
+                        "GrantID": "5216",
+                        "Director": "Dr. Elizabeth Wachtel",
+                        "Grant Title": "Mental Health and Substance Abuse Initiative, FY 2014",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$460,248"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Training and Certification Program",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5215",
+                        "Director": "Dr. Elizabeth Wachtel",
+                        "Grant Title": "Mental Health and Substance Abuse Initiative, FY 2014",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$449,628"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Substance Abuse Prevention Services",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5069",
+                        "Director": "Ms. Crystal Barger",
+                        "Grant Title": "Early Childhood Mental Health, FY 2014",
+                        "Agency Name": "Kentucky Cabinet for Health and Family Service",
+                        "Amount Awarded": "$209,000"
+                    },
+                    {
+                        "GrantID": "5214",
+                        "Director": "Dr. Elizabeth Wachtel",
+                        "Grant Title": "Mental Health and Substance Abuse Initiative, FY 2014",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$413,746"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Impact Plus",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5217",
+                        "Director": "Dr. Elizabeth Wachtel",
+                        "Grant Title": "Mental Health and Substance Abuse Initiative, FY 2014",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$243,801"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Substance Abuse Treatment, Training, and Support",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "4979",
+                        "Director": "Ms. Crystal Barger",
+                        "Grant Title": "Department for Medicaid Services, FY 2014",
+                        "Agency Name": "Kentucky Cabinet for Health and Family Service",
+                        "Amount Awarded": "$75,540"
+                    },
+                    {
+                        "GrantID": "5268",
+                        "Director": "Ms. Kathy Autrey",
+                        "Grant Title": "Project SAFESPACE (Screening and Assessment for",
+                        "Agency Name": "University of Louisville",
+                        "Amount Awarded": "$16,974"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Enhanced Service Provision to All Children Everyday)",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5218",
+                        "Director": "Dr. Elizabeth Wachtel",
+                        "Grant Title": "Mental Health and Substance Abuse Initiative, FY 2014",
+                        "Agency Name": "Cabinet for Health and Family Services",
+                        "Amount Awarded": "$263,818"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "SPEAK",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5176",
+                        "Director": "Mr. Hal Fink",
+                        "Grant Title": "Second Chance Act Technology Center Training Program",
+                        "Agency Name": "Kentucky Department of Corrections",
+                        "Amount Requested": "$540,000"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "25"
+                    },
+                    {
+                        "Approved": "24"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "1"
+                    },
+                    {
+                        "Submitted": "41"
+                    },
+                    {
+                        "Approved": "34"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "7"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Pending": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5184",
+                        "Director": "Dr. Janna Vice",
+                        "Grant Title": "Implementation of Student Success Collaborative Software",
+                        "Agency Name": "Bill and Melinda Gates Foundation",
+                        "Amount Requested": "$100,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Platform",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "0"
+                    },
+                    {
+                        "Pending": "1"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5407",
+                        "Director": "Ms. Kathy Williams",
+                        "Grant Title": "KYOTE English Scoring Assignments",
+                        "Agency Name": "University of Kentucky",
+                        "Amount Awarded": "$3,923"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5220",
+                        "Director": "Ms. Karen Peavler",
+                        "Grant Title": "Regional Touring Grant - Nebraska Theatre Caravan",
+                        "Agency Name": "SouthArts",
+                        "Amount Awarded": "$3,519"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "4972",
+                        "Director": "Ms. Teresa Gleisner",
+                        "Grant Title": "Tri-County Education Pays Center FY 2014",
+                        "Agency Name": "Kentucky Cabinet for Health and Family Service",
+                        "Amount Awarded": "$91,160"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5243",
+                        "Director": "Ms. Gladys Miller",
+                        "Grant Title": "Kentucky Work Study Program (KWSP)",
+                        "Agency Name": "Kentucky Higher Education Assistance Authority",
+                        "Amount Awarded": "$60,000"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Declined": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5339",
+                        "Director": "Ms. Teresa Gleisner",
+                        "Grant Title": "PRIDE Environmental Educational Conract Program",
+                        "Agency Name": "Eastern Kentucky Pride, Inc.",
+                        "Amount Requested": "$1,500"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Workshop and Learning Structure",
+                        "Agency Name": "missing",
+                        "Amount Requested": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "0"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5253",
+                        "Director": "Dr. Shirley Rivard",
+                        "Grant Title": "Deaf and Hard of Hearing Student Services",
+                        "Agency Name": "Kentucky Office of Vocational Rehabilitation",
+                        "Amount Awarded": "$373,626"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5271",
+                        "Director": "Ms. Jane Tinsley",
+                        "Grant Title": "NOVA Student Support Services",
+                        "Agency Name": "U. S. Department of Education",
+                        "Amount Awarded": "$319,892"
+                    },
+                    {
+                        "GrantID": "5046",
+                        "Director": "Ms. Karen Sue Cain",
+                        "Grant Title": "Coordinator of Developmental Education Initiative for Council",
+                        "Agency Name": "Kentucky Council on Postsecondary Education",
+                        "Amount Awarded": "$164,895"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "on Postsecondary Education",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "2"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5439",
+                        "Director": "Dr. Jaleh Rezaie",
+                        "Grant Title": "Governor's Minority Student College Preparation Program",
+                        "Agency Name": "Council on Post-Secondary Education",
+                        "Amount Awarded": "$23,000"
+                    },
+                    {
+                        "GrantID": "5318",
+                        "Director": "Dr. Jaleh Rezaie",
+                        "Grant Title": "Governor's Minority Student College Preparation Program",
+                        "Agency Name": "Council on Post-Secondary Education",
+                        "Amount Awarded": "$30,900"
+                    },
+                    {
+                        "GrantID": "5284",
+                        "Director": "Mr. Richard E. Richmo",
+                        "Grant Title": "Ronald E. McNair Postbaccalaureate Achievement Program",
+                        "Agency Name": "U. S. Department of Education",
+                        "Amount Awarded": "$208,494"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "3"
+                    },
+                    {
+                        "Approved": "3"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5273",
+                        "Director": "Mr. Homer Strong",
+                        "Grant Title": "Watershed Service Learning Field Experiences for Middle",
+                        "Agency Name": "Florida Department of Environmental Protection'",
+                        "Amount Awarded": "$5,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "School",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    },
+                    {
+                        "GrantID": "5120",
+                        "Director": "Dr. Melinda Wilder",
+                        "Grant Title": "Teaching Environmental Service Learning",
+                        "Agency Name": "Southeast Environmental Education Alliance",
+                        "Amount Awarded": "$5,000"
+                    },
+                    {
+                        "GrantID": "5140",
+                        "Director": "Mr. Billy Bennett",
+                        "Grant Title": "Increasing the Number of Qualified STEM Educators through",
+                        "Agency Name": "Northern Kentucky University",
+                        "Amount Awarded": "$40,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "the Use of the Interdisciplinary STEM Environment",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "3"
+                    },
+                    {
+                        "Approved": "3"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5333",
+                        "Director": "Dr. Alice Jones",
+                        "Grant Title": "Mapping and Other Communication Tools for Kentucky River",
+                        "Agency Name": "Kentucky Water Research Insitute",
+                        "Amount Awarded": "$2,600"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Watershed Watch",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5260",
+                        "Director": "Mr. Patrick Begley",
+                        "Grant Title": "Eastern Kentucky University Police Department Protection",
+                        "Agency Name": "Kentucky Office of Homeland Security",
+                        "Amount Awarded": "$4,950"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Program",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5242",
+                        "Director": "Ms. Teresa Belluscio",
+                        "Grant Title": "Appalachian Tutoring Grant",
+                        "Agency Name": "Kentucky Department of Education",
+                        "Amount Awarded": "$72,300"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    },
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Pending": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5293",
+                        "Director": "Ed Herzog",
+                        "Grant Title": "Sidewalk connecting Hall Drive and Kit Carson Drive",
+                        "Agency Name": "Kentucky Transportation Cabinet",
+                        "Amount Requested": "$139,487"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "0"
+                    },
+                    {
+                        "Pending": "1"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5411",
+                        "Director": "Dr. Jaleh Rezaie",
+                        "Grant Title": "Governor's Minority Student College Preparation Program",
+                        "Agency Name": "Council on Post-Secondary Education",
+                        "Amount Awarded": "$8,000"
+                    },
+                    {
+                        "GrantID": "missing",
+                        "Director": "missing",
+                        "Grant Title": "Host Conference 2014",
+                        "Agency Name": "missing",
+                        "Amount Awarded": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "4974",
+                        "Director": "Ms. Robyn Moreland",
+                        "Grant Title": "Education Pays Center - FY 2014",
+                        "Agency Name": "Kentucky Cabinet for Health and Family Service",
+                        "Amount Awarded": "$370,824"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5258",
+                        "Director": "Ms. Lisa G. Sons",
+                        "Grant Title": "Educational Talent Search Program",
+                        "Agency Name": "U.S. Department of Education",
+                        "Amount Awarded": "$332,882"
+                    },
+                    {
+                        "GrantID": "5396",
+                        "Director": "Tamara Stewart",
+                        "Grant Title": "Upward Bound",
+                        "Agency Name": "U. S. Department of Education",
+                        "Amount Awarded": "$506,785"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "2"
+                    },
+                    {
+                        "Approved": "2"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5471",
+                        "Director": "Tamara Stewart",
+                        "Grant Title": "Upward Bound",
+                        "Agency Name": "Kentucky Department of Education",
+                        "Amount Awarded": "$11,192"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "content": [
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Status": "missing"
+                    },
+                    {
+                        "Approved": "missing"
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "content": [
+                    {
+                        "GrantID": "5335",
+                        "Director": "Mr. Roger Duvall",
+                        "Grant Title": "Community Service Grant",
+                        "Agency Name": "Corporation for Public Broadcasting",
+                        "Amount Awarded": "$184,162"
+                    }
+                ]
+            },
+            {
+                "type": "kv",
+                "content": [
+                    {
+                        "Submitted": "1"
+                    },
+                    {
+                        "Approved": "1"
+                    },
+                    {
+                        "Pending": "0"
+                    },
+                    {
+                        "Declined": "0"
+                    },
+                    {
+                        "Submitted": "25"
+                    },
+                    {
+                        "Approved": "22"
+                    },
+                    {
+                        "Pending": "2"
+                    },
+                    {
+                        "Declined": "1"
+                    },
+                    {
+                        "Submitted": "178"
+                    },
+                    {
+                        "Approved": "130"
+                    },
+                    {
+                        "Pending": "7"
+                    },
+                    {
+                        "Declined": "41"
+                    }
+                ]
+            }
+        ]
+    }
+]

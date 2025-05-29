@@ -33,7 +33,7 @@ function PDFUploader({ onUpload, disabled }) {
         <p className="text-lg text-gray-700">
           {isDragActive
             ? "Drop your PDF files here"
-            : "Drag & drop PDF files here, or click to select"}
+            : "Drag & Drop PDF files here, or click to select"}
         </p>
         <p className="text-sm text-gray-500">
           You can upload multiple PDF files at once

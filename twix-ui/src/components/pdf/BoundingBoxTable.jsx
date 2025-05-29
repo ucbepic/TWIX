@@ -74,9 +74,6 @@ function BoundingBoxTable({ boundingBoxData }) {
           ))}
         </tbody>
       </table>
-      <div className="mt-2 text-sm text-gray-600">
-        Total: {rows.length} phrases
-      </div>
     </div>
   );
 }

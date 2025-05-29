@@ -22,6 +22,11 @@ Officer Injured
 Danger Factors
 Final Disposition
 Verbal De-Escalation Attempted
+DOB
+Gender
+Race
+Under The Influence
+Address
 Level Of Resistance
 Subject Armed With
 Force Used
@@ -37,7 +42,7 @@ Action Taken Useful
 CIT
 Disciplinary Action
 Included On Alert
-DOB
-Gender
-Race
-Under The Influence
+Notes
+City
+Camera
+Type Injuries

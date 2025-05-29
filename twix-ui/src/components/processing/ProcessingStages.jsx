@@ -29,6 +29,8 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
   const [timerInterval, setTimerInterval] = useState(null);
   const [stageIndividualCosts, setStageIndividualCosts] = useState({ phrase: null, field: null, template: null, extraction: null });
   const [totalCumulativeCost, setTotalCumulativeCost] = useState(0);
+  const [visionFeatureEnabled, setVisionFeatureEnabled] = useState(false);
+  const [selectedModel, setSelectedModel] = useState('gpt-4o');
   
   // Add caching for already processed stages
   const [cachedResults, setCachedResults] = useState({
@@ -37,6 +39,9 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
     template: null,
     extraction: null
   });
+
+  //model options for dropdown, can be extended
+  const modelOptions = ['gpt-4o', 'gpt-4o-mini'];
 
   // Clear previous results when switching between stages
   useEffect(() => {
@@ -232,7 +237,10 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
       // Use the API service functions with the uploaded files
       let data;
       if (stage === 'phrase') {
-        data = await stageInfo.apiFunction(files);
+        data = await stageInfo.apiFunction(files, {
+          visionFeature: visionFeatureEnabled,
+          model: selectedModel
+        });
         console.log("Phrase data received:", data);
         
         let currentStageCost = 0;
@@ -591,6 +599,12 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
     }
   };
 
+  // Function to toggle vision feature
+  const handleVisionFeatureToggle = () => {
+    setVisionFeatureEnabled(prev => !prev);
+    console.log("Vision feature toggled:", !visionFeatureEnabled);
+  };
+
   return (
     <div className="space-y-4">
       {isProcessing && (
@@ -633,8 +647,24 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
         </div>
       )}
       
-      <div className="flex justify-between items-center">
-        <h2 className="text-xl font-semibold text-gray-800">Processing Stages</h2>
+      <div className="flex justify-between items-center flex-wrap gap-4">
+        <div className="flex items-center gap-4">
+          <h2 className="text-xl font-semibold text-gray-800">Processing Stages</h2>
+
+          <div>
+            <label className="text-sm font-medium text-gray-700 mr-2">Select Model:</label>
+            <select
+              value={selectedModel}
+              onChange={(e) => setSelectedModel(e.target.value)}
+              className="text-sm border rounded px-2 py-1 bg-white"
+            >
+              {modelOptions.map((model) => (
+                <option key={model} value={model}>{model}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
         <div className="flex items-center">
           <button
             onClick={handleCleanup}
@@ -644,6 +674,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
           </button>
         </div>
       </div>
+
       
       {error && (
         <div className="bg-red-50 text-red-700 p-4 rounded-lg mb-4">
@@ -653,22 +684,45 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {stages.map((stage) => (
-          <button
-            key={stage.id}
-            onClick={() => handleStageClick(stage.id)}
-            disabled={disabled || isProcessing}
-            className={`
-              p-4 rounded-lg border transition-all
-              ${activeStage === stage.id
-                ? 'border-blue-500 bg-blue-50'
-                : 'border-gray-200 hover:border-blue-300'}
-              ${(disabled || isProcessing) ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}
-            `}
-          >
-            <div className="text-2xl mb-2">{stage.icon}</div>
-            <div className="font-medium text-gray-800">{stage.label}</div>
-            <div className="text-sm text-gray-600 mt-1">{stage.description}</div>
-          </button>
+          <div key={stage.id} className="relative">
+            <button
+              onClick={() => handleStageClick(stage.id)}
+              disabled={disabled || isProcessing}
+              className={`
+          p-4 rounded-lg border transition-all w-full
+          ${activeStage === stage.id
+                  ? 'border-blue-500 bg-blue-50'
+                  : 'border-gray-200 hover:border-blue-300'}
+          ${(disabled || isProcessing) ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}
+        `}
+            >
+              <div className="text-2xl mb-2">{stage.icon}</div>
+              <div className="font-medium text-gray-800">{stage.label}</div>
+              <div className="text-sm text-gray-600 mt-1">{stage.description}</div>
+            </button>
+
+            {/* Vision toggle and model selector (only for 'phrase' stage and when files are present) */}
+            {stage.id === 'phrase' && files && files.length > 0 && (
+              <div className="mt-2 p-4 bg-gray-50 rounded-lg border border-gray-200 flex flex-col gap-4 items-center">
+                {/* Vision Feature Toggle */}
+                <div className="flex items-center">
+                  <div className="mr-3 text-sm font-medium text-gray-700">Vision Feature</div>
+                  <label className="relative inline-flex items-center cursor-pointer">
+                    <input
+                      type="checkbox"
+                      className="sr-only peer"
+                      checked={visionFeatureEnabled}
+                      onChange={handleVisionFeatureToggle}
+                    />
+                    <div className="w-10 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-blue-600"></div>
+                  </label>
+                  <span className="ml-3 text-xs text-gray-600">
+                    {visionFeatureEnabled ? 'Enabled' : 'Disabled'}
+                  </span>
+                </div>
+              </div>
+            )}
+          </div>
         ))}
       </div>
 
@@ -736,13 +790,24 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
               {activeStage === 'phrase' && (
                 <div className="mt-8">
                   <h3 className="text-lg font-semibold text-gray-800 mb-4">Phrase Bounding Boxes</h3>
-                  <BoundingBoxTable boundingBoxData={boundingBoxData} />
+                  {(() => {
+                    const totalPhrases = boundingBoxData.length;
+                    const cappedBoundingBoxData = boundingBoxData.slice(0, 250);
+                    const displayCount = Math.min(250, totalPhrases);
+                    return (
+                      <>
+                        <p className="text-sm text-gray-600 mb-2">
+                          Showing {displayCount} of {totalPhrases} phrases
+                        </p>
+                        <BoundingBoxTable boundingBoxData={cappedBoundingBoxData} />
+                      </>
+                    );
+                  })()}
                 </div>
               )}
-            </div>
-          )}
 
-          {/* Template Editor */}
+              </div>
+              )}
           {activeStage === 'template' && (
             <div>
               <div className="flex justify-between items-center mb-4">

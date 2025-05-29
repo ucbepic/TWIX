@@ -6,6 +6,8 @@ import sys
 import tempfile
 import shutil
 from collections import OrderedDict
+import twix.extract
+
 
 # Add the parent directory to sys.path to import twix
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
@@ -33,7 +35,14 @@ def process_phrase():
         
         if not files or len(files) == 0:
             return jsonify({'error': 'No files uploaded'}), 400
-        
+
+        # Get visionFeature flag from the form
+        vision_feature_flag = request.form.get('visionFeature', 'false').lower() == 'true'
+        model_name = request.form.get('model', 'gpt-4o')
+        print("Using extract.py from:", twix.extract.__file__)
+        print ("Vision Feature Flag: ", vision_feature_flag)
+        print ("Model Name: ", model_name)
+
         # Save uploaded files to temporary directory
         pdf_paths = []
         for file in files:
@@ -45,8 +54,8 @@ def process_phrase():
         result_folder = twix.extract.get_result_folder_path(pdf_paths)
         os.makedirs(os.path.dirname(result_folder), exist_ok=True)
         
-        # Use twix to extract phrases
-        phrases, cost = twix.extract_phrase(pdf_paths, result_folder)
+        # Use twix to extract phrases, pass in visionFeature flag
+        phrases, cost = twix.extract_phrase(pdf_paths, result_folder, LLM_model_name=model_name, vision_feature=vision_feature_flag)
         print(cost)
         
         
