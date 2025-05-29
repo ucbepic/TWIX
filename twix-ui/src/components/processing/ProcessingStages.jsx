@@ -647,8 +647,24 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
         </div>
       )}
       
-      <div className="flex justify-between items-center">
-        <h2 className="text-xl font-semibold text-gray-800">Processing Stages</h2>
+      <div className="flex justify-between items-center flex-wrap gap-4">
+        <div className="flex items-center gap-4">
+          <h2 className="text-xl font-semibold text-gray-800">Processing Stages</h2>
+
+          <div>
+            <label className="text-sm font-medium text-gray-700 mr-2">Select Model:</label>
+            <select
+              value={selectedModel}
+              onChange={(e) => setSelectedModel(e.target.value)}
+              className="text-sm border rounded px-2 py-1 bg-white"
+            >
+              {modelOptions.map((model) => (
+                <option key={model} value={model}>{model}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
         <div className="flex items-center">
           <button
             onClick={handleCleanup}
@@ -658,6 +674,7 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
           </button>
         </div>
       </div>
+
       
       {error && (
         <div className="bg-red-50 text-red-700 p-4 rounded-lg mb-4">
@@ -702,24 +719,6 @@ function ProcessingStages({ currentStage, onStageChange, onProcessingStart, disa
                   <span className="ml-3 text-xs text-gray-600">
                     {visionFeatureEnabled ? 'Enabled' : 'Disabled'}
                   </span>
-                </div>
-                {/* Model Dropdown */}
-                <div className="flex items-center gap-3">
-                  <label htmlFor="modelSelect" className="text-sm font-medium text-gray-700 whitespace-nowrap">
-                    Select Model
-                  </label>
-                  <select
-                    id="modelSelect"
-                    value={selectedModel}
-                    onChange={(e) => setSelectedModel(e.target.value)}
-                    className="px-3 py-2 border border-gray-300 rounded-md text-sm bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200 hover:border-gray-400"
-                  >
-                    {modelOptions.map((model) => (
-                      <option key={model} value={model}>
-                        {model}
-                      </option>
-                    ))}
-                  </select>
                 </div>
               </div>
             )}

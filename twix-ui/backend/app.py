@@ -6,6 +6,8 @@ import sys
 import tempfile
 import shutil
 from collections import OrderedDict
+import twix.extract
+
 
 # Add the parent directory to sys.path to import twix
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
@@ -37,6 +39,9 @@ def process_phrase():
         # Get visionFeature flag from the form
         vision_feature_flag = request.form.get('visionFeature', 'false').lower() == 'true'
         model_name = request.form.get('model', 'gpt-4o')
+        print("Using extract.py from:", twix.extract.__file__)
+        print ("Vision Feature Flag: ", vision_feature_flag)
+        print ("Model Name: ", model_name)
 
         # Save uploaded files to temporary directory
         pdf_paths = []
