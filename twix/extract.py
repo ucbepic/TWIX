@@ -1,5 +1,6 @@
 from datetime import datetime
 import pytesseract
+import fitz
 import pdfplumber
 import os 
 import json
@@ -417,51 +418,115 @@ def pdf_2_image(path, page_num, out_folder):
         out_path = out_folder + str(i) + '.jpg'
         images[i] = images[i].save(out_path)
     return images
-    
+
 def get_pdf(path):
-    return pdfplumber.open(path)
+    return fitz.open(path)
+
+def sort_words_by_reading_order(words, y_tolerance=4):
+    if not words:
+        return words
+    
+    # group words into lines
+    lines = []
+    sorted_words = sorted(words, key=lambda w: w['y0'])
+    
+    current_line = [sorted_words[0]]
+    current_y = sorted_words[0]['y0']
+    
+    for word in sorted_words[1:]:
+        if abs(word['y0'] - current_y) <= y_tolerance:
+            current_line.append(word)
+        else:
+            lines.append(current_line)
+            current_line = [word]
+            current_y = word['y0']
+    
+    # last line
+    if current_line:
+        lines.append(current_line)
+    
+    # sort words in each line by x0
+    sorted_result = []
+    for line in lines:
+        line_sorted = sorted(line, key=lambda w: w['x0'])
+        sorted_result.extend(line_sorted)
+    
+    return sorted_result
 
 def extract_words(path, page_indices=list(range(5)), page_annot=True):
     pdf = get_pdf(path)
     words = []
+    
     for page_index in page_indices:
-        page = pdf.pages[page_index]
-        page_words = page.extract_words(split_at_punctuation=':')
-        if page_annot:
-            for word in page_words:
-                word['page'] = page_index+1
-                word['size'] = (word['x1']-word['x0'])/len(word['text'])
-        words.extend(page_words)
+        if page_index < len(pdf):
+            page = pdf[page_index]
+            page_words = page.get_text("words")
+            
+            word_dicts = []
+            for word_tuple in page_words:
+                x0, y0, x1, y1, text, _, _, _ = word_tuple
+                
+                word_dict = {
+                    'text': text,
+                    'x0': x0,
+                    'y0': y0,
+                    'x1': x1,
+                    'y1': y1,
+                    'top': y0,
+                    'bottom': y1,
+                    'doctop': y0 + page_index * page.rect.height,
+                    'height': y1 - y0,
+                    'width': x1 - x0
+                }
+                
+                if page_annot:
+                    word_dict['page'] = page_index + 1
+                    word_dict['size'] = (x1 - x0) / len(text) if len(text) > 0 else 0
+                
+                word_dicts.append(word_dict)
+            
+            word_dicts = sort_words_by_reading_order(word_dicts)
+            
+            # handle colon split
+            for word_dict in word_dicts:
+                text = word_dict['text']
+                if ':' in text:
+                    parts = text.split(':')
+                    x0, x1 = word_dict['x0'], word_dict['x1']
+                    current_x = x0
+                    
+                    for i, part in enumerate(parts):
+                        if part:  # ignore empty string
+                            part_width = (x1 - x0) * len(part) / len(text)
+                            part_dict = word_dict.copy()
+                            part_dict['text'] = part
+                            part_dict['x0'] = current_x
+                            part_dict['x1'] = current_x + part_width
+                            part_dict['width'] = part_width
+                            if page_annot:
+                                part_dict['size'] = part_width / len(part) if len(part) > 0 else 0
+                                part_dict['page'] = page_index + 1
+                            words.append(part_dict)
+                            current_x += part_width
+                        
+                        if i < len(parts) - 1:  # add colon as a separate word
+                            colon_width = (x1 - x0) / len(text)
+                            colon_dict = word_dict.copy()
+                            colon_dict['text'] = ':'
+                            colon_dict['x0'] = current_x
+                            colon_dict['x1'] = current_x + colon_width
+                            colon_dict['width'] = colon_width
+                            if page_annot:
+                                colon_dict['size'] = colon_width
+                                colon_dict['page'] = page_index + 1
+                            words.append(colon_dict)
+                            current_x += colon_width
+                else:
+                    words.append(word_dict)
+    
+    pdf.close()
+    # print(f"Number of words: {len(words)}")
     return words
-
-def get_phrases_manual(words, x_thresh = 6, y_thresh=4):
-    """
-    Groups words into phrases based on the following rules:
-        (1) Each word in a phrase must be at most {x_thresh} away from the next word to right in phrase. (Compare x1 to x0)
-        (2) First word in a phrase must be at most {y_thresh} away from any word in phrase. (Compare y_mid to y_mid, y_mid = (top + bottom)/2)
-    """
-    phrases = []
-    cur_phrase = words[0]
-    phrase_y_mid = (cur_phrase['bottom'] + cur_phrase['top']) / 2
-    key_detected = False
-    for word in words[1:]:
-
-        # For K-V detection.
-        if word['text'] == ':':
-            key_detected = True
-            continue
-
-        word_y_mid = (word['top'] + word['bottom']) / 2
-        if (not key_detected) and (word['x0'] - cur_phrase['x1'] <= x_thresh) and (abs(phrase_y_mid - word_y_mid) < y_thresh):
-            cur_phrase['text'] += (' ' + word['text'])
-            cur_phrase['x1'] = word['x1']
-        else:
-            key_detected = False
-            phrases.append(cur_phrase)
-            cur_phrase = word
-            phrase_y_mid = (cur_phrase['bottom'] + cur_phrase['top']) / 2
-
-    return phrases
 
 def is_number(s):
     try:
@@ -557,7 +622,8 @@ def get_phrases_dynamic(words, y_thresh=4):
 
 def get_phrases_csv(path, user_page_indices=list(range(5))):
     pdf = get_pdf(path)
-    actual_page_indices = list(range(0, len(get_pdf(path).pages)))
+
+    actual_page_indices = list(range(0, pdf.page_count))
     page_indices = min([user_page_indices, actual_page_indices], key=len)
 
     words = extract_words(path, page_indices)
