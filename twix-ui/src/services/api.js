@@ -135,8 +135,8 @@ async function predictFields(files) {
   }
 
   const data = await response.json();
-  // Create and trigger download of content as text file
-  const blob = new Blob([data.content], { type: 'text/plain' });
+  // Create and trigger download of fields as text file
+  const blob = new Blob([data.fields], { type: 'text/plain' });
   const url = window.URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
