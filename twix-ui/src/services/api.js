@@ -595,11 +595,14 @@ export function stringifyOrderedJSON(obj) {
   // Build object string with keys in original order
   let result = '{';
   result += allKeys.map(key => {
+    // Stringify the key
+    const keyStr = JSON.stringify(key);
+    // Get the value
     const value = obj[key];
     // Recursively stringify the value
     const valueStr = stringifyOrderedJSON(value);
     // Return the key-value pair
-    return `"${key}":${valueStr}`;
+    return `${keyStr}:${valueStr}`;
   }).join(',');
   result += '}';
   
