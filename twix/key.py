@@ -380,6 +380,7 @@ def predict_field(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
     print('Field prediction starts...')
     phrases = relative_locations
     LLM_fields = set(LLM_fields).intersection(raw_phrases)
+    # print('LLM_fields:', LLM_fields)
 
     if page_number == 1:
         # if the document only has one page, there is no common location pattern can be learned, directly return LLM-predicted phrases
@@ -389,15 +390,17 @@ def predict_field(data_files, result_folder, LLM_model_name = 'gpt-4o-mini'):
 
         print('perfect match starts...')
         mp, remap = perfect_align_clustering(phrases)
-
+        # print("remap:", remap)
         print('cluster pruning starts...')
         fields, cluster_ids = candidate_key_clusters_selection(remap,LLM_fields)
-
+        # print('fields:', fields)
         print('re-clustering starts...')
         added_clusters = clustering_group(phrases, remap, cluster_ids, k=1)
         additional_fields = get_keys(remap, added_clusters)
+        # print('additional_fields:', additional_fields)
         additional_fields = list(LLM_fields.intersection(set(additional_fields)))
         fields += additional_fields
+        # print('final fields:', fields)
     
     #write result
     result_path = get_key_path(result_folder)

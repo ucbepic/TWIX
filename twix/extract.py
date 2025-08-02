@@ -14,8 +14,9 @@ import csv
 import math
 import random
 import logging
-from . import cost 
+from . import cost
 from collections import defaultdict
+from . import utils_extract, extract_ocr, multi_row_process
 current_path = os.path.abspath(os.path.dirname(__file__))
 root_path = os.path.abspath(os.path.join(current_path, os.pardir))
 sys.path.append(root_path)
@@ -341,8 +342,8 @@ def extract_phrase(data_files, result_folder, LLM_model_name = 'gpt-4o-mini', pa
     phrases_out = {}
 
     phrases_out['merged_data_files'] = (phrases, phrases_bounding_box_page_number)
-    max_page_limit = 100000000
-    #max_page_limit = 5
+    # max_page_limit = 100000000
+    max_page_limit = 5
 
     print('Phrase extraction for individual files starts...')
     for data_file in data_files:
@@ -422,37 +423,6 @@ def pdf_2_image(path, page_num, out_folder):
 def get_pdf(path):
     return fitz.open(path)
 
-def sort_words_by_reading_order(words, y_tolerance=4):
-    if not words:
-        return words
-    
-    # group words into lines
-    lines = []
-    sorted_words = sorted(words, key=lambda w: w['y0'])
-    
-    current_line = [sorted_words[0]]
-    current_y = sorted_words[0]['y0']
-    
-    for word in sorted_words[1:]:
-        if abs(word['y0'] - current_y) <= y_tolerance:
-            current_line.append(word)
-        else:
-            lines.append(current_line)
-            current_line = [word]
-            current_y = word['y0']
-    
-    # last line
-    if current_line:
-        lines.append(current_line)
-    
-    # sort words in each line by x0
-    sorted_result = []
-    for line in lines:
-        line_sorted = sorted(line, key=lambda w: w['x0'])
-        sorted_result.extend(line_sorted)
-    
-    return sorted_result
-
 def extract_words(path, page_indices=list(range(5)), page_annot=True):
     pdf = get_pdf(path)
     words = []
@@ -485,7 +455,7 @@ def extract_words(path, page_indices=list(range(5)), page_annot=True):
                 
                 word_dicts.append(word_dict)
             
-            word_dicts = sort_words_by_reading_order(word_dicts)
+            word_dicts = utils_extract.sort_words_by_reading_order(word_dicts)
             
             # handle colon split
             for word_dict in word_dicts:
@@ -626,15 +596,44 @@ def get_phrases_csv(path, user_page_indices=list(range(5))):
     actual_page_indices = list(range(0, pdf.page_count))
     page_indices = min([user_page_indices, actual_page_indices], key=len)
 
-    words = extract_words(path, page_indices)
-    #print('Words extraction completes...')
-    phrases = get_phrases_dynamic(words)
+    # Check if there are text on the page
+    has_text = False
+    for page_index in page_indices:
+        if page_index < len(pdf):
+            page = pdf[page_index]
+            page_words = page.get_text("words")
+            if (page_words is not None) and len(page_words) > 0:
+                has_text = True
+                break
+    
+    if has_text:
+        words = extract_words(path, page_indices)
+        #print('Words extraction completes...')
+        phrases = get_phrases_dynamic(words)
 
-    phrases_list = []
-    for phrase in phrases:
-        phrases_list.append([phrase['text'], phrase['x0'], phrase['top'], phrase['x1'], phrase['bottom'], phrase['page']])
+        pipeline = multi_row_process.MultiRowProcessPipeline()
+        phrases_list = []
+        for page_index in page_indices:
+            page = pdf[page_index]
+            hlines, vlines  = multi_row_process.extract_lines_from_pdf_page(page)
+            # collect all phrases from the page
+            page_phrases = [phrase for phrase in phrases if phrase['page'] == (page_index + 1)]
+            print("Number of phrases on page {}: {}".format(page_index, len(page_phrases)))
+            # Process
+            results = pipeline.process_document(hlines, vlines, page_phrases)
+            # Extract phrases
+            final_phrases = pipeline.get_final_phrases(results)
+            for phrase in final_phrases:
+                phrases_list.append([phrase['text'], phrase['x0'], phrase['top'], phrase['x1'], phrase['bottom'], page_index + 1])
+    else:
+        # OCR method
+        phrases = extract_ocr.extract_words_ocr(path, page_indices) # No get_phrases_dynamic() because OCR tends to cluster the words
+        phrases_list = []
+        for phrase in phrases:
+            phrases_list.append([phrase['text'], phrase['x0'], phrase['top'], phrase['x1'], phrase['bottom'], phrase['page']])
 
     phrases_df = pd.DataFrame(phrases_list, columns=['text', 'x0', 'y0', 'x1', 'y1', 'page'])
+    pdf.close()
     return phrases_df
 
 def write_csv(file_path,data):
