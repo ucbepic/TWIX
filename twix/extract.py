@@ -425,6 +425,7 @@ def get_pdf(path):
 
 def extract_words(path, page_indices=list(range(5)), page_annot=True):
     pdf = get_pdf(path)
+    pdf = utils_extract.correct_pdf_rotation(pdf)
     words = []
     
     for page_index in page_indices:
@@ -611,20 +612,25 @@ def get_phrases_csv(path, user_page_indices=list(range(5))):
         #print('Words extraction completes...')
         phrases = get_phrases_dynamic(words)
 
-        pipeline = multi_row_process.MultiRowProcessPipeline()
+        # pipeline = multi_row_process.MultiRowProcessPipeline()
+        # phrases_list = []
+        # for page_index in page_indices:
+        #     page = pdf[page_index]
+        #     hlines, vlines  = multi_row_process.extract_lines_from_pdf_page(page)
+        #     # collect all phrases from the page
+        #     page_phrases = [phrase for phrase in phrases if phrase['page'] == (page_index + 1)]
+        #     print("Number of phrases on page {}: {}".format(page_index, len(page_phrases)))
+        #     # Process
+        #     results = pipeline.process_document(hlines, vlines, page_phrases)
+        #     # Extract phrases
+        #     final_phrases = pipeline.get_final_phrases(results)
+        #     for phrase in final_phrases:
+        #         phrases_list.append([phrase['text'], phrase['x0'], phrase['top'], phrase['x1'], phrase['bottom'], page_index + 1])
+
+        # DEBUG
         phrases_list = []
-        for page_index in page_indices:
-            page = pdf[page_index]
-            hlines, vlines  = multi_row_process.extract_lines_from_pdf_page(page)
-            # collect all phrases from the page
-            page_phrases = [phrase for phrase in phrases if phrase['page'] == (page_index + 1)]
-            print("Number of phrases on page {}: {}".format(page_index, len(page_phrases)))
-            # Process
-            results = pipeline.process_document(hlines, vlines, page_phrases)
-            # Extract phrases
-            final_phrases = pipeline.get_final_phrases(results)
-            for phrase in final_phrases:
-                phrases_list.append([phrase['text'], phrase['x0'], phrase['top'], phrase['x1'], phrase['bottom'], page_index + 1])
+        for phrase in phrases:
+            phrases_list.append([phrase['text'], phrase['x0'], phrase['top'], phrase['x1'], phrase['bottom'], phrase['page']])
     else:
         # OCR method
         phrases = extract_ocr.extract_words_ocr(path, page_indices) # No get_phrases_dynamic() because OCR tends to cluster the words
@@ -635,7 +641,7 @@ def get_phrases_csv(path, user_page_indices=list(range(5))):
     phrases_df = pd.DataFrame(phrases_list, columns=['text', 'x0', 'y0', 'x1', 'y1', 'page'])
     pdf.close()
     return phrases_df
-
+    
 def write_csv(file_path,data):
     data.to_csv(file_path, index=False)
 
