@@ -14,5 +14,16 @@ def transform(pdf_paths, result_folder_path, LLM_model_name, vision_feature = Fa
     total_cost += cost 
     return fields, template, extraction_objects, cost 
 
-    
+if __name__ == "__main__":
+    pdf_paths = []
+    pdf_paths.append("/Users/chiyuh/Workspace/TWIX/tests/data/2972_2972574.pdf")
+    result_folder_path = "/Users/chiyuh/Workspace/twix/tests/out/2972_2972574/"
+    LLM_model_name = 'gpt-4o'
 
+    total_cost = 0
+    phrases, cost = extract.extract_phrase(pdf_paths, result_folder_path, LLM_model_name=LLM_model_name, vision_feature=False)
+    total_cost += cost 
+    fields, cost = key.predict_field(pdf_paths, result_folder_path, LLM_model_name=LLM_model_name)
+    # total_cost += cost 
+    # template, cost = pattern.predict_template(pdf_paths, result_folder_path, LLM_model_name=LLM_model_name)
+    # total_cost += cost 

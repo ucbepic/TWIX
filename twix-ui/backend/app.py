@@ -49,7 +49,6 @@ def process_phrase():
         phrases, cost = twix.extract_phrase(pdf_paths, result_folder)
         print(cost)
         
-        
         # Define paths for the bounding box files
         bb_path = os.path.join(result_folder, 'merged_phrases_bounding_box_page_number.json')
         bb_txt_path = os.path.join(os.path.dirname(result_folder), 'merged_raw_phrases_bounding_box_page_number.txt')
@@ -67,7 +66,6 @@ def process_phrase():
                 # Create both txt and json versions in each location
                 txt_dest = os.path.join(dest_path, 'merged_raw_phrases_bounding_box_page_number.txt')
                 json_dest = os.path.join(dest_path, 'merged_raw_phrases_bounding_box_page_number.json')
-                
                 if os.path.exists(source_path):
                     # Copy TXT file as-is
                     shutil.copy(source_path, txt_dest)
