@@ -11,7 +11,7 @@ from pathlib import Path
 
 from .align import align, align_records
 from .content import content_similarity
-from .normalize import normalize
+from .convert import to_eval_format
 
 
 W_NODE = 0.40
@@ -30,147 +30,58 @@ def _pr_f1(tp: int, fp: int, fn: int) -> tuple[float, float, float]:
 
 
 def validate_tree(tree: dict) -> list[str]:
-    """Return list of validation errors per agent_data_extraction.md §7. Empty = ok."""
+    """Return list of validation errors for the ground-truth pages/blocks format. Empty = ok."""
     errors = []
     if not isinstance(tree, dict):
         return ["root is not an object"]
-    records = tree.get("records")
-    if not isinstance(records, list):
-        errors.append("`records` is not a list")
+    pages = tree.get("pages")
+    if not isinstance(pages, list):
+        errors.append("`pages` is not a list")
         return errors
-    if len(records) == 0:
-        errors.append("`records` is empty")
-    seen_record_ids: set = set()
-    for ri, record in enumerate(records):
-        if not isinstance(record, dict):
-            errors.append(f"records[{ri}] is not an object")
+    if len(pages) == 0:
+        errors.append("`pages` is empty")
+    seen_block_ids: set = set()
+    for pi, page in enumerate(pages):
+        if not isinstance(page, dict):
+            errors.append(f"pages[{pi}] is not an object")
             continue
-        record_id = record.get("record_id")
-        if record_id is None:
-            errors.append(f"records[{ri}] missing `record_id`")
-        if record_id in seen_record_ids:
-            errors.append(f"records[{ri}] duplicate record_id {record_id!r}")
-        seen_record_ids.add(record_id)
-        nodes = record.get("nodes")
-        if not isinstance(nodes, list):
-            errors.append(f"records[{ri}] `nodes` is not a list")
+        if "page" not in page:
+            errors.append(f"pages[{pi}] missing `page`")
+        blocks = page.get("blocks")
+        if not isinstance(blocks, list):
+            errors.append(f"pages[{pi}] `blocks` is not a list")
             continue
-        if len(nodes) == 0:
-            errors.append(f"records[{ri}] `nodes` is empty")
-        seen_ids: set = set()
-        for i, n in enumerate(nodes):
-            if not isinstance(n, dict):
-                errors.append(f"records[{ri}].nodes[{i}] is not an object")
+        for bi, block in enumerate(blocks):
+            if not isinstance(block, dict):
+                errors.append(f"pages[{pi}].blocks[{bi}] is not an object")
                 continue
-            for k in ("id", "type", "content", "relationship"):
-                if k not in n:
-                    errors.append(f"records[{ri}].nodes[{i}] missing field `{k}`")
-            if n.get("type") not in ("table", "key_value", "metadata"):
+            for k in ("type", "block_id", "data"):
+                if k not in block:
+                    errors.append(f"pages[{pi}].blocks[{bi}] missing field `{k}`")
+            block_type = block.get("type")
+            if block_type not in ("table", "kv"):
                 errors.append(
-                    f"records[{ri}].nodes[{i}] type={n.get('type')!r} "
-                    "not in {table,key_value,metadata}"
+                    f"pages[{pi}].blocks[{bi}] type={block_type!r} not in {{table, kv}}"
                 )
-            nid = n.get("id")
-            if nid in seen_ids:
-                errors.append(f"records[{ri}].nodes[{i}] duplicate id {nid!r}")
-            seen_ids.add(nid)
-            rel = n.get("relationship")
-            if not isinstance(rel, dict):
-                errors.append(f"records[{ri}].nodes[{i}] relationship is not an object")
-                continue
-            if "parent_id" not in rel:
-                errors.append(f"records[{ri}].nodes[{i}] relationship missing parent_id")
-            c = n.get("content")
-            t = n.get("type")
-            if t == "table":
-                if not isinstance(c, dict) or "headers" not in c or "rows" not in c:
-                    errors.append(f"records[{ri}].nodes[{i}] table content missing headers/rows")
+            bid = block.get("block_id")
+            if bid in seen_block_ids:
+                errors.append(f"pages[{pi}].blocks[{bi}] duplicate block_id {bid!r}")
+            seen_block_ids.add(bid)
+            data = block.get("data")
+            if block_type == "table":
+                if not isinstance(data, list):
+                    errors.append(f"pages[{pi}].blocks[{bi}] table `data` is not a list")
                 else:
-                    headers = c.get("headers") or []
-                    if not isinstance(headers, list):
-                        errors.append(f"records[{ri}].nodes[{i}] table headers is not a list")
-                    rows = c.get("rows") or []
-                    if not isinstance(rows, list):
-                        errors.append(f"records[{ri}].nodes[{i}] table rows is not a list")
-                    else:
-                        for r_idx, row in enumerate(rows):
-                            if not isinstance(row, list):
-                                errors.append(
-                                    f"records[{ri}].nodes[{i}] rows[{r_idx}] is not a list"
-                                )
-                                continue
-                            if len(row) != len(headers):
-                                errors.append(
-                                    f"records[{ri}].nodes[{i}] rows[{r_idx}] length "
-                                    f"{len(row)} != headers {len(headers)}"
-                                )
-                            for c_idx, cell in enumerate(row):
-                                if (
-                                    not isinstance(cell, dict)
-                                    or "key" not in cell
-                                    or "value" not in cell
-                                ):
-                                    errors.append(
-                                        f"records[{ri}].nodes[{i}] rows[{r_idx}][{c_idx}] "
-                                        "not a {key,value} object"
-                                    )
-                                    continue
-                                if c_idx < len(headers) and normalize(
-                                    cell.get("key")
-                                ) != normalize(headers[c_idx]):
-                                    errors.append(
-                                        f"records[{ri}].nodes[{i}] rows[{r_idx}][{c_idx}].key="
-                                        f"{cell.get('key')!r} does not match "
-                                        f"headers[{c_idx}]={headers[c_idx]!r}"
-                                    )
-            elif t == "key_value":
-                if not isinstance(c, list):
-                    errors.append(f"records[{ri}].nodes[{i}] key_value content is not a list")
-                else:
-                    for j, e in enumerate(c):
-                        if not isinstance(e, dict) or "key" not in e or "value" not in e:
+                    for ri, row in enumerate(data):
+                        if not isinstance(row, dict):
                             errors.append(
-                                f"records[{ri}].nodes[{i}] kv[{j}] not a {{key,value}} object"
+                                f"pages[{pi}].blocks[{bi}].data[{ri}] is not a dict"
                             )
-            elif t == "metadata":
-                if not isinstance(c, list):
-                    errors.append(f"records[{ri}].nodes[{i}] metadata content is not a list")
-                else:
-                    for j, s in enumerate(c):
-                        if not isinstance(s, str):
-                            errors.append(
-                                f"records[{ri}].nodes[{i}] metadata[{j}] not a string"
-                            )
-        # Parent pointers: record-local only, no dangling, no cycles.
-        id_set = set(seen_ids)
-        for i, n in enumerate(nodes):
-            if not isinstance(n, dict):
-                continue
-            rel = n.get("relationship")
-            if not isinstance(rel, dict):
-                continue
-            pid = rel.get("parent_id")
-            if pid is None:
-                continue
-            if pid not in id_set:
-                errors.append(
-                    f"records[{ri}].nodes[{i}] parent_id={pid!r} not found in same record"
-                )
-        parents = {}
-        for n in nodes:
-            if not isinstance(n, dict):
-                continue
-            rel = n.get("relationship") or {}
-            parents[n.get("id")] = rel.get("parent_id")
-        for nid in list(parents.keys()):
-            seen_cycle: set = set()
-            cur = nid
-            while cur is not None and cur in parents:
-                if cur in seen_cycle:
-                    errors.append(f"records[{ri}] cycle detected involving id {nid!r}")
-                    break
-                seen_cycle.add(cur)
-                cur = parents[cur]
+            elif block_type == "kv":
+                if not isinstance(data, (dict, list)):
+                    errors.append(
+                        f"pages[{pi}].blocks[{bi}] kv `data` is not a dict or list"
+                    )
     return errors
 
 
@@ -272,6 +183,9 @@ def score(
     """Return the eval.json shape per eval.md §7.1."""
     if reference not in ("agent", "human"):
         reference = "agent"
+
+    gold = to_eval_format(gold)
+    candidate = to_eval_format(candidate)
 
     gold_records = list(gold.get("records") or [])
     cand_records = list(candidate.get("records") or [])
